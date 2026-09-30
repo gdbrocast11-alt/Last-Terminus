@@ -2,7 +2,7 @@ extends Node
 ## Automated playthrough bot. Drives a New Game (or a chosen chapter) by firing the
 ## QA hooks each chapter controller registers (`qa_add`), watches for stalls and
 ## reports timings. Usage:
-##   godot --path . --rendering-driver vulkan -- --qa-autoplay [--qa-from=N] [--qa-until=N] [--qa-speed=3] [--qa-shots=/dir]
+##   godot --path . --rendering-driver vulkan -- --qa-autoplay [--qa-from=N] [--qa-until=N] [--qa-speed=3] [--qa-shots=/dir] [--qa-dead=brenda,tiffany]
 ## Exit code 0 = reached the target chapter / credits, 2 = stalled, 3 = script error budget exceeded.
 
 var t := 0.0
@@ -22,6 +22,7 @@ var shot_times: Array[float] = []
 var start_beat := ""
 var full := false
 var _credits_seen := false
+var dead_ids: Array[String] = []
 
 
 func _ready() -> void:
@@ -43,6 +44,9 @@ func _ready() -> void:
 			full = true
 		elif a == "--qa-nointervene":
 			GameState.set_flag(&"qa_nointervene", true)
+		elif a.begins_with("--qa-dead="):
+			for x in a.substr(10).split(","):
+				dead_ids.append(x.strip_edges())
 		elif a.begins_with("--qa-stall="):
 			stall_limit = float(a.substr(11))
 	process_mode = Node.PROCESS_MODE_ALWAYS
@@ -57,11 +61,13 @@ func _ready() -> void:
 	Events.player_died.connect(func(reason: StringName) -> void: print("QA player died ", reason))
 	await get_tree().process_frame
 	var keep_flags: Dictionary = GameState.flags.duplicate()
-	if start_beat != "":
+	if start_beat != "" or not dead_ids.is_empty():
 		GameState.reset()
 		GameState.flags = keep_flags
+		for id in dead_ids:
+			GameState.set_survivor(StringName(id), &"dead")
 		GameState.in_game = true
-		Director.load_chapter(from_chapter, StringName(start_beat))
+		Director.load_chapter(from_chapter, StringName(start_beat if start_beat != "" else "start"))
 	elif from_chapter <= 1:
 		Director.start_new_game()
 	else:
