@@ -5,7 +5,7 @@ extends RefCounted
 
 static var _mesh: BoxMesh
 static var _mats: Array[Material] = []
-static var _live: Array[RigidBody3D] = []
+static var _live: Array = []            ## untyped: entries are freed by their own timers, so they may be dead references
 const MAX_LIVE := 70
 
 
@@ -22,9 +22,12 @@ static func spawn(tree: SceneTree, _kind: StringName, pos: Vector3, count: int, 
 	var root: Node = Director.world
 	for i in count:
 		if _live.size() >= MAX_LIVE:
-			var old: RigidBody3D = _live.pop_front()
-			if is_instance_valid(old):
-				old.queue_free()
+			# drop pieces that already expired, then recycle the oldest live one if still full
+			_live = _live.filter(func(b: Variant) -> bool: return is_instance_valid(b))
+			if _live.size() >= MAX_LIVE:
+				var old: Variant = _live.pop_front()
+				if is_instance_valid(old):
+					(old as RigidBody3D).queue_free()
 		var rb := RigidBody3D.new()
 		rb.collision_layer = 16
 		rb.collision_mask = 1
