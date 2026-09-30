@@ -92,6 +92,24 @@ braked, pinned...). Physics is presentation only, so a rolling tire can never mi
 level. When a step is blocked its `alt` steps reroute the machine ("I stopped it! ...oh no."). The same chain
 is replayed in **vision mode** (no deaths, blockers ignored, sped up) as the premonition, then rewound.
 
+## Verification, and what has *not* been verified
+
+Checked automatically in this repository (all runnable with the commands above):
+
+* a bot plays the whole game headless, from a new game to the credits and CCTV epilogue, including the
+  failure branches (`--qa-nointervene`, `--qa-dead=...`); every chapter registers its own QA hooks
+* the real player controller walks the level graph (`walktest`) and presses the real Interact input on every
+  bound prop (`usetest`), so an unreachable or untargetable action is a test failure
+* checkpoints, the rolling backup, corrupt/tampered saves and Continue (`savetest`)
+* every dialogue id referenced by a script exists and has rendered audio (`tools/lint_lines.py`)
+* the exported Linux build boots from its `.pck` and plays chapters 2-3 under the bot
+
+Not verified, because nothing in the build environment could do it: how the game *sounds* (no audio device --
+voices, SFX and music were analysed with numeric checks only), real GPU frame times (all rendering here was
+software Vulkan; the graphics presets were tuned by draw-call / light / shadow budgets, not measured FPS),
+gamepad hardware, and a human playthrough for comedy timing and difficulty. Treat those as the first things to
+check on a real machine.
+
 ## Licence and credits
 
 Code: MIT (see LICENSE). All art, audio and dialogue are original and generated procedurally; the voices are
