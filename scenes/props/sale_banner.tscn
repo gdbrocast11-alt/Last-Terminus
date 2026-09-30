@@ -1,0 +1,15 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/sale_banner.glb" id="1_k7rlt"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_2115b"]
+
+[node name="sale_banner" type="Node3D" unique_id=839812763]
+
+[node name="Model" type="Node3D" parent="." unique_id=829571311 instance=ExtResource("1_k7rlt")]
+
+[node name="Prop" type="Node" parent="." unique_id=800324378]
+script = ExtResource("2_2115b")
+prop_id = &"sale_banner"
+inspect_line = &"ch3_insp_banner"
+hazard = 1
+tags = PackedStringArray("chain")

@@ -1,0 +1,27 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/toolbox.glb" id="1_p5cw1"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_aoird"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_qmuni"]
+size = Vector3(0.5, 0.29014483, 0.22)
+
+[node name="toolbox" type="RigidBody3D" unique_id=213506557]
+collision_layer = 16
+collision_mask = 31
+mass = 4.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1837686243 instance=ExtResource("1_p5cw1")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=218337555]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.14507242, 0)
+shape = SubResource("BoxShape3D_qmuni")
+
+[node name="Prop" type="Node" parent="." unique_id=2027589834]
+script = ExtResource("2_aoird")
+prop_id = &"toolbox"
+grab_class = "medium"
+tags = PackedStringArray()

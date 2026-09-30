@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/bench_street.glb" id="1_61k6p"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_hcbj7"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_d1hxm"]
+size = Vector3(1.6, 0.95043445, 0.50753736)
+
+[node name="bench_street" type="StaticBody3D" unique_id=1610288682]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=186790222 instance=ExtResource("1_61k6p")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=868548237]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47521722, 0.028768688)
+shape = SubResource("BoxShape3D_d1hxm")
+
+[node name="Prop" type="Node" parent="." unique_id=806736753]
+script = ExtResource("2_hcbj7")
+prop_id = &"bench_street"
+tags = PackedStringArray()

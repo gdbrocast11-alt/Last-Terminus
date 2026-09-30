@@ -6,16 +6,16 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_0n417"]
 size = Vector3(0.45, 1.7277914, 0.4)
 
-[node name="coat_rack" type="StaticBody3D" unique_id=514762304]
+[node name="coat_rack" type="StaticBody3D" unique_id=968212169]
 collision_mask = 0
 
 [node name="Model" type="Node3D" parent="." unique_id=891904643 instance=ExtResource("1_eadcn")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=469246957]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1414183787]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.024999991, 0.8638957, 0)
 shape = SubResource("BoxShape3D_0n417")
 
-[node name="Prop" type="Node" parent="." unique_id=281453279]
+[node name="Prop" type="Node" parent="." unique_id=1554414067]
 script = ExtResource("2_foirv")
 prop_id = &"coat_rack"
 tags = PackedStringArray()

@@ -7,7 +7,7 @@
 height = 0.23
 radius = 0.12721244
 
-[node name="kettle" type="RigidBody3D" unique_id=1357253749]
+[node name="kettle" type="RigidBody3D" unique_id=904810859]
 collision_layer = 16
 collision_mask = 31
 mass = 0.9
@@ -17,11 +17,11 @@ angular_damp = 0.4
 
 [node name="Model" type="Node3D" parent="." unique_id=1155692792 instance=ExtResource("1_x6m8x")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1075661842]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=734250215]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.008552179, 0.115, 0)
 shape = SubResource("CylinderShape3D_84iup")
 
-[node name="Prop" type="Node" parent="." unique_id=609098882]
+[node name="Prop" type="Node" parent="." unique_id=884245826]
 script = ExtResource("2_vhrc2")
 prop_id = &"kettle"
 grab_class = "light"

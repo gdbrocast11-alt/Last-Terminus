@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/lost_found_desk.glb" id="1_xynqe"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_tdeio"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_35x5i"]
+size = Vector3(2.3, 1.105, 0.9)
+
+[node name="lost_found_desk" type="StaticBody3D" unique_id=449396655]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=2095321667 instance=ExtResource("1_xynqe")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1165385890]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5525, 0)
+shape = SubResource("BoxShape3D_35x5i")
+
+[node name="Prop" type="Node" parent="." unique_id=1175640282]
+script = ExtResource("2_tdeio")
+prop_id = &"lost_found_desk"
+tags = PackedStringArray()

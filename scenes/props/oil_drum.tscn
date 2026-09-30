@@ -1,0 +1,28 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/oil_drum.glb" id="1_gt33c"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_cetos"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_vxdl3"]
+height = 0.88
+radius = 0.298
+
+[node name="oil_drum" type="RigidBody3D" unique_id=1771556714]
+collision_layer = 16
+collision_mask = 31
+mass = 40.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1249018905 instance=ExtResource("1_gt33c")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1899176724]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.44, 0)
+shape = SubResource("CylinderShape3D_vxdl3")
+
+[node name="Prop" type="Node" parent="." unique_id=123088490]
+script = ExtResource("2_cetos")
+prop_id = &"oil_drum"
+grab_class = "heavy"
+tags = PackedStringArray()

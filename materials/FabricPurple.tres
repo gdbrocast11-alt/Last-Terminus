@@ -1,5 +1,20 @@
 [gd_resource type="StandardMaterial3D" format=3]
 
+[ext_resource type="Texture2D" path="res://textures/fabric_albedo.png" id="1_4rjwr"]
+[ext_resource type="Texture2D" path="res://textures/fabric_orm.png" id="2_ascym"]
+[ext_resource type="Texture2D" path="res://textures/fabric_normal.png" id="3_tiwcn"]
+
 [resource]
 resource_name = "FabricPurple"
 albedo_color = Color(0.4, 0.2, 0.5, 1)
+albedo_texture = ExtResource("1_4rjwr")
+metallic_texture = ExtResource("2_ascym")
+metallic_texture_channel = 2
+roughness = 1.3571428
+roughness_texture = ExtResource("2_ascym")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_tiwcn")
+ao_enabled = true
+ao_texture = ExtResource("2_ascym")
+texture_filter = 5

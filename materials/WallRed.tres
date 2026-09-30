@@ -1,5 +1,21 @@
 [gd_resource type="StandardMaterial3D" format=3]
 
+[ext_resource type="Texture2D" path="res://textures/wall_paint_albedo.png" id="1_562os"]
+[ext_resource type="Texture2D" path="res://textures/wall_paint_orm.png" id="2_6k0vx"]
+[ext_resource type="Texture2D" path="res://textures/wall_paint_normal.png" id="3_ih4yr"]
+
 [resource]
 resource_name = "WallRed"
 albedo_color = Color(0.6, 0.16, 0.14, 1)
+albedo_texture = ExtResource("1_562os")
+metallic_texture = ExtResource("2_6k0vx")
+metallic_texture_channel = 2
+roughness = 1.1428572
+roughness_texture = ExtResource("2_6k0vx")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_scale = 0.4
+normal_texture = ExtResource("3_ih4yr")
+ao_enabled = true
+ao_texture = ExtResource("2_6k0vx")
+texture_filter = 5

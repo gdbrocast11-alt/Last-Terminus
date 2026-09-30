@@ -1,5 +1,19 @@
 [gd_resource type="StandardMaterial3D" format=3]
 
+[ext_resource type="Texture2D" path="res://textures/plywood_albedo.png" id="1_o1lht"]
+[ext_resource type="Texture2D" path="res://textures/plywood_orm.png" id="2_qm1cx"]
+[ext_resource type="Texture2D" path="res://textures/plywood_normal.png" id="3_xx557"]
+
 [resource]
 resource_name = "Plywood"
 albedo_color = Color(0.9, 0.78, 0.55, 1)
+albedo_texture = ExtResource("1_o1lht")
+metallic_texture = ExtResource("2_qm1cx")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_qm1cx")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_xx557")
+ao_enabled = true
+ao_texture = ExtResource("2_qm1cx")
+texture_filter = 5

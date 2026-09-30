@@ -6,16 +6,16 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_dy8qb"]
 size = Vector3(1.24, 0.9, 0.662)
 
-[node name="kitchen_counter" type="StaticBody3D" unique_id=1310626246]
+[node name="kitchen_counter" type="StaticBody3D" unique_id=2084313723]
 collision_mask = 0
 
-[node name="Model" type="Node3D" parent="." unique_id=175479443 instance=ExtResource("1_4wqqa")]
+[node name="Model" type="Node3D" parent="." unique_id=1295693936 instance=ExtResource("1_4wqqa")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1924095577]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1152859558]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.45, -0.0009999871)
 shape = SubResource("BoxShape3D_dy8qb")
 
-[node name="Prop" type="Node" parent="." unique_id=1362076341]
+[node name="Prop" type="Node" parent="." unique_id=1787086839]
 script = ExtResource("2_wyxas")
 prop_id = &"kitchen_counter"
 tags = PackedStringArray()

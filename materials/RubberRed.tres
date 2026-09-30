@@ -1,5 +1,20 @@
 [gd_resource type="StandardMaterial3D" format=3]
 
+[ext_resource type="Texture2D" path="res://textures/rubber_albedo.png" id="1_qb6rq"]
+[ext_resource type="Texture2D" path="res://textures/rubber_orm.png" id="2_m1evu"]
+[ext_resource type="Texture2D" path="res://textures/rubber_normal.png" id="3_sy5ts"]
+
 [resource]
 resource_name = "RubberRed"
 albedo_color = Color(0.6, 0.08, 0.06, 1)
+albedo_texture = ExtResource("1_qb6rq")
+metallic_texture = ExtResource("2_m1evu")
+metallic_texture_channel = 2
+roughness = 1.2142857
+roughness_texture = ExtResource("2_m1evu")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_sy5ts")
+ao_enabled = true
+ao_texture = ExtResource("2_m1evu")
+texture_filter = 5

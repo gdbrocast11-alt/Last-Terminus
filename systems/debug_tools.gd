@@ -9,10 +9,25 @@ var show_hazard_nodes := false
 var _timer := 0.0
 
 
+var _shot_path := ""
+var _shot_frames := 0
+var _shot_quit := true
+
+
 func _ready() -> void:
 	process_mode = Node.PROCESS_MODE_ALWAYS
 	set_process(false)
 	set_process_input(SettingsManager.developer_mode)
+	# QA hook: godot ... -- --shot=/tmp/x.png --shot-frames=180 (captures the running game, then quits)
+	for a in OS.get_cmdline_user_args():
+		if a.begins_with("--shot="):
+			_shot_path = a.substr(7)
+		elif a.begins_with("--shot-frames="):
+			_shot_frames = int(a.substr(14))
+		elif a == "--shot-stay":
+			_shot_quit = false
+	if _shot_path != "":
+		set_process(true)
 
 
 func _input(event: InputEvent) -> void:
@@ -68,6 +83,15 @@ func _build() -> void:
 
 
 func _process(delta: float) -> void:
+	if _shot_path != "":
+		_shot_frames -= 1
+		if _shot_frames <= 0:
+			get_viewport().get_texture().get_image().save_png(_shot_path)
+			print("SHOT ", _shot_path)
+			_shot_path = ""
+			if _shot_quit:
+				get_tree().quit()
+			return
 	_timer += delta
 	if _timer < 0.25 or stats_label == null:
 		return

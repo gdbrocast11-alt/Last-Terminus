@@ -1,5 +1,21 @@
 [gd_resource type="StandardMaterial3D" format=3]
 
+[ext_resource type="Texture2D" path="res://textures/paint_metal_albedo.png" id="1_khn3i"]
+[ext_resource type="Texture2D" path="res://textures/paint_metal_orm.png" id="2_ao3tv"]
+[ext_resource type="Texture2D" path="res://textures/paint_metal_normal.png" id="3_oaeg2"]
+
 [resource]
 resource_name = "PaintWhite"
 albedo_color = Color(0.9, 0.9, 0.9, 1)
+albedo_texture = ExtResource("1_khn3i")
+metallic = 0.2
+metallic_texture = ExtResource("2_ao3tv")
+metallic_texture_channel = 2
+roughness = 0.64285713
+roughness_texture = ExtResource("2_ao3tv")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_oaeg2")
+ao_enabled = true
+ao_texture = ExtResource("2_ao3tv")
+texture_filter = 5

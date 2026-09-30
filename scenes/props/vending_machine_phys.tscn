@@ -6,7 +6,7 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_5w543"]
 size = Vector3(0.96500003, 1.85, 0.88)
 
-[node name="vending_machine_phys" type="RigidBody3D" unique_id=1574341829]
+[node name="vending_machine_phys" type="RigidBody3D" unique_id=1436135270]
 collision_layer = 16
 collision_mask = 31
 mass = 350.0
@@ -16,11 +16,11 @@ angular_damp = 0.4
 
 [node name="Model" type="Node3D" parent="." unique_id=319875646 instance=ExtResource("1_1tvrq")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=367965073]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=293671561]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0075000226, 0.925, -0.0150000155)
 shape = SubResource("BoxShape3D_5w543")
 
-[node name="Prop" type="Node" parent="." unique_id=1687376343]
+[node name="Prop" type="Node" parent="." unique_id=47352034]
 script = ExtResource("2_xfdb4")
 prop_id = &"vending_machine_phys"
 tags = PackedStringArray("vending", "yard")

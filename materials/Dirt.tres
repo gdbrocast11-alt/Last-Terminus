@@ -1,5 +1,20 @@
 [gd_resource type="StandardMaterial3D" format=3]
 
+[ext_resource type="Texture2D" path="res://textures/dirt_albedo.png" id="1_7c0jd"]
+[ext_resource type="Texture2D" path="res://textures/dirt_orm.png" id="2_swlmx"]
+[ext_resource type="Texture2D" path="res://textures/dirt_normal.png" id="3_1pv6r"]
+
 [resource]
 resource_name = "Dirt"
 albedo_color = Color(0.7, 0.55, 0.42, 1)
+albedo_texture = ExtResource("1_7c0jd")
+metallic_texture = ExtResource("2_swlmx")
+metallic_texture_channel = 2
+roughness = 1.3571428
+roughness_texture = ExtResource("2_swlmx")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_1pv6r")
+ao_enabled = true
+ao_texture = ExtResource("2_swlmx")
+texture_filter = 5

@@ -1,0 +1,28 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/lawn_mower.glb" id="1_d2vhp"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_0i66k"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_03cj8"]
+size = Vector3(0.53, 0.95291704, 0.9211358)
+
+[node name="lawn_mower" type="RigidBody3D" unique_id=1255841916]
+collision_layer = 16
+collision_mask = 31
+mass = 22.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=867562666 instance=ExtResource("1_d2vhp")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=824975843]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4818423, 0.050567895)
+shape = SubResource("BoxShape3D_03cj8")
+
+[node name="Prop" type="Node" parent="." unique_id=1581920418]
+script = ExtResource("2_0i66k")
+prop_id = &"lawn_mower"
+grab_class = "heavy"
+inspect_line = &"ch3_insp_mower"
+tags = PackedStringArray()

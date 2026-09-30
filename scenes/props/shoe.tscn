@@ -1,0 +1,27 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/shoe.glb" id="1_qe1h3"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_l5556"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ucure"]
+size = Vector3(0.105, 0.09, 0.28)
+
+[node name="shoe" type="RigidBody3D" unique_id=1846879993]
+collision_layer = 16
+collision_mask = 31
+mass = 0.5
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1021734787 instance=ExtResource("1_qe1h3")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1459385393]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.045, 0)
+shape = SubResource("BoxShape3D_ucure")
+
+[node name="Prop" type="Node" parent="." unique_id=598057132]
+script = ExtResource("2_l5556")
+prop_id = &"shoe"
+grab_class = "light"
+tags = PackedStringArray()

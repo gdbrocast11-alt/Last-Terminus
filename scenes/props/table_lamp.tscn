@@ -7,7 +7,7 @@
 height = 0.37
 radius = 0.1
 
-[node name="table_lamp" type="RigidBody3D" unique_id=340422156]
+[node name="table_lamp" type="RigidBody3D" unique_id=515791179]
 collision_layer = 16
 collision_mask = 31
 mass = 1.2
@@ -17,11 +17,11 @@ angular_damp = 0.4
 
 [node name="Model" type="Node3D" parent="." unique_id=429555722 instance=ExtResource("1_ug5w0")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=362314785]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=2057892887]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.185, 0)
 shape = SubResource("CylinderShape3D_5cs6r")
 
-[node name="Prop" type="Node" parent="." unique_id=2059835237]
+[node name="Prop" type="Node" parent="." unique_id=692649306]
 script = ExtResource("2_yprlb")
 prop_id = &"table_lamp"
 grab_class = "light"

@@ -6,16 +6,16 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_8m81s"]
 size = Vector3(0.7, 1.8499999, 0.35964504)
 
-[node name="electrical_panel" type="StaticBody3D" unique_id=544011490]
+[node name="electrical_panel" type="StaticBody3D" unique_id=687820841]
 collision_mask = 0
 
-[node name="Model" type="Node3D" parent="." unique_id=1517648740 instance=ExtResource("1_m4q2x")]
+[node name="Model" type="Node3D" parent="." unique_id=854049014 instance=ExtResource("1_m4q2x")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=614188987]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1206960454]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.92499995, -0.069822535)
 shape = SubResource("BoxShape3D_8m81s")
 
-[node name="Prop" type="Node" parent="." unique_id=1987494586]
+[node name="Prop" type="Node" parent="." unique_id=740769318]
 script = ExtResource("2_n63bx")
 prop_id = &"electrical_panel"
 inspect_line = &"ch1_insp_panel"

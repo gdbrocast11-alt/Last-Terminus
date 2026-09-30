@@ -1,0 +1,27 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/shopping_cart.glb" id="1_yaw3a"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_pvh5h"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_vekgf"]
+size = Vector3(0.568, 0.9026525, 1.0237659)
+
+[node name="shopping_cart" type="RigidBody3D" unique_id=1286826636]
+collision_layer = 16
+collision_mask = 31
+mass = 12.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1239229837 instance=ExtResource("1_yaw3a")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=896526212]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.46132624, 0.051882982)
+shape = SubResource("BoxShape3D_vekgf")
+
+[node name="Prop" type="Node" parent="." unique_id=686122692]
+script = ExtResource("2_pvh5h")
+prop_id = &"shopping_cart"
+grab_class = "heavy"
+tags = PackedStringArray()

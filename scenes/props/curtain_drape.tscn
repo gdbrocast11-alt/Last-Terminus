@@ -1,0 +1,13 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/curtain_drape.glb" id="1_i7v5g"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_0yc2g"]
+
+[node name="curtain_drape" type="Node3D" unique_id=1610517731]
+
+[node name="Model" type="Node3D" parent="." unique_id=709704793 instance=ExtResource("1_i7v5g")]
+
+[node name="Prop" type="Node" parent="." unique_id=2034805962]
+script = ExtResource("2_0yc2g")
+prop_id = &"curtain_drape"
+tags = PackedStringArray()

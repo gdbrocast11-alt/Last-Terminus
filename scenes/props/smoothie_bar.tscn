@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/smoothie_bar.glb" id="1_whvpo"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_1o7nd"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lvbfl"]
+size = Vector3(3.1, 1.8000001, 0.90000004)
+
+[node name="smoothie_bar" type="StaticBody3D" unique_id=1260165902]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=1790657289 instance=ExtResource("1_whvpo")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=534259988]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.90000004, -2.9802322e-08)
+shape = SubResource("BoxShape3D_lvbfl")
+
+[node name="Prop" type="Node" parent="." unique_id=2027248199]
+script = ExtResource("2_1o7nd")
+prop_id = &"smoothie_bar"
+tags = PackedStringArray("bar")

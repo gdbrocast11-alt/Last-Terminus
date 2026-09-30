@@ -1,5 +1,20 @@
 [gd_resource type="StandardMaterial3D" format=3]
 
+[ext_resource type="Texture2D" path="res://textures/carpet_albedo.png" id="1_ks0v5"]
+[ext_resource type="Texture2D" path="res://textures/carpet_orm.png" id="2_8mnkl"]
+[ext_resource type="Texture2D" path="res://textures/carpet_normal.png" id="3_2urgs"]
+
 [resource]
 resource_name = "CarpetBlue"
 albedo_color = Color(0.16, 0.26, 0.42, 1)
+albedo_texture = ExtResource("1_ks0v5")
+metallic_texture = ExtResource("2_8mnkl")
+metallic_texture_channel = 2
+roughness = 1.3571428
+roughness_texture = ExtResource("2_8mnkl")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_2urgs")
+ao_enabled = true
+ao_texture = ExtResource("2_8mnkl")
+texture_filter = 5

@@ -1,0 +1,24 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/chandelier_winch.glb" id="1_w0u6w"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_meqrr"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_kryg4"]
+size = Vector3(0.3614127, 0.40807, 0.22)
+
+[node name="chandelier_winch" type="StaticBody3D" unique_id=1935192840]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=1117873632 instance=ExtResource("1_w0u6w")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1221358964]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.030706346, 0.204035, -0.030000001)
+shape = SubResource("BoxShape3D_kryg4")
+
+[node name="Prop" type="Node" parent="." unique_id=1250021691]
+script = ExtResource("2_meqrr")
+prop_id = &"chandelier_winch"
+inspect_line = &"ch4_insp_winch"
+hazard = 1
+tags = PackedStringArray("winch", "chain")
+use_verb = "Lower the crystals"

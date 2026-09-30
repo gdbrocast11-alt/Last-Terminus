@@ -1,5 +1,21 @@
 [gd_resource type="StandardMaterial3D" format=3]
 
+[ext_resource type="Texture2D" path="res://textures/paint_metal_albedo.png" id="1_fet27"]
+[ext_resource type="Texture2D" path="res://textures/paint_metal_orm.png" id="2_ckj4r"]
+[ext_resource type="Texture2D" path="res://textures/paint_metal_normal.png" id="3_sg2yr"]
+
 [resource]
 resource_name = "PaintYellow"
 albedo_color = Color(0.95, 0.72, 0.08, 1)
+albedo_texture = ExtResource("1_fet27")
+metallic = 0.2
+metallic_texture = ExtResource("2_ckj4r")
+metallic_texture_channel = 2
+roughness = 0.71428573
+roughness_texture = ExtResource("2_ckj4r")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_sg2yr")
+ao_enabled = true
+ao_texture = ExtResource("2_ckj4r")
+texture_filter = 5

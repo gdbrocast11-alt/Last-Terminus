@@ -1,0 +1,47 @@
+# CHAPTER 8: A NORMAL EVENING
+ch8_card | eddie | sincere | Several months later.
+ch8_wake_01 | eddie | sincere | The wall's clear. I painted over the string.
+ch8_wake_02 | eddie | | The extinguishers are back in the closet. Three of them. I kept one.
+ch8_tv_brenda | brenda | excited | Welcome back to Safety First, ish! Today's topic: ladders. Do not use them. Also do.
+ch8_tv_brenda_ed | eddie | | She's doing a safety show. Sort of.
+ch8_tv_brenda_dead | news | | And Brenda Bolt's final video, Flamingo Fresh Coat, has now been viewed twelve million times. Fans are calling it both hilarious and upsetting.
+ch8_tv_brenda_dead_ed | eddie | sincere | She'd have loved the thumbnail.
+ch8_dale_binder | eddie | dry | "The Truth, Volume One of Nine." Dale self-published. It has a foreword by Dale.
+ch8_tiff_card | eddie | | Tiffany's new brand. "Acceptance, trademark." Slogan: "It happens."
+ch8_tiff_card_dead | eddie | sincere | Aligned Living is being run by Tiffany's sister now. The slogan is "Be careful."
+ch8_gus_flyer | eddie | | "Retired safety inspector. Volunteer consultant. Will fix anything." Gus stuck his number on my fridge.
+ch8_ml_score | eddie | | The scoreboard says nine to nine. There's an asterisk.
+ch8_ml_vm_marco | marco | shout | Eddie! We're at nine!
+ch8_ml_vm_luis | luis | shout | Eight and a half!
+ch8_mills_card | eddie | dry | A postcard from Mills. "Parking Permit Office. Best posting ever."
+ch8_mills_vm | mills | | Mercer. It's Mills. Nothing has happened in nine weeks. I've never been so bored. Thank you.
+ch8_graves_note | eddie | dry | A note from Graves. "The universe is a stickler. Enjoy your evening. P.S. Sandwiches."
+ch8_pickles_fine | eddie | sincere | He doesn't wear the helmet anymore.
+ch8_leash | eddie | | Leash. Dog. Door.
+ch8_door | eddie | sincere | Okay. A walk. Just a walk.
+ch8_walk_01 | eddie | sincere | It's a nice evening.
+ch8_walk_02 | eddie | sincere | Look at that. Sun's going down. Nobody's dying.
+ch8_walk_03 | eddie | sincere | Pickles, don't eat that.
+ch8_ladder | eddie | mumble | A ladder. Leaning on a house.
+ch8_mower | eddie | mumble | A lawn mower. Running. Unattended.
+ch8_truck | eddie | mumble | A truck carrying pipes. Not tied down.
+ch8_ac | eddie | mumble | That air conditioner is barely hanging on.
+ch8_kid | eddie | mumble | A kid with a baseball. Near a window.
+ch8_cyclist | eddie | mumble | A cyclist. No helmet.
+ch8_dig | eddie | mumble | Construction equipment. Just sitting there. With the bucket up.
+ch8_bottle | eddie | mumble | A glass bottle. Right at the curb.
+ch8_breath | eddie | whisper | Okay. Okay okay okay.
+ch8_nah | eddie | sincere | Nah.
+ch8_ok | eddie | sincere | Come on, buddy. Let's go home.
+ch8_ow | eddie | tired | Ow.
+ch8_okay_01 | eddie | | You okay?
+ch8_okay_02 | eddie | | Okay.
+ch8_bus_fucked | eddie | dry | I think the bus is fucked, though.
+ch8_hint_talk | eddie | | I should look around before I go out.
+ch8_hint_go | eddie | | Leash. Dog. Door.
+ch8_insp_extinguisher | eddie | | One extinguisher. Under the sink. That's a normal number.
+ch8_insp_couch | eddie | sincere | The couch. I sleep in the bed now.
+ch8_insp_bed | eddie | | The helmet is in the closet. For sentimental reasons.
+ch8_insp_fridge | eddie | | Pickles' schedule. I stopped color coding it.
+ch8_insp_desk | eddie | | The notebook's shut. I'm not opening it.
+ch8_insp_window | eddie | sincere | Third floor. Nice view. Nothing's falling.

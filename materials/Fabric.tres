@@ -1,5 +1,20 @@
 [gd_resource type="StandardMaterial3D" format=3]
 
+[ext_resource type="Texture2D" path="res://textures/fabric_albedo.png" id="1_1a6xl"]
+[ext_resource type="Texture2D" path="res://textures/fabric_orm.png" id="2_cspjp"]
+[ext_resource type="Texture2D" path="res://textures/fabric_normal.png" id="3_f1v4i"]
+
 [resource]
 resource_name = "Fabric"
 albedo_color = Color(0.5, 0.5, 0.5, 1)
+albedo_texture = ExtResource("1_1a6xl")
+metallic_texture = ExtResource("2_cspjp")
+metallic_texture_channel = 2
+roughness = 1.3571428
+roughness_texture = ExtResource("2_cspjp")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_f1v4i")
+ao_enabled = true
+ao_texture = ExtResource("2_cspjp")
+texture_filter = 5

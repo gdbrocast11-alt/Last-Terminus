@@ -1,0 +1,14 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/note_graves.glb" id="1_k0165"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_8a32k"]
+
+[node name="note_graves" type="Node3D" unique_id=287822134]
+
+[node name="Model" type="Node3D" parent="." unique_id=412554190 instance=ExtResource("1_k0165")]
+
+[node name="Prop" type="Node" parent="." unique_id=1033906265]
+script = ExtResource("2_8a32k")
+prop_id = &"note_graves"
+inspect_line = &"ch8_graves_note"
+tags = PackedStringArray("ending")

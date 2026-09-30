@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/water_cooler.glb" id="1_4txy2"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_gcaio"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_g2fxw"]
+size = Vector3(0.35, 1.4000001, 0.35)
+
+[node name="water_cooler" type="StaticBody3D" unique_id=127093040]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=887551361 instance=ExtResource("1_4txy2")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=912402155]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.70000005, 0)
+shape = SubResource("BoxShape3D_g2fxw")
+
+[node name="Prop" type="Node" parent="." unique_id=743011366]
+script = ExtResource("2_gcaio")
+prop_id = &"water_cooler"
+tags = PackedStringArray()

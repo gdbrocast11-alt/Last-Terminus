@@ -1,5 +1,21 @@
 [gd_resource type="StandardMaterial3D" format=3]
 
+[ext_resource type="Texture2D" path="res://textures/metal_brushed_albedo.png" id="1_5wvup"]
+[ext_resource type="Texture2D" path="res://textures/metal_brushed_orm.png" id="2_nsbwh"]
+[ext_resource type="Texture2D" path="res://textures/metal_brushed_normal.png" id="3_n7wt3"]
+
 [resource]
 resource_name = "SteelGalv"
 albedo_color = Color(0.7, 0.72, 0.74, 1)
+albedo_texture = ExtResource("1_5wvup")
+metallic = 0.9
+metallic_texture = ExtResource("2_nsbwh")
+metallic_texture_channel = 2
+roughness = 0.78571427
+roughness_texture = ExtResource("2_nsbwh")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_n7wt3")
+ao_enabled = true
+ao_texture = ExtResource("2_nsbwh")
+texture_filter = 5

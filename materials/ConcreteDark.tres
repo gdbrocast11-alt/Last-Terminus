@@ -1,5 +1,20 @@
 [gd_resource type="StandardMaterial3D" format=3]
 
+[ext_resource type="Texture2D" path="res://textures/concrete_rough_albedo.png" id="1_jpxks"]
+[ext_resource type="Texture2D" path="res://textures/concrete_rough_orm.png" id="2_srvtn"]
+[ext_resource type="Texture2D" path="res://textures/concrete_rough_normal.png" id="3_8fbkt"]
+
 [resource]
 resource_name = "ConcreteDark"
 albedo_color = Color(0.3, 0.3, 0.31, 1)
+albedo_texture = ExtResource("1_jpxks")
+metallic_texture = ExtResource("2_srvtn")
+metallic_texture_channel = 2
+roughness = 1.2857143
+roughness_texture = ExtResource("2_srvtn")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_8fbkt")
+ao_enabled = true
+ao_texture = ExtResource("2_srvtn")
+texture_filter = 5

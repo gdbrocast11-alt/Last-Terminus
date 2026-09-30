@@ -1,0 +1,23 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/treadmill.glb" id="1_3nfvm"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_h8jr5"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_dyq12"]
+size = Vector3(0.85, 1.4068487, 1.8030581)
+
+[node name="treadmill" type="StaticBody3D" unique_id=1270513844]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=855318244 instance=ExtResource("1_3nfvm")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=249137453]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.7734243, 0.0015290976)
+shape = SubResource("BoxShape3D_dyq12")
+
+[node name="Prop" type="Node" parent="." unique_id=1552162282]
+script = ExtResource("2_h8jr5")
+prop_id = &"treadmill"
+inspect_line = &"ch4_insp_tread"
+hazard = 1
+tags = PackedStringArray("treadmill", "chain")

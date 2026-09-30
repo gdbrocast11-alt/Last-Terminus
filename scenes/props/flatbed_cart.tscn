@@ -1,0 +1,29 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/flatbed_cart.glb" id="1_jtlid"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_4cuth"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_nyrpq"]
+size = Vector3(0.75, 1.0602003, 1.7148492)
+
+[node name="flatbed_cart" type="RigidBody3D" unique_id=2064836521]
+collision_layer = 16
+collision_mask = 31
+mass = 40.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=72748630 instance=ExtResource("1_jtlid")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=771358514]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5326074, 0.057424605)
+shape = SubResource("BoxShape3D_nyrpq")
+
+[node name="Prop" type="Node" parent="." unique_id=1378631932]
+script = ExtResource("2_4cuth")
+prop_id = &"flatbed_cart"
+grab_class = "heavy"
+inspect_line = &"ch3_insp_cart"
+hazard = 1
+tags = PackedStringArray("cart", "chain")

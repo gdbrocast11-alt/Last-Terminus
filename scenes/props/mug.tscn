@@ -1,0 +1,28 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/mug.glb" id="1_3go7b"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_46y2e"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_0ftr0"]
+height = 0.09
+radius = 0.05975773
+
+[node name="mug" type="RigidBody3D" unique_id=2083084316]
+collision_layer = 16
+collision_mask = 31
+mass = 0.3
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=224776970 instance=ExtResource("1_3go7b")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=291927369]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.019757733, 0.045, 0)
+shape = SubResource("CylinderShape3D_0ftr0")
+
+[node name="Prop" type="Node" parent="." unique_id=1868359859]
+script = ExtResource("2_46y2e")
+prop_id = &"mug"
+grab_class = "light"
+tags = PackedStringArray("ending")

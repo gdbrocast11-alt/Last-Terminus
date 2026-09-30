@@ -3,11 +3,11 @@
 [ext_resource type="PackedScene" path="res://props/sculpture_momentum.glb" id="1_wa8be"]
 [ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_5wfo6"]
 
-[node name="sculpture_momentum" type="Node3D" unique_id=813451381]
+[node name="sculpture_momentum" type="Node3D" unique_id=11558715]
 
-[node name="Model" type="Node3D" parent="." unique_id=5559525 instance=ExtResource("1_wa8be")]
+[node name="Model" type="Node3D" parent="." unique_id=2042586284 instance=ExtResource("1_wa8be")]
 
-[node name="Prop" type="Node" parent="." unique_id=1520089853]
+[node name="Prop" type="Node" parent="." unique_id=448234448]
 script = ExtResource("2_5wfo6")
 prop_id = &"sculpture_momentum"
 inspect_line = &"ch1_insp_sculpture"

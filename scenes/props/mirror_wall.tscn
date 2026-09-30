@@ -1,0 +1,14 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/mirror_wall.glb" id="1_ptkjt"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_gex7t"]
+
+[node name="mirror_wall" type="Node3D" unique_id=900639604]
+
+[node name="Model" type="Node3D" parent="." unique_id=1333111061 instance=ExtResource("1_ptkjt")]
+
+[node name="Prop" type="Node" parent="." unique_id=1170595882]
+script = ExtResource("2_gex7t")
+prop_id = &"mirror_wall"
+inspect_line = &"ch4_insp_mirror"
+tags = PackedStringArray()

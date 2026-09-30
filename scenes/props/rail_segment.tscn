@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/rail_segment.glb" id="1_6gtw3"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_uxu0j"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_q1jeg"]
+size = Vector3(2, 0.255, 4)
+
+[node name="rail_segment" type="StaticBody3D" unique_id=1460715430]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=1956338543 instance=ExtResource("1_6gtw3")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=791777110]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1275, 0)
+shape = SubResource("BoxShape3D_q1jeg")
+
+[node name="Prop" type="Node" parent="." unique_id=1817943835]
+script = ExtResource("2_uxu0j")
+prop_id = &"rail_segment"
+tags = PackedStringArray("rail")

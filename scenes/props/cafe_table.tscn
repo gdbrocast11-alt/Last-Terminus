@@ -7,7 +7,7 @@
 height = 0.76
 radius = 0.4
 
-[node name="cafe_table" type="RigidBody3D" unique_id=506702171]
+[node name="cafe_table" type="RigidBody3D" unique_id=750363736]
 collision_layer = 16
 collision_mask = 31
 mass = 9.0
@@ -17,11 +17,11 @@ angular_damp = 0.4
 
 [node name="Model" type="Node3D" parent="." unique_id=1174481342 instance=ExtResource("1_cmr0l")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=823733825]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=274342163]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.38, 0)
 shape = SubResource("CylinderShape3D_eonrm")
 
-[node name="Prop" type="Node" parent="." unique_id=1835759248]
+[node name="Prop" type="Node" parent="." unique_id=469618911]
 script = ExtResource("2_ko64f")
 prop_id = &"cafe_table"
 grab_class = "medium"

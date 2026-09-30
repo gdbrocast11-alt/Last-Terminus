@@ -1,0 +1,27 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/wrench.glb" id="1_5q135"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_1tpkv"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_cqn4r"]
+size = Vector3(0.064, 0.016, 0.39500004)
+
+[node name="wrench" type="RigidBody3D" unique_id=457539794]
+collision_layer = 16
+collision_mask = 31
+mass = 0.8
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=12363340 instance=ExtResource("1_5q135")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1698731412]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.008, -0.027499989)
+shape = SubResource("BoxShape3D_cqn4r")
+
+[node name="Prop" type="Node" parent="." unique_id=32649027]
+script = ExtResource("2_1tpkv")
+prop_id = &"wrench"
+grab_class = "light"
+tags = PackedStringArray("wrench", "tool")

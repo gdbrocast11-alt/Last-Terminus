@@ -6,16 +6,16 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_ukgxe"]
 size = Vector3(1.04, 1.129859, 0.64)
 
-[node name="sink_unit" type="StaticBody3D" unique_id=1795756746]
+[node name="sink_unit" type="StaticBody3D" unique_id=1912378611]
 collision_mask = 0
 
 [node name="Model" type="Node3D" parent="." unique_id=1943396646 instance=ExtResource("1_5yj7h")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=523748678]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1196681514]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5649295, 0)
 shape = SubResource("BoxShape3D_ukgxe")
 
-[node name="Prop" type="Node" parent="." unique_id=376201072]
+[node name="Prop" type="Node" parent="." unique_id=667606270]
 script = ExtResource("2_qtnri")
 prop_id = &"sink_unit"
 tags = PackedStringArray()

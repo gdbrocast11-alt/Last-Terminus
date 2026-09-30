@@ -1,0 +1,24 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/stump_seat.glb" id="1_0lfhw"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_j4h1g"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_0tx8k"]
+height = 0.5
+radius = 0.35
+
+[node name="stump_seat" type="StaticBody3D" unique_id=1959343986]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=1215752656 instance=ExtResource("1_0lfhw")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=598759715]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("CylinderShape3D_0tx8k")
+
+[node name="Prop" type="Node" parent="." unique_id=656441689]
+script = ExtResource("2_j4h1g")
+prop_id = &"stump_seat"
+inspect_line = &"ch6_insp_stump"
+tags = PackedStringArray("seat", "yard")
+use_verb = "Sit down"

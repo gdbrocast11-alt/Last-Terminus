@@ -1,0 +1,23 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/saw_table.glb" id="1_0utgv"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_jquc6"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_k7a2c"]
+size = Vector3(1.05, 1.15, 0.8630423)
+
+[node name="saw_table" type="StaticBody3D" unique_id=1665798801]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=314934901 instance=ExtResource("1_0utgv")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=986243780]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.575, -0.0065211356)
+shape = SubResource("BoxShape3D_k7a2c")
+
+[node name="Prop" type="Node" parent="." unique_id=633304117]
+script = ExtResource("2_jquc6")
+prop_id = &"saw_table"
+inspect_line = &"ch3_insp_saw"
+hazard = 2
+tags = PackedStringArray("saw")

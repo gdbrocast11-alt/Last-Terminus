@@ -2021,5 +2021,3701 @@
 "d": 2.475,
 "env": "0025899987644798643111246898875532367643466534554324543210000",
 "style": ""
+},
+"ch3_arrive_01": {
+"s": "eddie",
+"t": "Toolbert's Home Center. Twenty-four hours of things that can fall on you.",
+"d": 4.417,
+"env": "01468965786554478765556653222210000000000136898632489973368987654543212676544334531354213699866666654332110000",
+"style": "dry"
+},
+"ch3_arrive_02": {
+"s": "eddie",
+"t": "Pickles, stay close. Don't touch anything with a plug.",
+"d": 3.542,
+"env": "0137743676544553576433358985323331000000026985335874455677532455555444311258986421111000",
+"style": "tired"
+},
+"ch3_brenda_intro_01": {
+"s": "brenda",
+"t": "Eddie! Sidekick! You came! And you brought the dog!",
+"d": 2.539,
+"env": "026888754589852353244225787654468874478522456765432210000000000",
+"style": "excited"
+},
+"ch3_brenda_intro_02": {
+"s": "eddie",
+"t": "I have a bad feeling about this.",
+"d": 1.921,
+"env": "002688887754798886322257877655466531123234531000",
+"style": ""
+},
+"ch3_brenda_intro_03": {
+"s": "brenda",
+"t": "Love that. Say it again on camera.",
+"d": 2.219,
+"env": "0148985468986223468898764467766654224555433221000000000",
+"style": "excited"
+},
+"ch3_brenda_intro_04": {
+"s": "eddie",
+"t": "I'm not going to say it on camera.",
+"d": 2.262,
+"env": "00026999998435886555666788653235654565422357764322110000",
+"style": "tired"
+},
+"ch3_brenda_intro_05": {
+"s": "brenda",
+"t": "Okay, the plan. Three segments. Paint, power tools, garden center finale. I mix a custom color, I demo the nail gun, and then I repaint a lawn flamingo. It's called Flamingo Fresh Coat. It's going to be huge.",
+"d": 11.265,
+"env": "02674368976532489887521357766687445543431125886311358998533457766532479756655654442256776654444210000000002589997456534786557753368887667865689998678888886347877656677777876642366556668998632477776655543210135544687423689998888732377653236763100123347765334432355432234310000000000",
+"style": ""
+},
+"ch3_brenda_intro_06": {
+"s": "eddie",
+"t": "Flamingo.",
+"d": 1.089,
+"env": "001247998998866776432100000",
+"style": ""
+},
+"ch3_brenda_intro_07": {
+"s": "brenda",
+"t": "Yes? It's a garden center? Why are you making that face?",
+"d": 2.987,
+"env": "01379984322465589877753466544554458998878876434666531125543222221000000000",
+"style": ""
+},
+"ch3_brenda_intro_08": {
+"s": "eddie",
+"t": "No reason.",
+"d": 1.174,
+"env": "01357999853455555444321110000",
+"style": "mumble"
+},
+"ch3_brenda_intro_09": {
+"s": "brenda",
+"t": "Great. Stay out of the shot. Or in it, if you're doing the face.",
+"d": 3.051,
+"env": "0037985323347999985454457877410268889997533322554566654224443222211000000000",
+"style": "excited"
+},
+"ch3_brenda_go": {
+"s": "brenda",
+"t": "Paint aisle, everybody! Follow me if you want to be famous!",
+"d": 3.137,
+"env": "012588657999985368657546765543113799888877423555664222432355443223331000000000",
+"style": "excited"
+},
+"ch3_hint_investigate": {
+"s": "eddie",
+"t": "Paint, then tools, then the flamingo. Somewhere in this building there's a machine. I have to find the machine.",
+"d": 6.401,
+"env": "0147997413798654457887653333577653237877888765553210000000000136899888999877764225897566655676556655665556654211000000001479888534533798876655566555665321100000",
+"style": ""
+},
+"ch3_hint_talk": {
+"s": "eddie",
+"t": "Brenda's the priority. I should stay close to her.",
+"d": 3.115,
+"env": "00268998777644531268877899997543221000000137877644544786323687653343334211000",
+"style": ""
+},
+"ch3_brenda_paint_01": {
+"s": "brenda",
+"t": "Okay, custom color. I'm going for something called Barn Red.",
+"d": 3.862,
+"env": "027963368986223675446753367755432114799878999853455566335653236885313677766555554332100000000000",
+"style": ""
+},
+"ch3_brenda_paint_02": {
+"s": "brenda",
+"t": "The paint shaker takes forever. Perfect. Dead air is content.",
+"d": 3.649,
+"env": "0144479865688546634664332479975665431124785237741111237998767777664322554345542111000000000",
+"style": ""
+},
+"ch3_brenda_paint_03": {
+"s": "brenda",
+"t": "Eleven ninety-nine a gallon. I love a deal.",
+"d": 2.774,
+"env": "025899767999986556777666664336887655432467678755334444332100000000000",
+"style": ""
+},
+"ch3_brenda_tools_01": {
+"s": "brenda",
+"t": "Power tools! This is where it gets real. Okay, camera on the tripod, stand back, and, oh, coin flip. Heads, saw. Tails, nail gun.",
+"d": 6.55,
+"env": "0137998544688753244455568853475333356654431000277447853247999987643478632465334677678853356568852246764213552110000037853456797423577765456766533454332210000000000",
+"style": "excited"
+},
+"ch3_brenda_tools_02": {
+"s": "brenda",
+"t": "Wait. Is it heads, nail gun? Whatever. Flip!",
+"d": 2.603,
+"env": "01489862366675578644688887446876665567678655421256521111000000000",
+"style": ""
+},
+"ch3_brenda_garden_01": {
+"s": "brenda",
+"t": "Garden center! Finale time. Look at this guy. Just look at him.",
+"d": 3.329,
+"env": "01489999755897556531368999986434666655546754434543368776434543443233222211000000000",
+"style": "excited"
+},
+"ch3_brenda_garden_02": {
+"s": "brenda",
+"t": "Flamingo Fresh Coat, take one.",
+"d": 2.262,
+"env": "00147999988889631378643136764213564212455433321000000000",
+"style": ""
+},
+"ch3_brenda_chat_01": {
+"s": "brenda",
+"t": "You're really doing the face, aren't you.",
+"d": 2.347,
+"env": "0147976799887557887775313786543322588753333333221000000000",
+"style": ""
+},
+"ch3_brenda_chat_02": {
+"s": "brenda",
+"t": "I have a great insurance policy. That's why I do this.",
+"d": 3.35,
+"env": "02698888874589866886556788764322478765334554421268632358988876455544322221000000000",
+"style": ""
+},
+"ch3_brenda_chat_03": {
+"s": "brenda",
+"t": "Keep an eye on the dog. He looks like he wants a corn dog.",
+"d": 3.371,
+"env": "002476479657899988877756898776421257887435884356667644311367665455433221100000000000",
+"style": ""
+},
+"ch3_brenda_move_01": {
+"s": "eddie",
+"t": "Brenda, could you maybe shoot the garden center first?",
+"d": 2.987,
+"env": "00269999878742000267546667776445555566412335898544445543332137963113310000",
+"style": ""
+},
+"ch3_brenda_move_02": {
+"s": "brenda",
+"t": "Ooh, out of order. I like that. No. Sequence matters. Paint, tools, flamingo.",
+"d": 4.31,
+"env": "02689999975799888778878852147864468886434532465446776544443321000136874223467765431257776544433210000000000",
+"style": ""
+},
+"ch3_prem_tire": {
+"s": "eddie",
+"t": "The tire.",
+"d": 1.089,
+"env": "002564455579998765432210000",
+"style": "whisper"
+},
+"ch3_prem_oil": {
+"s": "eddie",
+"t": "Oil. It's boiling.",
+"d": 1.451,
+"env": "015899987532444533588887544321110000",
+"style": "whisper"
+},
+"ch3_prem_fan": {
+"s": "eddie",
+"t": "The fan. It's wobbling.",
+"d": 1.729,
+"env": "0037743589988765422454444788986434321110000",
+"style": "whisper"
+},
+"ch3_prem_shoe": {
+"s": "eddie",
+"t": "A shoe. A single shoe.",
+"d": 1.707,
+"env": "002687655689975566434787665333578632211000",
+"style": "whisper"
+},
+"ch3_prem_nail": {
+"s": "eddie",
+"t": "The nail gun.",
+"d": 1.281,
+"env": "00257889998886434799864221100000",
+"style": "whisper"
+},
+"ch3_prem_flamingo": {
+"s": "eddie",
+"t": "The flamingo. It's covered in...",
+"d": 2.177,
+"env": "003653468999998767875321025656423587556567875321110000",
+"style": "whisper"
+},
+"ch3_prem_handle": {
+"s": "eddie",
+"t": "A red handle.",
+"d": 1.302,
+"env": "00027975589974335666543322100000",
+"style": "whisper"
+},
+"ch3_prem_coin": {
+"s": "eddie",
+"t": "A coin. Rolling.",
+"d": 1.537,
+"env": "00025533558998765543468986443221100000",
+"style": "whisper"
+},
+"ch3_prem_cable": {
+"s": "eddie",
+"t": "Sparks. A cable.",
+"d": 1.494,
+"env": "0024424799984234542247886444422110000",
+"style": "whisper"
+},
+"ch3_insp_stack": {
+"s": "eddie",
+"t": "Paint pyramid. Very stable. The cans are just resting on each other's feelings.",
+"d": 5.569,
+"env": "0136898531123799986554321100000124799876665337998644321000000000002652357999998756754576422479864345555666643468755554322456654321111221000",
+"style": "mumble"
+},
+"ch3_insp_shaker": {
+"s": "eddie",
+"t": "Paint shaker. Shakes paint. That's all it does. Probably.",
+"d": 3.435,
+"env": "0136887555689732455322345787434312577642110000002686458998646886531126897653333211000",
+"style": ""
+},
+"ch3_insp_saw": {
+"s": "eddie",
+"t": "Table saw. Blade guard's missing. Sign says \"Safe.\" Signs say a lot of things.",
+"d": 5.355,
+"env": "0137986566445689986434789863348998764336875433211000000014899987435787543334797421110000000001489877665433566555566543213553211111000",
+"style": ""
+},
+"ch3_insp_stepladder": {
+"s": "eddie",
+"t": "A stepladder, leaning on nothing. It looks like it's thinking about it.",
+"d": 4.033,
+"env": "0257885479731479976654445789998766777778853343211000000000267668755688644444336753456546886432210000",
+"style": "mumble"
+},
+"ch3_insp_ladder": {
+"s": "eddie",
+"t": "A rolling library ladder on a rail. Somebody thought that was a good idea.",
+"d": 5.142,
+"env": "02697558999877777787887743455444332346899766666665457886421100000000000147999977776432379974103653246753357766555323455532110000",
+"style": "tired"
+},
+"ch3_insp_nailgun": {
+"s": "eddie",
+"t": "Demo nail gun on an air line. What could happen. Everything could happen.",
+"d": 4.907,
+"env": "00137999999888889876436899865445676434788767654322210000000001377436765788522431100000002798566434665434543568742232110000",
+"style": "mumble"
+},
+"ch3_insp_compressor": {
+"s": "eddie",
+"t": "Air compressor. It hums. It's building up to something.",
+"d": 3.457,
+"env": "01589852366435886555542110366435799853223210000026644347997678786212355677532232110000",
+"style": ""
+},
+"ch3_insp_strip": {
+"s": "eddie",
+"t": "A power strip on the floor. Eight things plugged in. Some of them are damp.",
+"d": 4.801,
+"env": "001553356899987775347522465543223689874321000000278631257776542248864347985321100000001357898855676555533588764211000000",
+"style": "mumble"
+},
+"ch3_insp_fan": {
+"s": "eddie",
+"t": "Ceiling fan display. It's wobbling. Nobody stops the fan.",
+"d": 3.99,
+"env": "002457987765236777765554224654321134333368999843432110000000136898678655654787422223323576532110000",
+"style": ""
+},
+"ch3_insp_tire": {
+"s": "eddie",
+"t": "A rack of tires. Very round. Very ready.",
+"d": 2.838,
+"env": "0268899633444556787532124420000147999767888765443237887665578743211000",
+"style": ""
+},
+"ch3_insp_propane": {
+"s": "eddie",
+"t": "Propane cylinders in a cage. Terrifying. Completely fine.",
+"d": 4.203,
+"env": "003799733676665678876655555455432478653211232000000001478997436887655433224652236752244322577764211100000",
+"style": "dry"
+},
+"ch3_insp_fryer": {
+"s": "eddie",
+"t": "The corn dog cart. The oil's just sitting there being hot.",
+"d": 3.67,
+"env": "0133347999887679987422346642110000000002555799998654334666666776666565434555432368741100000",
+"style": ""
+},
+"ch3_insp_flamingo": {
+"s": "eddie",
+"t": "Lawn flamingos. Pink. Smiling. Suspicious.",
+"d": 3.307,
+"env": "0136899974237877766556532221100036875211000013457999986554432344432476443211221000",
+"style": "mumble"
+},
+"ch3_insp_forklift": {
+"s": "eddie",
+"t": "A forklift, holding a pallet of flamingos three meters in the air. Sure. Why not.",
+"d": 5.718,
+"env": "0277423589842246642111379866777522357987655322477777765666556522356667777556555666554468753211000000000014789998631100000013798777898631101000",
+"style": "tired"
+},
+"ch3_insp_hose": {
+"s": "eddie",
+"t": "Hose reel. Everything is connected to everything.",
+"d": 3.179,
+"env": "0025899876544689986421000000137866763377777753368885213444543487545423432110000",
+"style": ""
+},
+"ch3_insp_sprinkler": {
+"s": "eddie",
+"t": "Sprinkler display. A lot of little nozzles pointing at the floor.",
+"d": 4.246,
+"env": "0024424797434786456752136886421100000000015888999986447887778778875554431125776544554223222468986421110000",
+"style": "mumble"
+},
+"ch3_insp_cart": {
+"s": "eddie",
+"t": "Flatbed cart. Very loud wheels.",
+"d": 2.475,
+"env": "0002589852266313689742100001479988767666665334565542111343100",
+"style": ""
+},
+"ch3_insp_wheelbarrow": {
+"s": "eddie",
+"t": "A wheelbarrow. The tire is very, very round.",
+"d": 2.859,
+"env": "02676679975788754311000124467898766556534798765433576655456654211000000",
+"style": ""
+},
+"ch3_insp_banner": {
+"s": "eddie",
+"t": "\"Mega Sale.\" Held up by a rope and optimism.",
+"d": 3.158,
+"env": "013787567766689875321000000014886577412466665457987422454356621245544332111000",
+"style": ""
+},
+"ch3_insp_tripod": {
+"s": "eddie",
+"t": "Brenda's tripod. Wobbly. Everything about her life is a little wobbly.",
+"d": 4.673,
+"env": "02689987787435778752234542211100000000158999853453221000000269856764566778766665678875322456655666545777763233211000",
+"style": ""
+},
+"ch3_insp_coin": {
+"s": "eddie",
+"t": "A coin. It's just a coin. Right?",
+"d": 2.39,
+"env": "00255334589998765444444675343223589875321100136887421111000",
+"style": "mumble"
+},
+"ch3_insp_handle": {
+"s": "eddie",
+"t": "A red handle on the forklift. \"Emergency lowering.\" I hate that I understand that.",
+"d": 5.739,
+"env": "02686589975334677755554455542225786212332111110000000258988998656755665545789998754321110000000001478644676411356665345544664345665434432110000",
+"style": "mumble"
+},
+"ch3_insp_chain": {
+"s": "eddie",
+"t": "A chain hoist over the aisle. It looks like it should fall. It's not doing anything. Hm.",
+"d": 5.505,
+"env": "01455777888887534899865456544556789865432113654675457753334543213799853100000025655789974247876434798632343110000000268633666677532110000",
+"style": ""
+},
+"ch3_insp_cord": {
+"s": "eddie",
+"t": "An extension cord across the aisle. Somebody's going to trip on it. It's fine. Nobody's tripping.",
+"d": 6.23,
+"env": "02588546634798655665323689976423565433355577754321000000000024689878876654347765423576346764322100001454542378787543221000014789975676544542247742332110000",
+"style": ""
+},
+"ch3_insp_gnome": {
+"s": "eddie",
+"t": "A garden gnome. He seems fine.",
+"d": 2.283,
+"env": "024447999865666789986432100000245665665542367654221100000",
+"style": ""
+},
+"ch3_insp_mower": {
+"s": "eddie",
+"t": "A lawn mower. Off. Thank goodness.",
+"d": 2.475,
+"env": "0025767998876778998643211000025897422136764214774233234542100",
+"style": ""
+},
+"ch3_insp_mixer": {
+"s": "eddie",
+"t": "Paint mixing station. So many colors. So many ways to spill them.",
+"d": 4.246,
+"env": "0136987434785345665433665444332100000002489888863236898753222210014798887766777765323455313798643432110000",
+"style": ""
+},
+"ch3_unplug": {
+"s": "eddie",
+"t": "Unplugged. Good. Nobody plug that back in.",
+"d": 3.094,
+"env": "01478633368997532221368974211000000136898666553223786435663125653124421100000",
+"style": ""
+},
+"ch3_replug": {
+"s": "eddie",
+"t": "I'm not going to plug it back in.",
+"d": 2.155,
+"env": "00014798899974247987654531368655335776422367532110000",
+"style": "mumble"
+},
+"ch3_valve": {
+"s": "eddie",
+"t": "Valve closed. The compressor sounds sad. Good.",
+"d": 3.094,
+"env": "00148998521358987532221000001345753577555555665555444676654321113798532110000",
+"style": ""
+},
+"ch3_safety": {
+"s": "eddie",
+"t": "Safety on. I've never been so proud of a plastic switch.",
+"d": 3.606,
+"env": "001368974236789986421100000013787898777787568863125888876655531257764233335435863112321000",
+"style": ""
+},
+"ch3_brake": {
+"s": "eddie",
+"t": "Brake's on. The ladder's not going anywhere.",
+"d": 2.603,
+"env": "02698546889997531100025777999755655466532378765533466544322110000",
+"style": ""
+},
+"ch3_pin": {
+"s": "eddie",
+"t": "Handle pinned. Hydraulics, please behave.",
+"d": 2.838,
+"env": "0025898767621378754321000001378645899876435421245554324434665321110000",
+"style": ""
+},
+"ch3_sign": {
+"s": "eddie",
+"t": "Wet floor sign. The universe respects a wet floor sign. Right?",
+"d": 4.182,
+"env": "01379731125899865456653221100000000014668998567864324554247533455566311125787654456543322112578742100000",
+"style": ""
+},
+"ch3_took_tire": {
+"s": "eddie",
+"t": "Nobody needs this tire more than I do.",
+"d": 2.497,
+"env": "01479976798754567876444335764346886544346776556666533442110000",
+"style": ""
+},
+"ch3_took_coin": {
+"s": "eddie",
+"t": "I have the coin. The coin is mine now.",
+"d": 2.646,
+"env": "001577678743432358986421100002433579987766656777776554443221110000",
+"style": ""
+},
+"ch3_took_cans": {
+"s": "eddie",
+"t": "I'm moving the paint. Nobody is standing under a pyramid on my watch.",
+"d": 4.63,
+"env": "0158998778865666542234775311110000000000147999767876533578645777765555554565312356787655445555555545799741112453100",
+"style": "mumble"
+},
+"ch3_c_coin": {
+"s": "brenda",
+"t": "Heads! …Tails! Whichever! Rolling!",
+"d": 2.219,
+"env": "0024898532236899985335434687666557886544333310000000000",
+"style": ""
+},
+"ch3_c_spark": {
+"s": "brenda",
+"t": "Ooh, did that spark? Keep rolling. Keep rolling!",
+"d": 2.582,
+"env": "0258877678743337998521123532479976655423432367754333310000000000",
+"style": "excited"
+},
+"ch3_c_hiss": {
+"s": "brenda",
+"t": "Is the compressor supposed to do that?",
+"d": 2.326,
+"env": "0278556557974368854676444336886323457865676542100000000000",
+"style": ""
+},
+"ch3_c_nail": {
+"s": "brenda",
+"t": "Whoa! Free content!",
+"d": 1.579,
+"env": "025899974236643478764345543111100000000",
+"style": "excited"
+},
+"ch3_c_ladder": {
+"s": "brenda",
+"t": "Uh. Eddie? The ladder is doing a thing.",
+"d": 2.369,
+"env": "02688547877665313677899867765334665554211343332100000000000",
+"style": ""
+},
+"ch3_c_sprinkler": {
+"s": "brenda",
+"t": "Okay. Who turned on the sprinklers.",
+"d": 2.305,
+"env": "027974236998754565335788778865432246533343332221000000000",
+"style": ""
+},
+"ch3_c_slip": {
+"s": "brenda",
+"t": "Whoa, whoa, WHOA!",
+"d": 1.323,
+"env": "015898755799854466544431000000000",
+"style": "panic"
+},
+"ch3_c_die": {
+"s": "brenda",
+"t": "Not the flamingo!",
+"d": 1.43,
+"env": "01478545336899988766665443210000000",
+"style": "panic"
+},
+"ch3_c_pickles_coin": {
+"s": "eddie",
+"t": "Pickles! Drop the coin! That's not a treat!",
+"d": 2.326,
+"env": "0147634786433489633434789754321136874456766433455421000000",
+"style": "panic"
+},
+"ch3_c_pickles_corn": {
+"s": "eddie",
+"t": "He can smell the corn dog cart. He's going to eat the hot dog.",
+"d": 4.353,
+"env": "002675478888767899886453223689877667888742235774211100000000003686579998775225642135435886212479975321111000",
+"style": "tired"
+},
+"ch3_c_pickles_corn2": {
+"s": "eddie",
+"t": "Pickles. Leave the hot dog.",
+"d": 1.835,
+"env": "013773478654543467755764478741147975321110000",
+"style": ""
+},
+"ch3_saved_brenda_01": {
+"s": "brenda",
+"t": "Okay. That was terrifying. …Did you get all that?",
+"d": 2.561,
+"env": "0277337998787565434698623676666543555665788765665432111000000000",
+"style": "panic"
+},
+"ch3_saved_brenda_02": {
+"s": "brenda",
+"t": "I got all that! I got ALL of that! That's a million views right there!",
+"d": 3.371,
+"env": "014557988897679875345468878887534653113544689998888863357765445642123322110000000000",
+"style": "excited"
+},
+"ch3_saved_brenda_03": {
+"s": "brenda",
+"t": "You knew, didn't you. You totally knew. Eddie, you're my favorite sidekick.",
+"d": 3.542,
+"env": "0137999986676655676545434676677766654212798776677886422587545434578642122210110000000000",
+"style": ""
+},
+"ch3_flamingo_01": {
+"s": "brenda",
+"t": "Okay okay okay. Flamingo Fresh Coat! Everybody look at this!",
+"d": 3.713,
+"env": "02553479889742467887422455432101479998788423775421367531278677578755555422212322332100000000",
+"style": "excited"
+},
+"ch3_flamingo_02": {
+"s": "eddie",
+"t": "...The flamingo is red.",
+"d": 1.601,
+"env": "0124764358977877656655444346897421110000",
+"style": "tired"
+},
+"ch3_flamingo_03": {
+"s": "brenda",
+"t": "Barn Red. Eleven ninety-nine a gallon. Wait. Did you think it was...",
+"d": 3.798,
+"env": "0279999877899853357888678888765456666665533566655443225886310123344335544323443233431000000000",
+"style": ""
+},
+"ch3_flamingo_04": {
+"s": "eddie",
+"t": "I thought it was blood.",
+"d": 1.494,
+"env": "0001589743589986445433578986422110000",
+"style": "mumble"
+},
+"ch3_flamingo_05": {
+"s": "brenda",
+"t": "Oh my gosh. That is a fantastic thumbnail.",
+"d": 2.561,
+"env": "0269999975479975433677655335654346543332125665543322210000000000",
+"style": "excited"
+},
+"ch3_flamingo_paint_01": {
+"s": "brenda",
+"t": "Somebody already painted him for me! That's the nicest thing anyone's done!",
+"d": 3.841,
+"env": "012589888877889998763124665444554224555543100266322378997544432366435666555422465322110000000000",
+"style": "excited"
+},
+"ch3_flamingo_paint_02": {
+"s": "eddie",
+"t": "It was paint. All that, and it was paint.",
+"d": 2.475,
+"env": "0025866763136886531100158997579987533456434542123565321111000",
+"style": "tired"
+},
+"ch3_flamingo_dead": {
+"s": "eddie",
+"t": "It was paint. It was just paint.",
+"d": 2.027,
+"env": "00268788522478987632245656557864212468864221110000",
+"style": "sincere"
+},
+"ch3_dead_01": {
+"s": "eddie",
+"t": "Brenda? Brenda!",
+"d": 1.174,
+"env": "01489986676423688765433210000",
+"style": "panic"
+},
+"ch3_dead_02": {
+"s": "eddie",
+"t": "No. No no no. She was right there.",
+"d": 2.497,
+"env": "01368999976678877876677898632100025665565579874103675322110000",
+"style": "mumble"
+},
+"ch3_dead_03": {
+"s": "eddie",
+"t": "Her hand's still holding the phone. It's still recording.",
+"d": 3.563,
+"env": "00258877888876565347753358865565542136887643211000000002664664479865552123689864321110000",
+"style": "grim"
+},
+"ch3_dale_arrive": {
+"s": "dale",
+"t": "EDDIE. Eddie, did you see that?",
+"d": 1.174,
+"env": "01368998766566556566531110000",
+"style": "panic"
+},
+"ch3_dale_01": {
+"s": "dale",
+"t": "The coin. The power strip. The hose. The tire. It was a MACHINE!",
+"d": 2.475,
+"env": "0026999986689854652357888753333468766543344554433322210000000",
+"style": "excited"
+},
+"ch3_dale_02": {
+"s": "dale",
+"t": "I HAVE BEEN WAITING MY ENTIRE LIFE TO BE RIGHT ABOUT SOMETHING.",
+"d": 2.347,
+"env": "0134579999999987656887777642123445666545444432222110000000",
+"style": "excited"
+},
+"ch3_dale_03": {
+"s": "eddie",
+"t": "I never said you were right about anything.",
+"d": 2.603,
+"env": "00026899997667777887434555446645799876555776411478763223321100000",
+"style": "tired"
+},
+"ch3_dale_04": {
+"s": "dale",
+"t": "You didn't have to. The universe did.",
+"d": 1.835,
+"env": "013579999996325786556777645664433454311100000",
+"style": ""
+},
+"ch3_dale_05": {
+"s": "dale",
+"t": "I'm getting a bigger board.",
+"d": 1.067,
+"env": "01257998889865676532110000",
+"style": "excited"
+},
+"ch3_dale_dead_01": {
+"s": "dale",
+"t": "The footage is still rolling.",
+"d": 1.43,
+"env": "00026998567644787667987543222100000",
+"style": "grim"
+},
+"ch3_dale_dead_02": {
+"s": "dale",
+"t": "I got it all. From the entrance. I'm sorry, man. I'm so sorry.",
+"d": 3.243,
+"env": "012248999899974236888863344322221135775468999877665544443345543455543321100000000",
+"style": ""
+},
+"ch3_dale_tiff_01": {
+"s": "dale",
+"t": "Tiffany's doing a pop-up Saturday. At the community center. It's a wellness thing.",
+"d": 4.097,
+"env": "014534799742489998634886357533568765555443211222323579998875445543344322234545666554422222211000000000",
+"style": ""
+},
+"ch3_dale_tiff_02": {
+"s": "dale",
+"t": "There will be smoothies.",
+"d": 1.11,
+"env": "013676786447985543221100000",
+"style": ""
+},
+"ch3_dale_tiff_03": {
+"s": "eddie",
+"t": "There will be smoothies.",
+"d": 1.515,
+"env": "0014898788435554443467764332211221000",
+"style": "mumble"
+},
+"ch3_end_01": {
+"s": "eddie",
+"t": "Tiffany's next. Or I think Tiffany's next.",
+"d": 2.987,
+"env": "01258744666544578863123321000000015899985346532247634554434566521123210000",
+"style": "tired"
+},
+"ch3_end_02": {
+"s": "eddie",
+"t": "I don't know what I'm doing. But I did it. A little.",
+"d": 3.179,
+"env": "0001589986568877777766545888643221000000036789875335898654100013555788542110000",
+"style": "mumble"
+},
+"ch3_end_dead": {
+"s": "eddie",
+"t": "Tiffany is next. I'm not going to be late.",
+"d": 3.051,
+"env": "0135874366665555456898631245310000000147877898534797653333444446875311110000",
+"style": "grim"
+},
+"ch4_arrive_01": {
+"s": "eddie",
+"t": "Riverbend Community Recreation Center. Home of Zumba, pickleball, and now, alignment.",
+"d": 6.059,
+"env": "0147986765798763235677887655557631245677676544565432333210000000000001379999875566789876775310013652246546777653356678998754321000025777898764321111000",
+"style": "dry"
+},
+"ch4_arrive_02": {
+"s": "eddie",
+"t": "Pickles. That's a candle. Do not lick the candle.",
+"d": 3.201,
+"env": "01378424887544434775565322467777543311000000258899985346731133223567654332110000",
+"style": "tired"
+},
+"ch4_tiff_greet_01": {
+"s": "tiffany",
+"t": "Eddie! Namaste! I've forgiven you. It was a whole process.",
+"d": 3.158,
+"env": "015888889998889876543323773235568877765433100002677775237996313675333322332000",
+"style": "bright"
+},
+"ch4_tiff_greet_02": {
+"s": "eddie",
+"t": "I'm here because I think you're in danger.",
+"d": 2.497,
+"env": "01589864589975543477642025763237742246666644588777654433210000",
+"style": ""
+},
+"ch4_tiff_greet_03": {
+"s": "tiffany",
+"t": "I'm not in danger. I changed my energy.",
+"d": 2.625,
+"env": "01589999987897678787544433200002575356789874368754566532332210000",
+"style": "bright"
+},
+"ch4_tiff_greet_04": {
+"s": "tiffany",
+"t": "See the crystal cluster? Every stone is tuned to me. I'm insured by the universe.",
+"d": 4.673,
+"env": "00147766324763357422576322455431000026876776446887765322478643343322100000002699998545688754787655689864443222221000",
+"style": ""
+},
+"ch4_tiff_greet_05": {
+"s": "eddie",
+"t": "That's not how insurance works.",
+"d": 2.027,
+"env": "00258854578986567876666555689986433347642113331000",
+"style": "tired"
+},
+"ch4_tiff_greet_06": {
+"s": "tiffany",
+"t": "It's a framework, Eddie.",
+"d": 1.451,
+"env": "025667742379999987522355433332100000",
+"style": "bright"
+},
+"ch4_tiff_repeat_01": {
+"s": "tiffany",
+"t": "Grab a smoothie. It's a cold-pressed reset.",
+"d": 2.646,
+"env": "003799877654579986444332100255564224798863236643224433455421000000",
+"style": ""
+},
+"ch4_tiff_repeat_02": {
+"s": "tiffany",
+"t": "Keynote is at seven. Breathwork after. Don't be late to your own transformation.",
+"d": 4.737,
+"env": "0014799999852366675235678744433310000000269742366347863113443310000027965788898633457755788743566542256665443322321000",
+"style": ""
+},
+"ch4_tiff_repeat_03": {
+"s": "tiffany",
+"t": "Your energy is very loud. I love that for you.",
+"d": 2.817,
+"env": "0037853699975566546644777665555544332100001588888623663112443332221000",
+"style": "bright"
+},
+"ch4_gus_intro_01": {
+"s": "eddie",
+"t": "Gus?",
+"d": 0.811,
+"env": "01247987432221100000",
+"style": ""
+},
+"ch4_gus_intro_02": {
+"s": "gus",
+"t": "Eddie.",
+"d": 0.897,
+"env": "0025799878887654310000",
+"style": "deadpan"
+},
+"ch4_gus_intro_03": {
+"s": "eddie",
+"t": "What are you doing here?",
+"d": 1.409,
+"env": "01489975455435798765432245432110000",
+"style": ""
+},
+"ch4_gus_intro_04": {
+"s": "gus",
+"t": "Free smoothie.",
+"d": 1.451,
+"env": "000125898776422358999875665432110000",
+"style": "deadpan"
+},
+"ch4_gus_intro_05": {
+"s": "gus",
+"t": "Also, this place has fourteen violations.",
+"d": 3.777,
+"env": "0147998632368887531248863200147876532100257742100268974112588986689877766677764333443222211000",
+"style": "deadpan"
+},
+"ch4_gus_intro_06": {
+"s": "eddie",
+"t": "Fourteen?",
+"d": 1.046,
+"env": "00013799743456654322110000",
+"style": ""
+},
+"ch4_gus_intro_07": {
+"s": "gus",
+"t": "Fifteen. There's a new one.",
+"d": 2.155,
+"env": "00013785211368887753100269976689888999865676533211000",
+"style": "deadpan"
+},
+"ch4_gus_talk_01": {
+"s": "eddie",
+"t": "Gus, I need you to keep an eye on things.",
+"d": 2.561,
+"env": "0026998656531025899986446653235545765568987666653247632111221000",
+"style": ""
+},
+"ch4_gus_talk_02": {
+"s": "gus",
+"t": "I already am.",
+"d": 1.537,
+"env": "00258986468987788666642147765432110000",
+"style": "deadpan"
+},
+"ch4_gus_talk_03": {
+"s": "eddie",
+"t": "That's what I was afraid of. And also relieved by.",
+"d": 3.606,
+"env": "003798545468888865556642236898875553211000000000268878987678755665566555321378864321110000",
+"style": "mumble"
+},
+"ch4_gus_line_01": {
+"s": "gus",
+"t": "Cord's a trip hazard.",
+"d": 1.835,
+"env": "001236899865663334785211246777654565443211000",
+"style": "deadpan"
+},
+"ch4_gus_line_02": {
+"s": "gus",
+"t": "Exit's blocked. Was.",
+"d": 2.027,
+"env": "00268987668852221258999886421110125899865432210000",
+"style": "deadpan"
+},
+"ch4_gus_line_03": {
+"s": "gus",
+"t": "That's a code violation.",
+"d": 2.177,
+"env": "001489852256412347999863247877777666777643334433221000",
+"style": "deadpan"
+},
+"ch4_gus_line_04": {
+"s": "gus",
+"t": "Wet floor.",
+"d": 1.302,
+"env": "01368998411112479998876543210000",
+"style": "deadpan"
+},
+"ch4_gus_line_05": {
+"s": "gus",
+"t": "Who put that there.",
+"d": 1.579,
+"env": "001378523685213688753235888765433211000",
+"style": "deadpan"
+},
+"ch4_gus_line_06": {
+"s": "gus",
+"t": "Extension cords in series. Nope.",
+"d": 3.563,
+"env": "01376323322699975457887422368999875445788642236887776544322210000000015899998753101100000",
+"style": "deadpan"
+},
+"ch4_gus_line_07": {
+"s": "gus",
+"t": "That's not rated for that.",
+"d": 2.155,
+"env": "00258985223479998632457899987775311267668764321111000",
+"style": "deadpan"
+},
+"ch4_gag_strip_01": {
+"s": "eddie",
+"t": "Overloaded strip! I'm on it, I'm...",
+"d": 2.006,
+"env": "02688677789865446635885100002578788765554321110000",
+"style": "panic"
+},
+"ch4_gag_strip_02": {
+"s": "eddie",
+"t": "Gus.",
+"d": 0.854,
+"env": "012348987532222110000",
+"style": "tired"
+},
+"ch4_gag_strip_03": {
+"s": "gus",
+"t": "What?",
+"d": 0.854,
+"env": "013689999874212111000",
+"style": "deadpan"
+},
+"ch4_gag_strip_04": {
+"s": "eddie",
+"t": "Nothing. Keep doing literally everything you're doing.",
+"d": 3.009,
+"env": "014798535764210013552126888766668877766542258744542355555543258874321100000",
+"style": ""
+},
+"ch4_gag_candle_01": {
+"s": "gus",
+"t": "Open flame. Curtains.",
+"d": 2.39,
+"env": "00258985347887521136887776655431000124899633676554332221000",
+"style": "deadpan"
+},
+"ch4_gag_candle_02": {
+"s": "eddie",
+"t": "...Thank you.",
+"d": 1.11,
+"env": "002565458997422577543221000",
+"style": "mumble"
+},
+"ch4_gag_steam_01": {
+"s": "gus",
+"t": "Leaky valve.",
+"d": 1.366,
+"env": "0136999852257875688877765432110000",
+"style": "deadpan"
+},
+"ch4_gag_steam_02": {
+"s": "eddie",
+"t": "I was going to do that.",
+"d": 1.537,
+"env": "00148877744799876543467765565432100000",
+"style": ""
+},
+"ch4_gag_steam_03": {
+"s": "gus",
+"t": "I know.",
+"d": 1.089,
+"env": "014788999999988765321100000",
+"style": "deadpan"
+},
+"ch4_gag_tread_01": {
+"s": "gus",
+"t": "Belt's frayed. Out of service.",
+"d": 2.411,
+"env": "001358999852122112589888777531014797533247999865543221110000",
+"style": "deadpan"
+},
+"ch4_gag_stage_01": {
+"s": "gus",
+"t": "Stage pin's loose.",
+"d": 1.857,
+"env": "0023323799976543101379888764467898653221110000",
+"style": "deadpan"
+},
+"ch4_gag_stage_02": {
+"s": "eddie",
+"t": "Of course it is.",
+"d": 1.409,
+"env": "02675223479997544455677643222221000",
+"style": "tired"
+},
+"ch4_gag_speaker_01": {
+"s": "gus",
+"t": "Speaker's on a wobbly stand. Fixed.",
+"d": 3.222,
+"env": "01343113786337997545799876789997567775321257877655543100000000379742112221110000",
+"style": "deadpan"
+},
+"ch4_gag_more_01": {
+"s": "eddie",
+"t": "He's done four already. I'm just following him.",
+"d": 3.222,
+"env": "00136664469986322589887666556898532100000000268866776422378898666443322332110000",
+"style": "mumble"
+},
+"ch4_gag_more_02": {
+"s": "eddie",
+"t": "The safest person in this building is a seventy-two-year-old retired safety inspector.",
+"d": 5.611,
+"env": "01355679973366310369854555555432257754332100000000002577886545798776434432235665467767899764335532346887654334578631123444333237731122110000",
+"style": ""
+},
+"ch4_insp_candles": {
+"s": "eddie",
+"t": "Candles. Forty of them. Next to a curtain. This is a fire with a good publicist.",
+"d": 5.569,
+"env": "0013799986666443211379987666542234322100002588644434664223588522321100000000000037876666763113789987655544444324775212356444444432233210000",
+"style": "mumble"
+},
+"ch4_insp_crystals": {
+"s": "eddie",
+"t": "A hanging crystal cluster. On a ribbon. A satin ribbon.",
+"d": 3.521,
+"env": "0145568988775335775345323576553343210125787557985553210000002576678974356556875332110000",
+"style": ""
+},
+"ch4_insp_winch": {
+"s": "eddie",
+"t": "A winch for lowering the crystals. Tiffany calls it \"descending the abundance.\"",
+"d": 4.694,
+"env": "015777997554236756789988776543247763233211121100000000135874478753347999864565212455557876655555653479875432112321000",
+"style": ""
+},
+"ch4_insp_blender": {
+"s": "eddie",
+"t": "The smoothie bar blender. It's very loud and very proud of itself.",
+"d": 4.331,
+"env": "014787579987664479988643579986432110000000002775544899887567898876433234555677653124666543323568852111110000",
+"style": ""
+},
+"ch4_insp_strip": {
+"s": "eddie",
+"t": "An extension cord plugged into a power strip plugged into an extension cord.",
+"d": 5.014,
+"env": "01479854543699876666533577665311137986457644576312357998655532354100000000000137998644775456776533542378655544323565321110000",
+"style": "mumble"
+},
+"ch4_insp_speaker": {
+"s": "eddie",
+"t": "Tall speaker on a folding stand. What could go wrong.",
+"d": 3.371,
+"env": "013589987664235532356666531368986555555445543221100000002674346447986568986421110000",
+"style": ""
+},
+"ch4_insp_stage": {
+"s": "eddie",
+"t": "A folding stage. It folds. That's the whole point. That's also the problem.",
+"d": 4.715,
+"env": "014533699986676664368765422112100026632137998742111221013785445655898421368853210014874589976566654322467875332110000",
+"style": ""
+},
+"ch4_insp_steam": {
+"s": "eddie",
+"t": "Steam room valve. The word \"steam\" is doing a lot of work here.",
+"d": 3.947,
+"env": "00244468887778887558999853211100000000003676899756774257887654444235665665678765335885211233211000",
+"style": ""
+},
+"ch4_insp_sauna": {
+"s": "eddie",
+"t": "Sauna. Eight people sweating on purpose.",
+"d": 2.497,
+"env": "00147999987531027974123553245455447987666555432378622222321000",
+"style": ""
+},
+"ch4_insp_tread": {
+"s": "eddie",
+"t": "Treadmills. Speed goes to twelve. I don't know why anyone needs twelve.",
+"d": 4.417,
+"env": "00247854676543466422465554236886542333334898531110000000000269986578986788753577766666665445422368974211000000",
+"style": ""
+},
+"ch4_insp_gong": {
+"s": "eddie",
+"t": "A gong. A decorative gong. Decorative gongs are not for standing under.",
+"d": 4.843,
+"env": "0145458999987542101464358632444576322589875311100000000000137732454587422479987655567667764223467545665555434565332110000",
+"style": ""
+},
+"ch4_insp_weights": {
+"s": "eddie",
+"t": "Dumbbell rack. Everything's just sitting on everything.",
+"d": 3.222,
+"env": "01589866898755799974110000000002785565235655323665555677655554335544432232110000",
+"style": ""
+},
+"ch4_insp_mat": {
+"s": "eddie",
+"t": "Yoga mats. Rolled up. Perfectly harmless. Nice.",
+"d": 3.222,
+"env": "01379976787788752123310013799767984100013775542355446887654333433467652113431000",
+"style": ""
+},
+"ch4_insp_fountain": {
+"s": "eddie",
+"t": "A water feature. On an extension cord. In a room full of candles. This is a lawsuit.",
+"d": 5.035,
+"env": "02688999863245434542110002799874355337976555432355432100001268866899852137876421236777543211221136654444565546898754443210000",
+"style": ""
+},
+"ch4_insp_pool": {
+"s": "eddie",
+"t": "A plunge pool. Cold. Small. Angry.",
+"d": 2.561,
+"env": "0144248998763136876432100001258998643576579998643467754332110000",
+"style": ""
+},
+"ch4_insp_mirror": {
+"s": "eddie",
+"t": "A wall of mirrors. I look worried. Fair.",
+"d": 2.454,
+"env": "0267789999864578898653223543676642248987543211124787521110000",
+"style": ""
+},
+"ch4_insp_key": {
+"s": "eddie",
+"t": "Treadmill safety key. A little red clip on a lanyard. The most important object in the building.",
+"d": 6.123,
+"env": "012588645665667786422233212345432100000000000267789986458985222367522455555677776543221110000001479998743465322588545422589853355421245543357653321100000",
+"style": ""
+},
+"ch4_winch": {
+"s": "eddie",
+"t": "Lowering the chandelier. Please be worth it.",
+"d": 2.603,
+"env": "01368999987666677677665556664311000001247655542245468863222100000",
+"style": ""
+},
+"ch4_keynote_01": {
+"s": "tiffany",
+"t": "Welcome to the first ever Aligned Living Kickoff!",
+"d": 2.987,
+"env": "01589743589864453214776545542000158867998777777764357656653232233321110000",
+"style": "bright"
+},
+"ch4_keynote_02": {
+"s": "tiffany",
+"t": "We're not here to be safe. We are here to be aligned.",
+"d": 2.859,
+"env": "01589999985213676334445555654321100001479863368754446776567764322210000",
+"style": "bright"
+},
+"ch4_keynote_03": {
+"s": "tiffany",
+"t": "The universe doesn't hurt people who are open. It just... moves things.",
+"d": 4.118,
+"env": "015789998678864347766532368521245324655678743686323333321024323588543211000000268998655334543333221000",
+"style": ""
+},
+"ch4_keynote_04": {
+"s": "tiffany",
+"t": "Repeat after me. I am the flow.",
+"d": 2.134,
+"env": "01564247878863246665554200025788899632357764332210000",
+"style": ""
+},
+"ch4_c_blender": {
+"s": "stranger",
+"t": "Oops! Sorry! That's mine!",
+"d": 1.43,
+"env": "02786334447999886575334677654321000",
+"style": "panic"
+},
+"ch4_c_spark": {
+"s": "tiffany",
+"t": "Is that... normal?",
+"d": 1.366,
+"env": "0268864687664212589887654332100000",
+"style": ""
+},
+"ch4_c_feedback": {
+"s": "tiffany",
+"t": "The speaker's doing a thing!",
+"d": 1.494,
+"env": "0256543686347974479877522565433210000",
+"style": "panic"
+},
+"ch4_c_curtain": {
+"s": "stranger",
+"t": "Fire! Fire! A small one!",
+"d": 1.451,
+"env": "002689987642379987666657887665421000",
+"style": "panic"
+},
+"ch4_c_sprinkler": {
+"s": "crowd",
+"t": "The sprinklers!",
+"d": 1.025,
+"env": "0146644798678886553210000",
+"style": "panic"
+},
+"ch4_c_chandelier": {
+"s": "eddie",
+"t": "The chandelier! Tiffany, MOVE!",
+"d": 1.835,
+"env": "014678999888877887531125743566656776421110000",
+"style": "panic"
+},
+"ch4_c_tiff_no": {
+"s": "tiffany",
+"t": "I'm holding space. Space is held.",
+"d": 2.305,
+"env": "025898668768985334554332211001223688643453225775333210000",
+"style": ""
+},
+"ch4_c_tiff_dead": {
+"s": "tiffany",
+"t": "This isn't in the...",
+"d": 1.238,
+"env": "026753258866864566555443100000",
+"style": "panic"
+},
+"ch4_tiff_shaken_01": {
+"s": "tiffany",
+"t": "That was... a very intense flow.",
+"d": 1.985,
+"env": "0269755898754312676899889975346765323565333210000",
+"style": ""
+},
+"ch4_tiff_shaken_02": {
+"s": "tiffany",
+"t": "I'm going to hold space. Somewhere else.",
+"d": 2.433,
+"env": "000269986898876446653332356433222100012479998766543222211000",
+"style": ""
+},
+"ch4_tiff_shaken_03": {
+"s": "tiffany",
+"t": "Maybe the universe isn't a customer.",
+"d": 2.241,
+"env": "01479987776667899744665433210377678642466433344332210000",
+"style": ""
+},
+"ch4_tiff_saved_01": {
+"s": "tiffany",
+"t": "Eddie. You lowered my chandelier.",
+"d": 1.878,
+"env": "0268777642013787899887567765556765433332210000",
+"style": "bright"
+},
+"ch4_tiff_saved_02": {
+"s": "tiffany",
+"t": "Okay, that was a boundary. I'll let it go.",
+"d": 2.667,
+"env": "026985324688755774478985477777544333310000157887887423676433210000",
+"style": ""
+},
+"ch4_tiff_saved_03": {
+"s": "tiffany",
+"t": "Thank you. Don't tell anyone I said that.",
+"d": 2.326,
+"env": "0002799852368764211378533478865799877777666664344332100000",
+"style": ""
+},
+"ch4_diagram_01": {
+"s": "eddie",
+"t": "She's alive. She shouldn't be alive.",
+"d": 2.283,
+"env": "001356776887799998753211123456776543577668887642211100000",
+"style": "tired"
+},
+"ch4_diagram_02": {
+"s": "eddie",
+"t": "It's not the order. It's not any order.",
+"d": 2.646,
+"env": "025656679962245347999754322100000255556799876765436898754321100000",
+"style": "mumble"
+},
+"ch4_diagram_03": {
+"s": "eddie",
+"t": "It moves when I move it.",
+"d": 1.686,
+"env": "027744679998654345445678655677643332110000",
+"style": "mumble"
+},
+"ch4_ml_tread_01": {
+"s": "marco",
+"t": "Speed twelve! Speed twelve! Beat that!",
+"d": 2.006,
+"env": "01223798656898865336875479987667865676532100000000",
+"style": "shout"
+},
+"ch4_ml_tread_02": {
+"s": "luis",
+"t": "Speed twelve and a half!",
+"d": 1.793,
+"env": "01223699853333699986434554445532110000000000",
+"style": "shout"
+},
+"ch4_ml_tread_03": {
+"s": "marco",
+"t": "That's not a setting!",
+"d": 1.409,
+"env": "01378854689999864478877665421000000",
+"style": "shout"
+},
+"ch4_ml_tread_04": {
+"s": "luis",
+"t": "It is if I press the button twice!",
+"d": 2.219,
+"env": "0146898889757963136764324544774345421256532122110000000",
+"style": "shout"
+},
+"ch4_ml_run_01": {
+"s": "marco",
+"t": "It won't stop! It won't STOP!",
+"d": 1.729,
+"env": "0269999875347887656678986534776432100000000",
+"style": "panic"
+},
+"ch4_ml_run_02": {
+"s": "luis",
+"t": "That's ten! That's speed ten!",
+"d": 1.878,
+"env": "0257533469999998533422467652124543222110000000",
+"style": "shout"
+},
+"ch4_ml_run_03": {
+"s": "eddie",
+"t": "The safety key! Pull the red key!",
+"d": 2.006,
+"env": "01355689632342235653211003786666896321235532100000",
+"style": "panic"
+},
+"ch4_ml_saved_01": {
+"s": "marco",
+"t": "That makes four.",
+"d": 1.153,
+"env": "0148988898754247987654310000",
+"style": ""
+},
+"ch4_ml_saved_02": {
+"s": "luis",
+"t": "Doesn't count. You didn't stop it. He did.",
+"d": 2.518,
+"env": "01587787437998521355677765546996312211000013435653211000000000",
+"style": ""
+},
+"ch4_ml_saved_03": {
+"s": "marco",
+"t": "I was falling toward a wall.",
+"d": 1.878,
+"env": "0037998632368889998557899887888765443200000000",
+"style": ""
+},
+"ch4_ml_saved_04": {
+"s": "luis",
+"t": "Doesn't count.",
+"d": 1.153,
+"env": "0027988886324776532110000000",
+"style": ""
+},
+"ch4_ml_hit_01": {
+"s": "marco",
+"t": "AAAAA...",
+"d": 0.751,
+"env": "014899988776521000",
+"style": "panic"
+},
+"ch4_ml_hit_02": {
+"s": "luis",
+"t": "That counts! That one counts!",
+"d": 1.814,
+"env": "015641379998643479866776334543211222100000000",
+"style": "shout"
+},
+"ch4_ml_hit_03": {
+"s": "marco",
+"t": "Ow. Yeah. That counts.",
+"d": 1.558,
+"env": "01379999987778876447988764333310000000",
+"style": ""
+},
+"ch4_gus_end_01": {
+"s": "gus",
+"t": "Gong's loose.",
+"d": 1.345,
+"env": "001358999877754456787643211110000",
+"style": "deadpan"
+},
+"ch4_gus_end_02": {
+"s": "gus",
+"t": "Told you.",
+"d": 1.195,
+"env": "01246899987545688876543211000",
+"style": "deadpan"
+},
+"ch4_tiff_dead_01": {
+"s": "eddie",
+"t": "Tiffany! Tiffany?",
+"d": 1.217,
+"env": "014885468876434687555432210000",
+"style": "panic"
+},
+"ch4_tiff_dead_02": {
+"s": "eddie",
+"t": "The chandelier. I should have... the ribbon. I should have...",
+"d": 3.478,
+"env": "01478778998777677776546765568855666421100000000147768986677532467655567644555421110000",
+"style": "mumble"
+},
+"ch4_tiff_dead_03": {
+"s": "gus",
+"t": "Told her about the ribbon.",
+"d": 2.091,
+"env": "0133479998753368874455468885213665689855665433210000",
+"style": "deadpan"
+},
+"ch4_end_01": {
+"s": "eddie",
+"t": "The diagram's wrong. The order's wrong. It goes for whoever's available.",
+"d": 4.566,
+"env": "014656999985457766543479987532110000002456898667654479986421000000014632589987664443246898644555544677654222210000",
+"style": "tired"
+},
+"ch4_end_02": {
+"s": "eddie",
+"t": "Gus, don't go near a hazard, okay?",
+"d": 2.198,
+"env": "002589766523786458887776545689865544333586323553210000",
+"style": ""
+},
+"ch4_end_03": {
+"s": "gus",
+"t": "That's my job.",
+"d": 1.622,
+"env": "0025898522247998886323588777665432110000",
+"style": "deadpan"
+},
+"ch4_graves_call_01": {
+"s": "graves",
+"t": "Mister Mercer. I have been thinking. I would like to come and see you.",
+"d": 9.226,
+"env": "00025899998654421135677888887543333333322111000000000000000000000000002588899998788421268877533222478776421234443321000000000000000000000000000000000001245689999975689997421233211235787654432112466566556765444443211000000000000000",
+"style": "theatrical"
+},
+"ch4_graves_call_02": {
+"s": "eddie",
+"t": "Why?",
+"d": 0.769,
+"env": "0125899875433210000",
+"style": ""
+},
+"ch4_graves_call_03": {
+"s": "graves",
+"t": "I have a theory. It involves your dog.",
+"d": 6.079,
+"env": "0002565789998644788534422221136887654444321111000000000000000000000000000000000012336875458998634799986543223442113666542114787643332110000000000000000",
+"style": "theatrical"
+},
+"ch4_graves_call_04": {
+"s": "eddie",
+"t": "What?",
+"d": 0.726,
+"env": "002479975222210000",
+"style": ""
+},
+"ch4_graves_call_05": {
+"s": "graves",
+"t": "Tomorrow. I will bring sandwiches.",
+"d": 5.053,
+"env": "001233577899999998654444332111100000000000000000000001355689987897531258997655431112456787666433331123333222210000000000000000",
+"style": "theatrical"
+},
+"ch4_brenda_hi_01": {
+"s": "brenda",
+"t": "Sidekick! Great turnout!",
+"d": 1.771,
+"env": "00147997336533358973223566655443211000000000",
+"style": "excited"
+},
+"ch4_brenda_hi_02": {
+"s": "brenda",
+"t": "I'm live-streaming the flow. Don't look at the camera.",
+"d": 2.795,
+"env": "026899999975443356777765421368876433686455333222235544433210000000000",
+"style": ""
+},
+"ch5_knock_01": {
+"s": "graves",
+"t": "Mister Mercer. It is I.",
+"d": 4.499,
+"env": "0002589999865442113567788899764333333333211100000000000000000000001257889731126886553136888755444311110000000000",
+"style": "theatrical"
+},
+"ch5_knock_02": {
+"s": "eddie",
+"t": "Who's \"I\"?",
+"d": 1.174,
+"env": "00137987666568997533221100000",
+"style": ""
+},
+"ch5_knock_03": {
+"s": "graves",
+"t": "Doctor Graves. Also: sandwiches.",
+"d": 5.751,
+"env": "00147866899731112345653236899998765443223442111100000000000000000000000002553379999755567886665310013467899998655642123344322110000000000000000",
+"style": "theatrical"
+},
+"ch5_enter_01": {
+"s": "graves",
+"t": "What a... very safe apartment.",
+"d": 5.211,
+"env": "0002588899986655677655555311111100000000000000000000000013688778999999865456668999875311111232113588863124554431111010000000000000",
+"style": "theatrical"
+},
+"ch5_enter_02": {
+"s": "eddie",
+"t": "That's not a compliment, is it.",
+"d": 1.963,
+"env": "0014797556799997434786345555432101478655421100000",
+"style": "tired"
+},
+"ch5_enter_03": {
+"s": "graves",
+"t": "It is an observation. Those are different.",
+"d": 5.885,
+"env": "001345788521268986532467412698643444555435887642332223322100000000000000000000000000002566689999998765422456543100379742111234433222111100000000000",
+"style": "theatrical"
+},
+"ch5_sit_01": {
+"s": "graves",
+"t": "Sit, Mister Mercer. I am going to ask you about the beginning.",
+"d": 5.59,
+"env": "0001356678996311111268754312567888776433333332100000000000014899999877999875431268854431124555543566531234345323687654433211000000000000000",
+"style": "theatrical"
+},
+"ch5_sit_02": {
+"s": "graves",
+"t": "Not the ending. Everyone talks about the ending.",
+"d": 6.141,
+"env": "000268999999862244346422688888865555443211111110000000000000000000000122258987678987778877763114557997411467654478731245324789975444432100000000000000000",
+"style": "theatrical"
+},
+"ch5_beg_01": {
+"s": "eddie",
+"t": "The beginning. It was... a cup. The smoothie spilled.",
+"d": 3.179,
+"env": "0024675458998765553368987433321000001443468851012566446876444553247865321110000",
+"style": ""
+},
+"ch5_beg_02": {
+"s": "graves",
+"t": "And what caused the smoothie to spill?",
+"d": 3.478,
+"env": "00026899987789620123478876532101344444699986333321123344321146654332210000000000000000",
+"style": "theatrical"
+},
+"ch5_beg_03": {
+"s": "eddie",
+"t": "I don't... I don't remember. There was a... my leash.",
+"d": 3.865,
+"env": "000147754799853224667753356677775443210000267655677887432110000000000000137899877987543443210000",
+"style": "mumble"
+},
+"ch5_beg_04": {
+"s": "eddie",
+"t": "The leash caught on a stool. The stool hit the table. The table... the cup.",
+"d": 4.246,
+"env": "0137778876533589877666642367654321000013676458998756752343457875444334433479985443210000002433589741000000",
+"style": ""
+},
+"ch5_beg_05": {
+"s": "graves",
+"t": "Whose leash?",
+"d": 1.963,
+"env": "0013786589999865434455654432222221110000000000000",
+"style": "theatrical"
+},
+"ch5_beg_06": {
+"s": "eddie",
+"t": "Pickles'.",
+"d": 0.875,
+"env": "014785479875443210000",
+"style": ""
+},
+"ch5_beg_07": {
+"s": "graves",
+"t": "Interesting.",
+"d": 3.027,
+"env": "000000000000000000000000000135435899998533347997444421344443311000000000000",
+"style": "theatrical"
+},
+"ch5_beg_08": {
+"s": "eddie",
+"t": "What's interesting?",
+"d": 1.259,
+"env": "0136885345788656764334432211000",
+"style": ""
+},
+"ch5_beg_09": {
+"s": "graves",
+"t": "Nothing. It is simply a very good word to say slowly.",
+"d": 6.583,
+"env": "00246899999986332345555432111000000000000000000000000124797447876555689741245543344347999888632489742235776544210001244545676654334323567765433332100000000000000000",
+"style": "theatrical"
+},
+"ch5_theory_01": {
+"s": "graves",
+"t": "Suppose, Mister Mercer, that the first death was never yours to see.",
+"d": 6.337,
+"env": "00026767974235899998654432125874311467888888644333332100000000002674233211137998743210137986421100113553479999974355545787655432123344434554332100000000000000",
+"style": "theatrical"
+},
+"ch5_theory_02": {
+"s": "graves",
+"t": "Suppose it was the dog's.",
+"d": 3.051,
+"env": "0013687787434589999886434553112467643114431268987654322222211000000000000000",
+"style": "theatrical"
+},
+"ch5_theory_03": {
+"s": "eddie",
+"t": "No.",
+"d": 0.747,
+"env": "014689986432100000",
+"style": "panic"
+},
+"ch5_theory_04": {
+"s": "graves",
+"t": "Suppose you saved him. Without knowing it.",
+"d": 5.715,
+"env": "0013787678732468999876543211125764334444788887642112344432100000000000000000000000000000136678975799986311368888898655443332124421000000000000",
+"style": "theatrical"
+},
+"ch5_theory_05": {
+"s": "eddie",
+"t": "No.",
+"d": 0.747,
+"env": "014689986432100000",
+"style": "panic"
+},
+"ch5_theory_06": {
+"s": "graves",
+"t": "And suppose everything since is... the universe doing its paperwork.",
+"d": 7.863,
+"env": "0002699998666642347998765532100027986446742113455422334687642112111355443211100000000000000000000000000000001355689778999985346776544431014899876555431254212335775211234444332101100000000000000000",
+"style": "theatrical"
+},
+"ch5_theory_07": {
+"s": "eddie",
+"t": "That's insane!",
+"d": 1.174,
+"env": "01489633578654578875432110000",
+"style": "shout"
+},
+"ch5_theory_08": {
+"s": "graves",
+"t": "It is my hobby.",
+"d": 2.497,
+"env": "00124589742237976446888899876532222368643433211110000000000000",
+"style": "theatrical"
+},
+"ch5_theory_09": {
+"s": "eddie",
+"t": "Is it TRUE?",
+"d": 0.982,
+"env": "014667742345898642110000",
+"style": "panic"
+},
+"ch5_theory_10": {
+"s": "graves",
+"t": "I have no idea. But it is a very good theory, and I have been saving it.",
+"d": 8.212,
+"env": "0013556899854588533799999875323455422367654322100100000000000000000000000000000000011347756874235765654323799988753136753212112577665433332100000000246678999862125654456556777632344333210111000000000000000",
+"style": "theatrical"
+},
+"ch5_theory_11": {
+"s": "eddie",
+"t": "Does it feel true?",
+"d": 1.43,
+"env": "00248878632236887533456897532211000",
+"style": "grim"
+},
+"ch5_theory_12": {
+"s": "graves",
+"t": "Do you have any mustard?",
+"d": 3.646,
+"env": "0000000000000000000000000001244479989865689854677666667789864455421233322110000000000000000",
+"style": "theatrical"
+},
+"ch5_spiral_01": {
+"s": "eddie",
+"t": "If Pickles was first...",
+"d": 1.622,
+"env": "0257521377446654455542137986422332110000",
+"style": "mumble"
+},
+"ch5_spiral_02": {
+"s": "eddie",
+"t": "Then it's him it wants. Everyone else is... backlog.",
+"d": 3.435,
+"env": "0037999744447887632468975322442114885688777888754556542222100001258974223554321110000",
+"style": "grim"
+},
+"ch5_spiral_03": {
+"s": "eddie",
+"t": "No. I'm not. I'm not doing that.",
+"d": 1.921,
+"env": "014799987778998631100147887534676654455311000000",
+"style": "panic"
+},
+"ch5_spiral_04": {
+"s": "eddie",
+"t": "I'm not doing that.",
+"d": 1.601,
+"env": "0002699878998632368977655457753211110000",
+"style": "sincere"
+},
+"ch5_leave_01": {
+"s": "graves",
+"t": "I will leave you with your thoughts and half a sandwich.",
+"d": 4.929,
+"env": "001334799988887788999842355544442135776531111379875421013432000000146533589853111344555566666654223321112110000000000000000",
+"style": "theatrical"
+},
+"ch5_leave_02": {
+"s": "graves",
+"t": "Do not do anything rash, Mister Mercer.",
+"d": 4.033,
+"env": "0002334799999852136752479997411245444458997532222221100014786642245667776544433332100000000000000000",
+"style": "theatrical"
+},
+"ch5_leave_03": {
+"s": "graves",
+"t": "Reflect. Then decide. Preferably in that order.",
+"d": 5.921,
+"env": "0000000000000000000000026899984322489985200012111358999997557788767887654333321000000000012478632366324565545677665421136776543332100000000000000000",
+"style": "theatrical"
+},
+"ch5_alone_01": {
+"s": "eddie",
+"t": "He's a good dog.",
+"d": 1.43,
+"env": "00025776774358853236898864321111000",
+"style": "sincere"
+},
+"ch5_alone_02": {
+"s": "eddie",
+"t": "He's the best dog.",
+"d": 1.473,
+"env": "000267644654798653224787765322111000",
+"style": "sincere"
+},
+"ch5_alone_03": {
+"s": "eddie",
+"t": "He's the only reason I got out of bed for a year.",
+"d": 3.243,
+"env": "001378854674137999887644566666665323564479856887653113799742223455543466532100000",
+"style": "grim"
+},
+"ch5_alone_04": {
+"s": "eddie",
+"t": "Mills said the old Halloran maintenance yard's been closed for years.",
+"d": 4.289,
+"env": "01379998765566787445424799863333479876666655567764345553333577644322124543224787554322343334676321001221000",
+"style": "tired"
+},
+"ch5_alone_05": {
+"s": "eddie",
+"t": "Nobody goes there.",
+"d": 1.43,
+"env": "01357998547976533566555445432111000",
+"style": "grim"
+},
+"ch5_alone_06": {
+"s": "eddie",
+"t": "That's exactly why.",
+"d": 1.643,
+"env": "00379744775446897521355457988753221110000",
+"style": "grim"
+},
+"ch5_pk_01": {
+"s": "eddie",
+"t": "Pickles. Come on. We're going for a drive.",
+"d": 2.646,
+"env": "013773477656523688888875321000001565689987533565447888753211110000",
+"style": ""
+},
+"ch5_pk_02": {
+"s": "eddie",
+"t": "I'm so sorry, buddy.",
+"d": 1.665,
+"env": "00148975568975555788877655434786432211000",
+"style": "mumble"
+},
+"ch5_insp_photo": {
+"s": "eddie",
+"t": "Me and Pickles. His first day. He ate my shoe.",
+"d": 3.179,
+"env": "0147898643576346532222100000026753379864237987543345447863246665444456532110000",
+"style": "sincere"
+},
+"ch5_insp_phone": {
+"s": "eddie",
+"t": "Nobody's texted me in three days. Everyone's busy surviving.",
+"d": 4.203,
+"env": "014899767986655423575333344555554212455447864211232100000002587568878887532369854544556654788874222110000",
+"style": ""
+},
+"ch5_insp_sandwich": {
+"s": "eddie",
+"t": "Half a sandwich. Rye. I don't want to know what's in it.",
+"d": 3.499,
+"env": "001479854577767888875443223322368998643221000000014899986588877788875468743455432110000",
+"style": "mumble"
+},
+"ch5_hint_sit": {
+"s": "eddie",
+"t": "Graves is waiting. I should sit.",
+"d": 2.219,
+"env": "0014899887534554346899754321100002786555324458852100000",
+"style": ""
+},
+"ch5_hint_door": {
+"s": "eddie",
+"t": "The car keys are by the door.",
+"d": 2.006,
+"env": "02444589997423465555554114654677654336897532110000",
+"style": ""
+},
+"ch5_flash_01": {
+"s": "eddie",
+"t": "The leash. It wrapped around the stool.",
+"d": 2.326,
+"env": "0024776788644443210147534899741366676655455423665432210000",
+"style": "whisper"
+},
+"ch5_flash_02": {
+"s": "eddie",
+"t": "Pickles pulled. And I stepped back.",
+"d": 2.241,
+"env": "01377447753114799754321112478877654786211378753210000000",
+"style": "whisper"
+},
+"ch6_arrive_01": {
+"s": "eddie",
+"t": "Okay. This is the place.",
+"d": 1.814,
+"env": "002699732489875445764444433321268853112321000",
+"style": "grim"
+},
+"ch6_arrive_02": {
+"s": "eddie",
+"t": "Nobody here. Nobody to get hurt.",
+"d": 2.497,
+"env": "00257899656876543245432100000147997556654443354223686311122000",
+"style": "grim"
+},
+"ch6_arrive_03": {
+"s": "eddie",
+"t": "Just us.",
+"d": 1.067,
+"env": "01234689753379753222211000",
+"style": "grim"
+},
+"ch6_arrive_04": {
+"s": "eddie",
+"t": "Just us, buddy.",
+"d": 1.366,
+"env": "0124688643688754324798654322110000",
+"style": "sincere"
+},
+"ch6_apology_01": {
+"s": "eddie",
+"t": "Pickles. Come here.",
+"d": 1.323,
+"env": "014874488765423688765565432210000",
+"style": "sincere"
+},
+"ch6_apology_02": {
+"s": "eddie",
+"t": "I need to tell you something.",
+"d": 1.835,
+"env": "000268988888644432468986444556886312332110000",
+"style": "sincere"
+},
+"ch6_apology_03": {
+"s": "eddie",
+"t": "You're the best thing that ever happened to me.",
+"d": 2.454,
+"env": "0136899844798775312687655456632687666446752344444454332110000",
+"style": "sincere"
+},
+"ch6_apology_04": {
+"s": "eddie",
+"t": "I know you don't understand this. I hope you never do.",
+"d": 3.435,
+"env": "0002798899986556787666555665357777543332454200000001378668963124667765443478753211000",
+"style": "sincere"
+},
+"ch6_apology_05": {
+"s": "eddie",
+"t": "I'm so sorry.",
+"d": 1.366,
+"env": "0148986445897544467777754322110000",
+"style": "sincere"
+},
+"ch6_apology_06": {
+"s": "eddie",
+"t": "Don't wag. Don't do that. I'm trying to have a moment.",
+"d": 3.35,
+"env": "00379974358999887532477533565677532110000000014797667788777656765667788864311232000",
+"style": "tired"
+},
+"ch6_apology_07": {
+"s": "eddie",
+"t": "Okay.",
+"d": 1.046,
+"env": "00014799632358875322210000",
+"style": "grim"
+},
+"ch6_arm_beam_01": {
+"s": "eddie",
+"t": "The crane. A steel beam. Please don't be clever.",
+"d": 3.286,
+"env": "0036533589998766433566523578864566543221000000012578766544687434322368974332110000",
+"style": "grim"
+},
+"ch6_arm_truck_01": {
+"s": "eddie",
+"t": "The yard truck. The brake lever. Please don't be clever.",
+"d": 3.414,
+"env": "0025668999986345679841010134458985235788533210000001247765554467643322235875332110000",
+"style": "grim"
+},
+"ch6_arm_drop_01": {
+"s": "eddie",
+"t": "The scaffolding. A drop. Please don't be clever.",
+"d": 3.35,
+"env": "00257755798633676544432100000013775568999874210001257765544687434322368964332110000",
+"style": "grim"
+},
+"ch6_arm_barrels_01": {
+"s": "eddie",
+"t": "The propane. The fuse. Please... don't be clever.",
+"d": 3.265,
+"env": "002534799743577665554322466655443112358865432234420000002698434323468974333210000",
+"style": "grim"
+},
+"ch6_arm_vend_01": {
+"s": "eddie",
+"t": "The vending machines. The lever. Please don't be clever.",
+"d": 3.478,
+"env": "00377568988777666666654322234310000026878997556531000124776555446864332234698633311000",
+"style": "grim"
+},
+"ch6_arm_ball_01": {
+"s": "eddie",
+"t": "The wrecking ball. The release. Please don't be clever.",
+"d": 3.371,
+"env": "003776896235666689986432100026778778875456531000011368765554467533322346974332110000",
+"style": "grim"
+},
+"ch6_att_01": {
+"s": "eddie",
+"t": "Okay. This time.",
+"d": 1.494,
+"env": "0027985324798754456542357765322110000",
+"style": "grim"
+},
+"ch6_att_02": {
+"s": "eddie",
+"t": "Just stay there. Right there. Good boy.",
+"d": 2.497,
+"env": "00258886447887667654457886312576432110000378534799985321110000",
+"style": "grim"
+},
+"ch6_att_03": {
+"s": "eddie",
+"t": "Stay. Stay. Stay.",
+"d": 1.515,
+"env": "0012247987543358876433335886422211000",
+"style": "mumble"
+},
+"ch6_att_04": {
+"s": "eddie",
+"t": "I'm sorry. I'm sorry. I'm sorry.",
+"d": 2.433,
+"env": "015899755589998654214787556888875421113577655457776432110000",
+"style": "grim"
+},
+"ch6_att_05": {
+"s": "eddie",
+"t": "This one is definitely going to work.",
+"d": 2.625,
+"env": "00147987535787642245542101378534664234434798655434445798521000000",
+"style": "tired"
+},
+"ch6_att_06": {
+"s": "eddie",
+"t": "Different angle. Different angle.",
+"d": 2.027,
+"env": "00136865686325899876653210147755653468765443211000",
+"style": "tired"
+},
+"ch6_att_07": {
+"s": "eddie",
+"t": "I can't believe I'm doing this. I can't believe I'm doing this.",
+"d": 4.097,
+"env": "002785347986236766777656877645798765434434542000000000277424798522575677655787654589876544443235532000",
+"style": "grim"
+},
+"ch6_att_08": {
+"s": "eddie",
+"t": "Third time's the charm. Fourth time's the charm.",
+"d": 3.414,
+"env": "0001379998632466666533334667776532211000000012489997421245666543233356666664221110000",
+"style": "tired"
+},
+"ch6_res_beam_01": {
+"s": "eddie",
+"t": "He looked back. He looked BACK.",
+"d": 1.601,
+"env": "0035788411479975212456663124764211000000",
+"style": "panic"
+},
+"ch6_res_beam_02": {
+"s": "eddie",
+"t": "A sandwich wrapper. A sandwich wrapper saved him.",
+"d": 3.393,
+"env": "014665589998767533368986213421100000002676558999877753335887423444468776422332111000",
+"style": "mumble"
+},
+"ch6_res_beam_03": {
+"s": "eddie",
+"t": "That was a three-ton beam. He's sniffing the wrapper.",
+"d": 3.286,
+"env": "0037986677873112465323577654478764322100000000146676546886456655667898621342110000",
+"style": "tired"
+},
+"ch6_res_truck_01": {
+"s": "eddie",
+"t": "The truck scooped him up! The truck scooped him!",
+"d": 2.433,
+"env": "014545896455347852368889863110002564588644544785213443211000",
+"style": "panic"
+},
+"ch6_res_truck_02": {
+"s": "eddie",
+"t": "He's riding it. He's riding it and he's enjoying it.",
+"d": 3.414,
+"env": "0013565445899986543321000000000024654347999876555431134554456554344577875432221100000",
+"style": "mumble"
+},
+"ch6_res_truck_03": {
+"s": "eddie",
+"t": "Nice hay bale. Who leaves hay bales in a yard.",
+"d": 3.35,
+"env": "01478998664357653479864321000000001476677654553467644688765444555544589986321111000",
+"style": "tired"
+},
+"ch6_res_drop_01": {
+"s": "eddie",
+"t": "There was a mattress. Why was there a mattress.",
+"d": 2.817,
+"env": "0037998878878888522333233210000014799987665446776666776422232223321000",
+"style": "mumble"
+},
+"ch6_res_drop_02": {
+"s": "eddie",
+"t": "It moved. The mattress moved. It was moving.",
+"d": 3.073,
+"env": "0268645899986532112578899743456655678875321111000000267556567888744442110000",
+"style": "tired"
+},
+"ch6_res_drop_03": {
+"s": "eddie",
+"t": "Somebody's out here setting this up for him.",
+"d": 2.539,
+"env": "002368998999866545898631135655545898766666546873112443332110000",
+"style": "mumble"
+},
+"ch6_res_barrels_01": {
+"s": "eddie",
+"t": "He got launched! He's in the air! He's in the...",
+"d": 2.433,
+"env": "012469853589986434421000145677664347886432124444555432211000",
+"style": "panic"
+},
+"ch6_res_barrels_02": {
+"s": "eddie",
+"t": "An airbag. He landed in a giant airbag.",
+"d": 3.051,
+"env": "0158733799855775321100000002677999986654456644678777765211467754443211110000",
+"style": "mumble"
+},
+"ch6_res_barrels_03": {
+"s": "eddie",
+"t": "It says \"Safe-T-Bag.\" It's a stunt company. In a yard. In a yard.",
+"d": 4.673,
+"env": "02774457997555458863212455447764321100000000255456654477423566423444422466654589999753221000002687654689997532111000",
+"style": "tired"
+},
+"ch6_res_vend_01": {
+"s": "eddie",
+"t": "The vending machines made a shape. A perfect shape.",
+"d": 3.243,
+"env": "013675589988877665545666644666555555787421000000000265236897336533457874211000000",
+"style": "mumble"
+},
+"ch6_res_vend_02": {
+"s": "eddie",
+"t": "Another one blocked it. Another vending machine. Just leaned there.",
+"d": 4.246,
+"env": "0158998788766665446898520124310000000026899988863478766555444456544432111000147765323456776532355421110000",
+"style": "tired"
+},
+"ch6_res_vend_03": {
+"s": "eddie",
+"t": "He's eating a snack. A snack fell out.",
+"d": 2.646,
+"env": "000267657898887655458998521010000026876558997421378777775321110000",
+"style": "mumble"
+},
+"ch6_res_ball_01": {
+"s": "eddie",
+"t": "The leash caught the chain. His LEASH caught the chain.",
+"d": 2.731,
+"env": "01467876643488533446788653211000002686568866543687434345786432110000",
+"style": "panic"
+},
+"ch6_res_ball_02": {
+"s": "eddie",
+"t": "The ball went the other way. Why did it go the other way.",
+"d": 3.585,
+"env": "00377547999998755763234347766645675321100000000136899876654225876444435765654454321110000",
+"style": "tired"
+},
+"ch6_res_ball_03": {
+"s": "eddie",
+"t": "It hit the crane. The crane hit the truck. The truck...",
+"d": 3.414,
+"env": "0147755874135422368877654322110000013543589877766773124334579741112443445897310011000",
+"style": "mumble"
+},
+"ch6_res_gen_01": {
+"s": "eddie",
+"t": "I don't know what I expected.",
+"d": 1.857,
+"env": "0002589887557899766766666435643575212332100000",
+"style": "tired"
+},
+"ch6_res_gen_02": {
+"s": "eddie",
+"t": "Was that a bird? Did a bird...",
+"d": 2.027,
+"env": "00014786579874368998765321136775336887754221111000",
+"style": "mumble"
+},
+"ch6_res_gen_03": {
+"s": "eddie",
+"t": "It's fine. He's fine. Why is he fine.",
+"d": 2.774,
+"env": "027755447999876544566447887754321100000147999887554323776654221100000",
+"style": "tired"
+},
+"ch6_res_gen_04": {
+"s": "eddie",
+"t": "I am so tired.",
+"d": 1.473,
+"env": "015899987656688632335677754322110000",
+"style": "mumble"
+},
+"ch6_esc_03": {
+"s": "eddie",
+"t": "That's three. Three lethal setups. Zero lethal outcomes.",
+"d": 4.075,
+"env": "00379744323689864321246766666532454457987532123310000000012468999998755665347644797411245432111122100",
+"style": "tired"
+},
+"ch6_esc_05": {
+"s": "eddie",
+"t": "Five. I've tried to kill my dog five times. I'm the worst person alive.",
+"d": 5.057,
+"env": "000379988776532256424788653224797666654578876532135656532345676432111342000000000258999865689876312477666555556677532111100000",
+"style": "tired"
+},
+"ch6_esc_08": {
+"s": "eddie",
+"t": "Eight! It's a dog! It's a DOG!",
+"d": 1.942,
+"env": "015886312444664479998764322333454458875321110000",
+"style": "shout"
+},
+"ch6_esc_10": {
+"s": "eddie",
+"t": "Ten. He's not even afraid. He's wagging.",
+"d": 2.923,
+"env": "0145899865444555688765456532236888643221100000001466645799986333321100000",
+"style": "tired"
+},
+"ch6_esc_13": {
+"s": "eddie",
+"t": "The universe is doing this on purpose. It wants him alive.",
+"d": 3.926,
+"env": "00257668997568865544432478876655555555554323586212223331000000002675579985456666567898642111100000",
+"style": "mumble"
+},
+"ch6_esc_16": {
+"s": "eddie",
+"t": "I will keep doing this until physics files a complaint!",
+"d": 3.393,
+"env": "014798632365312489886554444542100001566786325886754442379987665443235422378631100000",
+"style": "shout"
+},
+"ch6_esc_20": {
+"s": "eddie",
+"t": "I'm out of ideas. I'm out of yard.",
+"d": 2.433,
+"env": "000158999997677753456666422453100015888777643589986321111000",
+"style": "mumble"
+},
+"ch6_sit_hint": {
+"s": "eddie",
+"t": "I could sit down. Just for a second.",
+"d": 2.646,
+"env": "001378634653445873137887775432210001347886421256654467632222110000",
+"style": "tired"
+},
+"ch6_sit_01": {
+"s": "eddie",
+"t": "You know what? No.",
+"d": 1.451,
+"env": "001257789997558973113577764321110000",
+"style": "sincere"
+},
+"ch6_sit_02": {
+"s": "eddie",
+"t": "I'm done.",
+"d": 1.089,
+"env": "000158988755799875322110000",
+"style": "sincere"
+},
+"ch6_sit_03": {
+"s": "eddie",
+"t": "You win.",
+"d": 0.982,
+"env": "001256764589986432110000",
+"style": "sincere"
+},
+"ch6_sit_04": {
+"s": "eddie",
+"t": "I don't care if it's the sequence. I don't care if it's the universe.",
+"d": 4.075,
+"env": "00037999864236899877533433323554564212343222321000000002699985323699987753443322445677654443223331000",
+"style": "sincere"
+},
+"ch6_sit_05": {
+"s": "eddie",
+"t": "You're not a mistake. You're not a debt.",
+"d": 2.347,
+"env": "0013688899988766775347753101100012588777766533588521010000",
+"style": "sincere"
+},
+"ch6_sit_06": {
+"s": "eddie",
+"t": "You're my dog.",
+"d": 1.238,
+"env": "012589888887458988763222110000",
+"style": "sincere"
+},
+"ch6_clang_01": {
+"s": "eddie",
+"t": "Oh no.",
+"d": 0.897,
+"env": "0026997779975321100000",
+"style": "panic"
+},
+"ch6_clang_02": {
+"s": "eddie",
+"t": "Oh no, oh no. RUN!",
+"d": 1.665,
+"env": "00148877899888876777764210014898631100000",
+"style": "shout"
+},
+"ch6_run_01": {
+"s": "eddie",
+"t": "Pickles! Come! COME!",
+"d": 1.323,
+"env": "013764687654248987533687532110000",
+"style": "shout"
+},
+"ch6_run_02": {
+"s": "eddie",
+"t": "Not that way!",
+"d": 1.131,
+"env": "0147997337974357864321100000",
+"style": "shout"
+},
+"ch6_run_03": {
+"s": "eddie",
+"t": "Jump! Jump the...",
+"d": 1.323,
+"env": "002579985333468975212454322110000",
+"style": "shout"
+},
+"ch6_run_04": {
+"s": "eddie",
+"t": "Under! Under it!",
+"d": 1.217,
+"env": "002589768863268876554322210000",
+"style": "shout"
+},
+"ch6_run_05": {
+"s": "eddie",
+"t": "Go go go go go!",
+"d": 1.366,
+"env": "0157657985468744688644787421110000",
+"style": "panic"
+},
+"ch6_run_06": {
+"s": "eddie",
+"t": "Left! Left!",
+"d": 1.067,
+"env": "01358974213578863211110000",
+"style": "panic"
+},
+"ch6_run_07": {
+"s": "eddie",
+"t": "Duck!",
+"d": 0.747,
+"env": "001479974212221000",
+"style": "shout"
+},
+"ch6_out_01": {
+"s": "eddie",
+"t": "We're... we're out?",
+"d": 1.046,
+"env": "01479864579998753222210000",
+"style": "panic"
+},
+"ch6_out_02": {
+"s": "eddie",
+"t": "We're out. We're both out.",
+"d": 1.729,
+"env": "0125899999974211366534798643346653211221000",
+"style": "tired"
+},
+"ch6_out_03": {
+"s": "eddie",
+"t": "Good boy. Good boy. Good boy.",
+"d": 2.283,
+"env": "002588534799987542367424788764321000147743577754221110000",
+"style": "sincere"
+},
+"ch6_graves_01": {
+"s": "graves",
+"t": "Mister Mercer.",
+"d": 2.198,
+"env": "000258999986544211356778888875433333333221110000000000",
+"style": "theatrical"
+},
+"ch6_graves_02": {
+"s": "eddie",
+"t": "GRAVES?! How did you... what are you...?",
+"d": 2.177,
+"env": "003699988764554688644775454332100001489876445653210000",
+"style": "panic"
+},
+"ch6_graves_03": {
+"s": "graves",
+"t": "The dog seemed to be having an eventful day. I brought a folding chair.",
+"d": 6.401,
+"env": "0001224786325899986424677789974443467653468744565444555433689742111343312467654332100000000000025897436898533332111268998753455532354566554332210000000000000000",
+"style": "theatrical"
+},
+"ch6_real_01": {
+"s": "eddie",
+"t": "The leash.",
+"d": 1.003,
+"env": "0125887788764333322100000",
+"style": "mumble"
+},
+"ch6_real_02": {
+"s": "eddie",
+"t": "The leash didn't wrap around Pickles. It wrapped around me.",
+"d": 3.713,
+"env": "00378778876775247766435898632466666532366334421244210000001377446898621366667777765432111000",
+"style": "mumble"
+},
+"ch6_real_03": {
+"s": "eddie",
+"t": "It yanked ME. I stepped back. I stepped out of the way.",
+"d": 3.35,
+"env": "02674347999632345544211367664477311258986311000000136776447852367654455567532110000",
+"style": "mumble"
+},
+"ch6_real_04": {
+"s": "eddie",
+"t": "I wasn't saving Pickles. Pickles was never in danger.",
+"d": 3.862,
+"env": "001489878876653456887655532355334321123210000000137734786543465467899755666654578777654433210000",
+"style": "mumble"
+},
+"ch6_real_05": {
+"s": "graves",
+"t": "That would be one interpretation.",
+"d": 3.777,
+"env": "0012346899731135884114898765568999865542100147864444786421332344577544443332210000000000000000",
+"style": "theatrical"
+},
+"ch6_real_06": {
+"s": "eddie",
+"t": "So I spent an hour trying to murder my dog for nothing?",
+"d": 3.521,
+"env": "0026899998874378767641025789865432245655555667898777655554346777754222355676522222100000",
+"style": "tired"
+},
+"ch6_real_07": {
+"s": "graves",
+"t": "Well. Technically you were very unsuccessful.",
+"d": 6.087,
+"env": "00025788899998655443211111100000000000000000000000000000001223578852258852124554310013689986445899998764125899754443212345676443212343210000000000000000",
+"style": "theatrical"
+},
+"ch6_real_08": {
+"s": "eddie",
+"t": "I hate you.",
+"d": 2.131,
+"env": "00000000000000000000000000002799854689854566543210000",
+"style": "dry"
+},
+"ch6_real_09": {
+"s": "graves",
+"t": "That is fair.",
+"d": 2.198,
+"env": "001368889998532126886553111268887544432111111100000000",
+"style": "theatrical"
+},
+"ch6_real_10": {
+"s": "graves",
+"t": "Would you like a sandwich?",
+"d": 2.923,
+"env": "0001468999744799878998742123444444445799876653233321122110000000000000000",
+"style": "theatrical"
+},
+"ch6_real_11": {
+"s": "eddie",
+"t": "Yes.",
+"d": 0.875,
+"env": "012458998642222110000",
+"style": "tired"
+},
+"ch6_hint_lever": {
+"s": "eddie",
+"t": "That lever's connected to the crane.",
+"d": 2.091,
+"env": "0258755799867877534799852145434444222479875321110000",
+"style": ""
+},
+"ch6_hint_sit": {
+"s": "eddie",
+"t": "There's a stump. I could sit down.",
+"d": 2.091,
+"env": "0026876766434798742111477446534458732478765422110000",
+"style": ""
+},
+"ch6_hint_run": {
+"s": "eddie",
+"t": "Run! Keep running!",
+"d": 1.302,
+"env": "01479987653345422489865321110000",
+"style": "shout"
+},
+"ch6_insp_stump": {
+"s": "eddie",
+"t": "A stump. Nice place for a breakdown.",
+"d": 2.411,
+"env": "015776533798742112589987421367543246654589852125654321110000",
+"style": "tired"
+},
+"ch6_insp_wrapper": {
+"s": "eddie",
+"t": "A sandwich wrapper. It's just blowing around. It's suspicious.",
+"d": 3.883,
+"env": "0146545899986565333589863122110000003642588522357999987666678886543322342233444313665432111221000",
+"style": "mumble"
+},
+"ch6_insp_mattress": {
+"s": "eddie",
+"t": "A mattress. In a quarry. I have questions.",
+"d": 2.817,
+"env": "0268889986334665444565322589997543210000014787874113786422332112221000",
+"style": "mumble"
+},
+"ch6_insp_airbag": {
+"s": "eddie",
+"t": "A folded airbag. \"Safe-T-Bag. For all your falling needs.\" Why.",
+"d": 4.865,
+"env": "0266423689976675335787555432211000000014789985224665568887642224678998666323799866666677776432124531000000025898632111000",
+"style": "tired"
+},
+"ch6_insp_hay": {
+"s": "eddie",
+"t": "Hay bales. Stacked so neatly. Who did that.",
+"d": 3.073,
+"env": "0003688744799997654345546886324567666776322332210000000255578633687532100000",
+"style": "tired"
+},
+"ch6_insp_crane": {
+"s": "eddie",
+"t": "Gantry crane. Rusted. Load rated. Load will be rated.",
+"d": 3.691,
+"env": "01478644442236876643211014787763232100012589986334787654321001258998643343344446654211100000",
+"style": ""
+},
+"ch6_insp_truck": {
+"s": "eddie",
+"t": "The old yard truck. Somebody left it in neutral on a slope.",
+"d": 3.905,
+"env": "0135789997435899886423457973100000000000257898788666678742355566678742334443345445654577521000000",
+"style": ""
+},
+"ch6_insp_quarry": {
+"s": "eddie",
+"t": "The quarry. Big hole. Lots of gravel. Nobody's in it.",
+"d": 3.606,
+"env": "013323689998754321368632358975310000000126897567422578875333323578874466654445544321000000",
+"style": ""
+},
+"ch6_insp_barrels": {
+"s": "eddie",
+"t": "Red barrels and propane tanks. Of course.",
+"d": 2.966,
+"env": "00248997447999987655653237984235554336765323421000001464223689742234421000",
+"style": "mumble"
+},
+"ch6_insp_vend": {
+"s": "eddie",
+"t": "Two vending machines, side by side. Facing each other. As if that's normal.",
+"d": 4.907,
+"env": "01478745799877766555567655433444578887545665445788643211000000013797655776533588643210000001377774137864346789997533211000",
+"style": ""
+},
+"ch6_insp_ball": {
+"s": "eddie",
+"t": "A wrecking ball. On a crane. Has anyone ever needed one of these.",
+"d": 4.225,
+"env": "025778973356655799986321001467632345788642110000000000036876689888865665576776655334555323565421113542000",
+"style": ""
+},
+"ch6_insp_bench": {
+"s": "eddie",
+"t": "A bench. For sitting. I could sit.",
+"d": 2.39,
+"env": "00146645799754322344456886543221000026863344334468741100000",
+"style": "tired"
+},
+"ch6_insp_rail": {
+"s": "eddie",
+"t": "Rail spur. Rusted over. Nothing runs on it.",
+"d": 3.115,
+"env": "01379997667523798765447876435678853332100000014897436766677776567776432100000",
+"style": ""
+},
+"ch6_insp_scaffold": {
+"s": "eddie",
+"t": "Scaffolding. Wobbly. Perfect.",
+"d": 2.177,
+"env": "002568986468865666668999754554321000137974344310011000",
+"style": ""
+},
+"ch7_arrive_01": {
+"s": "eddie",
+"t": "Terminus Station. They rebuilt it. Sort of.",
+"d": 2.817,
+"env": "0135899887765533786555443221000000268786468984235421344689865432110000",
+"style": "tired"
+},
+"ch7_arrive_02": {
+"s": "eddie",
+"t": "Reopening ceremony. Of course.",
+"d": 2.347,
+"env": "0013678997346665554578776554332110001465212479853223431000",
+"style": "mumble"
+},
+"ch7_pa_01": {
+"s": "pa",
+"t": "Welcome back to Centennial Transit Center. The last stop you'll ever need.",
+"d": 4.907,
+"env": "00379986579986898753234424786335789997434577764454223454333332111003788899987532222368753246765355445554432221111000000000",
+"style": ""
+},
+"ch7_pa_02": {
+"s": "pa",
+"t": "Please enjoy the new and improved, structurally reviewed concourse.",
+"d": 4.481,
+"env": "0002677774479975689998678766799987778753335776554322111122368744445787776565334554223456432234322221110000000000",
+"style": ""
+},
+"ch7_pa_03": {
+"s": "pa",
+"t": "Today's ceremonial ribbon cutting will begin shortly.",
+"d": 3.435,
+"env": "0014558999753336899988988888875587567533466543322124544533565433345663222111100000000",
+"style": ""
+},
+"ch7_pa_04": {
+"s": "pa",
+"t": "Passengers are reminded that all previous incidents were unrelated.",
+"d": 4.694,
+"env": "001368864358866899853467778889887765565323664224789998544467656884345653234444322223553245544544444332211110000000000",
+"style": ""
+},
+"ch7_mills_01": {
+"s": "mills",
+"t": "Mercer. You came.",
+"d": 1.643,
+"env": "00146898645899755642135654432211000000000",
+"style": ""
+},
+"ch7_mills_02": {
+"s": "eddie",
+"t": "You're still here?",
+"d": 1.131,
+"env": "0147877644797545665543210000",
+"style": ""
+},
+"ch7_mills_03": {
+"s": "mills",
+"t": "They transferred me to the coat check desk. Calmest job I've ever had.",
+"d": 4.673,
+"env": "00267546899752369988887544432247852124564102676432221000000125898985321268998765566545655554555443322110000000000000",
+"style": "deadpan"
+},
+"ch7_mills_04": {
+"s": "mills",
+"t": "I'm terrified.",
+"d": 1.515,
+"env": "0002579997423689998522455443322110000",
+"style": "grim"
+},
+"ch7_mills_repeat": {
+"s": "mills",
+"t": "Ceremony's in ten minutes. I don't like ceremonies.",
+"d": 3.457,
+"env": "00136899999999976688632478899986542111111357886457863224677665544332211100000000000000",
+"style": ""
+},
+"ch7_gus_01": {
+"s": "gus",
+"t": "Bridge is scaffolded. Fine. Cables look right.",
+"d": 4.267,
+"env": "0125799999754457754432378874247877545654211000000037999998877764200137998667876434787411356888654311111000",
+"style": "deadpan"
+},
+"ch7_gus_02": {
+"s": "gus",
+"t": "Escalator's not right.",
+"d": 2.113,
+"env": "0025886421379889987678764368988863235787654211111000",
+"style": "deadpan"
+},
+"ch7_gus_03": {
+"s": "eddie",
+"t": "It never is.",
+"d": 1.238,
+"env": "026874357997556555543222332100",
+"style": "tired"
+},
+"ch7_gus_repeat": {
+"s": "gus",
+"t": "Exit's still behind you.",
+"d": 2.07,
+"env": "015898644576322322589875577544689888875456543321000",
+"style": "deadpan"
+},
+"ch7_dale_01": {
+"s": "dale",
+"t": "It ends where it started. It's a CIRCLE.",
+"d": 1.643,
+"env": "01367668984358977643222223343223321100000",
+"style": "excited"
+},
+"ch7_dale_02": {
+"s": "eddie",
+"t": "Dale. Sit.",
+"d": 1.153,
+"env": "0023589987654344577421110000",
+"style": "tired"
+},
+"ch7_dale_03": {
+"s": "dale",
+"t": "I have a diagram. It has arrows on it.",
+"d": 2.049,
+"env": "015667668999743677653246775336788755565332110000000",
+"style": ""
+},
+"ch7_dale_repeat": {
+"s": "dale",
+"t": "You feel that? That's the universe clearing its throat.",
+"d": 2.411,
+"env": "012237999998534774346778875676432246665543322455421100000000",
+"style": ""
+},
+"ch7_ml_01": {
+"s": "marco",
+"t": "Score's tied at seven.",
+"d": 1.643,
+"env": "00123699987535788877544787665554210000000",
+"style": ""
+},
+"ch7_ml_02": {
+"s": "luis",
+"t": "Six and a half!",
+"d": 1.302,
+"env": "00258743489986667643110010000000",
+"style": "shout"
+},
+"ch7_ml_03": {
+"s": "marco",
+"t": "You can't have half!",
+"d": 1.217,
+"env": "014897578877887788876531100000",
+"style": "shout"
+},
+"ch7_ml_04": {
+"s": "luis",
+"t": "It was half a fire!",
+"d": 1.537,
+"env": "02577865468985453125887543322100000000",
+"style": "shout"
+},
+"ch7_ml_repeat": {
+"s": "marco",
+"t": "We're not fighting. This is a discussion.",
+"d": 2.155,
+"env": "01589999742368899888777875578876664479754554321000000",
+"style": ""
+},
+"ch7_tiff_01": {
+"s": "tiffany",
+"t": "I've rebranded. I'm calling it Acceptance, trademark.",
+"d": 3.094,
+"env": "01577567645789986543110000158986335899998763345652125554432367544554321010000",
+"style": "bright"
+},
+"ch7_tiff_02": {
+"s": "eddie",
+"t": "Trademark?",
+"d": 1.067,
+"env": "01245899865688764311110000",
+"style": ""
+},
+"ch7_tiff_03": {
+"s": "tiffany",
+"t": "Pending.",
+"d": 0.897,
+"env": "0124799877654432100000",
+"style": ""
+},
+"ch7_tiff_04": {
+"s": "tiffany",
+"t": "I'm not saying I was wrong. I'm saying I was early.",
+"d": 3.073,
+"env": "0268999863245788876666554345654333200000026987656788987776654346775332211000",
+"style": ""
+},
+"ch7_tiff_repeat": {
+"s": "tiffany",
+"t": "The universe has notes. I'm taking them.",
+"d": 2.369,
+"env": "02588999867975435645787642123421026986434773356544333210000",
+"style": ""
+},
+"ch7_brenda_01": {
+"s": "brenda",
+"t": "Sidekick! I brought a drone.",
+"d": 1.942,
+"env": "002479973367523578645898654357765544431000000000",
+"style": "excited"
+},
+"ch7_brenda_02": {
+"s": "eddie",
+"t": "No drone.",
+"d": 1.153,
+"env": "0125789864346898754221110000",
+"style": "tired"
+},
+"ch7_brenda_03": {
+"s": "brenda",
+"t": "Too late! I'm streaming.",
+"d": 1.707,
+"env": "013688899862379864323566655443321000000000",
+"style": "excited"
+},
+"ch7_brenda_repeat": {
+"s": "brenda",
+"t": "Say something profound for the chat.",
+"d": 2.305,
+"env": "001479865798547875466336999876423554334566542111000000000",
+"style": ""
+},
+"ch7_brenda_dead_01": {
+"s": "dale",
+"t": "Brenda would have loved this.",
+"d": 1.387,
+"env": "0136788999975468852113332332100000",
+"style": "grim"
+},
+"ch7_brenda_dead_02": {
+"s": "dale",
+"t": "She'd have brought a drone.",
+"d": 1.131,
+"env": "0136744799864466543211000000",
+"style": ""
+},
+"ch7_tiff_dead_01": {
+"s": "gus",
+"t": "Tiffany would have hated the sign.",
+"d": 2.326,
+"env": "0023577325898886410147974236898777434543348988764333211000",
+"style": "deadpan"
+},
+"ch7_graves_01": {
+"s": "graves",
+"t": "I would not miss this for the world. There are pretzels.",
+"d": 4.993,
+"env": "0001345799888767998621368997544422454334311344554456777654333221000000000014799988764112356521134433332222211000000000000000",
+"style": "theatrical"
+},
+"ch7_graves_repeat": {
+"s": "graves",
+"t": "Do not mind me. I am an observer.",
+"d": 3.969,
+"env": "000111379999998621368887766653234432110000000137999988765345433434566677664322221100000000000000000",
+"style": "theatrical"
+},
+"ch7_expect_01": {
+"s": "eddie",
+"t": "Everything comes back here. It has to.",
+"d": 2.71,
+"env": "0269867863377653478764479975212344321000000257657898777523442211000",
+"style": "mumble"
+},
+"ch7_expect_02": {
+"s": "eddie",
+"t": "There's going to be a reveal. A rule. A pattern.",
+"d": 3.009,
+"env": "014887557987655444566556544665421100000037755899986542243224688643221100000",
+"style": ""
+},
+"ch7_expect_03": {
+"s": "eddie",
+"t": "Somebody's going to tell me how it works.",
+"d": 2.369,
+"env": "00257997789765543368876543347765554456665422479841013431000",
+"style": ""
+},
+"ch7_expect_04": {
+"s": "mills",
+"t": "Are we waiting for something?",
+"d": 2.155,
+"env": "00137987899767899876664223334565421333221100000000000",
+"style": ""
+},
+"ch7_expect_05": {
+"s": "eddie",
+"t": "...Yes.",
+"d": 0.897,
+"env": "0134556898642222110000",
+"style": "mumble"
+},
+"ch7_sign_gus": {
+"s": "gus",
+"t": "Sign's loose.",
+"d": 1.387,
+"env": "0023347999888865457898753211110000",
+"style": "deadpan"
+},
+"ch7_sign_dale": {
+"s": "dale",
+"t": "The coffee machine is steaming.",
+"d": 1.387,
+"env": "0258867886558876432466543221100000",
+"style": ""
+},
+"ch7_sign_mills": {
+"s": "mills",
+"t": "That cart is unattended.",
+"d": 2.241,
+"env": "00258732479999854565444678764223577664443221000000000000",
+"style": ""
+},
+"ch7_sign_marco": {
+"s": "marco",
+"t": "That robot is looking at me.",
+"d": 1.857,
+"env": "0148766899988888765666787447987556665421000000",
+"style": ""
+},
+"ch7_sign_luis": {
+"s": "luis",
+"t": "That escalator sounds wrong.",
+"d": 2.07,
+"env": "026634887535899976554335677776445898642221000000000",
+"style": ""
+},
+"ch7_sign_tiff": {
+"s": "tiffany",
+"t": "Something feels... unaligned.",
+"d": 1.942,
+"env": "002589756897325787654433100279987776654433210000",
+"style": ""
+},
+"ch7_sign_brenda": {
+"s": "brenda",
+"t": "Oh, this is good. This is really good.",
+"d": 2.39,
+"env": "02799976763355323689853235533554346655432455432110000000000",
+"style": ""
+},
+"ch7_insp_coffee": {
+"s": "eddie",
+"t": "The coffee machine. It's steaming. It's hissing. It's definitely thinking.",
+"d": 4.267,
+"env": "0036567997436887765566665423444565226899875432102654446886555321000027743336874479753455311378742343211000",
+"style": "mumble"
+},
+"ch7_insp_sign": {
+"s": "eddie",
+"t": "The temporary sign over the arrivals board. One screw. One.",
+"d": 4.395,
+"env": "0144368974478876566678777666664444566667776444432258987421110000001368998777522589853110000000014799753211000",
+"style": "mumble"
+},
+"ch7_insp_cart": {
+"s": "eddie",
+"t": "Baggage cart. Nobody's holding it.",
+"d": 2.475,
+"env": "0013799755555325897531000001368997567655553368864444322100000",
+"style": "mumble"
+},
+"ch7_insp_robot": {
+"s": "eddie",
+"t": "The scrub robot. Same model. It looks vengeful.",
+"d": 3.329,
+"env": "00257752379743589984455542101245776666677886432100000026755763333468776542232110000",
+"style": "mumble"
+},
+"ch7_insp_escalator": {
+"s": "eddie",
+"t": "The escalator. It's making a noise. It's a new noise.",
+"d": 3.542,
+"env": "0025655887534788876432210002554557863356777899998632112210135456777776678898642111232000",
+"style": "mumble"
+},
+"ch7_insp_cable": {
+"s": "eddie",
+"t": "A cable. Hanging from the ceiling. Live, probably.",
+"d": 3.542,
+"env": "0025324689865774347887775346666677656775432110000000001478999987652113689755323432111000",
+"style": "mumble"
+},
+"ch7_insp_bottle": {
+"s": "eddie",
+"t": "A bottle. Rolling. Slowly. Toward me.",
+"d": 2.667,
+"env": "002564479998665321136899865432125654589975443223444578742232110000",
+"style": "mumble"
+},
+"ch7_insp_tool": {
+"s": "eddie",
+"t": "A wrench. On the scaffold. Sitting right at the edge.",
+"d": 3.243,
+"env": "026876899854442356655545787422454321110000000136887766579987642333467642112221000",
+"style": "mumble"
+},
+"ch7_decide_01": {
+"s": "eddie",
+"t": "No.",
+"d": 0.833,
+"env": "00257899987543210000",
+"style": "sincere"
+},
+"ch7_decide_02": {
+"s": "eddie",
+"t": "I'm not doing this.",
+"d": 1.537,
+"env": "00137987789974223688765544443344421000",
+"style": "sincere"
+},
+"ch7_decide_03": {
+"s": "eddie",
+"t": "I'm not looking for the machine anymore.",
+"d": 2.326,
+"env": "0015898889986336742455334666666776556776655556787532110000",
+"style": "sincere"
+},
+"ch7_decide_04": {
+"s": "eddie",
+"t": "Every time I try to fix it, it gets worse. Every time I look for the trap, I find a trap.",
+"d": 6.123,
+"env": "026886775346899887776435777654213763355542000013543587544358997422344310000000000025886786458999877776787312355433457998642124653356776543346886421000000",
+"style": "sincere"
+},
+"ch7_decide_05": {
+"s": "eddie",
+"t": "I'm done helping.",
+"d": 1.409,
+"env": "00026998754799865446874234321100000",
+"style": "sincere"
+},
+"ch7_sit_prompt": {
+"s": "eddie",
+"t": "There's a bench. I could just sit.",
+"d": 1.985,
+"env": "0014787675458987532321125643433554333577421000000",
+"style": "tired"
+},
+"ch7_urge_01": {
+"s": "mills",
+"t": "EDDIE!",
+"d": 0.679,
+"env": "0014898789986310",
+"style": "shout"
+},
+"ch7_urge_02": {
+"s": "eddie",
+"t": "No.",
+"d": 0.79,
+"env": "0136899876532110000",
+"style": "calm"
+},
+"ch7_urge_03": {
+"s": "mills",
+"t": "What are you doing?",
+"d": 1.281,
+"env": "00148989988864478865432210000000",
+"style": "shout"
+},
+"ch7_urge_04": {
+"s": "eddie",
+"t": "I'm done helping.",
+"d": 1.409,
+"env": "00026998754799865446874234321100000",
+"style": "calm"
+},
+"ch7_urge_05": {
+"s": "dale",
+"t": "Are you SURE, man?",
+"d": 0.833,
+"env": "01454589887654210000",
+"style": "panic"
+},
+"ch7_urge_06": {
+"s": "gus",
+"t": "Sign's loose.",
+"d": 1.387,
+"env": "0023347999888865457898753211110000",
+"style": "deadpan"
+},
+"ch7_urge_07": {
+"s": "eddie",
+"t": "I know.",
+"d": 1.025,
+"env": "0002688778999864322100000",
+"style": "calm"
+},
+"ch7_nope_01": {
+"s": "eddie",
+"t": "No. Sitting.",
+"d": 1.131,
+"env": "0124689875344467643221100000",
+"style": "calm"
+},
+"ch7_nope_02": {
+"s": "eddie",
+"t": "I'm not helping. That's the whole thing.",
+"d": 2.411,
+"env": "000279999975568963354321000015875544664688753237875321110000",
+"style": "calm"
+},
+"ch7_nope_03": {
+"s": "eddie",
+"t": "Not touching it. Nope.",
+"d": 1.643,
+"env": "01368973246864566555431124689975210110000",
+"style": "calm"
+},
+"ch7_nope_04": {
+"s": "eddie",
+"t": "Sit, Eddie. Sit.",
+"d": 1.366,
+"env": "0012468743688665433234675211100000",
+"style": "tired"
+},
+"ch7_nope_05": {
+"s": "eddie",
+"t": "Hands. Where they are. Staying.",
+"d": 1.921,
+"env": "001368999876543577678778875446644798653221100000",
+"style": "tired"
+},
+"ch7_c_light": {
+"s": "crowd",
+"t": "Look out!",
+"d": 0.939,
+"env": "01589766898876433210000",
+"style": "shout"
+},
+"ch7_c_cart": {
+"s": "stranger",
+"t": "Runaway cart!",
+"d": 1.003,
+"env": "0279998886325777544420000",
+"style": "panic"
+},
+"ch7_c_wet": {
+"s": "gus",
+"t": "Wet floor sign.",
+"d": 1.643,
+"env": "01367997411125899998643347888765443211000",
+"style": "deadpan"
+},
+"ch7_c_plug": {
+"s": "mills",
+"t": "The dog's got the cable!",
+"d": 1.835,
+"env": "002455799999754336764232246654333211000000000",
+"style": "panic"
+},
+"ch7_c_bottle": {
+"s": "luis",
+"t": "Who owns the bottle?!",
+"d": 1.707,
+"env": "002675358999987654453368875432211000000000",
+"style": "shout"
+},
+"ch7_c_ceiling": {
+"s": "tiffany",
+"t": "The ceiling! The ceiling!",
+"d": 1.494,
+"env": "0255346899998874356434677554333100000",
+"style": "panic"
+},
+"ch7_c_train": {
+"s": "crowd",
+"t": "The train's moving!",
+"d": 1.387,
+"env": "0147655898777766898875554332100000",
+"style": "shout"
+},
+"ch7_c_piano": {
+"s": "dale",
+"t": "Is that a PIANO?!",
+"d": 0.897,
+"env": "0026864589876532110000",
+"style": "panic"
+},
+"ch7_c_eddie": {
+"s": "eddie",
+"t": "It's fine. It's fine. It's fine.",
+"d": 2.198,
+"env": "027755447999877655434337987765432344442378765432111000",
+"style": "mumble"
+},
+"ch7_c_eddie2": {
+"s": "eddie",
+"t": "Did something just land next to me? Don't tell me.",
+"d": 3.222,
+"env": "00377545688633665446886434677777767763342355432210000000148985223478876432111000",
+"style": "mumble"
+},
+"ch7_c_pickles": {
+"s": "eddie",
+"t": "Pickles is scratching himself. Please keep scratching.",
+"d": 3.457,
+"env": "01377447975576553368974345555543357985321000000001368776531246422443688753234321110000",
+"style": "tired"
+},
+"ch7_after_01": {
+"s": "eddie",
+"t": "...That's it?",
+"d": 1.067,
+"env": "01356798633458863111110000",
+"style": "mumble"
+},
+"ch7_pa_susp": {
+"s": "pa",
+"t": "Attention passengers. Due to unforeseen circumstances, all services are temporarily suspended.",
+"d": 7.062,
+"env": "01332258985589865689743466556665432211100001576447756899864358974334678875347864565323554422466533225899986434798655335654345542223553345666655444322221123432222111100000000000",
+"style": ""
+},
+"ch7_graves_huh": {
+"s": "graves",
+"t": "Huh.",
+"d": 1.774,
+"env": "00000000000000000246885589998764321111100000",
+"style": "theatrical"
+},
+"ch7_graves_02": {
+"s": "eddie",
+"t": "\"Huh\"?",
+"d": 0.769,
+"env": "0012589865432100000",
+"style": ""
+},
+"ch7_graves_03": {
+"s": "graves",
+"t": "Never seen that before.",
+"d": 2.966,
+"env": "00136899999996566566766789888775578852110144311137865543211000000000000000",
+"style": "theatrical"
+},
+"ch7_graves_04": {
+"s": "eddie",
+"t": "WHAT DOES THAT MEAN?",
+"d": 1.238,
+"env": "013786676558974357765432110000",
+"style": "shout"
+},
+"ch7_graves_05": {
+"s": "graves",
+"t": "Maybe it gave up.",
+"d": 3.561,
+"env": "00000000000000000000000000012589999999986335654554332015777654234787531011111000000000000",
+"style": "theatrical"
+},
+"ch7_graves_06": {
+"s": "eddie",
+"t": "Death can give up?",
+"d": 1.153,
+"env": "0148974224675578667531100000",
+"style": "panic"
+},
+"ch7_graves_07": {
+"s": "graves",
+"t": "Apparently.",
+"d": 2.806,
+"env": "0000000000000000000000137999731124579999887643334565421111110000000000",
+"style": "theatrical"
+},
+"ch7_ml_end_01": {
+"s": "marco",
+"t": "That's not a point.",
+"d": 1.43,
+"env": "00268865578888875479887653210000000",
+"style": ""
+},
+"ch7_ml_end_02": {
+"s": "luis",
+"t": "It's not a point.",
+"d": 1.473,
+"env": "013334789999876411245432111100000000",
+"style": ""
+},
+"ch7_ml_end_03": {
+"s": "marco",
+"t": "Agreed.",
+"d": 0.982,
+"env": "002699999888866542100000",
+"style": ""
+},
+"ch7_dale_end": {
+"s": "dale",
+"t": "I'm going to need a bigger board.",
+"d": 1.302,
+"env": "01258986689887667645775321110000",
+"style": "excited"
+},
+"ch7_gus_end": {
+"s": "gus",
+"t": "Fix that sign.",
+"d": 1.515,
+"env": "0003797322347987422358888766554321000",
+"style": "deadpan"
+},
+"ch7_mills_end": {
+"s": "mills",
+"t": "I need a drink. A boring one.",
+"d": 2.625,
+"env": "00147988998775445788764211134324799986554444443322100000000000000",
+"style": "grim"
+},
+"ch7_final_01": {
+"s": "eddie",
+"t": "...Pickles.",
+"d": 0.982,
+"env": "013335874478754333311000",
+"style": "sincere"
+},
+"ch7_final_02": {
+"s": "eddie",
+"t": "Pickles, you're sitting on top of a pile of everything.",
+"d": 3.179,
+"env": "0037734786433210014888888988888764434799632345312346887766543368645432332110000",
+"style": ""
+},
+"ch7_final_03": {
+"s": "eddie",
+"t": "Good boy.",
+"d": 1.067,
+"env": "00248864347998865332211000",
+"style": "sincere"
+},
+"ch8_card": {
+"s": "eddie",
+"t": "Several months later.",
+"d": 1.515,
+"env": "0024689745776678874333356765432111000",
+"style": "sincere"
+},
+"ch8_wake_01": {
+"s": "eddie",
+"t": "The wall's clear. I painted over the string.",
+"d": 2.966,
+"env": "01378668999987542223577764321000000148743478864567764444675336875321110000",
+"style": "sincere"
+},
+"ch8_wake_02": {
+"s": "eddie",
+"t": "The extinguishers are back in the closet. Three of them. I kept one.",
+"d": 4.075,
+"env": "00379745557876776566568754689742256542358987654321000001245899997434432110000025642478411246532110000",
+"style": ""
+},
+"ch8_tv_brenda": {
+"s": "brenda",
+"t": "Welcome back to Safety First, ish! Today's topic: ladders. Do not use them. Also do.",
+"d": 4.31,
+"env": "02786579998522444686224423676421258854321258985334785343247887665335788644676324554455434433332110000000000",
+"style": "excited"
+},
+"ch8_tv_brenda_ed": {
+"s": "eddie",
+"t": "She's doing a safety show. Sort of.",
+"d": 2.241,
+"env": "00246644688776434787421343345654321000012589985432100000",
+"style": ""
+},
+"ch8_tv_brenda_dead": {
+"s": "news",
+"t": "And Brenda Bolt's final video, Flamingo Fresh Coat, has now been viewed twelve million times. Fans are calling it both hilarious and upsetting.",
+"d": 11.307,
+"env": "002444799887447874224542257899875335643332211000000000001247999999876543223576776323465321121000000000000003675589999864799644677654211344689863126998877665444443221102443100000000000000000000000000014799998776532346887654431025753112466566655433234442100000137875422443454332100000",
+"style": ""
+},
+"ch8_tv_brenda_dead_ed": {
+"s": "eddie",
+"t": "She'd have loved the thumbnail.",
+"d": 1.835,
+"env": "002567787445679997421134312687666543322111000",
+"style": "sincere"
+},
+"ch8_dale_binder": {
+"s": "eddie",
+"t": "\"The Truth, Volume One of Nine.\" Dale self-published. It has a foreword by Dale.",
+"d": 5.547,
+"env": "003555668998531124899987656665666654688998742211000000000137987655667875211365323223431100000002689877632258998656665335666533687642110000",
+"style": "dry"
+},
+"ch8_tiff_card": {
+"s": "eddie",
+"t": "Tiffany's new brand. \"Acceptance, trademark.\" Slogan: \"It happens.\"",
+"d": 4.331,
+"env": "014874467776567875468876532110000000025645789732676542247986568886310013446898633444212565468852232111221000",
+"style": ""
+},
+"ch8_tiff_card_dead": {
+"s": "eddie",
+"t": "Aligned Living is being run by Tiffany's sister now. The slogan is \"Be careful.\"",
+"d": 5.377,
+"env": "02799999998754468986554444323566665678876546652234532455544445554335555654211100000000000257765689986466532344321343212477521223210000",
+"style": "sincere"
+},
+"ch8_gus_flyer": {
+"s": "eddie",
+"t": "\"Retired safety inspector. Volunteer consultant. Will fix anything.\" Gus stuck his number on my fridge.",
+"d": 7.083,
+"env": "015754679998864456886421344444432365312333110012589998776445775235544589742343110000002675222576343358997422332110000000000000014797555534752244467776566665555421368753211221000",
+"style": ""
+},
+"ch8_ml_score": {
+"s": "eddie",
+"t": "The scoreboard says nine to nine. There's an asterisk.",
+"d": 3.35,
+"env": "01476348987568975346786557888887556778886421100000000379778853589765433432223210000",
+"style": ""
+},
+"ch8_ml_vm_marco": {
+"s": "marco",
+"t": "Eddie! We're at nine!",
+"d": 1.323,
+"env": "026888888997789998776654100000000",
+"style": "shout"
+},
+"ch8_ml_vm_luis": {
+"s": "luis",
+"t": "Eight and a half!",
+"d": 1.302,
+"env": "01489744689875467643110000000000",
+"style": "shout"
+},
+"ch8_mills_card": {
+"s": "eddie",
+"t": "A postcard from Mills. \"Parking Permit Office. Best posting ever.\"",
+"d": 4.587,
+"env": "024424798752135787533567778997532123210000000001379853576434798876788643233334321137986421268765435543467433211000",
+"style": "dry"
+},
+"ch8_mills_vm": {
+"s": "mills",
+"t": "Mercer. It's Mills. Nothing has happened in nine weeks. I've never been so bored. Thank you.",
+"d": 5.185,
+"env": "003689976689986323589998765335798435778743588534655667776666555531112221001346886666764466423688864210146642112321000000000000000",
+"style": ""
+},
+"ch8_graves_note": {
+"s": "eddie",
+"t": "A note from Graves. \"The universe is a stickler. Enjoy your evening. P.S. Sandwiches.\"",
+"d": 5.995,
+"env": "02589999731256654589975321112210000000000135678997579864454455553366323443211136765579998656632355543443221124553358864332001245888754432343211121000",
+"style": "dry"
+},
+"ch8_pickles_fine": {
+"s": "eddie",
+"t": "He doesn't wear the helmet anymore.",
+"d": 2.049,
+"env": "001455799886424689975543358987643245666666532110000",
+"style": "sincere"
+},
+"ch8_leash": {
+"s": "eddie",
+"t": "Leash. Dog. Door.",
+"d": 1.515,
+"env": "0125788655653368988753235898743211000",
+"style": ""
+},
+"ch8_door": {
+"s": "eddie",
+"t": "Okay. A walk. Just a walk.",
+"d": 2.347,
+"env": "0002689743358876545555899741111000025775455457886310011000",
+"style": "sincere"
+},
+"ch8_walk_01": {
+"s": "eddie",
+"t": "It's a nice evening.",
+"d": 1.558,
+"env": "02675458987899865442124554334321110000",
+"style": "sincere"
+},
+"ch8_walk_02": {
+"s": "eddie",
+"t": "Look at that. Sun's going down. Nobody's dying.",
+"d": 3.286,
+"env": "0137744762258974210014688876542488765544787765321123579744554444225766543211100000",
+"style": "sincere"
+},
+"ch8_walk_03": {
+"s": "eddie",
+"t": "Pickles, don't eat that.",
+"d": 1.558,
+"env": "01377447875544479853355312576432111000",
+"style": "sincere"
+},
+"ch8_ladder": {
+"s": "eddie",
+"t": "A ladder. Leaning on a house.",
+"d": 1.921,
+"env": "001478889998776421135789876665544566421134431000",
+"style": "mumble"
+},
+"ch8_mower": {
+"s": "eddie",
+"t": "A lawn mower. Running. Unattended.",
+"d": 2.646,
+"env": "002676689987667889864321100000137998765421146665335566654322110000",
+"style": "mumble"
+},
+"ch8_truck": {
+"s": "eddie",
+"t": "A truck carrying pipes. Not tied down.",
+"d": 2.966,
+"env": "02564566896211479877764236886311343100001589985213456667644688764321110000",
+"style": "mumble"
+},
+"ch8_ac": {
+"s": "eddie",
+"t": "That air conditioner is barely hanging on.",
+"d": 2.71,
+"env": "0037973258974136666776555432014554213798865543346766655676532110000",
+"style": "mumble"
+},
+"ch8_kid": {
+"s": "eddie",
+"t": "A kid with a baseball. Near a window.",
+"d": 2.71,
+"env": "0026533589974455654787667524665321000001378999987557988755542110000",
+"style": "mumble"
+},
+"ch8_cyclist": {
+"s": "eddie",
+"t": "A cyclist. No helmet.",
+"d": 1.835,
+"env": "015776689973235654321246899875567765432100000",
+"style": "mumble"
+},
+"ch8_dig": {
+"s": "eddie",
+"t": "Construction equipment. Just sitting there. With the bucket up.",
+"d": 3.435,
+"env": "0137876447853466753257622332100001588655558877766665433211354455347973135678741000000",
+"style": "mumble"
+},
+"ch8_bottle": {
+"s": "eddie",
+"t": "A glass bottle. Right at the curb.",
+"d": 2.262,
+"env": "00026657998887752378876543211258998642331235887532111000",
+"style": "mumble"
+},
+"ch8_breath": {
+"s": "eddie",
+"t": "Okay. Okay okay okay.",
+"d": 2.155,
+"env": "00148984347998643674247877775235776666322368742110000",
+"style": "whisper"
+},
+"ch8_nah": {
+"s": "eddie",
+"t": "Nah.",
+"d": 0.833,
+"env": "01368999876532210000",
+"style": "sincere"
+},
+"ch8_ok": {
+"s": "eddie",
+"t": "Come on, buddy. Let's go home.",
+"d": 2.027,
+"env": "01258888998755798654311257655447864357875321110000",
+"style": "sincere"
+},
+"ch8_ow": {
+"s": "eddie",
+"t": "Ow.",
+"d": 0.833,
+"env": "00025899986543210000",
+"style": "tired"
+},
+"ch8_okay_01": {
+"s": "eddie",
+"t": "You okay?",
+"d": 1.046,
+"env": "01256789974246875322110000",
+"style": ""
+},
+"ch8_okay_02": {
+"s": "eddie",
+"t": "Okay.",
+"d": 0.961,
+"env": "001488632468864322100000",
+"style": ""
+},
+"ch8_bus_fucked": {
+"s": "eddie",
+"t": "I think the bus is fucked, though.",
+"d": 1.899,
+"env": "00026865786346558865555542368731014676432210000",
+"style": "dry"
+},
+"ch8_hint_talk": {
+"s": "eddie",
+"t": "I should look around before I go out.",
+"d": 2.283,
+"env": "001479998545873477678987654335434677764368887775311000000",
+"style": ""
+},
+"ch8_hint_go": {
+"s": "eddie",
+"t": "Leash. Dog. Door.",
+"d": 1.515,
+"env": "0125788655653368988753235898743211000",
+"style": ""
+},
+"ch8_insp_extinguisher": {
+"s": "eddie",
+"t": "One extinguisher. Under the sink. That's a normal number.",
+"d": 3.393,
+"env": "002589987545436765555544321115887764555568852110000002686468778898776656776433210000",
+"style": ""
+},
+"ch8_insp_couch": {
+"s": "eddie",
+"t": "The couch. I sleep in the bed now.",
+"d": 2.39,
+"env": "00354246899864223320025877654576346766458986456654322111000",
+"style": "sincere"
+},
+"ch8_insp_bed": {
+"s": "eddie",
+"t": "The helmet is in the closet. For sentimental reasons.",
+"d": 3.563,
+"env": "01576458999888523555777652233689997434310000000003787666886567887545654566654332111221000",
+"style": ""
+},
+"ch8_insp_fridge": {
+"s": "eddie",
+"t": "Pickles' schedule. I stopped color coding it.",
+"d": 2.817,
+"env": "0037745765544797544443321000002687644797311125887653123688655432100000",
+"style": ""
+},
+"ch8_insp_desk": {
+"s": "eddie",
+"t": "The notebook's shut. I'm not opening it.",
+"d": 2.411,
+"env": "013679985335435656897410000000147777763258863355433221100000",
+"style": ""
+},
+"ch8_insp_window": {
+"s": "eddie",
+"t": "Third floor. Nice view. Nothing's falling.",
+"d": 2.945,
+"env": "0002689974222479987555666554223555321100000136886224555531379864321110000",
+"style": "sincere"
 }
 }

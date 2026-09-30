@@ -7,7 +7,7 @@
 height = 0.75
 radius = 0.24
 
-[node name="bar_stool" type="RigidBody3D" unique_id=1362401960]
+[node name="bar_stool" type="RigidBody3D" unique_id=1512773069]
 collision_layer = 16
 collision_mask = 31
 mass = 5.0
@@ -17,11 +17,11 @@ angular_damp = 0.4
 
 [node name="Model" type="Node3D" parent="." unique_id=1404797908 instance=ExtResource("1_us4ai")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1321674126]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=428146181]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.375, 0)
 shape = SubResource("CylinderShape3D_23b8g")
 
-[node name="Prop" type="Node" parent="." unique_id=601892038]
+[node name="Prop" type="Node" parent="." unique_id=1567825413]
 script = ExtResource("2_sudac")
 prop_id = &"bar_stool"
 grab_class = "medium"

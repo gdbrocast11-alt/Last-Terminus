@@ -7,7 +7,7 @@
 height = 0.06
 radius = 0.13
 
-[node name="dog_bowl" type="RigidBody3D" unique_id=1382917022]
+[node name="dog_bowl" type="RigidBody3D" unique_id=732159588]
 collision_layer = 16
 collision_mask = 31
 mass = 0.4
@@ -17,11 +17,11 @@ angular_damp = 0.4
 
 [node name="Model" type="Node3D" parent="." unique_id=810047636 instance=ExtResource("1_1qyi6")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1474159547]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=32578890]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.03, 0)
 shape = SubResource("CylinderShape3D_liwjr")
 
-[node name="Prop" type="Node" parent="." unique_id=1439718717]
+[node name="Prop" type="Node" parent="." unique_id=1518333082]
 script = ExtResource("2_3a3h6")
 prop_id = &"dog_bowl"
 grab_class = "light"

@@ -1,0 +1,28 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/flamingo_red.glb" id="1_vwlw1"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_gl6dc"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_t7wbe"]
+size = Vector3(0.17548701, 1.1183167, 0.4319952)
+
+[node name="flamingo_red" type="RigidBody3D" unique_id=1854755763]
+collision_layer = 16
+collision_mask = 31
+mass = 1.4
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=169044311 instance=ExtResource("1_vwlw1")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1546056966]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.450581e-09, 0.55884165, -0.030402526)
+shape = SubResource("BoxShape3D_t7wbe")
+
+[node name="Prop" type="Node" parent="." unique_id=224496520]
+script = ExtResource("2_gl6dc")
+prop_id = &"flamingo_red"
+grab_class = "light"
+inspect_line = &"ch3_insp_flamingo"
+tags = PackedStringArray("flamingo")

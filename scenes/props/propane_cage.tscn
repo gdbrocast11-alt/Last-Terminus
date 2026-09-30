@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/propane_cage.glb" id="1_o6mtg"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_xa3eh"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3fcih"]
+size = Vector3(1.5, 1.5, 0.9)
+
+[node name="propane_cage" type="StaticBody3D" unique_id=940372212]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=796920741 instance=ExtResource("1_o6mtg")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=601517805]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.75, 0)
+shape = SubResource("BoxShape3D_3fcih")
+
+[node name="Prop" type="Node" parent="." unique_id=1921270503]
+script = ExtResource("2_xa3eh")
+prop_id = &"propane_cage"
+tags = PackedStringArray("propane")

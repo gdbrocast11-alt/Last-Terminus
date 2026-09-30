@@ -1,0 +1,26 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/flamingo_pallet.glb" id="1_x0dh8"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_gxjxf"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_cd6c8"]
+size = Vector3(1.25, 0.7067089, 1.05)
+
+[node name="flamingo_pallet" type="RigidBody3D" unique_id=528084746]
+collision_layer = 16
+collision_mask = 31
+mass = 60.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1609520713 instance=ExtResource("1_x0dh8")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1853481893]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.35335445, 0)
+shape = SubResource("BoxShape3D_cd6c8")
+
+[node name="Prop" type="Node" parent="." unique_id=1188284739]
+script = ExtResource("2_gxjxf")
+prop_id = &"flamingo_pallet"
+tags = PackedStringArray("flamingo", "chain")

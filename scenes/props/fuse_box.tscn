@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/fuse_box.glb" id="1_luehb"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_la0mt"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_74i14"]
+size = Vector3(0.5, 0.90791255, 0.4547703)
+
+[node name="fuse_box" type="StaticBody3D" unique_id=1814222329]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=2043855625 instance=ExtResource("1_luehb")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=204272691]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.45395628, -0.07738514)
+shape = SubResource("BoxShape3D_74i14")
+
+[node name="Prop" type="Node" parent="." unique_id=2128708074]
+script = ExtResource("2_la0mt")
+prop_id = &"fuse_box"
+tags = PackedStringArray("fuse", "yard")
+use_verb = "Light the fuse"

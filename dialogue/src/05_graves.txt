@@ -1,0 +1,52 @@
+# CHAPTER 5: DOCTOR GRAVES EXPLAINS NOTHING (Eddie's apartment)
+ch5_knock_01 | graves | theatrical | Mister Mercer. {p=0.5} It is I.
+ch5_knock_02 | eddie | | Who's "I"?
+ch5_knock_03 | graves | theatrical | Doctor Graves. {p=0.6} Also: sandwiches.
+ch5_enter_01 | graves | theatrical | What a... {p=0.7} very safe apartment.
+ch5_enter_02 | eddie | tired | That's not a compliment, is it.
+ch5_enter_03 | graves | theatrical | It is an observation. {p=0.5} Those are different.
+ch5_sit_01 | graves | theatrical | Sit, Mister Mercer. I am going to ask you about the beginning.
+ch5_sit_02 | graves | theatrical | Not the ending. {p=0.5} Everyone talks about the ending.
+ch5_beg_01 | eddie | | The beginning. It was... a cup. The smoothie spilled.
+ch5_beg_02 | graves | theatrical | And what caused the smoothie to spill?
+ch5_beg_03 | eddie | mumble | I don't... I don't remember. There was a... {p=0.4} my leash.
+ch5_beg_04 | eddie | | The leash caught on a stool. The stool hit the table. The table... the cup.
+ch5_beg_05 | graves | theatrical | Whose leash?
+ch5_beg_06 | eddie | | Pickles'.
+ch5_beg_07 | graves | theatrical | {p=1.0} Interesting.
+ch5_beg_08 | eddie | | What's interesting?
+ch5_beg_09 | graves | theatrical | Nothing. {p=0.6} It is simply a very good word to say slowly.
+ch5_theory_01 | graves | theatrical | Suppose, Mister Mercer, that the first death was never yours to see.
+ch5_theory_02 | graves | theatrical | Suppose it was the dog's.
+ch5_theory_03 | eddie | panic | No.
+ch5_theory_04 | graves | theatrical | Suppose you saved him. {p=0.5} Without knowing it.
+ch5_theory_05 | eddie | panic | No.
+ch5_theory_06 | graves | theatrical | And suppose everything since is... {p=0.6} the universe doing its paperwork.
+ch5_theory_07 | eddie | shout | That's insane!
+ch5_theory_08 | graves | theatrical | It is my hobby.
+ch5_theory_09 | eddie | panic | Is it TRUE?
+ch5_theory_10 | graves | theatrical | I have no idea. {p=0.8} But it is a very good theory, and I have been saving it.
+ch5_theory_11 | eddie | grim | Does it feel true?
+ch5_theory_12 | graves | theatrical | {p=1.0} Do you have any mustard?
+ch5_spiral_01 | eddie | mumble | If Pickles was first...
+ch5_spiral_02 | eddie | grim | Then it's him it wants. Everyone else is... backlog.
+ch5_spiral_03 | eddie | panic | No. I'm not. I'm not doing that.
+ch5_spiral_04 | eddie | sincere | I'm not doing that.
+ch5_leave_01 | graves | theatrical | I will leave you with your thoughts and half a sandwich.
+ch5_leave_02 | graves | theatrical | Do not do anything rash, Mister Mercer.
+ch5_leave_03 | graves | theatrical | {p=0.8} Reflect. Then decide. Preferably in that order.
+ch5_alone_01 | eddie | sincere | He's a good dog.
+ch5_alone_02 | eddie | sincere | He's the best dog.
+ch5_alone_03 | eddie | grim | He's the only reason I got out of bed for a year.
+ch5_alone_04 | eddie | tired | Mills said the old Halloran maintenance yard's been closed for years.
+ch5_alone_05 | eddie | grim | Nobody goes there.
+ch5_alone_06 | eddie | grim | That's exactly why.
+ch5_pk_01 | eddie | | Pickles. Come on. We're going for a drive.
+ch5_pk_02 | eddie | mumble | I'm so sorry, buddy.
+ch5_insp_photo | eddie | sincere | Me and Pickles. His first day. He ate my shoe.
+ch5_insp_phone | eddie | | Nobody's texted me in three days. Everyone's busy surviving.
+ch5_insp_sandwich | eddie | mumble | Half a sandwich. Rye. I don't want to know what's in it.
+ch5_hint_sit | eddie | | Graves is waiting. I should sit.
+ch5_hint_door | eddie | | The car keys are by the door.
+ch5_flash_01 | eddie | whisper | The leash. It wrapped around the stool.
+ch5_flash_02 | eddie | whisper | Pickles pulled. And I stepped back.

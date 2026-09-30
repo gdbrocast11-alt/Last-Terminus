@@ -1,0 +1,27 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/podium.glb" id="1_l1jp7"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_6yqx1"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2p5m6"]
+size = Vector3(0.65, 1.1095499, 0.50209266)
+
+[node name="podium" type="RigidBody3D" unique_id=1224368765]
+collision_layer = 16
+collision_mask = 31
+mass = 15.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1305432107 instance=ExtResource("1_l1jp7")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=763121861]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.55477494, 0)
+shape = SubResource("BoxShape3D_2p5m6")
+
+[node name="Prop" type="Node" parent="." unique_id=1128309923]
+script = ExtResource("2_6yqx1")
+prop_id = &"podium"
+grab_class = "medium"
+tags = PackedStringArray()

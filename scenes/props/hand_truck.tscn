@@ -1,0 +1,27 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/hand_truck.glb" id="1_ini62"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_yyt72"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0f677"]
+size = Vector3(0.53, 1.1500001, 0.43)
+
+[node name="hand_truck" type="RigidBody3D" unique_id=845451202]
+collision_layer = 16
+collision_mask = 31
+mass = 12.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=86589339 instance=ExtResource("1_ini62")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1206626906]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.57500005, -0.055000007)
+shape = SubResource("BoxShape3D_0f677")
+
+[node name="Prop" type="Node" parent="." unique_id=1780479396]
+script = ExtResource("2_yyt72")
+prop_id = &"hand_truck"
+grab_class = "medium"
+tags = PackedStringArray()

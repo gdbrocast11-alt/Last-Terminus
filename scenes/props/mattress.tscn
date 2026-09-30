@@ -1,0 +1,28 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/mattress.glb" id="1_7l2c8"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_e4lwj"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_rkc4e"]
+size = Vector3(1.4, 0.27, 1.95)
+
+[node name="mattress" type="RigidBody3D" unique_id=192301193]
+collision_layer = 16
+collision_mask = 31
+mass = 25.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=2078512773 instance=ExtResource("1_7l2c8")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=941511431]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.155, 0)
+shape = SubResource("BoxShape3D_rkc4e")
+
+[node name="Prop" type="Node" parent="." unique_id=287817646]
+script = ExtResource("2_e4lwj")
+prop_id = &"mattress"
+grab_class = "heavy"
+inspect_line = &"ch6_insp_mattress"
+tags = PackedStringArray("mattress")

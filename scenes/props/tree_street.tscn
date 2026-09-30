@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/tree_street.glb" id="1_u5ojm"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_8mp4g"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_ix1vn"]
+height = 6.0
+radius = 1.993715
+
+[node name="tree_street" type="StaticBody3D" unique_id=542194020]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=1736020121 instance=ExtResource("1_u5ojm")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=334871364]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.047552824, 3, 0)
+shape = SubResource("CylinderShape3D_ix1vn")
+
+[node name="Prop" type="Node" parent="." unique_id=161180820]
+script = ExtResource("2_8mp4g")
+prop_id = &"tree_street"
+tags = PackedStringArray()

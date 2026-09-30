@@ -1,0 +1,24 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/candle_cluster.glb" id="1_ahvfc"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_feki7"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7dr0i"]
+size = Vector3(1, 0.81854564, 0.5)
+
+[node name="candle_cluster" type="StaticBody3D" unique_id=1023384433]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=2024423559 instance=ExtResource("1_ahvfc")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=598916537]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.40927282, 0)
+shape = SubResource("BoxShape3D_7dr0i")
+
+[node name="Prop" type="Node" parent="." unique_id=2144979682]
+script = ExtResource("2_feki7")
+prop_id = &"candle_cluster"
+inspect_line = &"ch4_insp_candles"
+hazard = 2
+tags = PackedStringArray("candle", "chain")
+use_verb = "Blow out candles"

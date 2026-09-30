@@ -1,0 +1,30 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/power_strip.glb" id="1_v7pk8"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_u3vxq"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_tqpwk"]
+size = Vector3(1.13, 0.043, 0.15098518)
+
+[node name="power_strip" type="RigidBody3D" unique_id=1819133662]
+collision_layer = 16
+collision_mask = 31
+mass = 0.6
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=320511229 instance=ExtResource("1_v7pk8")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=182713676]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.375, 0.0215, -0.030492589)
+shape = SubResource("BoxShape3D_tqpwk")
+
+[node name="Prop" type="Node" parent="." unique_id=2019628506]
+script = ExtResource("2_u3vxq")
+prop_id = &"power_strip"
+grab_class = "light"
+inspect_line = &"ch3_insp_strip"
+hazard = 1
+tags = PackedStringArray("strip", "chain", "electric")
+use_verb = "Unplug"

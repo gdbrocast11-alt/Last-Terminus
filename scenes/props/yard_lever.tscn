@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/yard_lever.glb" id="1_b8lv8"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_wsrcs"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_i3vou"]
+size = Vector3(0.3, 1.23, 0.32657397)
+
+[node name="yard_lever" type="StaticBody3D" unique_id=233250714]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=734237142 instance=ExtResource("1_b8lv8")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1783564660]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.615, -0.006713018)
+shape = SubResource("BoxShape3D_i3vou")
+
+[node name="Prop" type="Node" parent="." unique_id=1348584787]
+script = ExtResource("2_wsrcs")
+prop_id = &"yard_lever"
+tags = PackedStringArray("lever", "yard")
+use_verb = "Pull lever"

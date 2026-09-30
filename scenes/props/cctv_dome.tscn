@@ -3,11 +3,11 @@
 [ext_resource type="PackedScene" path="res://props/cctv_dome.glb" id="1_dxgfg"]
 [ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_oc06b"]
 
-[node name="cctv_dome" type="Node3D" unique_id=101778762]
+[node name="cctv_dome" type="Node3D" unique_id=501143948]
 
-[node name="Model" type="Node3D" parent="." unique_id=556404180 instance=ExtResource("1_dxgfg")]
+[node name="Model" type="Node3D" parent="." unique_id=25983325 instance=ExtResource("1_dxgfg")]
 
-[node name="Prop" type="Node" parent="." unique_id=1075009720]
+[node name="Prop" type="Node" parent="." unique_id=669341384]
 script = ExtResource("2_oc06b")
 prop_id = &"cctv_dome"
 tags = PackedStringArray()

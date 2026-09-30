@@ -1,0 +1,29 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/candle_pillar.glb" id="1_lh7bg"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_in20h"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_7sgmt"]
+height = 0.2016
+radius = 0.04
+
+[node name="candle_pillar" type="RigidBody3D" unique_id=788922625]
+collision_layer = 16
+collision_mask = 31
+mass = 0.4
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=181982493 instance=ExtResource("1_lh7bg")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=522872675]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1008, 0)
+shape = SubResource("CylinderShape3D_7sgmt")
+
+[node name="Prop" type="Node" parent="." unique_id=1871107074]
+script = ExtResource("2_in20h")
+prop_id = &"candle_pillar"
+grab_class = "light"
+hazard = 1
+tags = PackedStringArray("candle")

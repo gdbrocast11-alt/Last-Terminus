@@ -6,16 +6,16 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_h5nye"]
 size = Vector3(1.6, 0.515, 0.45)
 
-[node name="tv_stand" type="StaticBody3D" unique_id=1874518460]
+[node name="tv_stand" type="StaticBody3D" unique_id=1537056104]
 collision_mask = 0
 
-[node name="Model" type="Node3D" parent="." unique_id=1838551680 instance=ExtResource("1_avtrf")]
+[node name="Model" type="Node3D" parent="." unique_id=214373779 instance=ExtResource("1_avtrf")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=589547242]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1119855282]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.2575, -0.015000001)
 shape = SubResource("BoxShape3D_h5nye")
 
-[node name="Prop" type="Node" parent="." unique_id=1435842713]
+[node name="Prop" type="Node" parent="." unique_id=1347203797]
 script = ExtResource("2_j5lbo")
 prop_id = &"tv_stand"
 tags = PackedStringArray()

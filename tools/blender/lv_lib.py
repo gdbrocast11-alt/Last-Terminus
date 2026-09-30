@@ -26,6 +26,7 @@ class Level:
         self.name = name
         L.reset_scene()
         self.shell = Prop(name + "_shell")
+        self.shells = {"shell": self.shell}
         self.cols = []
         self.props = []
         self.lights = []
@@ -39,6 +40,12 @@ class Level:
         self._n = {}
 
     # ------------------------------------------------------------ geometry
+    def region(self, name):
+        """Switch the visual shell to a named chunk (separate mesh => separate frustum/occlusion culling)."""
+        if name not in self.shells:
+            self.shells[name] = Prop("%s_%s" % (self.name, name))
+        self.shell = self.shells[name]
+
     def solid(self, mn, mx, mat, col=True, surface="concrete", visible=True, nav=True):
         """Axis-aligned box from min corner to max corner (Godot coords)."""
         x0, y0, z0 = mn
@@ -92,7 +99,7 @@ class Level:
         if col:
             self.cols.append({"c": [x, (y0 + y1) / 2, z], "s": [r * 2, y1 - y0, r * 2], "r": [0, 0, 0], "surface": "concrete", "nav": True})
 
-    def ramp(self, x0, z0, x1, z1, y_start, y_end, mat, axis="z", surface="concrete", width_axis_thick=0.3):
+    def ramp(self, x0, z0, x1, z1, y_start, y_end, mat, axis="z", surface="concrete", width_axis_thick=0.3, visible=True):
         """Sloped slab from (x0,z0) at y_start to (x1,z1) at y_end. Box collider rotated to match."""
         dx, dz, dy = x1 - x0, z1 - z0, y_end - y_start
         if axis == "z":
@@ -101,14 +108,16 @@ class Level:
             ang = math.degrees(math.atan2(dy, abs(dz))) * (1 if dz > 0 else -1)
             cx, cy, cz = (x0 + x1) / 2, (y_start + y_end) / 2 - width_axis_thick / 2, (z0 + z1) / 2
             # visual: rotated box in Blender space (rotate about X)
-            self.shell.box((width, length, width_axis_thick), B(cx, cy, cz), mat, rot=(ang, 0, 0))
+            if visible:
+                self.shell.box((width, length, width_axis_thick), B(cx, cy, cz), mat, rot=(ang, 0, 0))
             self.cols.append({"c": [cx, cy, cz], "s": [width, width_axis_thick, length], "r": [-ang, 0, 0], "surface": surface, "nav": True})
         else:
             length = math.hypot(dx, dy)
             width = abs(dz)
             ang = math.degrees(math.atan2(dy, abs(dx))) * (1 if dx > 0 else -1)
             cx, cy, cz = (x0 + x1) / 2, (y_start + y_end) / 2 - width_axis_thick / 2, (z0 + z1) / 2
-            self.shell.box((length, width, width_axis_thick), B(cx, cy, cz), mat, rot=(0, -ang, 0))
+            if visible:
+                self.shell.box((length, width, width_axis_thick), B(cx, cy, cz), mat, rot=(0, -ang, 0))
             self.cols.append({"c": [cx, cy, cz], "s": [length, width_axis_thick, width], "r": [0, 0, ang], "surface": surface, "nav": True})
 
     def stairs(self, x0, z0, y0, x1, z1, y1, steps, mat, axis="z", surface="concrete"):
@@ -170,15 +179,22 @@ class Level:
 
     # ------------------------------------------------------------ output
     def export(self, extra=None):
-        obj = self.shell.build(weld=True)
-        obj.name = self.name + "_shell"
+        objs = []
+        nfaces = 0
+        for key, sh in self.shells.items():
+            if not sh.parts_count():
+                continue
+            o = sh.build(weld=True)
+            o.name = self.name + "_" + key if key != "shell" else self.name + "_shell"
+            nfaces += len(o.data.polygons)
+            objs.append(o)
+        obj = objs[0]
         out_dir = os.path.join(L.ROOT, "environments")
-        L.export_glb([obj], os.path.join(out_dir, self.name + ".glb"))
+        L.export_glb(objs, os.path.join(out_dir, self.name + ".glb"))
         L.save_blend(os.path.join(L.ROOT, "source_art", "level_" + self.name + ".blend"))
         data = {"name": self.name, "shell": "res://environments/%s.glb" % self.name, "cols": self.cols, "props": self.props, "lights": self.lights,
                 "markers": self.markers, "zones": self.zones, "probes": self.probes, "occluders": self.occluders, "env": self.env, "groups": self.groups}
         if extra:
             data.update(extra)
         json.dump(data, open(os.path.join(out_dir, self.name + ".json"), "w"), indent=0)
-        tri = sum(len(p.vertices) for p in obj.data.polygons) if False else len(obj.data.polygons)
-        print("LEVEL", self.name, "faces", tri, "cols", len(self.cols), "props", len(self.props), "lights", len(self.lights))
+        print("LEVEL", self.name, "chunks", len(objs), "faces", nfaces, "cols", len(self.cols), "props", len(self.props), "lights", len(self.lights))

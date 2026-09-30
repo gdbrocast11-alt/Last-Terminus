@@ -3,11 +3,11 @@
 [ext_resource type="PackedScene" path="res://props/sign_slogan.glb" id="1_pp07f"]
 [ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_7bioh"]
 
-[node name="sign_slogan" type="Node3D" unique_id=176800535]
+[node name="sign_slogan" type="Node3D" unique_id=1692082529]
 
-[node name="Model" type="Node3D" parent="." unique_id=2024521761 instance=ExtResource("1_pp07f")]
+[node name="Model" type="Node3D" parent="." unique_id=1703609551 instance=ExtResource("1_pp07f")]
 
-[node name="Prop" type="Node" parent="." unique_id=1731161725]
+[node name="Prop" type="Node" parent="." unique_id=1529894857]
 script = ExtResource("2_7bioh")
 prop_id = &"sign_slogan"
 tags = PackedStringArray("hero")

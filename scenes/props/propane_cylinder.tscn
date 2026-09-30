@@ -1,0 +1,30 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/propane_cylinder.glb" id="1_qj364"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_wy347"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_314wf"]
+height = 0.55999994
+radius = 0.1875
+
+[node name="propane_cylinder" type="RigidBody3D" unique_id=661855347]
+collision_layer = 16
+collision_mask = 31
+mass = 8.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1976515390 instance=ExtResource("1_qj364")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=145802925]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.27999997, -0.0025000125)
+shape = SubResource("CylinderShape3D_314wf")
+
+[node name="Prop" type="Node" parent="." unique_id=1034067242]
+script = ExtResource("2_wy347")
+prop_id = &"propane_cylinder"
+grab_class = "medium"
+inspect_line = &"ch3_insp_propane"
+hazard = 2
+tags = PackedStringArray("propane")

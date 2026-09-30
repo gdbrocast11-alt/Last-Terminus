@@ -1,0 +1,14 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/brand_card.glb" id="1_1l2dy"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_s72mu"]
+
+[node name="brand_card" type="Node3D" unique_id=1478529163]
+
+[node name="Model" type="Node3D" parent="." unique_id=505332540 instance=ExtResource("1_1l2dy")]
+
+[node name="Prop" type="Node" parent="." unique_id=422327367]
+script = ExtResource("2_s72mu")
+prop_id = &"brand_card"
+inspect_line = &"ch8_tiff_card"
+tags = PackedStringArray("ending")

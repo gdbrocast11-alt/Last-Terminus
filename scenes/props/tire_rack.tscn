@@ -1,0 +1,23 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/tire_rack.glb" id="1_0o711"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_dlsru"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_54x24"]
+size = Vector3(1.9, 2.2, 0.7)
+
+[node name="tire_rack" type="StaticBody3D" unique_id=648634271]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=1966956959 instance=ExtResource("1_0o711")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1458885346]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1, 0)
+shape = SubResource("BoxShape3D_54x24")
+
+[node name="Prop" type="Node" parent="." unique_id=1064144986]
+script = ExtResource("2_dlsru")
+prop_id = &"tire_rack"
+inspect_line = &"ch3_insp_tire"
+hazard = 1
+tags = PackedStringArray("chain")

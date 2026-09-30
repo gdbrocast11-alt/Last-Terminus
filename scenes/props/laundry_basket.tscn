@@ -7,7 +7,7 @@
 height = 0.6
 radius = 0.3
 
-[node name="laundry_basket" type="RigidBody3D" unique_id=1710036650]
+[node name="laundry_basket" type="RigidBody3D" unique_id=298351149]
 collision_layer = 16
 collision_mask = 31
 mass = 2.0
@@ -17,11 +17,11 @@ angular_damp = 0.4
 
 [node name="Model" type="Node3D" parent="." unique_id=127201596 instance=ExtResource("1_04mnj")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1690921161]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1927005736]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.3, 0)
 shape = SubResource("CylinderShape3D_gj4uy")
 
-[node name="Prop" type="Node" parent="." unique_id=1019840616]
+[node name="Prop" type="Node" parent="." unique_id=2075694692]
 script = ExtResource("2_fdtuu")
 prop_id = &"laundry_basket"
 grab_class = "medium"

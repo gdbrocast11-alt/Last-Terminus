@@ -6,7 +6,7 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_ndsx3"]
 size = Vector3(0.17500001, 0.022, 0.235)
 
-[node name="notebook" type="RigidBody3D" unique_id=1989497118]
+[node name="notebook" type="RigidBody3D" unique_id=1239587315]
 collision_layer = 16
 collision_mask = 31
 mass = 0.3
@@ -14,13 +14,13 @@ sleeping = true
 linear_damp = 0.15
 angular_damp = 0.4
 
-[node name="Model" type="Node3D" parent="." unique_id=48781160 instance=ExtResource("1_3c6q3")]
+[node name="Model" type="Node3D" parent="." unique_id=90463999 instance=ExtResource("1_3c6q3")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=255486861]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1423669176]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0024999976, 0.011, 0)
 shape = SubResource("BoxShape3D_ndsx3")
 
-[node name="Prop" type="Node" parent="." unique_id=558610599]
+[node name="Prop" type="Node" parent="." unique_id=1076539410]
 script = ExtResource("2_w3mp7")
 prop_id = &"notebook"
 grab_class = "light"

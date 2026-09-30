@@ -6,7 +6,7 @@
 [sub_resource type="SphereShape3D" id="SphereShape3D_e7wiy"]
 radius = 0.132
 
-[node name="helmet" type="RigidBody3D" unique_id=168403182]
+[node name="helmet" type="RigidBody3D" unique_id=2096317339]
 collision_layer = 16
 collision_mask = 31
 mass = 0.4
@@ -14,13 +14,13 @@ sleeping = true
 linear_damp = 0.15
 angular_damp = 0.4
 
-[node name="Model" type="Node3D" parent="." unique_id=334070322 instance=ExtResource("1_4fcjl")]
+[node name="Model" type="Node3D" parent="." unique_id=445436474 instance=ExtResource("1_4fcjl")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=509559024]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=291564421]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.09, 0)
 shape = SubResource("SphereShape3D_e7wiy")
 
-[node name="Prop" type="Node" parent="." unique_id=1400682526]
+[node name="Prop" type="Node" parent="." unique_id=868249756]
 script = ExtResource("2_31oxv")
 prop_id = &"helmet"
 grab_class = "light"

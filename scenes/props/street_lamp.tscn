@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/street_lamp.glb" id="1_4krsv"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_u8h6u"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_pvtrj"]
+height = 4.892712
+radius = 0.61
+
+[node name="street_lamp" type="StaticBody3D" unique_id=977818858]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=590237956 instance=ExtResource("1_4krsv")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1003066390]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.54, 2.446356, 0)
+shape = SubResource("CylinderShape3D_pvtrj")
+
+[node name="Prop" type="Node" parent="." unique_id=204081094]
+script = ExtResource("2_u8h6u")
+prop_id = &"street_lamp"
+tags = PackedStringArray()

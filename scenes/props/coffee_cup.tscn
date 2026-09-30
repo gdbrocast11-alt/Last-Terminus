@@ -7,7 +7,7 @@
 height = 0.121
 radius = 0.043
 
-[node name="coffee_cup" type="RigidBody3D" unique_id=933422445]
+[node name="coffee_cup" type="RigidBody3D" unique_id=836905857]
 collision_layer = 16
 collision_mask = 31
 mass = 0.3
@@ -17,11 +17,11 @@ angular_damp = 0.4
 
 [node name="Model" type="Node3D" parent="." unique_id=2048356062 instance=ExtResource("1_42sut")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=550292422]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=790524815]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0605, 0)
 shape = SubResource("CylinderShape3D_66qq7")
 
-[node name="Prop" type="Node" parent="." unique_id=998276314]
+[node name="Prop" type="Node" parent="." unique_id=1313678661]
 script = ExtResource("2_h1ctl")
 prop_id = &"coffee_cup"
 grab_class = "light"

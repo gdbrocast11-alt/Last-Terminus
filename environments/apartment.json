@@ -1399,6 +1399,219 @@
 ],
 "opts": {},
 "group": "aftermath"
+},
+{
+"scene": "tv_safety_show",
+"name": "TvSafety",
+"p": [
+-4.6,
+0.36,
+-1.2
+],
+"r": [
+0,
+-90,
+0
+],
+"opts": {},
+"group": "ending"
+},
+{
+"scene": "binder_dale",
+"name": "DaleBinder",
+"p": [
+-4.35,
+0.77,
+2.5
+],
+"r": [
+0,
+-70,
+0
+],
+"opts": {},
+"group": "ending"
+},
+{
+"scene": "postcard_mills",
+"name": "MillsPostcard",
+"p": [
+-4.3,
+0.77,
+1.2
+],
+"r": [
+0,
+-80,
+0
+],
+"opts": {},
+"group": "ending"
+},
+{
+"scene": "fridge_note_schedule",
+"name": "FridgeSchedule",
+"p": [
+1.2,
+1.25,
+3.215
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {},
+"group": "ending"
+},
+{
+"scene": "gus_flyer",
+"name": "GusFlyer",
+"p": [
+1.55,
+1.05,
+3.215
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {},
+"group": "ending"
+},
+{
+"scene": "brand_card",
+"name": "TiffCardAlive",
+"p": [
+0.95,
+1.05,
+3.215
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {},
+"group": "ending_tiff_alive"
+},
+{
+"scene": "brand_card_sister",
+"name": "TiffCardDead",
+"p": [
+0.95,
+1.05,
+3.215
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {},
+"group": "ending_tiff_dead"
+},
+{
+"scene": "scoreboard",
+"name": "Scoreboard",
+"p": [
+-5.0,
+1.05,
+-2.9
+],
+"r": [
+0,
+-90,
+0
+],
+"opts": {},
+"group": "ending"
+},
+{
+"scene": "note_graves",
+"name": "GravesNote",
+"p": [
+-3.2,
+0.44,
+-1.0
+],
+"r": [
+0,
+20,
+0
+],
+"opts": {},
+"group": "ending"
+},
+{
+"scene": "mug",
+"name": "Mug",
+"p": [
+-3.0,
+0.44,
+-1.4
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {},
+"group": "ending"
+},
+{
+"scene": "leash_hook",
+"name": "LeashHook",
+"p": [
+-4.9,
+1.2,
+3.6
+],
+"r": [
+0,
+-90,
+0
+],
+"opts": {},
+"group": "ending"
+},
+{
+"scene": "fire_extinguisher",
+"name": "ExtinguisherEnd",
+"p": [
+-2.7,
+0,
+3.72
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {
+"hazard": 0
+},
+"group": "ending"
+},
+{
+"scene": "helmet",
+"name": "HelmetCloset",
+"p": [
+-4.9,
+0.02,
+3.2
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {
+"inspect": "ch8_insp_bed",
+"hazard": 0
+},
+"group": "ending"
 }
 ],
 "lights": [
@@ -1579,10 +1792,22 @@
 }
 ],
 "markers": {
-"EddieStart": [
--1.2,
+"EndingStart": [
+-2.3,
 0.05,
--2.2,
+-2.3,
+90
+],
+"EndingDoor": [
+-4.3,
+0.05,
+3.2,
+0
+],
+"EddieStart": [
+-2.3,
+0.05,
+-2.3,
 90
 ],
 "EddieDoor": [
@@ -1628,9 +1853,9 @@
 0
 ],
 "WindowSpot": [
--3.6,
+-0.8,
 0.05,
--3.2,
+-3.4,
 0
 ],
 "TVSpot": [

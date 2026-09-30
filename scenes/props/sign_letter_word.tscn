@@ -1,0 +1,26 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/sign_letter_word.glb" id="1_7wpjy"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_7etjt"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_yea2q"]
+size = Vector3(3.0592504, 0.51150006, 0.20000029)
+
+[node name="sign_letter_word" type="RigidBody3D" unique_id=1761401902]
+collision_layer = 16
+collision_mask = 31
+mass = 6.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1460880999 instance=ExtResource("1_7wpjy")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=996901308]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.010875106, 0.030750021, -7.450581e-09)
+shape = SubResource("BoxShape3D_yea2q")
+
+[node name="Prop" type="Node" parent="." unique_id=2107887929]
+script = ExtResource("2_7etjt")
+prop_id = &"sign_letter_word"
+tags = PackedStringArray("letters")

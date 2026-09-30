@@ -3,11 +3,11 @@
 [ext_resource type="PackedScene" path="res://props/foam_corner.glb" id="1_1rqsu"]
 [ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_a2esm"]
 
-[node name="foam_corner" type="Node3D" unique_id=1384784641]
+[node name="foam_corner" type="Node3D" unique_id=205702230]
 
 [node name="Model" type="Node3D" parent="." unique_id=195166980 instance=ExtResource("1_1rqsu")]
 
-[node name="Prop" type="Node" parent="." unique_id=650410996]
+[node name="Prop" type="Node" parent="." unique_id=1862263941]
 script = ExtResource("2_a2esm")
 prop_id = &"foam_corner"
 inspect_line = &"ch2_insp_corners"

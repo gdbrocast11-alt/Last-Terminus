@@ -6,16 +6,16 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_5vcek"]
 size = Vector3(0.96500003, 1.85, 0.88)
 
-[node name="vending_machine" type="StaticBody3D" unique_id=1195796138]
+[node name="vending_machine" type="StaticBody3D" unique_id=1985800865]
 collision_mask = 0
 
 [node name="Model" type="Node3D" parent="." unique_id=787367367 instance=ExtResource("1_wc3im")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1492816293]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=759541999]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0075000226, 0.925, -0.0150000155)
 shape = SubResource("BoxShape3D_5vcek")
 
-[node name="Prop" type="Node" parent="." unique_id=1744956844]
+[node name="Prop" type="Node" parent="." unique_id=98601494]
 script = ExtResource("2_36pc1")
 prop_id = &"vending_machine"
 tags = PackedStringArray("vending")

@@ -1,0 +1,28 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/paint_can.glb" id="1_70m72"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_y6ydv"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_kstrk"]
+height = 0.27380425
+radius = 0.08284331
+
+[node name="paint_can" type="RigidBody3D" unique_id=734433146]
+collision_layer = 16
+collision_mask = 31
+mass = 1.5
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=67595148 instance=ExtResource("1_70m72")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=797898548]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.13690212, 0)
+shape = SubResource("CylinderShape3D_kstrk")
+
+[node name="Prop" type="Node" parent="." unique_id=705481505]
+script = ExtResource("2_y6ydv")
+prop_id = &"paint_can"
+grab_class = "light"
+tags = PackedStringArray("paint", "can")

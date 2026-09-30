@@ -1,0 +1,28 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/trash_can_street.glb" id="1_mrec0"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_mrll5"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_rtkfv"]
+height = 0.95
+radius = 0.31
+
+[node name="trash_can_street" type="RigidBody3D" unique_id=1283715408]
+collision_layer = 16
+collision_mask = 31
+mass = 8.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1109069813 instance=ExtResource("1_mrec0")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1912662688]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.475, 0)
+shape = SubResource("CylinderShape3D_rtkfv")
+
+[node name="Prop" type="Node" parent="." unique_id=981713639]
+script = ExtResource("2_mrll5")
+prop_id = &"trash_can_street"
+grab_class = "medium"
+tags = PackedStringArray()

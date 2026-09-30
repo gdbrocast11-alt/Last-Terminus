@@ -1,0 +1,28 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/bucket.glb" id="1_wrio4"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_i0h1e"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_w41fm"]
+height = 0.42570633
+radius = 0.1634238
+
+[node name="bucket" type="RigidBody3D" unique_id=1487151067]
+collision_layer = 16
+collision_mask = 31
+mass = 1.2
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1479843826 instance=ExtResource("1_wrio4")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1477954102]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.21285316, 0)
+shape = SubResource("CylinderShape3D_w41fm")
+
+[node name="Prop" type="Node" parent="." unique_id=1929737453]
+script = ExtResource("2_i0h1e")
+prop_id = &"bucket"
+grab_class = "light"
+tags = PackedStringArray()

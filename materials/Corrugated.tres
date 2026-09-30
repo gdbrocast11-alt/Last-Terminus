@@ -1,5 +1,21 @@
 [gd_resource type="StandardMaterial3D" format=3]
 
+[ext_resource type="Texture2D" path="res://textures/corrugated_albedo.png" id="1_4apyy"]
+[ext_resource type="Texture2D" path="res://textures/corrugated_orm.png" id="2_8ifkm"]
+[ext_resource type="Texture2D" path="res://textures/corrugated_normal.png" id="3_uiomv"]
+
 [resource]
 resource_name = "Corrugated"
 albedo_color = Color(0.75, 0.77, 0.78, 1)
+albedo_texture = ExtResource("1_4apyy")
+metallic = 0.9
+metallic_texture = ExtResource("2_8ifkm")
+metallic_texture_channel = 2
+roughness = 0.71428573
+roughness_texture = ExtResource("2_8ifkm")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_uiomv")
+ao_enabled = true
+ao_texture = ExtResource("2_8ifkm")
+texture_filter = 5

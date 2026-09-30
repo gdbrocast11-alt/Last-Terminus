@@ -1,0 +1,2693 @@
+{
+"name": "wellness",
+"shell": "res://environments/wellness.glb",
+"cols": [
+{
+"c": [
+0.0,
+-0.2,
+0.0
+],
+"s": [
+40,
+0.4,
+32
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "wood",
+"nav": true
+},
+{
+"c": [
+0.0,
+-0.2,
+20.0
+],
+"s": [
+16,
+0.4,
+8
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "tile",
+"nav": true
+},
+{
+"c": [
+-16.75,
+-0.005000000000000001,
+1.5
+],
+"s": [
+6.5,
+0.05,
+9
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "rubber",
+"nav": true
+},
+{
+"c": [
+-9.5,
+-0.005000000000000001,
+9.5
+],
+"s": [
+7,
+0.05,
+7.0
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "carpet",
+"nav": true
+},
+{
+"c": [
+-20.3,
+3.75,
+0.15000000000000213
+],
+"s": [
+0.6000000000000014,
+7.5,
+32.900000000000006
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+20.3,
+3.75,
+0.15000000000000213
+],
+"s": [
+0.6000000000000014,
+7.5,
+32.900000000000006
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+0.0,
+3.75,
+-16.3
+],
+"s": [
+40.0,
+7.5,
+0.6000000000000014
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+-14.0,
+3.75,
+16.3
+],
+"s": [
+12.0,
+7.5,
+0.6000000000000014
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+0.0,
+5.35,
+16.3
+],
+"s": [
+16,
+4.3,
+0.6000000000000014
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+14.0,
+3.75,
+16.3
+],
+"s": [
+12,
+7.5,
+0.6000000000000014
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+-8.3,
+2.1,
+20.450000000000003
+],
+"s": [
+0.6000000000000014,
+4.2,
+7.699999999999999
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+8.3,
+2.1,
+20.450000000000003
+],
+"s": [
+0.6000000000000014,
+4.2,
+7.699999999999999
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+-5.0,
+2.1,
+24.3
+],
+"s": [
+6.0,
+4.2,
+0.6000000000000014
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+0.0,
+3.6,
+24.3
+],
+"s": [
+4,
+1.2000000000000002,
+0.6000000000000014
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+5.0,
+2.1,
+24.3
+],
+"s": [
+6,
+4.2,
+0.6000000000000014
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+-14.0,
+3.75,
+-8.0
+],
+"s": [
+0.4499999999999993,
+7.5,
+0.4499999999999993
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+14.0,
+3.75,
+-8.0
+],
+"s": [
+0.4499999999999993,
+7.5,
+0.4499999999999993
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+-14.0,
+3.75,
+0.0
+],
+"s": [
+0.4499999999999993,
+7.5,
+0.45
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+14.0,
+3.75,
+0.0
+],
+"s": [
+0.4499999999999993,
+7.5,
+0.45
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+-14.0,
+3.75,
+8.0
+],
+"s": [
+0.4499999999999993,
+7.5,
+0.4499999999999993
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+14.0,
+3.75,
+8.0
+],
+"s": [
+0.4499999999999993,
+7.5,
+0.4499999999999993
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+14.0,
+-0.005000000000000001,
+12.25
+],
+"s": [
+12,
+0.05,
+7.5
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "tile",
+"nav": true
+},
+{
+"c": [
+0.0,
+-0.3,
+52.3
+],
+"s": [
+100,
+0.4,
+55.4
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+0.0,
+-0.2,
+29.3
+],
+"s": [
+16,
+0.4,
+9.399999999999999
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+0.0,
+4.0,
+79.8
+],
+"s": [
+100,
+8,
+0.4000000000000057
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+-50.25,
+4.0,
+52.3
+],
+"s": [
+0.5,
+8,
+55.4
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+50.25,
+4.0,
+52.3
+],
+"s": [
+0.5,
+8,
+55.4
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+-29.2,
+4.0,
+24.65
+],
+"s": [
+41.6,
+8,
+0.09999999999999787
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+29.2,
+4.0,
+24.65
+],
+"s": [
+41.6,
+8,
+0.09999999999999787
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+}
+],
+"props": [
+{
+"scene": "folding_stage",
+"name": "Stage",
+"p": [
+0,
+0,
+-12.8
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "mic_stand",
+"name": "MicStand",
+"p": [
+0,
+0.64,
+-12.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "speaker_tall",
+"name": "SpeakerL",
+"p": [
+-4.6,
+0,
+-10.6
+],
+"r": [
+0,
+15,
+0
+],
+"opts": {}
+},
+{
+"scene": "speaker_tall",
+"name": "SpeakerR",
+"p": [
+4.6,
+0,
+-10.6
+],
+"r": [
+0,
+-15,
+0
+],
+"opts": {}
+},
+{
+"scene": "chandelier_crystals",
+"name": "Chandelier",
+"p": [
+0,
+7.3,
+-11.4
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "chandelier_winch",
+"name": "Winch",
+"p": [
+8.6,
+1.3,
+-15.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "curtain_drape",
+"name": "Curtain1",
+"p": [
+-6.7,
+0.3,
+-15.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "curtain_drape",
+"name": "Curtain2",
+"p": [
+-2.2,
+0.3,
+-15.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "curtain_drape",
+"name": "Curtain3",
+"p": [
+2.3,
+0.3,
+-15.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "curtain_drape",
+"name": "Curtain4",
+"p": [
+6.8,
+0.3,
+-15.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "candle_cluster",
+"name": "CandlesStageL",
+"p": [
+-2.4,
+0,
+-10.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "candle_cluster",
+"name": "CandlesStageR",
+"p": [
+2.4,
+0,
+-10.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "candle_cluster",
+"name": "CandlesCurtainL",
+"p": [
+-5.2,
+0,
+-14.9
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "candle_cluster",
+"name": "CandlesCurtainR",
+"p": [
+5.2,
+0,
+-14.9
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "banner_rollup",
+"name": "AlignedBanner1",
+"p": [
+-3.3,
+0,
+-9.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "banner_rollup",
+"name": "AlignedBanner2",
+"p": [
+3.3,
+0,
+-9.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "gong_stand",
+"name": "Gong",
+"p": [
+10.0,
+0,
+-12.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "yoga_mat",
+"name": "Mat_0_0",
+"p": [
+-7.5,
+0.02,
+-5.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "yoga_mat",
+"name": "Mat_0_1",
+"p": [
+-4.5,
+0.02,
+-5.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "yoga_mat",
+"name": "Mat_0_2",
+"p": [
+-1.5,
+0.02,
+-5.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "yoga_mat",
+"name": "Mat_0_3",
+"p": [
+1.5,
+0.02,
+-5.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "yoga_mat",
+"name": "Mat_0_4",
+"p": [
+4.5,
+0.02,
+-5.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "yoga_mat",
+"name": "Mat_0_5",
+"p": [
+7.5,
+0.02,
+-5.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "yoga_mat",
+"name": "Mat_1_0",
+"p": [
+-7.5,
+0.02,
+-2.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "yoga_mat",
+"name": "Mat_1_1",
+"p": [
+-4.5,
+0.02,
+-2.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "yoga_mat",
+"name": "Mat_1_2",
+"p": [
+-1.5,
+0.02,
+-2.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "yoga_mat",
+"name": "Mat_1_3",
+"p": [
+1.5,
+0.02,
+-2.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "yoga_mat",
+"name": "Mat_1_4",
+"p": [
+4.5,
+0.02,
+-2.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "yoga_mat",
+"name": "Mat_1_5",
+"p": [
+7.5,
+0.02,
+-2.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "yoga_mat",
+"name": "Mat_2_0",
+"p": [
+-7.5,
+0.02,
+1.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "yoga_mat",
+"name": "Mat_2_1",
+"p": [
+-4.5,
+0.02,
+1.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "yoga_mat",
+"name": "Mat_2_2",
+"p": [
+-1.5,
+0.02,
+1.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "yoga_mat",
+"name": "Mat_2_3",
+"p": [
+1.5,
+0.02,
+1.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "yoga_mat",
+"name": "Mat_2_4",
+"p": [
+4.5,
+0.02,
+1.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "yoga_mat",
+"name": "Mat_2_5",
+"p": [
+7.5,
+0.02,
+1.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "yoga_mat",
+"name": "Mat_3_0",
+"p": [
+-7.5,
+0.02,
+4.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "yoga_mat",
+"name": "Mat_3_1",
+"p": [
+-4.5,
+0.02,
+4.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "yoga_mat",
+"name": "Mat_3_2",
+"p": [
+-1.5,
+0.02,
+4.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "yoga_mat",
+"name": "Mat_3_3",
+"p": [
+1.5,
+0.02,
+4.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "yoga_mat",
+"name": "Mat_3_4",
+"p": [
+4.5,
+0.02,
+4.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "yoga_mat",
+"name": "Mat_3_5",
+"p": [
+7.5,
+0.02,
+4.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "folding_chair",
+"name": "Chair1",
+"p": [
+-6.0,
+0,
+8.0
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "folding_chair",
+"name": "Chair2",
+"p": [
+-3.0,
+0,
+8.0
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "folding_chair",
+"name": "Chair3",
+"p": [
+0.0,
+0,
+8.0
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "folding_chair",
+"name": "Chair4",
+"p": [
+3.0,
+0,
+8.0
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "folding_chair",
+"name": "Chair5",
+"p": [
+6.0,
+0,
+8.0
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "yoga_block",
+"name": "Block1",
+"p": [
+-4.0,
+0.03,
+-3.5
+],
+"r": [
+0,
+20,
+0
+],
+"opts": {}
+},
+{
+"scene": "yoga_mat_rolled",
+"name": "MatRoll1",
+"p": [
+-2.0,
+0.03,
+0.2
+],
+"r": [
+0,
+90,
+0
+],
+"opts": {}
+},
+{
+"scene": "singing_bowl",
+"name": "Bowl1",
+"p": [
+0.0,
+0.03,
+-1.2
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "smoothie_bar",
+"name": "SmoothieBar",
+"p": [
+17.6,
+0,
+-6.0
+],
+"r": [
+0,
+90,
+0
+],
+"opts": {}
+},
+{
+"scene": "blender_machine",
+"name": "BarBlender",
+"p": [
+17.9,
+1.02,
+-6.9
+],
+"r": [
+0,
+90,
+0
+],
+"opts": {}
+},
+{
+"scene": "blender_jug",
+"name": "SpareJug",
+"p": [
+17.9,
+1.02,
+-5.2
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "water_cooler",
+"name": "WaterCooler",
+"p": [
+19.4,
+0,
+-10.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "power_strip",
+"name": "BarStrip",
+"p": [
+14.5,
+0.0,
+-6.9
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "extension_cord_floor",
+"name": "BarCordA",
+"p": [
+13.0,
+0,
+-7.6
+],
+"r": [
+0,
+15,
+0
+],
+"opts": {}
+},
+{
+"scene": "extension_cord_floor",
+"name": "BarCordB",
+"p": [
+11.0,
+0,
+-8.6
+],
+"r": [
+0,
+-20,
+0
+],
+"opts": {}
+},
+{
+"scene": "power_strip",
+"name": "BarStrip2",
+"p": [
+10.2,
+0.0,
+-9.0
+],
+"r": [
+0,
+90,
+0
+],
+"opts": {}
+},
+{
+"scene": "towel_stack",
+"name": "Towels1",
+"p": [
+18.9,
+1.05,
+-3.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "sauna_cabin",
+"name": "Sauna",
+"p": [
+17.4,
+0,
+6.0
+],
+"r": [
+0,
+-90,
+0
+],
+"opts": {}
+},
+{
+"scene": "steam_generator",
+"name": "SteamGen",
+"p": [
+19.3,
+0,
+2.2
+],
+"r": [
+0,
+90,
+0
+],
+"opts": {}
+},
+{
+"scene": "steam_valve",
+"name": "SteamValve",
+"p": [
+18.85,
+1.2,
+2.2
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "plunge_pool",
+"name": "PlungePool",
+"p": [
+13.0,
+0.02,
+12.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "massage_chair",
+"name": "MassageChair",
+"p": [
+18.6,
+0,
+13.6
+],
+"r": [
+0,
+200,
+0
+],
+"opts": {}
+},
+{
+"scene": "lantern_paper",
+"name": "Lantern1",
+"p": [
+10.0,
+3.4,
+10.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "lantern_paper",
+"name": "Lantern2",
+"p": [
+16.0,
+3.4,
+11.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "fountain_feature",
+"name": "Fountain",
+"p": [
+-9.5,
+0.05,
+9.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "extension_cord_floor",
+"name": "FountainCord",
+"p": [
+-8.0,
+0,
+7.4
+],
+"r": [
+0,
+-70,
+0
+],
+"opts": {}
+},
+{
+"scene": "power_strip",
+"name": "FountainStrip",
+"p": [
+-6.3,
+0.0,
+6.4
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "candle_cluster",
+"name": "CandlesFountain",
+"p": [
+-12.0,
+0,
+11.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "treadmill",
+"name": "Treadmill1",
+"p": [
+-16.6,
+0.02,
+-2.0
+],
+"r": [
+0,
+-90,
+0
+],
+"opts": {}
+},
+{
+"scene": "treadmill",
+"name": "Treadmill2",
+"p": [
+-16.6,
+0.02,
+0.2999999999999998
+],
+"r": [
+0,
+-90,
+0
+],
+"opts": {}
+},
+{
+"scene": "treadmill",
+"name": "Treadmill3",
+"p": [
+-16.6,
+0.02,
+2.5999999999999996
+],
+"r": [
+0,
+-90,
+0
+],
+"opts": {}
+},
+{
+"scene": "treadmill",
+"name": "Treadmill4",
+"p": [
+-16.6,
+0.02,
+4.8999999999999995
+],
+"r": [
+0,
+-90,
+0
+],
+"opts": {}
+},
+{
+"scene": "mirror_wall",
+"name": "MirrorWall",
+"p": [
+-19.95,
+0.1,
+0.0
+],
+"r": [
+0,
+-90,
+0
+],
+"opts": {}
+},
+{
+"scene": "resistance_machine",
+"name": "Resistance1",
+"p": [
+-16.8,
+0,
+8.6
+],
+"r": [
+0,
+-90,
+0
+],
+"opts": {}
+},
+{
+"scene": "dumbbell_rack",
+"name": "DumbbellRack",
+"p": [
+-19.3,
+0,
+-8.0
+],
+"r": [
+0,
+-90,
+0
+],
+"opts": {}
+},
+{
+"scene": "dumbbell",
+"name": "Dumbbell1",
+"p": [
+-19.2,
+0.66,
+-8.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "dumbbell",
+"name": "Dumbbell2",
+"p": [
+-17.0,
+0.02,
+-6.0
+],
+"r": [
+0,
+30,
+0
+],
+"opts": {}
+},
+{
+"scene": "kettlebell",
+"name": "Kettlebell1",
+"p": [
+-17.8,
+0,
+-10.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "medicine_ball",
+"name": "MedBall1",
+"p": [
+-16.0,
+0,
+-9.4
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "wet_sign_a",
+"name": "WetSign",
+"p": [
+-12.6,
+0,
+4.4
+],
+"r": [
+0,
+30,
+0
+],
+"opts": {}
+},
+{
+"scene": "treadmill_key",
+"name": "SafetyKey_Marco",
+"p": [
+-16.9,
+1.02,
+1.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "fire_extinguisher",
+"name": "Extinguisher1",
+"p": [
+19.7,
+0,
+10.0
+],
+"r": [
+0,
+90,
+0
+],
+"opts": {}
+},
+{
+"scene": "fire_extinguisher",
+"name": "Extinguisher2",
+"p": [
+-19.7,
+0,
+13.0
+],
+"r": [
+0,
+-90,
+0
+],
+"opts": {}
+},
+{
+"scene": "plant_ficus",
+"name": "LobbyPlant1",
+"p": [
+-7.0,
+0,
+18.4
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "plant_ficus",
+"name": "LobbyPlant2",
+"p": [
+7.0,
+0,
+18.4
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "bench",
+"name": "LobbyBench",
+"p": [
+-4.0,
+0,
+21.4
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "sign_exit",
+"name": "ExitSignHall",
+"p": [
+0,
+3.2,
+15.9
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "sedan",
+"name": "CarA",
+"p": [
+-22,
+0,
+52
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "sedan",
+"name": "CarB",
+"p": [
+24,
+0,
+60
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "street_lamp",
+"name": "LotLamp1",
+"p": [
+-12,
+0,
+30
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "street_lamp",
+"name": "LotLamp2",
+"p": [
+12,
+0,
+30
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "tree_street",
+"name": "LotTree1",
+"p": [
+-24,
+0,
+32
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+}
+],
+"lights": [
+{
+"kind": "omni",
+"p": [
+-14,
+6.5,
+-10
+],
+"color": [
+1.0,
+0.92,
+0.78
+],
+"energy": 1.2,
+"range": 12.0,
+"shadow": false,
+"angle": 60,
+"rot": [
+-90,
+0,
+0
+],
+"name": "",
+"fog": 0.4,
+"cookie": null
+},
+{
+"kind": "omni",
+"p": [
+-14,
+6.5,
+0
+],
+"color": [
+1.0,
+0.92,
+0.78
+],
+"energy": 1.2,
+"range": 12.0,
+"shadow": false,
+"angle": 60,
+"rot": [
+-90,
+0,
+0
+],
+"name": "",
+"fog": 0.4,
+"cookie": null
+},
+{
+"kind": "omni",
+"p": [
+-14,
+6.5,
+10
+],
+"color": [
+1.0,
+0.92,
+0.78
+],
+"energy": 1.2,
+"range": 12.0,
+"shadow": false,
+"angle": 60,
+"rot": [
+-90,
+0,
+0
+],
+"name": "",
+"fog": 0.4,
+"cookie": null
+},
+{
+"kind": "omni",
+"p": [
+0,
+6.5,
+-10
+],
+"color": [
+1.0,
+0.92,
+0.78
+],
+"energy": 1.2,
+"range": 12.0,
+"shadow": false,
+"angle": 60,
+"rot": [
+-90,
+0,
+0
+],
+"name": "",
+"fog": 0.4,
+"cookie": null
+},
+{
+"kind": "omni",
+"p": [
+0,
+6.5,
+0
+],
+"color": [
+1.0,
+0.92,
+0.78
+],
+"energy": 1.2,
+"range": 12.0,
+"shadow": false,
+"angle": 60,
+"rot": [
+-90,
+0,
+0
+],
+"name": "",
+"fog": 0.4,
+"cookie": null
+},
+{
+"kind": "omni",
+"p": [
+0,
+6.5,
+10
+],
+"color": [
+1.0,
+0.92,
+0.78
+],
+"energy": 1.2,
+"range": 12.0,
+"shadow": false,
+"angle": 60,
+"rot": [
+-90,
+0,
+0
+],
+"name": "",
+"fog": 0.4,
+"cookie": null
+},
+{
+"kind": "omni",
+"p": [
+14,
+6.5,
+-10
+],
+"color": [
+1.0,
+0.92,
+0.78
+],
+"energy": 1.2,
+"range": 12.0,
+"shadow": false,
+"angle": 60,
+"rot": [
+-90,
+0,
+0
+],
+"name": "",
+"fog": 0.4,
+"cookie": null
+},
+{
+"kind": "omni",
+"p": [
+14,
+6.5,
+0
+],
+"color": [
+1.0,
+0.92,
+0.78
+],
+"energy": 1.2,
+"range": 12.0,
+"shadow": false,
+"angle": 60,
+"rot": [
+-90,
+0,
+0
+],
+"name": "",
+"fog": 0.4,
+"cookie": null
+},
+{
+"kind": "omni",
+"p": [
+14,
+6.5,
+10
+],
+"color": [
+1.0,
+0.92,
+0.78
+],
+"energy": 1.2,
+"range": 12.0,
+"shadow": false,
+"angle": 60,
+"rot": [
+-90,
+0,
+0
+],
+"name": "",
+"fog": 0.4,
+"cookie": null
+},
+{
+"kind": "spot",
+"p": [
+0,
+6.7,
+-8.5
+],
+"color": [
+1.0,
+0.9,
+0.75
+],
+"energy": 4.0,
+"range": 14.0,
+"shadow": true,
+"angle": 42,
+"rot": [
+-72,
+0,
+0
+],
+"name": "StageSpot",
+"fog": 1.0,
+"cookie": null
+},
+{
+"kind": "omni",
+"p": [
+0,
+4.4,
+-11.6
+],
+"color": [
+1.0,
+0.85,
+0.6
+],
+"energy": 1.2,
+"range": 6.0,
+"shadow": false,
+"angle": 60,
+"rot": [
+-90,
+0,
+0
+],
+"name": "ChandelierGlow",
+"fog": 1.0,
+"cookie": null
+},
+{
+"kind": "omni",
+"p": [
+16,
+2.4,
+-6
+],
+"color": [
+1.0,
+0.6,
+0.85
+],
+"energy": 1.0,
+"range": 5.0,
+"shadow": false,
+"angle": 60,
+"rot": [
+-90,
+0,
+0
+],
+"name": "BarGlow",
+"fog": 1.0,
+"cookie": null
+},
+{
+"kind": "omni",
+"p": [
+16,
+2.2,
+6
+],
+"color": [
+1.0,
+0.75,
+0.5
+],
+"energy": 0.9,
+"range": 6.0,
+"shadow": false,
+"angle": 60,
+"rot": [
+-90,
+0,
+0
+],
+"name": "SaunaGlow",
+"fog": 1.0,
+"cookie": null
+},
+{
+"kind": "omni",
+"p": [
+-16.5,
+3.4,
+0
+],
+"color": [
+0.85,
+0.95,
+1.0
+],
+"energy": 1.0,
+"range": 8.0,
+"shadow": false,
+"angle": 60,
+"rot": [
+-90,
+0,
+0
+],
+"name": "GymLight",
+"fog": 1.0,
+"cookie": null
+},
+{
+"kind": "omni",
+"p": [
+0,
+3.4,
+20
+],
+"color": [
+1.0,
+0.95,
+0.85
+],
+"energy": 1.4,
+"range": 8.0,
+"shadow": false,
+"angle": 60,
+"rot": [
+-90,
+0,
+0
+],
+"name": "LobbyLight",
+"fog": 1.0,
+"cookie": null
+},
+{
+"kind": "dir",
+"p": [
+0,
+30,
+60
+],
+"color": [
+1.0,
+0.7,
+0.45
+],
+"energy": 0.6,
+"range": 100.0,
+"shadow": false,
+"angle": 60,
+"rot": [
+-14,
+160,
+0
+],
+"name": "SunsetSun",
+"fog": 1.0,
+"cookie": null
+}
+],
+"markers": {
+"PlayerStart": [
+0,
+0.05,
+40,
+0
+],
+"PicklesStart": [
+1.4,
+0.05,
+41,
+0
+],
+"Lobby": [
+0,
+0.05,
+19.5,
+0
+],
+"TiffanyLobby": [
+-3.0,
+0.05,
+20,
+200
+],
+"TiffanyStage": [
+0.0,
+0.64,
+-12.2,
+0
+],
+"TiffanyMat": [
+0.0,
+0.05,
+-8.0,
+0
+],
+"GusSpot": [
+9.0,
+0.05,
+4.0,
+250
+],
+"GusBar": [
+13.2,
+0.05,
+-7.8,
+90
+],
+"GusStage": [
+4.0,
+0.05,
+-9.5,
+0
+],
+"GusSteam": [
+17.2,
+0.05,
+2.6,
+90
+],
+"GusFountain": [
+-7.5,
+0.05,
+7.4,
+180
+],
+"GusCandle": [
+-4.0,
+0.05,
+-9.0,
+0
+],
+"GusTread": [
+-14.6,
+0.05,
+2.0,
+270
+],
+"GusGong": [
+8.6,
+0.05,
+-11.2,
+0
+],
+"GusSpeaker": [
+4.0,
+0.05,
+-9.4,
+0
+],
+"MarcoTread": [
+-16.6,
+0.02,
+-2.0,
+270
+],
+"LuisTread": [
+-16.6,
+0.02,
+0.3,
+270
+],
+"MarcoFall": [
+-19.4,
+0.05,
+-2.0,
+270
+],
+"BrendaSpot": [
+-5.5,
+0.05,
+2.6,
+0
+],
+"WinchSpot": [
+7.6,
+0.05,
+-14.0,
+0
+],
+"ChandelierHang": [
+0,
+7.3,
+-11.4,
+0
+],
+"ChandelierLow": [
+0,
+1.7,
+-11.4,
+0
+],
+"StrangerBlend": [
+16.5,
+0.05,
+-6.6,
+90
+],
+"StrangerA": [
+-1.5,
+0.05,
+-4.0,
+0
+],
+"StrangerB": [
+4.5,
+0.05,
+-1.0,
+0
+],
+"StrangerC": [
+-4.5,
+0.05,
+0.5,
+0
+],
+"StrangerD": [
+2.0,
+0.05,
+2.5,
+0
+],
+"SpeakerFeedback": [
+4.6,
+1.6,
+-10.6,
+0
+],
+"CandleCurtain": [
+5.2,
+0.3,
+-14.9,
+0
+],
+"SprinklerA": [
+-3,
+6.5,
+-8,
+0
+],
+"SprinklerB": [
+3,
+6.5,
+-8,
+0
+],
+"SprinklerC": [
+0,
+6.5,
+-2,
+0
+],
+"ExitOut": [
+0,
+0.05,
+30,
+180
+]
+},
+"zones": [
+{
+"mn": [
+-20,
+0,
+-16
+],
+"mx": [
+20,
+7.5,
+16
+],
+"reverb": "RevLarge",
+"amount": 0.5,
+"name": "HallReverb"
+},
+{
+"mn": [
+-8,
+0,
+16
+],
+"mx": [
+8,
+4.2,
+24
+],
+"reverb": "RevSmall",
+"amount": 0.35,
+"name": "LobbyReverb"
+},
+{
+"mn": [
+-50,
+-0.5,
+24.7
+],
+"mx": [
+50,
+20,
+80
+],
+"reverb": "RevOutdoor",
+"amount": 0.2,
+"name": "LotReverb"
+}
+],
+"probes": [
+{
+"mn": [
+-20,
+0,
+-16
+],
+"mx": [
+0,
+7.5,
+16
+]
+},
+{
+"mn": [
+0,
+0,
+-16
+],
+"mx": [
+20,
+7.5,
+16
+]
+}
+],
+"occluders": [
+{
+"mn": [
+-20.6,
+0,
+-16.6
+],
+"mx": [
+-20.0,
+7.5,
+16.6
+]
+},
+{
+"mn": [
+20.0,
+0,
+-16.6
+],
+"mx": [
+20.6,
+7.5,
+16.6
+]
+},
+{
+"mn": [
+-20,
+0,
+-16.6
+],
+"mx": [
+20,
+7.5,
+-16.0
+]
+}
+],
+"env": {
+"kind": "exterior_dusk",
+"sky_top": [
+0.18,
+0.2,
+0.42
+],
+"sky_horizon": [
+0.95,
+0.6,
+0.4
+],
+"ambient_energy": 0.42,
+"fog": 0.014,
+"fog_color": [
+0.8,
+0.6,
+0.5
+],
+"exposure": 1.05,
+"sdfgi": true,
+"vfog": true,
+"grade": "sunset",
+"dof": true
+},
+"groups": {}
+}

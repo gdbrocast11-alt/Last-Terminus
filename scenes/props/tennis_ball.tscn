@@ -6,7 +6,7 @@
 [sub_resource type="SphereShape3D" id="SphereShape3D_iksd7"]
 radius = 0.0345
 
-[node name="tennis_ball" type="RigidBody3D" unique_id=1253499062]
+[node name="tennis_ball" type="RigidBody3D" unique_id=1492749116]
 collision_layer = 16
 collision_mask = 31
 mass = 0.06
@@ -14,13 +14,13 @@ sleeping = true
 linear_damp = 0.15
 angular_damp = 0.4
 
-[node name="Model" type="Node3D" parent="." unique_id=730279433 instance=ExtResource("1_j82hp")]
+[node name="Model" type="Node3D" parent="." unique_id=100096219 instance=ExtResource("1_j82hp")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=332251674]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1007398984]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.033, 0)
 shape = SubResource("SphereShape3D_iksd7")
 
-[node name="Prop" type="Node" parent="." unique_id=1837999931]
+[node name="Prop" type="Node" parent="." unique_id=1879884478]
 script = ExtResource("2_77kab")
 prop_id = &"tennis_ball"
 grab_class = "light"

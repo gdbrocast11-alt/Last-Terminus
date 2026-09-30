@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/mailbox.glb" id="1_k47k0"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_537ih"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_deojy"]
+size = Vector3(0.2, 1.3100001, 0.45)
+
+[node name="mailbox" type="StaticBody3D" unique_id=691858628]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=985608933 instance=ExtResource("1_k47k0")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=793341798]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.65500003, 0)
+shape = SubResource("BoxShape3D_deojy")
+
+[node name="Prop" type="Node" parent="." unique_id=1691491991]
+script = ExtResource("2_537ih")
+prop_id = &"mailbox"
+tags = PackedStringArray()

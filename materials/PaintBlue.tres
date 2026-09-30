@@ -1,5 +1,21 @@
 [gd_resource type="StandardMaterial3D" format=3]
 
+[ext_resource type="Texture2D" path="res://textures/paint_metal_albedo.png" id="1_twnu8"]
+[ext_resource type="Texture2D" path="res://textures/paint_metal_orm.png" id="2_1oqmp"]
+[ext_resource type="Texture2D" path="res://textures/paint_metal_normal.png" id="3_4pbpd"]
+
 [resource]
 resource_name = "PaintBlue"
 albedo_color = Color(0.1, 0.25, 0.6, 1)
+albedo_texture = ExtResource("1_twnu8")
+metallic = 0.2
+metallic_texture = ExtResource("2_1oqmp")
+metallic_texture_channel = 2
+roughness = 0.64285713
+roughness_texture = ExtResource("2_1oqmp")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_4pbpd")
+ao_enabled = true
+ao_texture = ExtResource("2_1oqmp")
+texture_filter = 5

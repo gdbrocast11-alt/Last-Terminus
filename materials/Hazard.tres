@@ -1,5 +1,20 @@
 [gd_resource type="StandardMaterial3D" format=3]
 
+[ext_resource type="Texture2D" path="res://textures/paint_metal_albedo.png" id="1_0hvxs"]
+[ext_resource type="Texture2D" path="res://textures/paint_metal_orm.png" id="2_snfxr"]
+[ext_resource type="Texture2D" path="res://textures/paint_metal_normal.png" id="3_uhaix"]
+
 [resource]
 resource_name = "Hazard"
 albedo_color = Color(0.95, 0.75, 0.05, 1)
+albedo_texture = ExtResource("1_0hvxs")
+metallic_texture = ExtResource("2_snfxr")
+metallic_texture_channel = 2
+roughness = 0.71428573
+roughness_texture = ExtResource("2_snfxr")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_uhaix")
+ao_enabled = true
+ao_texture = ExtResource("2_snfxr")
+texture_filter = 5

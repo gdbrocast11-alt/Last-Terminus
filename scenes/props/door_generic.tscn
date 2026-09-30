@@ -6,16 +6,16 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_0ustu"]
 size = Vector3(0.9, 2.05, 0.10377641)
 
-[node name="door_generic" type="StaticBody3D" unique_id=1795873933]
+[node name="door_generic" type="StaticBody3D" unique_id=1518905913]
 collision_mask = 0
 
-[node name="Model" type="Node3D" parent="." unique_id=1615635858 instance=ExtResource("1_53xn1")]
+[node name="Model" type="Node3D" parent="." unique_id=1480918144 instance=ExtResource("1_53xn1")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1997752884]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1489008287]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.45, 1.025, -0.021888204)
 shape = SubResource("BoxShape3D_0ustu")
 
-[node name="Prop" type="Node" parent="." unique_id=970761668]
+[node name="Prop" type="Node" parent="." unique_id=1319491146]
 script = ExtResource("2_8sldq")
 prop_id = &"door_generic"
 tags = PackedStringArray("door")

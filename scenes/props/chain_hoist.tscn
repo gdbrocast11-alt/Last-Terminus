@@ -1,0 +1,15 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/chain_hoist.glb" id="1_qvs3t"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_fl4c4"]
+
+[node name="chain_hoist" type="Node3D" unique_id=157331065]
+
+[node name="Model" type="Node3D" parent="." unique_id=1987612129 instance=ExtResource("1_qvs3t")]
+
+[node name="Prop" type="Node" parent="." unique_id=1408441919]
+script = ExtResource("2_fl4c4")
+prop_id = &"chain_hoist"
+inspect_line = &"ch3_insp_chain"
+hazard = 2
+tags = PackedStringArray()

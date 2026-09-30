@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/crane_arm.glb" id="1_6s06t"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_j4ofm"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jdb7i"]
+size = Vector3(2.6, 9.981257, 4.621549)
+
+[node name="crane_arm" type="StaticBody3D" unique_id=433994373]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=685258881 instance=ExtResource("1_6s06t")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=737767707]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.9906287, 1.2892253)
+shape = SubResource("BoxShape3D_jdb7i")
+
+[node name="Prop" type="Node" parent="." unique_id=517099551]
+script = ExtResource("2_j4ofm")
+prop_id = &"crane_arm"
+tags = PackedStringArray("crane")

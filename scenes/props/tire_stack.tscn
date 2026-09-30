@@ -1,0 +1,28 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/tire_stack.glb" id="1_yymgr"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_473h1"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_g8upm"]
+height = 0.48000002
+radius = 0.34
+
+[node name="tire_stack" type="RigidBody3D" unique_id=2129070064]
+collision_layer = 16
+collision_mask = 31
+mass = 50.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1413911150 instance=ExtResource("1_yymgr")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1547975210]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.24000001, 0)
+shape = SubResource("CylinderShape3D_g8upm")
+
+[node name="Prop" type="Node" parent="." unique_id=2006932419]
+script = ExtResource("2_473h1")
+prop_id = &"tire_stack"
+grab_class = "heavy"
+tags = PackedStringArray()

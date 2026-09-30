@@ -1,0 +1,27 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/banner_rollup.glb" id="1_lnb4u"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_o60cl"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_h01eq"]
+size = Vector3(0.97552, 2.05, 0.05)
+
+[node name="banner_rollup" type="RigidBody3D" unique_id=1057202608]
+collision_layer = 16
+collision_mask = 31
+mass = 3.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=360564797 instance=ExtResource("1_lnb4u")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=730167187]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0043549836, 1.025, 0)
+shape = SubResource("BoxShape3D_h01eq")
+
+[node name="Prop" type="Node" parent="." unique_id=2117832677]
+script = ExtResource("2_o60cl")
+prop_id = &"banner_rollup"
+grab_class = "medium"
+tags = PackedStringArray()

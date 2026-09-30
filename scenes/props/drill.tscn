@@ -1,0 +1,27 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/drill.glb" id="1_qmkcr"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_vatos"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lsqcp"]
+size = Vector3(0.06, 0.16999999, 0.28500003)
+
+[node name="drill" type="RigidBody3D" unique_id=1809370862]
+collision_layer = 16
+collision_mask = 31
+mass = 1.2
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1095091789 instance=ExtResource("1_qmkcr")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1877441020]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.074999996, -0.082499996)
+shape = SubResource("BoxShape3D_lsqcp")
+
+[node name="Prop" type="Node" parent="." unique_id=751932846]
+script = ExtResource("2_vatos")
+prop_id = &"drill"
+grab_class = "light"
+tags = PackedStringArray()

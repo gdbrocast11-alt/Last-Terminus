@@ -1,0 +1,29 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/speaker_tall.glb" id="1_uf7ei"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_o5jl5"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_vwhho"]
+size = Vector3(0.48967797, 1.855, 0.5398847)
+
+[node name="speaker_tall" type="RigidBody3D" unique_id=506329800]
+collision_layer = 16
+collision_mask = 31
+mass = 12.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1288612097 instance=ExtResource("1_uf7ei")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=530049643]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.064838976, 0.9225, -0.00010070205)
+shape = SubResource("BoxShape3D_vwhho")
+
+[node name="Prop" type="Node" parent="." unique_id=1463265480]
+script = ExtResource("2_o5jl5")
+prop_id = &"speaker_tall"
+grab_class = "medium"
+inspect_line = &"ch4_insp_speaker"
+hazard = 1
+tags = PackedStringArray("speaker", "chain")

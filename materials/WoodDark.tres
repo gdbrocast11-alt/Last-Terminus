@@ -1,5 +1,20 @@
 [gd_resource type="StandardMaterial3D" format=3]
 
+[ext_resource type="Texture2D" path="res://textures/wood_planks_albedo.png" id="1_p282n"]
+[ext_resource type="Texture2D" path="res://textures/wood_planks_orm.png" id="2_ing5s"]
+[ext_resource type="Texture2D" path="res://textures/wood_planks_normal.png" id="3_li25r"]
+
 [resource]
 resource_name = "WoodDark"
 albedo_color = Color(0.55, 0.36, 0.24, 1)
+albedo_texture = ExtResource("1_p282n")
+metallic_texture = ExtResource("2_ing5s")
+metallic_texture_channel = 2
+roughness = 0.71428573
+roughness_texture = ExtResource("2_ing5s")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_li25r")
+ao_enabled = true
+ao_texture = ExtResource("2_ing5s")
+texture_filter = 5

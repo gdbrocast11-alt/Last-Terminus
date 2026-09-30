@@ -1,0 +1,13 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/leash_hook.glb" id="1_ahsbd"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_1xsgi"]
+
+[node name="leash_hook" type="Node3D" unique_id=1355190343]
+
+[node name="Model" type="Node3D" parent="." unique_id=312661571 instance=ExtResource("1_ahsbd")]
+
+[node name="Prop" type="Node" parent="." unique_id=1303817056]
+script = ExtResource("2_1xsgi")
+prop_id = &"leash_hook"
+tags = PackedStringArray("ending")

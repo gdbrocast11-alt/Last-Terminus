@@ -1,5 +1,21 @@
 [gd_resource type="StandardMaterial3D" format=3]
 
+[ext_resource type="Texture2D" path="res://textures/diamond_plate_albedo.png" id="1_qxl5k"]
+[ext_resource type="Texture2D" path="res://textures/diamond_plate_orm.png" id="2_8orm5"]
+[ext_resource type="Texture2D" path="res://textures/diamond_plate_normal.png" id="3_80vnn"]
+
 [resource]
 resource_name = "DiamondPlate"
 albedo_color = Color(0.65, 0.66, 0.68, 1)
+albedo_texture = ExtResource("1_qxl5k")
+metallic = 0.9
+metallic_texture = ExtResource("2_8orm5")
+metallic_texture_channel = 2
+roughness = 0.64285713
+roughness_texture = ExtResource("2_8orm5")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_80vnn")
+ao_enabled = true
+ao_texture = ExtResource("2_8orm5")
+texture_filter = 5

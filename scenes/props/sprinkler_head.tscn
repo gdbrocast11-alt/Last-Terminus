@@ -3,11 +3,11 @@
 [ext_resource type="PackedScene" path="res://props/sprinkler_head.glb" id="1_jvdr2"]
 [ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_wp5fu"]
 
-[node name="sprinkler_head" type="Node3D" unique_id=179235240]
+[node name="sprinkler_head" type="Node3D" unique_id=112265862]
 
-[node name="Model" type="Node3D" parent="." unique_id=1624277922 instance=ExtResource("1_jvdr2")]
+[node name="Model" type="Node3D" parent="." unique_id=312284906 instance=ExtResource("1_jvdr2")]
 
-[node name="Prop" type="Node" parent="." unique_id=69465907]
+[node name="Prop" type="Node" parent="." unique_id=373266021]
 script = ExtResource("2_wp5fu")
 prop_id = &"sprinkler_head"
 tags = PackedStringArray()

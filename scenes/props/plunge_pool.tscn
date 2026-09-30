@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/plunge_pool.glb" id="1_c2y5x"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_u5wdm"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ydwy7"]
+size = Vector3(2, 0.51, 2)
+
+[node name="plunge_pool" type="StaticBody3D" unique_id=1373439587]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=449133635 instance=ExtResource("1_c2y5x")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=339310301]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.255, 0)
+shape = SubResource("BoxShape3D_ydwy7")
+
+[node name="Prop" type="Node" parent="." unique_id=232924169]
+script = ExtResource("2_u5wdm")
+prop_id = &"plunge_pool"
+inspect_line = &"ch4_insp_pool"
+tags = PackedStringArray()

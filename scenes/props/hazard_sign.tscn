@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/hazard_sign.glb" id="1_p8io5"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_l77be"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_rdpon"]
+size = Vector3(0.7, 1.95, 0.06500002)
+
+[node name="hazard_sign" type="StaticBody3D" unique_id=1088353610]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=1897893562 instance=ExtResource("1_p8io5")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=171771471]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.975, -0.0025000088)
+shape = SubResource("BoxShape3D_rdpon")
+
+[node name="Prop" type="Node" parent="." unique_id=499488071]
+script = ExtResource("2_l77be")
+prop_id = &"hazard_sign"
+tags = PackedStringArray()

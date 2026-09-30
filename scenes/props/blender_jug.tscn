@@ -1,0 +1,28 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/blender_jug.glb" id="1_1s1ef"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_ghoql"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_rkmhv"]
+height = 0.46
+radius = 0.115
+
+[node name="blender_jug" type="RigidBody3D" unique_id=1112136014]
+collision_layer = 16
+collision_mask = 31
+mass = 0.8
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1352836471 instance=ExtResource("1_1s1ef")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1901899136]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.23, 0)
+shape = SubResource("CylinderShape3D_rkmhv")
+
+[node name="Prop" type="Node" parent="." unique_id=93640290]
+script = ExtResource("2_ghoql")
+prop_id = &"blender_jug"
+grab_class = "light"
+tags = PackedStringArray("blender")

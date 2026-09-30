@@ -1,0 +1,23 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/excavator_mini.glb" id="1_e3eod"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_5c8t2"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_pct2y"]
+size = Vector3(1.6, 2.3960655, 4)
+
+[node name="excavator_mini" type="StaticBody3D" unique_id=854506527]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=1560573112 instance=ExtResource("1_e3eod")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=983302168]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2980328, -0.79999995)
+shape = SubResource("BoxShape3D_pct2y")
+
+[node name="Prop" type="Node" parent="." unique_id=187532962]
+script = ExtResource("2_5c8t2")
+prop_id = &"excavator_mini"
+inspect_line = &"ch8_dig"
+hazard = 1
+tags = PackedStringArray("hazard_street")

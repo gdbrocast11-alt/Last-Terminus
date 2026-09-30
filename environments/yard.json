@@ -1,0 +1,1924 @@
+{
+"name": "yard",
+"shell": "res://environments/yard.glb",
+"cols": [
+{
+"c": [
+0.0,
+-0.5,
+7.0
+],
+"s": [
+120,
+1.0,
+86
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "gravel",
+"nav": true
+},
+{
+"c": [
+0.0,
+-0.5,
+55.0
+],
+"s": [
+16,
+1.0,
+50
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+0.0,
+-0.015,
+10.0
+],
+"s": [
+12,
+0.05,
+32
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+0.0,
+-0.6000000000000001,
+65.0
+],
+"s": [
+120,
+1.0,
+30
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "gravel",
+"nav": true
+},
+{
+"c": [
+-60.3,
+2.95,
+22.0
+],
+"s": [
+0.6000000000000014,
+6.1,
+116
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+60.3,
+2.95,
+22.0
+],
+"s": [
+0.6000000000000014,
+6.1,
+116
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+0.0,
+2.95,
+80.3
+],
+"s": [
+120,
+6.1,
+0.5999999999999943
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+0.0,
+-16.5,
+-53.0
+],
+"s": [
+120,
+1.0,
+34
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "gravel",
+"nav": true
+},
+{
+"c": [
+0.0,
+-2.5,
+-39.0
+],
+"s": [
+120,
+5.0,
+6.0
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "gravel",
+"nav": true
+},
+{
+"c": [
+0.0,
+-7.5,
+-45.0
+],
+"s": [
+120,
+5.0,
+6.0
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "gravel",
+"nav": true
+},
+{
+"c": [
+0.0,
+-12.5,
+-52.0
+],
+"s": [
+120,
+5.0,
+6.0
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "gravel",
+"nav": true
+},
+{
+"c": [
+0.0,
+-16.5,
+-59.0
+],
+"s": [
+120,
+5.0,
+6.0
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "gravel",
+"nav": true
+},
+{
+"c": [
+0.0,
+7.0,
+-70.3
+],
+"s": [
+120,
+46.0,
+0.5999999999999943
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+-60.3,
+7.0,
+-53.0
+],
+"s": [
+0.6000000000000014,
+46.0,
+34
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+60.3,
+7.0,
+-53.0
+],
+"s": [
+0.6000000000000014,
+46.0,
+34
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+0.0,
+1.5,
+-36.5
+],
+"s": [
+120,
+3.0,
+0.20000000000000284
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+-32.5,
+1.5,
+49.5
+],
+"s": [
+55.0,
+3.0,
+0.4000000000000057
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+32.5,
+1.5,
+49.5
+],
+"s": [
+55.0,
+3.0,
+0.4000000000000057
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+-5.0,
+1.7,
+49.5
+],
+"s": [
+0.5999999999999996,
+3.4,
+0.5999999999999943
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+5.0,
+1.7,
+49.5
+],
+"s": [
+0.5999999999999996,
+3.4,
+0.5999999999999943
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+30.0,
+1.35,
+-15.0
+],
+"s": [
+4.0,
+0.5,
+18.2822318112423
+],
+"r": [
+10.08059798754232,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+30.0,
+1.5,
+-24.25
+],
+"s": [
+8.0,
+3.0,
+0.5
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+30.0,
+2.95,
+-27.25
+],
+"s": [
+8,
+0.5,
+6.5
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+25.85,
+1.85,
+-18.25
+],
+"s": [
+0.3000000000000007,
+3.7,
+24.5
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+34.15,
+1.85,
+-18.25
+],
+"s": [
+0.29999999999999716,
+3.7,
+24.5
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+}
+],
+"props": [
+{
+"scene": "stump_seat",
+"name": "Stump",
+"p": [
+-4.0,
+0,
+13.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "hazard_sign",
+"name": "DangerSign",
+"p": [
+0,
+0,
+22
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "chain_fence",
+"name": "Fence1",
+"p": [
+-14,
+0,
+47
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "chain_fence",
+"name": "Fence2",
+"p": [
+14,
+0,
+47
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "sandwich_wrapper",
+"name": "Wrapper1",
+"p": [
+2.0,
+0.01,
+15.0
+],
+"r": [
+0,
+30,
+0
+],
+"opts": {}
+},
+{
+"scene": "lamp_post",
+"name": "Lamp1",
+"p": [
+-9,
+0,
+26
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "lamp_post",
+"name": "Lamp2",
+"p": [
+9,
+0,
+26
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "crane_gantry",
+"name": "GantryCrane",
+"p": [
+-30,
+0,
+-8
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "steel_beam",
+"name": "Beam",
+"p": [
+-30,
+4.1,
+-8
+],
+"r": [
+0,
+90,
+0
+],
+"opts": {
+"nocol": true
+}
+},
+{
+"scene": "yard_lever",
+"name": "LeverBeam",
+"p": [
+-24,
+0,
+-2
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "hay_bale",
+"name": "HayA",
+"p": [
+-30,
+0,
+-11
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "hay_bale",
+"name": "HayA2",
+"p": [
+-31.5,
+0,
+-11
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "sandwich_wrapper",
+"name": "WrapperA",
+"p": [
+-33,
+0.01,
+-3
+],
+"r": [
+0,
+60,
+0
+],
+"opts": {}
+},
+{
+"scene": "tire_stack",
+"name": "TiresA",
+"p": [
+-27,
+0,
+-12
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "yard_truck",
+"name": "YardTruck",
+"p": [
+30,
+3.2,
+-26.5
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "yard_lever",
+"name": "LeverTruck",
+"p": [
+24.0,
+0,
+-15.0
+],
+"r": [
+0,
+90,
+0
+],
+"opts": {}
+},
+{
+"scene": "hay_bale",
+"name": "HayB",
+"p": [
+30,
+0,
+4.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "hay_bale",
+"name": "HayB2",
+"p": [
+31.5,
+0,
+4.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "jersey_barrier",
+"name": "JerseyB1",
+"p": [
+26.0,
+0,
+4.0
+],
+"r": [
+0,
+90,
+0
+],
+"opts": {}
+},
+{
+"scene": "jersey_barrier",
+"name": "JerseyB2",
+"p": [
+34.0,
+0,
+4.0
+],
+"r": [
+0,
+90,
+0
+],
+"opts": {}
+},
+{
+"scene": "oil_drum",
+"name": "DrumB",
+"p": [
+36.0,
+0,
+-2.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "scaffold_tower",
+"name": "ScaffoldDrop",
+"p": [
+0,
+0,
+-22
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "mattress",
+"name": "Mattress",
+"p": [
+-3.0,
+0.0,
+-18.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "crate",
+"name": "DropCrate",
+"p": [
+0,
+5.6,
+-22
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "yard_lever",
+"name": "LeverDrop",
+"p": [
+5.0,
+0,
+-18
+],
+"r": [
+0,
+-90,
+0
+],
+"opts": {}
+},
+{
+"scene": "scaffold_plank",
+"name": "PlankC",
+"p": [
+2.0,
+0,
+-26
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "cable_spool",
+"name": "SpoolC",
+"p": [
+-8.0,
+0,
+-24
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "gravel_pile",
+"name": "GravelC",
+"p": [
+10.0,
+0,
+-28
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "barrel_red",
+"name": "Barrel1",
+"p": [
+-22,
+0,
+22
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "barrel_red",
+"name": "Barrel2",
+"p": [
+-20.8,
+0,
+22.2
+],
+"r": [
+0,
+40,
+0
+],
+"opts": {}
+},
+{
+"scene": "barrel_red",
+"name": "Barrel3",
+"p": [
+-22.6,
+0,
+23.4
+],
+"r": [
+0,
+80,
+0
+],
+"opts": {}
+},
+{
+"scene": "barrel_red",
+"name": "Barrel4",
+"p": [
+-21.2,
+0,
+23.6
+],
+"r": [
+0,
+120,
+0
+],
+"opts": {}
+},
+{
+"scene": "barrel_red",
+"name": "Barrel5",
+"p": [
+-23.8,
+0,
+22.4
+],
+"r": [
+0,
+160,
+0
+],
+"opts": {}
+},
+{
+"scene": "propane_cylinder",
+"name": "PropaneD1",
+"p": [
+-21.6,
+0,
+20.9
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "propane_cylinder",
+"name": "PropaneD2",
+"p": [
+-22.4,
+0,
+20.9
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "fuse_box",
+"name": "FuseBox",
+"p": [
+-14.0,
+0,
+27.0
+],
+"r": [
+0,
+90,
+0
+],
+"opts": {}
+},
+{
+"scene": "airbag_safet",
+"name": "Airbag",
+"p": [
+-36,
+0,
+28
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "airbag_inflated",
+"name": "AirbagInflated",
+"p": [
+-36,
+0,
+28
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "hazard_sign",
+"name": "DangerSignD",
+"p": [
+-18,
+0,
+21
+],
+"r": [
+0,
+90,
+0
+],
+"opts": {}
+},
+{
+"scene": "vending_machine_phys",
+"name": "VendA",
+"p": [
+20.0,
+0,
+22.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "vending_machine_phys",
+"name": "VendB",
+"p": [
+20.0,
+0,
+25.0
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "yard_lever",
+"name": "LeverVend",
+"p": [
+16.0,
+0,
+20.0
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "vending_machine_phys",
+"name": "VendSpare",
+"p": [
+28.0,
+0,
+30.0
+],
+"r": [
+0,
+90,
+0
+],
+"opts": {}
+},
+{
+"scene": "mattress",
+"name": "MattressE",
+"p": [
+22.0,
+0,
+27.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "porta_potty",
+"name": "Potty",
+"p": [
+12.0,
+0,
+34.0
+],
+"r": [
+0,
+200,
+0
+],
+"opts": {}
+},
+{
+"scene": "crane_arm",
+"name": "WreckerCrane",
+"p": [
+40,
+0,
+20
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "wrecking_ball",
+"name": "WreckingBall",
+"p": [
+40,
+9.2,
+26.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {
+"nocol": true
+}
+},
+{
+"scene": "yard_lever",
+"name": "LeverBall",
+"p": [
+44,
+0,
+22
+],
+"r": [
+0,
+-90,
+0
+],
+"opts": {}
+},
+{
+"scene": "hay_bale",
+"name": "HayF",
+"p": [
+24.5,
+0,
+12
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "dumpster",
+"name": "DumpsterF",
+"p": [
+46,
+0,
+12
+],
+"r": [
+0,
+160,
+0
+],
+"opts": {}
+},
+{
+"scene": "shipping_container",
+"name": "Container_-52_-12",
+"p": [
+-52,
+0,
+-12
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "shipping_container",
+"name": "Container_-52_4",
+"p": [
+-52,
+0,
+4
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "shipping_container",
+"name": "Container_-52_20",
+"p": [
+-52,
+0,
+20
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "shipping_container",
+"name": "Container_52_30",
+"p": [
+52,
+0,
+30
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "shipping_container",
+"name": "Container_52_14",
+"p": [
+52,
+0,
+14
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "shipping_container",
+"name": "Container_-46_40",
+"p": [
+-46,
+0,
+40
+],
+"r": [
+0,
+90,
+0
+],
+"opts": {}
+},
+{
+"scene": "shipping_container",
+"name": "Container_46_44",
+"p": [
+46,
+0,
+44
+],
+"r": [
+0,
+90,
+0
+],
+"opts": {}
+},
+{
+"scene": "shipping_container",
+"name": "Container_0_-33",
+"p": [
+0,
+0,
+-33
+],
+"r": [
+0,
+90,
+0
+],
+"opts": {}
+},
+{
+"scene": "shipping_container",
+"name": "ContainerStack1",
+"p": [
+-52,
+2.6,
+4
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "rail_segment",
+"name": "RailA",
+"p": [
+-12,
+0,
+36
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "rail_segment",
+"name": "RailB",
+"p": [
+-12,
+0,
+40
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "rail_cart",
+"name": "RailCart",
+"p": [
+-12,
+0.15,
+41.4
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "generator",
+"name": "Generator",
+"p": [
+-4,
+0,
+38
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "quarry_rock",
+"name": "Rock1",
+"p": [
+-40,
+0,
+-30
+],
+"r": [
+0,
+20,
+0
+],
+"opts": {}
+},
+{
+"scene": "quarry_rock",
+"name": "Rock2",
+"p": [
+44,
+0,
+-32
+],
+"r": [
+0,
+200,
+0
+],
+"opts": {}
+},
+{
+"scene": "gravel_pile",
+"name": "GravelA",
+"p": [
+-48,
+0,
+-22
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "gravel_pile",
+"name": "GravelB",
+"p": [
+50,
+0,
+-20
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "tire_stack",
+"name": "TireStackC",
+"p": [
+-8,
+0,
+44
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "tank_barrel_blue",
+"name": "BlueBarrel",
+"p": [
+8,
+0,
+44
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "oil_drum",
+"name": "OilDrum",
+"p": [
+9,
+0,
+44.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "jersey_barrier",
+"name": "GateBarrierL",
+"p": [
+-6,
+0,
+30
+],
+"r": [
+0,
+90,
+0
+],
+"opts": {}
+},
+{
+"scene": "jersey_barrier",
+"name": "GateBarrierR",
+"p": [
+6,
+0,
+30
+],
+"r": [
+0,
+90,
+0
+],
+"opts": {}
+},
+{
+"scene": "lamp_post",
+"name": "GateLampL",
+"p": [
+-6,
+0,
+47
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "lamp_post",
+"name": "GateLampR",
+"p": [
+6,
+0,
+47
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "dumpster",
+"name": "DumpsterA",
+"p": [
+-40,
+0,
+44
+],
+"r": [
+0,
+20,
+0
+],
+"opts": {}
+},
+{
+"scene": "porta_potty",
+"name": "PottyB",
+"p": [
+-30,
+0,
+38
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "bench_street",
+"name": "GateBench",
+"p": [
+0,
+0,
+44
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {
+"grab": ""
+}
+}
+],
+"lights": [
+{
+"kind": "dir",
+"p": [
+0,
+30,
+60
+],
+"color": [
+0.9,
+0.92,
+1.0
+],
+"energy": 1.15,
+"range": 200.0,
+"shadow": true,
+"angle": 60,
+"rot": [
+-52,
+35,
+0
+],
+"name": "Sun",
+"fog": 1.0,
+"cookie": null
+},
+{
+"kind": "omni",
+"p": [
+0,
+3.0,
+9.0
+],
+"color": [
+1.0,
+0.95,
+0.85
+],
+"energy": 0.5,
+"range": 10.0,
+"shadow": false,
+"angle": 60,
+"rot": [
+-90,
+0,
+0
+],
+"name": "ApologyGlow",
+"fog": 1.0,
+"cookie": null
+}
+],
+"markers": {
+"PlayerStart": [
+0,
+0.05,
+70,
+180
+],
+"PicklesStart": [
+1.4,
+0.05,
+71,
+180
+],
+"Gate": [
+0,
+0.05,
+48,
+180
+],
+"Plaza": [
+0,
+0.05,
+10,
+0
+],
+"PicklesPlaza": [
+1.6,
+0.05,
+11,
+0
+],
+"SitSpot": [
+-4.0,
+0.5,
+13.0,
+180
+],
+"GravesChair": [
+0,
+0.05,
+56,
+0
+],
+"GravesAppear": [
+0,
+0.05,
+60,
+180
+],
+"ExitRun": [
+0,
+0.05,
+54,
+180
+],
+"A_Mark": [
+-30,
+0.02,
+-8,
+0
+],
+"A_Lever": [
+-24,
+0.05,
+-2,
+90
+],
+"B_Mark": [
+30,
+0.02,
+1.5,
+0
+],
+"B_Lever": [
+24,
+0.05,
+-15,
+90
+],
+"B_TruckStart": [
+30,
+3.2,
+-26.5,
+180
+],
+"C_Mark": [
+0,
+0.02,
+-22,
+0
+],
+"C_Lever": [
+5,
+0.05,
+-18,
+90
+],
+"D_Mark": [
+-22,
+0.02,
+22.5,
+0
+],
+"D_Lever": [
+-14,
+0.05,
+25.4,
+0
+],
+"D_Land": [
+-36,
+0.4,
+28,
+0
+],
+"E_Mark": [
+20,
+0.02,
+23.5,
+0
+],
+"E_Lever": [
+16,
+0.05,
+20,
+90
+],
+"F_Mark": [
+40,
+0.02,
+33,
+0
+],
+"F_Lever": [
+44,
+0.05,
+22,
+90
+],
+"BallPivot": [
+40,
+9.2,
+26.5,
+0
+],
+"RunA": [
+0,
+0.05,
+22,
+180
+],
+"RunB": [
+0,
+0.05,
+32,
+180
+],
+"RunC": [
+0,
+0.05,
+40,
+180
+],
+"RunD": [
+0,
+0.05,
+46,
+180
+]
+},
+"zones": [
+{
+"mn": [
+-60,
+-0.5,
+-36
+],
+"mx": [
+60,
+40,
+80
+],
+"reverb": "RevOutdoor",
+"amount": 0.3,
+"name": "YardReverb"
+}
+],
+"probes": [
+{
+"mn": [
+-60,
+-2,
+-36
+],
+"mx": [
+60,
+30,
+80
+]
+}
+],
+"occluders": [],
+"env": {
+"kind": "exterior_overcast",
+"sky_top": [
+0.42,
+0.48,
+0.58
+],
+"sky_horizon": [
+0.78,
+0.8,
+0.82
+],
+"ambient_energy": 0.9,
+"fog": 0.006,
+"fog_color": [
+0.7,
+0.72,
+0.75
+],
+"exposure": 1.0,
+"sdfgi": true,
+"vfog": false,
+"grade": "bleak",
+"dof": true
+},
+"groups": {}
+}

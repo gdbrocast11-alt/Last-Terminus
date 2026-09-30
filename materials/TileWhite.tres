@@ -1,5 +1,20 @@
 [gd_resource type="StandardMaterial3D" format=3]
 
+[ext_resource type="Texture2D" path="res://textures/tile_white_albedo.png" id="1_u2hq7"]
+[ext_resource type="Texture2D" path="res://textures/tile_white_orm.png" id="2_qmbun"]
+[ext_resource type="Texture2D" path="res://textures/tile_white_normal.png" id="3_u6b62"]
+
 [resource]
 resource_name = "TileWhite"
 albedo_color = Color(0.95, 0.96, 0.97, 1)
+albedo_texture = ExtResource("1_u2hq7")
+metallic_texture = ExtResource("2_qmbun")
+metallic_texture_channel = 2
+roughness = 0.64285713
+roughness_texture = ExtResource("2_qmbun")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_u6b62")
+ao_enabled = true
+ao_texture = ExtResource("2_qmbun")
+texture_filter = 5

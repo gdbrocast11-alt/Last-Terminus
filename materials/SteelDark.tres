@@ -1,5 +1,21 @@
 [gd_resource type="StandardMaterial3D" format=3]
 
+[ext_resource type="Texture2D" path="res://textures/metal_brushed_albedo.png" id="1_25fjo"]
+[ext_resource type="Texture2D" path="res://textures/metal_brushed_orm.png" id="2_6nxry"]
+[ext_resource type="Texture2D" path="res://textures/metal_brushed_normal.png" id="3_ud6qk"]
+
 [resource]
 resource_name = "SteelDark"
 albedo_color = Color(0.32, 0.33, 0.36, 1)
+albedo_texture = ExtResource("1_25fjo")
+metallic = 0.9
+metallic_texture = ExtResource("2_6nxry")
+metallic_texture_channel = 2
+roughness = 0.71428573
+roughness_texture = ExtResource("2_6nxry")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_ud6qk")
+ao_enabled = true
+ao_texture = ExtResource("2_6nxry")
+texture_filter = 5

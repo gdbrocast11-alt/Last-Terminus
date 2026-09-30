@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/airbag_safet.glb" id="1_1vk48"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_m7gqk"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0rhpg"]
+size = Vector3(4, 0.22399999, 4)
+
+[node name="airbag_safet" type="StaticBody3D" unique_id=1460932912]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=1941464992 instance=ExtResource("1_1vk48")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=690820236]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.111999996, 0)
+shape = SubResource("BoxShape3D_0rhpg")
+
+[node name="Prop" type="Node" parent="." unique_id=248492063]
+script = ExtResource("2_m7gqk")
+prop_id = &"airbag_safet"
+inspect_line = &"ch6_insp_airbag"
+tags = PackedStringArray("airbag", "yard")

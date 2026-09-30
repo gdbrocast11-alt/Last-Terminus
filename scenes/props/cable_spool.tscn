@@ -1,0 +1,28 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/cable_spool.glb" id="1_8c6jo"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_3kco4"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_x5lvg"]
+height = 1.0
+radius = 0.49240386
+
+[node name="cable_spool" type="RigidBody3D" unique_id=1684727712]
+collision_layer = 16
+collision_mask = 31
+mass = 60.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1117284393 instance=ExtResource("1_8c6jo")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=2146254705]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+shape = SubResource("CylinderShape3D_x5lvg")
+
+[node name="Prop" type="Node" parent="." unique_id=1533696933]
+script = ExtResource("2_3kco4")
+prop_id = &"cable_spool"
+grab_class = "heavy"
+tags = PackedStringArray()

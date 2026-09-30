@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/airbag_inflated.glb" id="1_1r61x"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_466qf"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_mspc3"]
+size = Vector3(4, 1.6, 4.0299997)
+
+[node name="airbag_inflated" type="StaticBody3D" unique_id=922668693]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=1860188436 instance=ExtResource("1_1r61x")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=2090077189]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8, -0.015000105)
+shape = SubResource("BoxShape3D_mspc3")
+
+[node name="Prop" type="Node" parent="." unique_id=1725713840]
+script = ExtResource("2_466qf")
+prop_id = &"airbag_inflated"
+tags = PackedStringArray("airbag")

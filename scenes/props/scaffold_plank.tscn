@@ -1,0 +1,27 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/scaffold_plank.glb" id="1_5gts5"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_x3rif"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_i1jri"]
+size = Vector3(2.4, 0.05, 0.24)
+
+[node name="scaffold_plank" type="RigidBody3D" unique_id=1265492551]
+collision_layer = 16
+collision_mask = 31
+mass = 12.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=358588899 instance=ExtResource("1_5gts5")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=203236146]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.025, 0)
+shape = SubResource("BoxShape3D_i1jri")
+
+[node name="Prop" type="Node" parent="." unique_id=2096610304]
+script = ExtResource("2_x3rif")
+prop_id = &"scaffold_plank"
+grab_class = "medium"
+tags = PackedStringArray("plank", "yard")

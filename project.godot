@@ -31,6 +31,7 @@ DialogueManager="*res://systems/dialogue_manager.gd"
 SequenceManager="*res://systems/sequence_manager.gd"
 AchievementManager="*res://systems/achievement_manager.gd"
 SaveManager="*res://systems/save_manager.gd"
+FX="*res://systems/fx_manager.gd"
 Director="*res://systems/director.gd"
 DebugTools="*res://systems/debug_tools.gd"
 

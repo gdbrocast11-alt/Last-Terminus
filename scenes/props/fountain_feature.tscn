@@ -1,0 +1,23 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/fountain_feature.glb" id="1_ij020"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_0hx8d"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_fwrrp"]
+size = Vector3(1.8, 0.895, 1.8)
+
+[node name="fountain_feature" type="StaticBody3D" unique_id=174920051]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=1800106744 instance=ExtResource("1_ij020")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=680340366]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4475, 0)
+shape = SubResource("BoxShape3D_fwrrp")
+
+[node name="Prop" type="Node" parent="." unique_id=1630525833]
+script = ExtResource("2_0hx8d")
+prop_id = &"fountain_feature"
+inspect_line = &"ch4_insp_fountain"
+hazard = 1
+tags = PackedStringArray("water")

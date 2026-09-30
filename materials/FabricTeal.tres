@@ -1,0 +1,20 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[ext_resource type="Texture2D" path="res://textures/fabric_albedo.png" id="1_0rbqp"]
+[ext_resource type="Texture2D" path="res://textures/fabric_orm.png" id="2_l01dy"]
+[ext_resource type="Texture2D" path="res://textures/fabric_normal.png" id="3_av0g2"]
+
+[resource]
+resource_name = "FabricTeal"
+albedo_color = Color(0.12, 0.5, 0.5, 1)
+albedo_texture = ExtResource("1_0rbqp")
+metallic_texture = ExtResource("2_l01dy")
+metallic_texture_channel = 2
+roughness = 1.3571428
+roughness_texture = ExtResource("2_l01dy")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_av0g2")
+ao_enabled = true
+ao_texture = ExtResource("2_l01dy")
+texture_filter = 5

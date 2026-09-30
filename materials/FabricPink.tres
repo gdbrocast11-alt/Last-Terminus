@@ -1,0 +1,20 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[ext_resource type="Texture2D" path="res://textures/fabric_albedo.png" id="1_lgab5"]
+[ext_resource type="Texture2D" path="res://textures/fabric_orm.png" id="2_1slfd"]
+[ext_resource type="Texture2D" path="res://textures/fabric_normal.png" id="3_nlmgj"]
+
+[resource]
+resource_name = "FabricPink"
+albedo_color = Color(0.9, 0.5, 0.6, 1)
+albedo_texture = ExtResource("1_lgab5")
+metallic_texture = ExtResource("2_1slfd")
+metallic_texture_channel = 2
+roughness = 1.3571428
+roughness_texture = ExtResource("2_1slfd")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_nlmgj")
+ao_enabled = true
+ao_texture = ExtResource("2_1slfd")
+texture_filter = 5

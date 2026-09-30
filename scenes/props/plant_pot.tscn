@@ -7,7 +7,7 @@
 height = 0.548
 radius = 0.14804257
 
-[node name="plant_pot" type="RigidBody3D" unique_id=1014981221]
+[node name="plant_pot" type="RigidBody3D" unique_id=1514112139]
 collision_layer = 16
 collision_mask = 31
 mass = 3.0
@@ -15,13 +15,13 @@ sleeping = true
 linear_damp = 0.15
 angular_damp = 0.4
 
-[node name="Model" type="Node3D" parent="." unique_id=922064996 instance=ExtResource("1_orfli")]
+[node name="Model" type="Node3D" parent="." unique_id=260517622 instance=ExtResource("1_orfli")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=696478935]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=417236658]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0030259043, 0.274, -0.00042776763)
 shape = SubResource("CylinderShape3D_cw6qo")
 
-[node name="Prop" type="Node" parent="." unique_id=819227866]
+[node name="Prop" type="Node" parent="." unique_id=630351966]
 script = ExtResource("2_wv8mq")
 prop_id = &"plant_pot"
 grab_class = "medium"

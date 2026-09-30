@@ -1,0 +1,24 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/treadmill_key.glb" id="1_hjcuy"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_r3u5w"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_78jd0"]
+size = Vector3(0.07464238, 0.36191356, 0.07428896)
+
+[node name="treadmill_key" type="StaticBody3D" unique_id=1610822058]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=1318771475 instance=ExtResource("1_hjcuy")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=966155291]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.007321192, -0.10095677, -0.017144479)
+shape = SubResource("BoxShape3D_78jd0")
+
+[node name="Prop" type="Node" parent="." unique_id=356199111]
+script = ExtResource("2_r3u5w")
+prop_id = &"treadmill_key"
+inspect_line = &"ch4_insp_key"
+hazard = 1
+tags = PackedStringArray("key", "chain")
+use_verb = "Pull safety key"

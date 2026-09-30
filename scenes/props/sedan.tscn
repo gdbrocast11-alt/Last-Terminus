@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/sedan.glb" id="1_8jn47"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_165cg"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_xjfep"]
+size = Vector3(1.96, 1.4917262, 4.4)
+
+[node name="sedan" type="StaticBody3D" unique_id=2048796734]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=512990904 instance=ExtResource("1_8jn47")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=946543165]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.75413686, 0)
+shape = SubResource("BoxShape3D_xjfep")
+
+[node name="Prop" type="Node" parent="." unique_id=1740825230]
+script = ExtResource("2_165cg")
+prop_id = &"sedan"
+tags = PackedStringArray()

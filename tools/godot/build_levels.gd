@@ -73,6 +73,7 @@ func _build(level_name: String) -> void:
 		if p.has("group"):
 			inst.add_to_group("deco_" + p.group, true)
 		var comp := inst.get_node_or_null("Prop")
+		var nocol := false
 		if comp:
 			var o: Dictionary = p.opts
 			for k in o.keys():
@@ -82,11 +83,19 @@ func _build(level_name: String) -> void:
 					comp.set("tags", PackedStringArray(o[k]))
 				elif k == "grab":
 					comp.set("grab_class", String(o[k]))
+				elif k == "nocol":
+					if o[k]:
+						for cs3 in inst.find_children("*", "CollisionShape3D", true, false):
+							cs3.get_parent().remove_child(cs3)
+							cs3.free()
+						nocol = true
 				else:
 					comp.set(k, o[k])
 		if inst is RigidBody3D:
 			(inst as RigidBody3D).sleeping = true
-		if inst is StaticBody3D:
+			if nocol:
+				(inst as RigidBody3D).freeze = true
+		if inst is StaticBody3D and not nocol and not (comp and "door" in (comp.get("tags") as PackedStringArray)):
 			inst.add_to_group("nav_source", true)
 	# ---- lights
 	var lights_root := Node3D.new()

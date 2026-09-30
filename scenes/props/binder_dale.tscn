@@ -1,0 +1,28 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/binder_dale.glb" id="1_e88gj"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_aj6ht"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_iq10e"]
+size = Vector3(0.26, 0.32, 0.068)
+
+[node name="binder_dale" type="RigidBody3D" unique_id=2128604495]
+collision_layer = 16
+collision_mask = 31
+mass = 0.6
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1760179259 instance=ExtResource("1_e88gj")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=766416102]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.16, -0.003000006)
+shape = SubResource("BoxShape3D_iq10e")
+
+[node name="Prop" type="Node" parent="." unique_id=956800372]
+script = ExtResource("2_aj6ht")
+prop_id = &"binder_dale"
+grab_class = "light"
+inspect_line = &"ch8_dale_binder"
+tags = PackedStringArray("ending")

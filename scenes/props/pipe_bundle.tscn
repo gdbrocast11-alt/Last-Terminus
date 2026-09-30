@@ -1,0 +1,27 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/pipe_bundle.glb" id="1_5rcvy"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_hb4oe"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_p8l3w"]
+size = Vector3(0.29510567, 0.2800001, 2.4)
+
+[node name="pipe_bundle" type="RigidBody3D" unique_id=1682055055]
+collision_layer = 16
+collision_mask = 31
+mass = 25.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=826783758 instance=ExtResource("1_5rcvy")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1022957210]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.14999999, 0)
+shape = SubResource("BoxShape3D_p8l3w")
+
+[node name="Prop" type="Node" parent="." unique_id=1961814649]
+script = ExtResource("2_hb4oe")
+prop_id = &"pipe_bundle"
+grab_class = "heavy"
+tags = PackedStringArray()

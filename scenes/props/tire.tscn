@@ -1,0 +1,30 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/tire.glb" id="1_us2dv"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_3mdu0"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_8ypm5"]
+height = 0.69
+radius = 0.345
+
+[node name="tire" type="RigidBody3D" unique_id=1083338031]
+collision_layer = 16
+collision_mask = 31
+mass = 9.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1058210169 instance=ExtResource("1_us2dv")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1181835311]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.345, 0)
+shape = SubResource("CylinderShape3D_8ypm5")
+
+[node name="Prop" type="Node" parent="." unique_id=1935110337]
+script = ExtResource("2_3mdu0")
+prop_id = &"tire"
+grab_class = "medium"
+inspect_line = &"ch3_insp_tire"
+hazard = 1
+tags = PackedStringArray("tire", "chain")

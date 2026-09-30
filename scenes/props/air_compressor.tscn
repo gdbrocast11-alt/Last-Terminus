@@ -1,0 +1,24 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/air_compressor.glb" id="1_r23fo"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_by4nm"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jot6c"]
+size = Vector3(1.3642302, 1.0055951, 0.8600146)
+
+[node name="air_compressor" type="StaticBody3D" unique_id=619658489]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=465217251 instance=ExtResource("1_r23fo")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1004148889]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0321151, 0.50720245, -0.18000731)
+shape = SubResource("BoxShape3D_jot6c")
+
+[node name="Prop" type="Node" parent="." unique_id=1370793013]
+script = ExtResource("2_by4nm")
+prop_id = &"air_compressor"
+inspect_line = &"ch3_insp_compressor"
+hazard = 1
+tags = PackedStringArray("compressor", "chain")
+use_verb = "Close air valve"

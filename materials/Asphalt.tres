@@ -1,5 +1,20 @@
 [gd_resource type="StandardMaterial3D" format=3]
 
+[ext_resource type="Texture2D" path="res://textures/asphalt_albedo.png" id="1_2myuh"]
+[ext_resource type="Texture2D" path="res://textures/asphalt_orm.png" id="2_w7c1v"]
+[ext_resource type="Texture2D" path="res://textures/asphalt_normal.png" id="3_8h0nq"]
+
 [resource]
 resource_name = "Asphalt"
 albedo_color = Color(0.5, 0.5, 0.5, 1)
+albedo_texture = ExtResource("1_2myuh")
+metallic_texture = ExtResource("2_w7c1v")
+metallic_texture_channel = 2
+roughness = 1.3142858
+roughness_texture = ExtResource("2_w7c1v")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_8h0nq")
+ao_enabled = true
+ao_texture = ExtResource("2_w7c1v")
+texture_filter = 5

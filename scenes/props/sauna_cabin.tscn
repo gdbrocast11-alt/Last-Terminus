@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/sauna_cabin.glb" id="1_2g7l7"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_ppwda"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_mof8l"]
+size = Vector3(3.1, 2.5, 2.6)
+
+[node name="sauna_cabin" type="StaticBody3D" unique_id=93202503]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=1117724563 instance=ExtResource("1_2g7l7")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1184635616]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.25, 0)
+shape = SubResource("BoxShape3D_mof8l")
+
+[node name="Prop" type="Node" parent="." unique_id=1453370314]
+script = ExtResource("2_ppwda")
+prop_id = &"sauna_cabin"
+inspect_line = &"ch4_insp_sauna"
+tags = PackedStringArray("sauna")

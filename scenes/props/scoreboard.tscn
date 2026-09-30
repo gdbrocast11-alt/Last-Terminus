@@ -1,0 +1,14 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/scoreboard.glb" id="1_eab46"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_xe3ma"]
+
+[node name="scoreboard" type="Node3D" unique_id=518683330]
+
+[node name="Model" type="Node3D" parent="." unique_id=812700403 instance=ExtResource("1_eab46")]
+
+[node name="Prop" type="Node" parent="." unique_id=1490909834]
+script = ExtResource("2_xe3ma")
+prop_id = &"scoreboard"
+inspect_line = &"ch8_ml_score"
+tags = PackedStringArray("ending")

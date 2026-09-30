@@ -1,0 +1,13 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/ribbon_cut.glb" id="1_5irxg"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_sl0qo"]
+
+[node name="ribbon_cut" type="Node3D" unique_id=920513960]
+
+[node name="Model" type="Node3D" parent="." unique_id=1658137013 instance=ExtResource("1_5irxg")]
+
+[node name="Prop" type="Node" parent="." unique_id=566416790]
+script = ExtResource("2_sl0qo")
+prop_id = &"ribbon_cut"
+tags = PackedStringArray()

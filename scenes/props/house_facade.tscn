@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/house_facade.glb" id="1_bijim"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_mtalt"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_getqn"]
+size = Vector3(8.4, 8.6, 8.4)
+
+[node name="house_facade" type="StaticBody3D" unique_id=1004106485]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=777795021 instance=ExtResource("1_bijim")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=706343095]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.3, -0.5)
+shape = SubResource("BoxShape3D_getqn")
+
+[node name="Prop" type="Node" parent="." unique_id=1262704616]
+script = ExtResource("2_mtalt")
+prop_id = &"house_facade"
+tags = PackedStringArray()

@@ -7,7 +7,7 @@
 height = 1.0339588
 radius = 0.31531695
 
-[node name="office_chair" type="RigidBody3D" unique_id=1537816398]
+[node name="office_chair" type="RigidBody3D" unique_id=2113588699]
 collision_layer = 16
 collision_mask = 31
 mass = 8.0
@@ -15,13 +15,13 @@ sleeping = true
 linear_damp = 0.15
 angular_damp = 0.4
 
-[node name="Model" type="Node3D" parent="." unique_id=1974947091 instance=ExtResource("1_xudkj")]
+[node name="Model" type="Node3D" parent="." unique_id=338024406 instance=ExtResource("1_xudkj")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1102565070]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=484568503]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.028647482, 0.5319794, 0)
 shape = SubResource("CylinderShape3D_vyuas")
 
-[node name="Prop" type="Node" parent="." unique_id=135482909]
+[node name="Prop" type="Node" parent="." unique_id=1406967778]
 script = ExtResource("2_xh2hj")
 prop_id = &"office_chair"
 grab_class = "medium"

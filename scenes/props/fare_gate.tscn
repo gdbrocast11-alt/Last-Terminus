@@ -6,16 +6,16 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_dm0ap"]
 size = Vector3(0.94, 1.0749999, 1.12)
 
-[node name="fare_gate" type="StaticBody3D" unique_id=18583945]
+[node name="fare_gate" type="StaticBody3D" unique_id=809280508]
 collision_mask = 0
 
-[node name="Model" type="Node3D" parent="." unique_id=1553708521 instance=ExtResource("1_7fgop")]
+[node name="Model" type="Node3D" parent="." unique_id=53142105 instance=ExtResource("1_7fgop")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1707237153]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=321515821]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.53749996, 0)
 shape = SubResource("BoxShape3D_dm0ap")
 
-[node name="Prop" type="Node" parent="." unique_id=1462652735]
+[node name="Prop" type="Node" parent="." unique_id=362462347]
 script = ExtResource("2_jhtuh")
 prop_id = &"fare_gate"
 tags = PackedStringArray()

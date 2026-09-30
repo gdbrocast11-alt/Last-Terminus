@@ -1,0 +1,13 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/tv_safety_show.glb" id="1_6pkue"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_5bgw6"]
+
+[node name="tv_safety_show" type="Node3D" unique_id=1363245257]
+
+[node name="Model" type="Node3D" parent="." unique_id=559689008 instance=ExtResource("1_6pkue")]
+
+[node name="Prop" type="Node" parent="." unique_id=672478653]
+script = ExtResource("2_5bgw6")
+prop_id = &"tv_safety_show"
+tags = PackedStringArray("ending")

@@ -3,11 +3,11 @@
 [ext_resource type="PackedScene" path="res://props/station_clock.glb" id="1_0eynd"]
 [ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_ojo2u"]
 
-[node name="station_clock" type="Node3D" unique_id=752550835]
+[node name="station_clock" type="Node3D" unique_id=1194060377]
 
 [node name="Model" type="Node3D" parent="." unique_id=276339947 instance=ExtResource("1_0eynd")]
 
-[node name="Prop" type="Node" parent="." unique_id=1882764769]
+[node name="Prop" type="Node" parent="." unique_id=1956906834]
 script = ExtResource("2_ojo2u")
 prop_id = &"station_clock"
 inspect_line = &"ch1_insp_clock"

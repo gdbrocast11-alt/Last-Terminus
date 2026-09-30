@@ -1,0 +1,27 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/kettlebell.glb" id="1_wk1pf"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_24osc"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_4bl3r"]
+radius = 0.15595001
+
+[node name="kettlebell" type="RigidBody3D" unique_id=697602654]
+collision_layer = 16
+collision_mask = 31
+mass = 8.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=336897356 instance=ExtResource("1_wk1pf")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=668589752]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.450581e-09, 0.15595001, -7.450581e-09)
+shape = SubResource("SphereShape3D_4bl3r")
+
+[node name="Prop" type="Node" parent="." unique_id=98963214]
+script = ExtResource("2_24osc")
+prop_id = &"kettlebell"
+grab_class = "medium"
+tags = PackedStringArray()

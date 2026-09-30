@@ -1,0 +1,14 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/extension_cord_floor.glb" id="1_dfwet"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_hv675"]
+
+[node name="extension_cord_floor" type="Node3D" unique_id=1037586901]
+
+[node name="Model" type="Node3D" parent="." unique_id=249244091 instance=ExtResource("1_dfwet")]
+
+[node name="Prop" type="Node" parent="." unique_id=1587313873]
+script = ExtResource("2_hv675")
+prop_id = &"extension_cord_floor"
+inspect_line = &"ch3_insp_cord"
+tags = PackedStringArray()

@@ -6,7 +6,7 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_jdt18"]
 size = Vector3(0.75, 1.0977435, 1.03)
 
-[node name="scrub_robot" type="RigidBody3D" unique_id=1179558022]
+[node name="scrub_robot" type="RigidBody3D" unique_id=2136679305]
 collision_layer = 16
 collision_mask = 31
 mass = 25.0
@@ -14,13 +14,13 @@ sleeping = true
 linear_damp = 0.15
 angular_damp = 0.4
 
-[node name="Model" type="Node3D" parent="." unique_id=106119488 instance=ExtResource("1_sbolr")]
+[node name="Model" type="Node3D" parent="." unique_id=1139050492 instance=ExtResource("1_sbolr")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=121864025]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1575791948]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.56112826, -0.045000017)
 shape = SubResource("BoxShape3D_jdt18")
 
-[node name="Prop" type="Node" parent="." unique_id=2142645635]
+[node name="Prop" type="Node" parent="." unique_id=1690206916]
 script = ExtResource("2_ae8kj")
 prop_id = &"scrub_robot"
 inspect_line = &"ch1_insp_scrub"

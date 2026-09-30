@@ -1,0 +1,29 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/tripod.glb" id="1_3h181"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_h4h2o"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_sgldd"]
+size = Vector3(0.54720926, 1.3809671, 0.62747085)
+
+[node name="tripod" type="RigidBody3D" unique_id=239474213]
+collision_layer = 16
+collision_mask = 31
+mass = 1.5
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=2079811932 instance=ExtResource("1_3h181")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=384523282]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.08731355, 0.6870163, 0.0009772182)
+shape = SubResource("BoxShape3D_sgldd")
+
+[node name="Prop" type="Node" parent="." unique_id=283674226]
+script = ExtResource("2_h4h2o")
+prop_id = &"tripod"
+grab_class = "light"
+inspect_line = &"ch3_insp_tripod"
+hazard = 1
+tags = PackedStringArray("tripod", "chain")

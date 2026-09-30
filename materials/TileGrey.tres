@@ -1,5 +1,20 @@
 [gd_resource type="StandardMaterial3D" format=3]
 
+[ext_resource type="Texture2D" path="res://textures/tile_floor_albedo.png" id="1_gurs7"]
+[ext_resource type="Texture2D" path="res://textures/tile_floor_orm.png" id="2_ro6wc"]
+[ext_resource type="Texture2D" path="res://textures/tile_floor_normal.png" id="3_7vicp"]
+
 [resource]
 resource_name = "TileGrey"
 albedo_color = Color(0.55, 0.57, 0.6, 1)
+albedo_texture = ExtResource("1_gurs7")
+metallic_texture = ExtResource("2_ro6wc")
+metallic_texture_channel = 2
+roughness = 0.71428573
+roughness_texture = ExtResource("2_ro6wc")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_7vicp")
+ao_enabled = true
+ao_texture = ExtResource("2_ro6wc")
+texture_filter = 5

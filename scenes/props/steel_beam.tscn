@@ -1,0 +1,27 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/steel_beam.glb" id="1_ba10c"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_wmke7"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7rx3v"]
+size = Vector3(0.35, 0.44, 5)
+
+[node name="steel_beam" type="RigidBody3D" unique_id=430372563]
+collision_layer = 16
+collision_mask = 31
+mass = 800.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1239144028 instance=ExtResource("1_ba10c")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=832267801]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.22, 0)
+shape = SubResource("BoxShape3D_7rx3v")
+
+[node name="Prop" type="Node" parent="." unique_id=1322662575]
+script = ExtResource("2_wmke7")
+prop_id = &"steel_beam"
+hazard = 2
+tags = PackedStringArray("beam", "yard")

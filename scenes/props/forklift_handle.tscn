@@ -1,0 +1,24 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/forklift_handle.glb" id="1_fq600"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_7jfse"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7youv"]
+size = Vector3(0.09510565, 0.29, 0.09510565)
+
+[node name="forklift_handle" type="StaticBody3D" unique_id=1333725536]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=2056821073 instance=ExtResource("1_fq600")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1633260740]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.145, 0)
+shape = SubResource("BoxShape3D_7youv")
+
+[node name="Prop" type="Node" parent="." unique_id=501082746]
+script = ExtResource("2_7jfse")
+prop_id = &"forklift_handle"
+inspect_line = &"ch3_insp_handle"
+hazard = 1
+tags = PackedStringArray("handle", "chain")
+use_verb = "Pin the handle"

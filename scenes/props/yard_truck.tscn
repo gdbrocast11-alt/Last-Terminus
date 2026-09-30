@@ -1,0 +1,28 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/yard_truck.glb" id="1_tt4bo"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_mq2wo"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_vm54k"]
+size = Vector3(2.2, 1.7436192, 4.55)
+
+[node name="yard_truck" type="RigidBody3D" unique_id=1390844643]
+collision_layer = 16
+collision_mask = 31
+mass = 1400.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1210863820 instance=ExtResource("1_tt4bo")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=445467846]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8781904, 0.2750001)
+shape = SubResource("BoxShape3D_vm54k")
+
+[node name="Prop" type="Node" parent="." unique_id=8746433]
+script = ExtResource("2_mq2wo")
+prop_id = &"yard_truck"
+inspect_line = &"ch6_insp_truck"
+hazard = 1
+tags = PackedStringArray("truck", "yard")

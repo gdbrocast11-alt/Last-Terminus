@@ -7,7 +7,7 @@
 height = 1.05
 radius = 0.17
 
-[node name="stanchion" type="RigidBody3D" unique_id=925498082]
+[node name="stanchion" type="RigidBody3D" unique_id=1128946856]
 collision_layer = 16
 collision_mask = 31
 mass = 6.0
@@ -15,13 +15,13 @@ sleeping = true
 linear_damp = 0.15
 angular_damp = 0.4
 
-[node name="Model" type="Node3D" parent="." unique_id=1099334671 instance=ExtResource("1_1yo5p")]
+[node name="Model" type="Node3D" parent="." unique_id=1936572732 instance=ExtResource("1_1yo5p")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1440322084]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=520877411]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.525, 0)
 shape = SubResource("CylinderShape3D_b23gq")
 
-[node name="Prop" type="Node" parent="." unique_id=2061669303]
+[node name="Prop" type="Node" parent="." unique_id=803661138]
 script = ExtResource("2_8j8tk")
 prop_id = &"stanchion"
 grab_class = "medium"

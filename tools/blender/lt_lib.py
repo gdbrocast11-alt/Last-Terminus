@@ -61,6 +61,9 @@ def rot_matrix(rot_deg):
 class Prop:
     """Accumulates primitives into a single bmesh with per-face materials."""
 
+    def parts_count(self):
+        return len(self.bm.faces)
+
     def __init__(self, name):
         self.name = name
         self.bm = bmesh.new()

@@ -1,0 +1,27 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/yoga_block.glb" id="1_5dx5a"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_jrjsx"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jqgir"]
+size = Vector3(0.23, 0.1, 0.15)
+
+[node name="yoga_block" type="RigidBody3D" unique_id=313739255]
+collision_layer = 16
+collision_mask = 31
+mass = 0.5
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1330782694 instance=ExtResource("1_5dx5a")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1809263695]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.05, 0)
+shape = SubResource("BoxShape3D_jqgir")
+
+[node name="Prop" type="Node" parent="." unique_id=296937400]
+script = ExtResource("2_jrjsx")
+prop_id = &"yoga_block"
+grab_class = "light"
+tags = PackedStringArray()

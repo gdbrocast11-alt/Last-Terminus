@@ -1,0 +1,30 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/nailgun.glb" id="1_ucddk"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_8fqat"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2fh1c"]
+size = Vector3(0.06, 0.21000001, 0.8810341)
+
+[node name="nailgun" type="RigidBody3D" unique_id=1005728333]
+collision_layer = 16
+collision_mask = 31
+mass = 1.4
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1325283422 instance=ExtResource("1_ucddk")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1146995490]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.035000004, 0.26051706)
+shape = SubResource("BoxShape3D_2fh1c")
+
+[node name="Prop" type="Node" parent="." unique_id=825148049]
+script = ExtResource("2_8fqat")
+prop_id = &"nailgun"
+grab_class = "light"
+inspect_line = &"ch3_insp_nailgun"
+hazard = 2
+tags = PackedStringArray("nailgun", "chain")
+use_verb = "Engage safety"

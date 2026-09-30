@@ -1,0 +1,112 @@
+# CHAPTER 3: TOOLBERT'S HOME CENTER  (Brenda's after-hours shoot)
+ch3_arrive_01 | eddie | dry | Toolbert's Home Center. Twenty-four hours of things that can fall on you.
+ch3_arrive_02 | eddie | tired | Pickles, stay close. Don't touch anything with a plug.
+ch3_brenda_intro_01 | brenda | excited | Eddie! Sidekick! You came! And you brought the dog!
+ch3_brenda_intro_02 | eddie | | I have a bad feeling about this.
+ch3_brenda_intro_03 | brenda | excited | Love that. Say it again on camera.
+ch3_brenda_intro_04 | eddie | tired | I'm not going to say it on camera.
+ch3_brenda_intro_05 | brenda | | Okay, the plan. Three segments. Paint, power tools, garden center finale. I mix a custom color, I demo the nail gun, and then I repaint a lawn flamingo. It's called Flamingo Fresh Coat. It's going to be huge.
+ch3_brenda_intro_06 | eddie | | Flamingo.
+ch3_brenda_intro_07 | brenda | | Yes? It's a garden center? Why are you making that face?
+ch3_brenda_intro_08 | eddie | mumble | No reason.
+ch3_brenda_intro_09 | brenda | excited | Great. Stay out of the shot. Or in it, if you're doing the face.
+ch3_brenda_go | brenda | excited | Paint aisle, everybody! Follow me if you want to be famous!
+ch3_hint_investigate | eddie | | Paint, then tools, then the flamingo. Somewhere in this building there's a machine. I have to find the machine.
+ch3_hint_talk | eddie | | Brenda's the priority. I should stay close to her.
+ch3_brenda_paint_01 | brenda | | Okay, custom color. I'm going for something called Barn Red.
+ch3_brenda_paint_02 | brenda | | The paint shaker takes forever. Perfect. Dead air is content.
+ch3_brenda_paint_03 | brenda | | Eleven ninety-nine a gallon. I love a deal.
+ch3_brenda_tools_01 | brenda | excited | Power tools! This is where it gets real. Okay, camera on the tripod, stand back, and, oh, coin flip. Heads, saw. Tails, nail gun.
+ch3_brenda_tools_02 | brenda | | Wait. Is it heads, nail gun? Whatever. Flip!
+ch3_brenda_garden_01 | brenda | excited | Garden center! Finale time. Look at this guy. Just look at him.
+ch3_brenda_garden_02 | brenda | | Flamingo Fresh Coat, take one.
+ch3_brenda_chat_01 | brenda | | You're really doing the face, aren't you.
+ch3_brenda_chat_02 | brenda | | I have a great insurance policy. That's why I do this.
+ch3_brenda_chat_03 | brenda | | Keep an eye on the dog. He looks like he wants a corn dog.
+ch3_brenda_move_01 | eddie | | Brenda, could you maybe shoot the garden center first?
+ch3_brenda_move_02 | brenda | | Ooh, out of order. I like that. No. Sequence matters. Paint, tools, flamingo.
+ch3_prem_tire | eddie | whisper | The tire.
+ch3_prem_oil | eddie | whisper | Oil. It's boiling.
+ch3_prem_fan | eddie | whisper | The fan. It's wobbling.
+ch3_prem_shoe | eddie | whisper | A shoe. A single shoe.
+ch3_prem_nail | eddie | whisper | The nail gun.
+ch3_prem_flamingo | eddie | whisper | The flamingo. It's covered in...
+ch3_prem_handle | eddie | whisper | A red handle.
+ch3_prem_coin | eddie | whisper | A coin. Rolling.
+ch3_prem_cable | eddie | whisper | Sparks. A cable.
+ch3_insp_stack | eddie | mumble | Paint pyramid. Very stable. The cans are just resting on each other's feelings.
+ch3_insp_shaker | eddie | | Paint shaker. Shakes paint. That's all it does. Probably.
+ch3_insp_saw | eddie | | Table saw. Blade guard's missing. Sign says "Safe." Signs say a lot of things.
+ch3_insp_stepladder | eddie | mumble | A stepladder, leaning on nothing. It looks like it's thinking about it.
+ch3_insp_ladder | eddie | tired | A rolling library ladder on a rail. Somebody thought that was a good idea.
+ch3_insp_nailgun | eddie | mumble | Demo nail gun on an air line. What could happen. Everything could happen.
+ch3_insp_compressor | eddie | | Air compressor. It hums. It's building up to something.
+ch3_insp_strip | eddie | mumble | A power strip on the floor. Eight things plugged in. Some of them are damp.
+ch3_insp_fan | eddie | | Ceiling fan display. It's wobbling. Nobody stops the fan.
+ch3_insp_tire | eddie | | A rack of tires. Very round. Very ready.
+ch3_insp_propane | eddie | dry | Propane cylinders in a cage. Terrifying. Completely fine.
+ch3_insp_fryer | eddie | | The corn dog cart. The oil's just sitting there being hot.
+ch3_insp_flamingo | eddie | mumble | Lawn flamingos. Pink. Smiling. Suspicious.
+ch3_insp_forklift | eddie | tired | A forklift, holding a pallet of flamingos three meters in the air. Sure. Why not.
+ch3_insp_hose | eddie | | Hose reel. Everything is connected to everything.
+ch3_insp_sprinkler | eddie | mumble | Sprinkler display. A lot of little nozzles pointing at the floor.
+ch3_insp_cart | eddie | | Flatbed cart. Very loud wheels.
+ch3_insp_wheelbarrow | eddie | | A wheelbarrow. The tire is very, very round.
+ch3_insp_banner | eddie | | "Mega Sale." Held up by a rope and optimism.
+ch3_insp_tripod | eddie | | Brenda's tripod. Wobbly. Everything about her life is a little wobbly.
+ch3_insp_coin | eddie | mumble | A coin. It's just a coin. Right?
+ch3_insp_handle | eddie | mumble | A red handle on the forklift. "Emergency lowering." I hate that I understand that.
+ch3_insp_chain | eddie | | A chain hoist over the aisle. It looks like it should fall. It's not doing anything. Hm.
+ch3_insp_cord | eddie | | An extension cord across the aisle. Somebody's going to trip on it. It's fine. Nobody's tripping.
+ch3_insp_gnome | eddie | | A garden gnome. He seems fine.
+ch3_insp_mower | eddie | | A lawn mower. Off. Thank goodness.
+ch3_insp_mixer | eddie | | Paint mixing station. So many colors. So many ways to spill them.
+ch3_unplug | eddie | | Unplugged. Good. Nobody plug that back in.
+ch3_replug | eddie | mumble | I'm not going to plug it back in.
+ch3_valve | eddie | | Valve closed. The compressor sounds sad. Good.
+ch3_safety | eddie | | Safety on. I've never been so proud of a plastic switch.
+ch3_brake | eddie | | Brake's on. The ladder's not going anywhere.
+ch3_pin | eddie | | Handle pinned. Hydraulics, please behave.
+ch3_sign | eddie | | Wet floor sign. The universe respects a wet floor sign. Right?
+ch3_took_tire | eddie | | Nobody needs this tire more than I do.
+ch3_took_coin | eddie | | I have the coin. The coin is mine now.
+ch3_took_cans | eddie | mumble | I'm moving the paint. Nobody is standing under a pyramid on my watch.
+ch3_c_coin | brenda | | Heads! …Tails! Whichever! Rolling!
+ch3_c_spark | brenda | excited | Ooh, did that spark? Keep rolling. Keep rolling!
+ch3_c_hiss | brenda | | Is the compressor supposed to do that?
+ch3_c_nail | brenda | excited | Whoa! Free content!
+ch3_c_ladder | brenda | | Uh. Eddie? The ladder is doing a thing.
+ch3_c_sprinkler | brenda | | Okay. Who turned on the sprinklers.
+ch3_c_slip | brenda | panic | Whoa, whoa, WHOA!
+ch3_c_die | brenda | panic | Not the flamingo!
+ch3_c_pickles_coin | eddie | panic | Pickles! Drop the coin! That's not a treat!
+ch3_c_pickles_corn | eddie | tired | He can smell the corn dog cart. He's going to eat the hot dog.
+ch3_c_pickles_corn2 | eddie | | Pickles. Leave the hot dog.
+ch3_saved_brenda_01 | brenda | panic | Okay. That was terrifying. …Did you get all that?
+ch3_saved_brenda_02 | brenda | excited | I got all that! I got ALL of that! That's a million views right there!
+ch3_saved_brenda_03 | brenda | | You knew, didn't you. You totally knew. Eddie, you're my favorite sidekick.
+ch3_flamingo_01 | brenda | excited | Okay okay okay. Flamingo Fresh Coat! Everybody look at this!
+ch3_flamingo_02 | eddie | tired | ...The flamingo is red.
+ch3_flamingo_03 | brenda | | Barn Red. Eleven ninety-nine a gallon. Wait. Did you think it was...
+ch3_flamingo_04 | eddie | mumble | I thought it was blood.
+ch3_flamingo_05 | brenda | excited | Oh my gosh. That is a fantastic thumbnail.
+ch3_flamingo_paint_01 | brenda | excited | Somebody already painted him for me! That's the nicest thing anyone's done!
+ch3_flamingo_paint_02 | eddie | tired | It was paint. All that, and it was paint.
+ch3_flamingo_dead | eddie | sincere | It was paint. It was just paint.
+ch3_dead_01 | eddie | panic | Brenda? Brenda!
+ch3_dead_02 | eddie | mumble | No. No no no. She was right there.
+ch3_dead_03 | eddie | grim | Her hand's still holding the phone. It's still recording.
+ch3_dale_arrive | dale | panic | EDDIE. Eddie, did you see that?
+ch3_dale_01 | dale | excited | The coin. The power strip. The hose. The tire. It was a MACHINE!
+ch3_dale_02 | dale | excited | I HAVE BEEN WAITING MY ENTIRE LIFE TO BE RIGHT ABOUT SOMETHING.
+ch3_dale_03 | eddie | tired | I never said you were right about anything.
+ch3_dale_04 | dale | | You didn't have to. The universe did.
+ch3_dale_05 | dale | excited | I'm getting a bigger board.
+ch3_dale_dead_01 | dale | grim | The footage is still rolling.
+ch3_dale_dead_02 | dale | | I got it all. From the entrance. I'm sorry, man. I'm so sorry.
+ch3_dale_tiff_01 | dale | | Tiffany's doing a pop-up Saturday. At the community center. It's a wellness thing.
+ch3_dale_tiff_02 | dale | | There will be smoothies.
+ch3_dale_tiff_03 | eddie | mumble | There will be smoothies.
+ch3_end_01 | eddie | tired | Tiffany's next. Or I think Tiffany's next.
+ch3_end_02 | eddie | mumble | I don't know what I'm doing. But I did it. A little.
+ch3_end_dead | eddie | grim | Tiffany is next. I'm not going to be late.

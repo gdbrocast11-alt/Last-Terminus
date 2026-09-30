@@ -1,0 +1,1997 @@
+{
+"name": "street",
+"shell": "res://environments/street.glb",
+"cols": [
+{
+"c": [
+-22.0,
+-0.25,
+0.0
+],
+"s": [
+176,
+0.5,
+8
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+-22.0,
+-0.14999999999999997,
+-6.5
+],
+"s": [
+176,
+0.6,
+5
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+-22.0,
+-0.14999999999999997,
+6.5
+],
+"s": [
+176,
+0.6,
+5
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+-22.0,
+-0.3,
+-19.5
+],
+"s": [
+176,
+0.6,
+21
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "grass",
+"nav": true
+},
+{
+"c": [
+-22.0,
+-0.3,
+19.5
+],
+"s": [
+176,
+0.6,
+21
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "grass",
+"nav": true
+},
+{
+"c": [
+70.0,
+-0.3,
+0.0
+],
+"s": [
+20,
+0.6,
+60
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "grass",
+"nav": true
+},
+{
+"c": [
+63.0,
+-0.25,
+0.0
+],
+"s": [
+6,
+0.5,
+8
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+-110.3,
+3.0,
+0.0
+],
+"s": [
+0.5999999999999943,
+6,
+60
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+80.3,
+3.0,
+0.0
+],
+"s": [
+0.5999999999999943,
+6,
+60
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+-15.0,
+3.0,
+-30.3
+],
+"s": [
+190,
+6,
+0.6000000000000014
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+},
+{
+"c": [
+-15.0,
+3.0,
+30.3
+],
+"s": [
+190,
+6,
+0.6000000000000014
+],
+"r": [
+0,
+0,
+0
+],
+"surface": "concrete",
+"nav": true
+}
+],
+"props": [
+{
+"scene": "house_facade",
+"name": "AptBuilding",
+"p": [
+-95,
+0,
+-20
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {},
+"scale": [
+1.5,
+1.4,
+1.5
+]
+},
+{
+"scene": "house_facade",
+"name": "HouseN1",
+"p": [
+-78,
+0,
+-20.5
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "picket_fence",
+"name": "FenceN1",
+"p": [
+-78,
+0,
+-10.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "tree_street",
+"name": "TreeN1",
+"p": [
+-73.5,
+0,
+-12.5
+],
+"r": [
+0,
+272,
+0
+],
+"opts": {}
+},
+{
+"scene": "mailbox",
+"name": "MailboxN1",
+"p": [
+-81,
+0.15,
+-9.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "house_facade",
+"name": "HouseN2",
+"p": [
+-66,
+0,
+-20.5
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "picket_fence",
+"name": "FenceN2",
+"p": [
+-66,
+0,
+-10.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "mailbox",
+"name": "MailboxN2",
+"p": [
+-69,
+0.15,
+-9.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "house_facade",
+"name": "HouseN3",
+"p": [
+-54,
+0,
+-20.5
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "picket_fence",
+"name": "FenceN3",
+"p": [
+-54,
+0,
+-10.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "tree_street",
+"name": "TreeN3",
+"p": [
+-49.5,
+0,
+-12.5
+],
+"r": [
+0,
+39,
+0
+],
+"opts": {}
+},
+{
+"scene": "mailbox",
+"name": "MailboxN3",
+"p": [
+-57,
+0.15,
+-9.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "house_facade",
+"name": "HouseN4",
+"p": [
+-42,
+0,
+-20.5
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "picket_fence",
+"name": "FenceN4",
+"p": [
+-42,
+0,
+-10.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "mailbox",
+"name": "MailboxN4",
+"p": [
+-45,
+0.15,
+-9.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "house_facade",
+"name": "HouseN5",
+"p": [
+-30,
+0,
+-20.5
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "picket_fence",
+"name": "FenceN5",
+"p": [
+-30,
+0,
+-10.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "tree_street",
+"name": "TreeN5",
+"p": [
+-25.5,
+0,
+-12.5
+],
+"r": [
+0,
+220,
+0
+],
+"opts": {}
+},
+{
+"scene": "mailbox",
+"name": "MailboxN5",
+"p": [
+-33,
+0.15,
+-9.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "house_facade",
+"name": "HouseN6",
+"p": [
+-18,
+0,
+-20.5
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "picket_fence",
+"name": "FenceN6",
+"p": [
+-18,
+0,
+-10.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "mailbox",
+"name": "MailboxN6",
+"p": [
+-21,
+0.15,
+-9.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "house_facade",
+"name": "HouseN7",
+"p": [
+-6,
+0,
+-20.5
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "picket_fence",
+"name": "FenceN7",
+"p": [
+-6,
+0,
+-10.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "tree_street",
+"name": "TreeN7",
+"p": [
+-1.5,
+0,
+-12.5
+],
+"r": [
+0,
+2,
+0
+],
+"opts": {}
+},
+{
+"scene": "mailbox",
+"name": "MailboxN7",
+"p": [
+-9,
+0.15,
+-9.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "house_facade",
+"name": "HouseN8",
+"p": [
+6,
+0,
+-20.5
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "picket_fence",
+"name": "FenceN8",
+"p": [
+6,
+0,
+-10.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "mailbox",
+"name": "MailboxN8",
+"p": [
+3,
+0.15,
+-9.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "house_facade",
+"name": "HouseN9",
+"p": [
+18,
+0,
+-20.5
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "picket_fence",
+"name": "FenceN9",
+"p": [
+18,
+0,
+-10.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "tree_street",
+"name": "TreeN9",
+"p": [
+22.5,
+0,
+-12.5
+],
+"r": [
+0,
+56,
+0
+],
+"opts": {}
+},
+{
+"scene": "mailbox",
+"name": "MailboxN9",
+"p": [
+15,
+0.15,
+-9.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "house_facade",
+"name": "HouseN10",
+"p": [
+30,
+0,
+-20.5
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "picket_fence",
+"name": "FenceN10",
+"p": [
+30,
+0,
+-10.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "mailbox",
+"name": "MailboxN10",
+"p": [
+27,
+0.15,
+-9.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "house_facade",
+"name": "HouseS1",
+"p": [
+-84,
+0,
+20.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "picket_fence",
+"name": "FenceS1",
+"p": [
+-84,
+0,
+10.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "house_facade",
+"name": "HouseS2",
+"p": [
+-72,
+0,
+20.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "picket_fence",
+"name": "FenceS2",
+"p": [
+-72,
+0,
+10.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "tree_street",
+"name": "TreeS2",
+"p": [
+-76.5,
+0,
+12.5
+],
+"r": [
+0,
+16,
+0
+],
+"opts": {}
+},
+{
+"scene": "house_facade",
+"name": "HouseS3",
+"p": [
+-60,
+0,
+20.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "picket_fence",
+"name": "FenceS3",
+"p": [
+-60,
+0,
+10.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "house_facade",
+"name": "HouseS4",
+"p": [
+-48,
+0,
+20.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "picket_fence",
+"name": "FenceS4",
+"p": [
+-48,
+0,
+10.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "house_facade",
+"name": "HouseS5",
+"p": [
+-36,
+0,
+20.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "picket_fence",
+"name": "FenceS5",
+"p": [
+-36,
+0,
+10.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "tree_street",
+"name": "TreeS5",
+"p": [
+-40.5,
+0,
+12.5
+],
+"r": [
+0,
+192,
+0
+],
+"opts": {}
+},
+{
+"scene": "house_facade",
+"name": "HouseS6",
+"p": [
+-24,
+0,
+20.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "picket_fence",
+"name": "FenceS6",
+"p": [
+-24,
+0,
+10.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "house_facade",
+"name": "HouseS7",
+"p": [
+-12,
+0,
+20.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "picket_fence",
+"name": "FenceS7",
+"p": [
+-12,
+0,
+10.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "house_facade",
+"name": "HouseS8",
+"p": [
+0,
+0,
+20.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "picket_fence",
+"name": "FenceS8",
+"p": [
+0,
+0,
+10.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "tree_street",
+"name": "TreeS8",
+"p": [
+-4.5,
+0,
+12.5
+],
+"r": [
+0,
+64,
+0
+],
+"opts": {}
+},
+{
+"scene": "house_facade",
+"name": "HouseS9",
+"p": [
+12,
+0,
+20.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "picket_fence",
+"name": "FenceS9",
+"p": [
+12,
+0,
+10.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "house_facade",
+"name": "HouseS10",
+"p": [
+24,
+0,
+20.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "picket_fence",
+"name": "FenceS10",
+"p": [
+24,
+0,
+10.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "house_facade",
+"name": "HouseS11",
+"p": [
+36,
+0,
+20.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "picket_fence",
+"name": "FenceS11",
+"p": [
+36,
+0,
+10.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "tree_street",
+"name": "TreeS11",
+"p": [
+31.5,
+0,
+12.5
+],
+"r": [
+0,
+19,
+0
+],
+"opts": {}
+},
+{
+"scene": "street_lamp",
+"name": "LampN0",
+"p": [
+-100,
+0.15,
+-8.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "street_lamp",
+"name": "LampS0",
+"p": [
+-90,
+0.15,
+8.6
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "street_lamp",
+"name": "LampN1",
+"p": [
+-80,
+0.15,
+-8.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "street_lamp",
+"name": "LampS1",
+"p": [
+-70,
+0.15,
+8.6
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "street_lamp",
+"name": "LampN2",
+"p": [
+-60,
+0.15,
+-8.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "street_lamp",
+"name": "LampS2",
+"p": [
+-50,
+0.15,
+8.6
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "street_lamp",
+"name": "LampN3",
+"p": [
+-40,
+0.15,
+-8.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "street_lamp",
+"name": "LampS3",
+"p": [
+-30,
+0.15,
+8.6
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "street_lamp",
+"name": "LampN4",
+"p": [
+-20,
+0.15,
+-8.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "street_lamp",
+"name": "LampS4",
+"p": [
+-10,
+0.15,
+8.6
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "street_lamp",
+"name": "LampN5",
+"p": [
+0,
+0.15,
+-8.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "street_lamp",
+"name": "LampS5",
+"p": [
+10,
+0.15,
+8.6
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "street_lamp",
+"name": "LampN6",
+"p": [
+20,
+0.15,
+-8.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "street_lamp",
+"name": "LampS6",
+"p": [
+30,
+0.15,
+8.6
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "street_lamp",
+"name": "LampN7",
+"p": [
+40,
+0.15,
+-8.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "street_lamp",
+"name": "LampS7",
+"p": [
+50,
+0.15,
+8.6
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "street_lamp",
+"name": "LampN8",
+"p": [
+60,
+0.15,
+-8.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "street_lamp",
+"name": "LampS8",
+"p": [
+70,
+0.15,
+8.6
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "hydrant",
+"name": "Hydrant1",
+"p": [
+-62,
+0.15,
+-8.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "bench_street",
+"name": "BenchS",
+"p": [
+-46,
+0.15,
+8.4
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "trash_can_street",
+"name": "BinN",
+"p": [
+-10,
+0.15,
+-4.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "ladder_maint",
+"name": "LadderHouse",
+"p": [
+-52.5,
+0.15,
+-14.2
+],
+"r": [
+-12,
+180,
+0
+],
+"opts": {
+"inspect": "ch8_ladder",
+"hazard": 1
+}
+},
+{
+"scene": "lawn_mower",
+"name": "Mower",
+"p": [
+-40,
+0,
+-14.0
+],
+"r": [
+0,
+40,
+0
+],
+"opts": {
+"inspect": "ch8_mower",
+"hazard": 1
+}
+},
+{
+"scene": "pipe_truck",
+"name": "PipeTruck",
+"p": [
+-26,
+0.0,
+-2.2
+],
+"r": [
+0,
+90,
+0
+],
+"opts": {}
+},
+{
+"scene": "ac_unit",
+"name": "AcUnit",
+"p": [
+-6.2,
+3.3,
+-16.2
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {
+"inspect": "ch8_ac"
+}
+},
+{
+"scene": "baseball",
+"name": "Baseball",
+"p": [
+3.0,
+0.0,
+-10.5
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {
+"inspect": "ch8_kid"
+}
+},
+{
+"scene": "bicycle",
+"name": "Bicycle",
+"p": [
+13,
+0.15,
+-6.0
+],
+"r": [
+0,
+90,
+0
+],
+"opts": {}
+},
+{
+"scene": "excavator_mini",
+"name": "Excavator",
+"p": [
+24,
+0.0,
+-2.4
+],
+"r": [
+0,
+90,
+0
+],
+"opts": {}
+},
+{
+"scene": "bottle_glass",
+"name": "Bottle",
+"p": [
+34.6,
+0.15,
+-4.4
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "traffic_signal",
+"name": "Signal",
+"p": [
+42.2,
+0.15,
+-6.6
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {
+"inspect": "ch8_signal"
+}
+},
+{
+"scene": "traffic_signal",
+"name": "SignalS",
+"p": [
+42.2,
+0.15,
+6.6
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "cctv_pole",
+"name": "CctvPole",
+"p": [
+46.6,
+0.15,
+6.8
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "bus_stop_shelter",
+"name": "BusStop",
+"p": [
+36,
+0.15,
+6.4
+],
+"r": [
+0,
+180,
+0
+],
+"opts": {}
+},
+{
+"scene": "sedan",
+"name": "Sedan1",
+"p": [
+-70,
+0,
+6.6
+],
+"r": [
+0,
+90,
+0
+],
+"opts": {
+"grab": ""
+}
+},
+{
+"scene": "sedan",
+"name": "Sedan2",
+"p": [
+-14,
+0,
+6.6
+],
+"r": [
+0,
+270,
+0
+],
+"opts": {}
+},
+{
+"scene": "sedan",
+"name": "Sedan3",
+"p": [
+6,
+0,
+6.6
+],
+"r": [
+0,
+90,
+0
+],
+"opts": {}
+},
+{
+"scene": "terminus_sign_street",
+"name": "TerminusSign",
+"p": [
+62.0,
+0,
+0
+],
+"r": [
+0,
+90,
+0
+],
+"opts": {}
+},
+{
+"scene": "bench_street",
+"name": "MemorialBench",
+"p": [
+58,
+0,
+-8
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "tree_street",
+"name": "TreeEnd1",
+"p": [
+70,
+0,
+-14
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "tree_street",
+"name": "TreeEnd2",
+"p": [
+70,
+0,
+14
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "bus",
+"name": "Bus",
+"p": [
+-140,
+0,
+1.8
+],
+"r": [
+0,
+90,
+0
+],
+"opts": {
+"nocol": true
+}
+}
+],
+"lights": [
+{
+"kind": "dir",
+"p": [
+0,
+30,
+60
+],
+"color": [
+1.0,
+0.72,
+0.45
+],
+"energy": 1.7,
+"range": 220.0,
+"shadow": true,
+"angle": 60,
+"rot": [
+-14,
+250,
+0
+],
+"name": "Sun",
+"fog": 1.0,
+"cookie": null
+},
+{
+"kind": "omni",
+"p": [
+44,
+3.6,
+-7
+],
+"color": [
+1.0,
+0.8,
+0.5
+],
+"energy": 0.5,
+"range": 8.0,
+"shadow": false,
+"angle": 60,
+"rot": [
+-90,
+0,
+0
+],
+"name": "CrossGlow",
+"fog": 1.0,
+"cookie": null
+}
+],
+"markers": {
+"SignA": [
+62.0,
+3.35,
+-2.5,
+90
+],
+"SignWord": [
+62.0,
+3.35,
+0.2,
+90
+],
+"SignB": [
+62.0,
+3.35,
+2.8,
+90
+],
+"PlayerStart": [
+-92.5,
+0.2,
+-5.5,
+270
+],
+"PicklesStart": [
+-92.0,
+0.2,
+-6.5,
+270
+],
+"WalkStart": [
+-90.5,
+0.2,
+-6.0,
+270
+],
+"Crosswalk": [
+44,
+0.2,
+-4.8,
+180
+],
+"CrossMid": [
+44,
+0.05,
+0.0,
+180
+],
+"KidSpot": [
+2.4,
+0.2,
+-10.2,
+180
+],
+"CyclistA": [
+6.0,
+0.16,
+-6.0,
+90
+],
+"CyclistB": [
+30.0,
+0.16,
+-6.0,
+90
+],
+"BusStart": [
+-110,
+0.0,
+1.8,
+90
+],
+"BusAxleFail": [
+30,
+0.0,
+1.8,
+90
+],
+"BusEnd": [
+61.0,
+0.0,
+0.0,
+90
+],
+"CctvCam": [
+46.6,
+6.0,
+7.0,
+180
+],
+"SignHit": [
+61.6,
+3.0,
+0.0,
+90
+],
+"HonkPoint": [
+10,
+1.5,
+1.8,
+90
+]
+},
+"zones": [
+{
+"mn": [
+-110,
+-0.5,
+-30
+],
+"mx": [
+80,
+40,
+30
+],
+"reverb": "RevOutdoor",
+"amount": 0.22,
+"name": "StreetReverb"
+}
+],
+"probes": [
+{
+"mn": [
+-110,
+-1,
+-30
+],
+"mx": [
+80,
+20,
+30
+]
+}
+],
+"occluders": [],
+"env": {
+"kind": "exterior_sunset",
+"sky_top": [
+0.28,
+0.4,
+0.75
+],
+"sky_horizon": [
+1.0,
+0.68,
+0.42
+],
+"ambient_energy": 0.8,
+"fog": 0.004,
+"fog_color": [
+1.0,
+0.75,
+0.55
+],
+"exposure": 1.0,
+"sdfgi": true,
+"vfog": false,
+"grade": "sunset",
+"dof": true
+},
+"groups": {}
+}

@@ -1,0 +1,13 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/crane_hook.glb" id="1_mtect"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_1rwy2"]
+
+[node name="crane_hook" type="Node3D" unique_id=456532445]
+
+[node name="Model" type="Node3D" parent="." unique_id=204567721 instance=ExtResource("1_mtect")]
+
+[node name="Prop" type="Node" parent="." unique_id=564908285]
+script = ExtResource("2_1rwy2")
+prop_id = &"crane_hook"
+tags = PackedStringArray()

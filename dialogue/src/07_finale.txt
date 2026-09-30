@@ -1,0 +1,106 @@
+# CHAPTER 7: RETURN TO TERMINUS
+ch7_arrive_01 | eddie | tired | Terminus Station. They rebuilt it. Sort of.
+ch7_arrive_02 | eddie | mumble | Reopening ceremony. Of course.
+ch7_pa_01 | pa | | Welcome back to Centennial Transit Center. The last stop you'll ever need.
+ch7_pa_02 | pa | | Please enjoy the new and improved, structurally reviewed concourse.
+ch7_pa_03 | pa | | Today's ceremonial ribbon cutting will begin shortly.
+ch7_pa_04 | pa | | Passengers are reminded that all previous incidents were unrelated.
+ch7_mills_01 | mills | | Mercer. You came.
+ch7_mills_02 | eddie | | You're still here?
+ch7_mills_03 | mills | deadpan | They transferred me to the coat check desk. Calmest job I've ever had.
+ch7_mills_04 | mills | grim | I'm terrified.
+ch7_mills_repeat | mills | | Ceremony's in ten minutes. I don't like ceremonies.
+ch7_gus_01 | gus | deadpan | Bridge is scaffolded. Fine. Cables look right.
+ch7_gus_02 | gus | deadpan | Escalator's not right.
+ch7_gus_03 | eddie | tired | It never is.
+ch7_gus_repeat | gus | deadpan | Exit's still behind you.
+ch7_dale_01 | dale | excited | It ends where it started. It's a CIRCLE.
+ch7_dale_02 | eddie | tired | Dale. Sit.
+ch7_dale_03 | dale | | I have a diagram. It has arrows on it.
+ch7_dale_repeat | dale | | You feel that? That's the universe clearing its throat.
+ch7_ml_01 | marco | | Score's tied at seven.
+ch7_ml_02 | luis | shout | Six and a half!
+ch7_ml_03 | marco | shout | You can't have half!
+ch7_ml_04 | luis | shout | It was half a fire!
+ch7_ml_repeat | marco | | We're not fighting. This is a discussion.
+ch7_tiff_01 | tiffany | bright | I've rebranded. I'm calling it Acceptance, trademark.
+ch7_tiff_02 | eddie | | Trademark?
+ch7_tiff_03 | tiffany | | Pending.
+ch7_tiff_04 | tiffany | | I'm not saying I was wrong. I'm saying I was early.
+ch7_tiff_repeat | tiffany | | The universe has notes. I'm taking them.
+ch7_brenda_01 | brenda | excited | Sidekick! I brought a drone.
+ch7_brenda_02 | eddie | tired | No drone.
+ch7_brenda_03 | brenda | excited | Too late! I'm streaming.
+ch7_brenda_repeat | brenda | | Say something profound for the chat.
+ch7_brenda_dead_01 | dale | grim | Brenda would have loved this.
+ch7_brenda_dead_02 | dale | | She'd have brought a drone.
+ch7_tiff_dead_01 | gus | deadpan | Tiffany would have hated the sign.
+ch7_graves_01 | graves | theatrical | I would not miss this for the world. There are pretzels.
+ch7_graves_repeat | graves | theatrical | Do not mind me. I am an observer.
+ch7_expect_01 | eddie | mumble | Everything comes back here. It has to.
+ch7_expect_02 | eddie | | There's going to be a reveal. A rule. A pattern.
+ch7_expect_03 | eddie | | Somebody's going to tell me how it works.
+ch7_expect_04 | mills | | Are we waiting for something?
+ch7_expect_05 | eddie | mumble | ...Yes.
+ch7_sign_gus | gus | deadpan | Sign's loose.
+ch7_sign_dale | dale | | The coffee machine is steaming.
+ch7_sign_mills | mills | | That cart is unattended.
+ch7_sign_marco | marco | | That robot is looking at me.
+ch7_sign_luis | luis | | That escalator sounds wrong.
+ch7_sign_tiff | tiffany | | Something feels... unaligned.
+ch7_sign_brenda | brenda | | Oh, this is good. This is really good.
+ch7_insp_coffee | eddie | mumble | The coffee machine. It's steaming. It's hissing. It's definitely thinking.
+ch7_insp_sign | eddie | mumble | The temporary sign over the arrivals board. One screw. One.
+ch7_insp_cart | eddie | mumble | Baggage cart. Nobody's holding it.
+ch7_insp_robot | eddie | mumble | The scrub robot. Same model. It looks vengeful.
+ch7_insp_escalator | eddie | mumble | The escalator. It's making a noise. It's a new noise.
+ch7_insp_cable | eddie | mumble | A cable. Hanging from the ceiling. Live, probably.
+ch7_insp_bottle | eddie | mumble | A bottle. Rolling. Slowly. Toward me.
+ch7_insp_tool | eddie | mumble | A wrench. On the scaffold. Sitting right at the edge.
+ch7_decide_01 | eddie | sincere | No.
+ch7_decide_02 | eddie | sincere | I'm not doing this.
+ch7_decide_03 | eddie | sincere | I'm not looking for the machine anymore.
+ch7_decide_04 | eddie | sincere | Every time I try to fix it, it gets worse. Every time I look for the trap, I find a trap.
+ch7_decide_05 | eddie | sincere | I'm done helping.
+ch7_sit_prompt | eddie | tired | There's a bench. I could just sit.
+ch7_urge_01 | mills | shout | EDDIE!
+ch7_urge_02 | eddie | calm | No.
+ch7_urge_03 | mills | shout | What are you doing?
+ch7_urge_04 | eddie | calm | I'm done helping.
+ch7_urge_05 | dale | panic | Are you SURE, man?
+ch7_urge_06 | gus | deadpan | Sign's loose.
+ch7_urge_07 | eddie | calm | I know.
+ch7_nope_01 | eddie | calm | No. Sitting.
+ch7_nope_02 | eddie | calm | I'm not helping. That's the whole thing.
+ch7_nope_03 | eddie | calm | Not touching it. Nope.
+ch7_nope_04 | eddie | tired | Sit, Eddie. Sit.
+ch7_nope_05 | eddie | tired | Hands. Where they are. Staying.
+ch7_c_light | crowd | shout | Look out!
+ch7_c_cart | stranger | panic | Runaway cart!
+ch7_c_wet | gus | deadpan | Wet floor sign.
+ch7_c_plug | mills | panic | The dog's got the cable!
+ch7_c_bottle | luis | shout | Who owns the bottle?!
+ch7_c_ceiling | tiffany | panic | The ceiling! The ceiling!
+ch7_c_train | crowd | shout | The train's moving!
+ch7_c_piano | dale | panic | Is that a PIANO?!
+ch7_c_eddie | eddie | mumble | It's fine. It's fine. It's fine.
+ch7_c_eddie2 | eddie | mumble | Did something just land next to me? Don't tell me.
+ch7_c_pickles | eddie | tired | Pickles is scratching himself. Please keep scratching.
+ch7_after_01 | eddie | mumble | ...That's it?
+ch7_pa_susp | pa | | Attention passengers. Due to unforeseen circumstances, all services are temporarily suspended.
+ch7_graves_huh | graves | theatrical | {p=0.6} Huh.
+ch7_graves_02 | eddie | | "Huh"?
+ch7_graves_03 | graves | theatrical | Never seen that before.
+ch7_graves_04 | eddie | shout | WHAT DOES THAT MEAN?
+ch7_graves_05 | graves | theatrical | {p=1.0} Maybe it gave up.
+ch7_graves_06 | eddie | panic | Death can give up?
+ch7_graves_07 | graves | theatrical | {p=0.8} Apparently.
+ch7_ml_end_01 | marco | | That's not a point.
+ch7_ml_end_02 | luis | | It's not a point.
+ch7_ml_end_03 | marco | | Agreed.
+ch7_dale_end | dale | excited | I'm going to need a bigger board.
+ch7_gus_end | gus | deadpan | Fix that sign.
+ch7_mills_end | mills | grim | I need a drink. A boring one.
+ch7_final_01 | eddie | sincere | ...Pickles.
+ch7_final_02 | eddie | | Pickles, you're sitting on top of a pile of everything.
+ch7_final_03 | eddie | sincere | Good boy.

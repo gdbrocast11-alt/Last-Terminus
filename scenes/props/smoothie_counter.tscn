@@ -6,16 +6,16 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_rhb6m"]
 size = Vector3(3.7, 2.38602, 1)
 
-[node name="smoothie_counter" type="StaticBody3D" unique_id=779994936]
+[node name="smoothie_counter" type="StaticBody3D" unique_id=1322862526]
 collision_mask = 0
 
-[node name="Model" type="Node3D" parent="." unique_id=601136291 instance=ExtResource("1_06mop")]
+[node name="Model" type="Node3D" parent="." unique_id=1527536060 instance=ExtResource("1_06mop")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1302182667]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1948102572]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.19301, 0)
 shape = SubResource("BoxShape3D_rhb6m")
 
-[node name="Prop" type="Node" parent="." unique_id=1647846223]
+[node name="Prop" type="Node" parent="." unique_id=1668922083]
 script = ExtResource("2_g0lsv")
 prop_id = &"smoothie_counter"
 inspect_line = &"ch1_insp_smoothie"

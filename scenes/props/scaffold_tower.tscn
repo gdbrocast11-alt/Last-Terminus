@@ -1,0 +1,23 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/scaffold_tower.glb" id="1_oj44w"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_3oomc"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3lpvo"]
+size = Vector3(1.6415693, 5.8, 1.648)
+
+[node name="scaffold_tower" type="StaticBody3D" unique_id=1154642519]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=1619680754 instance=ExtResource("1_oj44w")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=2088162268]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.85, 0)
+shape = SubResource("BoxShape3D_3lpvo")
+
+[node name="Prop" type="Node" parent="." unique_id=703861142]
+script = ExtResource("2_3oomc")
+prop_id = &"scaffold_tower"
+inspect_line = &"ch6_insp_scaffold"
+hazard = 1
+tags = PackedStringArray("scaffold", "yard")

@@ -3,11 +3,11 @@
 [ext_resource type="PackedScene" path="res://props/framed_photo.glb" id="1_ci5bp"]
 [ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_nfm4q"]
 
-[node name="framed_photo" type="Node3D" unique_id=2019661402]
+[node name="framed_photo" type="Node3D" unique_id=153421880]
 
-[node name="Model" type="Node3D" parent="." unique_id=1566821780 instance=ExtResource("1_ci5bp")]
+[node name="Model" type="Node3D" parent="." unique_id=128838018 instance=ExtResource("1_ci5bp")]
 
-[node name="Prop" type="Node" parent="." unique_id=1220747942]
+[node name="Prop" type="Node" parent="." unique_id=428171331]
 script = ExtResource("2_nfm4q")
 prop_id = &"framed_photo"
 tags = PackedStringArray()

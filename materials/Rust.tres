@@ -1,5 +1,21 @@
 [gd_resource type="StandardMaterial3D" format=3]
 
+[ext_resource type="Texture2D" path="res://textures/paint_metal_albedo.png" id="1_7l83p"]
+[ext_resource type="Texture2D" path="res://textures/paint_metal_orm.png" id="2_3s5cf"]
+[ext_resource type="Texture2D" path="res://textures/paint_metal_normal.png" id="3_0xho7"]
+
 [resource]
 resource_name = "Rust"
 albedo_color = Color(0.5, 0.25, 0.14, 1)
+albedo_texture = ExtResource("1_7l83p")
+metallic = 0.4
+metallic_texture = ExtResource("2_3s5cf")
+metallic_texture_channel = 2
+roughness = 1.2142857
+roughness_texture = ExtResource("2_3s5cf")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_0xho7")
+ao_enabled = true
+ao_texture = ExtResource("2_3s5cf")
+texture_filter = 5

@@ -1,0 +1,23 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/paint_shaker.glb" id="1_amksn"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_71nng"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_bnadv"]
+size = Vector3(0.6, 1.05, 0.64)
+
+[node name="paint_shaker" type="StaticBody3D" unique_id=767472442]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=2086184202 instance=ExtResource("1_amksn")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=842938871]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.525, -0.02000001)
+shape = SubResource("BoxShape3D_bnadv")
+
+[node name="Prop" type="Node" parent="." unique_id=1149749882]
+script = ExtResource("2_71nng")
+prop_id = &"paint_shaker"
+inspect_line = &"ch3_insp_shaker"
+hazard = 1
+tags = PackedStringArray("paint", "shaker")

@@ -6,16 +6,16 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_2n4wu"]
 size = Vector3(0.75, 1.83, 0.62)
 
-[node name="ticket_machine" type="StaticBody3D" unique_id=580233649]
+[node name="ticket_machine" type="StaticBody3D" unique_id=1342409262]
 collision_mask = 0
 
-[node name="Model" type="Node3D" parent="." unique_id=1146568095 instance=ExtResource("1_7ge7e")]
+[node name="Model" type="Node3D" parent="." unique_id=887716134 instance=ExtResource("1_7ge7e")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1574506932]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1201236799]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.915, -0.01000002)
 shape = SubResource("BoxShape3D_2n4wu")
 
-[node name="Prop" type="Node" parent="." unique_id=388203937]
+[node name="Prop" type="Node" parent="." unique_id=531376988]
 script = ExtResource("2_b4ce2")
 prop_id = &"ticket_machine"
 tags = PackedStringArray("ticket")

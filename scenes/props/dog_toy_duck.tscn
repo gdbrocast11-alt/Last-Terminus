@@ -6,7 +6,7 @@
 [sub_resource type="SphereShape3D" id="SphereShape3D_qeo6h"]
 radius = 0.082499996
 
-[node name="dog_toy_duck" type="RigidBody3D" unique_id=724197048]
+[node name="dog_toy_duck" type="RigidBody3D" unique_id=1362134397]
 collision_layer = 16
 collision_mask = 31
 mass = 0.1
@@ -14,13 +14,13 @@ sleeping = true
 linear_damp = 0.15
 angular_damp = 0.4
 
-[node name="Model" type="Node3D" parent="." unique_id=656464385 instance=ExtResource("1_hgbkk")]
+[node name="Model" type="Node3D" parent="." unique_id=1176102737 instance=ExtResource("1_hgbkk")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=953754910]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1889463587]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.7252903e-09, 0.0625, -0.017500006)
 shape = SubResource("SphereShape3D_qeo6h")
 
-[node name="Prop" type="Node" parent="." unique_id=840595126]
+[node name="Prop" type="Node" parent="." unique_id=1406671671]
 script = ExtResource("2_g5l6x")
 prop_id = &"dog_toy_duck"
 grab_class = "light"

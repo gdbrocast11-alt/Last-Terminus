@@ -1,0 +1,23 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/steam_generator.glb" id="1_7qmt8"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_ogujl"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_yy22a"]
+size = Vector3(0.8348556, 1.6371391, 0.67)
+
+[node name="steam_generator" type="StaticBody3D" unique_id=1971532800]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=939934871 instance=ExtResource("1_7qmt8")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1662947850]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.097427815, 0.81856954, -0.0150000155)
+shape = SubResource("BoxShape3D_yy22a")
+
+[node name="Prop" type="Node" parent="." unique_id=702389127]
+script = ExtResource("2_ogujl")
+prop_id = &"steam_generator"
+inspect_line = &"ch4_insp_steam"
+hazard = 1
+tags = PackedStringArray("steam", "chain")

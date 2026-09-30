@@ -1,0 +1,28 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/yoga_mat.glb" id="1_an7ha"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_557as"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_d6rgg"]
+size = Vector3(0.62, 0.012, 1.75)
+
+[node name="yoga_mat" type="RigidBody3D" unique_id=21909572]
+collision_layer = 16
+collision_mask = 31
+mass = 1.2
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1633266168 instance=ExtResource("1_an7ha")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=2132260974]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.006, 0)
+shape = SubResource("BoxShape3D_d6rgg")
+
+[node name="Prop" type="Node" parent="." unique_id=1167072046]
+script = ExtResource("2_557as")
+prop_id = &"yoga_mat"
+grab_class = "light"
+inspect_line = &"ch4_insp_mat"
+tags = PackedStringArray()

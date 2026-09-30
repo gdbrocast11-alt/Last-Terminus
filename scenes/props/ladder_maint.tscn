@@ -1,0 +1,28 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/ladder_maint.glb" id="1_ieylv"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_bjklq"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_uspkk"]
+size = Vector3(0.55, 3.4, 0.04)
+
+[node name="ladder_maint" type="RigidBody3D" unique_id=1281478542]
+collision_layer = 16
+collision_mask = 31
+mass = 9.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=659467923 instance=ExtResource("1_ieylv")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1167788994]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7, 0)
+shape = SubResource("BoxShape3D_uspkk")
+
+[node name="Prop" type="Node" parent="." unique_id=228874332]
+script = ExtResource("2_bjklq")
+prop_id = &"ladder_maint"
+grab_class = "medium"
+hazard = 1
+tags = PackedStringArray("ladder", "chain")

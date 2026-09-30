@@ -7,7 +7,7 @@
 height = 1.74
 radius = 0.16
 
-[node name="floor_lamp" type="RigidBody3D" unique_id=640028423]
+[node name="floor_lamp" type="RigidBody3D" unique_id=82085640]
 collision_layer = 16
 collision_mask = 31
 mass = 4.0
@@ -17,11 +17,11 @@ angular_damp = 0.4
 
 [node name="Model" type="Node3D" parent="." unique_id=1854619489 instance=ExtResource("1_6xsa7")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1962932657]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=455931951]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.87, 0)
 shape = SubResource("CylinderShape3D_qaipb")
 
-[node name="Prop" type="Node" parent="." unique_id=1221417735]
+[node name="Prop" type="Node" parent="." unique_id=1163164106]
 script = ExtResource("2_fc4h7")
 prop_id = &"floor_lamp"
 grab_class = "medium"

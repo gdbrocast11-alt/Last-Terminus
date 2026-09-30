@@ -1,5 +1,20 @@
 [gd_resource type="StandardMaterial3D" format=3]
 
+[ext_resource type="Texture2D" path="res://textures/ceiling_tile_albedo.png" id="1_b252q"]
+[ext_resource type="Texture2D" path="res://textures/ceiling_tile_orm.png" id="2_24wbf"]
+[ext_resource type="Texture2D" path="res://textures/ceiling_tile_normal.png" id="3_fcwnn"]
+
 [resource]
 resource_name = "CeilingTile"
 albedo_color = Color(0.92, 0.92, 0.9, 1)
+albedo_texture = ExtResource("1_b252q")
+metallic_texture = ExtResource("2_24wbf")
+metallic_texture_channel = 2
+roughness = 1.2857143
+roughness_texture = ExtResource("2_24wbf")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_fcwnn")
+ao_enabled = true
+ao_texture = ExtResource("2_24wbf")
+texture_filter = 5

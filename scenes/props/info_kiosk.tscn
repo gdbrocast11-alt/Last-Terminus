@@ -7,16 +7,16 @@
 height = 3.56
 radius = 1.42
 
-[node name="info_kiosk" type="StaticBody3D" unique_id=1593037187]
+[node name="info_kiosk" type="StaticBody3D" unique_id=2128558809]
 collision_mask = 0
 
 [node name="Model" type="Node3D" parent="." unique_id=1956612242 instance=ExtResource("1_in1rp")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=598806289]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=78185937]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.78, 0)
 shape = SubResource("CylinderShape3D_nr4v1")
 
-[node name="Prop" type="Node" parent="." unique_id=1911284387]
+[node name="Prop" type="Node" parent="." unique_id=563223097]
 script = ExtResource("2_rw2y1")
 prop_id = &"info_kiosk"
 tags = PackedStringArray("kiosk")

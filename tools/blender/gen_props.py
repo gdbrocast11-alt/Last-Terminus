@@ -13,7 +13,7 @@ if "--only" in argv:
     i = argv.index("--only")
     only = set(argv[i + 1].split(","))
     argv = argv[:i] + argv[i + 2:]
-modules = argv or ["props_transit", "props_store", "props_wellness", "props_home", "props_yard", "props_street"]
+modules = argv or ["props_transit", "props_store", "props_wellness", "props_home", "props_yard", "props_street", "props_ending"]
 out_dir = os.path.join(L.ROOT, "props")
 meta_path = os.path.join(out_dir, "props_def.json")
 for m in modules:

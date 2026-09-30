@@ -1,0 +1,23 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/sprinkler_display.glb" id="1_hjjh4"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_s32po"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_yok27"]
+size = Vector3(1.4, 1.28, 0.54)
+
+[node name="sprinkler_display" type="StaticBody3D" unique_id=902783722]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=1528809007 instance=ExtResource("1_hjjh4")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1395454148]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.64, -0.02000001)
+shape = SubResource("BoxShape3D_yok27")
+
+[node name="Prop" type="Node" parent="." unique_id=1918240944]
+script = ExtResource("2_s32po")
+prop_id = &"sprinkler_display"
+inspect_line = &"ch3_insp_sprinkler"
+hazard = 1
+tags = PackedStringArray("sprinkler", "chain")

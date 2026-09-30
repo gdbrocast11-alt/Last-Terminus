@@ -1,0 +1,27 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/dumbbell.glb" id="1_dmjib"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_kpfs4"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_isdhm"]
+size = Vector3(0.38000003, 0.1472243, 0.17)
+
+[node name="dumbbell" type="RigidBody3D" unique_id=58384677]
+collision_layer = 16
+collision_mask = 31
+mass = 6.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1935474830 instance=ExtResource("1_dmjib")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1035971690]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.089999996, 0)
+shape = SubResource("BoxShape3D_isdhm")
+
+[node name="Prop" type="Node" parent="." unique_id=925761609]
+script = ExtResource("2_kpfs4")
+prop_id = &"dumbbell"
+grab_class = "medium"
+tags = PackedStringArray("weights")

@@ -1,0 +1,20 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[ext_resource type="Texture2D" path="res://textures/fabric_albedo.png" id="1_bdypq"]
+[ext_resource type="Texture2D" path="res://textures/fabric_orm.png" id="2_usfvw"]
+[ext_resource type="Texture2D" path="res://textures/fabric_normal.png" id="3_6nns8"]
+
+[resource]
+resource_name = "ShoeBrown"
+albedo_color = Color(0.25, 0.14, 0.08, 1)
+albedo_texture = ExtResource("1_bdypq")
+metallic_texture = ExtResource("2_usfvw")
+metallic_texture_channel = 2
+roughness = 0.71428573
+roughness_texture = ExtResource("2_usfvw")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_6nns8")
+ao_enabled = true
+ao_texture = ExtResource("2_usfvw")
+texture_filter = 5

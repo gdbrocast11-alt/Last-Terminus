@@ -1,0 +1,112 @@
+# CHAPTER 4: THE ALIGNMENT POP-UP (Riverbend Community Recreation Center)
+ch4_arrive_01 | eddie | dry | Riverbend Community Recreation Center. Home of Zumba, pickleball, and now, alignment.
+ch4_arrive_02 | eddie | tired | Pickles. That's a candle. Do not lick the candle.
+ch4_tiff_greet_01 | tiffany | bright | Eddie! Namaste! I've forgiven you. It was a whole process.
+ch4_tiff_greet_02 | eddie | | I'm here because I think you're in danger.
+ch4_tiff_greet_03 | tiffany | bright | I'm not in danger. I changed my energy.
+ch4_tiff_greet_04 | tiffany | | See the crystal cluster? Every stone is tuned to me. I'm insured by the universe.
+ch4_tiff_greet_05 | eddie | tired | That's not how insurance works.
+ch4_tiff_greet_06 | tiffany | bright | It's a framework, Eddie.
+ch4_tiff_repeat_01 | tiffany | | Grab a smoothie. It's a cold-pressed reset.
+ch4_tiff_repeat_02 | tiffany | | Keynote is at seven. Breathwork after. Don't be late to your own transformation.
+ch4_tiff_repeat_03 | tiffany | bright | Your energy is very loud. I love that for you.
+ch4_gus_intro_01 | eddie | | Gus?
+ch4_gus_intro_02 | gus | deadpan | Eddie.
+ch4_gus_intro_03 | eddie | | What are you doing here?
+ch4_gus_intro_04 | gus | deadpan | Free smoothie.
+ch4_gus_intro_05 | gus | deadpan | Also, this place has fourteen violations.
+ch4_gus_intro_06 | eddie | | Fourteen?
+ch4_gus_intro_07 | gus | deadpan | Fifteen. There's a new one.
+ch4_gus_talk_01 | eddie | | Gus, I need you to keep an eye on things.
+ch4_gus_talk_02 | gus | deadpan | I already am.
+ch4_gus_talk_03 | eddie | mumble | That's what I was afraid of. And also relieved by.
+ch4_gus_line_01 | gus | deadpan | Cord's a trip hazard.
+ch4_gus_line_02 | gus | deadpan | Exit's blocked. Was.
+ch4_gus_line_03 | gus | deadpan | That's a code violation.
+ch4_gus_line_04 | gus | deadpan | Wet floor.
+ch4_gus_line_05 | gus | deadpan | Who put that there.
+ch4_gus_line_06 | gus | deadpan | Extension cords in series. Nope.
+ch4_gus_line_07 | gus | deadpan | That's not rated for that.
+ch4_gag_strip_01 | eddie | panic | Overloaded strip! I'm on it, I'm...
+ch4_gag_strip_02 | eddie | tired | Gus.
+ch4_gag_strip_03 | gus | deadpan | What?
+ch4_gag_strip_04 | eddie | | Nothing. Keep doing literally everything you're doing.
+ch4_gag_candle_01 | gus | deadpan | Open flame. Curtains.
+ch4_gag_candle_02 | eddie | mumble | ...Thank you.
+ch4_gag_steam_01 | gus | deadpan | Leaky valve.
+ch4_gag_steam_02 | eddie | | I was going to do that.
+ch4_gag_steam_03 | gus | deadpan | I know.
+ch4_gag_tread_01 | gus | deadpan | Belt's frayed. Out of service.
+ch4_gag_stage_01 | gus | deadpan | Stage pin's loose.
+ch4_gag_stage_02 | eddie | tired | Of course it is.
+ch4_gag_speaker_01 | gus | deadpan | Speaker's on a wobbly stand. Fixed.
+ch4_gag_more_01 | eddie | mumble | He's done four already. I'm just following him.
+ch4_gag_more_02 | eddie | | The safest person in this building is a seventy-two-year-old retired safety inspector.
+ch4_insp_candles | eddie | mumble | Candles. Forty of them. Next to a curtain. This is a fire with a good publicist.
+ch4_insp_crystals | eddie | | A hanging crystal cluster. On a ribbon. A satin ribbon.
+ch4_insp_winch | eddie | | A winch for lowering the crystals. Tiffany calls it "descending the abundance."
+ch4_insp_blender | eddie | | The smoothie bar blender. It's very loud and very proud of itself.
+ch4_insp_strip | eddie | mumble | An extension cord plugged into a power strip plugged into an extension cord.
+ch4_insp_speaker | eddie | | Tall speaker on a folding stand. What could go wrong.
+ch4_insp_stage | eddie | | A folding stage. It folds. That's the whole point. That's also the problem.
+ch4_insp_steam | eddie | | Steam room valve. The word "steam" is doing a lot of work here.
+ch4_insp_sauna | eddie | | Sauna. Eight people sweating on purpose.
+ch4_insp_tread | eddie | | Treadmills. Speed goes to twelve. I don't know why anyone needs twelve.
+ch4_insp_gong | eddie | | A gong. A decorative gong. Decorative gongs are not for standing under.
+ch4_insp_weights | eddie | | Dumbbell rack. Everything's just sitting on everything.
+ch4_insp_mat | eddie | | Yoga mats. Rolled up. Perfectly harmless. Nice.
+ch4_insp_fountain | eddie | | A water feature. On an extension cord. In a room full of candles. This is a lawsuit.
+ch4_insp_pool | eddie | | A plunge pool. Cold. Small. Angry.
+ch4_insp_mirror | eddie | | A wall of mirrors. I look worried. Fair.
+ch4_insp_key | eddie | | Treadmill safety key. A little red clip on a lanyard. The most important object in the building.
+ch4_winch | eddie | | Lowering the chandelier. Please be worth it.
+ch4_keynote_01 | tiffany | bright | Welcome to the first ever Aligned Living Kickoff!
+ch4_keynote_02 | tiffany | bright | We're not here to be safe. We are here to be aligned.
+ch4_keynote_03 | tiffany | | The universe doesn't hurt people who are open. It just... moves things.
+ch4_keynote_04 | tiffany | | Repeat after me. I am the flow.
+ch4_c_blender | stranger | panic | Oops! Sorry! That's mine!
+ch4_c_spark | tiffany | | Is that... normal?
+ch4_c_feedback | tiffany | panic | The speaker's doing a thing!
+ch4_c_curtain | stranger | panic | Fire! Fire! A small one!
+ch4_c_sprinkler | crowd | panic | The sprinklers!
+ch4_c_chandelier | eddie | panic | The chandelier! Tiffany, MOVE!
+ch4_c_tiff_no | tiffany | | I'm holding space. Space is held.
+ch4_c_tiff_dead | tiffany | panic | This isn't in the...
+ch4_tiff_shaken_01 | tiffany | | That was... a very intense flow.
+ch4_tiff_shaken_02 | tiffany | | I'm going to hold space. Somewhere else.
+ch4_tiff_shaken_03 | tiffany | | Maybe the universe isn't a customer.
+ch4_tiff_saved_01 | tiffany | bright | Eddie. You lowered my chandelier.
+ch4_tiff_saved_02 | tiffany | | Okay, that was a boundary. I'll let it go.
+ch4_tiff_saved_03 | tiffany | | Thank you. Don't tell anyone I said that.
+ch4_diagram_01 | eddie | tired | She's alive. She shouldn't be alive.
+ch4_diagram_02 | eddie | mumble | It's not the order. It's not any order.
+ch4_diagram_03 | eddie | mumble | It moves when I move it.
+ch4_ml_tread_01 | marco | shout | Speed twelve! Speed twelve! Beat that!
+ch4_ml_tread_02 | luis | shout | Speed twelve and a half!
+ch4_ml_tread_03 | marco | shout | That's not a setting!
+ch4_ml_tread_04 | luis | shout | It is if I press the button twice!
+ch4_ml_run_01 | marco | panic | It won't stop! It won't STOP!
+ch4_ml_run_02 | luis | shout | That's ten! That's speed ten!
+ch4_ml_run_03 | eddie | panic | The safety key! Pull the red key!
+ch4_ml_saved_01 | marco | | That makes four.
+ch4_ml_saved_02 | luis | | Doesn't count. You didn't stop it. He did.
+ch4_ml_saved_03 | marco | | I was falling toward a wall.
+ch4_ml_saved_04 | luis | | Doesn't count.
+ch4_ml_hit_01 | marco | panic | AAAAA...
+ch4_ml_hit_02 | luis | shout | That counts! That one counts!
+ch4_ml_hit_03 | marco | | Ow. Yeah. That counts.
+ch4_gus_end_01 | gus | deadpan | Gong's loose.
+ch4_gus_end_02 | gus | deadpan | Told you.
+ch4_tiff_dead_01 | eddie | panic | Tiffany! Tiffany?
+ch4_tiff_dead_02 | eddie | mumble | The chandelier. I should have... the ribbon. I should have...
+ch4_tiff_dead_03 | gus | deadpan | Told her about the ribbon.
+ch4_end_01 | eddie | tired | The diagram's wrong. The order's wrong. It goes for whoever's available.
+ch4_end_02 | eddie | | Gus, don't go near a hazard, okay?
+ch4_end_03 | gus | deadpan | That's my job.
+ch4_graves_call_01 | graves | theatrical | Mister Mercer. {p=0.6} I have been thinking. {p=0.8} I would like to come and see you.
+ch4_graves_call_02 | eddie | | Why?
+ch4_graves_call_03 | graves | theatrical | I have a theory. {p=0.8} It involves your dog.
+ch4_graves_call_04 | eddie | | What?
+ch4_graves_call_05 | graves | theatrical | Tomorrow. {p=0.5} I will bring sandwiches.
+ch4_brenda_hi_01 | brenda | excited | Sidekick! Great turnout!
+ch4_brenda_hi_02 | brenda | | I'm live-streaming the flow. Don't look at the camera.

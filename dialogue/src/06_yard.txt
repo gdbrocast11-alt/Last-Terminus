@@ -1,0 +1,105 @@
+# CHAPTER 6: HALLORAN YARD (the Pickles chapter)
+ch6_arrive_01 | eddie | grim | Okay. This is the place.
+ch6_arrive_02 | eddie | grim | Nobody here. Nobody to get hurt.
+ch6_arrive_03 | eddie | grim | Just us.
+ch6_arrive_04 | eddie | sincere | Just us, buddy.
+ch6_apology_01 | eddie | sincere | Pickles. Come here.
+ch6_apology_02 | eddie | sincere | I need to tell you something.
+ch6_apology_03 | eddie | sincere | You're the best thing that ever happened to me.
+ch6_apology_04 | eddie | sincere | I know you don't understand this. I hope you never do.
+ch6_apology_05 | eddie | sincere | I'm so sorry.
+ch6_apology_06 | eddie | tired | Don't wag. Don't do that. I'm trying to have a moment.
+ch6_apology_07 | eddie | grim | Okay.
+ch6_arm_beam_01 | eddie | grim | The crane. A steel beam. Please don't be clever.
+ch6_arm_truck_01 | eddie | grim | The yard truck. The brake lever. Please don't be clever.
+ch6_arm_drop_01 | eddie | grim | The scaffolding. A drop. Please don't be clever.
+ch6_arm_barrels_01 | eddie | grim | The propane. The fuse. Please... don't be clever.
+ch6_arm_vend_01 | eddie | grim | The vending machines. The lever. Please don't be clever.
+ch6_arm_ball_01 | eddie | grim | The wrecking ball. The release. Please don't be clever.
+ch6_att_01 | eddie | grim | Okay. This time.
+ch6_att_02 | eddie | grim | Just stay there. Right there. Good boy.
+ch6_att_03 | eddie | mumble | Stay. Stay. Stay.
+ch6_att_04 | eddie | grim | I'm sorry. I'm sorry. I'm sorry.
+ch6_att_05 | eddie | tired | This one is definitely going to work.
+ch6_att_06 | eddie | tired | Different angle. Different angle.
+ch6_att_07 | eddie | grim | I can't believe I'm doing this. I can't believe I'm doing this.
+ch6_att_08 | eddie | tired | Third time's the charm. Fourth time's the charm.
+ch6_res_beam_01 | eddie | panic | He looked back. He looked BACK.
+ch6_res_beam_02 | eddie | mumble | A sandwich wrapper. A sandwich wrapper saved him.
+ch6_res_beam_03 | eddie | tired | That was a three-ton beam. He's sniffing the wrapper.
+ch6_res_truck_01 | eddie | panic | The truck scooped him up! The truck scooped him!
+ch6_res_truck_02 | eddie | mumble | He's riding it. He's riding it and he's enjoying it.
+ch6_res_truck_03 | eddie | tired | Nice hay bale. Who leaves hay bales in a yard.
+ch6_res_drop_01 | eddie | mumble | There was a mattress. Why was there a mattress.
+ch6_res_drop_02 | eddie | tired | It moved. The mattress moved. It was moving.
+ch6_res_drop_03 | eddie | mumble | Somebody's out here setting this up for him.
+ch6_res_barrels_01 | eddie | panic | He got launched! He's in the air! He's in the...
+ch6_res_barrels_02 | eddie | mumble | An airbag. He landed in a giant airbag.
+ch6_res_barrels_03 | eddie | tired | It says "Safe-T-Bag." It's a stunt company. In a yard. In a yard.
+ch6_res_vend_01 | eddie | mumble | The vending machines made a shape. A perfect shape.
+ch6_res_vend_02 | eddie | tired | Another one blocked it. Another vending machine. Just leaned there.
+ch6_res_vend_03 | eddie | mumble | He's eating a snack. A snack fell out.
+ch6_res_ball_01 | eddie | panic | The leash caught the chain. His LEASH caught the chain.
+ch6_res_ball_02 | eddie | tired | The ball went the other way. Why did it go the other way.
+ch6_res_ball_03 | eddie | mumble | It hit the crane. The crane hit the truck. The truck...
+ch6_res_gen_01 | eddie | tired | I don't know what I expected.
+ch6_res_gen_02 | eddie | mumble | Was that a bird? Did a bird...
+ch6_res_gen_03 | eddie | tired | It's fine. He's fine. Why is he fine.
+ch6_res_gen_04 | eddie | mumble | I am so tired.
+ch6_esc_03 | eddie | tired | That's three. Three lethal setups. Zero lethal outcomes.
+ch6_esc_05 | eddie | tired | Five. I've tried to kill my dog five times. I'm the worst person alive.
+ch6_esc_08 | eddie | shout | Eight! It's a dog! It's a DOG!
+ch6_esc_10 | eddie | tired | Ten. He's not even afraid. He's wagging.
+ch6_esc_13 | eddie | mumble | The universe is doing this on purpose. It wants him alive.
+ch6_esc_16 | eddie | shout | I will keep doing this until physics files a complaint!
+ch6_esc_20 | eddie | mumble | I'm out of ideas. I'm out of yard.
+ch6_sit_hint | eddie | tired | I could sit down. Just for a second.
+ch6_sit_01 | eddie | sincere | You know what? No.
+ch6_sit_02 | eddie | sincere | I'm done.
+ch6_sit_03 | eddie | sincere | You win.
+ch6_sit_04 | eddie | sincere | I don't care if it's the sequence. I don't care if it's the universe.
+ch6_sit_05 | eddie | sincere | You're not a mistake. You're not a debt.
+ch6_sit_06 | eddie | sincere | You're my dog.
+ch6_clang_01 | eddie | panic | Oh no.
+ch6_clang_02 | eddie | shout | Oh no, oh no. RUN!
+ch6_run_01 | eddie | shout | Pickles! Come! COME!
+ch6_run_02 | eddie | shout | Not that way!
+ch6_run_03 | eddie | shout | Jump! Jump the...
+ch6_run_04 | eddie | shout | Under! Under it!
+ch6_run_05 | eddie | panic | Go go go go go!
+ch6_run_06 | eddie | panic | Left! Left!
+ch6_run_07 | eddie | shout | Duck!
+ch6_out_01 | eddie | panic | We're... we're out?
+ch6_out_02 | eddie | tired | We're out. We're both out.
+ch6_out_03 | eddie | sincere | Good boy. Good boy. Good boy.
+ch6_graves_01 | graves | theatrical | Mister Mercer.
+ch6_graves_02 | eddie | panic | GRAVES?! How did you... what are you...?
+ch6_graves_03 | graves | theatrical | The dog seemed to be having an eventful day. I brought a folding chair.
+ch6_real_01 | eddie | mumble | The leash.
+ch6_real_02 | eddie | mumble | The leash didn't wrap around Pickles. It wrapped around me.
+ch6_real_03 | eddie | mumble | It yanked ME. I stepped back. I stepped out of the way.
+ch6_real_04 | eddie | mumble | I wasn't saving Pickles. Pickles was never in danger.
+ch6_real_05 | graves | theatrical | That would be one interpretation.
+ch6_real_06 | eddie | tired | So I spent an hour trying to murder my dog for nothing?
+ch6_real_07 | graves | theatrical | Well. {p=1.0} Technically you were very unsuccessful.
+ch6_real_08 | eddie | dry | {p=1.0} I hate you.
+ch6_real_09 | graves | theatrical | That is fair.
+ch6_real_10 | graves | theatrical | Would you like a sandwich?
+ch6_real_11 | eddie | tired | Yes.
+ch6_hint_lever | eddie | | That lever's connected to the crane.
+ch6_hint_sit | eddie | | There's a stump. I could sit down.
+ch6_hint_run | eddie | shout | Run! Keep running!
+ch6_insp_stump | eddie | tired | A stump. Nice place for a breakdown.
+ch6_insp_wrapper | eddie | mumble | A sandwich wrapper. It's just blowing around. It's suspicious.
+ch6_insp_mattress | eddie | mumble | A mattress. In a quarry. I have questions.
+ch6_insp_airbag | eddie | tired | A folded airbag. "Safe-T-Bag. For all your falling needs." Why.
+ch6_insp_hay | eddie | tired | Hay bales. Stacked so neatly. Who did that.
+ch6_insp_crane | eddie | | Gantry crane. Rusted. Load rated. Load will be rated.
+ch6_insp_truck | eddie | | The old yard truck. Somebody left it in neutral on a slope.
+ch6_insp_quarry | eddie | | The quarry. Big hole. Lots of gravel. Nobody's in it.
+ch6_insp_barrels | eddie | mumble | Red barrels and propane tanks. Of course.
+ch6_insp_vend | eddie | | Two vending machines, side by side. Facing each other. As if that's normal.
+ch6_insp_ball | eddie | | A wrecking ball. On a crane. Has anyone ever needed one of these.
+ch6_insp_bench | eddie | tired | A bench. For sitting. I could sit.
+ch6_insp_rail | eddie | | Rail spur. Rusted over. Nothing runs on it.
+ch6_insp_scaffold | eddie | | Scaffolding. Wobbly. Perfect.

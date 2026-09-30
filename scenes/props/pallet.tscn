@@ -1,0 +1,27 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/pallet.glb" id="1_m45wn"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_43se8"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_wq8er"]
+size = Vector3(1.2, 0.13, 1)
+
+[node name="pallet" type="RigidBody3D" unique_id=1464770587]
+collision_layer = 16
+collision_mask = 31
+mass = 18.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1626572661 instance=ExtResource("1_m45wn")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=2142260468]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.089999996, 0)
+shape = SubResource("BoxShape3D_wq8er")
+
+[node name="Prop" type="Node" parent="." unique_id=1742436488]
+script = ExtResource("2_43se8")
+prop_id = &"pallet"
+grab_class = "heavy"
+tags = PackedStringArray()

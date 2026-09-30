@@ -6,7 +6,7 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_pfnjk"]
 size = Vector3(1.1, 0.445, 0.6)
 
-[node name="coffee_table" type="RigidBody3D" unique_id=2025835537]
+[node name="coffee_table" type="RigidBody3D" unique_id=908102530]
 collision_layer = 16
 collision_mask = 31
 mass = 12.0
@@ -14,13 +14,13 @@ sleeping = true
 linear_damp = 0.15
 angular_damp = 0.4
 
-[node name="Model" type="Node3D" parent="." unique_id=398357949 instance=ExtResource("1_jw4ki")]
+[node name="Model" type="Node3D" parent="." unique_id=1324961955 instance=ExtResource("1_jw4ki")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=862627826]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=715777677]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.2225, 0)
 shape = SubResource("BoxShape3D_pfnjk")
 
-[node name="Prop" type="Node" parent="." unique_id=60794783]
+[node name="Prop" type="Node" parent="." unique_id=917675577]
 script = ExtResource("2_cae6j")
 prop_id = &"coffee_table"
 grab_class = "medium"

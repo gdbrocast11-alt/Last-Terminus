@@ -1,0 +1,14 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/gus_flyer.glb" id="1_lfwbp"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_ia20l"]
+
+[node name="gus_flyer" type="Node3D" unique_id=200310942]
+
+[node name="Model" type="Node3D" parent="." unique_id=693230629 instance=ExtResource("1_lfwbp")]
+
+[node name="Prop" type="Node" parent="." unique_id=1666442691]
+script = ExtResource("2_ia20l")
+prop_id = &"gus_flyer"
+inspect_line = &"ch8_gus_flyer"
+tags = PackedStringArray("ending")

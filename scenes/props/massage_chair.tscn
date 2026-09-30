@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/massage_chair.glb" id="1_f4avc"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_hl0jd"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ews5j"]
+size = Vector3(0.7, 1.0900193, 1.397532)
+
+[node name="massage_chair" type="StaticBody3D" unique_id=1930451518]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=74137324 instance=ExtResource("1_f4avc")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1976378664]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6500097, -0.10123402)
+shape = SubResource("BoxShape3D_ews5j")
+
+[node name="Prop" type="Node" parent="." unique_id=1473308785]
+script = ExtResource("2_hl0jd")
+prop_id = &"massage_chair"
+tags = PackedStringArray()

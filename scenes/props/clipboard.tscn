@@ -1,0 +1,27 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/clipboard.glb" id="1_d0th8"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_08o0l"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1bqdi"]
+size = Vector3(0.23, 0.03, 0.325)
+
+[node name="clipboard" type="RigidBody3D" unique_id=1634195635]
+collision_layer = 16
+collision_mask = 31
+mass = 0.3
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1520317604 instance=ExtResource("1_d0th8")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1845182044]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.015, -0.0025000125)
+shape = SubResource("BoxShape3D_1bqdi")
+
+[node name="Prop" type="Node" parent="." unique_id=1437773609]
+script = ExtResource("2_08o0l")
+prop_id = &"clipboard"
+grab_class = "light"
+tags = PackedStringArray()
