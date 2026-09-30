@@ -78,7 +78,7 @@ def normal_from_height(h, strength=2.0):
 
 # how much of each texture's own contrast survives (big flat surfaces read calmer at low contrast)
 CONTRAST = {"terrazzo": 0.4, "wall_paint": 0.45, "ceiling_tile": 0.5, "concrete_rough": 0.55, "concrete_smooth": 0.55, "carpet": 0.5, "asphalt": 0.55,
-            "dirt": 0.6, "gravel": 0.55, "grass": 0.7, "tile_floor": 0.7, "tile_white": 0.75, "plywood": 0.75, "cardboard": 0.75}
+            "dirt": 0.6, "gravel": 0.55, "grass": 0.7, "tile_floor": 0.7, "tile_white": 0.75, "plywood": 0.75, "cardboard": 0.75, "paint_metal": 0.3, "corrugated": 0.6, "diamond_plate": 0.7, "rubber": 0.6, "fabric": 0.6}
 
 
 NORMAL_K = {"wall_paint": 0.1, "ceiling_tile": 0.35, "concrete_smooth": 0.3, "terrazzo": 0.3, "carpet": 0.4, "tile_white": 0.5, "tile_floor": 0.5}

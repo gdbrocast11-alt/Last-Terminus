@@ -689,6 +689,66 @@
 ],
 "props": [
 {
+"scene": "street_lamp",
+"name": "LotLampProp_-40",
+"p": [
+-40,
+0,
+36
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "street_lamp",
+"name": "LotLampProp_-14",
+"p": [
+-14,
+0,
+36
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "street_lamp",
+"name": "LotLampProp_14",
+"p": [
+14,
+0,
+36
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
+"scene": "street_lamp",
+"name": "LotLampProp_40",
+"p": [
+40,
+0,
+36
+],
+"r": [
+0,
+0,
+0
+],
+"opts": {}
+},
+{
 "scene": "checkout_lane",
 "name": "Checkout1",
 "p": [
@@ -2430,12 +2490,12 @@
 -18
 ],
 "color": [
-0.85,
-0.95,
-1.0
+1.0,
+1.0,
+0.97
 ],
-"energy": 1.3,
-"range": 13.0,
+"energy": 5.5,
+"range": 17.0,
 "shadow": false,
 "angle": 60,
 "rot": [
@@ -2444,7 +2504,7 @@
 0
 ],
 "name": "Tube_-24_-18",
-"fog": 0.5,
+"fog": 0.4,
 "cookie": null
 },
 {
@@ -2455,12 +2515,12 @@
 -6
 ],
 "color": [
-0.85,
-0.95,
-1.0
+1.0,
+1.0,
+0.97
 ],
-"energy": 1.3,
-"range": 13.0,
+"energy": 5.5,
+"range": 17.0,
 "shadow": false,
 "angle": 60,
 "rot": [
@@ -2469,7 +2529,7 @@
 0
 ],
 "name": "Tube_-24_-6",
-"fog": 0.5,
+"fog": 0.4,
 "cookie": null
 },
 {
@@ -2480,12 +2540,12 @@
 6
 ],
 "color": [
-0.85,
-0.95,
-1.0
+1.0,
+1.0,
+0.97
 ],
-"energy": 1.3,
-"range": 13.0,
+"energy": 5.5,
+"range": 17.0,
 "shadow": false,
 "angle": 60,
 "rot": [
@@ -2494,7 +2554,7 @@
 0
 ],
 "name": "Tube_-24_6",
-"fog": 0.5,
+"fog": 0.4,
 "cookie": null
 },
 {
@@ -2505,12 +2565,12 @@
 18
 ],
 "color": [
-0.85,
-0.95,
-1.0
+1.0,
+1.0,
+0.97
 ],
-"energy": 1.3,
-"range": 13.0,
+"energy": 5.5,
+"range": 17.0,
 "shadow": false,
 "angle": 60,
 "rot": [
@@ -2519,7 +2579,7 @@
 0
 ],
 "name": "Tube_-24_18",
-"fog": 0.5,
+"fog": 0.4,
 "cookie": null
 },
 {
@@ -2530,12 +2590,12 @@
 -18
 ],
 "color": [
-0.85,
-0.95,
-1.0
+1.0,
+1.0,
+0.97
 ],
-"energy": 1.3,
-"range": 13.0,
+"energy": 5.5,
+"range": 17.0,
 "shadow": false,
 "angle": 60,
 "rot": [
@@ -2544,7 +2604,7 @@
 0
 ],
 "name": "Tube_-8_-18",
-"fog": 0.5,
+"fog": 0.4,
 "cookie": null
 },
 {
@@ -2555,12 +2615,12 @@
 -6
 ],
 "color": [
-0.85,
-0.95,
-1.0
+1.0,
+1.0,
+0.97
 ],
-"energy": 1.3,
-"range": 13.0,
+"energy": 5.5,
+"range": 17.0,
 "shadow": false,
 "angle": 60,
 "rot": [
@@ -2569,7 +2629,7 @@
 0
 ],
 "name": "Tube_-8_-6",
-"fog": 0.5,
+"fog": 0.4,
 "cookie": null
 },
 {
@@ -2580,12 +2640,12 @@
 6
 ],
 "color": [
-0.85,
-0.95,
-1.0
+1.0,
+1.0,
+0.97
 ],
-"energy": 1.3,
-"range": 13.0,
+"energy": 5.5,
+"range": 17.0,
 "shadow": false,
 "angle": 60,
 "rot": [
@@ -2594,7 +2654,7 @@
 0
 ],
 "name": "Tube_-8_6",
-"fog": 0.5,
+"fog": 0.4,
 "cookie": null
 },
 {
@@ -2605,12 +2665,12 @@
 18
 ],
 "color": [
-0.85,
-0.95,
-1.0
+1.0,
+1.0,
+0.97
 ],
-"energy": 1.3,
-"range": 13.0,
+"energy": 5.5,
+"range": 17.0,
 "shadow": false,
 "angle": 60,
 "rot": [
@@ -2619,7 +2679,7 @@
 0
 ],
 "name": "Tube_-8_18",
-"fog": 0.5,
+"fog": 0.4,
 "cookie": null
 },
 {
@@ -2630,12 +2690,12 @@
 -18
 ],
 "color": [
-0.85,
-0.95,
-1.0
+1.0,
+1.0,
+0.97
 ],
-"energy": 1.3,
-"range": 13.0,
+"energy": 5.5,
+"range": 17.0,
 "shadow": false,
 "angle": 60,
 "rot": [
@@ -2644,7 +2704,7 @@
 0
 ],
 "name": "Tube_8_-18",
-"fog": 0.5,
+"fog": 0.4,
 "cookie": null
 },
 {
@@ -2655,12 +2715,12 @@
 -6
 ],
 "color": [
-0.85,
-0.95,
-1.0
+1.0,
+1.0,
+0.97
 ],
-"energy": 1.3,
-"range": 13.0,
+"energy": 5.5,
+"range": 17.0,
 "shadow": false,
 "angle": 60,
 "rot": [
@@ -2669,7 +2729,7 @@
 0
 ],
 "name": "Tube_8_-6",
-"fog": 0.5,
+"fog": 0.4,
 "cookie": null
 },
 {
@@ -2680,12 +2740,12 @@
 6
 ],
 "color": [
-0.85,
-0.95,
-1.0
+1.0,
+1.0,
+0.97
 ],
-"energy": 1.3,
-"range": 13.0,
+"energy": 5.5,
+"range": 17.0,
 "shadow": false,
 "angle": 60,
 "rot": [
@@ -2694,7 +2754,7 @@
 0
 ],
 "name": "Tube_8_6",
-"fog": 0.5,
+"fog": 0.4,
 "cookie": null
 },
 {
@@ -2705,12 +2765,12 @@
 18
 ],
 "color": [
-0.85,
-0.95,
-1.0
+1.0,
+1.0,
+0.97
 ],
-"energy": 1.3,
-"range": 13.0,
+"energy": 5.5,
+"range": 17.0,
 "shadow": false,
 "angle": 60,
 "rot": [
@@ -2719,7 +2779,7 @@
 0
 ],
 "name": "Tube_8_18",
-"fog": 0.5,
+"fog": 0.4,
 "cookie": null
 },
 {
@@ -2730,12 +2790,12 @@
 -18
 ],
 "color": [
-0.85,
-0.95,
-1.0
+1.0,
+1.0,
+0.97
 ],
-"energy": 1.3,
-"range": 13.0,
+"energy": 5.5,
+"range": 17.0,
 "shadow": false,
 "angle": 60,
 "rot": [
@@ -2744,7 +2804,7 @@
 0
 ],
 "name": "Tube_24_-18",
-"fog": 0.5,
+"fog": 0.4,
 "cookie": null
 },
 {
@@ -2755,12 +2815,12 @@
 -6
 ],
 "color": [
-0.85,
-0.95,
-1.0
+1.0,
+1.0,
+0.97
 ],
-"energy": 1.3,
-"range": 13.0,
+"energy": 5.5,
+"range": 17.0,
 "shadow": false,
 "angle": 60,
 "rot": [
@@ -2769,7 +2829,7 @@
 0
 ],
 "name": "Tube_24_-6",
-"fog": 0.5,
+"fog": 0.4,
 "cookie": null
 },
 {
@@ -2780,12 +2840,12 @@
 6
 ],
 "color": [
-0.85,
-0.95,
-1.0
+1.0,
+1.0,
+0.97
 ],
-"energy": 1.3,
-"range": 13.0,
+"energy": 5.5,
+"range": 17.0,
 "shadow": false,
 "angle": 60,
 "rot": [
@@ -2794,7 +2854,7 @@
 0
 ],
 "name": "Tube_24_6",
-"fog": 0.5,
+"fog": 0.4,
 "cookie": null
 },
 {
@@ -2805,12 +2865,12 @@
 18
 ],
 "color": [
-0.85,
-0.95,
-1.0
+1.0,
+1.0,
+0.97
 ],
-"energy": 1.3,
-"range": 13.0,
+"energy": 5.5,
+"range": 17.0,
 "shadow": false,
 "angle": 60,
 "rot": [
@@ -2819,7 +2879,7 @@
 0
 ],
 "name": "Tube_24_18",
-"fog": 0.5,
+"fog": 0.4,
 "cookie": null
 },
 {
@@ -2855,12 +2915,12 @@
 6
 ],
 "color": [
-0.85,
+0.9,
 1.0,
-0.8
+0.85
 ],
-"energy": 1.6,
-"range": 12.0,
+"energy": 3.0,
+"range": 16.0,
 "shadow": true,
 "angle": 60,
 "rot": [
@@ -2905,11 +2965,11 @@
 60
 ],
 "color": [
-0.45,
 0.55,
-0.85
+0.65,
+0.95
 ],
-"energy": 0.18,
+"energy": 0.4,
 "range": 100.0,
 "shadow": false,
 "angle": 60,
@@ -2919,6 +2979,106 @@
 0
 ],
 "name": "Moon",
+"fog": 1.0,
+"cookie": null
+},
+{
+"kind": "omni",
+"p": [
+-40,
+7.5,
+36
+],
+"color": [
+1.0,
+0.85,
+0.6
+],
+"energy": 4.5,
+"range": 26.0,
+"shadow": false,
+"angle": 60,
+"rot": [
+-90,
+0,
+0
+],
+"name": "LotLamp_-40",
+"fog": 1.0,
+"cookie": null
+},
+{
+"kind": "omni",
+"p": [
+-14,
+7.5,
+36
+],
+"color": [
+1.0,
+0.85,
+0.6
+],
+"energy": 4.5,
+"range": 26.0,
+"shadow": false,
+"angle": 60,
+"rot": [
+-90,
+0,
+0
+],
+"name": "LotLamp_-14",
+"fog": 1.0,
+"cookie": null
+},
+{
+"kind": "omni",
+"p": [
+14,
+7.5,
+36
+],
+"color": [
+1.0,
+0.85,
+0.6
+],
+"energy": 4.5,
+"range": 26.0,
+"shadow": false,
+"angle": 60,
+"rot": [
+-90,
+0,
+0
+],
+"name": "LotLamp_14",
+"fog": 1.0,
+"cookie": null
+},
+{
+"kind": "omni",
+"p": [
+40,
+7.5,
+36
+],
+"color": [
+1.0,
+0.85,
+0.6
+],
+"energy": 4.5,
+"range": 26.0,
+"shadow": false,
+"angle": 60,
+"rot": [
+-90,
+0,
+0
+],
+"name": "LotLamp_40",
 "fog": 1.0,
 "cookie": null
 }
@@ -3196,7 +3356,8 @@
 0,
 8.5,
 26
-]
+],
+"interior": true
 },
 {
 "mn": [
@@ -3208,7 +3369,8 @@
 32,
 8.5,
 26
-]
+],
+"interior": true
 }
 ],
 "occluders": [
@@ -3252,26 +3414,26 @@
 "env": {
 "kind": "exterior_night",
 "sky_top": [
-0.02,
-0.04,
-0.12
+0.05,
+0.08,
+0.2
 ],
 "sky_horizon": [
-0.1,
-0.13,
-0.25
+0.16,
+0.2,
+0.36
 ],
-"ambient_energy": 0.45,
-"fog": 0.008,
+"ambient_energy": 1.5,
+"fog": 0.006,
 "fog_color": [
-0.35,
-0.4,
-0.5
+0.45,
+0.5,
+0.6
 ],
-"exposure": 1.05,
+"exposure": 1.25,
 "sdfgi": true,
 "vfog": true,
-"grade": "cool_teal",
+"grade": "",
 "dof": true
 },
 "groups": {}

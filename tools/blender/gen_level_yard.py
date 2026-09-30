@@ -57,7 +57,7 @@ lv.env = {"kind": "exterior_overcast", "sky_top": [0.42, 0.48, 0.58], "sky_horiz
 P = lv.place
 # ---- central plaza
 P("stump_seat", (-4.0, 0, 13.0), 0, name="Stump")
-P("hazard_sign", (0, 0, 22), 180, name="DangerSign")
+P("hazard_sign", (5.5, 0, 22), 180, name="DangerSign")
 P("chain_fence", (-14, 0, 47), 0, name="Fence1")
 P("chain_fence", (14, 0, 47), 0, name="Fence2")
 P("sandwich_wrapper", (2.0, 0.01, 15.0), 30, name="Wrapper1")

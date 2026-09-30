@@ -703,7 +703,7 @@ func _run_lines() -> void:
 	var lines := ["ch6_run_01", "ch6_run_02", "ch6_run_03", "ch6_run_04", "ch6_run_05", "ch6_run_06", "ch6_run_07"]
 	var i := 0
 	while run_started and not run_done and i < lines.size() and is_inside_tree():
-		await wait(3.0)
+		await wait(1.5)
 		if not DialogueManager.is_busy() and not run_done:
 			DialogueManager.say(StringName(lines[i]), 1)
 			i += 1

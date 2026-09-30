@@ -68,10 +68,12 @@ for x in (-18, -6, 6, 18):
 # ================================================================ gallery / mezzanine
 lv.region("gallery")
 lv.slab(-24, -18, 24, -11, GY, 0.5, "Concrete", surface="concrete")
-lv.solid((-24, GY, -11.1), (24, GY + 1.1, -11.0), "Glass", col=True, surface="glass")         # balustrade glass
-lv.solid((-24, GY + 1.1, -11.15), (24, GY + 1.2, -10.95), "SteelBrushed", col=False)
-for x in [-23 + i * 2.0 for i in range(24)]:
-    lv.solid((x - 0.03, GY, -11.15), (x + 0.03, GY + 1.15, -10.95), "SteelBrushed", col=False)
+BAL = [(-24.0, -17.4), (-14.6, 20.2), (23.8, 24.0)]        # openings for the escalator and the east stairs
+for (bx0, bx1) in BAL:
+    lv.solid((bx0, GY, -11.1), (bx1, GY + 1.1, -11.0), "Glass", col=True, surface="glass")         # balustrade glass
+    lv.solid((bx0, GY + 1.1, -11.15), (bx1, GY + 1.2, -10.95), "SteelBrushed", col=False)
+    for x in [bx0 + 0.5 + i * 2.0 for i in range(int((bx1 - bx0) / 2.0))]:
+        lv.solid((x - 0.03, GY, -11.15), (x + 0.03, GY + 1.15, -10.95), "SteelBrushed", col=False)
 # columns supporting gallery
 for x in (-20, -8, 8, 20):
     lv.round_column(x, -11.6, 0, GY, 0.3, "Concrete")
@@ -215,7 +217,7 @@ P("smoothie_cup", (21.0, 1.12, 6.5), 0, name="CounterCup")
 P("coffee_machine", (21.1, 1.12, 8.0), 90, name="CoffeeMachine")
 P("coffee_cup", (16.0, 0.78, 8.6), 0, name="CoffeeCup1")
 # -- hazards shared by both visits
-P("baggage_cart", (5.0, 0, 6.5), 90, name="BaggageCart")
+P("baggage_cart", (3.2, 0, 6.5), 90, name="BaggageCart", group="day1")
 P("scrub_robot", (13.0, 0, 12.0), 0, name="ScrubRobot")
 P("wet_floor_sign", (-9.0, 0, 3.0), 30, name="WetSign")
 P("red_handle", (-22.0, 1.4, 8.6), -90, name="AlarmHandle")
@@ -236,8 +238,8 @@ P("scaffold_section", (-5.9, 0, 15.0), 0, name="Scaffold2", group="day1")
 P("caution_tape_post", (-10.8, 0, 13.6), 0, name="TapePost1", group="day1")
 P("caution_tape_post", (-4.0, 0, 13.6), 0, name="TapePost2", group="day1")
 # -- finale only
-P("scaffold_section", (-18.0, GY, -11.6), 0, name="BridgeScaffold1", group="finale")
-P("scaffold_section", (-14.9, GY, -11.6), 0, name="BridgeScaffold2", group="finale")
+P("scaffold_section", (-20.5, GY, -12.6), 0, name="BridgeScaffold1", group="finale")
+P("scaffold_section", (-11.0, GY, -12.6), 0, name="BridgeScaffold2", group="finale")
 P("scaffold_section", (9.0, GY, -11.6), 0, name="BridgeScaffold3", group="finale")
 P("bridge_segment", (0, GY - 0.02, -14.3), 0, name="BridgeSegment", group="finale", opts={"nocol": True})
 P("ceremony_banner", (0, 8.6, 16.9), 0, name="CeremonyBanner", group="finale")
@@ -287,7 +289,7 @@ lv.marker("ScrubStart", (13.0, 0.05, 12.0), 0)
 lv.marker("ScrubTarget", (12.6, 0.05, 6.8), 0)
 lv.marker("ScrubSlide", (8.8, 0.05, 6.6), 60)
 lv.marker("CupFloor", (13.7, 0.03, 6.9), 0)
-lv.marker("CartStart", (5.0, 0.05, 6.5), 90)
+lv.marker("CartStart", (3.2, 0.05, 6.5), 90)
 lv.marker("CartMid", (-6.0, 0.05, 3.5), 90)
 lv.marker("CartCrash", (-14.4, 0.05, 0.4), 90)
 lv.marker("EscBase", (-16.0, 0.05, -0.5), 180)

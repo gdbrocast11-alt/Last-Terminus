@@ -32,8 +32,8 @@ for (x0, x1) in ((-30, -2), (2, 30)):
         lv.solid((xx - 0.05, 0.0, 25.95), (xx + 0.05, 3.6, 26.12), "PaintOrange", col=False)
 # orange band + TOOLBERT'S fascia
 lv.visual_box((-32, 3.6, 25.95), (32, 6.0, 26.02), "PaintOrange")
-lv.text("TOOLBERT'S", 1.6, (0, 4.6, 26.05), "SignWhite", rot=(90, 0, 0), depth=0.06)
-lv.text("HOME CENTER", 0.55, (0, 3.85, 26.05), "SignWhite", rot=(90, 0, 0), depth=0.04)
+lv.text("TOOLBERT'S", 1.6, (0, 4.6, 26.05), "LightWarm", rot=(90, 0, 0), depth=0.06)
+lv.text("HOME CENTER", 0.55, (0, 3.85, 26.05), "LightWarm", rot=(90, 0, 0), depth=0.04)
 
 lv.region("ceiling")
 lv.ceiling(-32, -26, 32, 26, H, 0.4, "Corrugated")
@@ -79,11 +79,14 @@ for i in range(30):
 # ---- lights (after-hours: half the bank is off; tubes flicker in script)
 for x in (-24, -8, 8, 24):
     for z in (-18, -6, 6, 18):
-        lv.light("omni", (x, H - 1.6, z), (0.85, 0.95, 1.0), 1.3, 13.0, False, name="Tube_%d_%d" % (x, z), fog=0.5)
+        lv.light("omni", (x, H - 1.6, z), (1.0, 1.0, 0.97), 5.5, 17.0, False, name="Tube_%d_%d" % (x, z), fog=0.4)
 lv.light("spot", (0.5, H - 1.7, -8), (1.0, 0.92, 0.8), 3.0, 14.0, True, spot_angle=55, dir_deg=(-90, 0, 0), name="ToolSpot")
-lv.light("omni", (22, 5.5, 6), (0.85, 1.0, 0.8), 1.6, 12.0, True, name="GardenLight")
+lv.light("omni", (22, 5.5, 6), (0.9, 1.0, 0.85), 3.0, 16.0, True, name="GardenLight")
 lv.light("omni", (0, 3.2, 30), (1.0, 0.9, 0.7), 2.0, 10.0, False, name="FrontLight")
-lv.light("dir", (0, 30, 60), (0.45, 0.55, 0.85), 0.18, 100.0, False, dir_deg=(-50, 20, 0), name="Moon")
+lv.light("dir", (0, 30, 60), (0.55, 0.65, 0.95), 0.4, 100.0, False, dir_deg=(-50, 20, 0), name="Moon")
+for x in (-40, -14, 14, 40):
+    lv.light("omni", (x, 7.5, 36), (1.0, 0.85, 0.6), 4.5, 26.0, False, name="LotLamp_%d" % x)
+    P_lamp = (x, 0, 36)
 lv.zone((-32, 0, -26), (32, H, 26), "RevLarge", 0.45, "StoreReverb")
 lv.zone((-70, -0.5, 26.6), (70, 20, 90), "RevOutdoor", 0.2, "LotReverb")
 lv.probe((-32, 0, -26), (0, H, 26))
@@ -91,10 +94,12 @@ lv.probe((0, 0, -26), (32, H, 26))
 lv.occluder((-32.6, 0, -26.6), (-32.0, H, 26.6))
 lv.occluder((32.0, 0, -26.6), (32.6, H, 26.6))
 lv.occluder((-32, 0, -26.6), (32, H, -26.0))
-lv.env = {"kind": "exterior_night", "sky_top": [0.02, 0.04, 0.12], "sky_horizon": [0.1, 0.13, 0.25], "ambient_energy": 0.45, "fog": 0.008,
-          "fog_color": [0.35, 0.4, 0.5], "exposure": 1.05, "sdfgi": True, "vfog": True, "grade": "cool_teal", "dof": True}
+lv.env = {"kind": "exterior_night", "sky_top": [0.05, 0.08, 0.2], "sky_horizon": [0.16, 0.2, 0.36], "ambient_energy": 1.5, "fog": 0.006,
+          "fog_color": [0.45, 0.5, 0.6], "exposure": 1.25, "sdfgi": True, "vfog": True, "grade": "", "dof": True}
 
 P = lv.place
+for x in (-40, -14, 14, 40):
+    P("street_lamp", (x, 0, 36), 0, name="LotLampProp_%d" % x)
 # ===== front of store
 for i, x in enumerate((-10, -4, 2, 8)):
     P("checkout_lane", (x, 0, 19), 0, name="Checkout%d" % (i + 1))
