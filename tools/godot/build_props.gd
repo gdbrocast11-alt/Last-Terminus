@@ -93,6 +93,12 @@ func run(_args: Array) -> void:
 		comp.set("tags", tags)
 		if d.tags.has("ball") or d.tags.has("fetch"):
 			comp.set("fetchable", true)
+		if d.has("hazard"):
+			comp.set("hazard", int(d.hazard))
+		if d.has("use_verb"):
+			comp.set("use_verb", String(d.use_verb))
+		if d.has("hit_verb"):
+			comp.set("hit_verb", String(d.hit_verb))
 		root.add_child(comp)
 		# Marker points from Blender empties are exported as child nodes named after the marker.
 		var err := BuildUtil.save_scene(root, "res://scenes/props/%s.tscn" % prop_name)

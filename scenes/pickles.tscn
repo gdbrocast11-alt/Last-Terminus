@@ -1,0 +1,6 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/pickles/pickles.gd" id="1_y2llj"]
+
+[node name="Pickles" type="CharacterBody3D" unique_id=1434571316]
+script = ExtResource("1_y2llj")

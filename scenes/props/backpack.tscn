@@ -6,7 +6,7 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_4p15u"]
 size = Vector3(0.32, 0.46, 0.25)
 
-[node name="backpack" type="RigidBody3D" unique_id=1258004827]
+[node name="backpack" type="RigidBody3D" unique_id=1691369969]
 collision_layer = 16
 collision_mask = 31
 mass = 3.0
@@ -14,13 +14,13 @@ sleeping = true
 linear_damp = 0.15
 angular_damp = 0.4
 
-[node name="Model" type="Node3D" parent="." unique_id=1934828577 instance=ExtResource("1_qhqlr")]
+[node name="Model" type="Node3D" parent="." unique_id=14140066 instance=ExtResource("1_qhqlr")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=234607537]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=513631637]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.23, -0.015000001)
 shape = SubResource("BoxShape3D_4p15u")
 
-[node name="Prop" type="Node" parent="." unique_id=163539843]
+[node name="Prop" type="Node" parent="." unique_id=214800974]
 script = ExtResource("2_fcg7d")
 prop_id = &"backpack"
 grab_class = "light"

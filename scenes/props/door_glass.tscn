@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/door_glass.glb" id="1_c78a3"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_proqm"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_e6ary"]
+size = Vector3(1, 2.3000002, 0.1)
+
+[node name="door_glass" type="StaticBody3D" unique_id=1353509613]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=23876315 instance=ExtResource("1_c78a3")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1905956308]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 1.1500001, -0.025000002)
+shape = SubResource("BoxShape3D_e6ary")
+
+[node name="Prop" type="Node" parent="." unique_id=1493490444]
+script = ExtResource("2_proqm")
+prop_id = &"door_glass"
+tags = PackedStringArray("door")
+use_verb = "Open"

@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/armchair.glb" id="1_jg2g2"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_guhy2"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ym275"]
+size = Vector3(0.96000004, 0.9306741, 0.89524347)
+
+[node name="armchair" type="StaticBody3D" unique_id=1834378040]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=2039809098 instance=ExtResource("1_jg2g2")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1870728408]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.46533704, 0.022621721)
+shape = SubResource("BoxShape3D_ym275")
+
+[node name="Prop" type="Node" parent="." unique_id=317512635]
+script = ExtResource("2_guhy2")
+prop_id = &"armchair"
+tags = PackedStringArray()

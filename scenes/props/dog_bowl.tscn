@@ -1,0 +1,29 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/dog_bowl.glb" id="1_1qyi6"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_3a3h6"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_liwjr"]
+height = 0.06
+radius = 0.13
+
+[node name="dog_bowl" type="RigidBody3D" unique_id=1382917022]
+collision_layer = 16
+collision_mask = 31
+mass = 0.4
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=810047636 instance=ExtResource("1_1qyi6")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1474159547]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.03, 0)
+shape = SubResource("CylinderShape3D_liwjr")
+
+[node name="Prop" type="Node" parent="." unique_id=1439718717]
+script = ExtResource("2_3a3h6")
+prop_id = &"dog_bowl"
+grab_class = "light"
+tags = PackedStringArray("bowl")
+use_verb = "Fill bowl"

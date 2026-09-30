@@ -1,0 +1,13 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/rug_livingroom.glb" id="1_4rkf7"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_vck60"]
+
+[node name="rug_livingroom" type="Node3D" unique_id=1446749427]
+
+[node name="Model" type="Node3D" parent="." unique_id=124794736 instance=ExtResource("1_4rkf7")]
+
+[node name="Prop" type="Node" parent="." unique_id=1856983208]
+script = ExtResource("2_vck60")
+prop_id = &"rug_livingroom"
+tags = PackedStringArray()

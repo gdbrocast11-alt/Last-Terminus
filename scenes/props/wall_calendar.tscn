@@ -1,0 +1,13 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/wall_calendar.glb" id="1_473ck"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_15oqy"]
+
+[node name="wall_calendar" type="Node3D" unique_id=1009710364]
+
+[node name="Model" type="Node3D" parent="." unique_id=2086455948 instance=ExtResource("1_473ck")]
+
+[node name="Prop" type="Node" parent="." unique_id=856350320]
+script = ExtResource("2_15oqy")
+prop_id = &"wall_calendar"
+tags = PackedStringArray()

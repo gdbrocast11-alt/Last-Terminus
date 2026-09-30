@@ -1,0 +1,30 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/floor_lamp.glb" id="1_6xsa7"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_fc4h7"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_qaipb"]
+height = 1.74
+radius = 0.16
+
+[node name="floor_lamp" type="RigidBody3D" unique_id=640028423]
+collision_layer = 16
+collision_mask = 31
+mass = 4.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1854619489 instance=ExtResource("1_6xsa7")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1962932657]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.87, 0)
+shape = SubResource("CylinderShape3D_qaipb")
+
+[node name="Prop" type="Node" parent="." unique_id=1221417735]
+script = ExtResource("2_fc4h7")
+prop_id = &"floor_lamp"
+grab_class = "medium"
+inspect_line = &"ch2_insp_lamp"
+hazard = 1
+tags = PackedStringArray("lamp")

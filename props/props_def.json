@@ -1448,5 +1448,1070 @@
    1.100000023841858,
    0.09000000357627869
   ]
+ },
+ "couch": {
+  "cat": "home",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": "ch2_insp_couch",
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "FabricGrey",
+   "FabricBlue",
+   "FabricRed",
+   "WoodDark"
+  ],
+  "aabb_min": [
+   -1.0499999523162842,
+   0.0,
+   -0.46000000834465027
+  ],
+  "aabb_max": [
+   1.0499999523162842,
+   0.9796556234359741,
+   0.5664721131324768
+  ]
+ },
+ "armchair": {
+  "cat": "home",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "FabricGreen"
+  ],
+  "aabb_min": [
+   -0.48000001907348633,
+   0.0,
+   -0.42500001192092896
+  ],
+  "aabb_max": [
+   0.48000001907348633,
+   0.9306740760803223,
+   0.4702434539794922
+  ]
+ },
+ "coffee_table": {
+  "cat": "home",
+  "body": "rigid",
+  "mass": 12,
+  "grab": "medium",
+  "col": "box",
+  "inspect": null,
+  "tags": [
+   "table"
+  ],
+  "markers": {},
+  "mats": [
+   "WoodWarm",
+   "WoodDark"
+  ],
+  "aabb_min": [
+   -0.550000011920929,
+   0.0,
+   -0.30000001192092896
+  ],
+  "aabb_max": [
+   0.550000011920929,
+   0.4449999928474426,
+   0.30000001192092896
+  ]
+ },
+ "tv_stand": {
+  "cat": "home",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "WoodDark",
+   "PaintBlack",
+   "SteelBrushed"
+  ],
+  "aabb_min": [
+   -0.800000011920929,
+   0.0,
+   -0.23999999463558197
+  ],
+  "aabb_max": [
+   0.800000011920929,
+   0.5149999856948853,
+   0.20999999344348907
+  ]
+ },
+ "tv_flat": {
+  "cat": "home",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": "ch2_insp_tv",
+  "tags": [
+   "tv"
+  ],
+  "markers": {},
+  "mats": [
+   "PaintBlack",
+   "ScreenBlue"
+  ],
+  "aabb_min": [
+   -0.625,
+   0.36000001430511475,
+   -0.10000000149011612
+  ],
+  "aabb_max": [
+   0.625,
+   1.1200000047683716,
+   0.10000000149011612
+  ]
+ },
+ "bookshelf": {
+  "cat": "home",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "WoodDark",
+   "WoodWarm",
+   "FabricRed",
+   "FabricGreen",
+   "FabricPurple",
+   "FabricTeal",
+   "FabricBlue",
+   "FabricCream",
+   "FabricOrange"
+  ],
+  "aabb_min": [
+   -0.5,
+   0.0,
+   -0.17000000178813934
+  ],
+  "aabb_max": [
+   0.5,
+   1.9524999856948853,
+   0.1599999964237213
+  ]
+ },
+ "desk": {
+  "cat": "home",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": "ch2_insp_desk",
+  "tags": [
+   "desk"
+  ],
+  "markers": {},
+  "mats": [
+   "Plywood",
+   "SteelDark",
+   "PaintBlack",
+   "PaintGrey"
+  ],
+  "aabb_min": [
+   -0.699999988079071,
+   0.0,
+   -0.3499999940395355
+  ],
+  "aabb_max": [
+   0.699999988079071,
+   0.9150000214576721,
+   0.3499999940395355
+  ]
+ },
+ "notebook": {
+  "cat": "home",
+  "body": "rigid",
+  "mass": 0.3,
+  "grab": "light",
+  "col": "box",
+  "inspect": null,
+  "tags": [
+   "notebook"
+  ],
+  "use_verb": "Open notebook",
+  "markers": {},
+  "mats": [
+   "FabricRed",
+   "Paper",
+   "PaintBlack"
+  ],
+  "aabb_min": [
+   -0.09000000357627869,
+   0.0,
+   -0.11749999970197678
+  ],
+  "aabb_max": [
+   0.08500000089406967,
+   0.02199999988079071,
+   0.11749999970197678
+  ]
+ },
+ "office_chair": {
+  "cat": "home",
+  "body": "rigid",
+  "mass": 8,
+  "grab": "medium",
+  "col": "cylinder",
+  "inspect": null,
+  "tags": [
+   "chair"
+  ],
+  "markers": {},
+  "mats": [
+   "FabricBlack",
+   "Chrome",
+   "PlasticBlack",
+   "Rubber"
+  ],
+  "aabb_min": [
+   -0.272705078125,
+   0.014999999664723873,
+   -0.31531694531440735
+  ],
+  "aabb_max": [
+   0.33000001311302185,
+   1.0489587783813477,
+   0.31531694531440735
+  ]
+ },
+ "floor_lamp": {
+  "cat": "home",
+  "body": "rigid",
+  "mass": 4,
+  "grab": "medium",
+  "col": "cylinder",
+  "inspect": "ch2_insp_lamp",
+  "tags": [
+   "lamp"
+  ],
+  "hazard": 1,
+  "markers": {},
+  "mats": [
+   "PaintBlack",
+   "FabricCream",
+   "LightWarm"
+  ],
+  "aabb_min": [
+   -0.1599999964237213,
+   0.0,
+   -0.1599999964237213
+  ],
+  "aabb_max": [
+   0.1599999964237213,
+   1.7400000095367432,
+   0.1599999964237213
+  ]
+ },
+ "table_lamp": {
+  "cat": "home",
+  "body": "rigid",
+  "mass": 1.2,
+  "grab": "light",
+  "col": "cylinder",
+  "inspect": null,
+  "tags": [
+   "lamp"
+  ],
+  "markers": {},
+  "mats": [
+   "PaintBlack",
+   "FabricCream",
+   "LightWarm"
+  ],
+  "aabb_min": [
+   -0.10000000149011612,
+   0.0,
+   -0.09749279171228409
+  ],
+  "aabb_max": [
+   0.10000000149011612,
+   0.3700000047683716,
+   0.09749279171228409
+  ]
+ },
+ "bed": {
+  "cat": "home",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": "ch2_insp_bed",
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "WoodDark",
+   "FabricWhite",
+   "FabricBlue"
+  ],
+  "aabb_min": [
+   -0.75,
+   0.09999999403953552,
+   -1.024999976158142
+  ],
+  "aabb_max": [
+   0.75,
+   1.0999999046325684,
+   1.0399999618530273
+  ]
+ },
+ "nightstand": {
+  "cat": "home",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "WoodDark",
+   "WoodWarm",
+   "Brass"
+  ],
+  "aabb_min": [
+   -0.22499999403953552,
+   0.0,
+   -0.2239999920129776
+  ],
+  "aabb_max": [
+   0.22499999403953552,
+   0.5,
+   0.20000000298023224
+  ]
+ },
+ "fridge": {
+  "cat": "home",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": "ch2_insp_fridge",
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "PaintWhite",
+   "PaintGrey",
+   "Chrome",
+   "Paper",
+   "PaintRed",
+   "PaintBlue",
+   "PaintGreen",
+   "PaintYellow",
+   "PaintOrange",
+   "PaintTeal"
+  ],
+  "aabb_min": [
+   -0.3499999940395355,
+   0.0,
+   -0.38499999046325684
+  ],
+  "aabb_max": [
+   0.3499999940395355,
+   1.75,
+   0.3499999940395355
+  ]
+ },
+ "kitchen_counter": {
+  "cat": "home",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "WoodWarm",
+   "Concrete",
+   "WoodDark",
+   "Chrome"
+  ],
+  "aabb_min": [
+   -0.6200000047683716,
+   0.0,
+   -0.3319999873638153
+  ],
+  "aabb_max": [
+   0.6200000047683716,
+   0.8999999761581421,
+   0.33000001311302185
+  ]
+ },
+ "stove_oven": {
+  "cat": "home",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": "ch2_insp_oven",
+  "tags": [],
+  "hazard": 1,
+  "markers": {},
+  "mats": [
+   "SteelBrushed",
+   "PaintBlack",
+   "FabricRed"
+  ],
+  "aabb_min": [
+   -0.3100000023841858,
+   0.0,
+   -0.3449999988079071
+  ],
+  "aabb_max": [
+   0.3100000023841858,
+   0.9009999632835388,
+   0.3100000023841858
+  ]
+ },
+ "sink_unit": {
+  "cat": "home",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "WoodWarm",
+   "Concrete",
+   "SteelBrushed",
+   "Chrome"
+  ],
+  "aabb_min": [
+   -0.5199999809265137,
+   0.0,
+   -0.3199999928474426
+  ],
+  "aabb_max": [
+   0.5199999809265137,
+   1.1298589706420898,
+   0.3199999928474426
+  ]
+ },
+ "kettle": {
+  "cat": "home",
+  "body": "rigid",
+  "mass": 0.9,
+  "grab": "light",
+  "col": "cylinder",
+  "inspect": "ch2_insp_kettle",
+  "tags": [],
+  "hazard": 1,
+  "markers": {},
+  "mats": [
+   "SteelBrushed",
+   "PlasticBlack"
+  ],
+  "aabb_min": [
+   -0.13576461374759674,
+   0.0,
+   -0.08774351328611374
+  ],
+  "aabb_max": [
+   0.11866025626659393,
+   0.23000000417232513,
+   0.08774351328611374
+  ]
+ },
+ "dog_bed": {
+  "cat": "pickles",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "FabricRed",
+   "FabricCream"
+  ],
+  "aabb_min": [
+   -0.4699999988079071,
+   0.0,
+   -0.4652160704135895
+  ],
+  "aabb_max": [
+   0.4699999988079071,
+   0.1599999964237213,
+   0.4652160704135895
+  ]
+ },
+ "dog_bowl": {
+  "cat": "pickles",
+  "body": "rigid",
+  "mass": 0.4,
+  "grab": "light",
+  "col": "cylinder",
+  "inspect": null,
+  "tags": [
+   "bowl"
+  ],
+  "use_verb": "Fill bowl",
+  "markers": {},
+  "mats": [
+   "SteelBrushed",
+   "SteelDark"
+  ],
+  "aabb_min": [
+   -0.12999999523162842,
+   0.0,
+   -0.12802501022815704
+  ],
+  "aabb_max": [
+   0.12999999523162842,
+   0.05999999865889549,
+   0.12802501022815704
+  ]
+ },
+ "dog_toy_duck": {
+  "cat": "pickles",
+  "body": "rigid",
+  "mass": 0.1,
+  "grab": "light",
+  "col": "sphere",
+  "inspect": null,
+  "tags": [
+   "toy",
+   "fetch"
+  ],
+  "markers": {},
+  "mats": [
+   "PlasticYellow",
+   "PlasticOrange"
+  ],
+  "aabb_min": [
+   -0.04755282774567604,
+   0.005000002682209015,
+   -0.10000000149011612
+  ],
+  "aabb_max": [
+   0.04755282402038574,
+   0.12000000476837158,
+   0.06499999016523361
+  ]
+ },
+ "dog_toy_rope": {
+  "cat": "pickles",
+  "body": "rigid",
+  "mass": 0.15,
+  "grab": "light",
+  "col": "box",
+  "inspect": null,
+  "tags": [
+   "toy",
+   "fetch"
+  ],
+  "markers": {},
+  "mats": [
+   "FabricRed",
+   "FabricBlue"
+  ],
+  "aabb_min": [
+   -0.15472745895385742,
+   0.0,
+   -0.0247274711728096
+  ],
+  "aabb_max": [
+   0.15472745895385742,
+   0.052000001072883606,
+   0.0247274711728096
+  ]
+ },
+ "pickles_vest": {
+  "cat": "pickles",
+  "body": "rigid",
+  "mass": 0.2,
+  "grab": "light",
+  "col": "box",
+  "inspect": "ch2_insp_vest",
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "PlasticOrange",
+   "PaintWhite"
+  ],
+  "aabb_min": [
+   -0.15000000596046448,
+   0.0,
+   -0.10000000149011612
+  ],
+  "aabb_max": [
+   0.15000000596046448,
+   0.03150000050663948,
+   0.10000000149011612
+  ]
+ },
+ "helmet": {
+  "cat": "home",
+  "body": "rigid",
+  "mass": 0.4,
+  "grab": "light",
+  "col": "sphere",
+  "inspect": "ch2_insp_bed",
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "PlasticBlue",
+   "PlasticBlack"
+  ],
+  "aabb_min": [
+   -0.10529220104217529,
+   -0.00599999725818634,
+   -0.13199999928474426
+  ],
+  "aabb_max": [
+   0.10529220849275589,
+   0.1860000044107437,
+   0.13199998438358307
+  ]
+ },
+ "foam_corner": {
+  "cat": "home",
+  "body": "none",
+  "mass": 5.0,
+  "grab": null,
+  "col": "none",
+  "inspect": "ch2_insp_corners",
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "FabricYellow"
+  ],
+  "aabb_min": [
+   -0.04500000178813934,
+   0.0,
+   -0.04500000178813934
+  ],
+  "aabb_max": [
+   0.04500000178813934,
+   0.09000000357627869,
+   0.04500000178813934
+  ]
+ },
+ "outlet_cover": {
+  "cat": "home",
+  "body": "none",
+  "mass": 5.0,
+  "grab": null,
+  "col": "none",
+  "inspect": "ch2_insp_outlet",
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "PlasticYellow"
+  ],
+  "aabb_min": [
+   -0.03750000149011612,
+   -0.057500001043081284,
+   -0.009999999776482582
+  ],
+  "aabb_max": [
+   0.03750000149011612,
+   0.057500001043081284,
+   0.009999999776482582
+  ]
+ },
+ "corkboard": {
+  "cat": "home",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": "ch2_insp_wall",
+  "tags": [
+   "wall"
+  ],
+  "markers": {},
+  "mats": [
+   "Plywood",
+   "Cardboard",
+   "Paper",
+   "PlasticRed",
+   "PlasticYellow",
+   "PaintWhite",
+   "PlasticPink",
+   "PaintRed"
+  ],
+  "aabb_min": [
+   -1.2000000476837158,
+   0.0,
+   -0.06199999898672104
+  ],
+  "aabb_max": [
+   1.2000000476837158,
+   1.399999976158142,
+   0.019999999552965164
+  ]
+ },
+ "rug_livingroom": {
+  "cat": "home",
+  "body": "none",
+  "mass": 5.0,
+  "grab": null,
+  "col": "none",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "Rug",
+   "FabricCream"
+  ],
+  "aabb_min": [
+   -1.2999999523162842,
+   0.0,
+   -0.8999999761581421
+  ],
+  "aabb_max": [
+   1.2999999523162842,
+   0.017000000923871994,
+   0.8999999761581421
+  ]
+ },
+ "curtains": {
+  "cat": "home",
+  "body": "none",
+  "mass": 5.0,
+  "grab": null,
+  "col": "none",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "Chrome",
+   "FabricTeal"
+  ],
+  "aabb_min": [
+   -1.2999999523162842,
+   0.34999996423721313,
+   -0.054999999701976776
+  ],
+  "aabb_max": [
+   1.2999999523162842,
+   2.312990427017212,
+   0.03500000014901161
+  ]
+ },
+ "coat_rack": {
+  "cat": "home",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "WoodDark",
+   "FabricGreen"
+  ],
+  "aabb_min": [
+   -0.20000000298023224,
+   0.0,
+   -0.20000000298023224
+  ],
+  "aabb_max": [
+   0.25,
+   1.727791428565979,
+   0.20000000298023224
+  ]
+ },
+ "shoes_pair": {
+  "cat": "home",
+  "body": "rigid",
+  "mass": 0.6,
+  "grab": "light",
+  "col": "box",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "ShoeWhite",
+   "Sole"
+  ],
+  "aabb_min": [
+   -0.11749999970197678,
+   0.0,
+   -0.13500000536441803
+  ],
+  "aabb_max": [
+   0.11749999970197678,
+   0.09000000357627869,
+   0.13500000536441803
+  ]
+ },
+ "laundry_basket": {
+  "cat": "home",
+  "body": "rigid",
+  "mass": 2,
+  "grab": "medium",
+  "col": "cylinder",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "PlasticBlue",
+   "FabricWhite"
+  ],
+  "aabb_min": [
+   -0.30000001192092896,
+   0.0,
+   -0.30000001192092896
+  ],
+  "aabb_max": [
+   0.30000001192092896,
+   0.6000000238418579,
+   0.30000001192092896
+  ]
+ },
+ "phone": {
+  "cat": "home",
+  "body": "rigid",
+  "mass": 0.2,
+  "grab": "light",
+  "col": "box",
+  "inspect": null,
+  "tags": [
+   "phone"
+  ],
+  "markers": {},
+  "mats": [
+   "PaintBlack",
+   "ScreenBlue"
+  ],
+  "aabb_min": [
+   -0.03750000149011612,
+   0.0,
+   -0.07500000298023224
+  ],
+  "aabb_max": [
+   0.03750000149011612,
+   0.009999999776482582,
+   0.07500000298023224
+  ]
+ },
+ "framed_photo": {
+  "cat": "home",
+  "body": "none",
+  "mass": 5.0,
+  "grab": null,
+  "col": "none",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "WoodDark",
+   "SkinTan",
+   "FabricGreen",
+   "Fur"
+  ],
+  "aabb_min": [
+   -0.1599999964237213,
+   -0.11999999731779099,
+   -0.04999999701976776
+  ],
+  "aabb_max": [
+   0.1599999964237213,
+   0.11999999731779099,
+   0.012500000186264515
+  ]
+ },
+ "wall_calendar": {
+  "cat": "home",
+  "body": "none",
+  "mass": 5.0,
+  "grab": null,
+  "col": "none",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "Paper",
+   "PaintRed",
+   "PaintBlack"
+  ],
+  "aabb_min": [
+   -0.15000000596046448,
+   -0.20000000298023224,
+   -0.007000000216066837
+  ],
+  "aabb_max": [
+   0.15000000596046448,
+   0.20000000298023224,
+   0.004999999888241291
+  ]
+ },
+ "bath_set": {
+  "cat": "home",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "PaintWhite",
+   "Water",
+   "WoodWarm"
+  ],
+  "aabb_min": [
+   -1.399999976158142,
+   -0.005000025033950806,
+   -0.375
+  ],
+  "aabb_max": [
+   1.2000000476837158,
+   0.8799999952316284,
+   0.375
+  ]
+ },
+ "plant_pot": {
+  "cat": "deco",
+  "body": "rigid",
+  "mass": 3,
+  "grab": "medium",
+  "col": "cylinder",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "PaintOrange",
+   "PaintGreen"
+  ],
+  "aabb_min": [
+   -0.13323022425174713,
+   0.0,
+   -0.14847034215927124
+  ],
+  "aabb_max": [
+   0.13928203284740448,
+   0.5479999780654907,
+   0.14761480689048767
+  ]
+ },
+ "wall_clock_home": {
+  "cat": "home",
+  "body": "none",
+  "mass": 5.0,
+  "grab": null,
+  "col": "none",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "PaintWhite",
+   "PaintBlack"
+  ],
+  "aabb_min": [
+   -0.15000000596046448,
+   -0.15000000596046448,
+   -0.024000000208616257
+  ],
+  "aabb_max": [
+   0.15000000596046448,
+   0.15000000596046448,
+   0.015000006183981895
+  ]
+ },
+ "door_apartment": {
+  "cat": "doors",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": null,
+  "tags": [
+   "door"
+  ],
+  "use_verb": "Open",
+  "markers": {},
+  "mats": [
+   "WoodWarm",
+   "WoodDark",
+   "Brass",
+   "Chrome"
+  ],
+  "aabb_min": [
+   0.0,
+   0.0,
+   -0.12853169441223145
+  ],
+  "aabb_max": [
+   0.8999999761581421,
+   2.049999952316284,
+   0.02500000037252903
+  ]
+ },
+ "door_generic": {
+  "cat": "doors",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": null,
+  "tags": [
+   "door"
+  ],
+  "use_verb": "Open",
+  "markers": {},
+  "mats": [
+   "PaintGrey",
+   "Chrome"
+  ],
+  "aabb_min": [
+   0.0,
+   0.0,
+   -0.07377640902996063
+  ],
+  "aabb_max": [
+   0.8999999761581421,
+   2.049999952316284,
+   0.029999999329447746
+  ]
+ },
+ "door_glass": {
+  "cat": "doors",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": null,
+  "tags": [
+   "door"
+  ],
+  "use_verb": "Open",
+  "markers": {},
+  "mats": [
+   "Glass",
+   "Chrome"
+  ],
+  "aabb_min": [
+   0.0,
+   0.0,
+   -0.07500000298023224
+  ],
+  "aabb_max": [
+   1.0,
+   2.3000001907348633,
+   0.02500000037252903
+  ]
  }
 }

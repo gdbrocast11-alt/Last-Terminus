@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/door_apartment.glb" id="1_x2nwt"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_vvoj3"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_br0ap"]
+size = Vector3(0.9, 2.05, 0.1535317)
+
+[node name="door_apartment" type="StaticBody3D" unique_id=401609037]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=1557712576 instance=ExtResource("1_x2nwt")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1178799903]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.45, 1.025, -0.051765844)
+shape = SubResource("BoxShape3D_br0ap")
+
+[node name="Prop" type="Node" parent="." unique_id=1555037474]
+script = ExtResource("2_vvoj3")
+prop_id = &"door_apartment"
+tags = PackedStringArray("door")
+use_verb = "Open"

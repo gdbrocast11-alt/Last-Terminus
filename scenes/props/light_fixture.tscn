@@ -3,11 +3,11 @@
 [ext_resource type="PackedScene" path="res://props/light_fixture.glb" id="1_jc5o0"]
 [ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_eiece"]
 
-[node name="light_fixture" type="Node3D" unique_id=699510699]
+[node name="light_fixture" type="Node3D" unique_id=168633047]
 
-[node name="Model" type="Node3D" parent="." unique_id=770338355 instance=ExtResource("1_jc5o0")]
+[node name="Model" type="Node3D" parent="." unique_id=2049112975 instance=ExtResource("1_jc5o0")]
 
-[node name="Prop" type="Node" parent="." unique_id=2112105469]
+[node name="Prop" type="Node" parent="." unique_id=1047418471]
 script = ExtResource("2_eiece")
 prop_id = &"light_fixture"
 tags = PackedStringArray()

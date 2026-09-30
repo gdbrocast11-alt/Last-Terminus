@@ -1,0 +1,23 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/stove_oven.glb" id="1_tq8uk"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_w630e"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_i7p07"]
+size = Vector3(0.62, 0.90099996, 0.655)
+
+[node name="stove_oven" type="StaticBody3D" unique_id=2126128497]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=1603447202 instance=ExtResource("1_tq8uk")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1601137528]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.45049998, -0.017500013)
+shape = SubResource("BoxShape3D_i7p07")
+
+[node name="Prop" type="Node" parent="." unique_id=943423723]
+script = ExtResource("2_w630e")
+prop_id = &"stove_oven"
+inspect_line = &"ch2_insp_oven"
+hazard = 1
+tags = PackedStringArray()

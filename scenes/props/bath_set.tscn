@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/bath_set.glb" id="1_anm0n"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_57de0"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_x357o"]
+size = Vector3(2.6, 0.885, 0.75)
+
+[node name="bath_set" type="StaticBody3D" unique_id=1267180886]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=433221857 instance=ExtResource("1_anm0n")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1187265250]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.100000024, 0.43749997, 0)
+shape = SubResource("BoxShape3D_x357o")
+
+[node name="Prop" type="Node" parent="." unique_id=903422872]
+script = ExtResource("2_57de0")
+prop_id = &"bath_set"
+tags = PackedStringArray()

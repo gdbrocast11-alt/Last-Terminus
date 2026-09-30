@@ -6,16 +6,16 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_lip8d"]
 size = Vector3(1.8, 0.9536951, 0.5948599)
 
-[node name="bench" type="StaticBody3D" unique_id=1576959673]
+[node name="bench" type="StaticBody3D" unique_id=1890165124]
 collision_mask = 0
 
-[node name="Model" type="Node3D" parent="." unique_id=1493683362 instance=ExtResource("1_gmvbn")]
+[node name="Model" type="Node3D" parent="." unique_id=1720587332 instance=ExtResource("1_gmvbn")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=656282465]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1239080418]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47184756, 0.04742995)
 shape = SubResource("BoxShape3D_lip8d")
 
-[node name="Prop" type="Node" parent="." unique_id=1961186772]
+[node name="Prop" type="Node" parent="." unique_id=1834484144]
 script = ExtResource("2_opmxe")
 prop_id = &"bench"
 inspect_line = &"ch1_insp_bench"

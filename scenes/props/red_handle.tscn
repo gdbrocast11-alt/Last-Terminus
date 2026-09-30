@@ -6,16 +6,16 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_c7ktp"]
 size = Vector3(0.16, 0.22, 0.1)
 
-[node name="red_handle" type="StaticBody3D" unique_id=1659473724]
+[node name="red_handle" type="StaticBody3D" unique_id=1414242186]
 collision_mask = 0
 
-[node name="Model" type="Node3D" parent="." unique_id=860945632 instance=ExtResource("1_0hplr")]
+[node name="Model" type="Node3D" parent="." unique_id=1564767688 instance=ExtResource("1_0hplr")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1978185754]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1552810572]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.02)
 shape = SubResource("BoxShape3D_c7ktp")
 
-[node name="Prop" type="Node" parent="." unique_id=449677771]
+[node name="Prop" type="Node" parent="." unique_id=1079171161]
 script = ExtResource("2_sgx4g")
 prop_id = &"red_handle"
 inspect_line = &"ch1_insp_handle"

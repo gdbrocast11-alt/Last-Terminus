@@ -3,11 +3,11 @@
 [ext_resource type="PackedScene" path="res://props/departures_board.glb" id="1_3mbrh"]
 [ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_2rtqq"]
 
-[node name="departures_board" type="Node3D" unique_id=1953126292]
+[node name="departures_board" type="Node3D" unique_id=1628641149]
 
-[node name="Model" type="Node3D" parent="." unique_id=1942568621 instance=ExtResource("1_3mbrh")]
+[node name="Model" type="Node3D" parent="." unique_id=1610468873 instance=ExtResource("1_3mbrh")]
 
-[node name="Prop" type="Node" parent="." unique_id=772640175]
+[node name="Prop" type="Node" parent="." unique_id=1635864494]
 script = ExtResource("2_2rtqq")
 prop_id = &"departures_board"
 tags = PackedStringArray()

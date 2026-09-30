@@ -3,11 +3,11 @@
 [ext_resource type="PackedScene" path="res://props/caution_tape_post.glb" id="1_qcgbl"]
 [ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_254wq"]
 
-[node name="caution_tape_post" type="Node3D" unique_id=813655704]
+[node name="caution_tape_post" type="Node3D" unique_id=1794187111]
 
 [node name="Model" type="Node3D" parent="." unique_id=1581747815 instance=ExtResource("1_qcgbl")]
 
-[node name="Prop" type="Node" parent="." unique_id=1660252663]
+[node name="Prop" type="Node" parent="." unique_id=785303386]
 script = ExtResource("2_254wq")
 prop_id = &"caution_tape_post"
 tags = PackedStringArray()

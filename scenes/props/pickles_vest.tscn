@@ -1,0 +1,28 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/pickles_vest.glb" id="1_pw55t"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_fgtbr"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0dwau"]
+size = Vector3(0.3, 0.0315, 0.2)
+
+[node name="pickles_vest" type="RigidBody3D" unique_id=1953094744]
+collision_layer = 16
+collision_mask = 31
+mass = 0.2
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1508882898 instance=ExtResource("1_pw55t")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1370357244]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.01575, 0)
+shape = SubResource("BoxShape3D_0dwau")
+
+[node name="Prop" type="Node" parent="." unique_id=1252598410]
+script = ExtResource("2_fgtbr")
+prop_id = &"pickles_vest"
+grab_class = "light"
+inspect_line = &"ch2_insp_vest"
+tags = PackedStringArray()

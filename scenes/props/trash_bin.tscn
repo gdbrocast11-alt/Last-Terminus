@@ -7,7 +7,7 @@
 height = 0.93
 radius = 0.25
 
-[node name="trash_bin" type="RigidBody3D" unique_id=170494721]
+[node name="trash_bin" type="RigidBody3D" unique_id=1447047522]
 collision_layer = 16
 collision_mask = 31
 mass = 6.0
@@ -17,11 +17,11 @@ angular_damp = 0.4
 
 [node name="Model" type="Node3D" parent="." unique_id=1652909398 instance=ExtResource("1_ry6xr")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=91105312]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1660922683]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.465, 0)
 shape = SubResource("CylinderShape3D_6mh1d")
 
-[node name="Prop" type="Node" parent="." unique_id=463970097]
+[node name="Prop" type="Node" parent="." unique_id=404797877]
 script = ExtResource("2_w8fkv")
 prop_id = &"trash_bin"
 grab_class = "medium"

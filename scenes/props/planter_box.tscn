@@ -6,16 +6,16 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_26es4"]
 size = Vector3(1.7896551, 1.29, 0.74671847)
 
-[node name="planter_box" type="StaticBody3D" unique_id=1390922869]
+[node name="planter_box" type="StaticBody3D" unique_id=558948338]
 collision_mask = 0
 
 [node name="Model" type="Node3D" parent="." unique_id=911359059 instance=ExtResource("1_yq7je")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1419857212]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=427765767]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.02853173, 0.645, 0)
 shape = SubResource("BoxShape3D_26es4")
 
-[node name="Prop" type="Node" parent="." unique_id=31211554]
+[node name="Prop" type="Node" parent="." unique_id=2145755276]
 script = ExtResource("2_x1wpv")
 prop_id = &"planter_box"
 tags = PackedStringArray("mantle")

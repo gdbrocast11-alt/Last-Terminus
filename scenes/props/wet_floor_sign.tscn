@@ -6,7 +6,7 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_ltk13"]
 size = Vector3(0.32, 0.6132109, 0.39668125)
 
-[node name="wet_floor_sign" type="RigidBody3D" unique_id=514337873]
+[node name="wet_floor_sign" type="RigidBody3D" unique_id=1781831752]
 collision_layer = 16
 collision_mask = 31
 mass = 1.5
@@ -14,13 +14,13 @@ sleeping = true
 linear_damp = 0.15
 angular_damp = 0.4
 
-[node name="Model" type="Node3D" parent="." unique_id=1385315175 instance=ExtResource("1_lnihp")]
+[node name="Model" type="Node3D" parent="." unique_id=459838418 instance=ExtResource("1_lnihp")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=575458230]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=888809108]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.30660546, 0)
 shape = SubResource("BoxShape3D_ltk13")
 
-[node name="Prop" type="Node" parent="." unique_id=2019013413]
+[node name="Prop" type="Node" parent="." unique_id=1456424238]
 script = ExtResource("2_tfl6e")
 prop_id = &"wet_floor_sign"
 grab_class = "light"

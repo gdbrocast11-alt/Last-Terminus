@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/couch.glb" id="1_0lf4u"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_im8kb"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ucdm8"]
+size = Vector3(2.1, 0.9796556, 1.0264721)
+
+[node name="couch" type="StaticBody3D" unique_id=680595674]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=477279596 instance=ExtResource("1_0lf4u")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1833499830]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4898278, 0.053236037)
+shape = SubResource("BoxShape3D_ucdm8")
+
+[node name="Prop" type="Node" parent="." unique_id=502028829]
+script = ExtResource("2_im8kb")
+prop_id = &"couch"
+inspect_line = &"ch2_insp_couch"
+tags = PackedStringArray()

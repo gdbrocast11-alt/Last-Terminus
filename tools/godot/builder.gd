@@ -4,6 +4,7 @@ extends Node
 ## Tasks map to res://tools/godot/build_<task>.gd, each implementing run(args).
 
 func _ready() -> void:
+	await get_tree().process_frame
 	var args := OS.get_cmdline_user_args()
 	if args.is_empty():
 		push_error("builder: no task given")

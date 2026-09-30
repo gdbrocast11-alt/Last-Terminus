@@ -6,16 +6,16 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_q42kc"]
 size = Vector3(0.6, 1.38, 0.92507625)
 
-[node name="pigeon_statue" type="StaticBody3D" unique_id=600207451]
+[node name="pigeon_statue" type="StaticBody3D" unique_id=1350022541]
 collision_mask = 0
 
-[node name="Model" type="Node3D" parent="." unique_id=1633565361 instance=ExtResource("1_smbc0")]
+[node name="Model" type="Node3D" parent="." unique_id=1525650538 instance=ExtResource("1_smbc0")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1341992139]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1359222676]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.69, -0.09746188)
 shape = SubResource("BoxShape3D_q42kc")
 
-[node name="Prop" type="Node" parent="." unique_id=653132060]
+[node name="Prop" type="Node" parent="." unique_id=1287662871]
 script = ExtResource("2_qh7te")
 prop_id = &"pigeon_statue"
 inspect_line = &"ch1_insp_pigeon"

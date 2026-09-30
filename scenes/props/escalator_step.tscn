@@ -3,11 +3,11 @@
 [ext_resource type="PackedScene" path="res://props/escalator_step.glb" id="1_a53gq"]
 [ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_wxl8c"]
 
-[node name="escalator_step" type="Node3D" unique_id=981762926]
+[node name="escalator_step" type="Node3D" unique_id=1164770565]
 
 [node name="Model" type="Node3D" parent="." unique_id=164872610 instance=ExtResource("1_a53gq")]
 
-[node name="Prop" type="Node" parent="." unique_id=770693075]
+[node name="Prop" type="Node" parent="." unique_id=563197226]
 script = ExtResource("2_wxl8c")
 prop_id = &"escalator_step"
 tags = PackedStringArray()

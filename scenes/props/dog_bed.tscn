@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/dog_bed.glb" id="1_v4pwg"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_7dlk6"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ih4do"]
+size = Vector3(0.94, 0.16, 0.93043214)
+
+[node name="dog_bed" type="StaticBody3D" unique_id=1767255233]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=1976827321 instance=ExtResource("1_v4pwg")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=793660792]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.08, 0)
+shape = SubResource("BoxShape3D_ih4do")
+
+[node name="Prop" type="Node" parent="." unique_id=1198502853]
+script = ExtResource("2_7dlk6")
+prop_id = &"dog_bed"
+tags = PackedStringArray()

@@ -6,7 +6,7 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_8c84g"]
 size = Vector3(0.42, 0.68499994, 0.255)
 
-[node name="suitcase_blue" type="RigidBody3D" unique_id=1442020707]
+[node name="suitcase_blue" type="RigidBody3D" unique_id=860758451]
 collision_layer = 16
 collision_mask = 31
 mass = 8.0
@@ -14,13 +14,13 @@ sleeping = true
 linear_damp = 0.15
 angular_damp = 0.4
 
-[node name="Model" type="Node3D" parent="." unique_id=305191886 instance=ExtResource("1_akha7")]
+[node name="Model" type="Node3D" parent="." unique_id=1852404108 instance=ExtResource("1_akha7")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=915033150]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1537087457]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.34249997, -0.0024999976)
 shape = SubResource("BoxShape3D_8c84g")
 
-[node name="Prop" type="Node" parent="." unique_id=16082413]
+[node name="Prop" type="Node" parent="." unique_id=318005121]
 script = ExtResource("2_enljo")
 prop_id = &"suitcase_blue"
 grab_class = "medium"
