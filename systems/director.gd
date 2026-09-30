@@ -176,7 +176,7 @@ func load_chapter(chapter: int, beat: StringName = &"start") -> void:
 	set_hud_visible(false)
 	DialogueManager.stop_all()
 	var path: String = CHAPTER_LEVELS.get(chapter, "")
-	if chapter == GameState.Chapter.ENDING and String(beat).begins_with("street"):
+	if chapter == GameState.Chapter.ENDING and (String(beat).begins_with("street") or beat == &"cctv"):
 		path = STREET_SCENE
 	if path.is_empty():
 		transitioning = false

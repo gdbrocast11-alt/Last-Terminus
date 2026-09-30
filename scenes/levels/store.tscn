@@ -7322,7 +7322,7 @@ agent_radius = 0.35
 agent_max_climb = 0.3
 agent_max_slope = 40.0
 
-[node name="Store" type="Node3D" unique_id=781432529]
+[node name="Store" type="Node3D" unique_id=629045253]
 script = ExtResource("1_urwnm")
 
 [node name="Shell" parent="." unique_id=628487086 instance=ExtResource("2_kyqmp")]
@@ -7370,163 +7370,163 @@ surface_material_override/1 = ExtResource("11_60txh")
 surface_material_override/2 = ExtResource("12_6ya6d")
 surface_material_override/3 = ExtResource("16_5xy0e")
 
-[node name="Col_concrete" type="StaticBody3D" parent="." unique_id=129800516]
+[node name="Col_concrete" type="StaticBody3D" parent="." unique_id=1311209504]
 collision_mask = 0
 metadata/surface = "concrete"
 
-[node name="@CollisionShape3D@521" type="CollisionShape3D" parent="Col_concrete" unique_id=531087430]
+[node name="@CollisionShape3D@521" type="CollisionShape3D" parent="Col_concrete" unique_id=1243433003]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.2, 0)
 shape = SubResource("BoxShape3D_d14rl")
 
-[node name="@CollisionShape3D@523" type="CollisionShape3D" parent="Col_concrete" unique_id=610730710]
+[node name="@CollisionShape3D@523" type="CollisionShape3D" parent="Col_concrete" unique_id=815755816]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.3, 4.25, 0.15)
 shape = SubResource("BoxShape3D_bx21b")
 
-[node name="@CollisionShape3D@524" type="CollisionShape3D" parent="Col_concrete" unique_id=682816167]
+[node name="@CollisionShape3D@524" type="CollisionShape3D" parent="Col_concrete" unique_id=1834276148]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.3, 4.25, 0.15)
 shape = SubResource("BoxShape3D_i6cn7")
 
-[node name="@CollisionShape3D@525" type="CollisionShape3D" parent="Col_concrete" unique_id=322856298]
+[node name="@CollisionShape3D@525" type="CollisionShape3D" parent="Col_concrete" unique_id=383112191]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.25, -26.3)
 shape = SubResource("BoxShape3D_5swxr")
 
-[node name="@CollisionShape3D@526" type="CollisionShape3D" parent="Col_concrete" unique_id=649479130]
+[node name="@CollisionShape3D@526" type="CollisionShape3D" parent="Col_concrete" unique_id=274896611]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31, 4.25, 26.3)
 shape = SubResource("BoxShape3D_u1lr8")
 
-[node name="@CollisionShape3D@527" type="CollisionShape3D" parent="Col_concrete" unique_id=586161234]
+[node name="@CollisionShape3D@527" type="CollisionShape3D" parent="Col_concrete" unique_id=1811782672]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 6.05, 26.3)
 shape = SubResource("BoxShape3D_bp6p4")
 
-[node name="@CollisionShape3D@528" type="CollisionShape3D" parent="Col_concrete" unique_id=1362359526]
+[node name="@CollisionShape3D@528" type="CollisionShape3D" parent="Col_concrete" unique_id=1076146884]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.95, 26.3)
 shape = SubResource("BoxShape3D_ermm6")
 
-[node name="@CollisionShape3D@529" type="CollisionShape3D" parent="Col_concrete" unique_id=1089235935]
+[node name="@CollisionShape3D@529" type="CollisionShape3D" parent="Col_concrete" unique_id=1455542720]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 6.05, 26.3)
 shape = SubResource("BoxShape3D_j6yny")
 
-[node name="@CollisionShape3D@530" type="CollisionShape3D" parent="Col_concrete" unique_id=706049796]
+[node name="@CollisionShape3D@530" type="CollisionShape3D" parent="Col_concrete" unique_id=268209269]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31, 4.25, 26.3)
 shape = SubResource("BoxShape3D_1cs52")
 
-[node name="@CollisionShape3D@533" type="CollisionShape3D" parent="Col_concrete" unique_id=415810585]
+[node name="@CollisionShape3D@533" type="CollisionShape3D" parent="Col_concrete" unique_id=1875469984]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 4.25, -18)
 shape = SubResource("BoxShape3D_ubypy")
 
-[node name="@CollisionShape3D@534" type="CollisionShape3D" parent="Col_concrete" unique_id=1378270505]
+[node name="@CollisionShape3D@534" type="CollisionShape3D" parent="Col_concrete" unique_id=1761591996]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 4.25, 0)
 shape = SubResource("BoxShape3D_ijvkw")
 
-[node name="@CollisionShape3D@535" type="CollisionShape3D" parent="Col_concrete" unique_id=318098015]
+[node name="@CollisionShape3D@535" type="CollisionShape3D" parent="Col_concrete" unique_id=1887023309]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 4.25, 18)
 shape = SubResource("BoxShape3D_ki8ax")
 
-[node name="@CollisionShape3D@536" type="CollisionShape3D" parent="Col_concrete" unique_id=403563385]
+[node name="@CollisionShape3D@536" type="CollisionShape3D" parent="Col_concrete" unique_id=34616247]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 4.25, -18)
 shape = SubResource("BoxShape3D_dspyp")
 
-[node name="@CollisionShape3D@537" type="CollisionShape3D" parent="Col_concrete" unique_id=393424379]
+[node name="@CollisionShape3D@537" type="CollisionShape3D" parent="Col_concrete" unique_id=1505919027]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 4.25, 0)
 shape = SubResource("BoxShape3D_pqnct")
 
-[node name="@CollisionShape3D@538" type="CollisionShape3D" parent="Col_concrete" unique_id=31078384]
+[node name="@CollisionShape3D@538" type="CollisionShape3D" parent="Col_concrete" unique_id=2088773269]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 4.25, 18)
 shape = SubResource("BoxShape3D_p2lre")
 
-[node name="@CollisionShape3D@539" type="CollisionShape3D" parent="Col_concrete" unique_id=1673741364]
+[node name="@CollisionShape3D@539" type="CollisionShape3D" parent="Col_concrete" unique_id=2064470643]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 4.25, -18)
 shape = SubResource("BoxShape3D_pujcs")
 
-[node name="@CollisionShape3D@540" type="CollisionShape3D" parent="Col_concrete" unique_id=273417786]
+[node name="@CollisionShape3D@540" type="CollisionShape3D" parent="Col_concrete" unique_id=855814765]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 4.25, 0)
 shape = SubResource("BoxShape3D_m6t7k")
 
-[node name="@CollisionShape3D@541" type="CollisionShape3D" parent="Col_concrete" unique_id=480471313]
+[node name="@CollisionShape3D@541" type="CollisionShape3D" parent="Col_concrete" unique_id=1604959823]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 4.25, 18)
 shape = SubResource("BoxShape3D_w7nbk")
 
-[node name="@CollisionShape3D@542" type="CollisionShape3D" parent="Col_concrete" unique_id=969548115]
+[node name="@CollisionShape3D@542" type="CollisionShape3D" parent="Col_concrete" unique_id=1262757388]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 4.25, -18)
 shape = SubResource("BoxShape3D_my0jw")
 
-[node name="@CollisionShape3D@543" type="CollisionShape3D" parent="Col_concrete" unique_id=1687400497]
+[node name="@CollisionShape3D@543" type="CollisionShape3D" parent="Col_concrete" unique_id=731583225]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 4.25, 0)
 shape = SubResource("BoxShape3D_tsacf")
 
-[node name="@CollisionShape3D@544" type="CollisionShape3D" parent="Col_concrete" unique_id=396591415]
+[node name="@CollisionShape3D@544" type="CollisionShape3D" parent="Col_concrete" unique_id=393136866]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 4.25, 18)
 shape = SubResource("BoxShape3D_lyxxk")
 
-[node name="@CollisionShape3D@553" type="CollisionShape3D" parent="Col_concrete" unique_id=676030835]
+[node name="@CollisionShape3D@553" type="CollisionShape3D" parent="Col_concrete" unique_id=1797495761]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.3, 58.3)
 shape = SubResource("BoxShape3D_xndsx")
 
-[node name="@CollisionShape3D@554" type="CollisionShape3D" parent="Col_concrete" unique_id=858973502]
+[node name="@CollisionShape3D@554" type="CollisionShape3D" parent="Col_concrete" unique_id=457356704]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.95, 90.25)
 shape = SubResource("BoxShape3D_qcrx4")
 
-[node name="@CollisionShape3D@555" type="CollisionShape3D" parent="Col_concrete" unique_id=1787677675]
+[node name="@CollisionShape3D@555" type="CollisionShape3D" parent="Col_concrete" unique_id=670722543]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -70.25, 3.95, 58.55)
 shape = SubResource("BoxShape3D_76gmh")
 
-[node name="@CollisionShape3D@556" type="CollisionShape3D" parent="Col_concrete" unique_id=776804599]
+[node name="@CollisionShape3D@556" type="CollisionShape3D" parent="Col_concrete" unique_id=1694081494]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 70.25, 3.95, 58.55)
 shape = SubResource("BoxShape3D_7p6ni")
 
-[node name="Col_grass" type="StaticBody3D" parent="." unique_id=1109072989]
+[node name="Col_grass" type="StaticBody3D" parent="." unique_id=811568869]
 collision_mask = 0
 metadata/surface = "grass"
 
-[node name="@CollisionShape3D@522" type="CollisionShape3D" parent="Col_grass" unique_id=1883899013]
+[node name="@CollisionShape3D@522" type="CollisionShape3D" parent="Col_grass" unique_id=1815870047]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.3, -0.005, 5.5)
 shape = SubResource("BoxShape3D_bnvpe")
 
-[node name="Col_glass" type="StaticBody3D" parent="." unique_id=1006119219]
+[node name="Col_glass" type="StaticBody3D" parent="." unique_id=304973476]
 collision_mask = 0
 metadata/surface = "glass"
 
-[node name="@CollisionShape3D@531" type="CollisionShape3D" parent="Col_glass" unique_id=2003761664]
+[node name="@CollisionShape3D@531" type="CollisionShape3D" parent="Col_glass" unique_id=1774573776]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 1.8, 26.03)
 shape = SubResource("BoxShape3D_ohf5e")
 
-[node name="@CollisionShape3D@532" type="CollisionShape3D" parent="Col_glass" unique_id=1753464177]
+[node name="@CollisionShape3D@532" type="CollisionShape3D" parent="Col_glass" unique_id=285955527]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 1.8, 26.03)
 shape = SubResource("BoxShape3D_bhuob")
 
-[node name="@CollisionShape3D@545" type="CollisionShape3D" parent="Col_glass" unique_id=502817526]
+[node name="@CollisionShape3D@545" type="CollisionShape3D" parent="Col_glass" unique_id=1385188363]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.5, 2, -7)
 shape = SubResource("BoxShape3D_4pqu7")
 
-[node name="@CollisionShape3D@546" type="CollisionShape3D" parent="Col_glass" unique_id=13073035]
+[node name="@CollisionShape3D@546" type="CollisionShape3D" parent="Col_glass" unique_id=1912495795]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.5, 3.8, -3)
 shape = SubResource("BoxShape3D_qe4u5")
 
-[node name="@CollisionShape3D@547" type="CollisionShape3D" parent="Col_glass" unique_id=263166153]
+[node name="@CollisionShape3D@547" type="CollisionShape3D" parent="Col_glass" unique_id=2015184389]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.5, 2, 4)
 shape = SubResource("BoxShape3D_w1mix")
 
-[node name="@CollisionShape3D@548" type="CollisionShape3D" parent="Col_glass" unique_id=1226122074]
+[node name="@CollisionShape3D@548" type="CollisionShape3D" parent="Col_glass" unique_id=129409537]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.5, 3.8, 11)
 shape = SubResource("BoxShape3D_n7gyj")
 
-[node name="@CollisionShape3D@549" type="CollisionShape3D" parent="Col_glass" unique_id=926692828]
+[node name="@CollisionShape3D@549" type="CollisionShape3D" parent="Col_glass" unique_id=1530161548]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.5, 2, 16.5)
 shape = SubResource("BoxShape3D_2ljx2")
 
-[node name="@CollisionShape3D@550" type="CollisionShape3D" parent="Col_glass" unique_id=578973704]
+[node name="@CollisionShape3D@550" type="CollisionShape3D" parent="Col_glass" unique_id=1820299583]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.5, 2, -9)
 shape = SubResource("BoxShape3D_jqc2p")
 
-[node name="@CollisionShape3D@551" type="CollisionShape3D" parent="Col_glass" unique_id=2098653319]
+[node name="@CollisionShape3D@551" type="CollisionShape3D" parent="Col_glass" unique_id=1044056271]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 3.8, -9)
 shape = SubResource("BoxShape3D_p3v5o")
 
-[node name="@CollisionShape3D@552" type="CollisionShape3D" parent="Col_glass" unique_id=1320649717]
+[node name="@CollisionShape3D@552" type="CollisionShape3D" parent="Col_glass" unique_id=1476457295]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.75, 2, -9)
 shape = SubResource("BoxShape3D_s40b0")
 
-[node name="Props" type="Node3D" parent="." unique_id=1786898783]
+[node name="Props" type="Node3D" parent="." unique_id=929602366]
 
 [node name="LotLampProp_-40" parent="Props" unique_id=219627999 groups=["nav_source"] instance=ExtResource("19_oikpu")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40, 0, 36)
@@ -7545,53 +7545,53 @@ script = ExtResource("21_eupsf")
 prop_id = &"street_lamp"
 tags = PackedStringArray()
 
-[node name="LotLampProp_-14" parent="Props" unique_id=713699176 groups=["nav_source"] instance=ExtResource("19_oikpu")]
+[node name="LotLampProp_-14" parent="Props" unique_id=1777851388 groups=["nav_source"] instance=ExtResource("19_oikpu")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14, 0, 36)
 
-[node name="Model" parent="Props/LotLampProp_-14" unique_id=69459556 instance=ExtResource("20_j6q5j")]
+[node name="Model" parent="Props/LotLampProp_-14" unique_id=761019282 instance=ExtResource("20_j6q5j")]
 
-[node name="street_lamp" type="MeshInstance3D" parent="Props/LotLampProp_-14/Model" unique_id=2145964838]
+[node name="street_lamp" type="MeshInstance3D" parent="Props/LotLampProp_-14/Model" unique_id=795608562]
 mesh = SubResource("ArrayMesh_85qvi")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/LotLampProp_-14" unique_id=992604993]
+[node name="Collision" type="CollisionShape3D" parent="Props/LotLampProp_-14" unique_id=945659958]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.54, 2.446356, 0)
 shape = SubResource("CylinderShape3D_sskfj")
 
-[node name="Prop" type="Node" parent="Props/LotLampProp_-14" unique_id=68967885]
+[node name="Prop" type="Node" parent="Props/LotLampProp_-14" unique_id=1897145962]
 script = ExtResource("21_eupsf")
 prop_id = &"street_lamp"
 tags = PackedStringArray()
 
-[node name="LotLampProp_14" parent="Props" unique_id=1214706436 groups=["nav_source"] instance=ExtResource("19_oikpu")]
+[node name="LotLampProp_14" parent="Props" unique_id=305336135 groups=["nav_source"] instance=ExtResource("19_oikpu")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, 36)
 
-[node name="Model" parent="Props/LotLampProp_14" unique_id=1272536327 instance=ExtResource("20_j6q5j")]
+[node name="Model" parent="Props/LotLampProp_14" unique_id=1695846352 instance=ExtResource("20_j6q5j")]
 
-[node name="street_lamp" type="MeshInstance3D" parent="Props/LotLampProp_14/Model" unique_id=367430341]
+[node name="street_lamp" type="MeshInstance3D" parent="Props/LotLampProp_14/Model" unique_id=1486175875]
 mesh = SubResource("ArrayMesh_85qvi")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/LotLampProp_14" unique_id=1543020011]
+[node name="Collision" type="CollisionShape3D" parent="Props/LotLampProp_14" unique_id=1599279741]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.54, 2.446356, 0)
 shape = SubResource("CylinderShape3D_sskfj")
 
-[node name="Prop" type="Node" parent="Props/LotLampProp_14" unique_id=1531811776]
+[node name="Prop" type="Node" parent="Props/LotLampProp_14" unique_id=1129370087]
 script = ExtResource("21_eupsf")
 prop_id = &"street_lamp"
 tags = PackedStringArray()
 
-[node name="LotLampProp_40" parent="Props" unique_id=665062247 groups=["nav_source"] instance=ExtResource("19_oikpu")]
+[node name="LotLampProp_40" parent="Props" unique_id=1492541320 groups=["nav_source"] instance=ExtResource("19_oikpu")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40, 0, 36)
 
-[node name="Model" parent="Props/LotLampProp_40" unique_id=353604977 instance=ExtResource("20_j6q5j")]
+[node name="Model" parent="Props/LotLampProp_40" unique_id=2034075745 instance=ExtResource("20_j6q5j")]
 
-[node name="street_lamp" type="MeshInstance3D" parent="Props/LotLampProp_40/Model" unique_id=2084721217]
+[node name="street_lamp" type="MeshInstance3D" parent="Props/LotLampProp_40/Model" unique_id=1532087033]
 mesh = SubResource("ArrayMesh_85qvi")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/LotLampProp_40" unique_id=1043076479]
+[node name="Collision" type="CollisionShape3D" parent="Props/LotLampProp_40" unique_id=549283009]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.54, 2.446356, 0)
 shape = SubResource("CylinderShape3D_sskfj")
 
-[node name="Prop" type="Node" parent="Props/LotLampProp_40" unique_id=2025019523]
+[node name="Prop" type="Node" parent="Props/LotLampProp_40" unique_id=446807137]
 script = ExtResource("21_eupsf")
 prop_id = &"street_lamp"
 tags = PackedStringArray()
@@ -7613,53 +7613,53 @@ script = ExtResource("21_eupsf")
 prop_id = &"checkout_lane"
 tags = PackedStringArray()
 
-[node name="Checkout2" parent="Props" unique_id=1672216612 groups=["nav_source"] instance=ExtResource("22_drfrh")]
+[node name="Checkout2" parent="Props" unique_id=448951982 groups=["nav_source"] instance=ExtResource("22_drfrh")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 19)
 
-[node name="Model" parent="Props/Checkout2" unique_id=1606104904 instance=ExtResource("23_fpi4h")]
+[node name="Model" parent="Props/Checkout2" unique_id=778648544 instance=ExtResource("23_fpi4h")]
 
-[node name="checkout_lane" type="MeshInstance3D" parent="Props/Checkout2/Model" unique_id=626038528]
+[node name="checkout_lane" type="MeshInstance3D" parent="Props/Checkout2/Model" unique_id=751327866]
 mesh = SubResource("ArrayMesh_xujf6")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Checkout2" unique_id=1497882602]
+[node name="Collision" type="CollisionShape3D" parent="Props/Checkout2" unique_id=375013081]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.045000017, 1.1700001, 0)
 shape = SubResource("BoxShape3D_vcho3")
 
-[node name="Prop" type="Node" parent="Props/Checkout2" unique_id=2070445324]
+[node name="Prop" type="Node" parent="Props/Checkout2" unique_id=1074269729]
 script = ExtResource("21_eupsf")
 prop_id = &"checkout_lane"
 tags = PackedStringArray()
 
-[node name="Checkout3" parent="Props" unique_id=1155538628 groups=["nav_source"] instance=ExtResource("22_drfrh")]
+[node name="Checkout3" parent="Props" unique_id=848742857 groups=["nav_source"] instance=ExtResource("22_drfrh")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 19)
 
-[node name="Model" parent="Props/Checkout3" unique_id=230200135 instance=ExtResource("23_fpi4h")]
+[node name="Model" parent="Props/Checkout3" unique_id=694850673 instance=ExtResource("23_fpi4h")]
 
-[node name="checkout_lane" type="MeshInstance3D" parent="Props/Checkout3/Model" unique_id=818292864]
+[node name="checkout_lane" type="MeshInstance3D" parent="Props/Checkout3/Model" unique_id=1871519083]
 mesh = SubResource("ArrayMesh_xujf6")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Checkout3" unique_id=461340057]
+[node name="Collision" type="CollisionShape3D" parent="Props/Checkout3" unique_id=1143147606]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.045000017, 1.1700001, 0)
 shape = SubResource("BoxShape3D_vcho3")
 
-[node name="Prop" type="Node" parent="Props/Checkout3" unique_id=609479139]
+[node name="Prop" type="Node" parent="Props/Checkout3" unique_id=565739810]
 script = ExtResource("21_eupsf")
 prop_id = &"checkout_lane"
 tags = PackedStringArray()
 
-[node name="Checkout4" parent="Props" unique_id=36351010 groups=["nav_source"] instance=ExtResource("22_drfrh")]
+[node name="Checkout4" parent="Props" unique_id=162654785 groups=["nav_source"] instance=ExtResource("22_drfrh")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 19)
 
-[node name="Model" parent="Props/Checkout4" unique_id=1970360633 instance=ExtResource("23_fpi4h")]
+[node name="Model" parent="Props/Checkout4" unique_id=1138735429 instance=ExtResource("23_fpi4h")]
 
-[node name="checkout_lane" type="MeshInstance3D" parent="Props/Checkout4/Model" unique_id=1096644508]
+[node name="checkout_lane" type="MeshInstance3D" parent="Props/Checkout4/Model" unique_id=535330714]
 mesh = SubResource("ArrayMesh_xujf6")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Checkout4" unique_id=1367972848]
+[node name="Collision" type="CollisionShape3D" parent="Props/Checkout4" unique_id=1363197262]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.045000017, 1.1700001, 0)
 shape = SubResource("BoxShape3D_vcho3")
 
-[node name="Prop" type="Node" parent="Props/Checkout4" unique_id=443975384]
+[node name="Prop" type="Node" parent="Props/Checkout4" unique_id=82673590]
 script = ExtResource("21_eupsf")
 prop_id = &"checkout_lane"
 tags = PackedStringArray()
@@ -7685,85 +7685,85 @@ prop_id = &"shopping_cart"
 grab_class = "heavy"
 tags = PackedStringArray()
 
-[node name="Cart2" parent="Props" unique_id=2097731419 instance=ExtResource("24_2el8w")]
+[node name="Cart2" parent="Props" unique_id=1743467448 instance=ExtResource("24_2el8w")]
 transform = Transform3D(0.99026805, 0, 0.1391731, 0, 1, 0, -0.1391731, 0, 0.99026805, -26.3, 0, 22.5)
 
-[node name="Model" parent="Props/Cart2" unique_id=504935153 instance=ExtResource("25_kf0n6")]
+[node name="Model" parent="Props/Cart2" unique_id=2033036178 instance=ExtResource("25_kf0n6")]
 
-[node name="shopping_cart" type="MeshInstance3D" parent="Props/Cart2/Model" unique_id=1797829650]
+[node name="shopping_cart" type="MeshInstance3D" parent="Props/Cart2/Model" unique_id=1701366206]
 visibility_range_end = 38.0
 visibility_range_end_margin = 4.0
 visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_v0ers")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Cart2" unique_id=60053686]
+[node name="Collision" type="CollisionShape3D" parent="Props/Cart2" unique_id=1362445736]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.46132624, 0.051882982)
 shape = SubResource("BoxShape3D_6gxum")
 
-[node name="Prop" type="Node" parent="Props/Cart2" unique_id=69236048]
+[node name="Prop" type="Node" parent="Props/Cart2" unique_id=731978115]
 script = ExtResource("21_eupsf")
 prop_id = &"shopping_cart"
 grab_class = "heavy"
 tags = PackedStringArray()
 
-[node name="Cart3" parent="Props" unique_id=1180931808 instance=ExtResource("24_2el8w")]
+[node name="Cart3" parent="Props" unique_id=738772583 instance=ExtResource("24_2el8w")]
 transform = Transform3D(0.9612617, 0, 0.27563736, 0, 1, 0, -0.27563736, 0, 0.9612617, -25.6, 0, 22.5)
 
-[node name="Model" parent="Props/Cart3" unique_id=913787085 instance=ExtResource("25_kf0n6")]
+[node name="Model" parent="Props/Cart3" unique_id=43057200 instance=ExtResource("25_kf0n6")]
 
-[node name="shopping_cart" type="MeshInstance3D" parent="Props/Cart3/Model" unique_id=1421870133]
+[node name="shopping_cart" type="MeshInstance3D" parent="Props/Cart3/Model" unique_id=991866049]
 visibility_range_end = 38.0
 visibility_range_end_margin = 4.0
 visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_v0ers")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Cart3" unique_id=1602982889]
+[node name="Collision" type="CollisionShape3D" parent="Props/Cart3" unique_id=529313138]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.46132624, 0.051882982)
 shape = SubResource("BoxShape3D_6gxum")
 
-[node name="Prop" type="Node" parent="Props/Cart3" unique_id=1757469764]
+[node name="Prop" type="Node" parent="Props/Cart3" unique_id=228101411]
 script = ExtResource("21_eupsf")
 prop_id = &"shopping_cart"
 grab_class = "heavy"
 tags = PackedStringArray()
 
-[node name="Cart4" parent="Props" unique_id=793790992 instance=ExtResource("24_2el8w")]
+[node name="Cart4" parent="Props" unique_id=2089824602 instance=ExtResource("24_2el8w")]
 transform = Transform3D(0.9135454, 0, 0.40673664, 0, 1, 0, -0.40673664, 0, 0.9135454, -24.9, 0, 22.5)
 
-[node name="Model" parent="Props/Cart4" unique_id=1843845795 instance=ExtResource("25_kf0n6")]
+[node name="Model" parent="Props/Cart4" unique_id=1246095599 instance=ExtResource("25_kf0n6")]
 
-[node name="shopping_cart" type="MeshInstance3D" parent="Props/Cart4/Model" unique_id=767784945]
+[node name="shopping_cart" type="MeshInstance3D" parent="Props/Cart4/Model" unique_id=1567615681]
 visibility_range_end = 38.0
 visibility_range_end_margin = 4.0
 visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_v0ers")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Cart4" unique_id=1994044245]
+[node name="Collision" type="CollisionShape3D" parent="Props/Cart4" unique_id=1979518254]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.46132624, 0.051882982)
 shape = SubResource("BoxShape3D_6gxum")
 
-[node name="Prop" type="Node" parent="Props/Cart4" unique_id=1968881298]
+[node name="Prop" type="Node" parent="Props/Cart4" unique_id=943468295]
 script = ExtResource("21_eupsf")
 prop_id = &"shopping_cart"
 grab_class = "heavy"
 tags = PackedStringArray()
 
-[node name="Cart5" parent="Props" unique_id=118718105 instance=ExtResource("24_2el8w")]
+[node name="Cart5" parent="Props" unique_id=192843505 instance=ExtResource("24_2el8w")]
 transform = Transform3D(0.8480481, 0, 0.52991927, 0, 1, 0, -0.52991927, 0, 0.8480481, -24.2, 0, 22.5)
 
-[node name="Model" parent="Props/Cart5" unique_id=1769600777 instance=ExtResource("25_kf0n6")]
+[node name="Model" parent="Props/Cart5" unique_id=2065994004 instance=ExtResource("25_kf0n6")]
 
-[node name="shopping_cart" type="MeshInstance3D" parent="Props/Cart5/Model" unique_id=1907225108]
+[node name="shopping_cart" type="MeshInstance3D" parent="Props/Cart5/Model" unique_id=746471123]
 visibility_range_end = 38.0
 visibility_range_end_margin = 4.0
 visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_v0ers")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Cart5" unique_id=527975985]
+[node name="Collision" type="CollisionShape3D" parent="Props/Cart5" unique_id=766128936]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.46132624, 0.051882982)
 shape = SubResource("BoxShape3D_6gxum")
 
-[node name="Prop" type="Node" parent="Props/Cart5" unique_id=562890319]
+[node name="Prop" type="Node" parent="Props/Cart5" unique_id=1230505313]
 script = ExtResource("21_eupsf")
 prop_id = &"shopping_cart"
 grab_class = "heavy"
@@ -7798,28 +7798,28 @@ script = ExtResource("21_eupsf")
 prop_id = &"aisle_sign"
 tags = PackedStringArray()
 
-[node name="SignTools" parent="Props" unique_id=1236564376 instance=ExtResource("28_lo2ft")]
+[node name="SignTools" parent="Props" unique_id=244549501 instance=ExtResource("28_lo2ft")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.2, -5.5)
 
-[node name="Model" parent="Props/SignTools" unique_id=1779230746 instance=ExtResource("29_6obhu")]
+[node name="Model" parent="Props/SignTools" unique_id=2101755735 instance=ExtResource("29_6obhu")]
 
-[node name="aisle_sign" type="MeshInstance3D" parent="Props/SignTools/Model" unique_id=1910967396]
+[node name="aisle_sign" type="MeshInstance3D" parent="Props/SignTools/Model" unique_id=307141706]
 mesh = SubResource("ArrayMesh_fbdk7")
 
-[node name="Prop" type="Node" parent="Props/SignTools" unique_id=67079821]
+[node name="Prop" type="Node" parent="Props/SignTools" unique_id=1773978069]
 script = ExtResource("21_eupsf")
 prop_id = &"aisle_sign"
 tags = PackedStringArray()
 
-[node name="SignGarden" parent="Props" unique_id=1242334425 instance=ExtResource("28_lo2ft")]
+[node name="SignGarden" parent="Props" unique_id=84966863 instance=ExtResource("28_lo2ft")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 5.2, 12)
 
-[node name="Model" parent="Props/SignGarden" unique_id=1425885371 instance=ExtResource("29_6obhu")]
+[node name="Model" parent="Props/SignGarden" unique_id=382229584 instance=ExtResource("29_6obhu")]
 
-[node name="aisle_sign" type="MeshInstance3D" parent="Props/SignGarden/Model" unique_id=1544921156]
+[node name="aisle_sign" type="MeshInstance3D" parent="Props/SignGarden/Model" unique_id=70915413]
 mesh = SubResource("ArrayMesh_fbdk7")
 
-[node name="Prop" type="Node" parent="Props/SignGarden" unique_id=1666093450]
+[node name="Prop" type="Node" parent="Props/SignGarden" unique_id=93794540]
 script = ExtResource("21_eupsf")
 prop_id = &"aisle_sign"
 tags = PackedStringArray()
@@ -7841,206 +7841,206 @@ script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
 
-[node name="PaintShelfW2" parent="Props" unique_id=1321729598 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="PaintShelfW2" parent="Props" unique_id=1314478933 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -31.5, 0, -15.95)
 
-[node name="Model" parent="Props/PaintShelfW2" unique_id=212610494 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/PaintShelfW2" unique_id=1581170730 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/PaintShelfW2/Model" unique_id=957443125]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/PaintShelfW2/Model" unique_id=349588266]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/PaintShelfW2" unique_id=417897401]
+[node name="Collision" type="CollisionShape3D" parent="Props/PaintShelfW2" unique_id=467896677]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/PaintShelfW2" unique_id=661995434]
+[node name="Prop" type="Node" parent="Props/PaintShelfW2" unique_id=1771614249]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
 
-[node name="PaintShelfW3" parent="Props" unique_id=931132647 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="PaintShelfW3" parent="Props" unique_id=573943356 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -31.5, 0, -13.9)
 
-[node name="Model" parent="Props/PaintShelfW3" unique_id=1196166706 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/PaintShelfW3" unique_id=752263700 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/PaintShelfW3/Model" unique_id=913607998]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/PaintShelfW3/Model" unique_id=1791694498]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/PaintShelfW3" unique_id=938465748]
+[node name="Collision" type="CollisionShape3D" parent="Props/PaintShelfW3" unique_id=71033547]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/PaintShelfW3" unique_id=1707633927]
+[node name="Prop" type="Node" parent="Props/PaintShelfW3" unique_id=2019447049]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
 
-[node name="PaintShelfW4" parent="Props" unique_id=1976752333 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="PaintShelfW4" parent="Props" unique_id=2088217266 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -31.5, 0, -11.85)
 
-[node name="Model" parent="Props/PaintShelfW4" unique_id=1236874865 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/PaintShelfW4" unique_id=254692297 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/PaintShelfW4/Model" unique_id=2088720920]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/PaintShelfW4/Model" unique_id=1656188891]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/PaintShelfW4" unique_id=1159988553]
+[node name="Collision" type="CollisionShape3D" parent="Props/PaintShelfW4" unique_id=882897393]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/PaintShelfW4" unique_id=1288847800]
+[node name="Prop" type="Node" parent="Props/PaintShelfW4" unique_id=1215030965]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
 
-[node name="PaintShelfW5" parent="Props" unique_id=1766407947 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="PaintShelfW5" parent="Props" unique_id=802367150 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -31.5, 0, -9.8)
 
-[node name="Model" parent="Props/PaintShelfW5" unique_id=1834041915 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/PaintShelfW5" unique_id=586937339 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/PaintShelfW5/Model" unique_id=26360739]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/PaintShelfW5/Model" unique_id=325122625]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/PaintShelfW5" unique_id=691142992]
+[node name="Collision" type="CollisionShape3D" parent="Props/PaintShelfW5" unique_id=1968307664]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/PaintShelfW5" unique_id=1247940651]
+[node name="Prop" type="Node" parent="Props/PaintShelfW5" unique_id=1087759788]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
 
-[node name="PaintShelfA1" parent="Props" unique_id=1333237922 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="PaintShelfA1" parent="Props" unique_id=559292343 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -20.5, 0, -16)
 
-[node name="Model" parent="Props/PaintShelfA1" unique_id=1550917181 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/PaintShelfA1" unique_id=1097916867 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/PaintShelfA1/Model" unique_id=1732907500]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/PaintShelfA1/Model" unique_id=337287367]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/PaintShelfA1" unique_id=227592544]
+[node name="Collision" type="CollisionShape3D" parent="Props/PaintShelfA1" unique_id=236174201]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/PaintShelfA1" unique_id=1474392771]
+[node name="Prop" type="Node" parent="Props/PaintShelfA1" unique_id=178292897]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
 
-[node name="PaintShelfB1" parent="Props" unique_id=352498713 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="PaintShelfB1" parent="Props" unique_id=475233810 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -19.7, 0, -16)
 
-[node name="Model" parent="Props/PaintShelfB1" unique_id=1822871342 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/PaintShelfB1" unique_id=102599022 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/PaintShelfB1/Model" unique_id=775703181]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/PaintShelfB1/Model" unique_id=1661760414]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/PaintShelfB1" unique_id=1248015077]
+[node name="Collision" type="CollisionShape3D" parent="Props/PaintShelfB1" unique_id=1715985089]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/PaintShelfB1" unique_id=719734613]
+[node name="Prop" type="Node" parent="Props/PaintShelfB1" unique_id=1563032285]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
 
-[node name="PaintShelfA2" parent="Props" unique_id=1641347986 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="PaintShelfA2" parent="Props" unique_id=232763331 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -20.5, 0, -13.95)
 
-[node name="Model" parent="Props/PaintShelfA2" unique_id=710594931 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/PaintShelfA2" unique_id=1430378811 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/PaintShelfA2/Model" unique_id=1089426859]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/PaintShelfA2/Model" unique_id=1169676668]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/PaintShelfA2" unique_id=1046768950]
+[node name="Collision" type="CollisionShape3D" parent="Props/PaintShelfA2" unique_id=656556403]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/PaintShelfA2" unique_id=1869697942]
+[node name="Prop" type="Node" parent="Props/PaintShelfA2" unique_id=980526777]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
 
-[node name="PaintShelfB2" parent="Props" unique_id=906879143 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="PaintShelfB2" parent="Props" unique_id=1929694368 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -19.7, 0, -13.95)
 
-[node name="Model" parent="Props/PaintShelfB2" unique_id=1258620028 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/PaintShelfB2" unique_id=1045256728 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/PaintShelfB2/Model" unique_id=535772848]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/PaintShelfB2/Model" unique_id=225167905]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/PaintShelfB2" unique_id=2059802781]
+[node name="Collision" type="CollisionShape3D" parent="Props/PaintShelfB2" unique_id=1292438047]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/PaintShelfB2" unique_id=68223671]
+[node name="Prop" type="Node" parent="Props/PaintShelfB2" unique_id=1809596529]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
 
-[node name="PaintShelfA3" parent="Props" unique_id=1712250518 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="PaintShelfA3" parent="Props" unique_id=60669569 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -20.5, 0, -11.9)
 
-[node name="Model" parent="Props/PaintShelfA3" unique_id=170232366 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/PaintShelfA3" unique_id=1867720094 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/PaintShelfA3/Model" unique_id=1676612885]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/PaintShelfA3/Model" unique_id=693625360]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/PaintShelfA3" unique_id=1363698840]
+[node name="Collision" type="CollisionShape3D" parent="Props/PaintShelfA3" unique_id=338523067]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/PaintShelfA3" unique_id=1822463373]
+[node name="Prop" type="Node" parent="Props/PaintShelfA3" unique_id=1297090174]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
 
-[node name="PaintShelfB3" parent="Props" unique_id=1725746507 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="PaintShelfB3" parent="Props" unique_id=1864825085 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -19.7, 0, -11.9)
 
-[node name="Model" parent="Props/PaintShelfB3" unique_id=1146307702 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/PaintShelfB3" unique_id=27815614 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/PaintShelfB3/Model" unique_id=2144220047]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/PaintShelfB3/Model" unique_id=136436013]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/PaintShelfB3" unique_id=851798873]
+[node name="Collision" type="CollisionShape3D" parent="Props/PaintShelfB3" unique_id=117134573]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/PaintShelfB3" unique_id=1735230504]
+[node name="Prop" type="Node" parent="Props/PaintShelfB3" unique_id=1933845358]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
 
-[node name="PaintShelfA4" parent="Props" unique_id=1760320615 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="PaintShelfA4" parent="Props" unique_id=891189175 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -20.5, 0, -9.85)
 
-[node name="Model" parent="Props/PaintShelfA4" unique_id=383917551 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/PaintShelfA4" unique_id=1191221784 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/PaintShelfA4/Model" unique_id=547959343]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/PaintShelfA4/Model" unique_id=144837798]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/PaintShelfA4" unique_id=1170589238]
+[node name="Collision" type="CollisionShape3D" parent="Props/PaintShelfA4" unique_id=494439987]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/PaintShelfA4" unique_id=2132250539]
+[node name="Prop" type="Node" parent="Props/PaintShelfA4" unique_id=1585290071]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
 
-[node name="PaintShelfB4" parent="Props" unique_id=1699864426 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="PaintShelfB4" parent="Props" unique_id=986380595 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -19.7, 0, -9.85)
 
-[node name="Model" parent="Props/PaintShelfB4" unique_id=1446206699 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/PaintShelfB4" unique_id=228514601 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/PaintShelfB4/Model" unique_id=2028907446]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/PaintShelfB4/Model" unique_id=1176385132]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/PaintShelfB4" unique_id=1254942740]
+[node name="Collision" type="CollisionShape3D" parent="Props/PaintShelfB4" unique_id=1676342522]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/PaintShelfB4" unique_id=1085140085]
+[node name="Prop" type="Node" parent="Props/PaintShelfB4" unique_id=1523488722]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
@@ -8128,22 +8128,22 @@ grab_class = "light"
 inspect_line = &"ch1_insp_sign"
 tags = PackedStringArray("sign")
 
-[node name="PaintCanFloor1" parent="Props" unique_id=4495664 instance=ExtResource("36_1xxyf")]
+[node name="PaintCanFloor1" parent="Props" unique_id=301159079 instance=ExtResource("36_1xxyf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.8, 0, 6.2)
 
-[node name="Model" parent="Props/PaintCanFloor1" unique_id=353057974 instance=ExtResource("37_j8xhk")]
+[node name="Model" parent="Props/PaintCanFloor1" unique_id=1269297176 instance=ExtResource("37_j8xhk")]
 
-[node name="paint_can" type="MeshInstance3D" parent="Props/PaintCanFloor1/Model" unique_id=926985250]
+[node name="paint_can" type="MeshInstance3D" parent="Props/PaintCanFloor1/Model" unique_id=1349415445]
 visibility_range_end = 38.0
 visibility_range_end_margin = 4.0
 visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_2rcus")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/PaintCanFloor1" unique_id=1995962818]
+[node name="Collision" type="CollisionShape3D" parent="Props/PaintCanFloor1" unique_id=1677109556]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.13690212, 0)
 shape = SubResource("CylinderShape3D_j8h67")
 
-[node name="Prop" type="Node" parent="Props/PaintCanFloor1" unique_id=1461519050]
+[node name="Prop" type="Node" parent="Props/PaintCanFloor1" unique_id=1469147875]
 script = ExtResource("21_eupsf")
 prop_id = &"paint_can"
 grab_class = "light"
@@ -8509,206 +8509,206 @@ prop_id = &"hammer"
 grab_class = "light"
 tags = PackedStringArray()
 
-[node name="ToolShelfN1" parent="Props" unique_id=1914421579 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="ToolShelfN1" parent="Props" unique_id=189646067 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.5, 0, -25.5)
 
-[node name="Model" parent="Props/ToolShelfN1" unique_id=2056025113 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/ToolShelfN1" unique_id=844446957 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/ToolShelfN1/Model" unique_id=1286782139]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/ToolShelfN1/Model" unique_id=1501451726]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/ToolShelfN1" unique_id=2119165001]
+[node name="Collision" type="CollisionShape3D" parent="Props/ToolShelfN1" unique_id=1160606711]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/ToolShelfN1" unique_id=349032725]
+[node name="Prop" type="Node" parent="Props/ToolShelfN1" unique_id=484450062]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
 
-[node name="ToolShelfN2" parent="Props" unique_id=1801485831 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="ToolShelfN2" parent="Props" unique_id=1429167131 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.45, 0, -25.5)
 
-[node name="Model" parent="Props/ToolShelfN2" unique_id=117664413 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/ToolShelfN2" unique_id=1701945035 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/ToolShelfN2/Model" unique_id=414214165]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/ToolShelfN2/Model" unique_id=75771586]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/ToolShelfN2" unique_id=638789090]
+[node name="Collision" type="CollisionShape3D" parent="Props/ToolShelfN2" unique_id=1290475924]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/ToolShelfN2" unique_id=1226417601]
+[node name="Prop" type="Node" parent="Props/ToolShelfN2" unique_id=377691298]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
 
-[node name="ToolShelfN3" parent="Props" unique_id=1512686806 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="ToolShelfN3" parent="Props" unique_id=126732042 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.4, 0, -25.5)
 
-[node name="Model" parent="Props/ToolShelfN3" unique_id=1679254837 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/ToolShelfN3" unique_id=1782568220 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/ToolShelfN3/Model" unique_id=1336073014]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/ToolShelfN3/Model" unique_id=1174077406]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/ToolShelfN3" unique_id=1140693273]
+[node name="Collision" type="CollisionShape3D" parent="Props/ToolShelfN3" unique_id=549280043]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/ToolShelfN3" unique_id=1963029965]
+[node name="Prop" type="Node" parent="Props/ToolShelfN3" unique_id=1816939352]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
 
-[node name="ToolShelfN4" parent="Props" unique_id=467534972 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="ToolShelfN4" parent="Props" unique_id=362398543 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.35, 0, -25.5)
 
-[node name="Model" parent="Props/ToolShelfN4" unique_id=823547546 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/ToolShelfN4" unique_id=1588811709 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/ToolShelfN4/Model" unique_id=691750659]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/ToolShelfN4/Model" unique_id=1863673833]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/ToolShelfN4" unique_id=139941430]
+[node name="Collision" type="CollisionShape3D" parent="Props/ToolShelfN4" unique_id=450604759]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/ToolShelfN4" unique_id=1441152872]
+[node name="Prop" type="Node" parent="Props/ToolShelfN4" unique_id=713484756]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
 
-[node name="ToolShelfN5" parent="Props" unique_id=1390565714 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="ToolShelfN5" parent="Props" unique_id=294660558 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.3, 0, -25.5)
 
-[node name="Model" parent="Props/ToolShelfN5" unique_id=1355990948 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/ToolShelfN5" unique_id=948723630 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/ToolShelfN5/Model" unique_id=428090753]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/ToolShelfN5/Model" unique_id=1352454249]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/ToolShelfN5" unique_id=1843405461]
+[node name="Collision" type="CollisionShape3D" parent="Props/ToolShelfN5" unique_id=694128777]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/ToolShelfN5" unique_id=914454237]
+[node name="Prop" type="Node" parent="Props/ToolShelfN5" unique_id=1465652475]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
 
-[node name="ToolShelfN6" parent="Props" unique_id=990694677 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="ToolShelfN6" parent="Props" unique_id=2070563056 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.25, 0, -25.5)
 
-[node name="Model" parent="Props/ToolShelfN6" unique_id=27420775 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/ToolShelfN6" unique_id=1026949569 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/ToolShelfN6/Model" unique_id=1186895108]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/ToolShelfN6/Model" unique_id=1544071674]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/ToolShelfN6" unique_id=627486982]
+[node name="Collision" type="CollisionShape3D" parent="Props/ToolShelfN6" unique_id=1153198850]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/ToolShelfN6" unique_id=144903488]
+[node name="Prop" type="Node" parent="Props/ToolShelfN6" unique_id=1041428802]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
 
-[node name="ToolShelfS1" parent="Props" unique_id=1969143269 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="ToolShelfS1" parent="Props" unique_id=127538346 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -3.5, 0, -19.8)
 
-[node name="Model" parent="Props/ToolShelfS1" unique_id=104505103 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/ToolShelfS1" unique_id=361097581 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/ToolShelfS1/Model" unique_id=2104694832]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/ToolShelfS1/Model" unique_id=175900520]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/ToolShelfS1" unique_id=2076478904]
+[node name="Collision" type="CollisionShape3D" parent="Props/ToolShelfS1" unique_id=2049123045]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/ToolShelfS1" unique_id=813425945]
+[node name="Prop" type="Node" parent="Props/ToolShelfS1" unique_id=251340527]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
 
-[node name="ToolShelfT1" parent="Props" unique_id=1484511626 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="ToolShelfT1" parent="Props" unique_id=807390160 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, 0, -19.2)
 
-[node name="Model" parent="Props/ToolShelfT1" unique_id=1183656251 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/ToolShelfT1" unique_id=41204556 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/ToolShelfT1/Model" unique_id=2010337832]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/ToolShelfT1/Model" unique_id=1040872378]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/ToolShelfT1" unique_id=1587969665]
+[node name="Collision" type="CollisionShape3D" parent="Props/ToolShelfT1" unique_id=1154105567]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/ToolShelfT1" unique_id=575484813]
+[node name="Prop" type="Node" parent="Props/ToolShelfT1" unique_id=353614560]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
 
-[node name="ToolShelfS2" parent="Props" unique_id=2085390138 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="ToolShelfS2" parent="Props" unique_id=1987073215 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1.45, 0, -19.8)
 
-[node name="Model" parent="Props/ToolShelfS2" unique_id=1940088753 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/ToolShelfS2" unique_id=194418040 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/ToolShelfS2/Model" unique_id=1886417490]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/ToolShelfS2/Model" unique_id=8058263]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/ToolShelfS2" unique_id=325098028]
+[node name="Collision" type="CollisionShape3D" parent="Props/ToolShelfS2" unique_id=1852606335]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/ToolShelfS2" unique_id=443505422]
+[node name="Prop" type="Node" parent="Props/ToolShelfS2" unique_id=1899474625]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
 
-[node name="ToolShelfT2" parent="Props" unique_id=543808 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="ToolShelfT2" parent="Props" unique_id=200650439 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.45, 0, -19.2)
 
-[node name="Model" parent="Props/ToolShelfT2" unique_id=1516113431 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/ToolShelfT2" unique_id=1737292345 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/ToolShelfT2/Model" unique_id=1467440575]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/ToolShelfT2/Model" unique_id=556249524]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/ToolShelfT2" unique_id=1571159909]
+[node name="Collision" type="CollisionShape3D" parent="Props/ToolShelfT2" unique_id=422016717]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/ToolShelfT2" unique_id=916691146]
+[node name="Prop" type="Node" parent="Props/ToolShelfT2" unique_id=2052131767]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
 
-[node name="ToolShelfS3" parent="Props" unique_id=59497325 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="ToolShelfS3" parent="Props" unique_id=2086667316 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0.6, 0, -19.8)
 
-[node name="Model" parent="Props/ToolShelfS3" unique_id=1249008955 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/ToolShelfS3" unique_id=829258822 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/ToolShelfS3/Model" unique_id=255132189]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/ToolShelfS3/Model" unique_id=504025503]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/ToolShelfS3" unique_id=609296720]
+[node name="Collision" type="CollisionShape3D" parent="Props/ToolShelfS3" unique_id=181449898]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/ToolShelfS3" unique_id=2093241138]
+[node name="Prop" type="Node" parent="Props/ToolShelfS3" unique_id=454980492]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
 
-[node name="ToolShelfT3" parent="Props" unique_id=1856518153 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="ToolShelfT3" parent="Props" unique_id=942052611 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6, 0, -19.2)
 
-[node name="Model" parent="Props/ToolShelfT3" unique_id=1297538225 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/ToolShelfT3" unique_id=1119164660 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/ToolShelfT3/Model" unique_id=73714623]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/ToolShelfT3/Model" unique_id=1238871295]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/ToolShelfT3" unique_id=1868859460]
+[node name="Collision" type="CollisionShape3D" parent="Props/ToolShelfT3" unique_id=2110466068]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/ToolShelfT3" unique_id=663800283]
+[node name="Prop" type="Node" parent="Props/ToolShelfT3" unique_id=1310910949]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
@@ -8733,87 +8733,87 @@ hazard = 2
 tags = PackedStringArray("ladder", "chain")
 use_verb = "Set wheel brake"
 
-[node name="RailShelf1" parent="Props" unique_id=589519999 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="RailShelf1" parent="Props" unique_id=284407447 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 16, 0, -13.5)
 
-[node name="Model" parent="Props/RailShelf1" unique_id=1694345065 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/RailShelf1" unique_id=509950131 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/RailShelf1/Model" unique_id=1753956511]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/RailShelf1/Model" unique_id=663609203]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/RailShelf1" unique_id=760424476]
+[node name="Collision" type="CollisionShape3D" parent="Props/RailShelf1" unique_id=840956115]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/RailShelf1" unique_id=1449357340]
+[node name="Prop" type="Node" parent="Props/RailShelf1" unique_id=929787072]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
 
-[node name="RailShelf2" parent="Props" unique_id=1745746116 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="RailShelf2" parent="Props" unique_id=519765177 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 16, 0, -11.45)
 
-[node name="Model" parent="Props/RailShelf2" unique_id=1793066864 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/RailShelf2" unique_id=183271490 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/RailShelf2/Model" unique_id=521228358]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/RailShelf2/Model" unique_id=683504945]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/RailShelf2" unique_id=1390419197]
+[node name="Collision" type="CollisionShape3D" parent="Props/RailShelf2" unique_id=524968582]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/RailShelf2" unique_id=409301879]
+[node name="Prop" type="Node" parent="Props/RailShelf2" unique_id=1246785802]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
 
-[node name="RailShelf3" parent="Props" unique_id=1386686809 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="RailShelf3" parent="Props" unique_id=933943157 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 16, 0, -9.4)
 
-[node name="Model" parent="Props/RailShelf3" unique_id=2146427709 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/RailShelf3" unique_id=1372370641 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/RailShelf3/Model" unique_id=1674988147]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/RailShelf3/Model" unique_id=560003884]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/RailShelf3" unique_id=13762489]
+[node name="Collision" type="CollisionShape3D" parent="Props/RailShelf3" unique_id=629549393]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/RailShelf3" unique_id=452288340]
+[node name="Prop" type="Node" parent="Props/RailShelf3" unique_id=217890754]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
 
-[node name="RailShelf4" parent="Props" unique_id=219937842 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="RailShelf4" parent="Props" unique_id=1971563646 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 16, 0, -7.35)
 
-[node name="Model" parent="Props/RailShelf4" unique_id=1179273146 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/RailShelf4" unique_id=750770761 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/RailShelf4/Model" unique_id=431241315]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/RailShelf4/Model" unique_id=932981535]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/RailShelf4" unique_id=1378497930]
+[node name="Collision" type="CollisionShape3D" parent="Props/RailShelf4" unique_id=808299559]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/RailShelf4" unique_id=210648939]
+[node name="Prop" type="Node" parent="Props/RailShelf4" unique_id=1010023335]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
 
-[node name="RailShelf5" parent="Props" unique_id=972090219 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="RailShelf5" parent="Props" unique_id=1022563118 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 16, 0, -5.3)
 
-[node name="Model" parent="Props/RailShelf5" unique_id=1648279240 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/RailShelf5" unique_id=1980233560 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/RailShelf5/Model" unique_id=39356955]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/RailShelf5/Model" unique_id=542941549]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/RailShelf5" unique_id=1407854337]
+[node name="Collision" type="CollisionShape3D" parent="Props/RailShelf5" unique_id=1386908049]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/RailShelf5" unique_id=570248097]
+[node name="Prop" type="Node" parent="Props/RailShelf5" unique_id=134405298]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
@@ -8907,22 +8907,22 @@ inspect_line = &"ch3_insp_tire"
 hazard = 1
 tags = PackedStringArray("tire", "chain")
 
-[node name="TireLow" parent="Props" unique_id=1257212902 instance=ExtResource("86_jfuhm")]
+[node name="TireLow" parent="Props" unique_id=730461235 instance=ExtResource("86_jfuhm")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19, 0.35, -5.2)
 
-[node name="Model" parent="Props/TireLow" unique_id=1705825413 instance=ExtResource("87_ud5y7")]
+[node name="Model" parent="Props/TireLow" unique_id=827720895 instance=ExtResource("87_ud5y7")]
 
-[node name="tire" type="MeshInstance3D" parent="Props/TireLow/Model" unique_id=1285895615]
+[node name="tire" type="MeshInstance3D" parent="Props/TireLow/Model" unique_id=814865861]
 visibility_range_end = 38.0
 visibility_range_end_margin = 4.0
 visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_k3a3f")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/TireLow" unique_id=330544514]
+[node name="Collision" type="CollisionShape3D" parent="Props/TireLow" unique_id=520323194]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.345, 0)
 shape = SubResource("CylinderShape3D_8mhap")
 
-[node name="Prop" type="Node" parent="Props/TireLow" unique_id=1389028595]
+[node name="Prop" type="Node" parent="Props/TireLow" unique_id=164252261]
 script = ExtResource("21_eupsf")
 prop_id = &"tire"
 grab_class = "medium"
@@ -8930,22 +8930,22 @@ inspect_line = &"ch3_insp_tire"
 hazard = 1
 tags = PackedStringArray("tire", "chain")
 
-[node name="TireLoose" parent="Props" unique_id=314443 instance=ExtResource("86_jfuhm")]
+[node name="TireLoose" parent="Props" unique_id=186068650 instance=ExtResource("86_jfuhm")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.5, 0, -6.6)
 
-[node name="Model" parent="Props/TireLoose" unique_id=1987299315 instance=ExtResource("87_ud5y7")]
+[node name="Model" parent="Props/TireLoose" unique_id=597804300 instance=ExtResource("87_ud5y7")]
 
-[node name="tire" type="MeshInstance3D" parent="Props/TireLoose/Model" unique_id=1394965764]
+[node name="tire" type="MeshInstance3D" parent="Props/TireLoose/Model" unique_id=446501509]
 visibility_range_end = 38.0
 visibility_range_end_margin = 4.0
 visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_k3a3f")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/TireLoose" unique_id=1660314429]
+[node name="Collision" type="CollisionShape3D" parent="Props/TireLoose" unique_id=344922202]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.345, 0)
 shape = SubResource("CylinderShape3D_8mhap")
 
-[node name="Prop" type="Node" parent="Props/TireLoose" unique_id=1988858915]
+[node name="Prop" type="Node" parent="Props/TireLoose" unique_id=365009911]
 script = ExtResource("21_eupsf")
 prop_id = &"tire"
 grab_class = "medium"
@@ -8991,19 +8991,19 @@ script = ExtResource("21_eupsf")
 prop_id = &"lumber_bundle"
 tags = PackedStringArray()
 
-[node name="LumberB" parent="Props" unique_id=1113049752 groups=["nav_source"] instance=ExtResource("90_5us23")]
+[node name="LumberB" parent="Props" unique_id=255783128 groups=["nav_source"] instance=ExtResource("90_5us23")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 21.5, 0.35, -14.3)
 
-[node name="Model" parent="Props/LumberB" unique_id=868675384 instance=ExtResource("91_np8bk")]
+[node name="Model" parent="Props/LumberB" unique_id=1386831768 instance=ExtResource("91_np8bk")]
 
-[node name="lumber_bundle" type="MeshInstance3D" parent="Props/LumberB/Model" unique_id=1851824897]
+[node name="lumber_bundle" type="MeshInstance3D" parent="Props/LumberB/Model" unique_id=582371735]
 mesh = SubResource("ArrayMesh_kl22n")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/LumberB" unique_id=1343759307]
+[node name="Collision" type="CollisionShape3D" parent="Props/LumberB" unique_id=1838451162]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.08625001, 0)
 shape = SubResource("BoxShape3D_146tq")
 
-[node name="Prop" type="Node" parent="Props/LumberB" unique_id=1401885461]
+[node name="Prop" type="Node" parent="Props/LumberB" unique_id=293375891]
 script = ExtResource("21_eupsf")
 prop_id = &"lumber_bundle"
 tags = PackedStringArray()
@@ -9100,22 +9100,22 @@ inspect_line = &"ch3_insp_sprinkler"
 hazard = 1
 tags = PackedStringArray("sprinkler", "chain")
 
-[node name="GardenWetSign" parent="Props" unique_id=1927081134 instance=ExtResource("38_3ejea")]
+[node name="GardenWetSign" parent="Props" unique_id=1489055621 instance=ExtResource("38_3ejea")]
 transform = Transform3D(-0.1736482, 0, 0.9848077, 0, 1, 0, -0.9848077, 0, -0.1736482, 18.6, 0, 10.2)
 
-[node name="Model" parent="Props/GardenWetSign" unique_id=1442749927 instance=ExtResource("39_ey5x0")]
+[node name="Model" parent="Props/GardenWetSign" unique_id=479212616 instance=ExtResource("39_ey5x0")]
 
-[node name="wet_floor_sign" type="MeshInstance3D" parent="Props/GardenWetSign/Model" unique_id=749192603]
+[node name="wet_floor_sign" type="MeshInstance3D" parent="Props/GardenWetSign/Model" unique_id=439939614]
 visibility_range_end = 38.0
 visibility_range_end_margin = 4.0
 visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_6ncof")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/GardenWetSign" unique_id=525787275]
+[node name="Collision" type="CollisionShape3D" parent="Props/GardenWetSign" unique_id=1573652411]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.30660546, 0)
 shape = SubResource("BoxShape3D_oxfvt")
 
-[node name="Prop" type="Node" parent="Props/GardenWetSign" unique_id=970352886]
+[node name="Prop" type="Node" parent="Props/GardenWetSign" unique_id=1525407106]
 script = ExtResource("21_eupsf")
 prop_id = &"wet_floor_sign"
 grab_class = "light"
@@ -9231,132 +9231,132 @@ grab_class = "medium"
 inspect_line = &"ch3_insp_flamingo"
 tags = PackedStringArray("flamingo")
 
-[node name="Flamingo2" parent="Props" unique_id=1014410869 instance=ExtResource("110_vlsl0")]
+[node name="Flamingo2" parent="Props" unique_id=783382883 instance=ExtResource("110_vlsl0")]
 transform = Transform3D(-0.64278764, 0, 0.76604444, 0, 1, 0, -0.76604444, 0, -0.64278764, 18.4, 0, 15.5)
 
-[node name="Model" parent="Props/Flamingo2" unique_id=1059399575 instance=ExtResource("111_8iy1y")]
+[node name="Model" parent="Props/Flamingo2" unique_id=36603840 instance=ExtResource("111_8iy1y")]
 
-[node name="flamingo" type="MeshInstance3D" parent="Props/Flamingo2/Model" unique_id=599158977]
+[node name="flamingo" type="MeshInstance3D" parent="Props/Flamingo2/Model" unique_id=373079621]
 visibility_range_end = 38.0
 visibility_range_end_margin = 4.0
 visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_xw385")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Flamingo2" unique_id=1790900817]
+[node name="Collision" type="CollisionShape3D" parent="Props/Flamingo2" unique_id=201998726]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.450581e-09, 0.55884165, -0.030402526)
 shape = SubResource("BoxShape3D_po21p")
 
-[node name="Prop" type="Node" parent="Props/Flamingo2" unique_id=822842242]
+[node name="Prop" type="Node" parent="Props/Flamingo2" unique_id=1916744094]
 script = ExtResource("21_eupsf")
 prop_id = &"flamingo"
 grab_class = "medium"
 inspect_line = &"ch3_insp_flamingo"
 tags = PackedStringArray("flamingo")
 
-[node name="Flamingo3" parent="Props" unique_id=47492874 instance=ExtResource("110_vlsl0")]
+[node name="Flamingo3" parent="Props" unique_id=1213840754 instance=ExtResource("110_vlsl0")]
 transform = Transform3D(0.9961947, 0, 0.08715574, 0, 1, 0, -0.08715574, 0, 0.9961947, 19.3, 0, 15.5)
 
-[node name="Model" parent="Props/Flamingo3" unique_id=1477113285 instance=ExtResource("111_8iy1y")]
+[node name="Model" parent="Props/Flamingo3" unique_id=2065346439 instance=ExtResource("111_8iy1y")]
 
-[node name="flamingo" type="MeshInstance3D" parent="Props/Flamingo3/Model" unique_id=1271165015]
+[node name="flamingo" type="MeshInstance3D" parent="Props/Flamingo3/Model" unique_id=1441542189]
 visibility_range_end = 38.0
 visibility_range_end_margin = 4.0
 visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_xw385")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Flamingo3" unique_id=1518903272]
+[node name="Collision" type="CollisionShape3D" parent="Props/Flamingo3" unique_id=755741654]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.450581e-09, 0.55884165, -0.030402526)
 shape = SubResource("BoxShape3D_po21p")
 
-[node name="Prop" type="Node" parent="Props/Flamingo3" unique_id=1768780759]
+[node name="Prop" type="Node" parent="Props/Flamingo3" unique_id=1866199501]
 script = ExtResource("21_eupsf")
 prop_id = &"flamingo"
 grab_class = "medium"
 inspect_line = &"ch3_insp_flamingo"
 tags = PackedStringArray("flamingo")
 
-[node name="Flamingo4" parent="Props" unique_id=1711782175 instance=ExtResource("110_vlsl0")]
+[node name="Flamingo4" parent="Props" unique_id=646224476 instance=ExtResource("110_vlsl0")]
 transform = Transform3D(-0.99026805, 0, -0.13917312, 0, 1, 0, 0.13917312, 0, -0.99026805, 17.5, 0, 16.5)
 
-[node name="Model" parent="Props/Flamingo4" unique_id=1325838683 instance=ExtResource("111_8iy1y")]
+[node name="Model" parent="Props/Flamingo4" unique_id=1738194082 instance=ExtResource("111_8iy1y")]
 
-[node name="flamingo" type="MeshInstance3D" parent="Props/Flamingo4/Model" unique_id=1668675984]
+[node name="flamingo" type="MeshInstance3D" parent="Props/Flamingo4/Model" unique_id=1324793440]
 visibility_range_end = 38.0
 visibility_range_end_margin = 4.0
 visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_xw385")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Flamingo4" unique_id=1756823556]
+[node name="Collision" type="CollisionShape3D" parent="Props/Flamingo4" unique_id=543970077]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.450581e-09, 0.55884165, -0.030402526)
 shape = SubResource("BoxShape3D_po21p")
 
-[node name="Prop" type="Node" parent="Props/Flamingo4" unique_id=1985999068]
+[node name="Prop" type="Node" parent="Props/Flamingo4" unique_id=171188355]
 script = ExtResource("21_eupsf")
 prop_id = &"flamingo"
 grab_class = "medium"
 inspect_line = &"ch3_insp_flamingo"
 tags = PackedStringArray("flamingo")
 
-[node name="Flamingo5" parent="Props" unique_id=2106654905 instance=ExtResource("110_vlsl0")]
+[node name="Flamingo5" parent="Props" unique_id=145152376 instance=ExtResource("110_vlsl0")]
 transform = Transform3D(-0.89879405, 0, 0.43837112, 0, 1, 0, -0.43837112, 0, -0.89879405, 18.4, 0, 16.5)
 
-[node name="Model" parent="Props/Flamingo5" unique_id=1834613108 instance=ExtResource("111_8iy1y")]
+[node name="Model" parent="Props/Flamingo5" unique_id=1669142323 instance=ExtResource("111_8iy1y")]
 
-[node name="flamingo" type="MeshInstance3D" parent="Props/Flamingo5/Model" unique_id=1414182119]
+[node name="flamingo" type="MeshInstance3D" parent="Props/Flamingo5/Model" unique_id=414316017]
 visibility_range_end = 38.0
 visibility_range_end_margin = 4.0
 visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_xw385")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Flamingo5" unique_id=1885337478]
+[node name="Collision" type="CollisionShape3D" parent="Props/Flamingo5" unique_id=926776494]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.450581e-09, 0.55884165, -0.030402526)
 shape = SubResource("BoxShape3D_po21p")
 
-[node name="Prop" type="Node" parent="Props/Flamingo5" unique_id=1785402470]
+[node name="Prop" type="Node" parent="Props/Flamingo5" unique_id=1403381934]
 script = ExtResource("21_eupsf")
 prop_id = &"flamingo"
 grab_class = "medium"
 inspect_line = &"ch3_insp_flamingo"
 tags = PackedStringArray("flamingo")
 
-[node name="Flamingo6" parent="Props" unique_id=1947017057 instance=ExtResource("110_vlsl0")]
+[node name="Flamingo6" parent="Props" unique_id=180532353 instance=ExtResource("110_vlsl0")]
 transform = Transform3D(0.29237178, 0, 0.9563047, 0, 1, 0, -0.9563047, 0, 0.29237178, 19.3, 0, 16.5)
 
-[node name="Model" parent="Props/Flamingo6" unique_id=102859638 instance=ExtResource("111_8iy1y")]
+[node name="Model" parent="Props/Flamingo6" unique_id=1537899798 instance=ExtResource("111_8iy1y")]
 
-[node name="flamingo" type="MeshInstance3D" parent="Props/Flamingo6/Model" unique_id=1816046495]
+[node name="flamingo" type="MeshInstance3D" parent="Props/Flamingo6/Model" unique_id=2038671476]
 visibility_range_end = 38.0
 visibility_range_end_margin = 4.0
 visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_xw385")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Flamingo6" unique_id=1239197749]
+[node name="Collision" type="CollisionShape3D" parent="Props/Flamingo6" unique_id=748065440]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.450581e-09, 0.55884165, -0.030402526)
 shape = SubResource("BoxShape3D_po21p")
 
-[node name="Prop" type="Node" parent="Props/Flamingo6" unique_id=1356231504]
+[node name="Prop" type="Node" parent="Props/Flamingo6" unique_id=251525154]
 script = ExtResource("21_eupsf")
 prop_id = &"flamingo"
 grab_class = "medium"
 inspect_line = &"ch3_insp_flamingo"
 tags = PackedStringArray("flamingo")
 
-[node name="BrendaFlamingo" parent="Props" unique_id=1329641599 instance=ExtResource("110_vlsl0")]
+[node name="BrendaFlamingo" parent="Props" unique_id=1601535875 instance=ExtResource("110_vlsl0")]
 transform = Transform3D(-0.9848077, 0, -0.17364822, 0, 1, 0, 0.17364822, 0, -0.9848077, 19.8, 0, 12.4)
 
-[node name="Model" parent="Props/BrendaFlamingo" unique_id=404296367 instance=ExtResource("111_8iy1y")]
+[node name="Model" parent="Props/BrendaFlamingo" unique_id=1704722641 instance=ExtResource("111_8iy1y")]
 
-[node name="flamingo" type="MeshInstance3D" parent="Props/BrendaFlamingo/Model" unique_id=1197881607]
+[node name="flamingo" type="MeshInstance3D" parent="Props/BrendaFlamingo/Model" unique_id=1549979732]
 visibility_range_end = 38.0
 visibility_range_end_margin = 4.0
 visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_xw385")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/BrendaFlamingo" unique_id=745452310]
+[node name="Collision" type="CollisionShape3D" parent="Props/BrendaFlamingo" unique_id=907196756]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.450581e-09, 0.55884165, -0.030402526)
 shape = SubResource("BoxShape3D_po21p")
 
-[node name="Prop" type="Node" parent="Props/BrendaFlamingo" unique_id=933971937]
+[node name="Prop" type="Node" parent="Props/BrendaFlamingo" unique_id=1188718496]
 script = ExtResource("21_eupsf")
 prop_id = &"flamingo"
 grab_class = "medium"
@@ -9385,22 +9385,22 @@ grab_class = "light"
 inspect_line = &"ch3_insp_gnome"
 tags = PackedStringArray()
 
-[node name="Gnome2" parent="Props" unique_id=18802277 instance=ExtResource("112_iw6pc")]
+[node name="Gnome2" parent="Props" unique_id=823713883 instance=ExtResource("112_iw6pc")]
 transform = Transform3D(0.4999999, 0, -0.86602545, 0, 1, 0, 0.86602545, 0, 0.4999999, 17.2, 0, 11.5)
 
-[node name="Model" parent="Props/Gnome2" unique_id=691501347 instance=ExtResource("113_bn4ti")]
+[node name="Model" parent="Props/Gnome2" unique_id=1321283607 instance=ExtResource("113_bn4ti")]
 
-[node name="garden_gnome" type="MeshInstance3D" parent="Props/Gnome2/Model" unique_id=948580034]
+[node name="garden_gnome" type="MeshInstance3D" parent="Props/Gnome2/Model" unique_id=437266975]
 visibility_range_end = 38.0
 visibility_range_end_margin = 4.0
 visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_btsdu")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Gnome2" unique_id=65248167]
+[node name="Collision" type="CollisionShape3D" parent="Props/Gnome2" unique_id=1139008731]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.3, 0)
 shape = SubResource("BoxShape3D_w8t2q")
 
-[node name="Prop" type="Node" parent="Props/Gnome2" unique_id=852522159]
+[node name="Prop" type="Node" parent="Props/Gnome2" unique_id=1733692741]
 script = ExtResource("21_eupsf")
 prop_id = &"garden_gnome"
 grab_class = "light"
@@ -9470,22 +9470,22 @@ prop_id = &"fertilizer_bag"
 grab_class = "medium"
 tags = PackedStringArray()
 
-[node name="Fert2" parent="Props" unique_id=911500553 instance=ExtResource("118_32my4")]
+[node name="Fert2" parent="Props" unique_id=1401598505 instance=ExtResource("118_32my4")]
 transform = Transform3D(0.34202015, 0, 0.9396926, 0, 1, 0, -0.9396926, 0, 0.34202015, 29.5, 0.13, 15)
 
-[node name="Model" parent="Props/Fert2" unique_id=1517124918 instance=ExtResource("119_auw6w")]
+[node name="Model" parent="Props/Fert2" unique_id=1404720231 instance=ExtResource("119_auw6w")]
 
-[node name="fertilizer_bag" type="MeshInstance3D" parent="Props/Fert2/Model" unique_id=228267497]
+[node name="fertilizer_bag" type="MeshInstance3D" parent="Props/Fert2/Model" unique_id=1713249032]
 visibility_range_end = 38.0
 visibility_range_end_margin = 4.0
 visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_eievl")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Fert2" unique_id=167681695]
+[node name="Collision" type="CollisionShape3D" parent="Props/Fert2" unique_id=1603838719]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.06999999, -0.007000014)
 shape = SubResource("BoxShape3D_y3kms")
 
-[node name="Prop" type="Node" parent="Props/Fert2" unique_id=358666648]
+[node name="Prop" type="Node" parent="Props/Fert2" unique_id=759842615]
 script = ExtResource("21_eupsf")
 prop_id = &"fertilizer_bag"
 grab_class = "medium"
@@ -9531,22 +9531,22 @@ inspect_line = &"ch3_insp_propane"
 hazard = 2
 tags = PackedStringArray("propane")
 
-[node name="Propane2" parent="Props" unique_id=759439312 instance=ExtResource("122_7g37v")]
+[node name="Propane2" parent="Props" unique_id=239247821 instance=ExtResource("122_7g37v")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.2, 0, 0.5)
 
-[node name="Model" parent="Props/Propane2" unique_id=1459832380 instance=ExtResource("123_q4e8j")]
+[node name="Model" parent="Props/Propane2" unique_id=171621355 instance=ExtResource("123_q4e8j")]
 
-[node name="propane_cylinder" type="MeshInstance3D" parent="Props/Propane2/Model" unique_id=704444386]
+[node name="propane_cylinder" type="MeshInstance3D" parent="Props/Propane2/Model" unique_id=427524298]
 visibility_range_end = 38.0
 visibility_range_end_margin = 4.0
 visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_sxi47")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Propane2" unique_id=105896729]
+[node name="Collision" type="CollisionShape3D" parent="Props/Propane2" unique_id=667121972]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.27999997, -0.0025000125)
 shape = SubResource("CylinderShape3D_c1rw4")
 
-[node name="Prop" type="Node" parent="Props/Propane2" unique_id=435683160]
+[node name="Prop" type="Node" parent="Props/Propane2" unique_id=1968385231]
 script = ExtResource("21_eupsf")
 prop_id = &"propane_cylinder"
 grab_class = "medium"
@@ -9573,51 +9573,51 @@ inspect_line = &"ch3_insp_fryer"
 hazard = 2
 tags = PackedStringArray("fryer")
 
-[node name="GardenBanner" parent="Props" unique_id=1858304947 instance=ExtResource("82_10bmw")]
+[node name="GardenBanner" parent="Props" unique_id=2103616645 instance=ExtResource("82_10bmw")]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 23, 3.8, 17.2)
 
-[node name="Model" parent="Props/GardenBanner" unique_id=206046247 instance=ExtResource("83_6jaqe")]
+[node name="Model" parent="Props/GardenBanner" unique_id=1879817651 instance=ExtResource("83_6jaqe")]
 
-[node name="sale_banner" type="MeshInstance3D" parent="Props/GardenBanner/Model" unique_id=2074179892]
+[node name="sale_banner" type="MeshInstance3D" parent="Props/GardenBanner/Model" unique_id=727894659]
 mesh = SubResource("ArrayMesh_kfggk")
 
-[node name="Prop" type="Node" parent="Props/GardenBanner" unique_id=1473924337]
+[node name="Prop" type="Node" parent="Props/GardenBanner" unique_id=2044966051]
 script = ExtResource("21_eupsf")
 prop_id = &"sale_banner"
 inspect_line = &"ch3_insp_banner"
 hazard = 1
 tags = PackedStringArray("chain")
 
-[node name="GardenShelf1" parent="Props" unique_id=721189829 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="GardenShelf1" parent="Props" unique_id=832700681 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 31.5, 0, 12)
 
-[node name="Model" parent="Props/GardenShelf1" unique_id=1181637972 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/GardenShelf1" unique_id=1551134284 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/GardenShelf1/Model" unique_id=1591931994]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/GardenShelf1/Model" unique_id=324753662]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/GardenShelf1" unique_id=1130391208]
+[node name="Collision" type="CollisionShape3D" parent="Props/GardenShelf1" unique_id=129397004]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/GardenShelf1" unique_id=467176125]
+[node name="Prop" type="Node" parent="Props/GardenShelf1" unique_id=1433559525]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
 
-[node name="GardenShelf2" parent="Props" unique_id=816812630 groups=["nav_source"] instance=ExtResource("30_ywb80")]
+[node name="GardenShelf2" parent="Props" unique_id=1112902145 groups=["nav_source"] instance=ExtResource("30_ywb80")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 31.5, 0, 14.05)
 
-[node name="Model" parent="Props/GardenShelf2" unique_id=519671518 instance=ExtResource("31_t0iuw")]
+[node name="Model" parent="Props/GardenShelf2" unique_id=528297879 instance=ExtResource("31_t0iuw")]
 
-[node name="shelving_unit" type="MeshInstance3D" parent="Props/GardenShelf2/Model" unique_id=1297342306]
+[node name="shelving_unit" type="MeshInstance3D" parent="Props/GardenShelf2/Model" unique_id=1462131376]
 mesh = SubResource("ArrayMesh_v0kti")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/GardenShelf2" unique_id=506526396]
+[node name="Collision" type="CollisionShape3D" parent="Props/GardenShelf2" unique_id=286283648]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="Props/GardenShelf2" unique_id=1132712670]
+[node name="Prop" type="Node" parent="Props/GardenShelf2" unique_id=941124426]
 script = ExtResource("21_eupsf")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()
@@ -9643,22 +9643,22 @@ prop_id = &"fire_extinguisher"
 grab_class = "light"
 tags = PackedStringArray()
 
-[node name="Extinguisher2" parent="Props" unique_id=309327728 instance=ExtResource("126_frq14")]
+[node name="Extinguisher2" parent="Props" unique_id=1037695245 instance=ExtResource("126_frq14")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13, 0, 24.5)
 
-[node name="Model" parent="Props/Extinguisher2" unique_id=1727950943 instance=ExtResource("127_3j0oq")]
+[node name="Model" parent="Props/Extinguisher2" unique_id=953600640 instance=ExtResource("127_3j0oq")]
 
-[node name="fire_extinguisher" type="MeshInstance3D" parent="Props/Extinguisher2/Model" unique_id=865261009]
+[node name="fire_extinguisher" type="MeshInstance3D" parent="Props/Extinguisher2/Model" unique_id=668067880]
 visibility_range_end = 38.0
 visibility_range_end_margin = 4.0
 visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_uijbt")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Extinguisher2" unique_id=1295037207]
+[node name="Collision" type="CollisionShape3D" parent="Props/Extinguisher2" unique_id=1477746045]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.019594051, 0.2575, -0.004999995)
 shape = SubResource("CylinderShape3D_ovwcg")
 
-[node name="Prop" type="Node" parent="Props/Extinguisher2" unique_id=2065316001]
+[node name="Prop" type="Node" parent="Props/Extinguisher2" unique_id=1327405945]
 script = ExtResource("21_eupsf")
 prop_id = &"fire_extinguisher"
 grab_class = "light"
@@ -9727,22 +9727,22 @@ prop_id = &"crate"
 grab_class = "medium"
 tags = PackedStringArray()
 
-[node name="Crate2" parent="Props" unique_id=1690207800 instance=ExtResource("132_glgws")]
+[node name="Crate2" parent="Props" unique_id=799585376 instance=ExtResource("132_glgws")]
 transform = Transform3D(0.49999997, 0, 0.86602545, 0, 1, 0, -0.86602545, 0, 0.49999997, -6, 0.6, 8)
 
-[node name="Model" parent="Props/Crate2" unique_id=579039327 instance=ExtResource("133_xn3f0")]
+[node name="Model" parent="Props/Crate2" unique_id=1623202285 instance=ExtResource("133_xn3f0")]
 
-[node name="crate" type="MeshInstance3D" parent="Props/Crate2/Model" unique_id=1917407002]
+[node name="crate" type="MeshInstance3D" parent="Props/Crate2/Model" unique_id=476717009]
 visibility_range_end = 38.0
 visibility_range_end_margin = 4.0
 visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_ye3sv")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Crate2" unique_id=1269400837]
+[node name="Collision" type="CollisionShape3D" parent="Props/Crate2" unique_id=912213023]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.3, 0)
 shape = SubResource("BoxShape3D_dk4ct")
 
-[node name="Prop" type="Node" parent="Props/Crate2" unique_id=760343848]
+[node name="Prop" type="Node" parent="Props/Crate2" unique_id=1286143468]
 script = ExtResource("21_eupsf")
 prop_id = &"crate"
 grab_class = "medium"
@@ -9769,9 +9769,9 @@ prop_id = &"shoe"
 grab_class = "light"
 tags = PackedStringArray()
 
-[node name="Lights" type="Node3D" parent="." unique_id=1911483175]
+[node name="Lights" type="Node3D" parent="." unique_id=82082231]
 
-[node name="Tube_-24_-18" type="OmniLight3D" parent="Lights" unique_id=1817930581 groups=["level_lights"]]
+[node name="Tube_-24_-18" type="OmniLight3D" parent="Lights" unique_id=70209686 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -24, 6.9, -18)
 light_color = Color(1, 1, 0.97, 1)
 light_energy = 5.5
@@ -9782,7 +9782,7 @@ omni_range = 17.0
 omni_attenuation = 1.3
 metadata/wants_shadow = false
 
-[node name="Tube_-24_-6" type="OmniLight3D" parent="Lights" unique_id=1275503213 groups=["level_lights"]]
+[node name="Tube_-24_-6" type="OmniLight3D" parent="Lights" unique_id=1428985102 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -24, 6.9, -6)
 light_color = Color(1, 1, 0.97, 1)
 light_energy = 5.5
@@ -9793,7 +9793,7 @@ omni_range = 17.0
 omni_attenuation = 1.3
 metadata/wants_shadow = false
 
-[node name="Tube_-24_6" type="OmniLight3D" parent="Lights" unique_id=702602975 groups=["level_lights"]]
+[node name="Tube_-24_6" type="OmniLight3D" parent="Lights" unique_id=1596894635 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -24, 6.9, 6)
 light_color = Color(1, 1, 0.97, 1)
 light_energy = 5.5
@@ -9804,7 +9804,7 @@ omni_range = 17.0
 omni_attenuation = 1.3
 metadata/wants_shadow = false
 
-[node name="Tube_-24_18" type="OmniLight3D" parent="Lights" unique_id=463182133 groups=["level_lights"]]
+[node name="Tube_-24_18" type="OmniLight3D" parent="Lights" unique_id=2138708727 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -24, 6.9, 18)
 light_color = Color(1, 1, 0.97, 1)
 light_energy = 5.5
@@ -9815,7 +9815,7 @@ omni_range = 17.0
 omni_attenuation = 1.3
 metadata/wants_shadow = false
 
-[node name="Tube_-8_-18" type="OmniLight3D" parent="Lights" unique_id=563569951 groups=["level_lights"]]
+[node name="Tube_-8_-18" type="OmniLight3D" parent="Lights" unique_id=1681670135 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -8, 6.9, -18)
 light_color = Color(1, 1, 0.97, 1)
 light_energy = 5.5
@@ -9826,7 +9826,7 @@ omni_range = 17.0
 omni_attenuation = 1.3
 metadata/wants_shadow = false
 
-[node name="Tube_-8_-6" type="OmniLight3D" parent="Lights" unique_id=219823491 groups=["level_lights"]]
+[node name="Tube_-8_-6" type="OmniLight3D" parent="Lights" unique_id=362485224 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -8, 6.9, -6)
 light_color = Color(1, 1, 0.97, 1)
 light_energy = 5.5
@@ -9837,7 +9837,7 @@ omni_range = 17.0
 omni_attenuation = 1.3
 metadata/wants_shadow = false
 
-[node name="Tube_-8_6" type="OmniLight3D" parent="Lights" unique_id=1038672569 groups=["level_lights"]]
+[node name="Tube_-8_6" type="OmniLight3D" parent="Lights" unique_id=248438215 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -8, 6.9, 6)
 light_color = Color(1, 1, 0.97, 1)
 light_energy = 5.5
@@ -9848,7 +9848,7 @@ omni_range = 17.0
 omni_attenuation = 1.3
 metadata/wants_shadow = false
 
-[node name="Tube_-8_18" type="OmniLight3D" parent="Lights" unique_id=1059608380 groups=["level_lights"]]
+[node name="Tube_-8_18" type="OmniLight3D" parent="Lights" unique_id=374591021 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -8, 6.9, 18)
 light_color = Color(1, 1, 0.97, 1)
 light_energy = 5.5
@@ -9859,7 +9859,7 @@ omni_range = 17.0
 omni_attenuation = 1.3
 metadata/wants_shadow = false
 
-[node name="Tube_8_-18" type="OmniLight3D" parent="Lights" unique_id=180495504 groups=["level_lights"]]
+[node name="Tube_8_-18" type="OmniLight3D" parent="Lights" unique_id=280655206 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 8, 6.9, -18)
 light_color = Color(1, 1, 0.97, 1)
 light_energy = 5.5
@@ -9870,7 +9870,7 @@ omni_range = 17.0
 omni_attenuation = 1.3
 metadata/wants_shadow = false
 
-[node name="Tube_8_-6" type="OmniLight3D" parent="Lights" unique_id=879805350 groups=["level_lights"]]
+[node name="Tube_8_-6" type="OmniLight3D" parent="Lights" unique_id=2078233784 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 8, 6.9, -6)
 light_color = Color(1, 1, 0.97, 1)
 light_energy = 5.5
@@ -9881,7 +9881,7 @@ omni_range = 17.0
 omni_attenuation = 1.3
 metadata/wants_shadow = false
 
-[node name="Tube_8_6" type="OmniLight3D" parent="Lights" unique_id=542390149 groups=["level_lights"]]
+[node name="Tube_8_6" type="OmniLight3D" parent="Lights" unique_id=1893521367 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 8, 6.9, 6)
 light_color = Color(1, 1, 0.97, 1)
 light_energy = 5.5
@@ -9892,7 +9892,7 @@ omni_range = 17.0
 omni_attenuation = 1.3
 metadata/wants_shadow = false
 
-[node name="Tube_8_18" type="OmniLight3D" parent="Lights" unique_id=325161658 groups=["level_lights"]]
+[node name="Tube_8_18" type="OmniLight3D" parent="Lights" unique_id=1227836599 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 8, 6.9, 18)
 light_color = Color(1, 1, 0.97, 1)
 light_energy = 5.5
@@ -9903,7 +9903,7 @@ omni_range = 17.0
 omni_attenuation = 1.3
 metadata/wants_shadow = false
 
-[node name="Tube_24_-18" type="OmniLight3D" parent="Lights" unique_id=863905026 groups=["level_lights"]]
+[node name="Tube_24_-18" type="OmniLight3D" parent="Lights" unique_id=566274399 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 24, 6.9, -18)
 light_color = Color(1, 1, 0.97, 1)
 light_energy = 5.5
@@ -9914,7 +9914,7 @@ omni_range = 17.0
 omni_attenuation = 1.3
 metadata/wants_shadow = false
 
-[node name="Tube_24_-6" type="OmniLight3D" parent="Lights" unique_id=646097192 groups=["level_lights"]]
+[node name="Tube_24_-6" type="OmniLight3D" parent="Lights" unique_id=1451853843 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 24, 6.9, -6)
 light_color = Color(1, 1, 0.97, 1)
 light_energy = 5.5
@@ -9925,7 +9925,7 @@ omni_range = 17.0
 omni_attenuation = 1.3
 metadata/wants_shadow = false
 
-[node name="Tube_24_6" type="OmniLight3D" parent="Lights" unique_id=1973624338 groups=["level_lights"]]
+[node name="Tube_24_6" type="OmniLight3D" parent="Lights" unique_id=376041507 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 24, 6.9, 6)
 light_color = Color(1, 1, 0.97, 1)
 light_energy = 5.5
@@ -9936,7 +9936,7 @@ omni_range = 17.0
 omni_attenuation = 1.3
 metadata/wants_shadow = false
 
-[node name="Tube_24_18" type="OmniLight3D" parent="Lights" unique_id=1148029701 groups=["level_lights"]]
+[node name="Tube_24_18" type="OmniLight3D" parent="Lights" unique_id=384741057 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 24, 6.9, 18)
 light_color = Color(1, 1, 0.97, 1)
 light_energy = 5.5
@@ -9947,7 +9947,7 @@ omni_range = 17.0
 omni_attenuation = 1.3
 metadata/wants_shadow = false
 
-[node name="ToolSpot" type="SpotLight3D" parent="Lights" unique_id=1669579446 groups=["level_lights"]]
+[node name="ToolSpot" type="SpotLight3D" parent="Lights" unique_id=1078400284 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0.5, 6.8, -8)
 light_color = Color(1, 0.92, 0.8, 1)
 light_energy = 3.0
@@ -9959,7 +9959,7 @@ spot_attenuation = 0.8
 spot_angle = 55.0
 metadata/wants_shadow = true
 
-[node name="GardenLight" type="OmniLight3D" parent="Lights" unique_id=79391400 groups=["level_lights"]]
+[node name="GardenLight" type="OmniLight3D" parent="Lights" unique_id=1317329197 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 22, 5.5, 6)
 light_color = Color(0.9, 1, 0.85, 1)
 light_energy = 3.0
@@ -9970,7 +9970,7 @@ omni_range = 16.0
 omni_attenuation = 1.3
 metadata/wants_shadow = true
 
-[node name="FrontLight" type="OmniLight3D" parent="Lights" unique_id=515645146 groups=["level_lights"]]
+[node name="FrontLight" type="OmniLight3D" parent="Lights" unique_id=826209957 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 3.2, 30)
 light_color = Color(1, 0.9, 0.7, 1)
 light_energy = 2.0
@@ -9980,7 +9980,7 @@ omni_range = 10.0
 omni_attenuation = 1.3
 metadata/wants_shadow = false
 
-[node name="Moon" type="DirectionalLight3D" parent="Lights" unique_id=62601852 groups=["graphics_directional"]]
+[node name="Moon" type="DirectionalLight3D" parent="Lights" unique_id=289946913 groups=["graphics_directional"]]
 transform = Transform3D(0.9396926, -0.26200262, 0.21984631, 0, 0.64278764, 0.76604444, -0.34202012, -0.7198463, 0.6040228, 0, 30, 60)
 light_color = Color(0.55, 0.65, 0.95, 1)
 light_energy = 0.4
@@ -9989,7 +9989,7 @@ shadow_normal_bias = 1.2
 directional_shadow_max_distance = 80.0
 metadata/wants_shadow = false
 
-[node name="LotLamp_-40" type="OmniLight3D" parent="Lights" unique_id=95267932 groups=["level_lights"]]
+[node name="LotLamp_-40" type="OmniLight3D" parent="Lights" unique_id=1624168552 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -40, 7.5, 36)
 light_color = Color(1, 0.85, 0.6, 1)
 light_energy = 4.5
@@ -9999,7 +9999,7 @@ omni_range = 26.0
 omni_attenuation = 1.3
 metadata/wants_shadow = false
 
-[node name="LotLamp_-14" type="OmniLight3D" parent="Lights" unique_id=1609463504 groups=["level_lights"]]
+[node name="LotLamp_-14" type="OmniLight3D" parent="Lights" unique_id=487636841 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -14, 7.5, 36)
 light_color = Color(1, 0.85, 0.6, 1)
 light_energy = 4.5
@@ -10009,7 +10009,7 @@ omni_range = 26.0
 omni_attenuation = 1.3
 metadata/wants_shadow = false
 
-[node name="LotLamp_14" type="OmniLight3D" parent="Lights" unique_id=2077915842 groups=["level_lights"]]
+[node name="LotLamp_14" type="OmniLight3D" parent="Lights" unique_id=925666944 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 14, 7.5, 36)
 light_color = Color(1, 0.85, 0.6, 1)
 light_energy = 4.5
@@ -10019,7 +10019,7 @@ omni_range = 26.0
 omni_attenuation = 1.3
 metadata/wants_shadow = false
 
-[node name="LotLamp_40" type="OmniLight3D" parent="Lights" unique_id=724985449 groups=["level_lights"]]
+[node name="LotLamp_40" type="OmniLight3D" parent="Lights" unique_id=1706795530 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 40, 7.5, 36)
 light_color = Color(1, 0.85, 0.6, 1)
 light_energy = 4.5
@@ -10029,125 +10029,125 @@ omni_range = 26.0
 omni_attenuation = 1.3
 metadata/wants_shadow = false
 
-[node name="Markers" type="Node3D" parent="." unique_id=1602245719]
+[node name="Markers" type="Node3D" parent="." unique_id=94235339]
 
-[node name="BannerPostA" type="Marker3D" parent="Markers" unique_id=1013942362]
+[node name="BannerPostA" type="Marker3D" parent="Markers" unique_id=1742155037]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.1, 4.7, -1.6)
 
-[node name="BannerPostB" type="Marker3D" parent="Markers" unique_id=10248061]
+[node name="BannerPostB" type="Marker3D" parent="Markers" unique_id=2116292086]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.9, 4.6, -1.6)
 
-[node name="PlayerStart" type="Marker3D" parent="Markers" unique_id=1277137537]
+[node name="PlayerStart" type="Marker3D" parent="Markers" unique_id=2075348638]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.05, 60)
 
-[node name="PicklesStart" type="Marker3D" parent="Markers" unique_id=899733777]
+[node name="PicklesStart" type="Marker3D" parent="Markers" unique_id=1933409445]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, 0.05, 61)
 
-[node name="StoreDoor" type="Marker3D" parent="Markers" unique_id=1543483771]
+[node name="StoreDoor" type="Marker3D" parent="Markers" unique_id=143497023]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.05, 27.5)
 
-[node name="BrendaIntro" type="Marker3D" parent="Markers" unique_id=837293657]
+[node name="BrendaIntro" type="Marker3D" parent="Markers" unique_id=1289048803]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0.05, 21.5)
 
-[node name="BrendaPaint" type="Marker3D" parent="Markers" unique_id=204939239]
+[node name="BrendaPaint" type="Marker3D" parent="Markers" unique_id=512604105]
 transform = Transform3D(1.1924881e-08, 0, -1, 0, 1, 0, 1, 0, 1.1924881e-08, -23.4, 0.05, 4)
 
-[node name="BrendaTools" type="Marker3D" parent="Markers" unique_id=410801429]
+[node name="BrendaTools" type="Marker3D" parent="Markers" unique_id=19986810]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 0.05, -8.2)
 
-[node name="BrendaWalkA" type="Marker3D" parent="Markers" unique_id=1553109040]
+[node name="BrendaWalkA" type="Marker3D" parent="Markers" unique_id=243241784]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0.05, -4.5)
 
-[node name="BrendaWalkB" type="Marker3D" parent="Markers" unique_id=560767554]
+[node name="BrendaWalkB" type="Marker3D" parent="Markers" unique_id=1683757331]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.5, 0.05, -1)
 
-[node name="BrendaSlip" type="Marker3D" parent="Markers" unique_id=1035241800]
+[node name="BrendaSlip" type="Marker3D" parent="Markers" unique_id=754044397]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.6, 0.05, 6)
 
-[node name="BrendaGarden" type="Marker3D" parent="Markers" unique_id=323771386]
+[node name="BrendaGarden" type="Marker3D" parent="Markers" unique_id=268447782]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 26, 0.05, 6.4)
 
-[node name="BrendaFinal" type="Marker3D" parent="Markers" unique_id=2061593341]
+[node name="BrendaFinal" type="Marker3D" parent="Markers" unique_id=1483670772]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 26.6, 0.05, 9.4)
 
-[node name="DaleDoor" type="Marker3D" parent="Markers" unique_id=1145859411]
+[node name="DaleDoor" type="Marker3D" parent="Markers" unique_id=1144603443]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0.05, 24.4)
 
-[node name="DaleInside" type="Marker3D" parent="Markers" unique_id=2072757776]
+[node name="DaleInside" type="Marker3D" parent="Markers" unique_id=592939044]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1.5, 0.05, 15)
 
-[node name="CoinStart" type="Marker3D" parent="Markers" unique_id=1066052638]
+[node name="CoinStart" type="Marker3D" parent="Markers" unique_id=1751245705]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9, 1.13, -9.8)
 
-[node name="CoinEnd" type="Marker3D" parent="Markers" unique_id=1608873409]
+[node name="CoinEnd" type="Marker3D" parent="Markers" unique_id=1831333367]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0.03, -10)
 
-[node name="StripSpark" type="Marker3D" parent="Markers" unique_id=1781639456]
+[node name="StripSpark" type="Marker3D" parent="Markers" unique_id=335825629]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.6, 0.1, -10.2)
 
-[node name="CompressorTop" type="Marker3D" parent="Markers" unique_id=1181390178]
+[node name="CompressorTop" type="Marker3D" parent="Markers" unique_id=1405121958]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.6, 1.05, -10.6)
 
-[node name="NailMuzzle" type="Marker3D" parent="Markers" unique_id=363791379]
+[node name="NailMuzzle" type="Marker3D" parent="Markers" unique_id=858785759]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.2, 1.3, -11.8)
 
-[node name="StackTop" type="Marker3D" parent="Markers" unique_id=485346128]
+[node name="StackTop" type="Marker3D" parent="Markers" unique_id=1273252069]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.2, 0.9, -12)
 
-[node name="LadderStart" type="Marker3D" parent="Markers" unique_id=1145117843]
+[node name="LadderStart" type="Marker3D" parent="Markers" unique_id=247091865]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 15.2, 0, -12)
 
-[node name="LadderEnd" type="Marker3D" parent="Markers" unique_id=488242356]
+[node name="LadderEnd" type="Marker3D" parent="Markers" unique_id=525892882]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 15.2, 0, -3.6)
 
-[node name="FanFallTo" type="Marker3D" parent="Markers" unique_id=1841518617]
+[node name="FanFallTo" type="Marker3D" parent="Markers" unique_id=1119128665]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0.05, -2.8)
 
-[node name="TireStart" type="Marker3D" parent="Markers" unique_id=668908435]
+[node name="TireStart" type="Marker3D" parent="Markers" unique_id=1574683321]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19, 1.5, -6)
 
-[node name="TireEnd" type="Marker3D" parent="Markers" unique_id=1644918404]
+[node name="TireEnd" type="Marker3D" parent="Markers" unique_id=1992144175]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.6, 0.34, 0.2)
 
-[node name="HoseWhip" type="Marker3D" parent="Markers" unique_id=1160968928]
+[node name="HoseWhip" type="Marker3D" parent="Markers" unique_id=534715873]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25, 0.5, 1.2)
 
-[node name="SprinklerBurst" type="Marker3D" parent="Markers" unique_id=1659391491]
+[node name="SprinklerBurst" type="Marker3D" parent="Markers" unique_id=213504347]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.6, 0.7, 4.4)
 
-[node name="ForkliftPallet" type="Marker3D" parent="Markers" unique_id=513613858]
+[node name="ForkliftPallet" type="Marker3D" parent="Markers" unique_id=312965280]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 28, 3.3, 8)
 
-[node name="PalletDrop" type="Marker3D" parent="Markers" unique_id=1157163486]
+[node name="PalletDrop" type="Marker3D" parent="Markers" unique_id=498656033]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.2, 0.15, 8.6)
 
-[node name="TripodSpot" type="Marker3D" parent="Markers" unique_id=1702934733]
+[node name="TripodSpot" type="Marker3D" parent="Markers" unique_id=809661197]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0.5, 0.05, -6.9)
 
-[node name="EddieShoot" type="Marker3D" parent="Markers" unique_id=1852514536]
+[node name="EddieShoot" type="Marker3D" parent="Markers" unique_id=1061713431]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0.05, -3.5)
 
-[node name="ExitLot" type="Marker3D" parent="Markers" unique_id=154343149]
+[node name="ExitLot" type="Marker3D" parent="Markers" unique_id=1451012325]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0.05, 44)
 
-[node name="CornDogSpot" type="Marker3D" parent="Markers" unique_id=1175322459]
+[node name="CornDogSpot" type="Marker3D" parent="Markers" unique_id=1762168320]
 transform = Transform3D(-0.34202006, 0, -0.9396927, 0, 1, 0, 0.9396927, 0, -0.34202006, 19, 0.05, 3.6)
 
-[node name="OilSpot" type="Marker3D" parent="Markers" unique_id=1796849266]
+[node name="OilSpot" type="Marker3D" parent="Markers" unique_id=1093247992]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.6, 0.03, 4.6)
 
-[node name="BannerLow" type="Marker3D" parent="Markers" unique_id=98274832]
+[node name="BannerLow" type="Marker3D" parent="Markers" unique_id=1402082638]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.5, 1.2, -1.6)
 
-[node name="HandlePivot" type="Marker3D" parent="Markers" unique_id=1831161117]
+[node name="HandlePivot" type="Marker3D" parent="Markers" unique_id=1724389422]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27, 1.05, 7)
 
-[node name="PaintStackSafe" type="Marker3D" parent="Markers" unique_id=1334904514]
+[node name="PaintStackSafe" type="Marker3D" parent="Markers" unique_id=694940895]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0.05, -18)
 
-[node name="Zones" type="Node3D" parent="." unique_id=1314534273]
+[node name="Zones" type="Node3D" parent="." unique_id=112312362]
 
-[node name="StoreReverb" type="Area3D" parent="Zones" unique_id=1056689112]
+[node name="StoreReverb" type="Area3D" parent="Zones" unique_id=1260947263]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.25, 0)
 collision_layer = 0
 collision_mask = 0
@@ -10156,10 +10156,10 @@ reverb_bus_name = &"RevLarge"
 reverb_bus_amount = 0.45
 reverb_bus_uniformity = 0.6
 
-[node name="@CollisionShape3D@557" type="CollisionShape3D" parent="Zones/StoreReverb" unique_id=684010484]
+[node name="@CollisionShape3D@557" type="CollisionShape3D" parent="Zones/StoreReverb" unique_id=1319694781]
 shape = SubResource("BoxShape3D_3kecj")
 
-[node name="LotReverb" type="Area3D" parent="Zones" unique_id=1661179932]
+[node name="LotReverb" type="Area3D" parent="Zones" unique_id=1526509706]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 9.75, 58.3)
 collision_layer = 0
 collision_mask = 0
@@ -10168,40 +10168,40 @@ reverb_bus_name = &"RevOutdoor"
 reverb_bus_amount = 0.2
 reverb_bus_uniformity = 0.6
 
-[node name="@CollisionShape3D@558" type="CollisionShape3D" parent="Zones/LotReverb" unique_id=130411306]
+[node name="@CollisionShape3D@558" type="CollisionShape3D" parent="Zones/LotReverb" unique_id=1361071893]
 shape = SubResource("BoxShape3D_abbne")
 
-[node name="@ReflectionProbe@559" type="ReflectionProbe" parent="." unique_id=966021108]
+[node name="@ReflectionProbe@559" type="ReflectionProbe" parent="." unique_id=743012605]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 4.25, 0)
 intensity = 0.9
 size = Vector3(32, 8.5, 52)
 box_projection = true
 interior = true
 
-[node name="@ReflectionProbe@560" type="ReflectionProbe" parent="." unique_id=1072824687]
+[node name="@ReflectionProbe@560" type="ReflectionProbe" parent="." unique_id=1049819568]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 4.25, 0)
 intensity = 0.9
 size = Vector3(32, 8.5, 52)
 box_projection = true
 interior = true
 
-[node name="@OccluderInstance3D@561" type="OccluderInstance3D" parent="." unique_id=250129551]
+[node name="@OccluderInstance3D@561" type="OccluderInstance3D" parent="." unique_id=1666421139]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.3, 4.25, 0)
 occluder = SubResource("BoxOccluder3D_unxtg")
 
-[node name="@OccluderInstance3D@562" type="OccluderInstance3D" parent="." unique_id=1383625001]
+[node name="@OccluderInstance3D@562" type="OccluderInstance3D" parent="." unique_id=589640205]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.3, 4.25, 0)
 occluder = SubResource("BoxOccluder3D_k0d7k")
 
-[node name="@OccluderInstance3D@563" type="OccluderInstance3D" parent="." unique_id=55901760]
+[node name="@OccluderInstance3D@563" type="OccluderInstance3D" parent="." unique_id=260251388]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.25, -26.3)
 occluder = SubResource("BoxOccluder3D_jwmxf")
 
-[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1395388833 groups=["world_environment"]]
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=180426382 groups=["world_environment"]]
 environment = SubResource("Environment_10f4c")
 camera_attributes = SubResource("CameraAttributesPractical_bh68v")
 
-[node name="Navigation" type="NavigationRegion3D" parent="." unique_id=1409227746]
+[node name="Navigation" type="NavigationRegion3D" parent="." unique_id=1300526220]
 navigation_mesh = SubResource("NavigationMesh_vc1lc")
 
 [editable path="Shell"]

@@ -24,7 +24,9 @@ var bus: Node3D
 
 
 func _play(beat: StringName) -> void:
-	if String(beat).begins_with("street"):
+	if beat == &"cctv":
+		await _dev_cctv()
+	elif String(beat).begins_with("street"):
 		await _street()
 	else:
 		await _apartment()
@@ -143,6 +145,17 @@ func _idle_hints() -> void:
 		if t > 45.0:
 			t = 0.0
 			bark("ch8_hint_go" if (tv_done or phone_done) else "ch8_hint_talk")
+
+
+## Developer/QA shortcut (--qa-beat=cctv): jump straight to the security-camera epilogue.
+func _dev_cctv() -> void:
+	bus = prop("Bus")
+	for n in ["SignWordA", "SignWordEnd", "SignWordB"]:
+		freeze_prop(n)
+	if bus is RigidBody3D:
+		(bus as RigidBody3D).freeze = true
+	await begin_player("WalkStart", "PicklesStart", true, 0.0)
+	await _cctv()
 
 
 # ============================================================================ street
@@ -372,6 +385,12 @@ func _cctv() -> void:
 		w.rotation_degrees = Vector3(0, 90, 0)
 	player.visible = false
 	player.global_position = Vector3(44, -20, 0)
+	# parked out of the picture: no gravity (Pickles' out-of-bounds failsafe follows a falling player) and no collisions
+	player.frozen = true
+	player.velocity = Vector3.ZERO
+	player.set_physics_process(false)
+	player.collision_layer = 0
+	player.collision_mask = 0
 	pickles.scripted = true
 	pickles.begin_scripted()
 	pickles.global_position = mkp("CrossMid") + Vector3(0.9, 0, 0.5)
@@ -380,12 +399,12 @@ func _cctv() -> void:
 	var eddie := npc(&"eddie", "CrossMid", {"idle": "idle", "look": false, "node_name": "EddieCctv"})
 	eddie.global_position = mkp("CrossMid")
 	eddie.rotation.y = PI
-	# security camera + overlay
+	# security camera + overlay: the lens frames the crosswalk and the sign in one shot
 	var cam := Camera3D.new()
 	level.add_child(cam)
 	cam.global_position = mkp("CctvCam")
-	cam.fov = 58.0
-	cam.look_at(Vector3(52.0, 1.4, 0.5), Vector3.UP)
+	cam.fov = 62.0
+	cam.look_at(Vector3(53.0, 0.9, 0.0), Vector3.UP)
 	cam.current = true
 	cctv_layer = CanvasLayer.new()
 	cctv_layer.layer = 70
@@ -474,8 +493,8 @@ func _cctv() -> void:
 	pickles.scripted = true
 	pickles.play_anim("trot", 0.1)
 	var walk := create_tween()
-	walk.tween_property(pickles, "global_position", Vector3(59.5, 0, -3.4), 3.0)
-	pickles.face_point(Vector3(60.5, 0, -3.4))
+	walk.tween_property(pickles, "global_position", Vector3(59.5, 0, 3.6), 3.0)
+	pickles.face_point(Vector3(60.5, 0, 3.6))
 	await walk.finished
 	pickles.rotation.y = -PI * 0.5
 	pickles.play_anim("sniff_stand", 0.1)
