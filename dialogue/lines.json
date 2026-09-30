@@ -1,0 +1,2025 @@
+{
+"gen_come_01": {
+"s": "eddie",
+"t": "Pickles, come here, buddy.",
+"d": 1.601,
+"env": "0137734786554236876556665447986432110000",
+"style": ""
+},
+"gen_come_02": {
+"s": "eddie",
+"t": "Pickles. With me.",
+"d": 1.281,
+"env": "01477458975544675357876422110000",
+"style": ""
+},
+"gen_come_03": {
+"s": "eddie",
+"t": "Over here, bud.",
+"d": 1.217,
+"env": "027986664346776534787532110000",
+"style": ""
+},
+"gen_come_04": {
+"s": "eddie",
+"t": "Come on, Pickles. Let's go.",
+"d": 1.793,
+"env": "01479899998533653354443468645533798642210000",
+"style": ""
+},
+"gen_stay_01": {
+"s": "eddie",
+"t": "Stay. Good boy. Stay right there.",
+"d": 2.198,
+"env": "002446898753478534799986444544666556875311366532111000",
+"style": "calm"
+},
+"gen_stay_02": {
+"s": "eddie",
+"t": "Stay, Pickles. Just stay.",
+"d": 1.729,
+"env": "0012479863477446654333467654336886422110000",
+"style": "calm"
+},
+"gen_stay_03": {
+"s": "eddie",
+"t": "Sit. Stay. Look at me. Good.",
+"d": 1.921,
+"env": "001368853444798766677456555542101479985321110000",
+"style": "calm"
+},
+"gen_fetch_01": {
+"s": "eddie",
+"t": "Go on, get it!",
+"d": 1.238,
+"env": "001489998888876534786422221000",
+"style": ""
+},
+"gen_fetch_02": {
+"s": "eddie",
+"t": "Pickles, fetch!",
+"d": 1.195,
+"env": "01477447875432369852123310000",
+"style": ""
+},
+"gen_fetch_03": {
+"s": "eddie",
+"t": "Fetch, buddy!",
+"d": 1.131,
+"env": "0001379644434798654322100000",
+"style": ""
+},
+"gen_goto_01": {
+"s": "eddie",
+"t": "Go on. Over there.",
+"d": 1.366,
+"env": "0137998999997643454443466421100000",
+"style": ""
+},
+"gen_goto_02": {
+"s": "eddie",
+"t": "Pickles, go. Go see.",
+"d": 1.622,
+"env": "0137734776543468998653478655555542110000",
+"style": ""
+},
+"gen_drop_01": {
+"s": "eddie",
+"t": "Drop it. Drop it. Thank you.",
+"d": 1.878,
+"env": "0136899853576324689863355311125876422333211000",
+"style": ""
+},
+"gen_drop_02": {
+"s": "eddie",
+"t": "Pickles, drop it. That is not food.",
+"d": 2.497,
+"env": "01377447876543358998523541000014887666787752222357654321110000",
+"style": "tired"
+},
+"gen_drop_03": {
+"s": "eddie",
+"t": "Give it. Give it here. Good boy.",
+"d": 1.985,
+"env": "0026875565224666532455432100014764347997422110000",
+"style": ""
+},
+"gen_bark_01": {
+"s": "eddie",
+"t": "Speak, Pickles. Go on.",
+"d": 1.643,
+"env": "01243378621147634664333368988875321110000",
+"style": ""
+},
+"gen_bark_02": {
+"s": "eddie",
+"t": "Make some noise, buddy.",
+"d": 1.558,
+"env": "01487456677678999875443323687432110000",
+"style": ""
+},
+"gen_wrong_01": {
+"s": "eddie",
+"t": "Pickles. No. That is not yours.",
+"d": 2.411,
+"env": "013774467754457899864210000268876556777522357987532113431000",
+"style": "tired"
+},
+"gen_wrong_02": {
+"s": "eddie",
+"t": "Pickles, that's a live wire. Do not lick that.",
+"d": 2.561,
+"env": "0136546775557866787777776447887643210000158998535641246531100000",
+"style": "panic"
+},
+"gen_wrong_03": {
+"s": "eddie",
+"t": "Please stop eating that. Please.",
+"d": 2.177,
+"env": "002588777657997323677776678765210001358875432123321000",
+"style": "tired"
+},
+"gen_wrong_04": {
+"s": "eddie",
+"t": "Pickles, why do you have that.",
+"d": 1.707,
+"env": "013773488655534798755565567864345542110000",
+"style": ""
+},
+"gen_miracle_01": {
+"s": "eddie",
+"t": "How.",
+"d": 0.854,
+"env": "001257999876543210000",
+"style": "mumble"
+},
+"gen_miracle_02": {
+"s": "eddie",
+"t": "He's fine. Why is he fine?",
+"d": 1.985,
+"env": "0015788633799987654445898888655432367764321110000",
+"style": "tired"
+},
+"gen_miracle_03": {
+"s": "eddie",
+"t": "That should have killed him. I'm not going to question it.",
+"d": 3.009,
+"env": "003786567776421258986434543221000000014788889743677654324786543344321100000",
+"style": ""
+},
+"gen_miracle_04": {
+"s": "eddie",
+"t": "I've stopped asking how.",
+"d": 1.729,
+"env": "0258866645797312357766435665678875322110000",
+"style": "mumble"
+},
+"gen_haz_01": {
+"s": "eddie",
+"t": "That's fine. I think.",
+"d": 1.473,
+"env": "002688665579998766555642377532111000",
+"style": "mumble"
+},
+"gen_haz_02": {
+"s": "eddie",
+"t": "That doesn't look fine.",
+"d": 1.537,
+"env": "00148973368877645652224676664322211000",
+"style": "mumble"
+},
+"gen_haz_03": {
+"s": "eddie",
+"t": "Not touching that.",
+"d": 1.345,
+"env": "013689852358744566655665321100000",
+"style": ""
+},
+"gen_haz_04": {
+"s": "eddie",
+"t": "I'm going to stand over here instead.",
+"d": 2.198,
+"env": "015898657998765664367776676443224665554553479742110000",
+"style": ""
+},
+"gen_haz_05": {
+"s": "eddie",
+"t": "Everything is a hazard. Everything is a hazard.",
+"d": 3.393,
+"env": "027986685237765556664334688875443321100000002588567633776555566432357787554332111000",
+"style": "tired"
+},
+"gen_haz_06": {
+"s": "eddie",
+"t": "Nothing suspicious. Nothing suspicious at all.",
+"d": 3.307,
+"env": "0136898546765334442268754432121100000014799843566433443225764444335556899753211000",
+"style": "mumble"
+},
+"gen_haz_07": {
+"s": "eddie",
+"t": "If that falls, I'm not standing here.",
+"d": 2.219,
+"env": "0255337974213799986544432467776555446777654333442110000",
+"style": ""
+},
+"gen_ow_01": {
+"s": "eddie",
+"t": "Ow.",
+"d": 0.769,
+"env": "0015899976432100000",
+"style": ""
+},
+"gen_ow_02": {
+"s": "eddie",
+"t": "Ugh. Okay.",
+"d": 1.238,
+"env": "002589985335885323576432111000",
+"style": "tired"
+},
+"gen_ow_03": {
+"s": "eddie",
+"t": "That's fine. I'm fine.",
+"d": 1.601,
+"env": "0037866643788887654566533587654321110000",
+"style": ""
+},
+"gen_save_01": {
+"s": "eddie",
+"t": "I did it. I did it?",
+"d": 1.515,
+"env": "0003797547987763124666434786432111000",
+"style": ""
+},
+"gen_save_02": {
+"s": "eddie",
+"t": "Everyone's okay. Everyone's okay.",
+"d": 2.667,
+"env": "002588568777778863236875321000000279867767776667752223687532110000",
+"style": "sincere"
+},
+"gen_save_03": {
+"s": "eddie",
+"t": "Okay. Okay. That's one.",
+"d": 1.814,
+"env": "026974247986568632466432137885453455432100000",
+"style": ""
+},
+"gen_fail_01": {
+"s": "eddie",
+"t": "No. No no no.",
+"d": 1.153,
+"env": "0258997447888877677643110000",
+"style": "panic"
+},
+"gen_fail_02": {
+"s": "eddie",
+"t": "That's not what I meant. That's not what I meant!",
+"d": 2.497,
+"env": "03774567998768877778886321000000378556688765676666676421110000",
+"style": "panic"
+},
+"gen_fail_03": {
+"s": "eddie",
+"t": "Well. That's one way to do it.",
+"d": 1.942,
+"env": "013689987434786453468876667654443235875321110000",
+"style": "tired"
+},
+"gen_reroute_01": {
+"s": "eddie",
+"t": "I stopped it!",
+"d": 1.089,
+"env": "001588655689963245421100000",
+"style": "excited"
+},
+"gen_reroute_02": {
+"s": "eddie",
+"t": "...Oh no.",
+"d": 1.025,
+"env": "0024458987789986432110000",
+"style": "mumble"
+},
+"gen_reroute_03": {
+"s": "eddie",
+"t": "Wait. Where is that going?",
+"d": 1.409,
+"env": "01489852136887656874236986321110000",
+"style": "panic"
+},
+"gen_reroute_04": {
+"s": "eddie",
+"t": "Nope. Nope. That's worse.",
+"d": 1.515,
+"env": "0136897423689962125653323565322332000",
+"style": "panic"
+},
+"gen_die_01": {
+"s": "eddie",
+"t": "Oh, that's going to hurt.",
+"d": 1.622,
+"env": "0269999864458854433665543432478631111000",
+"style": "mumble"
+},
+"gen_die_02": {
+"s": "eddie",
+"t": "Should have stood somewhere else.",
+"d": 1.729,
+"env": "0013688754323786323576555555567632111110000",
+"style": "tired"
+},
+"gen_die_03": {
+"s": "eddie",
+"t": "Well. That was a plan.",
+"d": 1.515,
+"env": "0136899863478644566311356765421110000",
+"style": "mumble"
+},
+"gen_pet_01": {
+"s": "eddie",
+"t": "Who's a good boy.",
+"d": 1.366,
+"env": "0013687677435885334899864322110000",
+"style": "sincere"
+},
+"gen_pet_02": {
+"s": "eddie",
+"t": "You're an indestructible boy, aren't you.",
+"d": 2.561,
+"env": "0014899754787666424763124445533589987543310147876423333321100000",
+"style": "sincere"
+},
+"gen_pet_03": {
+"s": "eddie",
+"t": "Belly's safe. It's a safe belly.",
+"d": 2.198,
+"env": "002479988764447887531110014644554468863125886432211000",
+"style": "sincere"
+},
+"gen_pet_04": {
+"s": "eddie",
+"t": "I would do anything for you, you know that.",
+"d": 2.582,
+"env": "0001588775478888874356543344435786421000012578899766886321121000",
+"style": "sincere"
+},
+"gen_pet_05": {
+"s": "eddie",
+"t": "Okay. Okay. Enough. You've had enough. You haven't had enough.",
+"d": 3.478,
+"env": "02697425898744686322454210000037999863212444577666776421124445775443356654554211111000",
+"style": ""
+},
+"gen_nope_01": {
+"s": "eddie",
+"t": "Nope. Not doing that.",
+"d": 1.473,
+"env": "013689984112577434666555665421111000",
+"style": ""
+},
+"gen_nope_02": {
+"s": "eddie",
+"t": "No. I'm not touching that. I've learned.",
+"d": 2.475,
+"env": "0136899998656777643456556655555543200000257445799875321111000",
+"style": "tired"
+},
+"gen_locked_01": {
+"s": "eddie",
+"t": "It's locked. Good. Probably good.",
+"d": 2.113,
+"env": "0145555689975211124898642100247765433443356532110000",
+"style": ""
+},
+"gen_heavy_01": {
+"s": "eddie",
+"t": "That's heavy. I'm not built for that.",
+"d": 2.091,
+"env": "0037865645886554321025888886435885222344565421100000",
+"style": ""
+},
+"gen_notyet_01": {
+"s": "eddie",
+"t": "Not yet. I should look around first.",
+"d": 2.283,
+"env": "013689853247998520000257666545764566655422478532243110000",
+"style": ""
+},
+"gen_dogbark_thanks": {
+"s": "eddie",
+"t": "Thank you. Yes. I heard you.",
+"d": 1.793,
+"env": "00148975224665335897555335653468853333211000",
+"style": ""
+},
+"ch1_arrive_01": {
+"s": "eddie",
+"t": "Centennial Transit Center. Nobody calls it that. Everybody calls it Terminus Station.",
+"d": 6.027,
+"env": "002589754689998753247888634542235776323432100000000001368998678764236898555312576532100000000026886676688775324787655631134578776555643565445532110000",
+"style": "dry"
+},
+"ch1_arrive_02": {
+"s": "eddie",
+"t": "\"The last stop you'll ever need.\" That is a threat.",
+"d": 3.581,
+"env": "00367799876665347875212565457656666765321110000000000000000125898987776322358985211110000",
+"style": "dry"
+},
+"ch1_arrive_03": {
+"s": "eddie",
+"t": "Pickles. Do not eat anything off the floor. It's brand new. It hasn't had time to get disgusting yet.",
+"d": 6.507,
+"env": "013773368764333368889974235533578633566667631233223689864211000000002676433589999876678997521100000000000268898776567863244678775433464224665357765334444444210000",
+"style": ""
+},
+"ch1_arrive_04": {
+"s": "eddie",
+"t": "Okay. Platform four. First day. Nothing is going to happen.",
+"d": 4.118,
+"env": "026985236886323797422356653236886431000000114798774368864321000136899644666655346765554457752122110000",
+"style": "calm"
+},
+"ch1_arrive_05": {
+"s": "eddie",
+"t": "Nothing is going to happen.",
+"d": 1.814,
+"env": "012589974366666543479876434443577521332110000",
+"style": "mumble"
+},
+"ch1_pa_01": {
+"s": "pa",
+"t": "The eight fourteen to Riverside will depart from platform four.",
+"d": 4.054,
+"env": "01255589864346899755689874455588677544677666532465454234689864335543367642235543212554332111100000000",
+"style": ""
+},
+"ch1_pa_02": {
+"s": "pa",
+"t": "Please keep your belongings with you at all times.",
+"d": 2.902,
+"env": "001588874334663477678889998887534653356777767777533455433221111100000000",
+"style": ""
+},
+"ch1_pa_03": {
+"s": "pa",
+"t": "Welcome to Centennial Transit Center. The last stop you'll ever need.",
+"d": 4.609,
+"env": "0037998558998655435886435789986433567753344223454333332111002688899997532222588642357764454455554432211110000000000",
+"style": ""
+},
+"ch1_pa_04": {
+"s": "pa",
+"t": "Escalator maintenance is scheduled for later this month. Please use caution.",
+"d": 5.121,
+"env": "01476434689999999988988643466653223442222379753579753237766888877544432245543221110000125776654334542224686443322111100000000000",
+"style": ""
+},
+"ch1_pa_05": {
+"s": "pa",
+"t": "Please do not feed the pigeons. The pigeons are statues.",
+"d": 3.819,
+"env": "00137888874347999999753334687546435653444333211111243258744688765566532367643333322111100000000",
+"style": ""
+},
+"ch1_pa_06": {
+"s": "pa",
+"t": "Passengers are reminded that pets must remain on a leash. Thank you.",
+"d": 4.715,
+"env": "001368974468866899867898789889887766753378532335753235775333577788777776665554333332211000001577532234332211100000000",
+"style": ""
+},
+"ch1_ticket_01": {
+"s": "machine",
+"t": "Please insert exact fare.",
+"d": 2.689,
+"env": "0011379988874213798632479974233224799731111378754221000000000000000",
+"style": ""
+},
+"ch1_ticket_02": {
+"s": "eddie",
+"t": "I don't have exact fare. I have a card. Please accept the card.",
+"d": 4.054,
+"env": "00157899987775457886421223687532110000000137987653235899864322100013687666654567862123235886421110000",
+"style": ""
+},
+"ch1_ticket_03": {
+"s": "machine",
+"t": "Card declined. Please try again.",
+"d": 3.009,
+"env": "012368999844652237999765443210001367766543224788886334432211000000000000000",
+"style": ""
+},
+"ch1_ticket_04": {
+"s": "eddie",
+"t": "It's a brand new machine. It's been open four days.",
+"d": 3.585,
+"env": "02564675347999988777766556654566532110000000003654337864479852355422465346986432111331000",
+"style": "tired"
+},
+"ch1_ticket_05": {
+"s": "machine",
+"t": "Thank you for choosing Centennial Transit. Your journey ends here.",
+"d": 4.587,
+"env": "000279963378546634776898657875225664335789998532479864224431000000000146632589999874246776421234321100000000000000",
+"style": ""
+},
+"ch1_ticket_06": {
+"s": "eddie",
+"t": "It says my journey ends here. That's just the end of the printout. Right.",
+"d": 4.975,
+"env": "0266446799864468875445898764236777543234432110000000000000268865535886346546898775553368864467543321000000012589985311110000",
+"style": "mumble"
+},
+"ch1_ticket_repeat": {
+"s": "eddie",
+"t": "I have the ticket. I should go find the platform.",
+"d": 3.137,
+"env": "001588777984454356763245310000000002688764469974247777765324675322345432110000",
+"style": ""
+},
+"ch1_kid_01": {
+"s": "kid",
+"t": "Excuse me! Is your dog nice?",
+"d": 1.963,
+"env": "0256423697546777645655765799975466543222100000000",
+"style": "bright"
+},
+"ch1_kid_02": {
+"s": "eddie",
+"t": "He's mostly nice. He's very committed to being nice.",
+"d": 3.393,
+"env": "002565468998633455679863112321000000146544799863356668876422333455444568863112331000",
+"style": ""
+},
+"ch1_kid_03": {
+"s": "kid",
+"t": "My ball rolled under the bench. Can he get it?",
+"d": 2.646,
+"env": "014898547999975577665555444346754333322100125675458754432100000000",
+"style": ""
+},
+"ch1_kid_04": {
+"s": "eddie",
+"t": "Maybe. Pickles!",
+"d": 1.809,
+"env": "012589986555432110000000014774588654333110000",
+"style": ""
+},
+"ch1_kid_05": {
+"s": "kid",
+"t": "Thank you! Thank you! You can have my sticker!",
+"d": 2.241,
+"env": "02798536885368863367654555666885578643345434542100000000",
+"style": "excited"
+},
+"ch1_kid_06": {
+"s": "eddie",
+"t": "\"Junior Safety Inspector.\" Thanks. I'll take it under advisement.",
+"d": 4.363,
+"env": "0124689988765578974213555554335873114542110000000000013799754453147974358863247766655664347766665433221000000",
+"style": "dry"
+},
+"ch1_kid_wait_01": {
+"s": "kid",
+"t": "It's under the bench! The bench right there!",
+"d": 2.283,
+"env": "027766888887558976433221354578643478853235554321000000000",
+"style": ""
+},
+"ch1_kid_wait_02": {
+"s": "kid",
+"t": "Pickles can do it. I know he can.",
+"d": 2.113,
+"env": "0148756985336876788885324798787653235665432100000000",
+"style": ""
+},
+"ch1_kid_hint": {
+"s": "eddie",
+"t": "Pickles, fetch. I have to say it out loud, apparently.",
+"d": 3.478,
+"env": "00377347865542379863134420000000379996335667888888775346787776554432235777532222211000",
+"style": ""
+},
+"ch1_kid_done": {
+"s": "kid",
+"t": "Bye, Pickles! Bye, Pickles!",
+"d": 1.814,
+"env": "027999852367446765334798753443454332210000000",
+"style": "bright"
+},
+"ch1_scaffold_01": {
+"s": "eddie",
+"t": "\"Mind your head.\" Good advice. I'm minding it.",
+"d": 3.339,
+"env": "01368998875567643588642111000000000001489974479986445542002677666667776543322110000",
+"style": "dry"
+},
+"ch1_barrier_01": {
+"s": "eddie",
+"t": "Temporary barrier. It's the only thing between me and platform four.",
+"d": 4.417,
+"env": "01468853578887644799976432210000000000256656657999876423666544333566666778754433432368842124544322368753110000",
+"style": ""
+},
+"ch1_barrier_02": {
+"s": "eddie",
+"t": "It's a very short barrier. I can do this.",
+"d": 2.667,
+"env": "025668855899876665689732379987643221000001487446765787543223331000",
+"style": ""
+},
+"ch1_brenda_01": {
+"s": "brenda",
+"t": "Hey, hey! Don't mind me, I'm doing a quick walkthrough of the new station! Wave at the camera!",
+"d": 4.374,
+"env": "0037986458976578667998777667765777631244214797312467644677654556544444442100015897553222245544432100000000000",
+"style": "excited"
+},
+"ch1_brenda_02": {
+"s": "eddie",
+"t": "Hi.",
+"d": 0.79,
+"env": "0013689876543210000",
+"style": ""
+},
+"ch1_brenda_03": {
+"s": "brenda",
+"t": "Love that energy. Okay, so, structural integrity: looks solid. That sculpture? Hangs from six cables. Six! I counted. They're rated way over its weight. Which is great, unless they aren't.",
+"d": 9.238,
+"env": "01379854799899864466541002685347986457875444763245788633564566655652233578766542366323368632345542126897546864553221257754554333335752235642257875454358876799875458998885455322466531001455665225898533566653345544554211100000000000",
+"style": ""
+},
+"ch1_brenda_04": {
+"s": "eddie",
+"t": "Why would you say \"unless they aren't\"?",
+"d": 2.241,
+"env": "01258999776545566688654212578888765335653468864211110000",
+"style": "tired"
+},
+"ch1_brenda_05": {
+"s": "brenda",
+"t": "Content, buddy. It's called tension.",
+"d": 2.219,
+"env": "0037998557864468877755642222478532356543333332000000000",
+"style": "excited"
+},
+"ch1_brenda_repeat_01": {
+"s": "brenda",
+"t": "Is that a dog? Can the dog be in the video? Say yes.",
+"d": 3.115,
+"env": "01454688754799998521124788547999742467665456555554323455444543222221000000000",
+"style": ""
+},
+"ch1_brenda_repeat_02": {
+"s": "brenda",
+"t": "Don't look at the lens. Look meaningfully.",
+"d": 2.305,
+"env": "015886577455467789986554335642477766532344443310000000000",
+"style": ""
+},
+"ch1_dale_01": {
+"s": "dale",
+"t": "You feel it too, don't you. This place opened four days ago and it already has a slogan. Nobody's slogan is that honest. Think about that.",
+"d": 6.934,
+"env": "01232379864468988997546898557753368875347756874247876787544456766556667777655556654454456532322111114788788776655787545643334565335666433321114544577422443210000000000000000",
+"style": ""
+},
+"ch1_dale_02": {
+"s": "eddie",
+"t": "It's a bit ominous.",
+"d": 1.43,
+"env": "02564687568852236798765433233321000",
+"style": ""
+},
+"ch1_dale_03": {
+"s": "dale",
+"t": "It's a CONFESSION.",
+"d": 0.875,
+"env": "014677789855543211000",
+"style": "excited"
+},
+"ch1_dale_repeat_01": {
+"s": "dale",
+"t": "They put the escalators in a line. In a LINE, man.",
+"d": 2.539,
+"env": "011246558998744799887667767776543111367777887766543322100000000",
+"style": ""
+},
+"ch1_dale_repeat_02": {
+"s": "dale",
+"t": "Do not trust the pigeon. The pigeon is a statue. What does that tell you.",
+"d": 3.606,
+"env": "014799632588753454688557887764579855899765554368853344432112566655664224665433321100000000",
+"style": ""
+},
+"ch1_tiffany_01": {
+"s": "tiffany",
+"t": "Hi! Sorry, I'm mid-visualization.",
+"d": 2.347,
+"env": "0013689874213458987654310258999976776566665555433322221000",
+"style": "bright"
+},
+"ch1_tiffany_02": {
+"s": "eddie",
+"t": "Sorry.",
+"d": 0.918,
+"env": "0013458998766432110000",
+"style": ""
+},
+"ch1_tiffany_03": {
+"s": "tiffany",
+"t": "No, it's fine, I'm holding space. I'm Tiffany Vale, Aligned Living? We're doing a pop-up this weekend. You look like you have a lot of stored tension.",
+"d": 8.47,
+"env": "0158999985345443368766665334676446654565432453223443100000000268854566337986578766543114566788987578656665310000014776899985224773255212454334422333233100000000147897336733565665556787543444455422235543332221000",
+"style": "bright"
+},
+"ch1_tiffany_04": {
+"s": "eddie",
+"t": "I have a dog and a first day.",
+"d": 2.006,
+"env": "00147898676447999987643345553235876652367531110000",
+"style": ""
+},
+"ch1_tiffany_05": {
+"s": "tiffany",
+"t": "Beautiful. Both are energy.",
+"d": 1.707,
+"env": "014898863367653127986336876676533333210000",
+"style": "bright"
+},
+"ch1_tiffany_repeat_01": {
+"s": "tiffany",
+"t": "Don't jostle the smoothie. It's a cold-pressed manifestation.",
+"d": 3.627,
+"env": "015898643358987445545544468764333321000001454563223699973125763224666643332356543322221000",
+"style": ""
+},
+"ch1_tiffany_repeat_02": {
+"s": "tiffany",
+"t": "I've never been in danger. I've done the work.",
+"d": 2.539,
+"env": "003786789975765798886577778754433320000367436999876675311110000",
+"style": ""
+},
+"ch1_gus_01": {
+"s": "gus",
+"t": "Railing's loose.",
+"d": 1.494,
+"env": "0025799998877877753357898642222210000",
+"style": "deadpan"
+},
+"ch1_gus_02": {
+"s": "eddie",
+"t": "Is it?",
+"d": 0.833,
+"env": "01479867885211110000",
+"style": ""
+},
+"ch1_gus_03": {
+"s": "gus",
+"t": "Was. I tightened it.",
+"d": 1.771,
+"env": "00258999853468862123468876323787666421110000",
+"style": "deadpan"
+},
+"ch1_gus_04": {
+"s": "eddie",
+"t": "You brought a wrench to a train station?",
+"d": 2.113,
+"env": "0135655899997689754432355423677665443565434432111000",
+"style": ""
+},
+"ch1_gus_05": {
+"s": "gus",
+"t": "Forty-one years. Never leave the house without a wrench.",
+"d": 4.289,
+"env": "00011379999878876678877776789864322222000001479998647876678777423654357875433245436876565457775421123221000",
+"style": "deadpan"
+},
+"ch1_gus_repeat_01": {
+"s": "gus",
+"t": "Exit's behind you. Always know where the exit is.",
+"d": 4.459,
+"env": "013688654447862122114775446898888644554321100000015899877898744689998876557876567521576443335642256542222211000",
+"style": "deadpan"
+},
+"ch1_gus_repeat_02": {
+"s": "gus",
+"t": "That cart's not braked properly.",
+"d": 2.582,
+"env": "0135897521235799874223468986533589852110125787642256555443211000",
+"style": "deadpan"
+},
+"ch1_ml_01": {
+"s": "marco",
+"t": "That's the third time you've made us miss a train.",
+"d": 2.582,
+"env": "0148853236743799874578888887789888776447875553347987532100000000",
+"style": ""
+},
+"ch1_ml_02": {
+"s": "luis",
+"t": "The first one doesn't count! The clock was wrong!",
+"d": 2.625,
+"env": "01113798633688777666522354321110013323688631244345553321100000000",
+"style": "shout"
+},
+"ch1_ml_03": {
+"s": "marco",
+"t": "It was a train station clock, Luis!",
+"d": 2.219,
+"env": "0258998874458888853368865677557997446898753222210000000",
+"style": "shout"
+},
+"ch1_ml_04": {
+"s": "luis",
+"t": "It was a decorative clock!",
+"d": 1.835,
+"env": "015788898644797335434542112588643111100000000",
+"style": "shout"
+},
+"ch1_ml_05": {
+"s": "eddie",
+"t": "Okay. I'll leave you to it.",
+"d": 1.771,
+"env": "02698423689864236986556765434434554332100000",
+"style": ""
+},
+"ch1_ml_repeat_01": {
+"s": "marco",
+"t": "Don't get involved. He's wrong.",
+"d": 1.857,
+"env": "0158865788988887887654357766899865543210000000",
+"style": ""
+},
+"ch1_ml_repeat_02": {
+"s": "luis",
+"t": "I'm not wrong! Tell him I'm not wrong!",
+"d": 2.326,
+"env": "0136899974368997532125767777765566665421134322111000000000",
+"style": "shout"
+},
+"ch1_mills_01": {
+"s": "mills",
+"t": "Morning. Dogs on a leash, please. Pilot program. Don't make me regret it.",
+"d": 4.417,
+"env": "00258999987558999755776666765432124665443222210013688875212588643454443355434532454432357643210000000000000000",
+"style": ""
+},
+"ch1_mills_02": {
+"s": "eddie",
+"t": "He's very well behaved.",
+"d": 1.686,
+"env": "002566534799997556786434433576532111110000",
+"style": ""
+},
+"ch1_mills_03": {
+"s": "mills",
+"t": "That's what everybody says right before something gets peed on.",
+"d": 3.99,
+"env": "001488423588678878867887764357864335789863113323554456642356644553221125655555433221100000000000000",
+"style": "deadpan"
+},
+"ch1_mills_04": {
+"s": "eddie",
+"t": "That's fair.",
+"d": 1.025,
+"env": "0137874442379865332110000",
+"style": ""
+},
+"ch1_mills_repeat_01": {
+"s": "mills",
+"t": "Move along, sir.",
+"d": 1.686,
+"env": "001479997678778998766432234543211000000000",
+"style": ""
+},
+"ch1_insp_sculpture": {
+"s": "eddie",
+"t": "Six cables. That's a lot of cables to trust.",
+"d": 3.009,
+"env": "001246763332489975443221000001587457878887522478754543223322478632222110000",
+"style": "mumble"
+},
+"ch1_insp_escalator": {
+"s": "eddie",
+"t": "An escalator. Steps that move on their own. Who thought of this.",
+"d": 3.777,
+"env": "0158743687634787775432110000144479633347854689976777667667899753221124532137987632243223432100",
+"style": "mumble"
+},
+"ch1_insp_cart": {
+"s": "eddie",
+"t": "Baggage cart. The brake's on. Probably.",
+"d": 2.731,
+"env": "00258986555542368864200001455689853578887654432113677755423332110000",
+"style": "mumble"
+},
+"ch1_insp_scrub": {
+"s": "eddie",
+"t": "A little robot floor cleaner. It looks so proud.",
+"d": 3.201,
+"env": "02567888755899866875322235786322467653211000000157557646778863113688753211110000",
+"style": ""
+},
+"ch1_insp_smoothie": {
+"s": "eddie",
+"t": "Juice Junction. A place where things get blended. Nothing bad about that.",
+"d": 4.523,
+"env": "00258876532589875555421100000002652379987546742367765347842236899976442110000147996446765689987655654212453210000",
+"style": ""
+},
+"ch1_insp_sign": {
+"s": "eddie",
+"t": "Wet floor sign. Somebody cares about the floor.",
+"d": 3.243,
+"env": "014797312258999766667765322110000001368997788643235888765554553222224788632110000",
+"style": ""
+},
+"ch1_insp_panel": {
+"s": "eddie",
+"t": "Electrical panel. I'd rather not know.",
+"d": 2.881,
+"env": "002688897325643465324688764321000000027975589988888876434789985321100000",
+"style": "mumble"
+},
+"ch1_insp_skylink": {
+"s": "eddie",
+"t": "The SkyLink. A train on a shelf.",
+"d": 2.347,
+"env": "0025644799987676531100014753346887776655444458864211100000",
+"style": ""
+},
+"ch1_insp_ceiling": {
+"s": "eddie",
+"t": "That is a lot of ceiling.",
+"d": 1.622,
+"env": "0014798645678767998764454456654321110000",
+"style": "mumble"
+},
+"ch1_insp_pigeon": {
+"s": "eddie",
+"t": "A pigeon statue. Very lifelike. Suspiciously lifelike.",
+"d": 3.798,
+"env": "0132379755776544787533333210000125899998899874235653211234553127865554323555567764223432100000",
+"style": ""
+},
+"ch1_insp_clock": {
+"s": "eddie",
+"t": "A decorative clock. It says ten past never.",
+"d": 3.115,
+"env": "01455787325545763224799742100000001365468875324688764346666543236777533211000",
+"style": "dry"
+},
+"ch1_insp_bench": {
+"s": "eddie",
+"t": "A bench. Solid. Thank you.",
+"d": 1.793,
+"env": "02555899864444457888765431113776411233210000",
+"style": ""
+},
+"ch1_insp_handle": {
+"s": "eddie",
+"t": "A red emergency handle. In case of emergency, pull. Not an emergency. Yet.",
+"d": 5.675,
+"env": "026865899866566777544544444334566543221100000000014664478766656666898545543444332101379853210000013799866666668975444334432211000258863100000",
+"style": "mumble"
+},
+"ch1_insp_train": {
+"s": "eddie",
+"t": "The eight fourteen. It's big. It's on time. I love that for us.",
+"d": 3.755,
+"env": "012578973213797423443210000014654324799852123456766544678764432257656898535764211244322342100",
+"style": ""
+},
+"ch1_insp_luggage": {
+"s": "eddie",
+"t": "Somebody's suitcase. Somebody trusts the floor.",
+"d": 3.009,
+"env": "001379977886654457752124532222100000024897788753247853211243125898532110000",
+"style": ""
+},
+"ch1_insp_map": {
+"s": "eddie",
+"t": "You are here. That's comforting, honestly.",
+"d": 2.326,
+"env": "0136899842368975310037864533588533455543468766542232110000",
+"style": ""
+},
+"ch1_prem_01": {
+"s": "eddie",
+"t": "The cup.",
+"d": 0.961,
+"env": "001477435898742112100000",
+"style": "whisper"
+},
+"ch1_prem_02": {
+"s": "crowd",
+"t": "Look out!",
+"d": 0.939,
+"env": "01589766898876433210000",
+"style": "shout"
+},
+"ch1_prem_03": {
+"s": "stranger",
+"t": "The escalator's stuck!",
+"d": 1.259,
+"env": "0257898634799876654357742100000",
+"style": "panic"
+},
+"ch1_prem_04": {
+"s": "stranger",
+"t": "Somebody stop the cart!",
+"d": 1.409,
+"env": "00248999876544688523434676532210000",
+"style": "panic"
+},
+"ch1_prem_05": {
+"s": "crowd",
+"t": "Everybody get down!",
+"d": 1.473,
+"env": "026877876898776676325887654443310000",
+"style": "shout"
+},
+"ch1_prem_06": {
+"s": "eddie",
+"t": "Pickles!",
+"d": 0.79,
+"env": "0269756887543210000",
+"style": "panic"
+},
+"ch1_snap_01": {
+"s": "eddie",
+"t": "Oh no. Oh no no no.",
+"d": 1.537,
+"env": "00279877899974347776667666665421100000",
+"style": "panic"
+},
+"ch1_snap_02": {
+"s": "eddie",
+"t": "Everybody out! Everybody get out of here!",
+"d": 2.561,
+"env": "0267567657887778998642100000269867766887654478877643345432100000",
+"style": "shout"
+},
+"ch1_snap_03": {
+"s": "eddie",
+"t": "I saw it. I saw all of it. The cup. The cart. The ceiling.",
+"d": 3.201,
+"env": "01466668999865566556886578886443113323685200000014434789874212345445665321100000",
+"style": "panic"
+},
+"ch1_panic_hint": {
+"s": "eddie",
+"t": "I need to get people out. Now.",
+"d": 1.985,
+"env": "0014898666458721355435789986311100147998642110000",
+"style": "panic"
+},
+"ch1_panic_grabcup": {
+"s": "eddie",
+"t": "Sorry! Sorry about the smoothie!",
+"d": 1.814,
+"env": "001479999875444589988887763235556887532210000",
+"style": "panic"
+},
+"ch1_panic_grabcup_reply": {
+"s": "tiffany",
+"t": "Excuse me?! That was a thirty-two dollar manifestation!",
+"d": 3.158,
+"env": "024434335885446654210000268767776202799887346878988777766642343356433322221000",
+"style": "shout"
+},
+"ch1_panic_alarm": {
+"s": "eddie",
+"t": "I'm sorry. I'm so sorry.",
+"d": 1.686,
+"env": "025775458999875445664357644457775421100000",
+"style": "panic"
+},
+"ch1_panic_alarm_pa": {
+"s": "pa",
+"t": "Fire alarm activated. Please proceed to the nearest exit.",
+"d": 4.225,
+"env": "002699999998888999998765675323445665333211110112578774223542235666532334666666653223443212321111000000000",
+"style": ""
+},
+"ch1_panic_cart": {
+"s": "eddie",
+"t": "Nobody touch the cart! Nobody go near the cart!",
+"d": 2.923,
+"env": "0147997677643467646533235897421100000015898677654477777754333577421000000",
+"style": "panic"
+},
+"ch1_panic_stranger_01": {
+"s": "stranger",
+"t": "Is he okay?",
+"d": 1.067,
+"env": "01588655789852357665431000",
+"style": ""
+},
+"ch1_panic_stranger_02": {
+"s": "stranger",
+"t": "Sir, please calm down.",
+"d": 1.451,
+"env": "013688633688864236898777887655431000",
+"style": ""
+},
+"ch1_panic_stranger_03": {
+"s": "crowd",
+"t": "Is this a drill?",
+"d": 1.366,
+"env": "0158866887546876578987654433210000",
+"style": ""
+},
+"ch1_warn_brenda_01": {
+"s": "eddie",
+"t": "You have to leave. Now. The sculpture, the escalator, all of it.",
+"d": 3.606,
+"env": "014788633676688765432100136899853110000001478657974246765555567654566766555446997642210000",
+"style": "panic"
+},
+"ch1_warn_brenda_02": {
+"s": "brenda",
+"t": "Is this a bit? Tell me it's a bit.",
+"d": 2.006,
+"env": "02554687557656897421135898875334455542111000000000",
+"style": "excited"
+},
+"ch1_warn_brenda_03": {
+"s": "eddie",
+"t": "It's not a bit!",
+"d": 1.089,
+"env": "024556689998864577411000000",
+"style": "panic"
+},
+"ch1_warn_brenda_04": {
+"s": "brenda",
+"t": "Then I'm rolling.",
+"d": 1.43,
+"env": "01589889998767998755444321000000000",
+"style": "excited"
+},
+"ch1_warn_dale_01": {
+"s": "eddie",
+"t": "Something's going to happen here. In the next few minutes.",
+"d": 2.987,
+"env": "01258863367643479976665578534433344321000001368988974343224666643111232100",
+"style": "panic"
+},
+"ch1_warn_dale_02": {
+"s": "dale",
+"t": "I KNEW it. I knew it! What is it? The tower? I'll get my sign.",
+"d": 2.283,
+"env": "013689988999985468755422334788765543344544433221100000000",
+"style": "excited"
+},
+"ch1_warn_tiffany_01": {
+"s": "eddie",
+"t": "Ma'am, you need to leave the building.",
+"d": 1.793,
+"env": "01489998631125787545655665334337986432110000",
+"style": "panic"
+},
+"ch1_warn_tiffany_02": {
+"s": "tiffany",
+"t": "I'm not comfortable with your energy. I'm going to hold that boundary. Outside.",
+"d": 4.438,
+"env": "01379999741236863355566554335556653334432000000269976798774247875467521467887543333210000015764477754332211000",
+"style": ""
+},
+"ch1_warn_gus_01": {
+"s": "eddie",
+"t": "Sir, we need to leave the station.",
+"d": 1.75,
+"env": "0014689986678875565666434443577544432110000",
+"style": "panic"
+},
+"ch1_warn_gus_02": {
+"s": "gus",
+"t": "Why?",
+"d": 0.918,
+"env": "0025899998877654210000",
+"style": "deadpan"
+},
+"ch1_warn_gus_03": {
+"s": "eddie",
+"t": "I saw a hazard. A lot of hazards.",
+"d": 2.219,
+"env": "0146667998656788754432100002688998763246776433211221000",
+"style": "panic"
+},
+"ch1_warn_gus_04": {
+"s": "gus",
+"t": "Where?",
+"d": 0.918,
+"env": "0026899988887653211000",
+"style": "deadpan"
+},
+"ch1_warn_gus_05": {
+"s": "eddie",
+"t": "Everywhere.",
+"d": 1.089,
+"env": "000268975477668986433210000",
+"style": "tired"
+},
+"ch1_warn_gus_06": {
+"s": "gus",
+"t": "Probably. Lead the way.",
+"d": 2.177,
+"env": "001235899987875578875310025898876347766888764322110000",
+"style": "deadpan"
+},
+"ch1_warn_ml_01": {
+"s": "eddie",
+"t": "You two need to leave. The station's going to collapse!",
+"d": 3.051,
+"env": "0145456898887535655787532110000001477568976666643479986543235789863112321000",
+"style": "panic"
+},
+"ch1_warn_ml_02": {
+"s": "marco",
+"t": "We're not missing another train.",
+"d": 1.942,
+"env": "014899999755787668888888877643478876543310000000",
+"style": ""
+},
+"ch1_warn_ml_03": {
+"s": "luis",
+"t": "It's the fourth one!",
+"d": 1.494,
+"env": "0133347731258998632345654222110000000",
+"style": "shout"
+},
+"ch1_warn_ml_04": {
+"s": "marco",
+"t": "Okay, that's a new excuse.",
+"d": 1.942,
+"env": "025886457888777874589998764332368754332100000000",
+"style": ""
+},
+"ch1_warn_ml_05": {
+"s": "luis",
+"t": "He might be right, though.",
+"d": 1.75,
+"env": "0036899985224665568875311245432221100000000",
+"style": ""
+},
+"ch1_warn_ml_06": {
+"s": "marco",
+"t": "Fine. But I'm winning this argument outside.",
+"d": 2.454,
+"env": "0026899888777899999999987544788778876666544577754321000000000",
+"style": ""
+},
+"ch1_mills_arrest_01": {
+"s": "mills",
+"t": "Sir! Sir! What do you think you're doing?",
+"d": 2.305,
+"env": "001147986434799976665556653454334335654332211000000000000",
+"style": "shout"
+},
+"ch1_mills_arrest_02": {
+"s": "eddie",
+"t": "Everyone has to get out! It's going to fall!",
+"d": 2.433,
+"env": "026755877677776444467778985311000002455578765432368974210000",
+"style": "panic"
+},
+"ch1_mills_arrest_03": {
+"s": "mills",
+"t": "You pulled the alarm.",
+"d": 1.878,
+"env": "0013686314799986456777667777654333210000000000",
+"style": ""
+},
+"ch1_mills_arrest_04": {
+"s": "eddie",
+"t": "Yes! Yes, I did.",
+"d": 1.302,
+"env": "01379975432488754665434653110000",
+"style": "panic"
+},
+"ch1_mills_arrest_05": {
+"s": "mills",
+"t": "Out. Now. You and the dog.",
+"d": 2.155,
+"env": "00158975579999887656787777644787654432111000000000000",
+"style": ""
+},
+"ch1_mills_arrest_06": {
+"s": "eddie",
+"t": "Just listen, please, the escalator...",
+"d": 2.006,
+"env": "01488743588656764225776554345568754466665432210000",
+"style": "panic"
+},
+"ch1_mills_arrest_07": {
+"s": "mills",
+"t": "I'll listen from the parking lot. Move.",
+"d": 2.838,
+"env": "0137998899766885357775347984346666777653100125788764332110000000000000",
+"style": ""
+},
+"ch1_exit_01": {
+"s": "mills",
+"t": "Everybody, exit the building. Calmly. Calmly! Not like that.",
+"d": 3.798,
+"env": "0147678868998876875555334479864444321001368988776642236887766555665445411355431100000000000000",
+"style": "shout"
+},
+"ch1_exit_02": {
+"s": "crowd",
+"t": "What's happening?",
+"d": 1.195,
+"env": "01379754568985577665554321000",
+"style": ""
+},
+"ch1_exit_03": {
+"s": "brenda",
+"t": "Wait, wait, I'm getting all this!",
+"d": 1.985,
+"env": "0158985235899743588866777667876444332222100000000",
+"style": "excited"
+},
+"ch1_exit_04": {
+"s": "dale",
+"t": "It's happening! It's happening!",
+"d": 1.131,
+"env": "0025787899865787544321100000",
+"style": "excited"
+},
+"ch1_exit_05": {
+"s": "eddie",
+"t": "Keep walking! Don't stop!",
+"d": 1.515,
+"env": "0135632479973356555675554478632100000",
+"style": "panic"
+},
+"ch1_out_01": {
+"s": "mills",
+"t": "Stay here. Don't move. I'm going to have a lot of paperwork about you.",
+"d": 3.99,
+"env": "002334799976799864478645898754211012477778877787667788753113675235653234566421123322100000000000000",
+"style": ""
+},
+"ch1_out_02": {
+"s": "eddie",
+"t": "Okay. It was just... okay.",
+"d": 2.283,
+"env": "000158985236887764554335886553110000258742257874321100000",
+"style": "tired"
+},
+"ch1_out_03": {
+"s": "tiffany",
+"t": "That was extremely rude. I'm going to leave a review.",
+"d": 3.179,
+"env": "0258842576653355423799987644554332210000000279986899855556764455542345432210000",
+"style": ""
+},
+"ch1_out_04": {
+"s": "brenda",
+"t": "Nothing's happening. Bummer. I mean, great! Great. Nothing's happening.",
+"d": 3.563,
+"env": "01576479754587336766653489888777788775347986311258985213675345653456323332221100000000000",
+"style": ""
+},
+"ch1_out_05": {
+"s": "dale",
+"t": "Wait for it.",
+"d": 0.897,
+"env": "0147985236886421100000",
+"style": "whisper"
+},
+"ch1_out_06": {
+"s": "gus",
+"t": "Sculpture's swaying.",
+"d": 1.835,
+"env": "002332479962012368986322235899888776543321000",
+"style": "deadpan"
+},
+"ch1_out_07": {
+"s": "eddie",
+"t": "What?",
+"d": 0.726,
+"env": "002479975222210000",
+"style": ""
+},
+"ch1_after_01": {
+"s": "mills",
+"t": "How did you know?",
+"d": 1.409,
+"env": "00012589987765689888776432110000000",
+"style": "whisper"
+},
+"ch1_after_02": {
+"s": "eddie",
+"t": "I didn't. I don't.",
+"d": 2.429,
+"env": "000268974368865542232100000000000000001368755799753223210000",
+"style": "mumble"
+},
+"ch1_after_03": {
+"s": "marco",
+"t": "That's got to count.",
+"d": 1.473,
+"env": "013798765578888864688887654442100000",
+"style": "whisper"
+},
+"ch1_after_04": {
+"s": "luis",
+"t": "We weren't even in it.",
+"d": 1.643,
+"env": "01588889973136886677767764321133210000000",
+"style": "whisper"
+},
+"ch1_after_05": {
+"s": "brenda",
+"t": "Please tell me somebody got that.",
+"d": 2.39,
+"env": "00137999743358999875334688888875457874114554321110000000000",
+"style": "whisper"
+},
+"ch1_after_06": {
+"s": "dale",
+"t": "I got that.",
+"d": 0.918,
+"env": "0134589733786532110000",
+"style": "whisper"
+},
+"ch2_wake_01": {
+"s": "eddie",
+"t": "Eleven days.",
+"d": 1.259,
+"env": "0268778985665567765322123321000",
+"style": "tired"
+},
+"ch2_wake_02": {
+"s": "eddie",
+"t": "Eleven days since the station. Ninety-one hours since I slept in a bed.",
+"d": 5.014,
+"env": "02688998667755799754444454322244336754443211000000000001258999754555677642246898754333334543345544433575212454335887521110000",
+"style": "tired"
+},
+"ch2_wake_03": {
+"s": "eddie",
+"t": "Pickles is fine. Pickles is asleep. Pickles is the only one of us doing this correctly.",
+"d": 6.038,
+"env": "013774258986567765237999975321110000000003785358865566555666544688631100000000000258657986567644654589988876777657764225888766555565225788621133211000",
+"style": "mumble"
+},
+"ch2_phone_01": {
+"s": "eddie",
+"t": "The group chat has been busy.",
+"d": 1.814,
+"env": "014447973135689864346642245554468864332110000",
+"style": ""
+},
+"ch2_phone_02": {
+"s": "eddie",
+"t": "It's called \"Station Survivors, Do Not Leave.\" Brenda made it. I can't leave it. It says so.",
+"d": 6.251,
+"env": "026754335899754545787555665456655798754454324777789842356776643211110000000000012589998787777654431000000026742479852246776544320002443455886555556542110000",
+"style": "mumble"
+},
+"ch2_vm_brenda": {
+"s": "brenda",
+"t": "Hey survivors! Brenda here. Just wanted to say, the group chat is officially open, please don't mute it. Also, the station footage has four million views? So, thank you, I guess. Weird energy. Anyway, hardware store, nine tonight. I need a sidekick. Bring the dog!",
+"d": 11.457,
+"env": "0258866777998667631258987545654224643589753445787553367323578643235555654686325542246764357545665541000001378657875543478655652367643444312588888887764567754322236523786336985468643223688866664334442100001479999975588556543567667764345665311478766545786311221001356654566532110000000000",
+"style": "excited"
+},
+"ch2_vm_dale": {
+"s": "dale",
+"t": "Okay, so I cross-referenced the escalator maintenance logs with the sculpture's installation date, and here's what I found. Nothing! Which is exactly what they want me to find! Eddie, you predicted it. You're either a plant or a prophet. I need to know which.",
+"d": 9.707,
+"env": "01322489866789634787677446533786436898887666644579986433223445433444554346654445554334456643565324655431110001487679987776556656886579757988766765435765432111114688876446653234322466677742357765335642367632331124554345554432122110000000000000",
+"style": "excited"
+},
+"ch2_vm_tiffany": {
+"s": "tiffany",
+"t": "Hi, all. Sending love and light. Also, please stop tagging me in the collapse video, my brand is about renewal. Eddie, I've forgiven you. It's a whole process.",
+"d": 9.067,
+"env": "0013689997678765334589989998888643566665431111000000001488767898742124788765567862123577557877776522456764333355555554100001479864689987666886446788886433310000000002787887547852355347878876433210134664358852135643432223432000",
+"style": "bright"
+},
+"ch2_vm_gus": {
+"s": "gus",
+"t": "Anyone got a stud finder?",
+"d": 2.411,
+"env": "013689999878888765212587665432268875311268877787644432110000",
+"style": "deadpan"
+},
+"ch2_vm_marco": {
+"s": "marco",
+"t": "We're fine. Luis stood in the fire.",
+"d": 2.07,
+"env": "015896458888888889988753588888743588765433100000000",
+"style": ""
+},
+"ch2_vm_luis": {
+"s": "luis",
+"t": "It wasn't a fire! It was a small, intense warmth!",
+"d": 3.03,
+"env": "012358988897326986432110124444455447999976423442234654211355432110000000000",
+"style": "shout"
+},
+"ch2_vm_mills": {
+"s": "mills",
+"t": "Mercer. It's Mills. The detective is asking again about the alarm. I told them what I saw. I'm not sure what I saw. Call me.",
+"d": 7.659,
+"env": "00158998767897554224799998754322113554347862366665457985335765467876556422466566776543332100000000013664588789988888644589987542125789985323457987666676434566653211356665433211000000000000000",
+"style": "grim"
+},
+"ch2_insp_outlet": {
+"s": "eddie",
+"t": "I covered all the outlets. Nothing gets in the outlets.",
+"d": 3.627,
+"env": "015763468867866679865544578742233212442000000014799743677658974456666533578631233112343100",
+"style": "dry"
+},
+"ch2_insp_corners": {
+"s": "eddie",
+"t": "Foam corners. Every sharp edge in this apartment now wears a little foam hat.",
+"d": 5.057,
+"env": "001379987534689875321133200000000001588567677789998621258975455555554214797334432356777666556665555555322368776543466421000000",
+"style": ""
+},
+"ch2_insp_oven": {
+"s": "eddie",
+"t": "Oven mitts on the knobs. It's not a bad system.",
+"d": 3.115,
+"env": "02786787889732566666677887532212320000002575446888874468776434467653232110000",
+"style": ""
+},
+"ch2_insp_extinguisher": {
+"s": "eddie",
+"t": "Four fire extinguishers. One is for the other three.",
+"d": 3.649,
+"env": "0001379986313799876665334446654444432212321000000013689887654335555467665421124665432110000",
+"style": "tired"
+},
+"ch2_insp_wall": {
+"s": "eddie",
+"t": "The wall. It's a lot of string.",
+"d": 1.921,
+"env": "013786689999875324435766776544564236875321110000",
+"style": "mumble"
+},
+"ch2_insp_fridge": {
+"s": "eddie",
+"t": "Pickles' feeding schedule, color coded. I did that at three in the morning.",
+"d": 4.289,
+"env": "01365478764357767777547864445554212358988632357753332100000000003787886579997521224677777666678875421110000",
+"style": ""
+},
+"ch2_insp_window": {
+"s": "eddie",
+"t": "Third floor. Fine. It's a very reasonable fall height, for no reason at all.",
+"d": 5.313,
+"env": "000137999743335899864321001247887532110000000000001365785579877643456566666544532236887643358753100124666776545555555544578753211000",
+"style": "mumble"
+},
+"ch2_insp_lamp": {
+"s": "eddie",
+"t": "Lamp. Rated for a hundred watts. I use a forty.",
+"d": 3.286,
+"env": "0125899974226897665323466535665455335899742235520000001477545556532258886332110000",
+"style": ""
+},
+"ch2_insp_tv": {
+"s": "eddie",
+"t": "The TV. It's been on the news for eleven days. The news has not gotten better.",
+"d": 5.419,
+"env": "013435656665446764210000000026654237866788777778987655543577667865665468864211232100000013788999876555455557875225898632444688632110000",
+"style": ""
+},
+"ch2_insp_couch": {
+"s": "eddie",
+"t": "The couch. I've been sleeping here since I put a helmet on the bed.",
+"d": 4.011,
+"env": "0025434689998531233200000000258767877754686346765567655666577742367532358987753235665447997532110000",
+"style": "tired"
+},
+"ch2_insp_desk": {
+"s": "eddie",
+"t": "Notebook. Pen. A backup pen. A backup for the backup.",
+"d": 3.179,
+"env": "0148997337731114798754224558985246311355433334447874357522455556887422321000000",
+"style": ""
+},
+"ch2_insp_vest": {
+"s": "eddie",
+"t": "Reflective vest for Pickles. Helmet for Pickles. He does not enjoy the helmet.",
+"d": 5.121,
+"env": "01475347973147743468876522343236633443212331000000003799886322453147533442223210000002578876799987666655788886555456764321000000",
+"style": ""
+},
+"ch2_insp_kettle": {
+"s": "eddie",
+"t": "I unplug the kettle every time. Every time. Even while it's boiling.",
+"d": 4.801,
+"env": "001479867874247864443347876643564344355456764321100000000001587556435567887543211001367667877887655542479998754321100000",
+"style": "mumble"
+},
+"ch2_insp_door": {
+"s": "eddie",
+"t": "Four locks. A chain. A very small extra chain.",
+"d": 3.457,
+"env": "00137998778998632232333456777643210000000136679987555467887534543332333345665322110000",
+"style": ""
+},
+"ch2_insp_shelf": {
+"s": "eddie",
+"t": "Bolted to the wall. Twice. Nobody's shelf is getting me.",
+"d": 3.862,
+"env": "001479963345433455557998753210001224798521233210000013689756655555677642234332367765443322110000",
+"style": ""
+},
+"ch2_insp_rug": {
+"s": "eddie",
+"t": "Tape on the rug edges. Nobody's tripping in this apartment. Except me.",
+"d": 4.545,
+"env": "01358973357766657986567754333322321000000013689867876555324763356665545432248963232210000013444567621257753210000",
+"style": ""
+},
+"ch2_insp_bed": {
+"s": "eddie",
+"t": "The bed. The helmet's on it. I don't want to talk about it.",
+"d": 3.371,
+"env": "014545899986422454468877754666666532110000000014799975577653345786334445433221100000",
+"style": ""
+},
+"ch2_insp_clippings": {
+"s": "eddie",
+"t": "Newspaper clippings. Escalator accidents. Elevators. Coincidences. Everything is a coincidence until it isn't.",
+"d": 8.278,
+"env": "01368998633785355334785234321112210000000278753478899988973268863245543321233100000026999986787654443333113589888655655543444422121000000258866863256666655663224776788754554444333345433566542147754432110000",
+"style": "tired"
+},
+"ch2_bowl_01": {
+"s": "eddie",
+"t": "Breakfast. Eat slowly. Chew. Please don't choke.",
+"d": 3.03,
+"env": "003797312476422455334435799865433211346897531100136876546764334688631110000",
+"style": ""
+},
+"ch2_bowl_02": {
+"s": "eddie",
+"t": "I have made you food seventeen times today. You are not underfed.",
+"d": 4.417,
+"env": "00147985579974344321257754433567886554444554345665543335678742110000000000258998778997411466554323688531110000",
+"style": ""
+},
+"ch2_tv_01": {
+"s": "news",
+"t": "In local news, the death toll from the Centennial Transit Center collapse has been revised to eleven. Officials say early evacuations, reportedly prompted by a man and his dog, saved dozens.",
+"d": 15.681,
+"env": "00247899964468889998643224531000000000000025656996311245786532346775446665358999853456897444322456642344566542113431000000000268633799888744787654333443345676555642221100000000000000000000000000000001464247998776544435787631026999988876655774235766655885211124420000000000025643347998743653235786435641256666677665433211000000000000002566543368766544322100000123489754321232256643321113321000",
+"style": ""
+},
+"ch2_tv_02": {
+"s": "news",
+"t": "And in a related and, frankly, unusual development, Kevin Lindqvist, a survivor of the collapse, was killed yesterday when an oversized novelty check fell from a parade float.",
+"d": 13.846,
+"env": "0135689987887788875664455665432100000113798532233221000000279999999986555455467543113321210000000000000000000013587579999987522222223322100000000001367678547999853443332454444555321244421000000000000000002674223458987422478655565333221100000000003799733798546775567777665443335788898545545424776653111100000137975322235642455665544323554310121000",
+"style": ""
+},
+"ch2_tv_03": {
+"s": "news",
+"t": "Organizers say the check was for charity. It was for eleven thousand dollars.",
+"d": 5.675,
+"env": "003786589998775443332233223688644446767741001125543233566665432221100000000000000000000265358753236677778865797325887766666677654322112343100",
+"style": ""
+},
+"ch2_tv_04": {
+"s": "eddie",
+"t": "A novelty check.",
+"d": 1.473,
+"env": "001489888899755554433466786310010000",
+"style": "mumble"
+},
+"ch2_tv_05": {
+"s": "eddie",
+"t": "Not the ceiling. Not the escalator. A novelty check.",
+"d": 3.435,
+"env": "0147985346665567876544456763245577653356665432210000026899999975554443235568631000000",
+"style": "tired"
+},
+"ch2_tv_06": {
+"s": "eddie",
+"t": "That's not how any of this is supposed to work.",
+"d": 2.731,
+"env": "00379743579986567875468877434554432134555432467644234446897410000000",
+"style": "mumble"
+},
+"ch2_tv_07": {
+"s": "eddie",
+"t": "...Any of this. What am I even saying.",
+"d": 2.561,
+"env": "0012479988974236885444310000125888777766543454555666653221110000",
+"style": "mumble"
+},
+"ch2_call_marco_01": {
+"s": "marco",
+"t": "Eddie? Eddie, I almost died!",
+"d": 1.814,
+"env": "026899853578899889999987436888765431000000000",
+"style": "shout"
+},
+"ch2_call_luis_01": {
+"s": "luis",
+"t": "He didn't almost die!",
+"d": 1.537,
+"env": "01346778999987654325775432211000000000",
+"style": "shout"
+},
+"ch2_call_marco_02": {
+"s": "marco",
+"t": "I was on fire!",
+"d": 1.238,
+"env": "015899988898535887765542100000",
+"style": "shout"
+},
+"ch2_call_luis_02": {
+"s": "luis",
+"t": "You put yourself on fire!",
+"d": 1.814,
+"env": "013424785588667897435665224887543221000000000",
+"style": "shout"
+},
+"ch2_call_marco_03": {
+"s": "marco",
+"t": "He lit the grill!",
+"d": 1.089,
+"env": "003799975677789876542100000",
+"style": "shout"
+},
+"ch2_call_luis_03": {
+"s": "luis",
+"t": "You leaned!",
+"d": 1.003,
+"env": "0135678998654321110000000",
+"style": "shout"
+},
+"ch2_call_marco_04": {
+"s": "marco",
+"t": "That makes two.",
+"d": 1.153,
+"env": "0147987888653248986553210000",
+"style": ""
+},
+"ch2_call_luis_04": {
+"s": "luis",
+"t": "That one doesn't count!",
+"d": 1.579,
+"env": "014797568987787655422344322111100000000",
+"style": "shout"
+},
+"ch2_call_eddie_01": {
+"s": "eddie",
+"t": "Two what?",
+"d": 0.939,
+"env": "01357756898642111100000",
+"style": ""
+},
+"ch2_call_marco_05": {
+"s": "marco",
+"t": "Near-deaths. We're keeping score.",
+"d": 1.899,
+"env": "01489998888874334664577678764368875443210000000",
+"style": ""
+},
+"ch2_call_luis_05": {
+"s": "luis",
+"t": "I'm winning.",
+"d": 1.11,
+"env": "015788877799875322110000000",
+"style": ""
+},
+"ch2_call_eddie_02": {
+"s": "eddie",
+"t": "You're both alive.",
+"d": 1.409,
+"env": "00247864479864345566776542221111000",
+"style": "tired"
+},
+"ch2_call_marco_06": {
+"s": "marco",
+"t": "Barely.",
+"d": 0.926,
+"env": "01368999887754210000000",
+"style": ""
+},
+"ch2_call_luis_06": {
+"s": "luis",
+"t": "Barely.",
+"d": 0.875,
+"env": "002589998643221100000",
+"style": ""
+},
+"ch2_call_graves_01": {
+"s": "graves",
+"t": "Mister Mercer. Doctor Mortimer Graves. County coroner's office. We have not met.",
+"d": 11.047,
+"env": "000258999986544211356778889976433333333321110000000000000000000000000000001344337984111357999999853235665543236788876544322343100000000124789996335531123479987665544432465212333223321000000000000000000000000000000000000025788998756885347998874213688876432112321110000000000000",
+"style": "theatrical"
+},
+"ch2_call_eddie_03": {
+"s": "eddie",
+"t": "...No.",
+"d": 0.897,
+"env": "0014578999865321100000",
+"style": ""
+},
+"ch2_call_graves_02": {
+"s": "graves",
+"t": "That is the correct answer. Most people say yes, and then ask whether I am the man from television.",
+"d": 10.295,
+"env": "00025788999743224787543442234799999852111211258887545554443211000000000000000000000000000000126899998765211247741234434566777665445675432334310000000000158999985226998533454310013675665324678887777778999876544443212565323323666543234332333221000000000000000",
+"style": "theatrical"
+},
+"ch2_call_graves_03": {
+"s": "graves",
+"t": "I am not from television.",
+"d": 3.658,
+"env": "0000000000000002343489999988777889999753112112456642245447765542244433332211000000000000000",
+"style": "theatrical"
+},
+"ch2_call_eddie_04": {
+"s": "eddie",
+"t": "Okay.",
+"d": 0.961,
+"env": "001488632468864322100000",
+"style": ""
+},
+"ch2_call_graves_04": {
+"s": "graves",
+"t": "Kevin Lindqvist was on your list.",
+"d": 3.883,
+"env": "0013432468986688776789999863111123432332110001368864226887766666555557753223332110000000000000000",
+"style": "theatrical"
+},
+"ch2_call_eddie_05": {
+"s": "eddie",
+"t": "I don't have a list.",
+"d": 1.323,
+"env": "000278888656887666687534541100000",
+"style": ""
+},
+"ch2_call_graves_05": {
+"s": "graves",
+"t": "You do now. You were at the station. You saw an order. Whatever you saw, it was in order.",
+"d": 10.605,
+"env": "0002578889986479987666667876554431111110000000000000000000000000001368999999974245554237887533333332210000000015887667899998776412688886444431000000013675335885455555444556666554321000000000000000000000000000001347885224789875456775310268988764454321111100000000000",
+"style": "theatrical"
+},
+"ch2_call_eddie_06": {
+"s": "eddie",
+"t": "How do you know that?",
+"d": 1.302,
+"env": "00147986545677898656653221210000",
+"style": ""
+},
+"ch2_call_graves_06": {
+"s": "graves",
+"t": "I do not. But it is a very good line, and I have been saving it.",
+"d": 7.843,
+"env": "0003676689999985211488878887765421123321111000000000000000000000000000000000113775687434687544443235899998632378632357789865444332100000001256778999741246655577667887532344333211111000000000000000",
+"style": "theatrical"
+},
+"ch2_call_graves_07": {
+"s": "graves",
+"t": "Write it down, Mister Mercer. Who. In what order. Death is a stickler for order.",
+"d": 9.215,
+"env": "00024678999997567421379998766566766653357888877666543321000000000137999875532100000015788668963102577764443211000000000000000000000000000000000001478657999975211114787776556664114762112455543100125643689997545543111110000000000000",
+"style": "theatrical"
+},
+"ch2_call_eddie_07": {
+"s": "eddie",
+"t": "Is that a professional opinion?",
+"d": 1.963,
+"env": "0157544799886324642378655456555321367764321100000",
+"style": ""
+},
+"ch2_call_graves_08": {
+"s": "graves",
+"t": "It is a sandwich-adjacent opinion. Forgive me. I am mid-sandwich.",
+"d": 8.119,
+"env": "0012358963258866764345545899999864565212234432113689864333443211122112467765543332110000000000000000000000000000002685468634799732355443321000157899988899999863233234555666555322332112221000000000000000",
+"style": "theatrical"
+},
+"ch2_seq_01": {
+"s": "eddie",
+"t": "Okay. The station. What did I see. In order.",
+"d": 3.115,
+"env": "02698532489874455457754554321000000145468998655544565443212465447997533211000",
+"style": "tired"
+},
+"ch2_seq_02": {
+"s": "eddie",
+"t": "Kevin. That's done. Brenda. She was by the sculpture. The cables went, and I think she was next.",
+"d": 5.505,
+"env": "00379856765468854323764321000000258999976653345555434686555435885224443110000000024434799767754458987422356664345545444445677531113321000",
+"style": ""
+},
+"ch2_seq_03": {
+"s": "eddie",
+"t": "Tiffany. Then Marco and Luis, probably together. Dale. Mills.",
+"d": 4.097,
+"env": "025874356654324776678973246765556787655412488644334333347853210000000000124899886543456787531112331000",
+"style": ""
+},
+"ch2_seq_04": {
+"s": "eddie",
+"t": "Gus. I don't remember Gus.",
+"d": 2.771,
+"env": "012358998743333210000000000000000147888853577777765532479642234431000",
+"style": "mumble"
+},
+"ch2_seq_05": {
+"s": "eddie",
+"t": "And me. Last.",
+"d": 2.195,
+"env": "000269987799864321100000000000000001368999865443210000",
+"style": ""
+},
+"ch2_seq_06": {
+"s": "eddie",
+"t": "Which means I have to get to Brenda first.",
+"d": 2.795,
+"env": "002687565579998766531147865687312446742343358876653213698631124310000",
+"style": "tired"
+},
+"ch2_seq_07": {
+"s": "eddie",
+"t": "I'm going to regret writing this down.",
+"d": 2.539,
+"env": "001489865899875444455322588521124788766554445652367665311100000",
+"style": "mumble"
+},
+"ch2_prem_01": {
+"s": "brenda",
+"t": "Not the flamingo!",
+"d": 1.43,
+"env": "01478545336899988766665443210000000",
+"style": "panic"
+},
+"ch2_prem_02": {
+"s": "eddie",
+"t": "The flamingo.",
+"d": 1.259,
+"env": "0024653335899887766566432110000",
+"style": "whisper"
+},
+"ch2_leave_01": {
+"s": "eddie",
+"t": "Pickles. Come on. We're going to a hardware store.",
+"d": 3.051,
+"env": "0137733675454236887888864221100000136558998764467744799744555665456542110000",
+"style": ""
+},
+"ch2_leave_02": {
+"s": "eddie",
+"t": "It's fine. It's a hardware store. What's the worst that could happen. Don't answer that.",
+"d": 5.936,
+"env": "0266554237999876554344467633689985456656644676532110000000014765535765689876324312444677631232110000000000000000000013799852368986666656776431110000",
+"style": "mumble"
+},
+"ch2_hint_seq": {
+"s": "eddie",
+"t": "I should write down what I remember. The notebook's on the desk.",
+"d": 3.67,
+"env": "0258888743589973126877665566676556667776543210000000026999996213553466665543479742245310000",
+"style": ""
+},
+"ch2_hint_call": {
+"s": "eddie",
+"t": "My phone's ringing.",
+"d": 1.366,
+"env": "0148863237998765543468764321100000",
+"style": ""
+},
+"ch2_hint_leave": {
+"s": "eddie",
+"t": "Okay. Leash. Dog. Door.",
+"d": 2.049,
+"env": "002587324798765567644553111379998743236887532110000",
+"style": ""
+},
+"ch2_hint_notyet": {
+"s": "eddie",
+"t": "I'm not going anywhere until I figure out the order.",
+"d": 3.243,
+"env": "001489889986324798765324898755543321000014667888765324763357764213446787532110000",
+"style": ""
+},
+"ch2_pet_hint": {
+"s": "eddie",
+"t": "Sorry, buddy. Sorry. I'm here. I'm here.",
+"d": 2.475,
+"env": "0025899987644798643111246898875532367643466534554324543210000",
+"style": ""
+}
+}

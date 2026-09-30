@@ -1,0 +1,28 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/wet_floor_sign.glb" id="1_lnihp"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_tfl6e"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ltk13"]
+size = Vector3(0.32, 0.6132109, 0.39668125)
+
+[node name="wet_floor_sign" type="RigidBody3D" unique_id=514337873]
+collision_layer = 16
+collision_mask = 31
+mass = 1.5
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1385315175 instance=ExtResource("1_lnihp")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=575458230]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.30660546, 0)
+shape = SubResource("BoxShape3D_ltk13")
+
+[node name="Prop" type="Node" parent="." unique_id=2019013413]
+script = ExtResource("2_tfl6e")
+prop_id = &"wet_floor_sign"
+grab_class = "light"
+inspect_line = &"ch1_insp_sign"
+tags = PackedStringArray("sign")

@@ -1,0 +1,13 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/sign_terminus_hall.glb" id="1_08380"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_por7r"]
+
+[node name="sign_terminus_hall" type="Node3D" unique_id=1844221518]
+
+[node name="Model" type="Node3D" parent="." unique_id=1457869109 instance=ExtResource("1_08380")]
+
+[node name="Prop" type="Node" parent="." unique_id=821504438]
+script = ExtResource("2_por7r")
+prop_id = &"sign_terminus_hall"
+tags = PackedStringArray("hero")

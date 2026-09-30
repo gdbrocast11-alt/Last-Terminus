@@ -1,0 +1,2306 @@
+{
+ "Concrete": {
+  "tex": "concrete_smooth",
+  "color": [
+   0.72,
+   0.72,
+   0.7
+  ],
+  "tile": 3.0,
+  "rough": 0.75,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "ConcreteRough": {
+  "tex": "concrete_rough",
+  "color": [
+   0.62,
+   0.62,
+   0.6
+  ],
+  "tile": 3.0,
+  "rough": 0.9,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "ConcreteDark": {
+  "tex": "concrete_rough",
+  "color": [
+   0.3,
+   0.3,
+   0.31
+  ],
+  "tile": 3.0,
+  "rough": 0.9,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Terrazzo": {
+  "tex": "terrazzo",
+  "color": [
+   0.95,
+   0.94,
+   0.9
+  ],
+  "tile": 2.5,
+  "rough": 0.35,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "TerrazzoDark": {
+  "tex": "terrazzo",
+  "color": [
+   0.45,
+   0.47,
+   0.5
+  ],
+  "tile": 2.5,
+  "rough": 0.35,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "TileWhite": {
+  "tex": "tile_white",
+  "color": [
+   0.95,
+   0.96,
+   0.97
+  ],
+  "tile": 1.6,
+  "rough": 0.45,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "TileGrey": {
+  "tex": "tile_floor",
+  "color": [
+   0.55,
+   0.57,
+   0.6
+  ],
+  "tile": 2.4,
+  "rough": 0.5,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "TileTeal": {
+  "tex": "tile_white",
+  "color": [
+   0.25,
+   0.55,
+   0.55
+  ],
+  "tile": 1.6,
+  "rough": 0.4,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "CarpetGrey": {
+  "tex": "carpet",
+  "color": [
+   0.32,
+   0.34,
+   0.38
+  ],
+  "tile": 1.5,
+  "rough": 0.95,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "CarpetBlue": {
+  "tex": "carpet",
+  "color": [
+   0.16,
+   0.26,
+   0.42
+  ],
+  "tile": 1.5,
+  "rough": 0.95,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "CarpetSage": {
+  "tex": "carpet",
+  "color": [
+   0.45,
+   0.55,
+   0.45
+  ],
+  "tile": 1.5,
+  "rough": 0.95,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Rug": {
+  "tex": "fabric",
+  "color": [
+   0.55,
+   0.28,
+   0.22
+  ],
+  "tile": 1.2,
+  "rough": 0.95,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Wood": {
+  "tex": "wood_planks",
+  "color": [
+   1.0,
+   0.92,
+   0.82
+  ],
+  "tile": 1.6,
+  "rough": 0.55,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "WoodDark": {
+  "tex": "wood_planks",
+  "color": [
+   0.55,
+   0.36,
+   0.24
+  ],
+  "tile": 1.6,
+  "rough": 0.5,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "WoodWarm": {
+  "tex": "wood_planks",
+  "color": [
+   0.85,
+   0.6,
+   0.38
+  ],
+  "tile": 1.6,
+  "rough": 0.5,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Plywood": {
+  "tex": "plywood",
+  "color": [
+   0.9,
+   0.78,
+   0.55
+  ],
+  "tile": 1.4,
+  "rough": 0.7,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Lumber": {
+  "tex": "plywood",
+  "color": [
+   0.85,
+   0.68,
+   0.42
+  ],
+  "tile": 1.0,
+  "rough": 0.75,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "WallWhite": {
+  "tex": "wall_paint",
+  "color": [
+   0.9,
+   0.9,
+   0.88
+  ],
+  "tile": 2.0,
+  "rough": 0.85,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 0.4,
+  "sss": 0.0
+ },
+ "WallCream": {
+  "tex": "wall_paint",
+  "color": [
+   0.86,
+   0.8,
+   0.66
+  ],
+  "tile": 2.0,
+  "rough": 0.85,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 0.4,
+  "sss": 0.0
+ },
+ "WallGrey": {
+  "tex": "wall_paint",
+  "color": [
+   0.55,
+   0.58,
+   0.6
+  ],
+  "tile": 2.0,
+  "rough": 0.85,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 0.4,
+  "sss": 0.0
+ },
+ "WallGreen": {
+  "tex": "wall_paint",
+  "color": [
+   0.4,
+   0.55,
+   0.45
+  ],
+  "tile": 2.0,
+  "rough": 0.85,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 0.4,
+  "sss": 0.0
+ },
+ "WallBlue": {
+  "tex": "wall_paint",
+  "color": [
+   0.28,
+   0.4,
+   0.55
+  ],
+  "tile": 2.0,
+  "rough": 0.85,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 0.4,
+  "sss": 0.0
+ },
+ "WallRed": {
+  "tex": "wall_paint",
+  "color": [
+   0.6,
+   0.16,
+   0.14
+  ],
+  "tile": 2.0,
+  "rough": 0.8,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 0.4,
+  "sss": 0.0
+ },
+ "WallSage": {
+  "tex": "wall_paint",
+  "color": [
+   0.62,
+   0.72,
+   0.62
+  ],
+  "tile": 2.0,
+  "rough": 0.85,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 0.4,
+  "sss": 0.0
+ },
+ "Brick": {
+  "tex": "brick",
+  "color": [
+   0.75,
+   0.5,
+   0.42
+  ],
+  "tile": 2.4,
+  "rough": 0.9,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Asphalt": {
+  "tex": "asphalt",
+  "color": [
+   0.5,
+   0.5,
+   0.5
+  ],
+  "tile": 3.0,
+  "rough": 0.92,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Gravel": {
+  "tex": "gravel",
+  "color": [
+   0.75,
+   0.72,
+   0.68
+  ],
+  "tile": 2.0,
+  "rough": 0.95,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Grass": {
+  "tex": "grass",
+  "color": [
+   0.62,
+   0.8,
+   0.5
+  ],
+  "tile": 2.0,
+  "rough": 0.95,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Dirt": {
+  "tex": "dirt",
+  "color": [
+   0.7,
+   0.55,
+   0.42
+  ],
+  "tile": 2.5,
+  "rough": 0.95,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Sidewalk": {
+  "tex": "concrete_smooth",
+  "color": [
+   0.85,
+   0.83,
+   0.8
+  ],
+  "tile": 2.0,
+  "rough": 0.85,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "CeilingTile": {
+  "tex": "ceiling_tile",
+  "color": [
+   0.92,
+   0.92,
+   0.9
+  ],
+  "tile": 0.6,
+  "rough": 0.9,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Glass": {
+  "tex": null,
+  "color": [
+   0.7,
+   0.85,
+   0.9
+  ],
+  "tile": 1.0,
+  "rough": 0.04,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 0.18,
+  "vcol": false,
+  "cull": "none",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "GlassTint": {
+  "tex": null,
+  "color": [
+   0.25,
+   0.4,
+   0.45
+  ],
+  "tile": 1.0,
+  "rough": 0.05,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 0.4,
+  "vcol": false,
+  "cull": "none",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "GlassFrost": {
+  "tex": null,
+  "color": [
+   0.85,
+   0.9,
+   0.95
+  ],
+  "tile": 1.0,
+  "rough": 0.35,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 0.5,
+  "vcol": false,
+  "cull": "none",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "MirrorMetal": {
+  "tex": null,
+  "color": [
+   0.9,
+   0.9,
+   0.92
+  ],
+  "tile": 1.0,
+  "rough": 0.05,
+  "metal": 1.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "SteelBrushed": {
+  "tex": "metal_brushed",
+  "color": [
+   0.85,
+   0.86,
+   0.88
+  ],
+  "tile": 1.0,
+  "rough": 0.45,
+  "metal": 1.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "SteelDark": {
+  "tex": "metal_brushed",
+  "color": [
+   0.32,
+   0.33,
+   0.36
+  ],
+  "tile": 1.0,
+  "rough": 0.5,
+  "metal": 0.9,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "SteelGalv": {
+  "tex": "metal_brushed",
+  "color": [
+   0.7,
+   0.72,
+   0.74
+  ],
+  "tile": 1.0,
+  "rough": 0.55,
+  "metal": 0.9,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Chrome": {
+  "tex": null,
+  "color": [
+   0.95,
+   0.95,
+   0.97
+  ],
+  "tile": 1.0,
+  "rough": 0.08,
+  "metal": 1.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Brass": {
+  "tex": null,
+  "color": [
+   0.85,
+   0.65,
+   0.25
+  ],
+  "tile": 1.0,
+  "rough": 0.3,
+  "metal": 1.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Corrugated": {
+  "tex": "corrugated",
+  "color": [
+   0.75,
+   0.77,
+   0.78
+  ],
+  "tile": 1.2,
+  "rough": 0.5,
+  "metal": 0.9,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "DiamondPlate": {
+  "tex": "diamond_plate",
+  "color": [
+   0.65,
+   0.66,
+   0.68
+  ],
+  "tile": 0.8,
+  "rough": 0.45,
+  "metal": 0.9,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "PaintYellow": {
+  "tex": "paint_metal",
+  "color": [
+   0.95,
+   0.72,
+   0.08
+  ],
+  "tile": 1.0,
+  "rough": 0.5,
+  "metal": 0.2,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "PaintRed": {
+  "tex": "paint_metal",
+  "color": [
+   0.75,
+   0.08,
+   0.06
+  ],
+  "tile": 1.0,
+  "rough": 0.45,
+  "metal": 0.2,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "PaintOrange": {
+  "tex": "paint_metal",
+  "color": [
+   0.95,
+   0.4,
+   0.05
+  ],
+  "tile": 1.0,
+  "rough": 0.5,
+  "metal": 0.2,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "PaintBlue": {
+  "tex": "paint_metal",
+  "color": [
+   0.1,
+   0.25,
+   0.6
+  ],
+  "tile": 1.0,
+  "rough": 0.45,
+  "metal": 0.2,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "PaintGreen": {
+  "tex": "paint_metal",
+  "color": [
+   0.12,
+   0.45,
+   0.25
+  ],
+  "tile": 1.0,
+  "rough": 0.45,
+  "metal": 0.2,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "PaintWhite": {
+  "tex": "paint_metal",
+  "color": [
+   0.9,
+   0.9,
+   0.9
+  ],
+  "tile": 1.0,
+  "rough": 0.45,
+  "metal": 0.2,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "PaintBlack": {
+  "tex": "paint_metal",
+  "color": [
+   0.05,
+   0.05,
+   0.06
+  ],
+  "tile": 1.0,
+  "rough": 0.5,
+  "metal": 0.2,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "PaintGrey": {
+  "tex": "paint_metal",
+  "color": [
+   0.4,
+   0.42,
+   0.45
+  ],
+  "tile": 1.0,
+  "rough": 0.5,
+  "metal": 0.2,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "PaintTeal": {
+  "tex": "paint_metal",
+  "color": [
+   0.1,
+   0.5,
+   0.5
+  ],
+  "tile": 1.0,
+  "rough": 0.45,
+  "metal": 0.2,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Rust": {
+  "tex": "paint_metal",
+  "color": [
+   0.5,
+   0.25,
+   0.14
+  ],
+  "tile": 1.0,
+  "rough": 0.85,
+  "metal": 0.4,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Rubber": {
+  "tex": "rubber",
+  "color": [
+   0.06,
+   0.06,
+   0.06
+  ],
+  "tile": 0.5,
+  "rough": 0.85,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "RubberGym": {
+  "tex": "rubber",
+  "color": [
+   0.12,
+   0.13,
+   0.15
+  ],
+  "tile": 0.8,
+  "rough": 0.9,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "RubberRed": {
+  "tex": "rubber",
+  "color": [
+   0.6,
+   0.08,
+   0.06
+  ],
+  "tile": 0.8,
+  "rough": 0.85,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "PlasticWhite": {
+  "tex": null,
+  "color": [
+   0.92,
+   0.92,
+   0.9
+  ],
+  "tile": 1.0,
+  "rough": 0.35,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "PlasticBlack": {
+  "tex": null,
+  "color": [
+   0.04,
+   0.04,
+   0.05
+  ],
+  "tile": 1.0,
+  "rough": 0.4,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "PlasticRed": {
+  "tex": null,
+  "color": [
+   0.8,
+   0.05,
+   0.04
+  ],
+  "tile": 1.0,
+  "rough": 0.35,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "PlasticBlue": {
+  "tex": null,
+  "color": [
+   0.1,
+   0.25,
+   0.7
+  ],
+  "tile": 1.0,
+  "rough": 0.35,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "PlasticGreen": {
+  "tex": null,
+  "color": [
+   0.1,
+   0.6,
+   0.25
+  ],
+  "tile": 1.0,
+  "rough": 0.35,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "PlasticYellow": {
+  "tex": null,
+  "color": [
+   0.95,
+   0.8,
+   0.1
+  ],
+  "tile": 1.0,
+  "rough": 0.35,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "PlasticPink": {
+  "tex": null,
+  "color": [
+   0.95,
+   0.35,
+   0.55
+  ],
+  "tile": 1.0,
+  "rough": 0.35,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "PlasticPurple": {
+  "tex": null,
+  "color": [
+   0.5,
+   0.15,
+   0.6
+  ],
+  "tile": 1.0,
+  "rough": 0.35,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "PlasticOrange": {
+  "tex": null,
+  "color": [
+   0.95,
+   0.42,
+   0.08
+  ],
+  "tile": 1.0,
+  "rough": 0.35,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "PlasticGrey": {
+  "tex": null,
+  "color": [
+   0.5,
+   0.52,
+   0.55
+  ],
+  "tile": 1.0,
+  "rough": 0.4,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Fabric": {
+  "tex": "fabric",
+  "color": [
+   0.5,
+   0.5,
+   0.5
+  ],
+  "tile": 0.8,
+  "rough": 0.95,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "FabricGrey": {
+  "tex": "fabric",
+  "color": [
+   0.35,
+   0.37,
+   0.4
+  ],
+  "tile": 0.8,
+  "rough": 0.95,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "FabricBlue": {
+  "tex": "fabric",
+  "color": [
+   0.15,
+   0.28,
+   0.5
+  ],
+  "tile": 0.8,
+  "rough": 0.95,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "FabricRed": {
+  "tex": "fabric",
+  "color": [
+   0.55,
+   0.1,
+   0.1
+  ],
+  "tile": 0.8,
+  "rough": 0.95,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "FabricGreen": {
+  "tex": "fabric",
+  "color": [
+   0.2,
+   0.42,
+   0.28
+  ],
+  "tile": 0.8,
+  "rough": 0.95,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "FabricCream": {
+  "tex": "fabric",
+  "color": [
+   0.85,
+   0.8,
+   0.7
+  ],
+  "tile": 0.8,
+  "rough": 0.95,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "FabricPurple": {
+  "tex": "fabric",
+  "color": [
+   0.4,
+   0.2,
+   0.5
+  ],
+  "tile": 0.8,
+  "rough": 0.95,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "FabricNavy": {
+  "tex": "fabric",
+  "color": [
+   0.07,
+   0.1,
+   0.22
+  ],
+  "tile": 0.8,
+  "rough": 0.95,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "FabricKhaki": {
+  "tex": "fabric",
+  "color": [
+   0.6,
+   0.52,
+   0.34
+  ],
+  "tile": 0.8,
+  "rough": 0.95,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "FabricWhite": {
+  "tex": "fabric",
+  "color": [
+   0.9,
+   0.9,
+   0.88
+  ],
+  "tile": 0.8,
+  "rough": 0.95,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "FabricBlack": {
+  "tex": "fabric",
+  "color": [
+   0.05,
+   0.05,
+   0.06
+  ],
+  "tile": 0.8,
+  "rough": 0.95,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "FabricYellow": {
+  "tex": "fabric",
+  "color": [
+   0.9,
+   0.7,
+   0.12
+  ],
+  "tile": 0.8,
+  "rough": 0.95,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "FabricOrange": {
+  "tex": "fabric",
+  "color": [
+   0.9,
+   0.4,
+   0.08
+  ],
+  "tile": 0.8,
+  "rough": 0.95,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "FabricTeal": {
+  "tex": "fabric",
+  "color": [
+   0.12,
+   0.5,
+   0.5
+  ],
+  "tile": 0.8,
+  "rough": 0.95,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "FabricPink": {
+  "tex": "fabric",
+  "color": [
+   0.9,
+   0.5,
+   0.6
+  ],
+  "tile": 0.8,
+  "rough": 0.95,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "FabricOlive": {
+  "tex": "fabric",
+  "color": [
+   0.28,
+   0.32,
+   0.18
+  ],
+  "tile": 0.8,
+  "rough": 0.95,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "FabricMaroon": {
+  "tex": "fabric",
+  "color": [
+   0.35,
+   0.06,
+   0.1
+  ],
+  "tile": 0.8,
+  "rough": 0.95,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "FabricCharcoal": {
+  "tex": "fabric",
+  "color": [
+   0.16,
+   0.17,
+   0.19
+  ],
+  "tile": 0.8,
+  "rough": 0.95,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Sole": {
+  "tex": "rubber",
+  "color": [
+   0.85,
+   0.85,
+   0.82
+  ],
+  "tile": 0.5,
+  "rough": 0.8,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "ShoeWhite": {
+  "tex": "fabric",
+  "color": [
+   0.9,
+   0.9,
+   0.92
+  ],
+  "tile": 0.5,
+  "rough": 0.6,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "ShoeBrown": {
+  "tex": "fabric",
+  "color": [
+   0.25,
+   0.14,
+   0.08
+  ],
+  "tile": 0.5,
+  "rough": 0.5,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "ShoeBlack": {
+  "tex": "fabric",
+  "color": [
+   0.05,
+   0.05,
+   0.05
+  ],
+  "tile": 0.5,
+  "rough": 0.5,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Leather": {
+  "tex": "fabric",
+  "color": [
+   0.22,
+   0.12,
+   0.08
+  ],
+  "tile": 0.8,
+  "rough": 0.55,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 0.6,
+  "sss": 0.0
+ },
+ "Denim": {
+  "tex": "fabric",
+  "color": [
+   0.15,
+   0.22,
+   0.38
+  ],
+  "tile": 0.6,
+  "rough": 0.95,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Cardboard": {
+  "tex": "cardboard",
+  "color": [
+   0.8,
+   0.62,
+   0.42
+  ],
+  "tile": 0.8,
+  "rough": 0.9,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Paper": {
+  "tex": null,
+  "color": [
+   0.95,
+   0.94,
+   0.9
+  ],
+  "tile": 1.0,
+  "rough": 0.85,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Candle": {
+  "tex": null,
+  "color": [
+   0.95,
+   0.9,
+   0.78
+  ],
+  "tile": 1.0,
+  "rough": 0.4,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.5
+ },
+ "Fur": {
+  "tex": "fur",
+  "color": [
+   0.8,
+   0.6,
+   0.4
+  ],
+  "tile": 0.6,
+  "rough": 0.9,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": true,
+  "cull": "back",
+  "normal": 0.8,
+  "sss": 0.0
+ },
+ "Skin": {
+  "tex": null,
+  "color": [
+   0.87,
+   0.65,
+   0.52
+  ],
+  "tile": 1.0,
+  "rough": 0.55,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.4
+ },
+ "SkinTan": {
+  "tex": null,
+  "color": [
+   0.72,
+   0.5,
+   0.36
+  ],
+  "tile": 1.0,
+  "rough": 0.55,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.4
+ },
+ "SkinDark": {
+  "tex": null,
+  "color": [
+   0.42,
+   0.27,
+   0.19
+  ],
+  "tile": 1.0,
+  "rough": 0.55,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.4
+ },
+ "SkinPale": {
+  "tex": null,
+  "color": [
+   0.93,
+   0.78,
+   0.68
+  ],
+  "tile": 1.0,
+  "rough": 0.55,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.4
+ },
+ "SkinOlive": {
+  "tex": null,
+  "color": [
+   0.74,
+   0.57,
+   0.42
+  ],
+  "tile": 1.0,
+  "rough": 0.55,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.4
+ },
+ "Lips": {
+  "tex": null,
+  "color": [
+   0.72,
+   0.36,
+   0.34
+  ],
+  "tile": 1.0,
+  "rough": 0.4,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Teeth": {
+  "tex": null,
+  "color": [
+   0.95,
+   0.94,
+   0.88
+  ],
+  "tile": 1.0,
+  "rough": 0.3,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "EyeWhite": {
+  "tex": null,
+  "color": [
+   0.95,
+   0.95,
+   0.95
+  ],
+  "tile": 1.0,
+  "rough": 0.15,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "EyeIris": {
+  "tex": null,
+  "color": [
+   0.25,
+   0.4,
+   0.55
+  ],
+  "tile": 1.0,
+  "rough": 0.1,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "EyeDark": {
+  "tex": null,
+  "color": [
+   0.08,
+   0.05,
+   0.03
+  ],
+  "tile": 1.0,
+  "rough": 0.1,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "HairBlack": {
+  "tex": null,
+  "color": [
+   0.04,
+   0.035,
+   0.03
+  ],
+  "tile": 1.0,
+  "rough": 0.5,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "HairBrown": {
+  "tex": null,
+  "color": [
+   0.2,
+   0.11,
+   0.06
+  ],
+  "tile": 1.0,
+  "rough": 0.5,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "HairBlonde": {
+  "tex": null,
+  "color": [
+   0.75,
+   0.6,
+   0.3
+  ],
+  "tile": 1.0,
+  "rough": 0.5,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "HairGrey": {
+  "tex": null,
+  "color": [
+   0.65,
+   0.65,
+   0.66
+  ],
+  "tile": 1.0,
+  "rough": 0.55,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "HairRed": {
+  "tex": null,
+  "color": [
+   0.5,
+   0.15,
+   0.06
+  ],
+  "tile": 1.0,
+  "rough": 0.5,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "HairWhite": {
+  "tex": null,
+  "color": [
+   0.9,
+   0.9,
+   0.9
+  ],
+  "tile": 1.0,
+  "rough": 0.55,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Tongue": {
+  "tex": null,
+  "color": [
+   0.85,
+   0.35,
+   0.4
+  ],
+  "tile": 1.0,
+  "rough": 0.3,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Nose": {
+  "tex": null,
+  "color": [
+   0.05,
+   0.04,
+   0.04
+  ],
+  "tile": 1.0,
+  "rough": 0.15,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Paint": {
+  "tex": null,
+  "color": [
+   0.72,
+   0.05,
+   0.06
+  ],
+  "tile": 1.0,
+  "rough": 0.3,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Blood": {
+  "tex": null,
+  "color": [
+   0.4,
+   0.0,
+   0.02
+  ],
+  "tile": 1.0,
+  "rough": 0.2,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Water": {
+  "tex": null,
+  "color": [
+   0.3,
+   0.55,
+   0.65
+  ],
+  "tile": 1.0,
+  "rough": 0.05,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 0.55,
+  "vcol": false,
+  "cull": "none",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Smoothie": {
+  "tex": null,
+  "color": [
+   0.65,
+   0.2,
+   0.6
+  ],
+  "tile": 1.0,
+  "rough": 0.25,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Coffee": {
+  "tex": null,
+  "color": [
+   0.18,
+   0.1,
+   0.06
+  ],
+  "tile": 1.0,
+  "rough": 0.2,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Oil": {
+  "tex": null,
+  "color": [
+   0.7,
+   0.5,
+   0.08
+  ],
+  "tile": 1.0,
+  "rough": 0.1,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 0.8,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "LightTube": {
+  "tex": null,
+  "color": [
+   1.0,
+   0.98,
+   0.9
+  ],
+  "tile": 1.0,
+  "rough": 0.2,
+  "metal": 0.0,
+  "emit": [
+   [
+    1.0,
+    0.96,
+    0.85
+   ],
+   3.0
+  ],
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "LightWarm": {
+  "tex": null,
+  "color": [
+   1.0,
+   0.75,
+   0.45
+  ],
+  "tile": 1.0,
+  "rough": 0.3,
+  "metal": 0.0,
+  "emit": [
+   [
+    1.0,
+    0.75,
+    0.45
+   ],
+   2.5
+  ],
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "ScreenBlue": {
+  "tex": null,
+  "color": [
+   0.1,
+   0.3,
+   0.6
+  ],
+  "tile": 1.0,
+  "rough": 0.1,
+  "metal": 0.0,
+  "emit": [
+   [
+    0.2,
+    0.5,
+    1.0
+   ],
+   1.6
+  ],
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "ScreenGreen": {
+  "tex": null,
+  "color": [
+   0.1,
+   0.5,
+   0.25
+  ],
+  "tile": 1.0,
+  "rough": 0.1,
+  "metal": 0.0,
+  "emit": [
+   [
+    0.3,
+    1.0,
+    0.5
+   ],
+   1.4
+  ],
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "ScreenOff": {
+  "tex": null,
+  "color": [
+   0.02,
+   0.02,
+   0.03
+  ],
+  "tile": 1.0,
+  "rough": 0.1,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "SignYellow": {
+  "tex": null,
+  "color": [
+   0.95,
+   0.75,
+   0.05
+  ],
+  "tile": 1.0,
+  "rough": 0.45,
+  "metal": 0.0,
+  "emit": [
+   [
+    0.95,
+    0.75,
+    0.05
+   ],
+   0.3
+  ],
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "SignWhite": {
+  "tex": null,
+  "color": [
+   0.95,
+   0.95,
+   0.95
+  ],
+  "tile": 1.0,
+  "rough": 0.4,
+  "metal": 0.0,
+  "emit": [
+   [
+    1,
+    1,
+    1
+   ],
+   0.5
+  ],
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "SignRed": {
+  "tex": null,
+  "color": [
+   0.85,
+   0.05,
+   0.05
+  ],
+  "tile": 1.0,
+  "rough": 0.4,
+  "metal": 0.0,
+  "emit": [
+   [
+    1,
+    0.1,
+    0.1
+   ],
+   0.6
+  ],
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "SignGreen": {
+  "tex": null,
+  "color": [
+   0.05,
+   0.6,
+   0.25
+  ],
+  "tile": 1.0,
+  "rough": 0.4,
+  "metal": 0.0,
+  "emit": [
+   [
+    0.1,
+    1,
+    0.4
+   ],
+   0.7
+  ],
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "LedRed": {
+  "tex": null,
+  "color": [
+   1.0,
+   0.05,
+   0.02
+  ],
+  "tile": 1.0,
+  "rough": 0.2,
+  "metal": 0.0,
+  "emit": [
+   [
+    1,
+    0.05,
+    0.02
+   ],
+   4.0
+  ],
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "LedGreen": {
+  "tex": null,
+  "color": [
+   0.1,
+   1.0,
+   0.2
+  ],
+  "tile": 1.0,
+  "rough": 0.2,
+  "metal": 0.0,
+  "emit": [
+   [
+    0.1,
+    1,
+    0.2
+   ],
+   4.0
+  ],
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Fire": {
+  "tex": null,
+  "color": [
+   1.0,
+   0.5,
+   0.1
+  ],
+  "tile": 1.0,
+  "rough": 0.5,
+  "metal": 0.0,
+  "emit": [
+   [
+    1,
+    0.5,
+    0.1
+   ],
+   5.0
+  ],
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Hazard": {
+  "tex": "paint_metal",
+  "color": [
+   0.95,
+   0.75,
+   0.05
+  ],
+  "tile": 1.0,
+  "rough": 0.5,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
+ "Decal": {
+  "tex": null,
+  "color": [
+   1,
+   1,
+   1
+  ],
+  "tile": 1.0,
+  "rough": 0.8,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ }
+}

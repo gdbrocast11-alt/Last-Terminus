@@ -1,0 +1,27 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/suitcase_green.glb" id="1_67vst"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_fk7k1"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_sbfrf"]
+size = Vector3(0.55, 0.865, 0.325)
+
+[node name="suitcase_green" type="RigidBody3D" unique_id=527138903]
+collision_layer = 16
+collision_mask = 31
+mass = 10.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=678784977 instance=ExtResource("1_67vst")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1700520452]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4325, -0.0024999976)
+shape = SubResource("BoxShape3D_sbfrf")
+
+[node name="Prop" type="Node" parent="." unique_id=702337451]
+script = ExtResource("2_fk7k1")
+prop_id = &"suitcase_green"
+grab_class = "medium"
+tags = PackedStringArray()

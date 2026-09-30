@@ -1,0 +1,13 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/pendant_light.glb" id="1_5kju7"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_wc01d"]
+
+[node name="pendant_light" type="Node3D" unique_id=1481510840]
+
+[node name="Model" type="Node3D" parent="." unique_id=809267458 instance=ExtResource("1_5kju7")]
+
+[node name="Prop" type="Node" parent="." unique_id=1662938491]
+script = ExtResource("2_wc01d")
+prop_id = &"pendant_light"
+tags = PackedStringArray()

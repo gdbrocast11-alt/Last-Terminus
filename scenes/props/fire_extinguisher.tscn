@@ -1,0 +1,28 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/fire_extinguisher.glb" id="1_syv6e"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_dgqc1"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_kmchh"]
+height = 0.515
+radius = 0.08783901
+
+[node name="fire_extinguisher" type="RigidBody3D" unique_id=1343554185]
+collision_layer = 16
+collision_mask = 31
+mass = 3.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1518098695 instance=ExtResource("1_syv6e")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1600560857]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.019594051, 0.2575, -0.004999995)
+shape = SubResource("CylinderShape3D_kmchh")
+
+[node name="Prop" type="Node" parent="." unique_id=1681389413]
+script = ExtResource("2_dgqc1")
+prop_id = &"fire_extinguisher"
+grab_class = "light"
+tags = PackedStringArray()

@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/barrier_fence.glb" id="1_dk513"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_1a2pi"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_56i7s"]
+size = Vector3(2.04, 1.075, 0.6)
+
+[node name="barrier_fence" type="StaticBody3D" unique_id=422182105]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=1389919714 instance=ExtResource("1_dk513")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1393150786]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5375, 0)
+shape = SubResource("BoxShape3D_56i7s")
+
+[node name="Prop" type="Node" parent="." unique_id=889427336]
+script = ExtResource("2_1a2pi")
+prop_id = &"barrier_fence"
+tags = PackedStringArray("mantle")

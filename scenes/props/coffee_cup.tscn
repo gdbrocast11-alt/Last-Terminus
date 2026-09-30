@@ -1,0 +1,28 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/coffee_cup.glb" id="1_42sut"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_h1ctl"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_66qq7"]
+height = 0.121
+radius = 0.043
+
+[node name="coffee_cup" type="RigidBody3D" unique_id=1552912624]
+collision_layer = 16
+collision_mask = 31
+mass = 0.3
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=2048356062 instance=ExtResource("1_42sut")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1291817157]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0605, 0)
+shape = SubResource("CylinderShape3D_66qq7")
+
+[node name="Prop" type="Node" parent="." unique_id=478468464]
+script = ExtResource("2_h1ctl")
+prop_id = &"coffee_cup"
+grab_class = "light"
+tags = PackedStringArray()

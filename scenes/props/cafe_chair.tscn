@@ -1,0 +1,27 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/cafe_chair.glb" id="1_3f833"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_g48lp"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_t0ou5"]
+size = Vector3(0.42, 0.899427, 0.44477823)
+
+[node name="cafe_chair" type="RigidBody3D" unique_id=151652973]
+collision_layer = 16
+collision_mask = 31
+mass = 4.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1580336349 instance=ExtResource("1_3f833")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=179186384]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4497135, 0.012389123)
+shape = SubResource("BoxShape3D_t0ou5")
+
+[node name="Prop" type="Node" parent="." unique_id=1780353565]
+script = ExtResource("2_g48lp")
+prop_id = &"cafe_chair"
+grab_class = "medium"
+tags = PackedStringArray("chair")

@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[resource]
+resource_name = "GlassTint"
+transparency = 1
+cull_mode = 2
+albedo_color = Color(0.25, 0.4, 0.45, 0.4)
+metallic_specular = 0.9
+roughness = 0.05

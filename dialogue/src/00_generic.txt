@@ -1,0 +1,60 @@
+# Generic barks: Pickles commands, hazard inspection, outcomes. Eddie unless noted.
+gen_come_01 | eddie | | Pickles, come here, buddy.
+gen_come_02 | eddie | | Pickles. With me.
+gen_come_03 | eddie | | Over here, bud.
+gen_come_04 | eddie | | Come on, Pickles. Let's go.
+gen_stay_01 | eddie | calm | Stay. Good boy. Stay right there.
+gen_stay_02 | eddie | calm | Stay, Pickles. Just stay.
+gen_stay_03 | eddie | calm | Sit. Stay. Look at me. Good.
+gen_fetch_01 | eddie | | Go on, get it!
+gen_fetch_02 | eddie | | Pickles, fetch!
+gen_fetch_03 | eddie | | Fetch, buddy!
+gen_goto_01 | eddie | | Go on. Over there.
+gen_goto_02 | eddie | | Pickles, go. Go see.
+gen_drop_01 | eddie | | Drop it. Drop it. Thank you.
+gen_drop_02 | eddie | tired | Pickles, drop it. That is not food.
+gen_drop_03 | eddie | | Give it. Give it here. Good boy.
+gen_bark_01 | eddie | | Speak, Pickles. Go on.
+gen_bark_02 | eddie | | Make some noise, buddy.
+gen_wrong_01 | eddie | tired | Pickles. No. That is not yours.
+gen_wrong_02 | eddie | panic | Pickles, that's a live wire. Do not lick that.
+gen_wrong_03 | eddie | tired | Please stop eating that. Please.
+gen_wrong_04 | eddie | | Pickles, why do you have that.
+gen_miracle_01 | eddie | mumble | How.
+gen_miracle_02 | eddie | tired | He's fine. Why is he fine?
+gen_miracle_03 | eddie | | That should have killed him. I'm not going to question it.
+gen_miracle_04 | eddie | mumble | I've stopped asking how.
+gen_haz_01 | eddie | mumble | That's fine. I think.
+gen_haz_02 | eddie | mumble | That doesn't look fine.
+gen_haz_03 | eddie | | Not touching that.
+gen_haz_04 | eddie | | I'm going to stand over here instead.
+gen_haz_05 | eddie | tired | Everything is a hazard. Everything is a hazard.
+gen_haz_06 | eddie | mumble | Nothing suspicious. Nothing suspicious at all.
+gen_haz_07 | eddie | | If that falls, I'm not standing here.
+gen_ow_01 | eddie | | Ow.
+gen_ow_02 | eddie | tired | Ugh. Okay.
+gen_ow_03 | eddie | | That's fine. I'm fine.
+gen_save_01 | eddie | | I did it. I did it?
+gen_save_02 | eddie | sincere | Everyone's okay. Everyone's okay.
+gen_save_03 | eddie | | Okay. Okay. That's one.
+gen_fail_01 | eddie | panic | No. No no no.
+gen_fail_02 | eddie | panic | That's not what I meant. That's not what I meant!
+gen_fail_03 | eddie | tired | Well. That's one way to do it.
+gen_reroute_01 | eddie | excited | I stopped it!
+gen_reroute_02 | eddie | mumble | ...Oh no.
+gen_reroute_03 | eddie | panic | Wait. Where is that going?
+gen_reroute_04 | eddie | panic | Nope. Nope. That's worse.
+gen_die_01 | eddie | mumble | Oh, that's going to hurt.
+gen_die_02 | eddie | tired | Should have stood somewhere else.
+gen_die_03 | eddie | mumble | Well. That was a plan.
+gen_pet_01 | eddie | sincere | Who's a good boy.
+gen_pet_02 | eddie | sincere | You're an indestructible boy, aren't you.
+gen_pet_03 | eddie | sincere | Belly's safe. It's a safe belly.
+gen_pet_04 | eddie | sincere | I would do anything for you, you know that.
+gen_pet_05 | eddie | | Okay. Okay. Enough. You've had enough. You haven't had enough.
+gen_nope_01 | eddie | | Nope. Not doing that.
+gen_nope_02 | eddie | tired | No. I'm not touching that. I've learned.
+gen_locked_01 | eddie | | It's locked. Good. Probably good.
+gen_heavy_01 | eddie | | That's heavy. I'm not built for that.
+gen_notyet_01 | eddie | | Not yet. I should look around first.
+gen_dogbark_thanks | eddie | | Thank you. Yes. I heard you.

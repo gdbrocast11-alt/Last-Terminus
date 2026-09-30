@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[resource]
+resource_name = "Skin"
+albedo_color = Color(0.87, 0.65, 0.52, 1)
+roughness = 0.55
+subsurf_scatter_enabled = true
+subsurf_scatter_strength = 0.14

@@ -1,0 +1,5 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[resource]
+resource_name = "Cardboard"
+albedo_color = Color(0.8, 0.62, 0.42, 1)

@@ -1,0 +1,13 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/pa_speaker.glb" id="1_vdayo"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_d2wxq"]
+
+[node name="pa_speaker" type="Node3D" unique_id=1283477899]
+
+[node name="Model" type="Node3D" parent="." unique_id=1555556925 instance=ExtResource("1_vdayo")]
+
+[node name="Prop" type="Node" parent="." unique_id=1453601187]
+script = ExtResource("2_d2wxq")
+prop_id = &"pa_speaker"
+tags = PackedStringArray()

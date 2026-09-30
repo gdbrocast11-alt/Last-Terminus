@@ -1,0 +1,83 @@
+# CHAPTER 2: AFTERMATH (Eddie's apartment, eleven days later)
+ch2_wake_01 | eddie | tired | Eleven days.
+ch2_wake_02 | eddie | tired | Eleven days since the station. Ninety-one hours since I slept in a bed.
+ch2_wake_03 | eddie | mumble | Pickles is fine. Pickles is asleep. Pickles is the only one of us doing this correctly.
+ch2_phone_01 | eddie | | The group chat has been busy.
+ch2_phone_02 | eddie | mumble | It's called "Station Survivors, Do Not Leave." Brenda made it. I can't leave it. It says so.
+ch2_vm_brenda | brenda | excited | Hey survivors! Brenda here. Just wanted to say, the group chat is officially open, please don't mute it. Also, the station footage has four million views? So, thank you, I guess. Weird energy. Anyway, hardware store, nine tonight. I need a sidekick. Bring the dog!
+ch2_vm_dale | dale | excited | Okay, so I cross-referenced the escalator maintenance logs with the sculpture's installation date, and here's what I found. Nothing! Which is exactly what they want me to find! Eddie, you predicted it. You're either a plant or a prophet. I need to know which.
+ch2_vm_tiffany | tiffany | bright | Hi, all. Sending love and light. Also, please stop tagging me in the collapse video, my brand is about renewal. Eddie, I've forgiven you. It's a whole process.
+ch2_vm_gus | gus | deadpan | Anyone got a stud finder?
+ch2_vm_marco | marco | | We're fine. Luis stood in the fire.
+ch2_vm_luis | luis | shout | It wasn't a fire! It was a small, intense warmth!
+ch2_vm_mills | mills | grim | Mercer. It's Mills. The detective is asking again about the alarm. I told them what I saw. I'm not sure what I saw. Call me.
+ch2_insp_outlet | eddie | dry | I covered all the outlets. Nothing gets in the outlets.
+ch2_insp_corners | eddie | | Foam corners. Every sharp edge in this apartment now wears a little foam hat.
+ch2_insp_oven | eddie | | Oven mitts on the knobs. It's not a bad system.
+ch2_insp_extinguisher | eddie | tired | Four fire extinguishers. One is for the other three.
+ch2_insp_wall | eddie | mumble | The wall. It's a lot of string.
+ch2_insp_fridge | eddie | | Pickles' feeding schedule, color coded. I did that at three in the morning.
+ch2_insp_window | eddie | mumble | Third floor. Fine. It's a very reasonable fall height, for no reason at all.
+ch2_insp_lamp | eddie | | Lamp. Rated for a hundred watts. I use a forty.
+ch2_insp_tv | eddie | | The TV. It's been on the news for eleven days. The news has not gotten better.
+ch2_insp_couch | eddie | tired | The couch. I've been sleeping here since I put a helmet on the bed.
+ch2_insp_desk | eddie | | Notebook. Pen. A backup pen. A backup for the backup.
+ch2_insp_vest | eddie | | Reflective vest for Pickles. Helmet for Pickles. He does not enjoy the helmet.
+ch2_insp_kettle | eddie | mumble | I unplug the kettle every time. Every time. Even while it's boiling.
+ch2_insp_door | eddie | | Four locks. A chain. A very small extra chain.
+ch2_insp_shelf | eddie | | Bolted to the wall. Twice. Nobody's shelf is getting me.
+ch2_insp_rug | eddie | | Tape on the rug edges. Nobody's tripping in this apartment. Except me.
+ch2_insp_bed | eddie | | The bed. The helmet's on it. I don't want to talk about it.
+ch2_insp_clippings | eddie | tired | Newspaper clippings. Escalator accidents. Elevators. Coincidences. Everything is a coincidence until it isn't.
+ch2_bowl_01 | eddie | | Breakfast. Eat slowly. Chew. Please don't choke.
+ch2_bowl_02 | eddie | | I have made you food seventeen times today. You are not underfed.
+ch2_tv_01 | news | | In local news, the death toll from the Centennial Transit Center collapse has been revised to eleven. Officials say early evacuations, reportedly prompted by a man and his dog, saved dozens.
+ch2_tv_02 | news | | And in a related and, frankly, unusual development, Kevin Lindqvist, a survivor of the collapse, was killed yesterday when an oversized novelty check fell from a parade float.
+ch2_tv_03 | news | | Organizers say the check was for charity. It was for eleven thousand dollars.
+ch2_tv_04 | eddie | mumble | A novelty check.
+ch2_tv_05 | eddie | tired | Not the ceiling. Not the escalator. A novelty check.
+ch2_tv_06 | eddie | mumble | That's not how any of this is supposed to work.
+ch2_tv_07 | eddie | mumble | ...Any of this. What am I even saying.
+ch2_call_marco_01 | marco | shout | Eddie? Eddie, I almost died!
+ch2_call_luis_01 | luis | shout | He didn't almost die!
+ch2_call_marco_02 | marco | shout | I was on fire!
+ch2_call_luis_02 | luis | shout | You put yourself on fire!
+ch2_call_marco_03 | marco | shout | He lit the grill!
+ch2_call_luis_03 | luis | shout | You leaned!
+ch2_call_marco_04 | marco | | That makes two.
+ch2_call_luis_04 | luis | shout | That one doesn't count!
+ch2_call_eddie_01 | eddie | | Two what?
+ch2_call_marco_05 | marco | | Near-deaths. We're keeping score.
+ch2_call_luis_05 | luis | | I'm winning.
+ch2_call_eddie_02 | eddie | tired | You're both alive.
+ch2_call_marco_06 | marco | | Barely.
+ch2_call_luis_06 | luis | | Barely.
+ch2_call_graves_01 | graves | theatrical | Mister Mercer. {p=0.8} Doctor Mortimer Graves. County coroner's office. {p=0.8} We have not met.
+ch2_call_eddie_03 | eddie | | ...No.
+ch2_call_graves_02 | graves | theatrical | That is the correct answer. {p=0.6} Most people say yes, and then ask whether I am the man from television.
+ch2_call_graves_03 | graves | theatrical | {p=0.5} I am not from television.
+ch2_call_eddie_04 | eddie | | Okay.
+ch2_call_graves_04 | graves | theatrical | Kevin Lindqvist was on your list.
+ch2_call_eddie_05 | eddie | | I don't have a list.
+ch2_call_graves_05 | graves | theatrical | You do now. {p=0.7} You were at the station. You saw an order. Whatever you saw, {p=0.5} it was in order.
+ch2_call_eddie_06 | eddie | | How do you know that?
+ch2_call_graves_06 | graves | theatrical | I do not. {p=0.9} But it is a very good line, and I have been saving it.
+ch2_call_graves_07 | graves | theatrical | Write it down, Mister Mercer. Who. In what order. {p=0.8} Death is a stickler for order.
+ch2_call_eddie_07 | eddie | | Is that a professional opinion?
+ch2_call_graves_08 | graves | theatrical | It is a sandwich-adjacent opinion. {p=0.6} Forgive me. I am mid-sandwich.
+ch2_seq_01 | eddie | tired | Okay. The station. What did I see. In order.
+ch2_seq_02 | eddie | | Kevin. That's done. Brenda. She was by the sculpture. The cables went, and I think she was next.
+ch2_seq_03 | eddie | | Tiffany. Then Marco and Luis, probably together. Dale. Mills.
+ch2_seq_04 | eddie | mumble | Gus. {p=0.5} I don't remember Gus.
+ch2_seq_05 | eddie | | And me. {p=0.5} Last.
+ch2_seq_06 | eddie | tired | Which means I have to get to Brenda first.
+ch2_seq_07 | eddie | mumble | I'm going to regret writing this down.
+ch2_prem_01 | brenda | panic | Not the flamingo!
+ch2_prem_02 | eddie | whisper | The flamingo.
+ch2_leave_01 | eddie | | Pickles. Come on. We're going to a hardware store.
+ch2_leave_02 | eddie | mumble | It's fine. It's a hardware store. What's the worst that could happen. {p=0.7} Don't answer that.
+ch2_hint_seq | eddie | | I should write down what I remember. The notebook's on the desk.
+ch2_hint_call | eddie | | My phone's ringing.
+ch2_hint_leave | eddie | | Okay. Leash. Dog. Door.
+ch2_hint_notyet | eddie | | I'm not going anywhere until I figure out the order.
+ch2_pet_hint | eddie | | Sorry, buddy. Sorry. I'm here. I'm here.

@@ -1,0 +1,14 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/skylink_pod.glb" id="1_ns3iu"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_pa1ha"]
+
+[node name="skylink_pod" type="Node3D" unique_id=556192742]
+
+[node name="Model" type="Node3D" parent="." unique_id=1214163223 instance=ExtResource("1_ns3iu")]
+
+[node name="Prop" type="Node" parent="." unique_id=987026233]
+script = ExtResource("2_pa1ha")
+prop_id = &"skylink_pod"
+inspect_line = &"ch1_insp_skylink"
+tags = PackedStringArray("hero", "chain")

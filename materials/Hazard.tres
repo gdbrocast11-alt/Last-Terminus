@@ -1,0 +1,5 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[resource]
+resource_name = "Hazard"
+albedo_color = Color(0.95, 0.75, 0.05, 1)

@@ -1,0 +1,28 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/cafe_table.glb" id="1_cmr0l"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_ko64f"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_eonrm"]
+height = 0.76
+radius = 0.4
+
+[node name="cafe_table" type="RigidBody3D" unique_id=1587693917]
+collision_layer = 16
+collision_mask = 31
+mass = 9.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1174481342 instance=ExtResource("1_cmr0l")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1101656237]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.38, 0)
+shape = SubResource("CylinderShape3D_eonrm")
+
+[node name="Prop" type="Node" parent="." unique_id=43791328]
+script = ExtResource("2_ko64f")
+prop_id = &"cafe_table"
+grab_class = "medium"
+tags = PackedStringArray("table")

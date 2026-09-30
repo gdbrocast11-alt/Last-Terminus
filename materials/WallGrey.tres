@@ -1,0 +1,5 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[resource]
+resource_name = "WallGrey"
+albedo_color = Color(0.55, 0.58, 0.6, 1)

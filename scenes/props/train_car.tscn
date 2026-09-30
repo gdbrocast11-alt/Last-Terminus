@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/train_car.glb" id="1_3fqkb"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_30yqv"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_tqy0e"]
+size = Vector3(3.08, 3.9930115, 20.135105)
+
+[node name="train_car" type="StaticBody3D" unique_id=320380051]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=468640321 instance=ExtResource("1_3fqkb")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1451960477]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.0034943, -0.057552338)
+shape = SubResource("BoxShape3D_tqy0e")
+
+[node name="Prop" type="Node" parent="." unique_id=263454878]
+script = ExtResource("2_30yqv")
+prop_id = &"train_car"
+inspect_line = &"ch1_insp_train"
+tags = PackedStringArray("hero", "train")

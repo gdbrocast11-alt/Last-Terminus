@@ -1,0 +1,149 @@
+# CHAPTER 1: TERMINUS STATION
+ch1_arrive_01 | eddie | dry | Centennial Transit Center. {p=0.3} Nobody calls it that. Everybody calls it Terminus Station.
+ch1_arrive_02 | eddie | dry | "The last stop you'll ever need." {p=0.5} That is a threat.
+ch1_arrive_03 | eddie | | Pickles. Do not eat anything off the floor. It's brand new. It hasn't had time to get disgusting yet.
+ch1_arrive_04 | eddie | calm | Okay. Platform four. First day. Nothing is going to happen.
+ch1_arrive_05 | eddie | mumble | Nothing is going to happen.
+ch1_pa_01 | pa | | The eight fourteen to Riverside will depart from platform four.
+ch1_pa_02 | pa | | Please keep your belongings with you at all times.
+ch1_pa_03 | pa | | Welcome to Centennial Transit Center. The last stop you'll ever need.
+ch1_pa_04 | pa | | Escalator maintenance is scheduled for later this month. Please use caution.
+ch1_pa_05 | pa | | Please do not feed the pigeons. The pigeons are statues.
+ch1_pa_06 | pa | | Passengers are reminded that pets must remain on a leash. Thank you.
+ch1_ticket_01 | machine | | Please insert exact fare.
+ch1_ticket_02 | eddie | | I don't have exact fare. I have a card. Please accept the card.
+ch1_ticket_03 | machine | | Card declined. Please try again.
+ch1_ticket_04 | eddie | tired | It's a brand new machine. It's been open four days.
+ch1_ticket_05 | machine | | Thank you for choosing Centennial Transit. Your journey ends here.
+ch1_ticket_06 | eddie | mumble | It says my journey ends here. {p=0.4} That's just the end of the printout. Right.
+ch1_ticket_repeat | eddie | | I have the ticket. I should go find the platform.
+ch1_kid_01 | kid | bright | Excuse me! Is your dog nice?
+ch1_kid_02 | eddie | | He's mostly nice. He's very committed to being nice.
+ch1_kid_03 | kid | | My ball rolled under the bench. Can he get it?
+ch1_kid_04 | eddie | | Maybe. {p=0.2} Pickles!
+ch1_kid_05 | kid | excited | Thank you! Thank you! You can have my sticker!
+ch1_kid_06 | eddie | dry | "Junior Safety Inspector." {p=0.3} Thanks. I'll take it under advisement.
+ch1_kid_wait_01 | kid | | It's under the bench! The bench right there!
+ch1_kid_wait_02 | kid | | Pickles can do it. I know he can.
+ch1_kid_hint | eddie | | Pickles, fetch. I have to say it out loud, apparently.
+ch1_kid_done | kid | bright | Bye, Pickles! Bye, Pickles!
+ch1_scaffold_01 | eddie | dry | "Mind your head." {p=0.3} Good advice. I'm minding it.
+ch1_barrier_01 | eddie | | Temporary barrier. It's the only thing between me and platform four.
+ch1_barrier_02 | eddie | | It's a very short barrier. I can do this.
+ch1_brenda_01 | brenda | excited | Hey, hey! Don't mind me, I'm doing a quick walkthrough of the new station! Wave at the camera!
+ch1_brenda_02 | eddie | | Hi.
+ch1_brenda_03 | brenda | | Love that energy. Okay, so, structural integrity: looks solid. That sculpture? Hangs from six cables. Six! I counted. They're rated way over its weight. Which is great, unless they aren't.
+ch1_brenda_04 | eddie | tired | Why would you say "unless they aren't"?
+ch1_brenda_05 | brenda | excited | Content, buddy. It's called tension.
+ch1_brenda_repeat_01 | brenda | | Is that a dog? Can the dog be in the video? Say yes.
+ch1_brenda_repeat_02 | brenda | | Don't look at the lens. Look meaningfully.
+ch1_dale_01 | dale | | You feel it too, don't you. This place opened four days ago and it already has a slogan. Nobody's slogan is that honest. Think about that.
+ch1_dale_02 | eddie | | It's a bit ominous.
+ch1_dale_03 | dale | excited | It's a CONFESSION.
+ch1_dale_repeat_01 | dale | | They put the escalators in a line. In a LINE, man.
+ch1_dale_repeat_02 | dale | | Do not trust the pigeon. The pigeon is a statue. What does that tell you.
+ch1_tiffany_01 | tiffany | bright | Hi! Sorry, I'm mid-visualization.
+ch1_tiffany_02 | eddie | | Sorry.
+ch1_tiffany_03 | tiffany | bright | No, it's fine, I'm holding space. I'm Tiffany Vale, Aligned Living? We're doing a pop-up this weekend. You look like you have a lot of stored tension.
+ch1_tiffany_04 | eddie | | I have a dog and a first day.
+ch1_tiffany_05 | tiffany | bright | Beautiful. Both are energy.
+ch1_tiffany_repeat_01 | tiffany | | Don't jostle the smoothie. It's a cold-pressed manifestation.
+ch1_tiffany_repeat_02 | tiffany | | I've never been in danger. I've done the work.
+ch1_gus_01 | gus | deadpan | Railing's loose.
+ch1_gus_02 | eddie | | Is it?
+ch1_gus_03 | gus | deadpan | Was. I tightened it.
+ch1_gus_04 | eddie | | You brought a wrench to a train station?
+ch1_gus_05 | gus | deadpan | Forty-one years. Never leave the house without a wrench.
+ch1_gus_repeat_01 | gus | deadpan | Exit's behind you. Always know where the exit is.
+ch1_gus_repeat_02 | gus | deadpan | That cart's not braked properly.
+ch1_ml_01 | marco | | That's the third time you've made us miss a train.
+ch1_ml_02 | luis | shout | The first one doesn't count! The clock was wrong!
+ch1_ml_03 | marco | shout | It was a train station clock, Luis!
+ch1_ml_04 | luis | shout | It was a decorative clock!
+ch1_ml_05 | eddie | | Okay. I'll leave you to it.
+ch1_ml_repeat_01 | marco | | Don't get involved. He's wrong.
+ch1_ml_repeat_02 | luis | shout | I'm not wrong! Tell him I'm not wrong!
+ch1_mills_01 | mills | | Morning. Dogs on a leash, please. Pilot program. Don't make me regret it.
+ch1_mills_02 | eddie | | He's very well behaved.
+ch1_mills_03 | mills | deadpan | That's what everybody says right before something gets peed on.
+ch1_mills_04 | eddie | | That's fair.
+ch1_mills_repeat_01 | mills | | Move along, sir.
+ch1_insp_sculpture | eddie | mumble | Six cables. That's a lot of cables to trust.
+ch1_insp_escalator | eddie | mumble | An escalator. Steps that move on their own. Who thought of this.
+ch1_insp_cart | eddie | mumble | Baggage cart. The brake's on. Probably.
+ch1_insp_scrub | eddie | | A little robot floor cleaner. It looks so proud.
+ch1_insp_smoothie | eddie | | Juice Junction. A place where things get blended. Nothing bad about that.
+ch1_insp_sign | eddie | | Wet floor sign. Somebody cares about the floor.
+ch1_insp_panel | eddie | mumble | Electrical panel. I'd rather not know.
+ch1_insp_skylink | eddie | | The SkyLink. A train on a shelf.
+ch1_insp_ceiling | eddie | mumble | That is a lot of ceiling.
+ch1_insp_pigeon | eddie | | A pigeon statue. Very lifelike. Suspiciously lifelike.
+ch1_insp_clock | eddie | dry | A decorative clock. It says ten past never.
+ch1_insp_bench | eddie | | A bench. Solid. Thank you.
+ch1_insp_handle | eddie | mumble | A red emergency handle. In case of emergency, pull. Not an emergency. Yet.
+ch1_insp_train | eddie | | The eight fourteen. It's big. It's on time. I love that for us.
+ch1_insp_luggage | eddie | | Somebody's suitcase. Somebody trusts the floor.
+ch1_insp_map | eddie | | You are here. That's comforting, honestly.
+ch1_prem_01 | eddie | whisper | The cup.
+ch1_prem_02 | crowd | shout | Look out!
+ch1_prem_03 | stranger | panic | The escalator's stuck!
+ch1_prem_04 | stranger | panic | Somebody stop the cart!
+ch1_prem_05 | crowd | shout | Everybody get down!
+ch1_prem_06 | eddie | panic | Pickles!
+ch1_snap_01 | eddie | panic | Oh no. Oh no no no.
+ch1_snap_02 | eddie | shout | Everybody out! Everybody get out of here!
+ch1_snap_03 | eddie | panic | I saw it. I saw all of it. The cup. The cart. The ceiling.
+ch1_panic_hint | eddie | panic | I need to get people out. Now.
+ch1_panic_grabcup | eddie | panic | Sorry! Sorry about the smoothie!
+ch1_panic_grabcup_reply | tiffany | shout | Excuse me?! That was a thirty-two dollar manifestation!
+ch1_panic_alarm | eddie | panic | I'm sorry. I'm so sorry.
+ch1_panic_alarm_pa | pa | | Fire alarm activated. Please proceed to the nearest exit.
+ch1_panic_cart | eddie | panic | Nobody touch the cart! Nobody go near the cart!
+ch1_panic_stranger_01 | stranger | | Is he okay?
+ch1_panic_stranger_02 | stranger | | Sir, please calm down.
+ch1_panic_stranger_03 | crowd | | Is this a drill?
+ch1_warn_brenda_01 | eddie | panic | You have to leave. Now. The sculpture, the escalator, all of it.
+ch1_warn_brenda_02 | brenda | excited | Is this a bit? Tell me it's a bit.
+ch1_warn_brenda_03 | eddie | panic | It's not a bit!
+ch1_warn_brenda_04 | brenda | excited | Then I'm rolling.
+ch1_warn_dale_01 | eddie | panic | Something's going to happen here. In the next few minutes.
+ch1_warn_dale_02 | dale | excited | I KNEW it. I knew it! What is it? The tower? I'll get my sign.
+ch1_warn_tiffany_01 | eddie | panic | Ma'am, you need to leave the building.
+ch1_warn_tiffany_02 | tiffany | | I'm not comfortable with your energy. I'm going to hold that boundary. Outside.
+ch1_warn_gus_01 | eddie | panic | Sir, we need to leave the station.
+ch1_warn_gus_02 | gus | deadpan | Why?
+ch1_warn_gus_03 | eddie | panic | I saw a hazard. A lot of hazards.
+ch1_warn_gus_04 | gus | deadpan | Where?
+ch1_warn_gus_05 | eddie | tired | Everywhere.
+ch1_warn_gus_06 | gus | deadpan | Probably. Lead the way.
+ch1_warn_ml_01 | eddie | panic | You two need to leave. The station's going to collapse!
+ch1_warn_ml_02 | marco | | We're not missing another train.
+ch1_warn_ml_03 | luis | shout | It's the fourth one!
+ch1_warn_ml_04 | marco | | Okay, that's a new excuse.
+ch1_warn_ml_05 | luis | | He might be right, though.
+ch1_warn_ml_06 | marco | | Fine. But I'm winning this argument outside.
+ch1_mills_arrest_01 | mills | shout | Sir! Sir! What do you think you're doing?
+ch1_mills_arrest_02 | eddie | panic | Everyone has to get out! It's going to fall!
+ch1_mills_arrest_03 | mills | | You pulled the alarm.
+ch1_mills_arrest_04 | eddie | panic | Yes! Yes, I did.
+ch1_mills_arrest_05 | mills | | Out. Now. You and the dog.
+ch1_mills_arrest_06 | eddie | panic | Just listen, please, the escalator...
+ch1_mills_arrest_07 | mills | | I'll listen from the parking lot. Move.
+ch1_exit_01 | mills | shout | Everybody, exit the building. Calmly. Calmly! Not like that.
+ch1_exit_02 | crowd | | What's happening?
+ch1_exit_03 | brenda | excited | Wait, wait, I'm getting all this!
+ch1_exit_04 | dale | excited | It's happening! It's happening!
+ch1_exit_05 | eddie | panic | Keep walking! Don't stop!
+ch1_out_01 | mills | | Stay here. Don't move. I'm going to have a lot of paperwork about you.
+ch1_out_02 | eddie | tired | Okay. It was just... okay.
+ch1_out_03 | tiffany | | That was extremely rude. I'm going to leave a review.
+ch1_out_04 | brenda | | Nothing's happening. Bummer. I mean, great! Great. Nothing's happening.
+ch1_out_05 | dale | whisper | Wait for it.
+ch1_out_06 | gus | deadpan | Sculpture's swaying.
+ch1_out_07 | eddie | | What?
+ch1_after_01 | mills | whisper | How did you know?
+ch1_after_02 | eddie | mumble | I didn't. {p=0.5} I don't.
+ch1_after_03 | marco | whisper | That's got to count.
+ch1_after_04 | luis | whisper | We weren't even in it.
+ch1_after_05 | brenda | whisper | Please tell me somebody got that.
+ch1_after_06 | dale | whisper | I got that.

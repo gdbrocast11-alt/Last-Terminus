@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/newsstand.glb" id="1_g7oc3"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_iiou2"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_00s6h"]
+size = Vector3(2.8, 2.3782, 1.6)
+
+[node name="newsstand" type="StaticBody3D" unique_id=1525764880]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=1530175723 instance=ExtResource("1_g7oc3")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=2075615644]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1891, -0.050000012)
+shape = SubResource("BoxShape3D_00s6h")
+
+[node name="Prop" type="Node" parent="." unique_id=1828561602]
+script = ExtResource("2_iiou2")
+prop_id = &"newsstand"
+tags = PackedStringArray()

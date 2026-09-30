@@ -17,7 +17,7 @@ const DISPLAY_NAMES := {
 	"eddie": "EDDIE", "brenda": "BRENDA", "dale": "DALE", "tiffany": "TIFFANY", "mills": "OFFICER MILLS",
 	"gus": "GUS", "marco": "MARCO", "luis": "LUIS", "graves": "DR. GRAVES", "pa": "STATION PA",
 	"news": "NEWS ANCHOR", "stranger": "STRANGER", "kid": "KID", "driver": "BUS DRIVER", "phone": "PHONE",
-	"guard": "GUARD", "crowd": "CROWD", "clerk": "CLERK", "narrator": "",
+	"guard": "GUARD", "machine": "MACHINE", "crowd": "CROWD", "clerk": "CLERK", "narrator": "",
 }
 
 var lines: Dictionary = {}

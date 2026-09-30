@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[resource]
+resource_name = "Smoothie"
+albedo_color = Color(0.65, 0.2, 0.6, 1)
+roughness = 0.25

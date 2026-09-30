@@ -1,0 +1,28 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/bar_stool.glb" id="1_us4ai"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_sudac"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_23b8g"]
+height = 0.75
+radius = 0.24
+
+[node name="bar_stool" type="RigidBody3D" unique_id=1085744238]
+collision_layer = 16
+collision_mask = 31
+mass = 5.0
+sleeping = true
+linear_damp = 0.15
+angular_damp = 0.4
+
+[node name="Model" type="Node3D" parent="." unique_id=1404797908 instance=ExtResource("1_us4ai")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1274928881]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.375, 0)
+shape = SubResource("CylinderShape3D_23b8g")
+
+[node name="Prop" type="Node" parent="." unique_id=653258639]
+script = ExtResource("2_sudac")
+prop_id = &"bar_stool"
+grab_class = "medium"
+tags = PackedStringArray("stool")

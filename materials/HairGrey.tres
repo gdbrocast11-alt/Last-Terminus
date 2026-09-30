@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[resource]
+resource_name = "HairGrey"
+albedo_color = Color(0.65, 0.65, 0.66, 1)
+roughness = 0.55

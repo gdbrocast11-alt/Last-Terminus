@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[resource]
+resource_name = "Candle"
+albedo_color = Color(0.95, 0.9, 0.78, 1)
+roughness = 0.4
+subsurf_scatter_enabled = true
+subsurf_scatter_strength = 0.175

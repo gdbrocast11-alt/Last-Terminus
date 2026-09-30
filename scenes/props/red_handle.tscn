@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/red_handle.glb" id="1_0hplr"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_sgx4g"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_c7ktp"]
+size = Vector3(0.16, 0.22, 0.1)
+
+[node name="red_handle" type="StaticBody3D" unique_id=1659473724]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=860945632 instance=ExtResource("1_0hplr")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1978185754]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.02)
+shape = SubResource("BoxShape3D_c7ktp")
+
+[node name="Prop" type="Node" parent="." unique_id=449677771]
+script = ExtResource("2_sgx4g")
+prop_id = &"red_handle"
+inspect_line = &"ch1_insp_handle"
+tags = PackedStringArray("alarm", "chain")

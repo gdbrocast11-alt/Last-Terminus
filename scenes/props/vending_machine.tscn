@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/vending_machine.glb" id="1_wc3im"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_36pc1"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_5vcek"]
+size = Vector3(0.96500003, 1.85, 0.88)
+
+[node name="vending_machine" type="StaticBody3D" unique_id=1719098710]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=1981245283 instance=ExtResource("1_wc3im")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=2074523106]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0075000226, 0.925, -0.0150000155)
+shape = SubResource("BoxShape3D_5vcek")
+
+[node name="Prop" type="Node" parent="." unique_id=81403338]
+script = ExtResource("2_36pc1")
+prop_id = &"vending_machine"
+tags = PackedStringArray("vending")

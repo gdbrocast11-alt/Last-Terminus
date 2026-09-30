@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/smoothie_counter.glb" id="1_06mop"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_g0lsv"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_rhb6m"]
+size = Vector3(3.7, 2.38602, 1)
+
+[node name="smoothie_counter" type="StaticBody3D" unique_id=1987774318]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=1612220374 instance=ExtResource("1_06mop")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1269243914]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.19301, 0)
+shape = SubResource("BoxShape3D_rhb6m")
+
+[node name="Prop" type="Node" parent="." unique_id=961926348]
+script = ExtResource("2_g0lsv")
+prop_id = &"smoothie_counter"
+inspect_line = &"ch1_insp_smoothie"
+tags = PackedStringArray("hero")

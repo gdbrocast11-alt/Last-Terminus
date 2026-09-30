@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/electrical_panel.glb" id="1_m4q2x"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_n63bx"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_8m81s"]
+size = Vector3(0.7, 1.8499999, 0.35964504)
+
+[node name="electrical_panel" type="StaticBody3D" unique_id=124436485]
+collision_mask = 0
+
+[node name="Model" type="Node3D" parent="." unique_id=1728289878 instance=ExtResource("1_m4q2x")]
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=813048762]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.92499995, -0.069822535)
+shape = SubResource("BoxShape3D_8m81s")
+
+[node name="Prop" type="Node" parent="." unique_id=1794943935]
+script = ExtResource("2_n63bx")
+prop_id = &"electrical_panel"
+inspect_line = &"ch1_insp_panel"
+tags = PackedStringArray("electric", "chain")

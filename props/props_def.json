@@ -1,0 +1,1452 @@
+{
+ "bench": {
+  "cat": "transit",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": "ch1_insp_bench",
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "SteelDark",
+   "WoodWarm"
+  ],
+  "aabb_min": [
+   -0.8999999761581421,
+   -0.004999995231628418,
+   -0.25
+  ],
+  "aabb_max": [
+   0.8999999761581421,
+   0.9486951231956482,
+   0.34485989809036255
+  ]
+ },
+ "trash_bin": {
+  "cat": "transit",
+  "body": "rigid",
+  "mass": 6,
+  "grab": "medium",
+  "col": "cylinder",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "SteelDark",
+   "PaintGrey",
+   "PlasticBlack",
+   "PaintGreen"
+  ],
+  "aabb_min": [
+   -0.25,
+   0.0,
+   -0.25
+  ],
+  "aabb_max": [
+   0.25,
+   0.9300000071525574,
+   0.25
+  ]
+ },
+ "info_kiosk": {
+  "cat": "transit",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "cylinder",
+  "inspect": null,
+  "tags": [
+   "kiosk"
+  ],
+  "markers": {
+   "charger": [
+    0.9,
+    0.9,
+    1.12
+   ]
+  },
+  "mats": [
+   "PaintBlue",
+   "WoodWarm",
+   "SteelBrushed",
+   "PlasticBlack",
+   "ScreenBlue",
+   "SignWhite"
+  ],
+  "aabb_min": [
+   -1.4199999570846558,
+   0.0,
+   -1.4199999570846558
+  ],
+  "aabb_max": [
+   1.4199999570846558,
+   3.559999942779541,
+   1.4199999570846558
+  ]
+ },
+ "ticket_machine": {
+  "cat": "transit",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": null,
+  "tags": [
+   "ticket"
+  ],
+  "markers": {},
+  "mats": [
+   "PaintBlue",
+   "ScreenBlue",
+   "PlasticBlack",
+   "SteelDark",
+   "PaintWhite",
+   "SteelBrushed"
+  ],
+  "aabb_min": [
+   -0.375,
+   0.0,
+   -0.320000022649765
+  ],
+  "aabb_max": [
+   0.375,
+   1.8300000429153442,
+   0.30000001192092896
+  ]
+ },
+ "fare_gate": {
+  "cat": "transit",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "SteelBrushed",
+   "PlasticBlack",
+   "LedGreen",
+   "GlassTint"
+  ],
+  "aabb_min": [
+   -0.4699999988079071,
+   0.0,
+   -0.5600000023841858
+  ],
+  "aabb_max": [
+   0.4699999988079071,
+   1.0749999284744263,
+   0.5600000023841858
+  ]
+ },
+ "suitcase_red": {
+  "cat": "transit",
+  "body": "rigid",
+  "mass": 8,
+  "grab": "medium",
+  "col": "box",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "PlasticRed",
+   "PlasticBlack",
+   "Rubber",
+   "SteelBrushed"
+  ],
+  "aabb_min": [
+   -0.23999999463558197,
+   0.0,
+   -0.14499999582767487
+  ],
+  "aabb_max": [
+   0.23999999463558197,
+   0.7649999856948853,
+   0.14000000059604645
+  ]
+ },
+ "suitcase_blue": {
+  "cat": "transit",
+  "body": "rigid",
+  "mass": 8,
+  "grab": "medium",
+  "col": "box",
+  "inspect": "ch1_insp_luggage",
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "PlasticBlue",
+   "PlasticBlack",
+   "Rubber",
+   "SteelBrushed"
+  ],
+  "aabb_min": [
+   -0.20999999344348907,
+   0.0,
+   -0.12999999523162842
+  ],
+  "aabb_max": [
+   0.20999999344348907,
+   0.6850000023841858,
+   0.125
+  ]
+ },
+ "suitcase_green": {
+  "cat": "transit",
+  "body": "rigid",
+  "mass": 10,
+  "grab": "medium",
+  "col": "box",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "PlasticGreen",
+   "PlasticBlack",
+   "Rubber",
+   "SteelBrushed"
+  ],
+  "aabb_min": [
+   -0.2750000059604645,
+   0.0,
+   -0.16499999165534973
+  ],
+  "aabb_max": [
+   0.2750000059604645,
+   0.8650000095367432,
+   0.1599999964237213
+  ]
+ },
+ "backpack": {
+  "cat": "transit",
+  "body": "rigid",
+  "mass": 3,
+  "grab": "light",
+  "col": "box",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "FabricGrey",
+   "PlasticBlack"
+  ],
+  "aabb_min": [
+   -0.1599999964237213,
+   0.0,
+   -0.14000000059604645
+  ],
+  "aabb_max": [
+   0.1599999964237213,
+   0.46000000834465027,
+   0.10999999940395355
+  ]
+ },
+ "baggage_cart": {
+  "cat": "transit",
+  "body": "rigid",
+  "mass": 45,
+  "grab": "heavy",
+  "col": "box",
+  "inspect": "ch1_insp_cart",
+  "tags": [
+   "cart",
+   "chain"
+  ],
+  "markers": {
+   "handle": [
+    0,
+    -0.7,
+    1.08
+   ]
+  },
+  "mats": [
+   "SteelBrushed",
+   "Chrome",
+   "PlasticBlack",
+   "Rubber",
+   "SteelDark",
+   "PlasticRed",
+   "PlasticBlue",
+   "Cardboard"
+  ],
+  "aabb_min": [
+   -0.45499998331069946,
+   0.01225648820400238,
+   -0.699999988079071
+  ],
+  "aabb_max": [
+   0.45499998331069946,
+   1.100000023841858,
+   0.7199999690055847
+  ]
+ },
+ "wet_floor_sign": {
+  "cat": "transit",
+  "body": "rigid",
+  "mass": 1.5,
+  "grab": "light",
+  "col": "box",
+  "inspect": "ch1_insp_sign",
+  "tags": [
+   "sign"
+  ],
+  "markers": {},
+  "mats": [
+   "PlasticYellow",
+   "PlasticBlack"
+  ],
+  "aabb_min": [
+   -0.1599999964237213,
+   0.0,
+   -0.19834062457084656
+  ],
+  "aabb_max": [
+   0.1599999964237213,
+   0.613210916519165,
+   0.19834062457084656
+  ]
+ },
+ "traffic_cone": {
+  "cat": "transit",
+  "body": "rigid",
+  "mass": 1.2,
+  "grab": "light",
+  "col": "cylinder",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "PlasticOrange",
+   "PaintWhite"
+  ],
+  "aabb_min": [
+   -0.20000000298023224,
+   0.0,
+   -0.20000000298023224
+  ],
+  "aabb_max": [
+   0.20000000298023224,
+   0.6299999952316284,
+   0.20000000298023224
+  ]
+ },
+ "barrier_fence": {
+  "cat": "transit",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": null,
+  "tags": [
+   "mantle"
+  ],
+  "markers": {},
+  "mats": [
+   "SteelGalv",
+   "ConcreteRough"
+  ],
+  "aabb_min": [
+   -1.0199999809265137,
+   0.0,
+   -0.30000001192092896
+  ],
+  "aabb_max": [
+   1.0199999809265137,
+   1.0750000476837158,
+   0.30000001192092896
+  ]
+ },
+ "stanchion": {
+  "cat": "transit",
+  "body": "rigid",
+  "mass": 6,
+  "grab": "medium",
+  "col": "cylinder",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "Chrome"
+  ],
+  "aabb_min": [
+   -0.17000000178813934,
+   0.0,
+   -0.17000000178813934
+  ],
+  "aabb_max": [
+   0.17000000178813934,
+   1.0499999523162842,
+   0.17000000178813934
+  ]
+ },
+ "sculpture_momentum": {
+  "cat": "transit",
+  "body": "none",
+  "mass": 5.0,
+  "grab": null,
+  "col": "none",
+  "inspect": "ch1_insp_sculpture",
+  "tags": [
+   "hero",
+   "chain"
+  ],
+  "markers": {
+   "cable_0": [
+    0.7,
+    0.0,
+    0.0
+   ],
+   "hang_0": [
+    0.55,
+    0.0,
+    -3.3000000000000003
+   ],
+   "cable_1": [
+    0.35000000000000003,
+    0.606217782649107,
+    0.0
+   ],
+   "hang_1": [
+    0.2750000000000001,
+    0.4763139720814413,
+    -3.3000000000000003
+   ],
+   "cable_2": [
+    -0.3499999999999998,
+    0.6062177826491071,
+    0.0
+   ],
+   "hang_2": [
+    -0.2749999999999999,
+    0.47631397208144133,
+    -3.3000000000000003
+   ],
+   "cable_3": [
+    -0.7,
+    8.572527594031472e-17,
+    0.0
+   ],
+   "hang_3": [
+    -0.55,
+    6.735557395310444e-17,
+    -3.3000000000000003
+   ],
+   "cable_4": [
+    -0.3500000000000003,
+    -0.6062177826491069,
+    0.0
+   ],
+   "hang_4": [
+    -0.27500000000000024,
+    -0.47631397208144116,
+    -3.3000000000000003
+   ],
+   "cable_5": [
+    0.35000000000000003,
+    -0.606217782649107,
+    0.0
+   ],
+   "hang_5": [
+    0.2750000000000001,
+    -0.4763139720814413,
+    -3.3000000000000003
+   ]
+  },
+  "mats": [
+   "SteelDark",
+   "Chrome",
+   "Brass",
+   "PaintRed",
+   "PaintYellow",
+   "PaintBlue",
+   "PaintGreen",
+   "PaintOrange"
+  ],
+  "aabb_min": [
+   -2.3511104583740234,
+   -5.869558811187744,
+   -2.6525354385375977
+  ],
+  "aabb_max": [
+   2.711977005004883,
+   0.0,
+   2.6525354385375977
+  ]
+ },
+ "escalator_step": {
+  "cat": "transit",
+  "body": "none",
+  "mass": 5.0,
+  "grab": null,
+  "col": "none",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "SteelDark",
+   "SteelBrushed",
+   "PaintYellow"
+  ],
+  "aabb_min": [
+   -0.5,
+   0.0,
+   -0.2150000035762787
+  ],
+  "aabb_max": [
+   0.5,
+   0.210999995470047,
+   0.20000000298023224
+  ]
+ },
+ "escalator_frame": {
+  "cat": "transit",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "trimesh",
+  "inspect": "ch1_insp_escalator",
+  "tags": [
+   "hero",
+   "chain"
+  ],
+  "markers": {
+   "top": [
+    0,
+    9.0,
+    5.2
+   ],
+   "bottom": [
+    0,
+    0,
+    0
+   ]
+  },
+  "mats": [
+   "SteelBrushed",
+   "GlassTint",
+   "Rubber",
+   "SteelDark",
+   "DiamondPlate"
+  ],
+  "aabb_min": [
+   -0.75,
+   -0.6566268801689148,
+   -10.0
+  ],
+  "aabb_max": [
+   0.75,
+   6.534712314605713,
+   1.0
+  ]
+ },
+ "scrub_robot": {
+  "cat": "transit",
+  "body": "rigid",
+  "mass": 25,
+  "grab": null,
+  "col": "box",
+  "inspect": "ch1_insp_scrub",
+  "tags": [
+   "robot",
+   "chain"
+  ],
+  "markers": {},
+  "mats": [
+   "PaintWhite",
+   "PaintTeal",
+   "ScreenOff",
+   "LedGreen",
+   "Rubber",
+   "PlasticBlack",
+   "LedRed",
+   "SignYellow",
+   "PaintBlack"
+  ],
+  "aabb_min": [
+   -0.375,
+   0.01225648820400238,
+   -0.5600000023841858
+  ],
+  "aabb_max": [
+   0.375,
+   1.1100000143051147,
+   0.4699999988079071
+  ]
+ },
+ "bar_stool": {
+  "cat": "cafe",
+  "body": "rigid",
+  "mass": 5,
+  "grab": "medium",
+  "col": "cylinder",
+  "inspect": null,
+  "tags": [
+   "stool"
+  ],
+  "markers": {},
+  "mats": [
+   "FabricRed",
+   "Chrome"
+  ],
+  "aabb_min": [
+   -0.23999999463558197,
+   0.0,
+   -0.23999999463558197
+  ],
+  "aabb_max": [
+   0.23999999463558197,
+   0.75,
+   0.23999999463558197
+  ]
+ },
+ "cafe_table": {
+  "cat": "cafe",
+  "body": "rigid",
+  "mass": 9,
+  "grab": "medium",
+  "col": "cylinder",
+  "inspect": null,
+  "tags": [
+   "table"
+  ],
+  "markers": {},
+  "mats": [
+   "WoodWarm",
+   "SteelDark"
+  ],
+  "aabb_min": [
+   -0.4000000059604645,
+   0.0,
+   -0.4000000059604645
+  ],
+  "aabb_max": [
+   0.4000000059604645,
+   0.7599999904632568,
+   0.4000000059604645
+  ]
+ },
+ "cafe_chair": {
+  "cat": "cafe",
+  "body": "rigid",
+  "mass": 4,
+  "grab": "medium",
+  "col": "box",
+  "inspect": null,
+  "tags": [
+   "chair"
+  ],
+  "markers": {},
+  "mats": [
+   "WoodWarm",
+   "SteelDark"
+  ],
+  "aabb_min": [
+   -0.20999999344348907,
+   0.0,
+   -0.20999999344348907
+  ],
+  "aabb_max": [
+   0.20999999344348907,
+   0.8994269967079163,
+   0.2347782403230667
+  ]
+ },
+ "smoothie_counter": {
+  "cat": "cafe",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": "ch1_insp_smoothie",
+  "tags": [
+   "hero"
+  ],
+  "markers": {
+   "cup_spot": [
+    0.5,
+    0.2,
+    1.11
+   ]
+  },
+  "mats": [
+   "PaintGreen",
+   "WoodWarm",
+   "Glass",
+   "SteelDark",
+   "SignYellow",
+   "PlasticBlack",
+   "SteelBrushed",
+   "PaintRed",
+   "PaintOrange",
+   "PaintYellow",
+   "PlasticPurple",
+   "PaintWhite"
+  ],
+  "aabb_min": [
+   -1.850000023841858,
+   0.0,
+   -0.5
+  ],
+  "aabb_max": [
+   1.850000023841858,
+   2.3860199451446533,
+   0.5
+  ]
+ },
+ "smoothie_cup": {
+  "cat": "cafe",
+  "body": "rigid",
+  "mass": 0.4,
+  "grab": "light",
+  "col": "cylinder",
+  "inspect": null,
+  "tags": [
+   "cup",
+   "chain"
+  ],
+  "markers": {},
+  "mats": [
+   "PlasticWhite",
+   "Smoothie",
+   "PlasticGreen"
+  ],
+  "aabb_min": [
+   -0.04582161083817482,
+   0.005000002682209015,
+   -0.04699999839067459
+  ],
+  "aabb_max": [
+   0.04582161083817482,
+   0.3051392436027527,
+   0.04699999839067459
+  ]
+ },
+ "coffee_cup": {
+  "cat": "cafe",
+  "body": "rigid",
+  "mass": 0.3,
+  "grab": "light",
+  "col": "cylinder",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "PaintWhite",
+   "PlasticBlack",
+   "Cardboard"
+  ],
+  "aabb_min": [
+   -0.04192190244793892,
+   0.0,
+   -0.0430000014603138
+  ],
+  "aabb_max": [
+   0.04192190244793892,
+   0.12099999934434891,
+   0.0430000014603138
+  ]
+ },
+ "coffee_machine": {
+  "cat": "cafe",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": null,
+  "tags": [
+   "chain",
+   "finale"
+  ],
+  "markers": {},
+  "mats": [
+   "SteelBrushed",
+   "PaintBlack",
+   "ScreenGreen",
+   "Chrome"
+  ],
+  "aabb_min": [
+   -0.3499999940395355,
+   0.0,
+   -0.3225919008255005
+  ],
+  "aabb_max": [
+   0.3499999940395355,
+   1.0299999713897705,
+   0.30000001192092896
+  ]
+ },
+ "vending_machine": {
+  "cat": "transit",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": null,
+  "tags": [
+   "vending"
+  ],
+  "markers": {},
+  "mats": [
+   "PaintRed",
+   "GlassTint",
+   "PlasticBlue",
+   "PlasticYellow",
+   "PlasticGreen",
+   "PlasticOrange",
+   "PaintBlack",
+   "ScreenOff",
+   "PaintWhite"
+  ],
+  "aabb_min": [
+   -0.4749999940395355,
+   0.0,
+   -0.45500001311302185
+  ],
+  "aabb_max": [
+   0.49000000953674316,
+   1.850000023841858,
+   0.42500001192092896
+  ]
+ },
+ "vending_machine_phys": {
+  "cat": "transit",
+  "body": "rigid",
+  "mass": 350,
+  "grab": null,
+  "col": "box",
+  "inspect": null,
+  "tags": [
+   "vending",
+   "yard"
+  ],
+  "markers": {},
+  "mats": [
+   "PaintRed",
+   "GlassTint",
+   "PlasticBlue",
+   "PlasticYellow",
+   "PlasticGreen",
+   "PlasticOrange",
+   "PaintBlack",
+   "ScreenOff",
+   "PaintWhite"
+  ],
+  "aabb_min": [
+   -0.4749999940395355,
+   0.0,
+   -0.45500001311302185
+  ],
+  "aabb_max": [
+   0.49000000953674316,
+   1.850000023841858,
+   0.42500001192092896
+  ]
+ },
+ "station_clock": {
+  "cat": "transit",
+  "body": "none",
+  "mass": 5.0,
+  "grab": null,
+  "col": "none",
+  "inspect": "ch1_insp_clock",
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "PaintBlack",
+   "PaintWhite"
+  ],
+  "aabb_min": [
+   -0.5,
+   -0.5,
+   -0.06599999964237213
+  ],
+  "aabb_max": [
+   0.5,
+   0.5,
+   0.04000002145767212
+  ]
+ },
+ "pigeon_statue": {
+  "cat": "transit",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": "ch1_insp_pigeon",
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "TerrazzoDark",
+   "Brass",
+   "PaintBlack"
+  ],
+  "aabb_min": [
+   -0.30000001192092896,
+   0.0,
+   -0.5600000023841858
+  ],
+  "aabb_max": [
+   0.30000001192092896,
+   1.3799999952316284,
+   0.3650762736797333
+  ]
+ },
+ "red_handle": {
+  "cat": "transit",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": "ch1_insp_handle",
+  "tags": [
+   "alarm",
+   "chain"
+  ],
+  "markers": {},
+  "mats": [
+   "PaintRed",
+   "PaintWhite"
+  ],
+  "aabb_min": [
+   -0.07999999821186066,
+   -0.10999999940395355,
+   -0.07000000029802322
+  ],
+  "aabb_max": [
+   0.07999999821186066,
+   0.10999999940395355,
+   0.029999999329447746
+  ]
+ },
+ "electrical_panel": {
+  "cat": "transit",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": "ch1_insp_panel",
+  "tags": [
+   "electric",
+   "chain"
+  ],
+  "markers": {},
+  "mats": [
+   "PaintGrey",
+   "PaintBlack",
+   "PaintRed",
+   "SignYellow",
+   "SignRed",
+   "SteelGalv"
+  ],
+  "aabb_min": [
+   -0.3499999940395355,
+   0.0,
+   -0.24964505434036255
+  ],
+  "aabb_max": [
+   0.3499999940395355,
+   1.8499999046325684,
+   0.10999999940395355
+  ]
+ },
+ "sprinkler_head": {
+  "cat": "transit",
+  "body": "none",
+  "mass": 5.0,
+  "grab": null,
+  "col": "none",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "Brass",
+   "PaintRed"
+  ],
+  "aabb_min": [
+   -0.03328697755932808,
+   -0.07900000363588333,
+   -0.03500000014901161
+  ],
+  "aabb_max": [
+   0.03328697755932808,
+   0.0,
+   0.03500000014901161
+  ]
+ },
+ "light_fixture": {
+  "cat": "fixtures",
+  "body": "none",
+  "mass": 5.0,
+  "grab": null,
+  "col": "none",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "PaintWhite",
+   "LightTube"
+  ],
+  "aabb_min": [
+   -0.625,
+   -0.09000000357627869,
+   -0.14000000059604645
+  ],
+  "aabb_max": [
+   0.625,
+   0.0,
+   0.14000000059604645
+  ]
+ },
+ "pendant_light": {
+  "cat": "fixtures",
+  "body": "none",
+  "mass": 5.0,
+  "grab": null,
+  "col": "none",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "PlasticBlack",
+   "PaintBlack",
+   "LightWarm"
+  ],
+  "aabb_min": [
+   -0.23999999463558197,
+   -1.4500000476837158,
+   -0.23999999463558197
+  ],
+  "aabb_max": [
+   0.23999999463558197,
+   0.0,
+   0.23999999463558197
+  ]
+ },
+ "sign_slogan": {
+  "cat": "signs",
+  "body": "none",
+  "mass": 5.0,
+  "grab": null,
+  "col": "none",
+  "inspect": null,
+  "tags": [
+   "hero"
+  ],
+  "markers": {},
+  "mats": [
+   "PaintBlack",
+   "SignWhite",
+   "SignYellow"
+  ],
+  "aabb_min": [
+   -4.5,
+   0.0,
+   -0.15000019967556
+  ],
+  "aabb_max": [
+   4.5,
+   1.600000023841858,
+   0.10000000149011612
+  ]
+ },
+ "sign_platform4": {
+  "cat": "signs",
+  "body": "none",
+  "mass": 5.0,
+  "grab": null,
+  "col": "none",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "PaintBlue",
+   "SignWhite",
+   "SteelDark"
+  ],
+  "aabb_min": [
+   -1.600000023841858,
+   -0.3499999940395355,
+   -0.09000010043382645
+  ],
+  "aabb_max": [
+   1.600000023841858,
+   1.350000023841858,
+   0.05999999865889549
+  ]
+ },
+ "sign_exit": {
+  "cat": "signs",
+  "body": "none",
+  "mass": 5.0,
+  "grab": null,
+  "col": "none",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "SignGreen",
+   "SignWhite"
+  ],
+  "aabb_min": [
+   -0.25,
+   -0.10000000149011612,
+   -0.041000012308359146
+  ],
+  "aabb_max": [
+   0.25,
+   0.10000000149011612,
+   0.029999999329447746
+  ]
+ },
+ "sign_terminus_hall": {
+  "cat": "signs",
+  "body": "none",
+  "mass": 5.0,
+  "grab": null,
+  "col": "none",
+  "inspect": null,
+  "tags": [
+   "hero"
+  ],
+  "markers": {},
+  "mats": [
+   "PaintGreen",
+   "SignWhite",
+   "SignYellow"
+  ],
+  "aabb_min": [
+   -3.5,
+   0.0,
+   -0.21000024676322937
+  ],
+  "aabb_max": [
+   3.5,
+   1.5,
+   0.15000000596046448
+  ]
+ },
+ "departures_board": {
+  "cat": "signs",
+  "body": "none",
+  "mass": 5.0,
+  "grab": null,
+  "col": "none",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "PaintBlack",
+   "ScreenBlue",
+   "SignYellow",
+   "SignWhite"
+  ],
+  "aabb_min": [
+   -1.600000023841858,
+   0.0,
+   -0.11900004744529724
+  ],
+  "aabb_max": [
+   1.600000023841858,
+   1.399999976158142,
+   0.09000000357627869
+  ]
+ },
+ "train_car": {
+  "cat": "vehicles",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": "ch1_insp_train",
+  "tags": [
+   "hero",
+   "train"
+  ],
+  "markers": {},
+  "mats": [
+   "PaintWhite",
+   "PaintBlue",
+   "PaintRed",
+   "PaintGrey",
+   "GlassTint",
+   "PlasticBlack",
+   "PaintBlack",
+   "SteelDark",
+   "SteelBrushed",
+   "LightTube"
+  ],
+  "aabb_min": [
+   -1.5399999618530273,
+   0.006988435983657837,
+   -10.125104904174805
+  ],
+  "aabb_max": [
+   1.5399999618530273,
+   4.0,
+   10.010000228881836
+  ]
+ },
+ "skylink_pod": {
+  "cat": "vehicles",
+  "body": "none",
+  "mass": 5.0,
+  "grab": null,
+  "col": "none",
+  "inspect": "ch1_insp_skylink",
+  "tags": [
+   "hero",
+   "chain"
+  ],
+  "markers": {},
+  "mats": [
+   "PaintWhite",
+   "PaintTeal",
+   "GlassTint",
+   "PaintGrey",
+   "SteelDark"
+  ],
+  "aabb_min": [
+   -1.2350000143051147,
+   0.0,
+   -3.0250000953674316
+  ],
+  "aabb_max": [
+   1.2350000143051147,
+   2.9499998092651367,
+   3.009999990463257
+  ]
+ },
+ "planter_box": {
+  "cat": "transit",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": null,
+  "tags": [
+   "mantle"
+  ],
+  "markers": {},
+  "mats": [
+   "Concrete",
+   "Dirt",
+   "PaintGreen"
+  ],
+  "aabb_min": [
+   -0.8662958145141602,
+   0.0,
+   -0.37335923314094543
+  ],
+  "aabb_max": [
+   0.9233592748641968,
+   1.2899999618530273,
+   0.37335923314094543
+  ]
+ },
+ "plant_ficus": {
+  "cat": "deco",
+  "body": "rigid",
+  "mass": 8,
+  "grab": "medium",
+  "col": "cylinder",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "PaintGrey",
+   "WoodDark",
+   "PaintGreen"
+  ],
+  "aabb_min": [
+   -0.3595832586288452,
+   0.0,
+   -0.3668016791343689
+  ],
+  "aabb_max": [
+   0.3692324161529541,
+   1.4359999895095825,
+   0.3668016791343689
+  ]
+ },
+ "fire_extinguisher": {
+  "cat": "safety",
+  "body": "rigid",
+  "mass": 3,
+  "grab": "light",
+  "col": "cylinder",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "PaintRed",
+   "PaintBlack",
+   "PlasticBlack",
+   "PaintWhite"
+  ],
+  "aabb_min": [
+   -0.06824495643377304,
+   0.0,
+   -0.07999999821186066
+  ],
+  "aabb_max": [
+   0.10743307322263718,
+   0.5149999856948853,
+   0.07000000029802322
+  ]
+ },
+ "newsstand": {
+  "cat": "transit",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "PaintOrange",
+   "GlassFrost",
+   "PaintRed",
+   "PaintWhite",
+   "PlasticBlue",
+   "PlasticYellow",
+   "PlasticGreen",
+   "PlasticRed"
+  ],
+  "aabb_min": [
+   -1.399999976158142,
+   0.0,
+   -0.8500000238418579
+  ],
+  "aabb_max": [
+   1.399999976158142,
+   2.378200054168701,
+   0.75
+  ]
+ },
+ "tennis_ball": {
+  "cat": "pickles",
+  "body": "rigid",
+  "mass": 0.06,
+  "grab": "light",
+  "col": "sphere",
+  "inspect": null,
+  "tags": [
+   "ball",
+   "fetch"
+  ],
+  "markers": {},
+  "mats": [
+   "PlasticYellow",
+   "PaintWhite"
+  ],
+  "aabb_min": [
+   -0.03449999913573265,
+   0.0,
+   -0.03353182598948479
+  ],
+  "aabb_max": [
+   0.03449999913573265,
+   0.06599999964237213,
+   0.03353182598948479
+  ]
+ },
+ "pa_speaker": {
+  "cat": "fixtures",
+  "body": "none",
+  "mass": 5.0,
+  "grab": null,
+  "col": "none",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "PaintGrey"
+  ],
+  "aabb_min": [
+   -0.21448414027690887,
+   -0.2199999988079071,
+   -0.30000001192092896
+  ],
+  "aabb_max": [
+   0.21448414027690887,
+   0.2199999988079071,
+   0.10000000149011612
+  ]
+ },
+ "cctv_dome": {
+  "cat": "fixtures",
+  "body": "none",
+  "mass": 5.0,
+  "grab": null,
+  "col": "none",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "PaintWhite",
+   "PaintBlack"
+  ],
+  "aabb_min": [
+   -0.10724207013845444,
+   -0.1120000034570694,
+   -0.10999999940395355
+  ],
+  "aabb_max": [
+   0.10724207013845444,
+   0.03200000524520874,
+   0.10999999940395355
+  ]
+ },
+ "jersey_barrier": {
+  "cat": "yard",
+  "body": "static",
+  "mass": 5.0,
+  "grab": null,
+  "col": "box",
+  "inspect": null,
+  "tags": [
+   "mantle"
+  ],
+  "markers": {},
+  "mats": [
+   "Concrete"
+  ],
+  "aabb_min": [
+   -0.30000001192092896,
+   0.0,
+   -1.2000000476837158
+  ],
+  "aabb_max": [
+   0.30000001192092896,
+   0.800000011920929,
+   1.2000000476837158
+  ]
+ },
+ "caution_tape_post": {
+  "cat": "safety",
+  "body": "none",
+  "mass": 5.0,
+  "grab": null,
+  "col": "none",
+  "inspect": null,
+  "tags": [],
+  "markers": {},
+  "mats": [
+   "PaintYellow",
+   "PaintBlack"
+  ],
+  "aabb_min": [
+   -0.08559509366750717,
+   0.0,
+   -0.09000000357627869
+  ],
+  "aabb_max": [
+   0.08559509366750717,
+   1.100000023841858,
+   0.09000000357627869
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://props/sign_exit.glb" id="1_auolu"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_1cnhu"]
+
+[node name="sign_exit" type="Node3D" unique_id=1369771693]
+
+[node name="Model" type="Node3D" parent="." unique_id=1576418870 instance=ExtResource("1_auolu")]
+
+[node name="Prop" type="Node" parent="." unique_id=128079076]
+script = ExtResource("2_1cnhu")
+prop_id = &"sign_exit"
+tags = PackedStringArray()
