@@ -47,6 +47,15 @@ func _ready() -> void:
 	set_anchors_preset(Control.PRESET_FULL_RECT)
 	theme = UITheme.theme()
 	process_mode = Node.PROCESS_MODE_ALWAYS
+	# directly under a CanvasLayer there is no Control parent to size us
+	if not (get_parent() is Control):
+		_fit()
+		get_viewport().size_changed.connect(_fit)
+
+
+func _fit() -> void:
+	position = Vector2.ZERO
+	size = get_viewport_rect().size
 
 
 func start(from_menu := false) -> void:

@@ -76,6 +76,12 @@ tools/export.sh all                                         # builds/linux + bui
   plays the game with a bot (see `scripts/qa/qa_autoplay.gd`); every chapter registers QA hooks with `qa_add`.
 * `builder.tscn -- walktest <level> a:b ...` physically walks the real player controller between markers;
   `-- probe <level>` checks markers against colliders; `-- perf`, `-- shot`, `-- gallery`, `-- animsheet` for visual QA.
+* `builder.tscn -- usetest <chapter> <beat> <prop> ...` stands the real player in front of props and presses the real
+  Interact input (proves every bound action is reachable); `-- savetest` covers checkpoints, the rolling backup,
+  corrupt/tampered saves and Continue; `-- dumpprop` prints a prop's node/collision tree.
+* `--qa-nointervene` / `--qa-dead=brenda,tiffany` make the bot let people die / start with fixed survivor fates,
+  to exercise the failure branches of every chapter.
+* `python3 tools/lint_lines.py` checks that every dialogue id used by a script exists and has rendered audio.
 
 ## How the accidents work
 

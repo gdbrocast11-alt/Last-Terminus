@@ -199,6 +199,7 @@ func _do_vision() -> void:
 	await vision(&"ch3_store", chain, WATCH, shots, {"max": 26.0})
 	chain.queue_free()
 	chain = null
+	_paint_fell = false     # set by the premonition's paint step; only the real run may decide the flamingo story
 	await wait(0.3)
 
 
