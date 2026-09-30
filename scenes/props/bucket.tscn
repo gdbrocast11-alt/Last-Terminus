@@ -79,7 +79,7 @@ shadow_mesh = SubResource("ArrayMesh_crijy")
 height = 0.42570633
 radius = 0.1634238
 
-[node name="bucket" type="RigidBody3D" unique_id=2035271306]
+[node name="bucket" type="RigidBody3D" unique_id=1082097172]
 collision_layer = 16
 collision_mask = 31
 mass = 1.2
@@ -94,11 +94,11 @@ mesh = SubResource("ArrayMesh_ce3hf")
 surface_material_override/0 = ExtResource("2_edaum")
 surface_material_override/1 = ExtResource("3_qoaxm")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=14432725]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1209815390]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.21285316, 0)
 shape = SubResource("CylinderShape3D_pavk7")
 
-[node name="Prop" type="Node" parent="." unique_id=1422047943]
+[node name="Prop" type="Node" parent="." unique_id=1773189748]
 script = ExtResource("4_7up81")
 prop_id = &"bucket"
 grab_class = "light"

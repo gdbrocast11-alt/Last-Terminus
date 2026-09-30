@@ -45,6 +45,7 @@ var vision := false                      ## premonition playback: no deaths, no 
 var speed := 1.0                         ## time scale for steps and tweens (vision playback runs faster)
 var _snap: Dictionary = {}               ## node path -> Transform3D captured by snapshot()
 var _snap_vis: Dictionary = {}
+var _snap_state: Dictionary = {}
 
 
 func setup(lv: LevelRoot, id: StringName, step_list: Array, opts := {}) -> void:
@@ -249,10 +250,20 @@ func _check_blockers(s: Dictionary, live_only := false) -> String:
 		# displacement checks are only meaningful before the step itself starts moving things
 		if live_only and b.k in ["moved", "far", "gone", "actor_away"]:
 			continue
+		# a step that sets a state itself must not be blocked by the state it just set
+		if live_only and b.k == "state" and _sets_state(s, String(b.p), String(b.s)):
+			continue
 		var r := _blocker_hit(b)
 		if r != "":
 			return r
 	return ""
+
+
+func _sets_state(s: Dictionary, prop_name: String, state_name: String) -> bool:
+	for a: Dictionary in s.get("do", []):
+		if a.get("a", "") == "state" and String(a.get("t", "")) == prop_name and String(a.get("s", "")) == state_name:
+			return true
+	return false
 
 
 func _blocker_hit(b: Dictionary) -> String:
@@ -395,7 +406,7 @@ func _do_guarded(sid: StringName, a: Dictionary, guard: bool) -> void:
 func _do(sid: StringName, a: Dictionary) -> void:
 	if not is_inside_tree():
 		return
-	if vision and a.a in ["lethal", "kill", "flag", "say", "seq", "swap", "free", "npc", "title", "pickles", "slowmo", "music", "debris"]:
+	if vision and a.a in ["lethal", "kill", "flag", "say", "seq", "swap", "free", "npc", "title", "pickles", "slowmo", "music", "debris", "state"]:
 		if a.a == "kill":
 			Events.flash_requested.emit(Color(1, 1, 1), 0.35)
 		return
@@ -712,13 +723,15 @@ func _act_kill(a: Dictionary) -> void:
 	var v := _node(a.vol) as LethalVolume
 	var cause := StringName(a.get("cause", "accident"))
 	var style: String = a.get("style", "back")
-	var targets: Array = a.get("n", [])
-	if targets is Array and targets.is_empty() and a.get("everyone", false):
-		targets = []
+	var targets: Array = []
+	var who: Variant = a.get("n", [])
+	if who is String or who is StringName:
+		targets = [String(who)]
+	elif who is Array:
+		targets = (who as Array).duplicate()
+	if targets.is_empty() and a.get("everyone", false):
 		for ac in get_tree().get_nodes_in_group("actors"):
 			targets.append(String((ac as Actor).actor_id))
-	if a.get("n") is String or a.get("n") is StringName:
-		targets = [String(a.n)]
 	for id in targets:
 		if String(id) == "player":
 			if Director.player and v and v.contains(Director.player) and not Director.player.dead:
@@ -810,11 +823,13 @@ func _act_pickles(a: Dictionary) -> void:
 func snapshot(names: Array) -> void:
 	_snap.clear()
 	_snap_vis.clear()
+	_snap_state.clear()
 	for n in names:
 		var nd := _node3d(n)
 		if nd:
 			_snap[String(n)] = nd.global_transform
 			_snap_vis[String(n)] = nd.visible
+			_snap_state[String(n)] = String(nd.get_meta("state", ""))
 
 
 func restore() -> void:
@@ -824,6 +839,8 @@ func restore() -> void:
 			continue
 		nd.global_transform = _snap[k]
 		nd.visible = _snap_vis.get(k, true)
+		if nd.has_meta("state") or String(_snap_state.get(k, "")) != "":
+			nd.set_meta("state", _snap_state.get(k, ""))
 		var pc := nd.get_node_or_null("Prop") as PropComponent
 		if pc:
 			pc.set_scripted(false)

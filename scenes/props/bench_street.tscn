@@ -75,7 +75,7 @@ shadow_mesh = SubResource("ArrayMesh_7o1sg")
 [sub_resource type="BoxShape3D" id="BoxShape3D_u7udi"]
 size = Vector3(1.6, 0.95043445, 0.50753736)
 
-[node name="bench_street" type="StaticBody3D" unique_id=992238515]
+[node name="bench_street" type="StaticBody3D" unique_id=1301139460]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=186790222 instance=ExtResource("1_d1hxm")]
@@ -85,11 +85,11 @@ mesh = SubResource("ArrayMesh_dnldw")
 surface_material_override/0 = ExtResource("2_iq5e1")
 surface_material_override/1 = ExtResource("3_tjq1p")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=309902505]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1743630347]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47521722, 0.028768688)
 shape = SubResource("BoxShape3D_u7udi")
 
-[node name="Prop" type="Node" parent="." unique_id=1345621996]
+[node name="Prop" type="Node" parent="." unique_id=1195700712]
 script = ExtResource("4_bbpuq")
 prop_id = &"bench_street"
 tags = PackedStringArray()

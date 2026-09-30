@@ -75,7 +75,7 @@ shadow_mesh = SubResource("ArrayMesh_mhpdd")
 [sub_resource type="BoxShape3D" id="BoxShape3D_pyidi"]
 size = Vector3(2, 0.51, 2)
 
-[node name="plunge_pool" type="StaticBody3D" unique_id=1422684807]
+[node name="plunge_pool" type="StaticBody3D" unique_id=40748215]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=449133635 instance=ExtResource("1_ydwy7")]
@@ -85,11 +85,11 @@ mesh = SubResource("ArrayMesh_d3m8e")
 surface_material_override/0 = ExtResource("2_dm3is")
 surface_material_override/1 = ExtResource("3_20hg2")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1232412344]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1667675697]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.255, 0)
 shape = SubResource("BoxShape3D_pyidi")
 
-[node name="Prop" type="Node" parent="." unique_id=1596341622]
+[node name="Prop" type="Node" parent="." unique_id=797806944]
 script = ExtResource("4_emcms")
 prop_id = &"plunge_pool"
 inspect_line = &"ch4_insp_pool"

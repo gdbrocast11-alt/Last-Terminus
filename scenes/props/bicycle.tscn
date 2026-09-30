@@ -139,7 +139,7 @@ shadow_mesh = SubResource("ArrayMesh_ao8rf")
 [sub_resource type="BoxShape3D" id="BoxShape3D_ciyk4"]
 size = Vector3(0.5, 0.96141267, 1.78)
 
-[node name="bicycle" type="RigidBody3D" unique_id=1045945098]
+[node name="bicycle" type="RigidBody3D" unique_id=925971695]
 collision_layer = 16
 collision_mask = 31
 mass = 12.0
@@ -156,11 +156,11 @@ surface_material_override/1 = ExtResource("3_8klw2")
 surface_material_override/2 = ExtResource("4_gntdq")
 surface_material_override/3 = ExtResource("5_ana5n")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1402211886]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1326773099]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.48070633, 0)
 shape = SubResource("BoxShape3D_ciyk4")
 
-[node name="Prop" type="Node" parent="." unique_id=1358953172]
+[node name="Prop" type="Node" parent="." unique_id=1188514566]
 script = ExtResource("6_40vew")
 prop_id = &"bicycle"
 grab_class = "heavy"

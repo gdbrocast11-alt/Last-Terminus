@@ -109,7 +109,7 @@ shadow_mesh = SubResource("ArrayMesh_2741y")
 [sub_resource type="BoxShape3D" id="BoxShape3D_eo6to"]
 size = Vector3(0.62, 0.90099996, 0.655)
 
-[node name="stove_oven" type="StaticBody3D" unique_id=1596260639]
+[node name="stove_oven" type="StaticBody3D" unique_id=1152174321]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=2603748 instance=ExtResource("1_owwhu")]
@@ -120,11 +120,11 @@ surface_material_override/0 = ExtResource("2_lokbv")
 surface_material_override/1 = ExtResource("3_652bs")
 surface_material_override/2 = ExtResource("4_emaub")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=761271619]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1705383800]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.45049998, -0.017500013)
 shape = SubResource("BoxShape3D_eo6to")
 
-[node name="Prop" type="Node" parent="." unique_id=1457185943]
+[node name="Prop" type="Node" parent="." unique_id=400378951]
 script = ExtResource("5_nnans")
 prop_id = &"stove_oven"
 inspect_line = &"ch2_insp_oven"

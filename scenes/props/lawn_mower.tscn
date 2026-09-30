@@ -107,7 +107,7 @@ shadow_mesh = SubResource("ArrayMesh_w1ae2")
 [sub_resource type="BoxShape3D" id="BoxShape3D_kry4c"]
 size = Vector3(0.53, 0.95291704, 0.9211358)
 
-[node name="lawn_mower" type="RigidBody3D" unique_id=689841721]
+[node name="lawn_mower" type="RigidBody3D" unique_id=1700161114]
 collision_layer = 16
 collision_mask = 31
 mass = 22.0
@@ -123,11 +123,11 @@ surface_material_override/0 = ExtResource("2_dsl7h")
 surface_material_override/1 = ExtResource("3_1s5gt")
 surface_material_override/2 = ExtResource("4_hryn5")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=235597062]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1098034520]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4818423, 0.050567895)
 shape = SubResource("BoxShape3D_kry4c")
 
-[node name="Prop" type="Node" parent="." unique_id=1489935510]
+[node name="Prop" type="Node" parent="." unique_id=611486076]
 script = ExtResource("5_uyy8d")
 prop_id = &"lawn_mower"
 grab_class = "heavy"

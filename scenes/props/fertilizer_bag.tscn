@@ -78,7 +78,7 @@ shadow_mesh = SubResource("ArrayMesh_23b35")
 [sub_resource type="BoxShape3D" id="BoxShape3D_y3kms"]
 size = Vector3(0.5, 0.11999999, 0.334)
 
-[node name="fertilizer_bag" type="RigidBody3D" unique_id=2090443427]
+[node name="fertilizer_bag" type="RigidBody3D" unique_id=1996287737]
 collision_layer = 16
 collision_mask = 31
 mass = 15.0
@@ -93,11 +93,11 @@ mesh = SubResource("ArrayMesh_eievl")
 surface_material_override/0 = ExtResource("2_gybet")
 surface_material_override/1 = ExtResource("3_0gedx")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1328088052]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1873249495]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.06999999, -0.007000014)
 shape = SubResource("BoxShape3D_y3kms")
 
-[node name="Prop" type="Node" parent="." unique_id=1482713852]
+[node name="Prop" type="Node" parent="." unique_id=2128468317]
 script = ExtResource("4_hlrfw")
 prop_id = &"fertilizer_bag"
 grab_class = "medium"

@@ -255,7 +255,7 @@ shadow_mesh = SubResource("ArrayMesh_8p5kp")
 [sub_resource type="BoxShape3D" id="BoxShape3D_kc8iu"]
 size = Vector3(1.95, 2.4446964, 0.53)
 
-[node name="shelving_unit" type="StaticBody3D" unique_id=971345441]
+[node name="shelving_unit" type="StaticBody3D" unique_id=1456974489]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=2004759042 instance=ExtResource("1_wg1rj")]
@@ -271,11 +271,11 @@ surface_material_override/5 = ExtResource("7_6w83a")
 surface_material_override/6 = ExtResource("8_6kjam")
 surface_material_override/7 = ExtResource("9_xm7db")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=731087544]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=44235493]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2223482, 0)
 shape = SubResource("BoxShape3D_kc8iu")
 
-[node name="Prop" type="Node" parent="." unique_id=822971962]
+[node name="Prop" type="Node" parent="." unique_id=386076435]
 script = ExtResource("10_s8rkt")
 prop_id = &"shelving_unit"
 tags = PackedStringArray()

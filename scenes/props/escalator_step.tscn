@@ -103,7 +103,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_5m0fy")
 
-[node name="escalator_step" type="Node3D" unique_id=564691555]
+[node name="escalator_step" type="Node3D" unique_id=57045506]
 
 [node name="Model" parent="." unique_id=164872610 instance=ExtResource("1_s4wlr")]
 
@@ -113,7 +113,7 @@ surface_material_override/0 = ExtResource("2_20fi8")
 surface_material_override/1 = ExtResource("3_1n74b")
 surface_material_override/2 = ExtResource("4_gkjdc")
 
-[node name="Prop" type="Node" parent="." unique_id=486108149]
+[node name="Prop" type="Node" parent="." unique_id=2066690726]
 script = ExtResource("5_fpmyw")
 prop_id = &"escalator_step"
 tags = PackedStringArray()

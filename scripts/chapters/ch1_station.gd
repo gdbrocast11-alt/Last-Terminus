@@ -436,6 +436,7 @@ func _arrest() -> void:
 	player.look_at_point(mills.global_position + Vector3(0, 1.5, 0), 0.5)
 	await seq(["ch1_mills_arrest_01", "ch1_mills_arrest_02", "ch1_mills_arrest_03", "ch1_mills_arrest_04", "ch1_mills_arrest_05", "ch1_mills_arrest_06", "ch1_mills_arrest_07"], 0.15)
 	DialogueManager.say(&"ch1_exit_01", 1)
+	_exit_chatter()
 	# march outside: everybody is herded to the forecourt
 	for a in strangers:
 		a.run_away_to(mkp(CROWD[randi() % CROWD.size()]))
@@ -607,3 +608,12 @@ func _qa_hooks() -> void:
 	qa_add("ticket", func() -> bool: return not ticket_done and not vision_done, func() -> void: _use_ticket())
 	qa_add("barrier", func() -> bool: return ticket_done and not vision_done and not busy_talk, func() -> void: teleport_player("BarrierSpot"))
 	qa_add("alarm", func() -> bool: return panic and not alarm_pulled and not arrested and _panic_time > 3.0, func() -> void: _pull_alarm())
+
+
+## The crowd, Brenda-adjacent bystanders and Eddie all talk over the march out of the station.
+func _exit_chatter() -> void:
+	for id in ["ch1_exit_02", "ch1_exit_03", "ch1_exit_04", "ch1_exit_05"]:
+		await wait(1.6)
+		if not is_inside_tree():
+			return
+		DialogueManager.bark(StringName(id))

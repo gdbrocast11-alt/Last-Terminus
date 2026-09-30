@@ -134,22 +134,22 @@ func preset_params(preset: int) -> Dictionary:
 			return {"dir_shadow": 1024, "pos_shadow": 1024, "soft_shadow": 0, "msaa": 0, "taa": false, "fxaa": true,
 				"ssao": false, "ssil": false, "ssr": false, "sdfgi": false, "vfog": false, "glow": true, "dof": false,
 				"lod_threshold": 3.0, "shadow_distance": 28.0, "ssao_quality": 0, "vfog_size": 48, "vfog_depth": 48,
-				"ssr_steps": 24, "sdfgi_cascades": 2, "decals": true, "particle_scale": 0.5, "max_lights": 6}
+				"ssr_steps": 24, "sdfgi_cascades": 2, "decals": true, "particle_scale": 0.5, "max_lights": 6, "dir_splits": 1, "omni_shadows": 0}
 		1:
 			return {"dir_shadow": 2048, "pos_shadow": 2048, "soft_shadow": 1, "msaa": 0, "taa": true, "fxaa": false,
 				"ssao": true, "ssil": false, "ssr": false, "sdfgi": false, "vfog": true, "glow": true, "dof": false,
 				"lod_threshold": 2.0, "shadow_distance": 45.0, "ssao_quality": 1, "vfog_size": 64, "vfog_depth": 64,
-				"ssr_steps": 32, "sdfgi_cascades": 2, "decals": true, "particle_scale": 0.75, "max_lights": 10}
+				"ssr_steps": 32, "sdfgi_cascades": 2, "decals": true, "particle_scale": 0.75, "max_lights": 10, "dir_splits": 2, "omni_shadows": 1}
 		2:
 			return {"dir_shadow": 4096, "pos_shadow": 4096, "soft_shadow": 3, "msaa": 0, "taa": true, "fxaa": false,
 				"ssao": true, "ssil": true, "ssr": true, "sdfgi": true, "vfog": true, "glow": true, "dof": true,
 				"lod_threshold": 1.0, "shadow_distance": 70.0, "ssao_quality": 2, "vfog_size": 96, "vfog_depth": 96,
-				"ssr_steps": 64, "sdfgi_cascades": 3, "decals": true, "particle_scale": 1.0, "max_lights": 16}
+				"ssr_steps": 64, "sdfgi_cascades": 3, "decals": true, "particle_scale": 1.0, "max_lights": 16, "dir_splits": 4, "omni_shadows": 3}
 		_:
 			return {"dir_shadow": 8192, "pos_shadow": 8192, "soft_shadow": 4, "msaa": 1, "taa": true, "fxaa": false,
 				"ssao": true, "ssil": true, "ssr": true, "sdfgi": true, "vfog": true, "glow": true, "dof": true,
 				"lod_threshold": 0.7, "shadow_distance": 110.0, "ssao_quality": 3, "vfog_size": 128, "vfog_depth": 128,
-				"ssr_steps": 128, "sdfgi_cascades": 4, "decals": true, "particle_scale": 1.0, "max_lights": 24}
+				"ssr_steps": 128, "sdfgi_cascades": 4, "decals": true, "particle_scale": 1.0, "max_lights": 24, "dir_splits": 4, "omni_shadows": 8}
 
 
 func apply_graphics() -> void:
@@ -183,9 +183,34 @@ func apply_to_scene() -> void:
 	for n in get_tree().get_nodes_in_group("world_environment"):
 		if n is WorldEnvironment:
 			apply_to_environment(n.environment, n.camera_attributes)
+	var pp := preset_params(get_value("graphics/preset"))
 	for l in get_tree().get_nodes_in_group("graphics_directional"):
 		if l is DirectionalLight3D:
-			l.directional_shadow_max_distance = preset_params(get_value("graphics/preset")).shadow_distance
+			var dl := l as DirectionalLight3D
+			dl.directional_shadow_max_distance = pp.shadow_distance
+			dl.directional_shadow_mode = {1: DirectionalLight3D.SHADOW_ORTHOGONAL, 2: DirectionalLight3D.SHADOW_PARALLEL_2_SPLITS}.get(int(pp.dir_splits), DirectionalLight3D.SHADOW_PARALLEL_4_SPLITS)
+	# cap shadow-casting omni/spot lights and the total number of active lights per preset
+	var shadow_budget: int = int(pp.omni_shadows)
+	var light_budget: int = int(pp.max_lights)
+	var lights := get_tree().get_nodes_in_group("level_lights")
+	lights.sort_custom(func(a: Node, b: Node) -> bool: return float((a as Light3D).light_energy) * float((a as Light3D).omni_range if a is OmniLight3D else 8.0) > float((b as Light3D).light_energy) * float((b as Light3D).omni_range if b is OmniLight3D else 8.0))
+	var used := 0
+	var shadowed := 0
+	for n in lights:
+		var lt := n as Light3D
+		if lt == null:
+			continue
+		var wants_shadow: bool = lt.has_meta("wants_shadow") and bool(lt.get_meta("wants_shadow"))
+		lt.set_meta("budget_off", used >= light_budget)
+		if used >= light_budget:
+			lt.shadow_enabled = false
+		else:
+			used += 1
+			if wants_shadow and shadowed < shadow_budget:
+				lt.shadow_enabled = true
+				shadowed += 1
+			else:
+				lt.shadow_enabled = false
 
 
 func apply_to_environment(env: Environment, cam_attrs: CameraAttributes) -> void:

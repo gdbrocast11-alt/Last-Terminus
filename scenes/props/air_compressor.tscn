@@ -173,7 +173,7 @@ shadow_mesh = SubResource("ArrayMesh_hpddf")
 [sub_resource type="BoxShape3D" id="BoxShape3D_p7e2k"]
 size = Vector3(1.3642302, 1.0055951, 0.8600146)
 
-[node name="air_compressor" type="StaticBody3D" unique_id=1242205822]
+[node name="air_compressor" type="StaticBody3D" unique_id=244193552]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=465217251 instance=ExtResource("1_fjnya")]
@@ -186,11 +186,11 @@ surface_material_override/2 = ExtResource("4_dnhle")
 surface_material_override/3 = ExtResource("5_7ea51")
 surface_material_override/4 = ExtResource("6_0m8ml")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=2139540996]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=945459374]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0321151, 0.50720245, -0.18000731)
 shape = SubResource("BoxShape3D_p7e2k")
 
-[node name="Prop" type="Node" parent="." unique_id=727785610]
+[node name="Prop" type="Node" parent="." unique_id=1941149321]
 script = ExtResource("7_abptb")
 prop_id = &"air_compressor"
 inspect_line = &"ch3_insp_compressor"

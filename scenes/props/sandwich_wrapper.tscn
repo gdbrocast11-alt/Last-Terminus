@@ -45,7 +45,7 @@ shadow_mesh = SubResource("ArrayMesh_w5krj")
 [sub_resource type="BoxShape3D" id="BoxShape3D_wbpeu"]
 size = Vector3(0.18865706, 0.012, 0.16475017)
 
-[node name="sandwich_wrapper" type="RigidBody3D" unique_id=819416329]
+[node name="sandwich_wrapper" type="RigidBody3D" unique_id=1977762946]
 collision_layer = 16
 collision_mask = 31
 mass = 0.01
@@ -59,11 +59,11 @@ angular_damp = 0.4
 mesh = SubResource("ArrayMesh_karp3")
 surface_material_override/0 = ExtResource("2_6uj12")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=596861177]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1306254593]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.006, 0)
 shape = SubResource("BoxShape3D_wbpeu")
 
-[node name="Prop" type="Node" parent="." unique_id=557193767]
+[node name="Prop" type="Node" parent="." unique_id=405794108]
 script = ExtResource("3_oqjbt")
 prop_id = &"sandwich_wrapper"
 grab_class = "light"

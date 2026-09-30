@@ -80,7 +80,7 @@ shadow_mesh = SubResource("ArrayMesh_nvy2l")
 height = 0.75
 radius = 0.24
 
-[node name="bar_stool" type="RigidBody3D" unique_id=361638616]
+[node name="bar_stool" type="RigidBody3D" unique_id=225174718]
 collision_layer = 16
 collision_mask = 31
 mass = 5.0
@@ -95,11 +95,11 @@ mesh = SubResource("ArrayMesh_3sdla")
 surface_material_override/0 = ExtResource("2_c5aue")
 surface_material_override/1 = ExtResource("3_2468h")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=834745265]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=2006494024]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.375, 0)
 shape = SubResource("CylinderShape3D_yiis5")
 
-[node name="Prop" type="Node" parent="." unique_id=193650808]
+[node name="Prop" type="Node" parent="." unique_id=713177989]
 script = ExtResource("4_u2f0a")
 prop_id = &"bar_stool"
 grab_class = "medium"

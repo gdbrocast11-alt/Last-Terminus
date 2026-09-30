@@ -47,7 +47,7 @@ shadow_mesh = SubResource("ArrayMesh_w42ld")
 [sub_resource type="BoxShape3D" id="BoxShape3D_kegev"]
 size = Vector3(4.289683, 1.6, 4.4)
 
-[node name="gravel_pile" type="StaticBody3D" unique_id=679608723]
+[node name="gravel_pile" type="StaticBody3D" unique_id=650147700]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=1467103137 instance=ExtResource("1_ducm7")]
@@ -56,11 +56,11 @@ collision_mask = 0
 mesh = SubResource("ArrayMesh_2fovh")
 surface_material_override/0 = ExtResource("2_82l6t")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1143182379]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1458139793]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8, 0)
 shape = SubResource("BoxShape3D_kegev")
 
-[node name="Prop" type="Node" parent="." unique_id=63380593]
+[node name="Prop" type="Node" parent="." unique_id=1743997939]
 script = ExtResource("3_cr0wy")
 prop_id = &"gravel_pile"
 tags = PackedStringArray()

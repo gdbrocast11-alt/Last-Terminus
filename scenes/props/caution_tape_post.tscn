@@ -77,7 +77,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_f6k8j")
 
-[node name="caution_tape_post" type="Node3D" unique_id=1800706910]
+[node name="caution_tape_post" type="Node3D" unique_id=766104996]
 
 [node name="Model" parent="." unique_id=1581747815 instance=ExtResource("1_yi6vn")]
 
@@ -86,7 +86,7 @@ mesh = SubResource("ArrayMesh_2210e")
 surface_material_override/0 = ExtResource("2_g3fp5")
 surface_material_override/1 = ExtResource("3_u3bxv")
 
-[node name="Prop" type="Node" parent="." unique_id=732015011]
+[node name="Prop" type="Node" parent="." unique_id=1689075970]
 script = ExtResource("4_wpoxe")
 prop_id = &"caution_tape_post"
 tags = PackedStringArray()

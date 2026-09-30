@@ -107,7 +107,7 @@ shadow_mesh = SubResource("ArrayMesh_inja1")
 [sub_resource type="BoxShape3D" id="BoxShape3D_6gxum"]
 size = Vector3(0.568, 0.9026525, 1.0237659)
 
-[node name="shopping_cart" type="RigidBody3D" unique_id=1457020502]
+[node name="shopping_cart" type="RigidBody3D" unique_id=388958592]
 collision_layer = 16
 collision_mask = 31
 mass = 12.0
@@ -123,11 +123,11 @@ surface_material_override/0 = ExtResource("2_f5sen")
 surface_material_override/1 = ExtResource("3_7b48h")
 surface_material_override/2 = ExtResource("4_xynvu")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1737133584]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1850948426]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.46132624, 0.051882982)
 shape = SubResource("BoxShape3D_6gxum")
 
-[node name="Prop" type="Node" parent="." unique_id=1657695964]
+[node name="Prop" type="Node" parent="." unique_id=872873873]
 script = ExtResource("5_r1lbi")
 prop_id = &"shopping_cart"
 grab_class = "heavy"

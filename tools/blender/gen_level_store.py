@@ -169,7 +169,7 @@ P("chain_hoist", (8.0, 5.0, -4.0), 0, name="ChainHoist")
 # ===== garden centre -- slip + forklift zone
 P("hose_reel", (25.6, 0, -1.8), 0, name="HoseReel")
 P("sprinkler_display", (23.6, 0, 4.4), 0, name="Sprinklers")
-P("wet_floor_sign", (21.4, 0, 8.6), 100, name="GardenWetSign")
+P("wet_floor_sign", (18.6, 0, 10.2), 100, name="GardenWetSign")
 P("forklift", (28.0, 0, 8.0), -90, name="Forklift")
 P("forklift_handle", (27.0, 1.05, 7.0), 0, name="LowerHandle")
 P("flamingo_pallet", (28.0, 3.3, 8.0), 90, name="FlamingoPallet")

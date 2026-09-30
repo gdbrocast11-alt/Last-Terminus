@@ -74,7 +74,7 @@ shadow_mesh = SubResource("ArrayMesh_pdtwv")
 [sub_resource type="BoxShape3D" id="BoxShape3D_146tq"]
 size = Vector3(2.4, 0.17250001, 0.4)
 
-[node name="lumber_bundle" type="StaticBody3D" unique_id=2031262022]
+[node name="lumber_bundle" type="StaticBody3D" unique_id=674672190]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=1072938745 instance=ExtResource("1_ydj4d")]
@@ -84,11 +84,11 @@ mesh = SubResource("ArrayMesh_kl22n")
 surface_material_override/0 = ExtResource("2_1s55m")
 surface_material_override/1 = ExtResource("3_s4q71")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=2025626633]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1559619471]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.08625001, 0)
 shape = SubResource("BoxShape3D_146tq")
 
-[node name="Prop" type="Node" parent="." unique_id=622990749]
+[node name="Prop" type="Node" parent="." unique_id=1097335280]
 script = ExtResource("4_rgxlh")
 prop_id = &"lumber_bundle"
 tags = PackedStringArray()

@@ -75,7 +75,7 @@ shadow_mesh = SubResource("ArrayMesh_b0st5")
 [sub_resource type="BoxShape3D" id="BoxShape3D_xjlhm"]
 size = Vector3(0.3, 0.0315, 0.2)
 
-[node name="pickles_vest" type="RigidBody3D" unique_id=1026229695]
+[node name="pickles_vest" type="RigidBody3D" unique_id=192874847]
 collision_layer = 16
 collision_mask = 31
 mass = 0.2
@@ -90,11 +90,11 @@ mesh = SubResource("ArrayMesh_wvqyv")
 surface_material_override/0 = ExtResource("2_ojjhg")
 surface_material_override/1 = ExtResource("3_2udxq")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1721779155]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=2036084997]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.01575, 0)
 shape = SubResource("BoxShape3D_xjlhm")
 
-[node name="Prop" type="Node" parent="." unique_id=2007711570]
+[node name="Prop" type="Node" parent="." unique_id=1938979227]
 script = ExtResource("4_7x60e")
 prop_id = &"pickles_vest"
 grab_class = "light"

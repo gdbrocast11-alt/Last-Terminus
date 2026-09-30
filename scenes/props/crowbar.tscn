@@ -48,7 +48,7 @@ shadow_mesh = SubResource("ArrayMesh_f08f3")
 [sub_resource type="BoxShape3D" id="BoxShape3D_djov7"]
 size = Vector3(0.024, 0.066963136, 0.6758771)
 
-[node name="crowbar" type="RigidBody3D" unique_id=1509469032]
+[node name="crowbar" type="RigidBody3D" unique_id=2009535529]
 collision_layer = 16
 collision_mask = 31
 mass = 1.5
@@ -62,11 +62,11 @@ angular_damp = 0.4
 mesh = SubResource("ArrayMesh_c3gnr")
 surface_material_override/0 = ExtResource("2_82imu")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1933309576]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=593061855]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.03508926, 0.012061417)
 shape = SubResource("BoxShape3D_djov7")
 
-[node name="Prop" type="Node" parent="." unique_id=1864347428]
+[node name="Prop" type="Node" parent="." unique_id=1308577251]
 script = ExtResource("3_ybp8j")
 prop_id = &"crowbar"
 grab_class = "light"

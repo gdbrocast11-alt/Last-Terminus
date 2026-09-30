@@ -76,7 +76,7 @@ shadow_mesh = SubResource("ArrayMesh_xt3i7")
 [sub_resource type="BoxShape3D" id="BoxShape3D_mbuxx"]
 size = Vector3(1.5, 1.5, 0.9)
 
-[node name="propane_cage" type="StaticBody3D" unique_id=1756904009]
+[node name="propane_cage" type="StaticBody3D" unique_id=1015657124]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=796920741 instance=ExtResource("1_3fcih")]
@@ -86,11 +86,11 @@ mesh = SubResource("ArrayMesh_jwsa4")
 surface_material_override/0 = ExtResource("2_1ahhn")
 surface_material_override/1 = ExtResource("3_dpccc")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1115048409]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=901885752]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.75, 0)
 shape = SubResource("BoxShape3D_mbuxx")
 
-[node name="Prop" type="Node" parent="." unique_id=1486744681]
+[node name="Prop" type="Node" parent="." unique_id=560744960]
 script = ExtResource("4_8cbpp")
 prop_id = &"propane_cage"
 tags = PackedStringArray("propane")

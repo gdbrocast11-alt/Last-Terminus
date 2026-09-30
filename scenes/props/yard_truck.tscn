@@ -235,7 +235,7 @@ shadow_mesh = SubResource("ArrayMesh_b6i2g")
 [sub_resource type="BoxShape3D" id="BoxShape3D_pl8lh"]
 size = Vector3(2.2, 1.7436192, 4.55)
 
-[node name="yard_truck" type="RigidBody3D" unique_id=1877177489]
+[node name="yard_truck" type="RigidBody3D" unique_id=1744889889]
 collision_layer = 16
 collision_mask = 31
 mass = 1400.0
@@ -255,11 +255,11 @@ surface_material_override/4 = ExtResource("6_uvyhg")
 surface_material_override/5 = ExtResource("7_2hodm")
 surface_material_override/6 = ExtResource("8_jkxl5")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1141811628]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1368808045]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8781904, 0.2750001)
 shape = SubResource("BoxShape3D_pl8lh")
 
-[node name="Prop" type="Node" parent="." unique_id=1734912857]
+[node name="Prop" type="Node" parent="." unique_id=1296682733]
 script = ExtResource("9_3tps7")
 prop_id = &"yard_truck"
 inspect_line = &"ch6_insp_truck"

@@ -132,7 +132,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_e0t3j")
 
-[node name="framed_photo" type="Node3D" unique_id=1856025878]
+[node name="framed_photo" type="Node3D" unique_id=1342435363]
 
 [node name="Model" parent="." unique_id=128838018 instance=ExtResource("1_4dpuf")]
 
@@ -143,7 +143,7 @@ surface_material_override/1 = ExtResource("3_1m7ye")
 surface_material_override/2 = ExtResource("4_ilu25")
 surface_material_override/3 = ExtResource("5_3qkrf")
 
-[node name="Prop" type="Node" parent="." unique_id=1240690210]
+[node name="Prop" type="Node" parent="." unique_id=1541834233]
 script = ExtResource("6_rd37b")
 prop_id = &"framed_photo"
 tags = PackedStringArray()

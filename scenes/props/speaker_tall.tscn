@@ -110,7 +110,7 @@ shadow_mesh = SubResource("ArrayMesh_2py1q")
 [sub_resource type="BoxShape3D" id="BoxShape3D_f4vlr"]
 size = Vector3(0.48967797, 1.855, 0.5398847)
 
-[node name="speaker_tall" type="RigidBody3D" unique_id=1846413860]
+[node name="speaker_tall" type="RigidBody3D" unique_id=1634815857]
 collision_layer = 16
 collision_mask = 31
 mass = 12.0
@@ -126,11 +126,11 @@ surface_material_override/0 = ExtResource("2_3ohdg")
 surface_material_override/1 = ExtResource("3_ir8k0")
 surface_material_override/2 = ExtResource("4_kvtko")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1217430556]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=546061194]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.064838976, 0.9225, -0.00010070205)
 shape = SubResource("BoxShape3D_f4vlr")
 
-[node name="Prop" type="Node" parent="." unique_id=1111668769]
+[node name="Prop" type="Node" parent="." unique_id=1234550652]
 script = ExtResource("5_70mrw")
 prop_id = &"speaker_tall"
 grab_class = "medium"

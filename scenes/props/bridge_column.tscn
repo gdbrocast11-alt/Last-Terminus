@@ -48,7 +48,7 @@ shadow_mesh = SubResource("ArrayMesh_fgosh")
 height = 5.15
 radius = 0.6
 
-[node name="bridge_column" type="StaticBody3D" unique_id=988055750]
+[node name="bridge_column" type="StaticBody3D" unique_id=1398482214]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=1225913516 instance=ExtResource("1_r40sa")]
@@ -57,11 +57,11 @@ collision_mask = 0
 mesh = SubResource("ArrayMesh_lrfku")
 surface_material_override/0 = ExtResource("2_1q1ho")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=464732821]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=2095490852]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.575, 0)
 shape = SubResource("CylinderShape3D_rai07")
 
-[node name="Prop" type="Node" parent="." unique_id=1743546966]
+[node name="Prop" type="Node" parent="." unique_id=155300485]
 script = ExtResource("3_6bb2e")
 prop_id = &"bridge_column"
 tags = PackedStringArray("bridge", "chain")

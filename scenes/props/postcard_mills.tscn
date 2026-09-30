@@ -74,7 +74,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_afcud")
 
-[node name="postcard_mills" type="Node3D" unique_id=451131660]
+[node name="postcard_mills" type="Node3D" unique_id=405186091]
 
 [node name="Model" parent="." unique_id=1195732878 instance=ExtResource("1_76bj1")]
 
@@ -83,7 +83,7 @@ mesh = SubResource("ArrayMesh_j5hoo")
 surface_material_override/0 = ExtResource("2_6w8st")
 surface_material_override/1 = ExtResource("3_58f8k")
 
-[node name="Prop" type="Node" parent="." unique_id=1091287492]
+[node name="Prop" type="Node" parent="." unique_id=798752975]
 script = ExtResource("4_jqybf")
 prop_id = &"postcard_mills"
 inspect_line = &"ch8_mills_card"

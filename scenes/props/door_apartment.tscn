@@ -136,7 +136,7 @@ shadow_mesh = SubResource("ArrayMesh_l858y")
 [sub_resource type="BoxShape3D" id="BoxShape3D_0qqr8"]
 size = Vector3(0.9, 2.05, 0.1535317)
 
-[node name="door_apartment" type="StaticBody3D" unique_id=569197023]
+[node name="door_apartment" type="StaticBody3D" unique_id=1374924122]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=1247630100 instance=ExtResource("1_ms5ed")]
@@ -148,11 +148,11 @@ surface_material_override/1 = ExtResource("3_ccabb")
 surface_material_override/2 = ExtResource("4_mcmk0")
 surface_material_override/3 = ExtResource("5_uiabl")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1339337437]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1776229774]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.45, 1.025, -0.051765844)
 shape = SubResource("BoxShape3D_0qqr8")
 
-[node name="Prop" type="Node" parent="." unique_id=116046888]
+[node name="Prop" type="Node" parent="." unique_id=1750188016]
 script = ExtResource("6_uqurw")
 prop_id = &"door_apartment"
 tags = PackedStringArray("door")

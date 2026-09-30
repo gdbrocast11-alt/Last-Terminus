@@ -109,7 +109,7 @@ shadow_mesh = SubResource("ArrayMesh_phdjn")
 [sub_resource type="BoxShape3D" id="BoxShape3D_hvxlh"]
 size = Vector3(0.3, 1.23, 0.32657397)
 
-[node name="vending_lever" type="StaticBody3D" unique_id=2020045980]
+[node name="vending_lever" type="StaticBody3D" unique_id=1470689430]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=896393765 instance=ExtResource("1_s78x1")]
@@ -120,11 +120,11 @@ surface_material_override/0 = ExtResource("2_ggijg")
 surface_material_override/1 = ExtResource("3_vh667")
 surface_material_override/2 = ExtResource("4_vgihe")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1520572337]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=615594282]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.615, -0.006713018)
 shape = SubResource("BoxShape3D_hvxlh")
 
-[node name="Prop" type="Node" parent="." unique_id=1849325126]
+[node name="Prop" type="Node" parent="." unique_id=1296771123]
 script = ExtResource("5_j6wb8")
 prop_id = &"vending_lever"
 tags = PackedStringArray("lever", "yard")

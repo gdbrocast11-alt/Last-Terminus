@@ -171,7 +171,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_0nfhn")
 
-[node name="chandelier_crystals" type="Node3D" unique_id=1485545525]
+[node name="chandelier_crystals" type="Node3D" unique_id=364369920]
 
 [node name="Model" parent="." unique_id=2146307578 instance=ExtResource("1_ig3dw")]
 
@@ -183,7 +183,7 @@ surface_material_override/2 = ExtResource("4_dyeaa")
 surface_material_override/3 = ExtResource("5_8hnn6")
 surface_material_override/4 = ExtResource("6_gupg0")
 
-[node name="Prop" type="Node" parent="." unique_id=2112079969]
+[node name="Prop" type="Node" parent="." unique_id=665859463]
 script = ExtResource("7_j45id")
 prop_id = &"chandelier_crystals"
 inspect_line = &"ch4_insp_crystals"

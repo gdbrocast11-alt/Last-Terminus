@@ -48,7 +48,7 @@ shadow_mesh = SubResource("ArrayMesh_h52dy")
 height = 0.10724209
 radius = 0.31
 
-[node name="yoga_mat_rolled" type="RigidBody3D" unique_id=1953908187]
+[node name="yoga_mat_rolled" type="RigidBody3D" unique_id=218562015]
 collision_layer = 16
 collision_mask = 31
 mass = 1.2
@@ -62,11 +62,11 @@ angular_damp = 0.4
 mesh = SubResource("ArrayMesh_63vfv")
 surface_material_override/0 = ExtResource("2_o7wu6")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1319806899]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1074811409]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.054999996, 0)
 shape = SubResource("CylinderShape3D_3ps61")
 
-[node name="Prop" type="Node" parent="." unique_id=1193234417]
+[node name="Prop" type="Node" parent="." unique_id=1622554689]
 script = ExtResource("3_a10go")
 prop_id = &"yoga_mat_rolled"
 grab_class = "light"

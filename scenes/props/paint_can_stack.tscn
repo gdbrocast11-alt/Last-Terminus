@@ -304,7 +304,7 @@ shadow_mesh = SubResource("ArrayMesh_np0p8")
 [sub_resource type="BoxShape3D" id="BoxShape3D_mlfdg"]
 size = Vector3(1.2, 0.846, 1.23)
 
-[node name="paint_can_stack" type="RigidBody3D" unique_id=146492103]
+[node name="paint_can_stack" type="RigidBody3D" unique_id=1322509999]
 collision_layer = 16
 collision_mask = 31
 mass = 40.0
@@ -326,11 +326,11 @@ surface_material_override/6 = ExtResource("8_0gk1f")
 surface_material_override/7 = ExtResource("9_ri4lk")
 surface_material_override/8 = ExtResource("10_kp8iw")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=77585903]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1558442895]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.423, -0.014999986)
 shape = SubResource("BoxShape3D_mlfdg")
 
-[node name="Prop" type="Node" parent="." unique_id=2128970523]
+[node name="Prop" type="Node" parent="." unique_id=1061779488]
 script = ExtResource("11_fly78")
 prop_id = &"paint_can_stack"
 grab_class = "heavy"

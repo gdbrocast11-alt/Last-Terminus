@@ -140,7 +140,7 @@ shadow_mesh = SubResource("ArrayMesh_vhlou")
 [sub_resource type="BoxShape3D" id="BoxShape3D_s71y0"]
 size = Vector3(1.4, 1.28, 0.54)
 
-[node name="sprinkler_display" type="StaticBody3D" unique_id=152573809]
+[node name="sprinkler_display" type="StaticBody3D" unique_id=1237746500]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=1528809007 instance=ExtResource("1_e516d")]
@@ -152,11 +152,11 @@ surface_material_override/1 = ExtResource("3_mp76p")
 surface_material_override/2 = ExtResource("4_hnpe3")
 surface_material_override/3 = ExtResource("5_553tk")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=2087548134]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1860177044]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.64, -0.02000001)
 shape = SubResource("BoxShape3D_s71y0")
 
-[node name="Prop" type="Node" parent="." unique_id=1670523122]
+[node name="Prop" type="Node" parent="." unique_id=720786676]
 script = ExtResource("6_oxuxp")
 prop_id = &"sprinkler_display"
 inspect_line = &"ch3_insp_sprinkler"

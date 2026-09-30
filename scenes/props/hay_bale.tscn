@@ -75,7 +75,7 @@ shadow_mesh = SubResource("ArrayMesh_ooywm")
 [sub_resource type="BoxShape3D" id="BoxShape3D_x7d2h"]
 size = Vector3(1.32, 0.46999997, 0.5)
 
-[node name="hay_bale" type="StaticBody3D" unique_id=1185680200]
+[node name="hay_bale" type="StaticBody3D" unique_id=140598701]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=622116872 instance=ExtResource("1_3u6pn")]
@@ -85,11 +85,11 @@ mesh = SubResource("ArrayMesh_atwf8")
 surface_material_override/0 = ExtResource("2_6hkq1")
 surface_material_override/1 = ExtResource("3_dfmql")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1351953707]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=128098060]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.22499998, 0)
 shape = SubResource("BoxShape3D_x7d2h")
 
-[node name="Prop" type="Node" parent="." unique_id=1568779262]
+[node name="Prop" type="Node" parent="." unique_id=1616678796]
 script = ExtResource("4_d13vl")
 prop_id = &"hay_bale"
 inspect_line = &"ch6_insp_hay"

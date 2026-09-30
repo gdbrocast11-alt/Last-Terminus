@@ -113,7 +113,7 @@ shadow_mesh = SubResource("ArrayMesh_pumwu")
 height = 0.88
 radius = 0.30400002
 
-[node name="barrel_red" type="RigidBody3D" unique_id=2122832042]
+[node name="barrel_red" type="RigidBody3D" unique_id=586292196]
 collision_layer = 16
 collision_mask = 31
 mass = 45.0
@@ -129,11 +129,11 @@ surface_material_override/0 = ExtResource("2_bn1x2")
 surface_material_override/1 = ExtResource("3_nma62")
 surface_material_override/2 = ExtResource("4_ucu1f")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1938142600]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=487596975]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.44, -0.0059999824)
 shape = SubResource("CylinderShape3D_lmhvu")
 
-[node name="Prop" type="Node" parent="." unique_id=885973317]
+[node name="Prop" type="Node" parent="." unique_id=984191461]
 script = ExtResource("5_d5cku")
 prop_id = &"barrel_red"
 grab_class = "heavy"

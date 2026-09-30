@@ -76,7 +76,7 @@ shadow_mesh = SubResource("ArrayMesh_nr3ne")
 [sub_resource type="SphereShape3D" id="SphereShape3D_3a84r"]
 radius = 0.132
 
-[node name="helmet" type="RigidBody3D" unique_id=799352239]
+[node name="helmet" type="RigidBody3D" unique_id=786517955]
 collision_layer = 16
 collision_mask = 31
 mass = 0.4
@@ -91,11 +91,11 @@ mesh = SubResource("ArrayMesh_o1fvy")
 surface_material_override/0 = ExtResource("2_cl4ou")
 surface_material_override/1 = ExtResource("3_8ddcb")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=462899793]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1076412914]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.09, 0)
 shape = SubResource("SphereShape3D_3a84r")
 
-[node name="Prop" type="Node" parent="." unique_id=291427571]
+[node name="Prop" type="Node" parent="." unique_id=1005969024]
 script = ExtResource("4_a5qlu")
 prop_id = &"helmet"
 grab_class = "light"

@@ -77,7 +77,7 @@ shadow_mesh = SubResource("ArrayMesh_1t1qp")
 height = 0.6
 radius = 0.3
 
-[node name="laundry_basket" type="RigidBody3D" unique_id=41469956]
+[node name="laundry_basket" type="RigidBody3D" unique_id=334329169]
 collision_layer = 16
 collision_mask = 31
 mass = 2.0
@@ -92,11 +92,11 @@ mesh = SubResource("ArrayMesh_5d2rl")
 surface_material_override/0 = ExtResource("2_tdi3q")
 surface_material_override/1 = ExtResource("3_hyugq")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=555702900]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=162343524]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.3, 0)
 shape = SubResource("CylinderShape3D_2wqcq")
 
-[node name="Prop" type="Node" parent="." unique_id=2015985756]
+[node name="Prop" type="Node" parent="." unique_id=1258478493]
 script = ExtResource("4_eupsv")
 prop_id = &"laundry_basket"
 grab_class = "medium"

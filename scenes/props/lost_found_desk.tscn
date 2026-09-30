@@ -107,7 +107,7 @@ shadow_mesh = SubResource("ArrayMesh_b6owr")
 [sub_resource type="BoxShape3D" id="BoxShape3D_n2h2e"]
 size = Vector3(2.3, 1.105, 0.9)
 
-[node name="lost_found_desk" type="StaticBody3D" unique_id=1352493068]
+[node name="lost_found_desk" type="StaticBody3D" unique_id=674558137]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=2095321667 instance=ExtResource("1_jwi5m")]
@@ -118,11 +118,11 @@ surface_material_override/0 = ExtResource("2_sa0ff")
 surface_material_override/1 = ExtResource("3_3vdp6")
 surface_material_override/2 = ExtResource("4_vx0it")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1347970523]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1203285020]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5525, 0)
 shape = SubResource("BoxShape3D_n2h2e")
 
-[node name="Prop" type="Node" parent="." unique_id=472787667]
+[node name="Prop" type="Node" parent="." unique_id=38209891]
 script = ExtResource("5_pjtbu")
 prop_id = &"lost_found_desk"
 tags = PackedStringArray()

@@ -74,7 +74,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_v843i")
 
-[node name="aisle_sign" type="Node3D" unique_id=1457470826]
+[node name="aisle_sign" type="Node3D" unique_id=76142585]
 
 [node name="Model" parent="." unique_id=570051192 instance=ExtResource("1_bd0cy")]
 
@@ -83,7 +83,7 @@ mesh = SubResource("ArrayMesh_fbdk7")
 surface_material_override/0 = ExtResource("2_7wnxd")
 surface_material_override/1 = ExtResource("3_np5fd")
 
-[node name="Prop" type="Node" parent="." unique_id=1258765258]
+[node name="Prop" type="Node" parent="." unique_id=1185647677]
 script = ExtResource("4_hbfro")
 prop_id = &"aisle_sign"
 tags = PackedStringArray()

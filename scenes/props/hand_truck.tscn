@@ -107,7 +107,7 @@ shadow_mesh = SubResource("ArrayMesh_6nbqe")
 [sub_resource type="BoxShape3D" id="BoxShape3D_3x22i"]
 size = Vector3(0.53, 1.1500001, 0.43)
 
-[node name="hand_truck" type="RigidBody3D" unique_id=1264912780]
+[node name="hand_truck" type="RigidBody3D" unique_id=1497734043]
 collision_layer = 16
 collision_mask = 31
 mass = 12.0
@@ -123,11 +123,11 @@ surface_material_override/0 = ExtResource("2_50ubb")
 surface_material_override/1 = ExtResource("3_7tj5n")
 surface_material_override/2 = ExtResource("4_5r7cs")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=749942871]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=881494663]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.57500005, -0.055000007)
 shape = SubResource("BoxShape3D_3x22i")
 
-[node name="Prop" type="Node" parent="." unique_id=11002194]
+[node name="Prop" type="Node" parent="." unique_id=421547892]
 script = ExtResource("5_y81fm")
 prop_id = &"hand_truck"
 grab_class = "medium"

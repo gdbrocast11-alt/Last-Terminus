@@ -111,7 +111,7 @@ shadow_mesh = SubResource("ArrayMesh_tcqok")
 height = 0.27380425
 radius = 0.08284331
 
-[node name="paint_can" type="RigidBody3D" unique_id=1428872979]
+[node name="paint_can" type="RigidBody3D" unique_id=966286024]
 collision_layer = 16
 collision_mask = 31
 mass = 1.5
@@ -127,11 +127,11 @@ surface_material_override/0 = ExtResource("2_577ot")
 surface_material_override/1 = ExtResource("3_1t2gd")
 surface_material_override/2 = ExtResource("4_65hwc")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1543185519]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1997632315]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.13690212, 0)
 shape = SubResource("CylinderShape3D_j8h67")
 
-[node name="Prop" type="Node" parent="." unique_id=1628173100]
+[node name="Prop" type="Node" parent="." unique_id=1392389464]
 script = ExtResource("5_03yw1")
 prop_id = &"paint_can"
 grab_class = "light"

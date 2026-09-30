@@ -112,7 +112,7 @@ shadow_mesh = SubResource("ArrayMesh_h1mqn")
 height = 0.46
 radius = 0.115
 
-[node name="blender_jug" type="RigidBody3D" unique_id=383575163]
+[node name="blender_jug" type="RigidBody3D" unique_id=560811384]
 collision_layer = 16
 collision_mask = 31
 mass = 0.8
@@ -128,11 +128,11 @@ surface_material_override/0 = ExtResource("2_b7hyk")
 surface_material_override/1 = ExtResource("3_35dbn")
 surface_material_override/2 = ExtResource("4_vr3vp")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=986759214]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=133256057]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.23, 0)
 shape = SubResource("CylinderShape3D_ammxp")
 
-[node name="Prop" type="Node" parent="." unique_id=597231590]
+[node name="Prop" type="Node" parent="." unique_id=1127577835]
 script = ExtResource("5_v0u41")
 prop_id = &"blender_jug"
 grab_class = "light"

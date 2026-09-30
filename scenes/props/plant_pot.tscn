@@ -81,7 +81,7 @@ shadow_mesh = SubResource("ArrayMesh_l17kl")
 height = 0.548
 radius = 0.14804257
 
-[node name="plant_pot" type="RigidBody3D" unique_id=1259698009]
+[node name="plant_pot" type="RigidBody3D" unique_id=1666701961]
 collision_layer = 16
 collision_mask = 31
 mass = 3.0
@@ -96,11 +96,11 @@ mesh = SubResource("ArrayMesh_caqq7")
 surface_material_override/0 = ExtResource("2_mcngm")
 surface_material_override/1 = ExtResource("3_cv8oa")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=45695856]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=446049172]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0030259043, 0.274, -0.00042776763)
 shape = SubResource("CylinderShape3D_50xv7")
 
-[node name="Prop" type="Node" parent="." unique_id=1558673019]
+[node name="Prop" type="Node" parent="." unique_id=1924715608]
 script = ExtResource("4_o5jj7")
 prop_id = &"plant_pot"
 grab_class = "medium"

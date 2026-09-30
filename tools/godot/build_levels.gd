@@ -95,6 +95,13 @@ func _build(level_name: String) -> void:
 			(inst as RigidBody3D).sleeping = true
 			if nocol:
 				(inst as RigidBody3D).freeze = true
+		# small props fade out with distance (cheap "LOD" for big halls)
+		for pmi in inst.find_children("*", "MeshInstance3D", true, false):
+			var pm := pmi as MeshInstance3D
+			if pm.get_aabb().size.length() < 1.6:
+				pm.visibility_range_end = 38.0
+				pm.visibility_range_end_margin = 4.0
+				pm.visibility_range_fade_mode = GeometryInstance3D.VISIBILITY_RANGE_FADE_SELF
 		if inst is StaticBody3D and not nocol and not (comp and "door" in (comp.get("tags") as PackedStringArray)):
 			inst.add_to_group("nav_source", true)
 	# ---- lights
@@ -127,6 +134,9 @@ func _build(level_name: String) -> void:
 		node.light_color = Color(l.color[0], l.color[1], l.color[2])
 		node.light_energy = l.energy
 		node.shadow_enabled = l.shadow
+		node.set_meta("wants_shadow", bool(l.shadow))
+		if l.kind != "dir":
+			node.add_to_group("level_lights", true)
 		node.light_volumetric_fog_energy = l.fog
 		node.shadow_bias = 0.04
 		node.shadow_normal_bias = 1.2

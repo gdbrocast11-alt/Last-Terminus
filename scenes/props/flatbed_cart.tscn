@@ -109,7 +109,7 @@ shadow_mesh = SubResource("ArrayMesh_k1dwp")
 [sub_resource type="BoxShape3D" id="BoxShape3D_ijf16"]
 size = Vector3(0.75, 1.0602003, 1.7148492)
 
-[node name="flatbed_cart" type="RigidBody3D" unique_id=157253283]
+[node name="flatbed_cart" type="RigidBody3D" unique_id=1436494050]
 collision_layer = 16
 collision_mask = 31
 mass = 40.0
@@ -125,11 +125,11 @@ surface_material_override/0 = ExtResource("2_jifxn")
 surface_material_override/1 = ExtResource("3_bh41x")
 surface_material_override/2 = ExtResource("4_2y5aw")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=873440026]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=13233868]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5326074, 0.057424605)
 shape = SubResource("BoxShape3D_ijf16")
 
-[node name="Prop" type="Node" parent="." unique_id=874862007]
+[node name="Prop" type="Node" parent="." unique_id=1977408666]
 script = ExtResource("5_rlhl7")
 prop_id = &"flatbed_cart"
 grab_class = "heavy"

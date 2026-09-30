@@ -107,7 +107,7 @@ shadow_mesh = SubResource("ArrayMesh_0c6il")
 [sub_resource type="BoxShape3D" id="BoxShape3D_k3lav"]
 size = Vector3(1.9, 2.2, 0.7)
 
-[node name="tire_rack" type="StaticBody3D" unique_id=1415269247]
+[node name="tire_rack" type="StaticBody3D" unique_id=355746312]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=1966956959 instance=ExtResource("1_358x2")]
@@ -118,11 +118,11 @@ surface_material_override/0 = ExtResource("2_oqfob")
 surface_material_override/1 = ExtResource("3_g6ott")
 surface_material_override/2 = ExtResource("4_un7ye")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=423145620]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=328991028]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1, 0)
 shape = SubResource("BoxShape3D_k3lav")
 
-[node name="Prop" type="Node" parent="." unique_id=1537157658]
+[node name="Prop" type="Node" parent="." unique_id=2014690206]
 script = ExtResource("5_6gon1")
 prop_id = &"tire_rack"
 inspect_line = &"ch3_insp_tire"

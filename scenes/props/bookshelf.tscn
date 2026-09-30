@@ -293,7 +293,7 @@ shadow_mesh = SubResource("ArrayMesh_6r7to")
 [sub_resource type="BoxShape3D" id="BoxShape3D_1yb4o"]
 size = Vector3(1, 1.9525, 0.32999998)
 
-[node name="bookshelf" type="StaticBody3D" unique_id=1509198293]
+[node name="bookshelf" type="StaticBody3D" unique_id=892952779]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=1934400336 instance=ExtResource("1_0gieh")]
@@ -310,11 +310,11 @@ surface_material_override/6 = ExtResource("8_k5pxy")
 surface_material_override/7 = ExtResource("9_7pgfe")
 surface_material_override/8 = ExtResource("10_8ibhu")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=284815228]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=438797290]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.97625, -0.00500001)
 shape = SubResource("BoxShape3D_1yb4o")
 
-[node name="Prop" type="Node" parent="." unique_id=3178315]
+[node name="Prop" type="Node" parent="." unique_id=891199874]
 script = ExtResource("11_q7bsb")
 prop_id = &"bookshelf"
 tags = PackedStringArray()

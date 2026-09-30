@@ -109,7 +109,7 @@ shadow_mesh = SubResource("ArrayMesh_kja5k")
 height = 0.121
 radius = 0.043
 
-[node name="coffee_cup" type="RigidBody3D" unique_id=1504396190]
+[node name="coffee_cup" type="RigidBody3D" unique_id=1975659839]
 collision_layer = 16
 collision_mask = 31
 mass = 0.3
@@ -125,11 +125,11 @@ surface_material_override/0 = ExtResource("2_fd4g6")
 surface_material_override/1 = ExtResource("3_oa52y")
 surface_material_override/2 = ExtResource("4_mrca7")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1105818632]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1089714084]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0605, 0)
 shape = SubResource("CylinderShape3D_50dq2")
 
-[node name="Prop" type="Node" parent="." unique_id=1421146946]
+[node name="Prop" type="Node" parent="." unique_id=2044683301]
 script = ExtResource("5_c2atv")
 prop_id = &"coffee_cup"
 grab_class = "light"

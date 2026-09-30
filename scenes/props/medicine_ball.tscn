@@ -47,7 +47,7 @@ shadow_mesh = SubResource("ArrayMesh_ya7ep")
 [sub_resource type="SphereShape3D" id="SphereShape3D_tqsou"]
 radius = 0.16
 
-[node name="medicine_ball" type="RigidBody3D" unique_id=1713881205]
+[node name="medicine_ball" type="RigidBody3D" unique_id=1197002912]
 collision_layer = 16
 collision_mask = 31
 mass = 5.0
@@ -61,11 +61,11 @@ angular_damp = 0.4
 mesh = SubResource("ArrayMesh_5ulmo")
 surface_material_override/0 = ExtResource("2_u3yqc")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=613571882]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1618025920]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.4901161e-08, 0.16, -1.4901161e-08)
 shape = SubResource("SphereShape3D_tqsou")
 
-[node name="Prop" type="Node" parent="." unique_id=1146421353]
+[node name="Prop" type="Node" parent="." unique_id=413112003]
 script = ExtResource("3_xahmw")
 prop_id = &"medicine_ball"
 grab_class = "medium"

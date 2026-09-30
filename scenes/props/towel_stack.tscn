@@ -103,7 +103,7 @@ shadow_mesh = SubResource("ArrayMesh_rmc06")
 [sub_resource type="BoxShape3D" id="BoxShape3D_xnqvs"]
 size = Vector3(0.36, 0.25, 0.26)
 
-[node name="towel_stack" type="RigidBody3D" unique_id=840786723]
+[node name="towel_stack" type="RigidBody3D" unique_id=876662486]
 collision_layer = 16
 collision_mask = 31
 sleeping = true
@@ -118,11 +118,11 @@ surface_material_override/0 = ExtResource("2_xxjkt")
 surface_material_override/1 = ExtResource("3_tnxhh")
 surface_material_override/2 = ExtResource("4_r6o7i")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1657786176]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=902686090]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
 shape = SubResource("BoxShape3D_xnqvs")
 
-[node name="Prop" type="Node" parent="." unique_id=1639277468]
+[node name="Prop" type="Node" parent="." unique_id=1004279297]
 script = ExtResource("5_gforr")
 prop_id = &"towel_stack"
 grab_class = "light"

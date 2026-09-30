@@ -102,7 +102,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_eidge")
 
-[node name="wall_calendar" type="Node3D" unique_id=1049035031]
+[node name="wall_calendar" type="Node3D" unique_id=1551014507]
 
 [node name="Model" parent="." unique_id=2086455948 instance=ExtResource("1_tw2c5")]
 
@@ -112,7 +112,7 @@ surface_material_override/0 = ExtResource("2_n1f2t")
 surface_material_override/1 = ExtResource("3_f6nny")
 surface_material_override/2 = ExtResource("4_i5wf7")
 
-[node name="Prop" type="Node" parent="." unique_id=872070588]
+[node name="Prop" type="Node" parent="." unique_id=2145431831]
 script = ExtResource("5_eah1i")
 prop_id = &"wall_calendar"
 tags = PackedStringArray()

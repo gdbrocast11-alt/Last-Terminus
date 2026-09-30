@@ -47,7 +47,7 @@ shadow_mesh = SubResource("ArrayMesh_oyrts")
 [sub_resource type="BoxShape3D" id="BoxShape3D_wp5r8"]
 size = Vector3(0.96000004, 0.9306741, 0.89524347)
 
-[node name="armchair" type="StaticBody3D" unique_id=562569524]
+[node name="armchair" type="StaticBody3D" unique_id=1778688067]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=2039809098 instance=ExtResource("1_guhy2")]
@@ -56,11 +56,11 @@ collision_mask = 0
 mesh = SubResource("ArrayMesh_mm8cv")
 surface_material_override/0 = ExtResource("2_ym275")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=210611566]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1736746812]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.46533704, 0.022621721)
 shape = SubResource("BoxShape3D_wp5r8")
 
-[node name="Prop" type="Node" parent="." unique_id=444762430]
+[node name="Prop" type="Node" parent="." unique_id=1368465444]
 script = ExtResource("3_agav6")
 prop_id = &"armchair"
 tags = PackedStringArray()

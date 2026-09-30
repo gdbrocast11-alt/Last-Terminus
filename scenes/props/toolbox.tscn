@@ -78,7 +78,7 @@ shadow_mesh = SubResource("ArrayMesh_rvltl")
 [sub_resource type="BoxShape3D" id="BoxShape3D_6ooyn"]
 size = Vector3(0.5, 0.29014483, 0.22)
 
-[node name="toolbox" type="RigidBody3D" unique_id=36930306]
+[node name="toolbox" type="RigidBody3D" unique_id=931658508]
 collision_layer = 16
 collision_mask = 31
 mass = 4.0
@@ -93,11 +93,11 @@ mesh = SubResource("ArrayMesh_w4fem")
 surface_material_override/0 = ExtResource("2_y15py")
 surface_material_override/1 = ExtResource("3_166je")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=329065097]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1155908786]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.14507242, 0)
 shape = SubResource("BoxShape3D_6ooyn")
 
-[node name="Prop" type="Node" parent="." unique_id=927283971]
+[node name="Prop" type="Node" parent="." unique_id=1416258817]
 script = ExtResource("4_081h1")
 prop_id = &"toolbox"
 grab_class = "medium"

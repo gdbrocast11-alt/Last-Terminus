@@ -107,7 +107,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_5pmie")
 
-[node name="sale_banner" type="Node3D" unique_id=1344483752]
+[node name="sale_banner" type="Node3D" unique_id=1309678797]
 
 [node name="Model" parent="." unique_id=829571311 instance=ExtResource("1_w0hpm")]
 
@@ -117,7 +117,7 @@ surface_material_override/0 = ExtResource("2_7pv0g")
 surface_material_override/1 = ExtResource("3_h25wh")
 surface_material_override/2 = ExtResource("4_goqcr")
 
-[node name="Prop" type="Node" parent="." unique_id=1714302902]
+[node name="Prop" type="Node" parent="." unique_id=384472142]
 script = ExtResource("5_lx00j")
 prop_id = &"sale_banner"
 inspect_line = &"ch3_insp_banner"

@@ -174,7 +174,7 @@ shadow_mesh = SubResource("ArrayMesh_4falq")
 [sub_resource type="BoxShape3D" id="BoxShape3D_nxtxf"]
 size = Vector3(0.6, 1.05, 0.64)
 
-[node name="paint_shaker" type="StaticBody3D" unique_id=1689416945]
+[node name="paint_shaker" type="StaticBody3D" unique_id=658228766]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=2086184202 instance=ExtResource("1_8703g")]
@@ -187,11 +187,11 @@ surface_material_override/2 = ExtResource("4_yh6fp")
 surface_material_override/3 = ExtResource("5_ceuan")
 surface_material_override/4 = ExtResource("6_hhrs4")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=165054190]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1623567461]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.525, -0.02000001)
 shape = SubResource("BoxShape3D_nxtxf")
 
-[node name="Prop" type="Node" parent="." unique_id=1734358772]
+[node name="Prop" type="Node" parent="." unique_id=96522811]
 script = ExtResource("7_62av4")
 prop_id = &"paint_shaker"
 inspect_line = &"ch3_insp_shaker"

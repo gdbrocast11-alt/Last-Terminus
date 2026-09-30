@@ -140,7 +140,7 @@ shadow_mesh = SubResource("ArrayMesh_aqooi")
 [sub_resource type="BoxShape3D" id="BoxShape3D_q1br8"]
 size = Vector3(0.62, 0.7329704, 1.5686469)
 
-[node name="wheelbarrow" type="RigidBody3D" unique_id=2016163151]
+[node name="wheelbarrow" type="RigidBody3D" unique_id=328059423]
 collision_layer = 16
 collision_mask = 31
 mass = 14.0
@@ -157,11 +157,11 @@ surface_material_override/1 = ExtResource("3_uxxi6")
 surface_material_override/2 = ExtResource("4_ycq6y")
 surface_material_override/3 = ExtResource("5_5pcc6")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1312954658]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=212675095]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.3664852, -0.025676548)
 shape = SubResource("BoxShape3D_q1br8")
 
-[node name="Prop" type="Node" parent="." unique_id=1469746008]
+[node name="Prop" type="Node" parent="." unique_id=830176146]
 script = ExtResource("6_nj5lm")
 prop_id = &"wheelbarrow"
 grab_class = "medium"

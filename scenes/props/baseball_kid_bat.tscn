@@ -47,7 +47,7 @@ shadow_mesh = SubResource("ArrayMesh_nefac")
 [sub_resource type="BoxShape3D" id="BoxShape3D_1sg8s"]
 size = Vector3(0.06, 0.053295255, 0.6007216)
 
-[node name="baseball_kid_bat" type="RigidBody3D" unique_id=1667837046]
+[node name="baseball_kid_bat" type="RigidBody3D" unique_id=1759006851]
 collision_layer = 16
 collision_mask = 31
 mass = 0.9
@@ -61,11 +61,11 @@ angular_damp = 0.4
 mesh = SubResource("ArrayMesh_tnimw")
 surface_material_override/0 = ExtResource("2_hqb0n")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=984434241]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=718491549]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.029329525, -7.215142e-05)
 shape = SubResource("BoxShape3D_1sg8s")
 
-[node name="Prop" type="Node" parent="." unique_id=1860674694]
+[node name="Prop" type="Node" parent="." unique_id=1018060273]
 script = ExtResource("3_w1al3")
 prop_id = &"baseball_kid_bat"
 grab_class = "light"

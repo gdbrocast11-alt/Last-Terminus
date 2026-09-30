@@ -113,7 +113,7 @@ shadow_mesh = SubResource("ArrayMesh_645jo")
 height = 0.55999994
 radius = 0.1875
 
-[node name="propane_cylinder" type="RigidBody3D" unique_id=219943531]
+[node name="propane_cylinder" type="RigidBody3D" unique_id=542675782]
 collision_layer = 16
 collision_mask = 31
 mass = 8.0
@@ -129,11 +129,11 @@ surface_material_override/0 = ExtResource("2_xlngf")
 surface_material_override/1 = ExtResource("3_uav56")
 surface_material_override/2 = ExtResource("4_8exnq")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1859013804]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1625117920]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.27999997, -0.0025000125)
 shape = SubResource("CylinderShape3D_c1rw4")
 
-[node name="Prop" type="Node" parent="." unique_id=1879968233]
+[node name="Prop" type="Node" parent="." unique_id=1766994313]
 script = ExtResource("5_qkl6j")
 prop_id = &"propane_cylinder"
 grab_class = "medium"

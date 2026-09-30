@@ -109,7 +109,7 @@ shadow_mesh = SubResource("ArrayMesh_k5njw")
 [sub_resource type="BoxShape3D" id="BoxShape3D_iq717"]
 size = Vector3(0.54, 1.0070285, 0.9378822)
 
-[node name="stroller" type="RigidBody3D" unique_id=2081607976]
+[node name="stroller" type="RigidBody3D" unique_id=202441670]
 collision_layer = 16
 collision_mask = 31
 mass = 8.0
@@ -125,11 +125,11 @@ surface_material_override/0 = ExtResource("2_mwf8h")
 surface_material_override/1 = ExtResource("3_213wc")
 surface_material_override/2 = ExtResource("4_5ibpb")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=754057518]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1135757337]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.50694025, 0.04394108)
 shape = SubResource("BoxShape3D_iq717")
 
-[node name="Prop" type="Node" parent="." unique_id=778208103]
+[node name="Prop" type="Node" parent="." unique_id=1717835516]
 script = ExtResource("5_xqolk")
 prop_id = &"stroller"
 grab_class = "medium"

@@ -16,7 +16,7 @@ _surfaces = [{
 "format": 34896613377,
 "index_count": 60,
 "index_data": PackedByteArray("CAAGAAEACAABAAQAAQAHAAQAAQAGAAcACAAEAAkABwAJAAQAAgAIAAkABgAKAAcAAgAJAAMABgALAAoAAAAIAAIABgAIAAAAAAACAAMABgAAAAsACQAHAAUACQAFAAMABQAHAAoAAAADAAUACwAFAAoACwAAAAUA"),
-"lods": [0.032372646, PackedByteArray("AAABAAIAAgABAAMAAAACAAMAAQAEAAMAAAADAAUABgABAAAABwADAAQAAwAHAAUAAQAHAAQAAAAFAAcAAQAGAAcABgAAAAcA")],
+"lods": [0.03237194, PackedByteArray("AAABAAIAAgABAAMAAAACAAMAAQAEAAMAAAADAAUABgABAAAABwADAAQAAwAHAAUAAQAHAAQAAAAFAAcAAQAGAAcABgAAAAcA")],
 "name": "Concrete",
 "primitive": 3,
 "uv_scale": Vector4(0, 0, 0, 0),
@@ -29,17 +29,17 @@ blend_shape_mode = 0
 resource_name = "jersey_barrier_jersey_barrier"
 _surfaces = [{
 "aabb": AABB(-0.3, 0, -1.2, 0.6, 0.8, 2.4),
-"attribute_data": PackedByteArray("qooLw/9fbNtUdQvD/59s2/+fbNtUdQvD/19s26qKC8Oqiv//VHXatqqK2rZUdf//AABs2wAAC8P//2zb//8LwwAAbNv//2zb//8LwwAAC8P/X////5/atv9f2rb/n///iGjC0HaXwtCIaMLQdpfC0P//wtAAAMLQAADC0P//wtD//8LQAADC0AAAwtD//8LQ"),
+"attribute_data": PackedByteArray("qooLw/9fbNtUdQvD/59s2/+fbNtUdQvD/19s26qKC8MAAAvD//8Lw///bNsAAGzb/1////+f2rb/X9q2/5///6qK//9Uddq2qoratlR1//8AAGzb//9s2///C8MAAAvDiGjC0HaXwtCIaMLQdpfC0AAAwtD//8LQ///C0AAAwtAAAMLQ///C0P//wtAAAMLQ"),
 "format": 34896613399,
 "index_count": 60,
-"index_data": PackedByteArray("GAADAAEAAwAYAAAAAAAYAAIAAwAAABkABAAaAAYAGgAEAAcABwAEABsAGgAHAAUACAAJAAoACAALAAkADAAcAA4ADAAdABwAHgARAB8AHgAQABEAEwAgABIAEwAhACAAIgAPACMAIgANAA8AFAAVABYAFAAXABUA"),
-"lods": [0.032372646, PackedByteArray("AAABAAIAAwABAAAABAAFAAYABQAEAAcACAAJAAoACAALAAkADAANAA4ADQAPAA4AEAARABIAEwAQABIAFAAVABYAFAAXABUA")],
+"index_data": PackedByteArray("GAADAAEAAwAYAAAAAAAYAAIAAwAAABkABAAaAAYAGgAEAAcABwAEABsAGgAHAAUAHAAJAB0AHAAIAAkADAANAA4ADAAPAA0AEAARABIAEAATABEACwAeAAoACwAfAB4AIAAVACEAIAAUABUAFwAiABYAFwAjACIA"),
+"lods": [0.03237194, PackedByteArray("AAABAAIAAwABAAAABAAFAAYABQAEAAcACAAJAAoACwAIAAoADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFwAUABYA")],
 "material": SubResource("StandardMaterial3D_0iu74"),
 "name": "Concrete",
 "primitive": 3,
 "uv_scale": Vector4(0.8, 2.8, 0, 0),
 "vertex_count": 36,
-"vertex_data": PackedByteArray("qar/////AIAAAAAA//8AgFVV/////wCA//8AAP//AID//wAAAAAAAFVV//8AAAAAAAAAAAAAAACpqv//AAAAAKmq//////+/VVX//wAA/7+pqv//AAD/v1VV//////+///8AAP//gsCpqv////+vwP//AAAAAILAqar//wAAr8AAAAAA//93BgAAAAAAAHcGVVX//wAAfwdVVf////9/BwAAAAD///8///8AAAAA/z8AAAAAAAD/P///AAD///8/IiL/b///AIDc3f9v//8AgCIi/28AAAAA3N3/bwAAAADc3f9vAACCwNzd/2///4LAIiL/b///dwYiIv9vAAB3BiIi/28AAH8HIiL/b///fwfc3f9v//+vwNzd/28AAK/A/3////9/////f////3///////3////9/////f////3////9/////f////3////9/j5fIC5WaSg2Pl8gLlZpKDSn5lDwp+ZQ8H/gQPB/4EDwAAP9/AAD/fwAA/38AAP9//3////9//3////9//v//f4+XyAuPl8gLKfmUPCn5lDwf+BA8H/gQPJWaSg2VmkoN")
+"vertex_data": PackedByteArray("qar/////AIAAAAAA//8AgFVV/////wCA//8AAP//AID//wAAAAAAAFVV//8AAAAAAAAAAAAAAACpqv//AAAAAKmq/////6/Aqar//wAAr8D//wAAAACCwP//AAD//4LAAAAAAP///z///wAAAAD/PwAAAAAAAP8///8AAP///z+pqv//////v1VV//8AAP+/qar//wAA/79VVf//////vwAAAAD//3cGAAAAAAAAdwZVVf//AAB/B1VV/////38HIiL/b///AIDc3f9v//8AgCIi/28AAAAA3N3/bwAAAADc3f9v//+vwNzd/28AAK/A3N3/bwAAgsDc3f9v//+CwCIi/2///3cGIiL/bwAAdwYiIv9vAAB/ByIi/2///38H/3////9/////f////3///////3////9/////f////3+VmkoNlZpKDY+XyAuPl8gLAAD/fwAA/38AAP9/AAD/f////3////9/////f////38p+ZQ8KfmUPB/4EDwf+BA8/3////9//3////9//v//f5WaSg2VmkoNj5fIC4+XyAsp+ZQ8KfmUPB/4EDwf+BA8")
 }]
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_4na2k")
@@ -47,20 +47,20 @@ shadow_mesh = SubResource("ArrayMesh_4na2k")
 [sub_resource type="BoxShape3D" id="BoxShape3D_5d16n"]
 size = Vector3(0.6, 0.8, 2.4)
 
-[node name="jersey_barrier" type="StaticBody3D" unique_id=231001278]
+[node name="jersey_barrier" type="StaticBody3D" unique_id=1341330514]
 collision_mask = 0
 
-[node name="Model" parent="." unique_id=1616526853 instance=ExtResource("1_1vb1u")]
+[node name="Model" parent="." unique_id=687833916 instance=ExtResource("1_1vb1u")]
 
-[node name="jersey_barrier" type="MeshInstance3D" parent="Model" unique_id=195940182]
+[node name="jersey_barrier" type="MeshInstance3D" parent="Model" unique_id=1341669810]
 mesh = SubResource("ArrayMesh_jq0qs")
 surface_material_override/0 = ExtResource("2_puh80")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=855411981]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=684288283]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4, 0)
 shape = SubResource("BoxShape3D_5d16n")
 
-[node name="Prop" type="Node" parent="." unique_id=2061737298]
+[node name="Prop" type="Node" parent="." unique_id=184317977]
 script = ExtResource("3_gv8uc")
 prop_id = &"jersey_barrier"
 tags = PackedStringArray("mantle")

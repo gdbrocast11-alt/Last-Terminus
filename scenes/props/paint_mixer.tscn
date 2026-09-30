@@ -300,7 +300,7 @@ shadow_mesh = SubResource("ArrayMesh_sx8fc")
 [sub_resource type="BoxShape3D" id="BoxShape3D_ipmx0"]
 size = Vector3(0.9, 1.6600001, 0.735)
 
-[node name="paint_mixer" type="StaticBody3D" unique_id=1409358845]
+[node name="paint_mixer" type="StaticBody3D" unique_id=1151859022]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=647521720 instance=ExtResource("1_b6wqp")]
@@ -317,11 +317,11 @@ surface_material_override/6 = ExtResource("8_oi6ah")
 surface_material_override/7 = ExtResource("9_duy2d")
 surface_material_override/8 = ExtResource("10_mv8yd")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=771548719]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=78448285]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.83000004, -0.017500013)
 shape = SubResource("BoxShape3D_ipmx0")
 
-[node name="Prop" type="Node" parent="." unique_id=1192628229]
+[node name="Prop" type="Node" parent="." unique_id=700008939]
 script = ExtResource("11_ggqqx")
 prop_id = &"paint_mixer"
 inspect_line = &"ch3_insp_mixer"

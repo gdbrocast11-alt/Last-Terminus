@@ -142,7 +142,7 @@ shadow_mesh = SubResource("ArrayMesh_a7tmm")
 height = 0.93
 radius = 0.25
 
-[node name="trash_bin" type="RigidBody3D" unique_id=1777368647]
+[node name="trash_bin" type="RigidBody3D" unique_id=2140186704]
 collision_layer = 16
 collision_mask = 31
 mass = 6.0
@@ -159,11 +159,11 @@ surface_material_override/1 = ExtResource("3_btcx0")
 surface_material_override/2 = ExtResource("4_2t5dh")
 surface_material_override/3 = ExtResource("5_mb45g")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=308320871]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=689466964]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.465, 0)
 shape = SubResource("CylinderShape3D_4ipht")
 
-[node name="Prop" type="Node" parent="." unique_id=1966513715]
+[node name="Prop" type="Node" parent="." unique_id=15527611]
 script = ExtResource("6_6psyj")
 prop_id = &"trash_bin"
 grab_class = "medium"

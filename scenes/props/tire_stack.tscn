@@ -48,7 +48,7 @@ shadow_mesh = SubResource("ArrayMesh_l3wsg")
 height = 0.48000002
 radius = 0.34
 
-[node name="tire_stack" type="RigidBody3D" unique_id=1008864548]
+[node name="tire_stack" type="RigidBody3D" unique_id=913356799]
 collision_layer = 16
 collision_mask = 31
 mass = 50.0
@@ -62,11 +62,11 @@ angular_damp = 0.4
 mesh = SubResource("ArrayMesh_45bjw")
 surface_material_override/0 = ExtResource("2_g8upm")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1384946591]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1065045423]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.24000001, 0)
 shape = SubResource("CylinderShape3D_dqj0p")
 
-[node name="Prop" type="Node" parent="." unique_id=1813058810]
+[node name="Prop" type="Node" parent="." unique_id=1041552856]
 script = ExtResource("3_1v58r")
 prop_id = &"tire_stack"
 grab_class = "heavy"

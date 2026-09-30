@@ -103,9 +103,16 @@ func _make(kind: StringName) -> GPUParticles3D:
 func _acquire(kind: StringName) -> GPUParticles3D:
 	if not _pool.has(kind):
 		_pool[kind] = []
-	for p: GPUParticles3D in _pool[kind]:
-		if is_instance_valid(p) and not p.emitting:
-			return p
+	var live: Array = []
+	var found: GPUParticles3D = null
+	for e: Variant in _pool[kind]:
+		if is_instance_valid(e):
+			live.append(e)
+			if found == null and not (e as GPUParticles3D).emitting:
+				found = e as GPUParticles3D
+	_pool[kind] = live
+	if found:
+		return found
 	var np := _make(kind)
 	_root().add_child(np)
 	_pool[kind].append(np)

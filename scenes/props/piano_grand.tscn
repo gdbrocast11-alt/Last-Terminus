@@ -112,7 +112,7 @@ shadow_mesh = SubResource("ArrayMesh_fsebq")
 [sub_resource type="BoxShape3D" id="BoxShape3D_3kcr1"]
 size = Vector3(1.5, 1.12, 2.1)
 
-[node name="piano_grand" type="RigidBody3D" unique_id=1542605572]
+[node name="piano_grand" type="RigidBody3D" unique_id=1567148663]
 collision_layer = 16
 collision_mask = 31
 mass = 350.0
@@ -128,11 +128,11 @@ surface_material_override/0 = ExtResource("2_uxnq7")
 surface_material_override/1 = ExtResource("3_fuv0g")
 surface_material_override/2 = ExtResource("4_upmth")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1860462084]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=185576316]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.565, -0.05000007)
 shape = SubResource("BoxShape3D_3kcr1")
 
-[node name="Prop" type="Node" parent="." unique_id=1416986983]
+[node name="Prop" type="Node" parent="." unique_id=192109476]
 script = ExtResource("5_nyvkg")
 prop_id = &"piano_grand"
 hazard = 2

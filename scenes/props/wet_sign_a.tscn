@@ -76,7 +76,7 @@ shadow_mesh = SubResource("ArrayMesh_sa2ad")
 [sub_resource type="BoxShape3D" id="BoxShape3D_fee8c"]
 size = Vector3(0.32, 0.6132109, 0.39668125)
 
-[node name="wet_sign_a" type="RigidBody3D" unique_id=815465153]
+[node name="wet_sign_a" type="RigidBody3D" unique_id=638912188]
 collision_layer = 16
 collision_mask = 31
 sleeping = true
@@ -90,11 +90,11 @@ mesh = SubResource("ArrayMesh_d4jmb")
 surface_material_override/0 = ExtResource("2_1m045")
 surface_material_override/1 = ExtResource("3_ab8b4")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1198300918]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1340057578]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.30660546, 0)
 shape = SubResource("BoxShape3D_fee8c")
 
-[node name="Prop" type="Node" parent="." unique_id=890882219]
+[node name="Prop" type="Node" parent="." unique_id=1775453292]
 script = ExtResource("4_hk2u3")
 prop_id = &"wet_sign_a"
 grab_class = "light"

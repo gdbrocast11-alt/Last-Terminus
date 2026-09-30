@@ -78,7 +78,7 @@ shadow_mesh = SubResource("ArrayMesh_dh5vs")
 [sub_resource type="BoxShape3D" id="BoxShape3D_033r8"]
 size = Vector3(0.30945492, 0.052, 0.049454942)
 
-[node name="dog_toy_rope" type="RigidBody3D" unique_id=52937833]
+[node name="dog_toy_rope" type="RigidBody3D" unique_id=1523220879]
 collision_layer = 16
 collision_mask = 31
 mass = 0.15
@@ -93,11 +93,11 @@ mesh = SubResource("ArrayMesh_1kxf7")
 surface_material_override/0 = ExtResource("2_u2ll4")
 surface_material_override/1 = ExtResource("3_kx74y")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1724183252]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1110397343]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.026, 0)
 shape = SubResource("BoxShape3D_033r8")
 
-[node name="Prop" type="Node" parent="." unique_id=1939110311]
+[node name="Prop" type="Node" parent="." unique_id=477611964]
 script = ExtResource("4_o8bug")
 prop_id = &"dog_toy_rope"
 grab_class = "light"

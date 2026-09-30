@@ -111,7 +111,7 @@ shadow_mesh = SubResource("ArrayMesh_tng7o")
 height = 5.3424606
 radius = 0.665
 
-[node name="lamp_post" type="StaticBody3D" unique_id=983710340]
+[node name="lamp_post" type="StaticBody3D" unique_id=303837202]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=1292121872 instance=ExtResource("1_kdfvm")]
@@ -122,11 +122,11 @@ surface_material_override/0 = ExtResource("2_h6145")
 surface_material_override/1 = ExtResource("3_27guv")
 surface_material_override/2 = ExtResource("4_5su4i")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1048215608]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=512871249]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.58500004, 2.6712303, 0)
 shape = SubResource("CylinderShape3D_j7irs")
 
-[node name="Prop" type="Node" parent="." unique_id=380907449]
+[node name="Prop" type="Node" parent="." unique_id=263660150]
 script = ExtResource("5_3s5u3")
 prop_id = &"lamp_post"
 tags = PackedStringArray()

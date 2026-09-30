@@ -80,7 +80,7 @@ shadow_mesh = SubResource("ArrayMesh_hm5s7")
 height = 0.23
 radius = 0.12721244
 
-[node name="kettle" type="RigidBody3D" unique_id=1507094747]
+[node name="kettle" type="RigidBody3D" unique_id=950869485]
 collision_layer = 16
 collision_mask = 31
 mass = 0.9
@@ -95,11 +95,11 @@ mesh = SubResource("ArrayMesh_b8203")
 surface_material_override/0 = ExtResource("2_4xruf")
 surface_material_override/1 = ExtResource("3_u0p0v")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1269834766]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=428013326]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.008552179, 0.115, 0)
 shape = SubResource("CylinderShape3D_5leir")
 
-[node name="Prop" type="Node" parent="." unique_id=156156255]
+[node name="Prop" type="Node" parent="." unique_id=1640858365]
 script = ExtResource("4_cedqy")
 prop_id = &"kettle"
 grab_class = "light"

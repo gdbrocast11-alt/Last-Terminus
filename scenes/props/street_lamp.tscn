@@ -81,7 +81,7 @@ shadow_mesh = SubResource("ArrayMesh_kimdk")
 height = 4.892712
 radius = 0.61
 
-[node name="street_lamp" type="StaticBody3D" unique_id=695220868]
+[node name="street_lamp" type="StaticBody3D" unique_id=219627999]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=590237956 instance=ExtResource("1_pvtrj")]
@@ -91,11 +91,11 @@ mesh = SubResource("ArrayMesh_85qvi")
 surface_material_override/0 = ExtResource("2_vapys")
 surface_material_override/1 = ExtResource("3_tyu53")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1419872268]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1766228041]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.54, 2.446356, 0)
 shape = SubResource("CylinderShape3D_sskfj")
 
-[node name="Prop" type="Node" parent="." unique_id=242133560]
+[node name="Prop" type="Node" parent="." unique_id=1040221995]
 script = ExtResource("4_clgs1")
 prop_id = &"street_lamp"
 tags = PackedStringArray()

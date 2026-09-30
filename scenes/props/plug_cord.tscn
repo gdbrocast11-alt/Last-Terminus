@@ -44,7 +44,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_rbv4x")
 
-[node name="plug_cord" type="Node3D" unique_id=729506341]
+[node name="plug_cord" type="Node3D" unique_id=29598780]
 
 [node name="Model" parent="." unique_id=1293925839 instance=ExtResource("1_1j7k7")]
 
@@ -52,7 +52,7 @@ shadow_mesh = SubResource("ArrayMesh_rbv4x")
 mesh = SubResource("ArrayMesh_irn6t")
 surface_material_override/0 = ExtResource("2_fkcgv")
 
-[node name="Prop" type="Node" parent="." unique_id=532607861]
+[node name="Prop" type="Node" parent="." unique_id=1734587876]
 script = ExtResource("3_ifmyf")
 prop_id = &"plug_cord"
 tags = PackedStringArray()

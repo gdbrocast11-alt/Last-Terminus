@@ -258,7 +258,7 @@ shadow_mesh = SubResource("ArrayMesh_hmpa5")
 [sub_resource type="BoxShape3D" id="BoxShape3D_7gaou"]
 size = Vector3(2.4, 1.4, 0.081999995)
 
-[node name="corkboard" type="StaticBody3D" unique_id=206373736]
+[node name="corkboard" type="StaticBody3D" unique_id=2068249224]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=540342364 instance=ExtResource("1_u4ety")]
@@ -274,11 +274,11 @@ surface_material_override/5 = ExtResource("7_jqvpq")
 surface_material_override/6 = ExtResource("8_uuoq6")
 surface_material_override/7 = ExtResource("9_2hh4u")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1134195956]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=575860431]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.7, -0.021000002)
 shape = SubResource("BoxShape3D_7gaou")
 
-[node name="Prop" type="Node" parent="." unique_id=861243564]
+[node name="Prop" type="Node" parent="." unique_id=1116544287]
 script = ExtResource("10_rtuv2")
 prop_id = &"corkboard"
 inspect_line = &"ch2_insp_wall"

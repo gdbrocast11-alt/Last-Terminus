@@ -78,7 +78,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_22lkj")
 
-[node name="tv_safety_show" type="Node3D" unique_id=1571823450]
+[node name="tv_safety_show" type="Node3D" unique_id=1961737498]
 
 [node name="Model" parent="." unique_id=559689008 instance=ExtResource("1_nydel")]
 
@@ -87,7 +87,7 @@ mesh = SubResource("ArrayMesh_12nr5")
 surface_material_override/0 = ExtResource("2_bd7s8")
 surface_material_override/1 = ExtResource("3_bedxu")
 
-[node name="Prop" type="Node" parent="." unique_id=1456995554]
+[node name="Prop" type="Node" parent="." unique_id=865179441]
 script = ExtResource("4_kdib6")
 prop_id = &"tv_safety_show"
 tags = PackedStringArray("ending")

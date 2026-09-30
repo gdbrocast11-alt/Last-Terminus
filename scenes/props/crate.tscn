@@ -74,7 +74,7 @@ shadow_mesh = SubResource("ArrayMesh_y6hwf")
 [sub_resource type="BoxShape3D" id="BoxShape3D_dk4ct"]
 size = Vector3(0.62, 0.6, 0.62)
 
-[node name="crate" type="RigidBody3D" unique_id=1123945491]
+[node name="crate" type="RigidBody3D" unique_id=147087491]
 collision_layer = 16
 collision_mask = 31
 mass = 12.0
@@ -89,11 +89,11 @@ mesh = SubResource("ArrayMesh_ye3sv")
 surface_material_override/0 = ExtResource("2_cb6ia")
 surface_material_override/1 = ExtResource("3_n25m2")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1652295473]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1271444876]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.3, 0)
 shape = SubResource("BoxShape3D_dk4ct")
 
-[node name="Prop" type="Node" parent="." unique_id=508534027]
+[node name="Prop" type="Node" parent="." unique_id=537905677]
 script = ExtResource("4_0rr5f")
 prop_id = &"crate"
 grab_class = "medium"

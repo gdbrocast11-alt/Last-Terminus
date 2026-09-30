@@ -77,7 +77,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_vcvxi")
 
-[node name="sign_exit" type="Node3D" unique_id=1491957910]
+[node name="sign_exit" type="Node3D" unique_id=32014527]
 
 [node name="Model" parent="." unique_id=218838217 instance=ExtResource("1_fb0o7")]
 
@@ -86,7 +86,7 @@ mesh = SubResource("ArrayMesh_yhtys")
 surface_material_override/0 = ExtResource("2_blv6o")
 surface_material_override/1 = ExtResource("3_13yx4")
 
-[node name="Prop" type="Node" parent="." unique_id=889108143]
+[node name="Prop" type="Node" parent="." unique_id=215923635]
 script = ExtResource("4_rds5e")
 prop_id = &"sign_exit"
 tags = PackedStringArray()

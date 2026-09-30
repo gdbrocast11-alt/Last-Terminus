@@ -42,7 +42,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_1bkm6")
 
-[node name="outlet_cover" type="Node3D" unique_id=1283207208]
+[node name="outlet_cover" type="Node3D" unique_id=1318060139]
 
 [node name="Model" parent="." unique_id=2139624723 instance=ExtResource("1_lyn7a")]
 
@@ -50,7 +50,7 @@ shadow_mesh = SubResource("ArrayMesh_1bkm6")
 mesh = SubResource("ArrayMesh_2kgat")
 surface_material_override/0 = ExtResource("2_7jipm")
 
-[node name="Prop" type="Node" parent="." unique_id=827599302]
+[node name="Prop" type="Node" parent="." unique_id=1014720102]
 script = ExtResource("3_0df6v")
 prop_id = &"outlet_cover"
 inspect_line = &"ch2_insp_outlet"

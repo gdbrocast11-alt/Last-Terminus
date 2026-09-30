@@ -42,7 +42,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_4dao7")
 
-[node name="ribbon_cut" type="Node3D" unique_id=1039744579]
+[node name="ribbon_cut" type="Node3D" unique_id=827636174]
 
 [node name="Model" parent="." unique_id=1658137013 instance=ExtResource("1_sl0qo")]
 
@@ -50,7 +50,7 @@ shadow_mesh = SubResource("ArrayMesh_4dao7")
 mesh = SubResource("ArrayMesh_thl61")
 surface_material_override/0 = ExtResource("2_fyocg")
 
-[node name="Prop" type="Node" parent="." unique_id=1222119434]
+[node name="Prop" type="Node" parent="." unique_id=1410473352]
 script = ExtResource("3_pbqe5")
 prop_id = &"ribbon_cut"
 tags = PackedStringArray()

@@ -201,7 +201,7 @@ def terminus_sign_street():
     p.box((10.0, 0.5, 0.3), (0, 0, 0.15), "Concrete")
     for sx in (-4.8, 4.8):
         p.box((0.3, 0.4, 3.6), (sx, 0, 1.8), "PaintGrey")
-    p.box((10.0, 0.3, 3.0), (0, 0, 2.0), "PaintGreen", bevel=0.05)
+    p.box((10.0, 0.3, 3.0), (0, 0, 2.0), "SignBoardGreen", bevel=0.05)
     return p
 
 

@@ -137,7 +137,7 @@ shadow_mesh = SubResource("ArrayMesh_jsui2")
 [sub_resource type="BoxShape3D" id="BoxShape3D_hxjh6"]
 size = Vector3(0.94, 1.0749999, 1.12)
 
-[node name="fare_gate" type="StaticBody3D" unique_id=5863479]
+[node name="fare_gate" type="StaticBody3D" unique_id=1249474175]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=53142105 instance=ExtResource("1_d8v3a")]
@@ -149,11 +149,11 @@ surface_material_override/1 = ExtResource("3_0mahj")
 surface_material_override/2 = ExtResource("4_vww1f")
 surface_material_override/3 = ExtResource("5_m4dxn")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=658166938]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1040788702]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.53749996, 0)
 shape = SubResource("BoxShape3D_hxjh6")
 
-[node name="Prop" type="Node" parent="." unique_id=1563428007]
+[node name="Prop" type="Node" parent="." unique_id=1749435885]
 script = ExtResource("6_vofnh")
 prop_id = &"fare_gate"
 tags = PackedStringArray()

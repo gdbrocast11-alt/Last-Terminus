@@ -76,7 +76,7 @@ shadow_mesh = SubResource("ArrayMesh_d7kd6")
 [sub_resource type="BoxShape3D" id="BoxShape3D_b42vh"]
 size = Vector3(1.1, 2.3, 1.12)
 
-[node name="porta_potty" type="StaticBody3D" unique_id=1024376103]
+[node name="porta_potty" type="StaticBody3D" unique_id=541038723]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=1565835472 instance=ExtResource("1_dxl3i")]
@@ -86,11 +86,11 @@ mesh = SubResource("ArrayMesh_vinfo")
 surface_material_override/0 = ExtResource("2_tacit")
 surface_material_override/1 = ExtResource("3_lsqh3")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1473188072]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=943974884]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.15, -0.00999999)
 shape = SubResource("BoxShape3D_b42vh")
 
-[node name="Prop" type="Node" parent="." unique_id=1082145007]
+[node name="Prop" type="Node" parent="." unique_id=1483046434]
 script = ExtResource("4_uuhp7")
 prop_id = &"porta_potty"
 tags = PackedStringArray()

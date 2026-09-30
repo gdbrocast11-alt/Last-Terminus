@@ -42,7 +42,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_7pipy")
 
-[node name="foam_corner" type="Node3D" unique_id=1136414895]
+[node name="foam_corner" type="Node3D" unique_id=306714953]
 
 [node name="Model" parent="." unique_id=195166980 instance=ExtResource("1_a2esm")]
 
@@ -50,7 +50,7 @@ shadow_mesh = SubResource("ArrayMesh_7pipy")
 mesh = SubResource("ArrayMesh_587rg")
 surface_material_override/0 = ExtResource("2_0n28i")
 
-[node name="Prop" type="Node" parent="." unique_id=1906710674]
+[node name="Prop" type="Node" parent="." unique_id=715136307]
 script = ExtResource("3_dettx")
 prop_id = &"foam_corner"
 inspect_line = &"ch2_insp_corners"

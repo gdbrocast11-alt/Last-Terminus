@@ -81,7 +81,7 @@ shadow_mesh = SubResource("ArrayMesh_7jmhq")
 height = 0.88
 radius = 0.298
 
-[node name="tank_barrel_blue" type="RigidBody3D" unique_id=807441097]
+[node name="tank_barrel_blue" type="RigidBody3D" unique_id=1571882025]
 collision_layer = 16
 collision_mask = 31
 mass = 30.0
@@ -96,11 +96,11 @@ mesh = SubResource("ArrayMesh_8mdbq")
 surface_material_override/0 = ExtResource("2_tbypf")
 surface_material_override/1 = ExtResource("3_k8llx")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1907274880]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=310786403]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.44, 0)
 shape = SubResource("CylinderShape3D_aql2c")
 
-[node name="Prop" type="Node" parent="." unique_id=462006947]
+[node name="Prop" type="Node" parent="." unique_id=1810129878]
 script = ExtResource("4_650le")
 prop_id = &"tank_barrel_blue"
 grab_class = "heavy"

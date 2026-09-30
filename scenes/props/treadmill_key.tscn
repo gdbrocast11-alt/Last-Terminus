@@ -48,7 +48,7 @@ shadow_mesh = SubResource("ArrayMesh_xuk7m")
 [sub_resource type="BoxShape3D" id="BoxShape3D_2nshb"]
 size = Vector3(0.07464238, 0.36191356, 0.07428896)
 
-[node name="treadmill_key" type="StaticBody3D" unique_id=1997010771]
+[node name="treadmill_key" type="StaticBody3D" unique_id=1643583635]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=1318771475 instance=ExtResource("1_r3u5w")]
@@ -57,11 +57,11 @@ collision_mask = 0
 mesh = SubResource("ArrayMesh_np5ql")
 surface_material_override/0 = ExtResource("2_78jd0")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=22920152]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1169338204]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.007321192, -0.10095677, -0.017144479)
 shape = SubResource("BoxShape3D_2nshb")
 
-[node name="Prop" type="Node" parent="." unique_id=549843881]
+[node name="Prop" type="Node" parent="." unique_id=886907421]
 script = ExtResource("3_5jvdq")
 prop_id = &"treadmill_key"
 inspect_line = &"ch4_insp_key"

@@ -169,7 +169,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_m3og0")
 
-[node name="scoreboard" type="Node3D" unique_id=1259736378]
+[node name="scoreboard" type="Node3D" unique_id=1506298699]
 
 [node name="Model" parent="." unique_id=812700403 instance=ExtResource("1_8pyc7")]
 
@@ -181,7 +181,7 @@ surface_material_override/2 = ExtResource("4_oprvn")
 surface_material_override/3 = ExtResource("5_4x46i")
 surface_material_override/4 = ExtResource("6_cemdv")
 
-[node name="Prop" type="Node" parent="." unique_id=186219213]
+[node name="Prop" type="Node" parent="." unique_id=487800013]
 script = ExtResource("7_xg518")
 prop_id = &"scoreboard"
 inspect_line = &"ch8_ml_score"

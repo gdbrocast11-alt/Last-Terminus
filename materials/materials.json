@@ -781,6 +781,23 @@
   "normal": 1.0,
   "sss": 0.0
  },
+ "SignBoardGreen": {
+  "tex": "paint_metal",
+  "color": [
+   0.03,
+   0.26,
+   0.15
+  ],
+  "tile": 1.5,
+  "rough": 0.45,
+  "metal": 0.0,
+  "emit": null,
+  "alpha": 1.0,
+  "vcol": false,
+  "cull": "back",
+  "normal": 1.0,
+  "sss": 0.0
+ },
  "PaintGreen": {
   "tex": "paint_metal",
   "color": [

@@ -4308,13 +4308,13 @@ _surfaces = [{
 "aabb": AABB(-0.06824496, 0, -0.07, 0.13648991, 0.46199998, 0.14),
 "format": 34896613377,
 "index_count": 456,
-"index_data": PackedByteArray("FQAoAAEAAQAoACkAKAAqACkAAQApACsAKQAqACwAKwApACwALQABACsAKAAHACoALQArABgAGAArACwAFgABAC0AFgAVAAEALgAtABgAAAAWAC0AAAAtAC4ALgAYAC8ALwAYACwAFwAAAC4AAgAuAC8AFwAuAAIAAgAvABkAGQAvACwACwAXAAIAMAACABkACwACADAAMAAZADEAMQAZACwACgAwADEAMgAxACwACgAxADIAHgAwAAoAHgALADAAMwAKADIACAAeAAoACAAKADMANAAyACwAMwAyADQAGgA0ACwAKgAaACwANQAzADQANQA0ABoABwAaACoABwA1ABoAGwAIADMAGwAzADUAHAA1AAcAHAAbADUABQAcAAcABQAHACgAFQAFACgABgAbABwANgAIABsABgA2ABsANgAdAAgAHQAeAAgAHwA2AAYANwAdADYAHwA3ADYAOAAGABwAOAAcAAUAOQAfAAYAOQAGADgAOgA3AB8AOgAfADkANwA7AB0AOgA7ADcAHQAJAB4AOwAJAB0ACQALAB4AOwA8AAkAOgA8ADsAPAA9AAkACQA9AAsAPAAgAD0AOgAgADwAPQAXAAsAPQAEABcAIAAEAD0ABAAAABcAIAA+AAQAOgA+ACAABAA/AAAAPgA/AAQAPwAWAAAAOgAhAD4APgAhAD8APwBAABYAIQBAAD8AQAAVABYAOgBBACEAIQBBAEAAQAADABUAQQADAEAAAwAFABUAOgBCAEEAQQBCAAMAOgA5AEIAQgA5ADgAQgA4AAMAAwA4AAUAJABDAAUAJAAFAEQAQwBFAAUARQBEAAUADgAkAEQADgBDACQADgBEABIAIwAOABIARABGABIAIwASAEYARQBGAEQARwAOACMARwBDAA4ARwAjAEYAQwAlAEUAJQAUAEUAQwATACUAJQATABQAQwBIABMARwBIAEMAEwBJABQASQBFABQAEwAnAEkAEwBIACcAJwAmAEkAJwBIACYAEABJACYAEABFAEkASAAQACYAEABGAEUASAARABAASABKABEAEQBLABAAEQBKAEsASABHAEoACwAQAEsASgALAEsARgAQAA8ADwAQAAsARwBGACIARgAPACIADQBHACIADQAiAA8ATABHAA0ASgBHAEwATAANAA8ASgAMAAsASgBMAAwADABNAAsADwALAE0ADABMAE0ATAAPAE0A"),
-"lods": [0.01800536, PackedByteArray("FQAFAAEAFgAVAAEAAwAVABYAAwAFABUABAADABYABAAWAAAAAAAWAAEABAAAABcAFwAAAAIAAAABAAIABAAXAAsACwAXAAIAAgABABgAAgAYABkAAQAaABgAGgAZABgACgACABkACgAZABoACwACAAoAAQAHABoABwAKABoABQAHAAEAGwAKAAcABQAcAAcAHAAbAAcAGwAIAAoABgAbABwABgAcAAUAHQAIABsABgAdABsACAAeAAoAHQAeAAgAHgALAAoAHQAJAB4ACQALAB4AHwAdAAYAHwAJAB0AHwAgAAkAIAAEAAkACQAEAAsAIAAfACEAIAAhAAQAIQAfAAYAIQADAAQAIQAGAAMAAwAGAAUADQAPAAsADwAQAAsADAANAAsADAALABAADQAiAA8AIgAQAA8ADAAjAA0ADQAjACIAEAAiAAUAEQAMABAAEQAjAAwAIwASACIABQAiABIAIwAOABIAJAAFABIADgAkABIAIwAlAA4ADgAlACQAJAAlAAUAIwARACUAEQAQACYAEAAFABQAJQAUAAUAEAAUACYAJQARABMAJQATABQAEwARACcAJwARACYAEwAnABQAJwAmABQA"), 0.0395703, PackedByteArray("AAABAAIAAwABAAAABAADAAAABAAAAAIAAwAFAAEABAAGAAMAAwAGAAUAAQAHAAIABQAHAAEABgAHAAUABgAIAAcABgAEAAkABgAJAAgACAAKAAcACgACAAcACAAJAAoACwAEAAIACQAEAAsACwACAAoACQALAAoADAANAAsADAAOAA0ADQAPAAsADQAOAA8ADAALABAADwAQAAsAEQAOAAwAEQAMABAADgASAA8ABQAPABIADgAFABIAEAAPAAUADgARABMAEwARABAADgATAAUAEwAQABQAEAAFABQAEwAUAAUA")],
+"index_data": PackedByteArray("FQAoAAEAAQAoACkAKAAqACkAAQApACsAKQAqACwAKwApACwALQABACsAKAAFACoALQArABkAGQArACwAFgABAC0AFgAVAAEALgAtABkAAAAWAC0AAAAtAC4ALgAZAC8ALwAZACwAFwAAAC4AAgAuAC8AFwAuAAIAAgAvABoAGgAvACwACAAXAAIAMAACABoACAACADAAMAAaADEAMQAaACwACQAwADEAMgAxACwACQAxADIAHwAwAAkAHwAIADAAMwAJADIACgAfAAkACgAJADMANAAyACwAMwAyADQAGwA0ACwAKgAbACwANQAzADQANQA0ABsABQAbACoABQA1ABsAHAAKADMAHAAzADUAHQA1AAUAHQAcADUABgAdAAUABgAFACgAFQAGACgACwAcAB0ANgAKABwACwA2ABwANgAeAAoAHgAfAAoANwA2AAsAOAAeADYANwA4ADYAOQALAB0AOQAdAAYAOgA3AAsAOgALADkAOwA4ADcAOwA3ADoAOAAhAB4AOwAhADgAHgAHAB8AIQAHAB4ABwAIAB8AIQA8AAcAOwA8ACEAPAA9AAcABwA9AAgAPAA+AD0AOwA+ADwAPQAXAAgAPQAEABcAPgAEAD0ABAAAABcAPgA/AAQAOwA/AD4ABABAAAAAPwBAAAQAQAAWAAAAOwAYAD8APwAYAEAAQABBABYAGABBAEAAQQAVABYAOwBCABgAGABCAEEAQQADABUAQgADAEEAAwAGABUAOwAgAEIAQgAgAAMAOwA6ACAAIAA6ADkAIAA5AAMAAwA5AAYAJwBDAAYAJwAGAEQAQwBFAAYARQBEAAYAEAAnAEQAEABDACcAEABEABIAIwAQABIARABGABIAIwASAEYARQBGAEQARwAQACMARwBDABAARwAjAEYAQwAmAEUAJgAUAEUAQwATACYAJgATABQAQwBIABMARwBIAEMAEwBJABQASQBFABQAEwAlAEkAEwBIACUAJQAkAEkAJQBIACQADgBJACQADgBFAEkASAAOACQADgBGAEUASAARAA4ASABKABEAEQBLAA4AEQBKAEsASABHAEoACAAOAEsASgAIAEsARgAOAA8ADwAOAAgARwBGACIARgAPACIADQBHACIADQAiAA8ATABHAA0ASgBHAEwATAANAA8ASgAMAAgASgBMAAwADABNAAgADwAIAE0ADABMAE0ATAAPAE0A"),
+"lods": [0.01800536, PackedByteArray("FQAGAAEAFgAVAAEAAwAVABYAAwAGABUAAAAWAAEABAAWAAAABAADABYABAAAABcAFwAAAAIAAAABAAIABAAXAAgACAAXAAIAGAADAAQAAgABABkAAgAZABoAAQAbABkAGwAaABkACQACABoACQAaABsACAACAAkAAQAFABsABQAJABsABgAFAAEAHAAJAAUABgAdAAUAHQAcAAUAHAAKAAkACwAcAB0ACwAdAAYAHgAKABwACwAeABwACgAfAAkAHgAfAAoAHwAIAAkAHgAHAB8ABwAIAB8AIAAeAAsAIAALAAMAAwALAAYAGAAgAAMAIAAhAB4AGAAhACAAIQAHAB4AIQAYAAQAIQAEAAcABwAEAAgADQAPAAgADwAOAAgADAANAAgADAAIAA4ADQAiAA8AIgAOAA8ADAAjAA0ADQAjACIAEQAMAA4AEQAjAAwAEQAOACQAJQARACQADgAUACQAJQAkABQAEwARACUAEwAlABQAJgARABMAJgATABQAIwARACYADgAGABQAJgAUAAYADgAiAAYAIwAmABAAJwAmAAYAEAAmACcABgAiABIAIwASACIAJwAGABIAIwAQABIAEAAnABIA"), 0.03835218, PackedByteArray("AAABAAIAAwABAAAABAAAAAIABAADAAAAAQAFAAIAAwAGAAEABgAFAAEABwADAAQACAAEAAIABwAEAAgACQACAAUACAACAAkABwAIAAkACgAJAAUACgAHAAkACwAKAAUACwAHAAoAAwAHAAsACwAFAAYAAwALAAYADAANAAgADAAIAA4ADQAPAAgADwAOAAgADAAQAA0ADQAQAA8ADgAPAAYAEQAMAA4AEQAQAAwAEAASAA8ABgAPABIAEAAGABIAEAARABMAEAATAAYAEwARAA4ADgAGABQAEwAUAAYAEwAOABQA")],
 "name": "PaintRed",
 "primitive": 3,
 "uv_scale": Vector4(0, 0, 0, 0),
 "vertex_count": 78,
-"vertex_data": PackedByteArray("3Py56HFYAADUwlz0rdkAANTCXPRRJgAA1MIW3a3ZAADUwhbdUSYAAP9/uej+/wAAKj0W3a3ZAAAqPVz0rdkAACIDuehxWAAAKj0W3VEmAAAqPVz0USYAAP9/uegAAAAA/38AAAAAAACk5gAAMTAAAKTmAADNzwAApOa56DEwAABaGbnoMTAAAFoZAAAxMAAApOa56M3PAABaGQAAzc8AAFoZuejNzwAAK8256IznAADc/LnojacAACvNuehyGAAAbr7g/MaTAACVpuD8OEwAAJBB4PzGkwAAIgO56I2nAADTMrnojOcAANwTFt2+XQAA0zK56HIYAABpWZHUxrMAAP9/kdT/PwAAbr6R1DhsAAD//7nohGMAAP//AAB6nAAA9rgAAFHzAAAIRwAAUfMAAAAAueiEYwAAAAAAAHqcAAD/f1z02O4AAP9/4Pz/vwAAaVng/MazAACVpuD8xrMAAP9/////fwAAIuxc9ECiAAAi7Fz0vl0AAG6+4Pw4bAAA/39c9CYRAAD/f+D8/z8AAGlZ4Pw4TAAA3BNc9L5dAACQQeD8OGwAANwTXPRAogAA3BMW3UCiAACQQZHUxpMAAP9/Ft3Y7gAA/3+R1P+/AAD/f3PR/38AAJBBkdQ4bAAAaVmR1DhMAAD/fxbdJhEAAJWmkdQ4TAAAIuwW3b5dAAAi7BbdQKIAAG6+kdTGkwAAlaaR1MazAAD/fwAA//8AAPa4uehR8wAACEe56FHzAAD//7noepwAAP//AACEYwAAAAAAAIRjAAAAALnoepwAAAhHAACtDAAACEe56K0MAAD2uAAArQwAAPa4ueitDAAA")
+"vertex_data": PackedByteArray("3Py56HFYAADUwlz0rdkAANTCXPRRJgAA1MIW3a3ZAADUwhbdUSYAACo9XPSt2QAA/3+56P7/AAAqPRbdUSYAAP9/uegAAAAAKj1c9FEmAAAiA7nocVgAACo9Ft2t2QAA/38AAAAAAACk5gAAMTAAAFoZuegxMAAApOa56DEwAACk5gAAzc8AAFoZAAAxMAAApOa56M3PAABaGQAAzc8AAFoZuejNzwAAK8256IznAADc/LnojacAACvNuehyGAAAbr6R1DhsAABuvuD8xpMAAJWm4Pw4TAAAkEHg/MaTAAAiA7nojacAANMyueiM5wAA3BMW3b5dAADTMrnochgAAJWmkdTGswAAkEGR1DhsAAD//7nohGMAAP//AAB6nAAAAAC56IRjAAAAAAAAepwAAAhHAABR8wAA9rgAAFHzAAD/f1z02O4AAP9/4Pz/vwAAaVng/MazAACVpuD8xrMAAP9/////fwAAIuxc9ECiAAAi7Fz0vl0AAG6+4Pw4bAAA/39c9CYRAAD/f+D8/z8AAGlZ4Pw4TAAA3BNc9L5dAACQQeD8OGwAANwTXPRAogAA3BMW3UCiAABpWZHUxrMAAJBBkdTGkwAA/38W3djuAAD/f5HU/78AAP9/c9H/fwAAaVmR1DhMAAD/fxbdJhEAAP9/kdT/PwAAlaaR1DhMAAAi7Bbdvl0AACLsFt1AogAAbr6R1MaTAAD/fwAA//8AAPa4uehR8wAACEe56FHzAAD//7noepwAAP//AACEYwAAAAAAAIRjAAAAALnoepwAAAhHAACtDAAACEe56K0MAAD2uAAArQwAAPa4ueitDAAA")
 }, {
 "aabb": AABB(-0.025, 0.485, -0.08, 0.05, 0.029999971, 0.1),
 "format": 34896613377,
@@ -4352,17 +4352,17 @@ blend_shape_mode = 0
 resource_name = "fire_extinguisher_fire_extinguisher"
 _surfaces = [{
 "aabb": AABB(-0.06824496, 0, -0.07, 0.13648991, 0.46199998, 0.14),
-"attribute_data": PackedByteArray("kahhxQMk3sL7297CAyTkx/vb5Mf/f5/3pOaf9/9/YcWk5mHFWhmf91oZYcUqPeTHKj3ewtTC3sLUwuTH1MLB8So9ff3Uwn39Kj3B8dvRn/cjLp/329FhxSMuYcWk5p/3/39hxaTmYcVaGZ/3WhlhxSo95McqPd7C1MLewtTC5McjLp/329FhxSMuYcXb0Z/3pOZm8loZZvL/fz/v/3/+/6Tm1/xaGdf8/38/76Tm1/yk5mbyWhlm8loZ1/zUwn39Kj19/dTCwfEqPcHxAyTkx5GoYcUDJN7C+9vewvvb5McrzWHF0zJhxQhHn/f2uJ/3NuphxW1XYcXIFWHF0zJhxSvNYcVuvlT2/39v82lZAvvcE2H1Np1hxchin/eVpjz0br7q+JBB6vjIYp/3Np1hxQAAwvX//8L1CEcq//a4Kv///3z5AAB8+cgVYcVtV2HFIqPkxzbqYcX/f97C/3/kx/9/n/cIR2HF9rhhxdxc3sIio97CIqPkx9xc5Mf2uGHF9rif9whHn/cIR2HF/3/ewv9/5MeVpgL7/3/f/v9/z/tuvur4Iuzd+f9/n/fcE935Iuxh9ZBB6viVpjz0kEFU9v9/XvBpWTz0br5U9v9/n/ci7GH1/39e8CLs3fn/f2/zlaYC+2lZPPTcE2H1/3/P+/9/3/6QQVT23BPd+WlZAvs2nZ/3yGJhxchiYcU2nZ/39rgT8AhHE/D//3z5AAB8+QhHKv/2uCr/CEcT8Pa4E/D//8L1AADC9f9////cXN7CIqPewtxc5Mc="),
+"attribute_data": PackedByteArray("kahhxQMk3sL7297CAyTkx/vb5Mf/f5/3pOaf9/9/YcWk5mHFWhmf91oZYcUqPeTHKj3ewtTC3sLUwuTH29Gf9yMun/fb0WHFIy5hxaTmn/f/f2HFpOZhxVoZn/daGWHFKj3kxyo93sLUwt7C1MLkxyo9wfHUwn391MLB8So9ff0jLp/329FhxSMuYcXb0Z/3pOZm8loZZvL/fz/v/3/+/6Tm1/xaGdf8/38/76Tm1/yk5mbyWhlm8loZ1/zUwn39Kj19/dTCwfEqPcHxAyTkx5GoYcUDJN7C+9vewvvb5McrzWHF0zJhxQhHn/f2uJ/3NuphxW1XYcXIFWHF0zJhxSvNYcWVpgL73BNh9W6+VPaQQVT2Np1hxchin/eVpjz0br7q+JBB6vjIYp/3Np1hxQAAwvX//8L1CEcq//a4Kv///3z5AAB8+cgVYcVtV2HFIqPkxzbqYcX/f97C/3/kx/9/n/cIR2HF9rhhxdxc3sIio97CIqPkx9xc5Mf2uGHF9rif9whHn/cIR2HF/3/ewv9/5Mf/f9/+/3/P+26+6vgi7N35/3+f92lZAvvcE935Iuxh9ZBB6viVpjz0/39v8/9/XvBpWTz0br5U9v9/n/ci7GH1/39e8CLs3fn/f2/zlaYC+2lZPPTcE2H1/3/P+/9/3/6QQVT23BPd+WlZAvs2nZ/3yGJhxchiYcU2nZ/39rgT8AhHE/D//3z5AAB8+QhHKv/2uCr/CEcT8Pa4E/D//8L1AADC9f9////cXN7CIqPewtxc5Mc="),
 "format": 34896613399,
 "index_count": 456,
-"index_data": PackedByteArray("OABWAB4AOAAYAFYAGAAdAFYAHwAYADgAGAA5AB0AHwBXABgAVwA5ABgAVwAcADkAWABZABgAWAA6AFkAOgAbAFkAOgAaABsAOwBYABgAOwAYAFoAFwA7AFoAFwBaABkAAABbAFwAPABcAAIAPAAAAFwABAAAADwABABdAAAAAAA9AFsAXQA9AAAAPQABAFsAXQBeAD0APQA+AAEAXgA+AD0AXgADAD4ABQBfAAcABQBgAF8AYAAIAF8AYAAGAAgAYQAFAAcAYQAHAGIACQBhAGIACQBiAAoABwANAGMABwBAAA0APwAHAGMAPwBjAAwACwAHAD8ACwBkAAcAZABAAAcAZAAOAEAAZQBmABEAZQBnAGYAZwAQAGYAaABlABEAaAARAGkAagBnAGUAagBlAGgAZwBDABAAagBDAGcAQwBrABAAQQBoAGkAagBoAEEAQQBpAGwAQwBtAGsAagBtAEMAbQBEAGsAbgBBAGwAagBBAG4AbgBsAA8AbQBvAEQAagBvAG0AbwASAEQAQgBuAA8AagBuAEIAQgAPAHAAagBxAG8AagBCAHEAbwBxABIAcQBCAHAAcQBwABIARwByAHMAMQByAEcAMQB0AHIAdQAxAEcAdABIAHIAcgBIAHMAdAB2AEgAdQBHAHcAdwBHAHMAMgB1AHcAdgB4AEgASAB4AHMAdgAvAHgAMgB3AHkAeQB3AHMAegAyAHkALwB7AHgAeAB7AHMALwB8AHsAegB5AH0AfQB5AHMAfgB6AH0AfAB/AHsAewB/AHMAfAAwAH8ASQB9AHMAfgB9AEkAfwBJAHMAMAB+AEkAMABJAH8AEwBFABUAEwCAAEUAgACBAEUAgABGAIEARgAWAIEARgAUABYAIACCACIAIABKAIIASgBLAIIASgCDAEsAgwAhAEsAgwAjACEAJAAmAIQAJAAlACYAJgAlAIUAhgAlACQAhgAkAE0AJQCHAEwAJQCIAIcAJQCGAIgAhwCIACkAiACGAIkAiQCGACgAiACJACcAigCLACoAigCMAIsAiwCMACwAjQCMAIoAjQCKAC0AjAArAFAAjACOACsAjACNAI4AKwCOAE8AjgCNAC4ALgCNAFEAjgAuAE4AUgCPADUAUgBTAI8AMwBTAFIAUwCQAI8AMwCRAFMAUwA0AJAAkQA0AFMANAA2AJAAkQBUADQANABVADYAVABVADQAVAA3AFUA"),
-"lods": [0.01800536, PackedByteArray("OAAYAB4AGAAdAB4AHwAYADgAGAA5AB0AHwAcABgAHAA5ABgAOgAbABgAOgAaABsAOwA6ABgAOwAYABkAFwA7ABkAAAABAAIAPAAAAAIABAAAADwAAAA9AAEABAA9AAAAPQA+AAEABAADAD0AAwA+AD0ABQAGAAcABgAIAAcACQAFAAoABQAHAAoAPwAHAAwABwANAAwACwAHAD8ABwBAAA0ACwAOAAcADgBAAAcAQQAQABEAQQARAA8AQgBBAA8AQgAPABIAQQBDABAAQgBDAEEAQwBCABIAQwBEABAAQwASAEQAEwBFABUAEwBGAEUARgAWAEUARgAUABYAMgAxAEcAMQBIAEcAMQAvAEgAMgBHAEkASQBHAEgALwBJAEgAMAAyAEkALwAwAEkAIABKACIASgBLACIASgAjAEsAIwAhAEsAJQApAEwAJQAnACkAJQBNACcAJwBNACgATQAlACQAJAAlACYAKwBOAE8AUABOACsAUAAtAE4ATgAtAC4ALgAtAFEALQBQACoAKgBQACwAUgBTADUAMwBTAFIAUwA2ADUAMwBUAFMAUwA0ADYAVAA0AFMANABVADYAVABVADQAVAA3AFUA"), 0.0395703, PackedByteArray("AAABAAIAAwABAAAABAAAAAIABAADAAAABQAGAAcABgAIAAcACQAFAAoABQAHAAoACwAHAAwABwANAAwACwAOAAcABwAOAA0ADwAQABEAEAAPABIAEwAUABUAFAAWABUAFwAYABkAFwAaABgAGgAbABgAHAAdABgAGAAdAB4AHwAcABgAHwAYAB4AIAAhACIAIAAjACEAJAAlACYAJQAkACcAJwAkACgAJQAnACkAKgArACwALQArACoAKwAtAC4ALwAwADEAMgAxADAAMwA0ADUANAA2ADUAMwA3ADQANAA3ADYA")],
+"index_data": PackedByteArray("OABWABoAOAAUAFYAFAAZAFYAGwAUADgAFAA5ABkAGwBXABQAVwA5ABQAVwAYADkAWABZABQAWAA6AFkAOgAXAFkAOgAWABcAOwBYABQAOwAUAFoAEwA7AFoAEwBaABUAAABbAFwAPABcAAIAPAAAAFwABAAAADwABABdAAAAAAA9AFsAXQA9AAAAPQABAFsAXQBeAD0APQA+AAEAXgA+AD0AXgADAD4ABQBfAAcABQBgAF8AYAAIAF8AYAAGAAgAYQAFAAcAYQAHAGIACQBhAGIACQBiAAoABwANAGMABwBAAA0APwAHAGMAPwBjAAwACwAHAD8ACwBkAAcAZABAAAcAZAAOAEAAQQBlAB0AQQBmAGUAZgAfAGUAZwBBAB0AZwAdAGgAaQBmAEEAaQBBAGcAZgBqAB8AaQBqAGYAagBrAB8AQwBnAGgAaQBnAEMAQwBoAGwAagBtAGsAaQBtAGoAbQBCAGsAbgBDAGwAaQBDAG4AbgBsAB4AbQBEAEIAaQBEAG0ARAAcAEIAbwBuAB4AaQBuAG8AbwAeAHAAaQBxAEQAaQBvAHEARABxABwAcQBvAHAAcQBwABwARwByAHMAMQByAEcAMQB0AHIAdQAxAEcAdABIAHIAcgBIAHMAdAB2AEgAdQBHAHcAdwBHAHMAMgB1AHcAdgB4AEgASAB4AHMAdgAvAHgAMgB3AHkAeQB3AHMAegAyAHkALwB7AHgAeAB7AHMALwB8AHsAegB5AH0AfQB5AHMAfgB6AH0AfAB/AHsAewB/AHMAfAAwAH8ASQB9AHMAfgB9AEkAfwBJAHMAMAB+AEkAMABJAH8ADwBFABEADwCAAEUAgACBAEUAgABGAIEARgASAIEARgAQABIAIACCACIAIABKAIIASgBLAIIASgCDAEsAgwAhAEsAgwAjACEAJAAmAIQAJAAlACYAJgAlAIUAhgAlACQAhgAkAE0AJQCHAEwAJQCIAIcAJQCGAIgAhwCIACkAiACGAIkAiQCGACgAiACJACcAigCLACoAigCMAIsAiwCMACwAjQCMAIoAjQCKAC0AjAArAFAAjACOACsAjACNAI4AKwCOAE8AjgCNAC4ALgCNAFEAjgAuAE4AUgCPADUAUgBTAI8AMwBTAFIAUwCQAI8AMwCRAFMAUwA0AJAAkQA0AFMANAA2AJAAkQBUADQANABVADYAVABVADQAVAA3AFUA"),
+"lods": [0.01800536, PackedByteArray("OAAUABoAFAAZABoAGwAUADgAFAA5ABkAGwAYABQAGAA5ABQAOgAXABQAOgAWABcAOwA6ABQAOwAUABUAEwA7ABUAAAABAAIAPAAAAAIABAAAADwAAAA9AAEABAA9AAAAPQA+AAEABAADAD0AAwA+AD0ABQAGAAcABgAIAAcACQAFAAoABQAHAAoAPwAHAAwABwANAAwACwAHAD8ABwBAAA0ACwAOAAcADgBAAAcAQQAfAB0AQQBCAB8AQwBBAB0AQwAdAB4AQQBEAEIAQwBEAEEARABDAB4ARAAcAEIARAAeABwADwBFABEADwBGAEUARgASAEUARgAQABIAMgAxAEcAMQBIAEcAMQAvAEgAMgBHAEkASQBHAEgALwBJAEgAMAAyAEkALwAwAEkAIABKACIASgBLACIASgAjAEsAIwAhAEsAJQApAEwAJQAnACkAJQBNACcAJwBNACgATQAlACQAJAAlACYAKwBOAE8AUABOACsAUAAtAE4ATgAtAC4ALgAtAFEALQBQACoAKgBQACwAUgBTADUAMwBTAFIAUwA2ADUAMwBUAFMAUwA0ADYAVAA0AFMANABVADYAVABVADQAVAA3AFUA"), 0.03835218, PackedByteArray("AAABAAIAAwABAAAABAAAAAIABAADAAAABQAGAAcABgAIAAcACQAFAAoABQAHAAoACwAHAAwABwANAAwACwAOAAcABwAOAA0ADwAQABEAEAASABEAEwAUABUAEwAWABQAFgAXABQAGAAZABQAFAAZABoAGwAYABQAGwAUABoAHAAdAB4AHQAcAB8AIAAhACIAIAAjACEAJAAlACYAJQAkACcAJwAkACgAJQAnACkAKgArACwALQArACoAKwAtAC4ALwAwADEAMgAxADAAMwA0ADUANAA2ADUAMwA3ADQANAA3ADYA")],
 "material": SubResource("StandardMaterial3D_n223n"),
 "name": "PaintRed",
 "primitive": 3,
 "uv_scale": Vector4(0.13648991, 2.14, 0, 0),
 "vertex_count": 146,
-"vertex_data": PackedByteArray("3Py56HFYy8zUwlz0rdlPqNTCXPRRJkjl1MIW3a3ZT6jUwhbdUSZI5f9/AAAAAAAApOYAADEwAAD/f7noAAAAAKTmuegxMAAAWhkAADEwAABaGbnoMTAAACo9Ft1RJgYdKj1c9FEmBh3Uwlz0USYGHdTCFt1RJgYd1MIW3VEmYyEqPRbdrdmwV9TCFt2t2bBXKj0W3VEmYyGk5gAAMTBt26TmAADNz5GkpOa56DEwbduk5rnozc+RpKTmAADNz5Gk/3+56P7/AICk5rnozc+RpFoZAADNz5GkWhm56M3PkaQqPRbdrdmDpCo9XPSt2YOk1MJc9K3Zg6TUwhbdrdmDpFoZAADNzwAAWhm56DEwAABaGbnozc8AAFoZAAAxMAAApOa56DEw/79aGbnoMTD/v/9/uegAAP+//3+56P7//7+k5rnozc//v1oZuejNz/+//38AAAAA/z+k5gAAzc//P6TmAAAxMP8/WhkAADEw/z9aGQAAzc//P9TCXPSt2U6oKj1c9K3ZTqjUwlz0USab3io9XPRRJpveKj0W3a3Z9g8iA7nocVgAACo9XPSt2fYPKj1c9FEm8RcqPRbdUSbxFyvNueiM55mZ0zK56IznmZkIRwAAUfNIkva4AABR80iSK8256HIYZebc/LnojacysyvNueiM55mZ0zK56HIYAAArzbnochgAAG6+kdQ4bAw6/3+R1P8/UzBpWZHUxrPOS9wTFt2+XW0v//+56IRjI8n//wAAepzatpWm4Pw4TPfMbr7g/MaTybyQQeD8xpPJvAAAAAB6nAAAAAC56IRjAAAAALnohGP/v///ueiEY/+/CEcAAFHz/z/2uAAAUfP/P///AAB6nP8/AAAAAHqc/z/TMrnojOcAACIDueiNpwAA3BMW3b5dhRbTMrnochgAAP9/XPTY7gmc/38W3djuCZz/fwAA//8AgAhHuehR80iS9ri56FHzSJIi7Fz0QKJyuSLsXPS+XTfQIuwW3b5dN9Ai7BbdQKJyufa4ueitDAAA9rgAAK0MAAAIRwAArQwAAAhHueitDAAA/39c9CYRCRz/fxbdJhEJHJWmkdTGs85L/38W3dju9WP/f5HU/7+sT26+kdTGkzVDIuwW3UCijEL/f3PR/3//P9wTFt1AooxCIuwW3b5dbS+QQZHUxpM1Q5WmkdQ4TAczkEGR1DhsDDr/fxbdJhEJHGlZkdQ4TAczbr7g/Dhs8sX/f////3//vyLsXPS+XZHQ/39c9CYR9eMi7Fz0QKJyvf9/4Pz/P6vPlabg/MazMLRpWeD8OEz3zNwTXPS+XZHQ/3/g/P+/UrD/f1z02O4JnJBB4Pw4bPLF3BNc9ECicr1pWeD8xrMwtP//AACEYyPJ//+56Hqc2rYAALnoepwAAAAAAACEYwAA9ri56K0M/78IR7norQz/v///ueh6nP+/AAC56Hqc/78IR7noUfP/v/a4uehR8/+/CEcAAK0M/z/2uAAArQz/P///AACEY/8/AAAAAIRj/z//fwAA////P9wTXPRAokMQ3BNc9L5dhRbcExbdQKJDEP9/AADgzPotba1CEgVS4Uy8bW4t////f2TW/3////9/ZNb/f///mqn//5qpeB2afpn+h2KG4mSBZQF3nQEUhFomPYGcgRzYQnolAZT/fwAA/38AAP9/AAD/fwAA/38AAP9/////fwAA/3////9///8qNc63MMgptdTKMEjON9VKZFb/f///mqlkVv9///+aqf///3////9/////f////3/+//9//v//fwAA/38AAP9/AAD/fwAA/38AAP9/2MJ9Y33jJr2E2v1r/et6pV5kJWf//9y1JeegGyjup1BYLylu/38AAP9/////f////38AAP9/AAD/fwAA/38AAP//Y5+a4P9/mxG4XgAA/3/YG7aLjDgXnf9/AAD/fwAAYOp5c8Xb8W7w7jikNUf/f///ybj+//9//v//fwAA/38AAP9/AAD/fwAA/3+bYP9/Ikr/f5M/OW///2Of////fwAA/3//f////3////9/AADduhgi67CWFGlr7DDnXd46Nej/fzXo/3///8iX///Il////38AAP9/twsmZAAA/38AAP9/DhHGW9IfdD4AAP9/ikHSnxcdckc5JA2RhgxgakYhm5EAAP9/nhWFjLjeY27+//9/csfnYv7//390vixg/v//fybkSHR4856V5+KMuP7//3////9/Y+5GoSzgisFH9Nib/38AAP9/AAA1R/9////JuP7//3/+//9/////f/7//3/+//9//v//fwAA/38AAP9/AAD/fwAA/38AAP9//+maLDnva0BkU/9p")
+"vertex_data": PackedByteArray("3Py56HFYy8zUwlz0rdlPqNTCXPRRJkjl1MIW3a3ZT6jUwhbdUSZI5f9/AAAAAAAApOYAADEwAAD/f7noAAAAAKTmuegxMAAAWhkAADEwAABaGbnoMTAAACo9Ft1RJgYdKj1c9FEmBh3Uwlz0USYGHdTCFt1RJgYdpOYAADEwbduk5gAAzc+RpKTmuegxMG3bpOa56M3PkaSk5gAAzc+RpP9/uej+/wCApOa56M3PkaRaGQAAzc+RpFoZuejNz5GkKj0W3a3Zg6QqPVz0rdmDpNTCXPSt2YOk1MIW3a3Zg6QqPRbdUSZjIdTCFt2t2bBX1MIW3VEmYyEqPRbdrdmwV1oZAADNzwAAWhm56DEwAABaGbnozc8AAFoZAAAxMAAApOa56DEw/79aGbnoMTD/v/9/uegAAP+//3+56P7//7+k5rnozc//v1oZuejNz/+//38AAAAA/z+k5gAAzc//P6TmAAAxMP8/WhkAADEw/z9aGQAAzc//P9TCXPSt2U6oKj1c9K3ZTqjUwlz0USab3io9XPRRJpveKj0W3a3Z9g8iA7nocVgAACo9XPSt2fYPKj1c9FEm8RcqPRbdUSbxFyvNueiM55mZ0zK56IznmZkIRwAAUfNIkva4AABR80iSK8256HIYZebc/LnojacysyvNueiM55mZ0zK56HIYAAArzbnochgAAJWmkdTGs85L3BMW3b5dbS9uvpHUOGwMOpBBkdQ4bAw6//+56IRjI8n//wAAepzatpWm4Pw4TPfMbr7g/MaTybyQQeD8xpPJvAAAAAB6nAAAAAC56IRjAAAAALnohGP/v///ueiEY/+/CEcAAFHz/z/2uAAAUfP/P///AAB6nP8/AAAAAHqc/z/TMrnojOcAACIDueiNpwAA3BMW3b5dhRbTMrnochgAAP9/XPTY7gmc/38W3djuCZz/fwAA//8AgAhHuehR80iS9ri56FHzSJIi7Fz0QKJyuSLsXPS+XTfQIuwW3b5dN9Ai7BbdQKJyufa4ueitDAAA9rgAAK0MAAAIRwAArQwAAAhHueitDAAA/39c9CYRCRz/fxbdJhEJHP9/Ft3Y7vVj/3+R1P+/rE9uvpHUxpM1QyLsFt1AooxC/39z0f9//z9pWZHUxrPOS9wTFt1AooxCIuwW3b5dbS+QQZHUxpM1Q5WmkdQ4TAcz/3+R1P8/UzD/fxbdJhEJHGlZkdQ4TAczbr7g/Dhs8sX/f////3//vyLsXPS+XZHQ/39c9CYR9eMi7Fz0QKJyvf9/4Pz/P6vPlabg/MazMLRpWeD8OEz3zNwTXPS+XZHQ/3/g/P+/UrD/f1z02O4JnJBB4Pw4bPLF3BNc9ECicr1pWeD8xrMwtP//AACEYyPJ//+56Hqc2rYAALnoepwAAAAAAACEYwAA9ri56K0M/78IR7norQz/v///ueh6nP+/AAC56Hqc/78IR7noUfP/v/a4uehR8/+/CEcAAK0M/z/2uAAArQz/P///AACEY/8/AAAAAIRj/z//fwAA////P9wTXPRAokMQ3BNc9L5dhRbcExbdQKJDEP9/AADgzPotba1CEgVS4Uy8bW4t////f2TW/3////9/ZNb/f///mqn//5qpeB2afpn+h2KG4mSBZQF3nf9/AAD/fwAA/38AAP9/AAD/fwAA/3////9/AAD/f////3///yo1zrcwyCm11MowSM431Up6JQGUgRzYQgEUhFomPYGcZFb/f///mqlkVv9///+aqf///3////9/////f////3/+//9//v//fwAA/38AAP9/AAD/fwAA/38AAP9/2MJ9Y33jJr2E2v1r/et6pV5kJWf//9y1JeegGyjup1BYLylu/38AAP9/////f////38AAP9/AAD/fwAA/38AAP//Y5+a4P9/twsmZIw4F52bEbheRiGbkf9/AAD/fwAAYOp5c8Xb8W7w7jikNUf/f///ybj+//9//v//fwAA/38AAP9/AAD/fwAA/3+bYP9/Ikr/f5M/OW///2Of////fwAA/3//f////3////9/AADduhgi67CWFGlr7DDnXd46Nej/fzXo/3///8iX///Il////38AAP9/AAD/fwAA/38OEcZb0h90PgAA/3/YG7aLikHSnxcdckc5JA2RhgxgagAA/38AAP9/nhWFjLjeY27+//9/csfnYv7//390vixg/v//fybkSHR4856V5+KMuP7//3////9/Y+5GoSzgisFH9Nib/38AAP9/AAA1R/9////JuP7//3/+//9/////f/7//3/+//9//v//fwAA/38AAP9/AAD/fwAA/38AAP9//+maLDnva0BkU/9p")
 }, {
 "aabb": AABB(-0.025, 0.485, -0.08, 0.05, 0.029999971, 0.1),
 "attribute_data": PackedByteArray("/1+fwP//3Lz/X9y8//+fwP9Xn8D/p9y8/1fcvP+nn8D//5/A/1/cvP//3Lz/X5/A/6efwP9X3Lz/p9y8/1efwP9XcvP/p////6dy8/9X////p3Lz/1f///9XcvP/p///"),
@@ -5444,7 +5444,7 @@ agent_radius = 0.35
 agent_max_climb = 0.3
 agent_max_slope = 40.0
 
-[node name="Apartment" type="Node3D" unique_id=981524352]
+[node name="Apartment" type="Node3D" unique_id=2121854281]
 script = ExtResource("1_k2o44")
 
 [node name="Shell" parent="." unique_id=41336355 instance=ExtResource("2_grpun")]
@@ -5464,145 +5464,145 @@ surface_material_override/9 = ExtResource("12_6brbu")
 surface_material_override/10 = ExtResource("13_td7ee")
 surface_material_override/11 = ExtResource("14_wm5ph")
 
-[node name="Col_wood" type="StaticBody3D" parent="." unique_id=1187909597]
+[node name="Col_wood" type="StaticBody3D" parent="." unique_id=827191708]
 collision_mask = 0
 metadata/surface = "wood"
 
-[node name="@CollisionShape3D@367" type="CollisionShape3D" parent="Col_wood" unique_id=255990151]
+[node name="@CollisionShape3D@367" type="CollisionShape3D" parent="Col_wood" unique_id=1538793025]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.75, -0.15, 0)
 shape = SubResource("BoxShape3D_3dvn7")
 
-[node name="@CollisionShape3D@368" type="CollisionShape3D" parent="Col_wood" unique_id=378906696]
+[node name="@CollisionShape3D@368" type="CollisionShape3D" parent="Col_wood" unique_id=1617366041]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55, -0.15, -1.9)
 shape = SubResource("BoxShape3D_q08of")
 
-[node name="Col_tile" type="StaticBody3D" parent="." unique_id=967691511]
+[node name="Col_tile" type="StaticBody3D" parent="." unique_id=124098652]
 collision_mask = 0
 metadata/surface = "tile"
 
-[node name="@CollisionShape3D@369" type="CollisionShape3D" parent="Col_tile" unique_id=885057417]
+[node name="@CollisionShape3D@369" type="CollisionShape3D" parent="Col_tile" unique_id=822303708]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55, -0.15, 2.4)
 shape = SubResource("BoxShape3D_50t1g")
 
-[node name="Col_concrete" type="StaticBody3D" parent="." unique_id=50375946]
+[node name="Col_concrete" type="StaticBody3D" parent="." unique_id=500730655]
 collision_mask = 0
 metadata/surface = "concrete"
 
-[node name="@CollisionShape3D@370" type="CollisionShape3D" parent="Col_concrete" unique_id=2076150028]
+[node name="@CollisionShape3D@370" type="CollisionShape3D" parent="Col_concrete" unique_id=1239483986]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.95, 1.35, -4.15)
 shape = SubResource("BoxShape3D_85l30")
 
-[node name="@CollisionShape3D@371" type="CollisionShape3D" parent="Col_concrete" unique_id=1935112098]
+[node name="@CollisionShape3D@371" type="CollisionShape3D" parent="Col_concrete" unique_id=1897017253]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.6, 0.45, -4.15)
 shape = SubResource("BoxShape3D_ankkt")
 
-[node name="@CollisionShape3D@372" type="CollisionShape3D" parent="Col_concrete" unique_id=1842208691]
+[node name="@CollisionShape3D@372" type="CollisionShape3D" parent="Col_concrete" unique_id=1471538202]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.6, 2.45, -4.15)
 shape = SubResource("BoxShape3D_x2gub")
 
-[node name="@CollisionShape3D@373" type="CollisionShape3D" parent="Col_concrete" unique_id=1080892902]
+[node name="@CollisionShape3D@373" type="CollisionShape3D" parent="Col_concrete" unique_id=2044291102]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.05, 1.35, -4.15)
 shape = SubResource("BoxShape3D_px4ia")
 
-[node name="@CollisionShape3D@374" type="CollisionShape3D" parent="Col_concrete" unique_id=1773440598]
+[node name="@CollisionShape3D@374" type="CollisionShape3D" parent="Col_concrete" unique_id=2142812293]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.6, 0.45, -4.15)
 shape = SubResource("BoxShape3D_1iunp")
 
-[node name="@CollisionShape3D@375" type="CollisionShape3D" parent="Col_concrete" unique_id=1444819836]
+[node name="@CollisionShape3D@375" type="CollisionShape3D" parent="Col_concrete" unique_id=1559651911]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.6, 2.45, -4.15)
 shape = SubResource("BoxShape3D_cogad")
 
-[node name="@CollisionShape3D@376" type="CollisionShape3D" parent="Col_concrete" unique_id=218216684]
+[node name="@CollisionShape3D@376" type="CollisionShape3D" parent="Col_concrete" unique_id=1793202132]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55, 1.35, -4.15)
 shape = SubResource("BoxShape3D_eo0br")
 
-[node name="@CollisionShape3D@377" type="CollisionShape3D" parent="Col_concrete" unique_id=1014295362]
+[node name="@CollisionShape3D@377" type="CollisionShape3D" parent="Col_concrete" unique_id=1838715221]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5, 0.45, -4.15)
 shape = SubResource("BoxShape3D_4i4eu")
 
-[node name="@CollisionShape3D@378" type="CollisionShape3D" parent="Col_concrete" unique_id=27005923]
+[node name="@CollisionShape3D@378" type="CollisionShape3D" parent="Col_concrete" unique_id=370098138]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5, 2.45, -4.15)
 shape = SubResource("BoxShape3D_5d70s")
 
-[node name="@CollisionShape3D@379" type="CollisionShape3D" parent="Col_concrete" unique_id=561711264]
+[node name="@CollisionShape3D@379" type="CollisionShape3D" parent="Col_concrete" unique_id=247490056]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.75, 1.35, -4.15)
 shape = SubResource("BoxShape3D_f2rng")
 
-[node name="@CollisionShape3D@380" type="CollisionShape3D" parent="Col_concrete" unique_id=211750277]
+[node name="@CollisionShape3D@380" type="CollisionShape3D" parent="Col_concrete" unique_id=1559508458]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.95, 1.35, 4.15)
 shape = SubResource("BoxShape3D_1e314")
 
-[node name="@CollisionShape3D@381" type="CollisionShape3D" parent="Col_concrete" unique_id=200857400]
+[node name="@CollisionShape3D@381" type="CollisionShape3D" parent="Col_concrete" unique_id=2044621182]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.1, 2.4, 4.15)
 shape = SubResource("BoxShape3D_a8ucd")
 
-[node name="@CollisionShape3D@382" type="CollisionShape3D" parent="Col_concrete" unique_id=1943617377]
+[node name="@CollisionShape3D@382" type="CollisionShape3D" parent="Col_concrete" unique_id=1142518949]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.25, 1.35, 4.15)
 shape = SubResource("BoxShape3D_50d1x")
 
-[node name="@CollisionShape3D@383" type="CollisionShape3D" parent="Col_concrete" unique_id=644444070]
+[node name="@CollisionShape3D@383" type="CollisionShape3D" parent="Col_concrete" unique_id=1145572087]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.6, 0.45, 4.15)
 shape = SubResource("BoxShape3D_3txbf")
 
-[node name="@CollisionShape3D@384" type="CollisionShape3D" parent="Col_concrete" unique_id=1994661067]
+[node name="@CollisionShape3D@384" type="CollisionShape3D" parent="Col_concrete" unique_id=1651952252]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.6, 2.35, 4.15)
 shape = SubResource("BoxShape3D_7i126")
 
-[node name="@CollisionShape3D@385" type="CollisionShape3D" parent="Col_concrete" unique_id=1425761311]
+[node name="@CollisionShape3D@385" type="CollisionShape3D" parent="Col_concrete" unique_id=1368703775]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.7, 1.35, 4.15)
 shape = SubResource("BoxShape3D_qwsgv")
 
-[node name="@CollisionShape3D@386" type="CollisionShape3D" parent="Col_concrete" unique_id=1937919672]
+[node name="@CollisionShape3D@386" type="CollisionShape3D" parent="Col_concrete" unique_id=1212135]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.15, 1.35, 0)
 shape = SubResource("BoxShape3D_irwck")
 
-[node name="@CollisionShape3D@387" type="CollisionShape3D" parent="Col_concrete" unique_id=1207284316]
+[node name="@CollisionShape3D@387" type="CollisionShape3D" parent="Col_concrete" unique_id=671476227]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.15, 1.35, 0)
 shape = SubResource("BoxShape3D_ff2ro")
 
-[node name="@CollisionShape3D@388" type="CollisionShape3D" parent="Col_concrete" unique_id=1026350833]
+[node name="@CollisionShape3D@388" type="CollisionShape3D" parent="Col_concrete" unique_id=929649323]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8, 1.35, -3.3)
 shape = SubResource("BoxShape3D_noghi")
 
-[node name="@CollisionShape3D@389" type="CollisionShape3D" parent="Col_concrete" unique_id=1951739892]
+[node name="@CollisionShape3D@389" type="CollisionShape3D" parent="Col_concrete" unique_id=488624943]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8, 2.4, -2.15)
 shape = SubResource("BoxShape3D_2qbq6")
 
-[node name="@CollisionShape3D@390" type="CollisionShape3D" parent="Col_concrete" unique_id=1625248760]
+[node name="@CollisionShape3D@390" type="CollisionShape3D" parent="Col_concrete" unique_id=514762894]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8, 1.35, 0.15)
 shape = SubResource("BoxShape3D_wswtj")
 
-[node name="@CollisionShape3D@391" type="CollisionShape3D" parent="Col_concrete" unique_id=106808744]
+[node name="@CollisionShape3D@391" type="CollisionShape3D" parent="Col_concrete" unique_id=758797451]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8, 2.4, 2.45)
 shape = SubResource("BoxShape3D_1ya5r")
 
-[node name="@CollisionShape3D@392" type="CollisionShape3D" parent="Col_concrete" unique_id=1686888539]
+[node name="@CollisionShape3D@392" type="CollisionShape3D" parent="Col_concrete" unique_id=1540799943]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8, 1.35, 3.45)
 shape = SubResource("BoxShape3D_6tq51")
 
-[node name="@CollisionShape3D@393" type="CollisionShape3D" parent="Col_concrete" unique_id=835753968]
+[node name="@CollisionShape3D@393" type="CollisionShape3D" parent="Col_concrete" unique_id=972666445]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.4, 1.35, 0.5)
 shape = SubResource("BoxShape3D_adicp")
 
-[node name="@CollisionShape3D@394" type="CollisionShape3D" parent="Col_concrete" unique_id=1260053548]
+[node name="@CollisionShape3D@394" type="CollisionShape3D" parent="Col_concrete" unique_id=1294662326]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.6, 1.55, -4.05)
 shape = SubResource("BoxShape3D_ac6sc")
 
-[node name="@CollisionShape3D@395" type="CollisionShape3D" parent="Col_concrete" unique_id=393070013]
+[node name="@CollisionShape3D@395" type="CollisionShape3D" parent="Col_concrete" unique_id=498794141]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8, 1.55, -4.05)
 shape = SubResource("BoxShape3D_h137x")
 
-[node name="@CollisionShape3D@396" type="CollisionShape3D" parent="Col_concrete" unique_id=2047079100]
+[node name="@CollisionShape3D@396" type="CollisionShape3D" parent="Col_concrete" unique_id=1798602912]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5, 1.55, -4.05)
 shape = SubResource("BoxShape3D_i47d8")
 
-[node name="@CollisionShape3D@397" type="CollisionShape3D" parent="Col_concrete" unique_id=1091064305]
+[node name="@CollisionShape3D@397" type="CollisionShape3D" parent="Col_concrete" unique_id=1803513192]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.6, 1.45, 4)
 shape = SubResource("BoxShape3D_i7a63")
 
-[node name="Props" type="Node3D" parent="." unique_id=1641620188]
+[node name="Props" type="Node3D" parent="." unique_id=1648700084]
 
-[node name="TVStand" parent="Props" unique_id=1166565694 groups=["nav_source"] instance=ExtResource("15_3nw0s")]
+[node name="TVStand" parent="Props" unique_id=263553069 groups=["nav_source"] instance=ExtResource("15_3nw0s")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -4.72, 0, -1.2)
 
 [node name="Model" parent="Props/TVStand" unique_id=214373779 instance=ExtResource("16_15jlm")]
@@ -5610,34 +5610,37 @@ transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -4.7
 [node name="tv_stand" type="MeshInstance3D" parent="Props/TVStand/Model" unique_id=1807383668]
 mesh = SubResource("ArrayMesh_a34lu")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/TVStand" unique_id=636497926]
+[node name="Collision" type="CollisionShape3D" parent="Props/TVStand" unique_id=1286022539]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.2575, -0.015000001)
 shape = SubResource("BoxShape3D_om2eo")
 
-[node name="Prop" type="Node" parent="Props/TVStand" unique_id=1072590687]
+[node name="Prop" type="Node" parent="Props/TVStand" unique_id=2134388476]
 script = ExtResource("17_0kwxa")
 prop_id = &"tv_stand"
 tags = PackedStringArray()
 
-[node name="TV" parent="Props" unique_id=872565571 groups=["nav_source"] instance=ExtResource("18_00s6f")]
+[node name="TV" parent="Props" unique_id=577323951 groups=["nav_source"] instance=ExtResource("18_00s6f")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -4.72, 0.12, -1.2)
 
 [node name="Model" parent="Props/TV" unique_id=578012897 instance=ExtResource("19_xf8mr")]
 
 [node name="tv_flat" type="MeshInstance3D" parent="Props/TV/Model" unique_id=672218679]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_jvd2x")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/TV" unique_id=1512306193]
+[node name="Collision" type="CollisionShape3D" parent="Props/TV" unique_id=511431996]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.74, 0)
 shape = SubResource("BoxShape3D_7y0t5")
 
-[node name="Prop" type="Node" parent="Props/TV" unique_id=977139941]
+[node name="Prop" type="Node" parent="Props/TV" unique_id=1576888379]
 script = ExtResource("17_0kwxa")
 prop_id = &"tv_flat"
 inspect_line = &"ch2_insp_tv"
 tags = PackedStringArray("tv")
 
-[node name="Couch" parent="Props" unique_id=1591950250 groups=["nav_source"] instance=ExtResource("20_i5npf")]
+[node name="Couch" parent="Props" unique_id=2048500110 groups=["nav_source"] instance=ExtResource("20_i5npf")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -1.6, 0, -1.2)
 
 [node name="Model" parent="Props/Couch" unique_id=2146012033 instance=ExtResource("21_pw4tv")]
@@ -5645,35 +5648,38 @@ transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -1.6
 [node name="couch" type="MeshInstance3D" parent="Props/Couch/Model" unique_id=1199183129]
 mesh = SubResource("ArrayMesh_oa7or")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Couch" unique_id=1381836867]
+[node name="Collision" type="CollisionShape3D" parent="Props/Couch" unique_id=215590926]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4898278, 0.053236037)
 shape = SubResource("BoxShape3D_4tgsi")
 
-[node name="Prop" type="Node" parent="Props/Couch" unique_id=104714909]
+[node name="Prop" type="Node" parent="Props/Couch" unique_id=278240293]
 script = ExtResource("17_0kwxa")
 prop_id = &"couch"
 inspect_line = &"ch2_insp_couch"
 tags = PackedStringArray()
 
-[node name="CoffeeTable" parent="Props" unique_id=874755767 instance=ExtResource("22_evg5b")]
+[node name="CoffeeTable" parent="Props" unique_id=1717861674 instance=ExtResource("22_evg5b")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -3.2, 0, -1.2)
 
 [node name="Model" parent="Props/CoffeeTable" unique_id=1324961955 instance=ExtResource("23_nwdl8")]
 
 [node name="coffee_table" type="MeshInstance3D" parent="Props/CoffeeTable/Model" unique_id=1691265136]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_q1jld")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/CoffeeTable" unique_id=638506589]
+[node name="Collision" type="CollisionShape3D" parent="Props/CoffeeTable" unique_id=2065796057]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.2225, 0)
 shape = SubResource("BoxShape3D_tim5x")
 
-[node name="Prop" type="Node" parent="Props/CoffeeTable" unique_id=2060053852]
+[node name="Prop" type="Node" parent="Props/CoffeeTable" unique_id=874327663]
 script = ExtResource("17_0kwxa")
 prop_id = &"coffee_table"
 grab_class = "medium"
 tags = PackedStringArray("table")
 
-[node name="Rug" parent="Props" unique_id=957712260 instance=ExtResource("24_d4jpb")]
+[node name="Rug" parent="Props" unique_id=1676254 instance=ExtResource("24_d4jpb")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -3, 0.01, -1.2)
 
 [node name="Model" parent="Props/Rug" unique_id=124794736 instance=ExtResource("25_0g50p")]
@@ -5681,12 +5687,12 @@ transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -3, 
 [node name="rug_livingroom" type="MeshInstance3D" parent="Props/Rug/Model" unique_id=2106734692]
 mesh = SubResource("ArrayMesh_jsihw")
 
-[node name="Prop" type="Node" parent="Props/Rug" unique_id=1919871321]
+[node name="Prop" type="Node" parent="Props/Rug" unique_id=1980008622]
 script = ExtResource("17_0kwxa")
 prop_id = &"rug_livingroom"
 tags = PackedStringArray()
 
-[node name="Armchair" parent="Props" unique_id=562569524 groups=["nav_source"] instance=ExtResource("26_488v2")]
+[node name="Armchair" parent="Props" unique_id=1778688067 groups=["nav_source"] instance=ExtResource("26_488v2")]
 transform = Transform3D(-0.9396926, 0, -0.34202015, 0, 1, 0, 0.34202015, 0, -0.9396926, -3.3, 0, -3)
 
 [node name="Model" parent="Props/Armchair" unique_id=2039809098 instance=ExtResource("27_hf7un")]
@@ -5694,16 +5700,16 @@ transform = Transform3D(-0.9396926, 0, -0.34202015, 0, 1, 0, 0.34202015, 0, -0.9
 [node name="armchair" type="MeshInstance3D" parent="Props/Armchair/Model" unique_id=272281598]
 mesh = SubResource("ArrayMesh_mm8cv")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Armchair" unique_id=210611566]
+[node name="Collision" type="CollisionShape3D" parent="Props/Armchair" unique_id=1736746812]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.46533704, 0.022621721)
 shape = SubResource("BoxShape3D_wp5r8")
 
-[node name="Prop" type="Node" parent="Props/Armchair" unique_id=444762430]
+[node name="Prop" type="Node" parent="Props/Armchair" unique_id=1368465444]
 script = ExtResource("17_0kwxa")
 prop_id = &"armchair"
 tags = PackedStringArray()
 
-[node name="Bookshelf" parent="Props" unique_id=1509198293 groups=["nav_source"] instance=ExtResource("28_wk010")]
+[node name="Bookshelf" parent="Props" unique_id=892952779 groups=["nav_source"] instance=ExtResource("28_wk010")]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0.95, 0, -3.83)
 
 [node name="Model" parent="Props/Bookshelf" unique_id=1934400336 instance=ExtResource("29_ivtav")]
@@ -5711,16 +5717,16 @@ transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0.95
 [node name="bookshelf" type="MeshInstance3D" parent="Props/Bookshelf/Model" unique_id=673358984]
 mesh = SubResource("ArrayMesh_cuusm")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Bookshelf" unique_id=284815228]
+[node name="Collision" type="CollisionShape3D" parent="Props/Bookshelf" unique_id=438797290]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.97625, -0.00500001)
 shape = SubResource("BoxShape3D_1yb4o")
 
-[node name="Prop" type="Node" parent="Props/Bookshelf" unique_id=3178315]
+[node name="Prop" type="Node" parent="Props/Bookshelf" unique_id=891199874]
 script = ExtResource("17_0kwxa")
 prop_id = &"bookshelf"
 tags = PackedStringArray()
 
-[node name="FloorLamp" parent="Props" unique_id=675860705 instance=ExtResource("30_ffv11")]
+[node name="FloorLamp" parent="Props" unique_id=1714345664 instance=ExtResource("30_ffv11")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.45, 0, -2.7)
 
 [node name="Model" parent="Props/FloorLamp" unique_id=1854619489 instance=ExtResource("31_l7j8m")]
@@ -5728,11 +5734,11 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.45, 0, -2.7)
 [node name="floor_lamp" type="MeshInstance3D" parent="Props/FloorLamp/Model" unique_id=1882727714]
 mesh = SubResource("ArrayMesh_yjk8j")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/FloorLamp" unique_id=1072635093]
+[node name="Collision" type="CollisionShape3D" parent="Props/FloorLamp" unique_id=1483003776]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.87, 0)
 shape = SubResource("CylinderShape3D_06ewk")
 
-[node name="Prop" type="Node" parent="Props/FloorLamp" unique_id=701972379]
+[node name="Prop" type="Node" parent="Props/FloorLamp" unique_id=42378246]
 script = ExtResource("17_0kwxa")
 prop_id = &"floor_lamp"
 grab_class = "medium"
@@ -5740,7 +5746,7 @@ inspect_line = &"ch2_insp_lamp"
 hazard = 1
 tags = PackedStringArray("lamp")
 
-[node name="Desk" parent="Props" unique_id=65820457 groups=["nav_source"] instance=ExtResource("32_tseaa")]
+[node name="Desk" parent="Props" unique_id=65032046 groups=["nav_source"] instance=ExtResource("32_tseaa")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -4.6, 0, 2)
 
 [node name="Model" parent="Props/Desk" unique_id=1051961023 instance=ExtResource("33_1e442")]
@@ -5748,54 +5754,60 @@ transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -4.6
 [node name="desk" type="MeshInstance3D" parent="Props/Desk/Model" unique_id=465408033]
 mesh = SubResource("ArrayMesh_sxhfh")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Desk" unique_id=681799230]
+[node name="Collision" type="CollisionShape3D" parent="Props/Desk" unique_id=730708246]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4575, 0)
 shape = SubResource("BoxShape3D_6eori")
 
-[node name="Prop" type="Node" parent="Props/Desk" unique_id=1719092187]
+[node name="Prop" type="Node" parent="Props/Desk" unique_id=1669816172]
 script = ExtResource("17_0kwxa")
 prop_id = &"desk"
 inspect_line = &"ch2_insp_desk"
 tags = PackedStringArray("desk")
 
-[node name="Notebook" parent="Props" unique_id=646633786 instance=ExtResource("34_mo6m3")]
+[node name="Notebook" parent="Props" unique_id=1698210953 instance=ExtResource("34_mo6m3")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -4.55, 0.77, 1.6)
 
 [node name="Model" parent="Props/Notebook" unique_id=90463999 instance=ExtResource("35_qdrrf")]
 
 [node name="notebook" type="MeshInstance3D" parent="Props/Notebook/Model" unique_id=1500879991]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_xbof2")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Notebook" unique_id=720037283]
+[node name="Collision" type="CollisionShape3D" parent="Props/Notebook" unique_id=913024015]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0024999976, 0.011, 0)
 shape = SubResource("BoxShape3D_fdcfi")
 
-[node name="Prop" type="Node" parent="Props/Notebook" unique_id=263068104]
+[node name="Prop" type="Node" parent="Props/Notebook" unique_id=1405026548]
 script = ExtResource("17_0kwxa")
 prop_id = &"notebook"
 grab_class = "light"
 tags = PackedStringArray("notebook")
 use_verb = "Open notebook"
 
-[node name="OfficeChair" parent="Props" unique_id=1369262415 instance=ExtResource("36_s731q")]
+[node name="OfficeChair" parent="Props" unique_id=1114811314 instance=ExtResource("36_s731q")]
 transform = Transform3D(0.17364822, 0, 0.9848077, 0, 1, 0, -0.9848077, 0, 0.17364822, -3.7, 0, 2)
 
 [node name="Model" parent="Props/OfficeChair" unique_id=338024406 instance=ExtResource("37_et4q2")]
 
 [node name="office_chair" type="MeshInstance3D" parent="Props/OfficeChair/Model" unique_id=1781927819]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_fo8dj")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/OfficeChair" unique_id=1061655536]
+[node name="Collision" type="CollisionShape3D" parent="Props/OfficeChair" unique_id=1032650796]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.028647482, 0.5319794, 0)
 shape = SubResource("CylinderShape3D_dhwol")
 
-[node name="Prop" type="Node" parent="Props/OfficeChair" unique_id=148283812]
+[node name="Prop" type="Node" parent="Props/OfficeChair" unique_id=2121006683]
 script = ExtResource("17_0kwxa")
 prop_id = &"office_chair"
 grab_class = "medium"
 tags = PackedStringArray("chair")
 
-[node name="Corkboard" parent="Props" unique_id=206373736 groups=["deco_aftermath", "nav_source"] instance=ExtResource("38_mc3gq")]
+[node name="Corkboard" parent="Props" unique_id=2068249224 groups=["deco_aftermath", "nav_source"] instance=ExtResource("38_mc3gq")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -5, 0.95, 2)
 
 [node name="Model" parent="Props/Corkboard" unique_id=540342364 instance=ExtResource("39_brw2v")]
@@ -5803,17 +5815,17 @@ transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -5, 
 [node name="corkboard" type="MeshInstance3D" parent="Props/Corkboard/Model" unique_id=1107023407]
 mesh = SubResource("ArrayMesh_meaen")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Corkboard" unique_id=1134195956]
+[node name="Collision" type="CollisionShape3D" parent="Props/Corkboard" unique_id=575860431]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.7, -0.021000002)
 shape = SubResource("BoxShape3D_7gaou")
 
-[node name="Prop" type="Node" parent="Props/Corkboard" unique_id=861243564]
+[node name="Prop" type="Node" parent="Props/Corkboard" unique_id=1116544287]
 script = ExtResource("17_0kwxa")
 prop_id = &"corkboard"
 inspect_line = &"ch2_insp_wall"
 tags = PackedStringArray("wall")
 
-[node name="Fridge" parent="Props" unique_id=1336443103 groups=["nav_source"] instance=ExtResource("40_dl5o4")]
+[node name="Fridge" parent="Props" unique_id=844044620 groups=["nav_source"] instance=ExtResource("40_dl5o4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.35, 0, 3.6)
 
 [node name="Model" parent="Props/Fridge" unique_id=2034815090 instance=ExtResource("41_qlb6y")]
@@ -5821,17 +5833,17 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.35, 0, 3.6)
 [node name="fridge" type="MeshInstance3D" parent="Props/Fridge/Model" unique_id=961214311]
 mesh = SubResource("ArrayMesh_vtbiq")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Fridge" unique_id=443276065]
+[node name="Collision" type="CollisionShape3D" parent="Props/Fridge" unique_id=2090816310]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.875, -0.017499983)
 shape = SubResource("BoxShape3D_xxy2q")
 
-[node name="Prop" type="Node" parent="Props/Fridge" unique_id=2111403056]
+[node name="Prop" type="Node" parent="Props/Fridge" unique_id=193986666]
 script = ExtResource("17_0kwxa")
 prop_id = &"fridge"
 inspect_line = &"ch2_insp_fridge"
 tags = PackedStringArray()
 
-[node name="CounterA" parent="Props" unique_id=1838966518 groups=["nav_source"] instance=ExtResource("42_dkv46")]
+[node name="CounterA" parent="Props" unique_id=2066605433 groups=["nav_source"] instance=ExtResource("42_dkv46")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.4, 0, 3.7)
 
 [node name="Model" parent="Props/CounterA" unique_id=1295693936 instance=ExtResource("43_mll7x")]
@@ -5839,52 +5851,55 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.4, 0, 3.7)
 [node name="kitchen_counter" type="MeshInstance3D" parent="Props/CounterA/Model" unique_id=135122509]
 mesh = SubResource("ArrayMesh_00dd5")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/CounterA" unique_id=1960634724]
+[node name="Collision" type="CollisionShape3D" parent="Props/CounterA" unique_id=65030113]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.45, -0.0009999871)
 shape = SubResource("BoxShape3D_xpt7w")
 
-[node name="Prop" type="Node" parent="Props/CounterA" unique_id=1113350650]
+[node name="Prop" type="Node" parent="Props/CounterA" unique_id=1955524119]
 script = ExtResource("17_0kwxa")
 prop_id = &"kitchen_counter"
 tags = PackedStringArray()
 
-[node name="Stove" parent="Props" unique_id=1596260639 groups=["nav_source"] instance=ExtResource("44_toi3l")]
+[node name="Stove" parent="Props" unique_id=1152174321 groups=["nav_source"] instance=ExtResource("44_toi3l")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 3.7)
 
 [node name="Model" parent="Props/Stove" unique_id=2603748 instance=ExtResource("45_ohs71")]
 
 [node name="stove_oven" type="MeshInstance3D" parent="Props/Stove/Model" unique_id=855765009]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_4xtou")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Stove" unique_id=761271619]
+[node name="Collision" type="CollisionShape3D" parent="Props/Stove" unique_id=1705383800]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.45049998, -0.017500013)
 shape = SubResource("BoxShape3D_eo6to")
 
-[node name="Prop" type="Node" parent="Props/Stove" unique_id=1457185943]
+[node name="Prop" type="Node" parent="Props/Stove" unique_id=400378951]
 script = ExtResource("17_0kwxa")
 prop_id = &"stove_oven"
 inspect_line = &"ch2_insp_oven"
 hazard = 1
 tags = PackedStringArray()
 
-[node name="CounterB" parent="Props" unique_id=477204956 groups=["nav_source"] instance=ExtResource("42_dkv46")]
+[node name="CounterB" parent="Props" unique_id=580580182 groups=["nav_source"] instance=ExtResource("42_dkv46")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 3.7)
 
-[node name="Model" parent="Props/CounterB" unique_id=1376864161 instance=ExtResource("43_mll7x")]
+[node name="Model" parent="Props/CounterB" unique_id=842595913 instance=ExtResource("43_mll7x")]
 
-[node name="kitchen_counter" type="MeshInstance3D" parent="Props/CounterB/Model" unique_id=764102170]
+[node name="kitchen_counter" type="MeshInstance3D" parent="Props/CounterB/Model" unique_id=775920082]
 mesh = SubResource("ArrayMesh_00dd5")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/CounterB" unique_id=1275917010]
+[node name="Collision" type="CollisionShape3D" parent="Props/CounterB" unique_id=175237788]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.45, -0.0009999871)
 shape = SubResource("BoxShape3D_xpt7w")
 
-[node name="Prop" type="Node" parent="Props/CounterB" unique_id=1168622897]
+[node name="Prop" type="Node" parent="Props/CounterB" unique_id=1067833133]
 script = ExtResource("17_0kwxa")
 prop_id = &"kitchen_counter"
 tags = PackedStringArray()
 
-[node name="Sink" parent="Props" unique_id=1267419256 groups=["nav_source"] instance=ExtResource("46_1wmvq")]
+[node name="Sink" parent="Props" unique_id=307877622 groups=["nav_source"] instance=ExtResource("46_1wmvq")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, 0, 3.7)
 
 [node name="Model" parent="Props/Sink" unique_id=1943396646 instance=ExtResource("47_k8frk")]
@@ -5892,28 +5907,31 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, 0, 3.7)
 [node name="sink_unit" type="MeshInstance3D" parent="Props/Sink/Model" unique_id=1571409073]
 mesh = SubResource("ArrayMesh_lym47")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Sink" unique_id=189634991]
+[node name="Collision" type="CollisionShape3D" parent="Props/Sink" unique_id=764204719]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5649295, 0)
 shape = SubResource("BoxShape3D_fbekh")
 
-[node name="Prop" type="Node" parent="Props/Sink" unique_id=1653148123]
+[node name="Prop" type="Node" parent="Props/Sink" unique_id=1677020711]
 script = ExtResource("17_0kwxa")
 prop_id = &"sink_unit"
 tags = PackedStringArray()
 
-[node name="Kettle" parent="Props" unique_id=1507094747 instance=ExtResource("48_6riks")]
+[node name="Kettle" parent="Props" unique_id=950869485 instance=ExtResource("48_6riks")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0.9, 3.72)
 
 [node name="Model" parent="Props/Kettle" unique_id=1155692792 instance=ExtResource("49_y6rl1")]
 
 [node name="kettle" type="MeshInstance3D" parent="Props/Kettle/Model" unique_id=76465812]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_b8203")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Kettle" unique_id=1269834766]
+[node name="Collision" type="CollisionShape3D" parent="Props/Kettle" unique_id=428013326]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.008552179, 0.115, 0)
 shape = SubResource("CylinderShape3D_5leir")
 
-[node name="Prop" type="Node" parent="Props/Kettle" unique_id=156156255]
+[node name="Prop" type="Node" parent="Props/Kettle" unique_id=1640858365]
 script = ExtResource("17_0kwxa")
 prop_id = &"kettle"
 grab_class = "light"
@@ -5921,119 +5939,137 @@ inspect_line = &"ch2_insp_kettle"
 hazard = 1
 tags = PackedStringArray()
 
-[node name="PicklesBed" parent="Props" unique_id=1302501063 groups=["nav_source"] instance=ExtResource("50_51vk2")]
+[node name="PicklesBed" parent="Props" unique_id=104133598 groups=["nav_source"] instance=ExtResource("50_51vk2")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.9, 0, 1.4)
 
 [node name="Model" parent="Props/PicklesBed" unique_id=1976827321 instance=ExtResource("51_6ih3s")]
 
 [node name="dog_bed" type="MeshInstance3D" parent="Props/PicklesBed/Model" unique_id=1899136287]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_mjsft")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/PicklesBed" unique_id=1946373097]
+[node name="Collision" type="CollisionShape3D" parent="Props/PicklesBed" unique_id=1406751020]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.08, 0)
 shape = SubResource("BoxShape3D_savrc")
 
-[node name="Prop" type="Node" parent="Props/PicklesBed" unique_id=1777140198]
+[node name="Prop" type="Node" parent="Props/PicklesBed" unique_id=989077230]
 script = ExtResource("17_0kwxa")
 prop_id = &"dog_bed"
 tags = PackedStringArray()
 
-[node name="PicklesBowl" parent="Props" unique_id=1667752803 instance=ExtResource("52_wqjmc")]
+[node name="PicklesBowl" parent="Props" unique_id=964250307 instance=ExtResource("52_wqjmc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3, 0, 2.8)
 
 [node name="Model" parent="Props/PicklesBowl" unique_id=810047636 instance=ExtResource("53_4xcj2")]
 
 [node name="dog_bowl" type="MeshInstance3D" parent="Props/PicklesBowl/Model" unique_id=1353342340]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_5jkfw")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/PicklesBowl" unique_id=1904434828]
+[node name="Collision" type="CollisionShape3D" parent="Props/PicklesBowl" unique_id=1765285457]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.03, 0)
 shape = SubResource("CylinderShape3D_paix3")
 
-[node name="Prop" type="Node" parent="Props/PicklesBowl" unique_id=1352825268]
+[node name="Prop" type="Node" parent="Props/PicklesBowl" unique_id=1966181658]
 script = ExtResource("17_0kwxa")
 prop_id = &"dog_bowl"
 grab_class = "light"
 tags = PackedStringArray("bowl")
 use_verb = "Fill bowl"
 
-[node name="PicklesWater" parent="Props" unique_id=1374310927 instance=ExtResource("52_wqjmc")]
+[node name="PicklesWater" parent="Props" unique_id=969412106 instance=ExtResource("52_wqjmc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.65, 0, 2.8)
 
-[node name="Model" parent="Props/PicklesWater" unique_id=831794940 instance=ExtResource("53_4xcj2")]
+[node name="Model" parent="Props/PicklesWater" unique_id=123170159 instance=ExtResource("53_4xcj2")]
 
-[node name="dog_bowl" type="MeshInstance3D" parent="Props/PicklesWater/Model" unique_id=1263813920]
+[node name="dog_bowl" type="MeshInstance3D" parent="Props/PicklesWater/Model" unique_id=1347202302]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_5jkfw")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/PicklesWater" unique_id=689498737]
+[node name="Collision" type="CollisionShape3D" parent="Props/PicklesWater" unique_id=651950837]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.03, 0)
 shape = SubResource("CylinderShape3D_paix3")
 
-[node name="Prop" type="Node" parent="Props/PicklesWater" unique_id=1593010495]
+[node name="Prop" type="Node" parent="Props/PicklesWater" unique_id=1897330671]
 script = ExtResource("17_0kwxa")
 prop_id = &"dog_bowl"
 grab_class = "light"
 tags = PackedStringArray("bowl")
 use_verb = "Fill bowl"
 
-[node name="DuckToy" parent="Props" unique_id=611129272 instance=ExtResource("54_hip0a")]
+[node name="DuckToy" parent="Props" unique_id=1074494518 instance=ExtResource("54_hip0a")]
 transform = Transform3D(0.76604444, 0, 0.6427876, 0, 1, 0, -0.6427876, 0, 0.76604444, -0.4, 0, 1)
 
 [node name="Model" parent="Props/DuckToy" unique_id=1176102737 instance=ExtResource("55_47rkr")]
 
 [node name="dog_toy_duck" type="MeshInstance3D" parent="Props/DuckToy/Model" unique_id=1035818962]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_xnl5q")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/DuckToy" unique_id=1042317996]
+[node name="Collision" type="CollisionShape3D" parent="Props/DuckToy" unique_id=1269469026]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.7252903e-09, 0.0625, -0.017500006)
 shape = SubResource("SphereShape3D_xi0cu")
 
-[node name="Prop" type="Node" parent="Props/DuckToy" unique_id=2069959961]
+[node name="Prop" type="Node" parent="Props/DuckToy" unique_id=853997737]
 script = ExtResource("17_0kwxa")
 prop_id = &"dog_toy_duck"
 grab_class = "light"
 tags = PackedStringArray("toy", "fetch")
 fetchable = true
 
-[node name="RopeToy" parent="Props" unique_id=52937833 instance=ExtResource("56_s22dw")]
+[node name="RopeToy" parent="Props" unique_id=1523220879 instance=ExtResource("56_s22dw")]
 transform = Transform3D(0.9659258, 0, 0.25881904, 0, 1, 0, -0.25881904, 0, 0.9659258, -1.6, 0, 1.9)
 
 [node name="Model" parent="Props/RopeToy" unique_id=1022803827 instance=ExtResource("57_kaa7o")]
 
 [node name="dog_toy_rope" type="MeshInstance3D" parent="Props/RopeToy/Model" unique_id=2018921797]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_1kxf7")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/RopeToy" unique_id=1724183252]
+[node name="Collision" type="CollisionShape3D" parent="Props/RopeToy" unique_id=1110397343]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.026, 0)
 shape = SubResource("BoxShape3D_033r8")
 
-[node name="Prop" type="Node" parent="Props/RopeToy" unique_id=1939110311]
+[node name="Prop" type="Node" parent="Props/RopeToy" unique_id=477611964]
 script = ExtResource("17_0kwxa")
 prop_id = &"dog_toy_rope"
 grab_class = "light"
 tags = PackedStringArray("toy", "fetch")
 fetchable = true
 
-[node name="PicklesVest" parent="Props" unique_id=1026229695 instance=ExtResource("58_l7y43")]
+[node name="PicklesVest" parent="Props" unique_id=192874847 instance=ExtResource("58_l7y43")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.9, 0.16, 1.4)
 
 [node name="Model" parent="Props/PicklesVest" unique_id=773142455 instance=ExtResource("59_7ovw4")]
 
 [node name="pickles_vest" type="MeshInstance3D" parent="Props/PicklesVest/Model" unique_id=268678248]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_wvqyv")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/PicklesVest" unique_id=1721779155]
+[node name="Collision" type="CollisionShape3D" parent="Props/PicklesVest" unique_id=2036084997]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.01575, 0)
 shape = SubResource("BoxShape3D_xjlhm")
 
-[node name="Prop" type="Node" parent="Props/PicklesVest" unique_id=2007711570]
+[node name="Prop" type="Node" parent="Props/PicklesVest" unique_id=1938979227]
 script = ExtResource("17_0kwxa")
 prop_id = &"pickles_vest"
 grab_class = "light"
 inspect_line = &"ch2_insp_vest"
 tags = PackedStringArray()
 
-[node name="FrontDoor" parent="Props" unique_id=569197023 instance=ExtResource("60_toukf")]
+[node name="FrontDoor" parent="Props" unique_id=1374924122 instance=ExtResource("60_toukf")]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -4.85, 0, 4)
 
 [node name="Model" parent="Props/FrontDoor" unique_id=1247630100 instance=ExtResource("61_tb5pj")]
@@ -6041,17 +6077,17 @@ transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -4.8
 [node name="door_apartment" type="MeshInstance3D" parent="Props/FrontDoor/Model" unique_id=2136039636]
 mesh = SubResource("ArrayMesh_4r0fc")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/FrontDoor" unique_id=1339337437]
+[node name="Collision" type="CollisionShape3D" parent="Props/FrontDoor" unique_id=1776229774]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.45, 1.025, -0.051765844)
 shape = SubResource("BoxShape3D_0qqr8")
 
-[node name="Prop" type="Node" parent="Props/FrontDoor" unique_id=116046888]
+[node name="Prop" type="Node" parent="Props/FrontDoor" unique_id=1750188016]
 script = ExtResource("17_0kwxa")
 prop_id = &"door_apartment"
 tags = PackedStringArray("door")
 use_verb = "Open"
 
-[node name="CoatRack" parent="Props" unique_id=1292608988 groups=["nav_source"] instance=ExtResource("62_i8ynm")]
+[node name="CoatRack" parent="Props" unique_id=1023380112 groups=["nav_source"] instance=ExtResource("62_i8ynm")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.6, 0, 3.6)
 
 [node name="Model" parent="Props/CoatRack" unique_id=891904643 instance=ExtResource("63_cmn3f")]
@@ -6059,78 +6095,90 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.6, 0, 3.6)
 [node name="coat_rack" type="MeshInstance3D" parent="Props/CoatRack/Model" unique_id=285844330]
 mesh = SubResource("ArrayMesh_ra6gf")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/CoatRack" unique_id=1730668493]
+[node name="Collision" type="CollisionShape3D" parent="Props/CoatRack" unique_id=715510985]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.024999991, 0.8638957, 0)
 shape = SubResource("BoxShape3D_g8ycm")
 
-[node name="Prop" type="Node" parent="Props/CoatRack" unique_id=463550309]
+[node name="Prop" type="Node" parent="Props/CoatRack" unique_id=1871940475]
 script = ExtResource("17_0kwxa")
 prop_id = &"coat_rack"
 tags = PackedStringArray()
 
-[node name="Shoes" parent="Props" unique_id=646457716 instance=ExtResource("64_eq6in")]
+[node name="Shoes" parent="Props" unique_id=618830727 instance=ExtResource("64_eq6in")]
 transform = Transform3D(0.8660254, 0, 0.5, 0, 1, 0, -0.5, 0, 0.8660254, -4.5, 0, 3.4)
 
 [node name="Model" parent="Props/Shoes" unique_id=1061975433 instance=ExtResource("65_lgtal")]
 
 [node name="shoes_pair" type="MeshInstance3D" parent="Props/Shoes/Model" unique_id=831498865]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_bkqdj")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Shoes" unique_id=1432340313]
+[node name="Collision" type="CollisionShape3D" parent="Props/Shoes" unique_id=182312085]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.045, 0)
 shape = SubResource("BoxShape3D_gu77u")
 
-[node name="Prop" type="Node" parent="Props/Shoes" unique_id=55992017]
+[node name="Prop" type="Node" parent="Props/Shoes" unique_id=784527415]
 script = ExtResource("17_0kwxa")
 prop_id = &"shoes_pair"
 grab_class = "light"
 tags = PackedStringArray()
 
-[node name="Plant" parent="Props" unique_id=1259698009 instance=ExtResource("66_l63f4")]
+[node name="Plant" parent="Props" unique_id=1666701961 instance=ExtResource("66_l63f4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.6, 0, -3.5)
 
 [node name="Model" parent="Props/Plant" unique_id=260517622 instance=ExtResource("67_f84ua")]
 
 [node name="plant_pot" type="MeshInstance3D" parent="Props/Plant/Model" unique_id=1854832274]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_caqq7")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Plant" unique_id=45695856]
+[node name="Collision" type="CollisionShape3D" parent="Props/Plant" unique_id=446049172]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0030259043, 0.274, -0.00042776763)
 shape = SubResource("CylinderShape3D_50xv7")
 
-[node name="Prop" type="Node" parent="Props/Plant" unique_id=1558673019]
+[node name="Prop" type="Node" parent="Props/Plant" unique_id=1924715608]
 script = ExtResource("17_0kwxa")
 prop_id = &"plant_pot"
 grab_class = "medium"
 tags = PackedStringArray()
 
-[node name="WallClock" parent="Props" unique_id=1384520254 instance=ExtResource("68_adxxr")]
+[node name="WallClock" parent="Props" unique_id=1225568613 instance=ExtResource("68_adxxr")]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1, 2.1, 3.97)
 
 [node name="Model" parent="Props/WallClock" unique_id=351159645 instance=ExtResource("69_ux0jh")]
 
 [node name="wall_clock_home" type="MeshInstance3D" parent="Props/WallClock/Model" unique_id=465386732]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_k6dfj")
 
-[node name="Prop" type="Node" parent="Props/WallClock" unique_id=247584779]
+[node name="Prop" type="Node" parent="Props/WallClock" unique_id=733939649]
 script = ExtResource("17_0kwxa")
 prop_id = &"wall_clock_home"
 tags = PackedStringArray()
 
-[node name="Calendar" parent="Props" unique_id=1049035031 instance=ExtResource("70_3v5kq")]
+[node name="Calendar" parent="Props" unique_id=1551014507 instance=ExtResource("70_3v5kq")]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2.5, 1.6, 3.95)
 
 [node name="Model" parent="Props/Calendar" unique_id=2086455948 instance=ExtResource("71_4tsad")]
 
 [node name="wall_calendar" type="MeshInstance3D" parent="Props/Calendar/Model" unique_id=540314175]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_kb2ab")
 
-[node name="Prop" type="Node" parent="Props/Calendar" unique_id=872070588]
+[node name="Prop" type="Node" parent="Props/Calendar" unique_id=2145431831]
 script = ExtResource("17_0kwxa")
 prop_id = &"wall_calendar"
 tags = PackedStringArray()
 
-[node name="Bed" parent="Props" unique_id=861542569 groups=["nav_source"] instance=ExtResource("72_83lvt")]
+[node name="Bed" parent="Props" unique_id=1274610991 groups=["nav_source"] instance=ExtResource("72_83lvt")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 3.95, 0, -2.6)
 
 [node name="Model" parent="Props/Bed" unique_id=112854559 instance=ExtResource("73_yx3pd")]
@@ -6138,108 +6186,123 @@ transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 3.95
 [node name="bed" type="MeshInstance3D" parent="Props/Bed/Model" unique_id=1305182062]
 mesh = SubResource("ArrayMesh_bk0hv")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Bed" unique_id=562313238]
+[node name="Collision" type="CollisionShape3D" parent="Props/Bed" unique_id=1516962677]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5999999, 0.0075000525)
 shape = SubResource("BoxShape3D_d7k1g")
 
-[node name="Prop" type="Node" parent="Props/Bed" unique_id=479498661]
+[node name="Prop" type="Node" parent="Props/Bed" unique_id=162012267]
 script = ExtResource("17_0kwxa")
 prop_id = &"bed"
 inspect_line = &"ch2_insp_bed"
 tags = PackedStringArray()
 
-[node name="BedHelmet" parent="Props" unique_id=799352239 groups=["deco_aftermath"] instance=ExtResource("74_vb384")]
+[node name="BedHelmet" parent="Props" unique_id=786517955 groups=["deco_aftermath"] instance=ExtResource("74_vb384")]
 transform = Transform3D(0.9396926, 0, 0.34202012, 0, 1, 0, -0.34202012, 0, 0.9396926, 3.6, 0.63, -2.6)
 
 [node name="Model" parent="Props/BedHelmet" unique_id=445436474 instance=ExtResource("75_mlmme")]
 
 [node name="helmet" type="MeshInstance3D" parent="Props/BedHelmet/Model" unique_id=257701444]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_o1fvy")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/BedHelmet" unique_id=462899793]
+[node name="Collision" type="CollisionShape3D" parent="Props/BedHelmet" unique_id=1076412914]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.09, 0)
 shape = SubResource("SphereShape3D_3a84r")
 
-[node name="Prop" type="Node" parent="Props/BedHelmet" unique_id=291427571]
+[node name="Prop" type="Node" parent="Props/BedHelmet" unique_id=1005969024]
 script = ExtResource("17_0kwxa")
 prop_id = &"helmet"
 grab_class = "light"
 inspect_line = &"ch2_insp_bed"
 tags = PackedStringArray()
 
-[node name="Nightstand" parent="Props" unique_id=212322403 groups=["nav_source"] instance=ExtResource("76_2b3n3")]
+[node name="Nightstand" parent="Props" unique_id=497997603 groups=["nav_source"] instance=ExtResource("76_2b3n3")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 4.7, 0, -1.4)
 
 [node name="Model" parent="Props/Nightstand" unique_id=376239109 instance=ExtResource("77_54ey0")]
 
 [node name="nightstand" type="MeshInstance3D" parent="Props/Nightstand/Model" unique_id=1032793670]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_fj8u0")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Nightstand" unique_id=1722484253]
+[node name="Collision" type="CollisionShape3D" parent="Props/Nightstand" unique_id=833528476]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, -0.0119999945)
 shape = SubResource("BoxShape3D_thxye")
 
-[node name="Prop" type="Node" parent="Props/Nightstand" unique_id=1347057439]
+[node name="Prop" type="Node" parent="Props/Nightstand" unique_id=1558206909]
 script = ExtResource("17_0kwxa")
 prop_id = &"nightstand"
 tags = PackedStringArray()
 
-[node name="BedLamp" parent="Props" unique_id=1370963931 instance=ExtResource("78_bwief")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.72, 0.5, -1.4)
+[node name="BedLamp" parent="Props" unique_id=664000997 instance=ExtResource("78_bwief")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.72, 0.5, -1.52)
 
 [node name="Model" parent="Props/BedLamp" unique_id=429555722 instance=ExtResource("79_3ibxq")]
 
 [node name="table_lamp" type="MeshInstance3D" parent="Props/BedLamp/Model" unique_id=1915887284]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_6kgy7")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/BedLamp" unique_id=1930975346]
+[node name="Collision" type="CollisionShape3D" parent="Props/BedLamp" unique_id=178669662]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.185, 0)
 shape = SubResource("CylinderShape3D_5n6jw")
 
-[node name="Prop" type="Node" parent="Props/BedLamp" unique_id=2005529599]
+[node name="Prop" type="Node" parent="Props/BedLamp" unique_id=726898664]
 script = ExtResource("17_0kwxa")
 prop_id = &"table_lamp"
 grab_class = "light"
 tags = PackedStringArray("lamp")
 
-[node name="Laundry" parent="Props" unique_id=41469956 instance=ExtResource("80_kpmwe")]
+[node name="Laundry" parent="Props" unique_id=334329169 instance=ExtResource("80_kpmwe")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.4, 0, -3.5)
 
 [node name="Model" parent="Props/Laundry" unique_id=127201596 instance=ExtResource("81_vubhc")]
 
 [node name="laundry_basket" type="MeshInstance3D" parent="Props/Laundry/Model" unique_id=1439133081]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_5d2rl")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Laundry" unique_id=555702900]
+[node name="Collision" type="CollisionShape3D" parent="Props/Laundry" unique_id=162343524]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.3, 0)
 shape = SubResource("CylinderShape3D_2wqcq")
 
-[node name="Prop" type="Node" parent="Props/Laundry" unique_id=2015985756]
+[node name="Prop" type="Node" parent="Props/Laundry" unique_id=1258478493]
 script = ExtResource("17_0kwxa")
 prop_id = &"laundry_basket"
 grab_class = "medium"
 tags = PackedStringArray()
 
-[node name="Phone" parent="Props" unique_id=1149581030 instance=ExtResource("82_hougi")]
-transform = Transform3D(0.8660254, 0, 0.5, 0, 1, 0, -0.5, 0, 0.8660254, 4.72, 0.5, -1.7)
+[node name="Phone" parent="Props" unique_id=1964983865 instance=ExtResource("82_hougi")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 4.72, 0.5, -1.27)
 
 [node name="Model" parent="Props/Phone" unique_id=1137067836 instance=ExtResource("83_p6ldq")]
 
 [node name="phone" type="MeshInstance3D" parent="Props/Phone/Model" unique_id=826350595]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_d0g7c")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Phone" unique_id=398436937]
+[node name="Collision" type="CollisionShape3D" parent="Props/Phone" unique_id=1179629406]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.005, 0)
 shape = SubResource("BoxShape3D_rji5n")
 
-[node name="Prop" type="Node" parent="Props/Phone" unique_id=2001166635]
+[node name="Prop" type="Node" parent="Props/Phone" unique_id=1359729746]
 script = ExtResource("17_0kwxa")
 prop_id = &"phone"
 grab_class = "light"
 tags = PackedStringArray("phone")
 use_verb = "Check phone"
 
-[node name="BathSet" parent="Props" unique_id=649921014 groups=["nav_source"] instance=ExtResource("84_k6upx")]
+[node name="BathSet" parent="Props" unique_id=362815127 groups=["nav_source"] instance=ExtResource("84_k6upx")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.4, 0, 3.15)
 
 [node name="Model" parent="Props/BathSet" unique_id=1109236162 instance=ExtResource("85_jj6ek")]
@@ -6247,442 +6310,526 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.4, 0, 3.15)
 [node name="bath_set" type="MeshInstance3D" parent="Props/BathSet/Model" unique_id=2123811340]
 mesh = SubResource("ArrayMesh_pqt88")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/BathSet" unique_id=822893039]
+[node name="Collision" type="CollisionShape3D" parent="Props/BathSet" unique_id=715720511]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.100000024, 0.43749997, 0)
 shape = SubResource("BoxShape3D_wwedi")
 
-[node name="Prop" type="Node" parent="Props/BathSet" unique_id=1093939741]
+[node name="Prop" type="Node" parent="Props/BathSet" unique_id=539558189]
 script = ExtResource("17_0kwxa")
 prop_id = &"bath_set"
 tags = PackedStringArray()
 
-[node name="Extinguisher1" parent="Props" unique_id=1872680160 groups=["deco_aftermath"] instance=ExtResource("86_4ra7i")]
+[node name="Extinguisher1" parent="Props" unique_id=1577493130 groups=["deco_aftermath"] instance=ExtResource("86_4ra7i")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.55, 0, -3.7)
 
-[node name="Model" parent="Props/Extinguisher1" unique_id=130225197 instance=ExtResource("87_sg6td")]
+[node name="Model" parent="Props/Extinguisher1" unique_id=61203572 instance=ExtResource("87_sg6td")]
 
-[node name="fire_extinguisher" type="MeshInstance3D" parent="Props/Extinguisher1/Model" unique_id=751939351]
+[node name="fire_extinguisher" type="MeshInstance3D" parent="Props/Extinguisher1/Model" unique_id=946640915]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_uijbt")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Extinguisher1" unique_id=1600861684]
+[node name="Collision" type="CollisionShape3D" parent="Props/Extinguisher1" unique_id=2073795989]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.019594051, 0.2575, -0.004999995)
 shape = SubResource("CylinderShape3D_ovwcg")
 
-[node name="Prop" type="Node" parent="Props/Extinguisher1" unique_id=78168593]
+[node name="Prop" type="Node" parent="Props/Extinguisher1" unique_id=1168428638]
 script = ExtResource("17_0kwxa")
 prop_id = &"fire_extinguisher"
 grab_class = "light"
 tags = PackedStringArray()
 
-[node name="Extinguisher2" parent="Props" unique_id=1512829878 groups=["deco_aftermath"] instance=ExtResource("86_4ra7i")]
+[node name="Extinguisher2" parent="Props" unique_id=110193280 groups=["deco_aftermath"] instance=ExtResource("86_4ra7i")]
 transform = Transform3D(0.76604444, 0, 0.6427876, 0, 1, 0, -0.6427876, 0, 0.76604444, 1.65, 0, 3.3)
 
-[node name="Model" parent="Props/Extinguisher2" unique_id=1991207746 instance=ExtResource("87_sg6td")]
+[node name="Model" parent="Props/Extinguisher2" unique_id=504288454 instance=ExtResource("87_sg6td")]
 
-[node name="fire_extinguisher" type="MeshInstance3D" parent="Props/Extinguisher2/Model" unique_id=576657121]
+[node name="fire_extinguisher" type="MeshInstance3D" parent="Props/Extinguisher2/Model" unique_id=1751883617]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_uijbt")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Extinguisher2" unique_id=1789436956]
+[node name="Collision" type="CollisionShape3D" parent="Props/Extinguisher2" unique_id=107035855]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.019594051, 0.2575, -0.004999995)
 shape = SubResource("CylinderShape3D_ovwcg")
 
-[node name="Prop" type="Node" parent="Props/Extinguisher2" unique_id=55589494]
+[node name="Prop" type="Node" parent="Props/Extinguisher2" unique_id=543048253]
 script = ExtResource("17_0kwxa")
 prop_id = &"fire_extinguisher"
 grab_class = "light"
 tags = PackedStringArray()
 
-[node name="Extinguisher3" parent="Props" unique_id=836405344 groups=["deco_aftermath"] instance=ExtResource("86_4ra7i")]
+[node name="Extinguisher3" parent="Props" unique_id=1843782120 groups=["deco_aftermath"] instance=ExtResource("86_4ra7i")]
 transform = Transform3D(0.17364822, 0, 0.9848077, 0, 1, 0, -0.9848077, 0, 0.17364822, -4.6, 0, 3.75)
 
-[node name="Model" parent="Props/Extinguisher3" unique_id=490373265 instance=ExtResource("87_sg6td")]
+[node name="Model" parent="Props/Extinguisher3" unique_id=975997726 instance=ExtResource("87_sg6td")]
 
-[node name="fire_extinguisher" type="MeshInstance3D" parent="Props/Extinguisher3/Model" unique_id=96778218]
+[node name="fire_extinguisher" type="MeshInstance3D" parent="Props/Extinguisher3/Model" unique_id=995437332]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_uijbt")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Extinguisher3" unique_id=942179299]
+[node name="Collision" type="CollisionShape3D" parent="Props/Extinguisher3" unique_id=554904780]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.019594051, 0.2575, -0.004999995)
 shape = SubResource("CylinderShape3D_ovwcg")
 
-[node name="Prop" type="Node" parent="Props/Extinguisher3" unique_id=793979851]
+[node name="Prop" type="Node" parent="Props/Extinguisher3" unique_id=299800255]
 script = ExtResource("17_0kwxa")
 prop_id = &"fire_extinguisher"
 grab_class = "light"
 tags = PackedStringArray()
 
-[node name="Extinguisher4" parent="Props" unique_id=1577773084 groups=["deco_aftermath"] instance=ExtResource("86_4ra7i")]
+[node name="Extinguisher4" parent="Props" unique_id=1371046598 groups=["deco_aftermath"] instance=ExtResource("86_4ra7i")]
 transform = Transform3D(-0.50000006, 0, 0.8660254, 0, 1, 0, -0.8660254, 0, -0.50000006, 4.7, 0, 0.9)
 
-[node name="Model" parent="Props/Extinguisher4" unique_id=1696505826 instance=ExtResource("87_sg6td")]
+[node name="Model" parent="Props/Extinguisher4" unique_id=1377540735 instance=ExtResource("87_sg6td")]
 
-[node name="fire_extinguisher" type="MeshInstance3D" parent="Props/Extinguisher4/Model" unique_id=1524440754]
+[node name="fire_extinguisher" type="MeshInstance3D" parent="Props/Extinguisher4/Model" unique_id=114669320]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_uijbt")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Extinguisher4" unique_id=1422925753]
+[node name="Collision" type="CollisionShape3D" parent="Props/Extinguisher4" unique_id=560160761]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.019594051, 0.2575, -0.004999995)
 shape = SubResource("CylinderShape3D_ovwcg")
 
-[node name="Prop" type="Node" parent="Props/Extinguisher4" unique_id=815107633]
+[node name="Prop" type="Node" parent="Props/Extinguisher4" unique_id=1436103634]
 script = ExtResource("17_0kwxa")
 prop_id = &"fire_extinguisher"
 grab_class = "light"
 tags = PackedStringArray()
 
-[node name="Foam1" parent="Props" unique_id=1136414895 groups=["deco_aftermath"] instance=ExtResource("88_bydj7")]
+[node name="Foam1" parent="Props" unique_id=306714953 groups=["deco_aftermath"] instance=ExtResource("88_bydj7")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.75, 0.42, -1.5)
 
 [node name="Model" parent="Props/Foam1" unique_id=195166980 instance=ExtResource("89_w4cog")]
 
 [node name="foam_corner" type="MeshInstance3D" parent="Props/Foam1/Model" unique_id=647457987]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_587rg")
 
-[node name="Prop" type="Node" parent="Props/Foam1" unique_id=1906710674]
+[node name="Prop" type="Node" parent="Props/Foam1" unique_id=715136307]
 script = ExtResource("17_0kwxa")
 prop_id = &"foam_corner"
 inspect_line = &"ch2_insp_corners"
 tags = PackedStringArray()
 
-[node name="Foam2" parent="Props" unique_id=680437210 groups=["deco_aftermath"] instance=ExtResource("88_bydj7")]
+[node name="Foam2" parent="Props" unique_id=6537264 groups=["deco_aftermath"] instance=ExtResource("88_bydj7")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.65, 0.42, -0.9)
 
-[node name="Model" parent="Props/Foam2" unique_id=146496611 instance=ExtResource("89_w4cog")]
+[node name="Model" parent="Props/Foam2" unique_id=289773778 instance=ExtResource("89_w4cog")]
 
-[node name="foam_corner" type="MeshInstance3D" parent="Props/Foam2/Model" unique_id=1128769922]
+[node name="foam_corner" type="MeshInstance3D" parent="Props/Foam2/Model" unique_id=1623349970]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_587rg")
 
-[node name="Prop" type="Node" parent="Props/Foam2" unique_id=2094664898]
+[node name="Prop" type="Node" parent="Props/Foam2" unique_id=399978111]
 script = ExtResource("17_0kwxa")
 prop_id = &"foam_corner"
 inspect_line = &"ch2_insp_corners"
 tags = PackedStringArray()
 
-[node name="Foam3" parent="Props" unique_id=1657021672 groups=["deco_aftermath"] instance=ExtResource("88_bydj7")]
+[node name="Foam3" parent="Props" unique_id=1393082523 groups=["deco_aftermath"] instance=ExtResource("88_bydj7")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.65, 0.42, -1.5)
 
-[node name="Model" parent="Props/Foam3" unique_id=915123004 instance=ExtResource("89_w4cog")]
+[node name="Model" parent="Props/Foam3" unique_id=438205123 instance=ExtResource("89_w4cog")]
 
-[node name="foam_corner" type="MeshInstance3D" parent="Props/Foam3/Model" unique_id=437025098]
+[node name="foam_corner" type="MeshInstance3D" parent="Props/Foam3/Model" unique_id=1332876340]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_587rg")
 
-[node name="Prop" type="Node" parent="Props/Foam3" unique_id=1219842336]
+[node name="Prop" type="Node" parent="Props/Foam3" unique_id=1214869949]
 script = ExtResource("17_0kwxa")
 prop_id = &"foam_corner"
 inspect_line = &"ch2_insp_corners"
 tags = PackedStringArray()
 
-[node name="Foam4" parent="Props" unique_id=302279227 groups=["deco_aftermath"] instance=ExtResource("88_bydj7")]
+[node name="Foam4" parent="Props" unique_id=1077351279 groups=["deco_aftermath"] instance=ExtResource("88_bydj7")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.75, 0.42, -0.9)
 
-[node name="Model" parent="Props/Foam4" unique_id=1515301615 instance=ExtResource("89_w4cog")]
+[node name="Model" parent="Props/Foam4" unique_id=1673366283 instance=ExtResource("89_w4cog")]
 
-[node name="foam_corner" type="MeshInstance3D" parent="Props/Foam4/Model" unique_id=1243383590]
+[node name="foam_corner" type="MeshInstance3D" parent="Props/Foam4/Model" unique_id=1365465984]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_587rg")
 
-[node name="Prop" type="Node" parent="Props/Foam4" unique_id=651530355]
+[node name="Prop" type="Node" parent="Props/Foam4" unique_id=1676469149]
 script = ExtResource("17_0kwxa")
 prop_id = &"foam_corner"
 inspect_line = &"ch2_insp_corners"
 tags = PackedStringArray()
 
-[node name="Foam5" parent="Props" unique_id=1205042052 groups=["deco_aftermath"] instance=ExtResource("88_bydj7")]
+[node name="Foam5" parent="Props" unique_id=1333544556 groups=["deco_aftermath"] instance=ExtResource("88_bydj7")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.4, 0.77, 1.3)
 
-[node name="Model" parent="Props/Foam5" unique_id=1516785352 instance=ExtResource("89_w4cog")]
+[node name="Model" parent="Props/Foam5" unique_id=1763924874 instance=ExtResource("89_w4cog")]
 
-[node name="foam_corner" type="MeshInstance3D" parent="Props/Foam5/Model" unique_id=40013072]
+[node name="foam_corner" type="MeshInstance3D" parent="Props/Foam5/Model" unique_id=125978049]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_587rg")
 
-[node name="Prop" type="Node" parent="Props/Foam5" unique_id=1921384017]
+[node name="Prop" type="Node" parent="Props/Foam5" unique_id=1246451093]
 script = ExtResource("17_0kwxa")
 prop_id = &"foam_corner"
 inspect_line = &"ch2_insp_corners"
 tags = PackedStringArray()
 
-[node name="Foam6" parent="Props" unique_id=1096658175 groups=["deco_aftermath"] instance=ExtResource("88_bydj7")]
+[node name="Foam6" parent="Props" unique_id=741176345 groups=["deco_aftermath"] instance=ExtResource("88_bydj7")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.4, 0.77, 2.7)
 
-[node name="Model" parent="Props/Foam6" unique_id=870841985 instance=ExtResource("89_w4cog")]
+[node name="Model" parent="Props/Foam6" unique_id=329187845 instance=ExtResource("89_w4cog")]
 
-[node name="foam_corner" type="MeshInstance3D" parent="Props/Foam6/Model" unique_id=24021906]
+[node name="foam_corner" type="MeshInstance3D" parent="Props/Foam6/Model" unique_id=290698164]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_587rg")
 
-[node name="Prop" type="Node" parent="Props/Foam6" unique_id=67130245]
+[node name="Prop" type="Node" parent="Props/Foam6" unique_id=1734932088]
 script = ExtResource("17_0kwxa")
 prop_id = &"foam_corner"
 inspect_line = &"ch2_insp_corners"
 tags = PackedStringArray()
 
-[node name="Foam7" parent="Props" unique_id=125145625 groups=["deco_aftermath"] instance=ExtResource("88_bydj7")]
+[node name="Foam7" parent="Props" unique_id=66470699 groups=["deco_aftermath"] instance=ExtResource("88_bydj7")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3, 0, -3.7)
 
-[node name="Model" parent="Props/Foam7" unique_id=1659532501 instance=ExtResource("89_w4cog")]
+[node name="Model" parent="Props/Foam7" unique_id=98298764 instance=ExtResource("89_w4cog")]
 
-[node name="foam_corner" type="MeshInstance3D" parent="Props/Foam7/Model" unique_id=1374369422]
+[node name="foam_corner" type="MeshInstance3D" parent="Props/Foam7/Model" unique_id=395320840]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_587rg")
 
-[node name="Prop" type="Node" parent="Props/Foam7" unique_id=1561084303]
+[node name="Prop" type="Node" parent="Props/Foam7" unique_id=1060659509]
 script = ExtResource("17_0kwxa")
 prop_id = &"foam_corner"
 inspect_line = &"ch2_insp_corners"
 tags = PackedStringArray()
 
-[node name="Outlet1" parent="Props" unique_id=1283207208 groups=["deco_aftermath"] instance=ExtResource("90_i8pcv")]
+[node name="Outlet1" parent="Props" unique_id=1318060139 groups=["deco_aftermath"] instance=ExtResource("90_i8pcv")]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2, 0.3, 3.97)
 
 [node name="Model" parent="Props/Outlet1" unique_id=2139624723 instance=ExtResource("91_gfa11")]
 
 [node name="outlet_cover" type="MeshInstance3D" parent="Props/Outlet1/Model" unique_id=756880464]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_2kgat")
 
-[node name="Prop" type="Node" parent="Props/Outlet1" unique_id=827599302]
+[node name="Prop" type="Node" parent="Props/Outlet1" unique_id=1014720102]
 script = ExtResource("17_0kwxa")
 prop_id = &"outlet_cover"
 inspect_line = &"ch2_insp_outlet"
 tags = PackedStringArray()
 
-[node name="Outlet2" parent="Props" unique_id=906088810 groups=["deco_aftermath"] instance=ExtResource("90_i8pcv")]
+[node name="Outlet2" parent="Props" unique_id=1381367761 groups=["deco_aftermath"] instance=ExtResource("90_i8pcv")]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0.9, 0.3, 3.97)
 
-[node name="Model" parent="Props/Outlet2" unique_id=1317387607 instance=ExtResource("91_gfa11")]
+[node name="Model" parent="Props/Outlet2" unique_id=1788333184 instance=ExtResource("91_gfa11")]
 
-[node name="outlet_cover" type="MeshInstance3D" parent="Props/Outlet2/Model" unique_id=1506068512]
+[node name="outlet_cover" type="MeshInstance3D" parent="Props/Outlet2/Model" unique_id=1771856725]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_2kgat")
 
-[node name="Prop" type="Node" parent="Props/Outlet2" unique_id=1919015353]
+[node name="Prop" type="Node" parent="Props/Outlet2" unique_id=1354843955]
 script = ExtResource("17_0kwxa")
 prop_id = &"outlet_cover"
 inspect_line = &"ch2_insp_outlet"
 tags = PackedStringArray()
 
-[node name="Outlet3" parent="Props" unique_id=932634214 groups=["deco_aftermath"] instance=ExtResource("90_i8pcv")]
+[node name="Outlet3" parent="Props" unique_id=1294736712 groups=["deco_aftermath"] instance=ExtResource("90_i8pcv")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -4.97, 0.3, -2.5)
 
-[node name="Model" parent="Props/Outlet3" unique_id=1587478400 instance=ExtResource("91_gfa11")]
+[node name="Model" parent="Props/Outlet3" unique_id=1658273085 instance=ExtResource("91_gfa11")]
 
-[node name="outlet_cover" type="MeshInstance3D" parent="Props/Outlet3/Model" unique_id=1814719889]
+[node name="outlet_cover" type="MeshInstance3D" parent="Props/Outlet3/Model" unique_id=1051535620]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_2kgat")
 
-[node name="Prop" type="Node" parent="Props/Outlet3" unique_id=1714466097]
+[node name="Prop" type="Node" parent="Props/Outlet3" unique_id=1672762837]
 script = ExtResource("17_0kwxa")
 prop_id = &"outlet_cover"
 inspect_line = &"ch2_insp_outlet"
 tags = PackedStringArray()
 
-[node name="Outlet4" parent="Props" unique_id=394936675 groups=["deco_aftermath"] instance=ExtResource("90_i8pcv")]
+[node name="Outlet4" parent="Props" unique_id=669488845 groups=["deco_aftermath"] instance=ExtResource("90_i8pcv")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -4.97, 0.3, 0.4)
 
-[node name="Model" parent="Props/Outlet4" unique_id=549051972 instance=ExtResource("91_gfa11")]
+[node name="Model" parent="Props/Outlet4" unique_id=2063011234 instance=ExtResource("91_gfa11")]
 
-[node name="outlet_cover" type="MeshInstance3D" parent="Props/Outlet4/Model" unique_id=1412845088]
+[node name="outlet_cover" type="MeshInstance3D" parent="Props/Outlet4/Model" unique_id=1508378838]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_2kgat")
 
-[node name="Prop" type="Node" parent="Props/Outlet4" unique_id=1236416054]
+[node name="Prop" type="Node" parent="Props/Outlet4" unique_id=1090372312]
 script = ExtResource("17_0kwxa")
 prop_id = &"outlet_cover"
 inspect_line = &"ch2_insp_outlet"
 tags = PackedStringArray()
 
-[node name="TvSafety" parent="Props" unique_id=1571823450 groups=["deco_ending"] instance=ExtResource("92_bdein")]
+[node name="TvSafety" parent="Props" unique_id=1961737498 groups=["deco_ending"] instance=ExtResource("92_bdein")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -4.6, 0.36, -1.2)
 
 [node name="Model" parent="Props/TvSafety" unique_id=559689008 instance=ExtResource("93_y6er4")]
 
 [node name="tv_safety_show" type="MeshInstance3D" parent="Props/TvSafety/Model" unique_id=2122229755]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_12nr5")
 
-[node name="Prop" type="Node" parent="Props/TvSafety" unique_id=1456995554]
+[node name="Prop" type="Node" parent="Props/TvSafety" unique_id=865179441]
 script = ExtResource("17_0kwxa")
 prop_id = &"tv_safety_show"
 tags = PackedStringArray("ending")
 
-[node name="DaleBinder" parent="Props" unique_id=2006517016 groups=["deco_ending"] instance=ExtResource("94_e2q3l")]
+[node name="DaleBinder" parent="Props" unique_id=386999088 groups=["deco_ending"] instance=ExtResource("94_e2q3l")]
 transform = Transform3D(0.34202015, 0, -0.9396926, 0, 1, 0, 0.9396926, 0, 0.34202015, -4.35, 0.77, 2.5)
 
 [node name="Model" parent="Props/DaleBinder" unique_id=1760179259 instance=ExtResource("95_8xumk")]
 
 [node name="binder_dale" type="MeshInstance3D" parent="Props/DaleBinder/Model" unique_id=1176799194]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_3logf")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/DaleBinder" unique_id=110999900]
+[node name="Collision" type="CollisionShape3D" parent="Props/DaleBinder" unique_id=2107785374]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.16, -0.003000006)
 shape = SubResource("BoxShape3D_chqga")
 
-[node name="Prop" type="Node" parent="Props/DaleBinder" unique_id=798426623]
+[node name="Prop" type="Node" parent="Props/DaleBinder" unique_id=1662920411]
 script = ExtResource("17_0kwxa")
 prop_id = &"binder_dale"
 grab_class = "light"
 inspect_line = &"ch8_dale_binder"
 tags = PackedStringArray("ending")
 
-[node name="MillsPostcard" parent="Props" unique_id=451131660 groups=["deco_ending"] instance=ExtResource("96_hxqbb")]
+[node name="MillsPostcard" parent="Props" unique_id=405186091 groups=["deco_ending"] instance=ExtResource("96_hxqbb")]
 transform = Transform3D(0.17364822, 0, -0.9848077, 0, 1, 0, 0.9848077, 0, 0.17364822, -4.3, 0.77, 1.2)
 
 [node name="Model" parent="Props/MillsPostcard" unique_id=1195732878 instance=ExtResource("97_m5dsk")]
 
 [node name="postcard_mills" type="MeshInstance3D" parent="Props/MillsPostcard/Model" unique_id=1145878218]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_j5hoo")
 
-[node name="Prop" type="Node" parent="Props/MillsPostcard" unique_id=1091287492]
+[node name="Prop" type="Node" parent="Props/MillsPostcard" unique_id=798752975]
 script = ExtResource("17_0kwxa")
 prop_id = &"postcard_mills"
 inspect_line = &"ch8_mills_card"
 tags = PackedStringArray("ending")
 
-[node name="FridgeSchedule" parent="Props" unique_id=1068585359 groups=["deco_ending"] instance=ExtResource("98_3ti4r")]
+[node name="FridgeSchedule" parent="Props" unique_id=1922819633 groups=["deco_ending"] instance=ExtResource("98_3ti4r")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2, 1.25, 3.215)
 
 [node name="Model" parent="Props/FridgeSchedule" unique_id=1788975304 instance=ExtResource("99_l0bqq")]
 
 [node name="fridge_note_schedule" type="MeshInstance3D" parent="Props/FridgeSchedule/Model" unique_id=913676528]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_0tfaa")
 
-[node name="Prop" type="Node" parent="Props/FridgeSchedule" unique_id=902073950]
+[node name="Prop" type="Node" parent="Props/FridgeSchedule" unique_id=1190528278]
 script = ExtResource("17_0kwxa")
 prop_id = &"fridge_note_schedule"
 inspect_line = &"ch8_insp_fridge"
 tags = PackedStringArray("ending")
 
-[node name="GusFlyer" parent="Props" unique_id=1595292716 groups=["deco_ending"] instance=ExtResource("100_w0628")]
+[node name="GusFlyer" parent="Props" unique_id=1171538398 groups=["deco_ending"] instance=ExtResource("100_w0628")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.55, 1.05, 3.215)
 
 [node name="Model" parent="Props/GusFlyer" unique_id=693230629 instance=ExtResource("101_tc8e7")]
 
 [node name="gus_flyer" type="MeshInstance3D" parent="Props/GusFlyer/Model" unique_id=702229550]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_k6o8r")
 
-[node name="Prop" type="Node" parent="Props/GusFlyer" unique_id=1067226992]
+[node name="Prop" type="Node" parent="Props/GusFlyer" unique_id=483923130]
 script = ExtResource("17_0kwxa")
 prop_id = &"gus_flyer"
 inspect_line = &"ch8_gus_flyer"
 tags = PackedStringArray("ending")
 
-[node name="TiffCardAlive" parent="Props" unique_id=1345592822 groups=["deco_ending_tiff_alive"] instance=ExtResource("102_r865q")]
+[node name="TiffCardAlive" parent="Props" unique_id=50385234 groups=["deco_ending_tiff_alive"] instance=ExtResource("102_r865q")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.95, 1.05, 3.215)
 
 [node name="Model" parent="Props/TiffCardAlive" unique_id=505332540 instance=ExtResource("103_kyht2")]
 
 [node name="brand_card" type="MeshInstance3D" parent="Props/TiffCardAlive/Model" unique_id=353923691]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_8opmg")
 
-[node name="Prop" type="Node" parent="Props/TiffCardAlive" unique_id=527928499]
+[node name="Prop" type="Node" parent="Props/TiffCardAlive" unique_id=1774883211]
 script = ExtResource("17_0kwxa")
 prop_id = &"brand_card"
 inspect_line = &"ch8_tiff_card"
 tags = PackedStringArray("ending")
 
-[node name="TiffCardDead" parent="Props" unique_id=1983052351 groups=["deco_ending_tiff_dead"] instance=ExtResource("104_bgpfo")]
+[node name="TiffCardDead" parent="Props" unique_id=170446816 groups=["deco_ending_tiff_dead"] instance=ExtResource("104_bgpfo")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.95, 1.05, 3.215)
 
 [node name="Model" parent="Props/TiffCardDead" unique_id=280942719 instance=ExtResource("105_votr6")]
 
 [node name="brand_card_sister" type="MeshInstance3D" parent="Props/TiffCardDead/Model" unique_id=1304614584]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_u2kam")
 
-[node name="Prop" type="Node" parent="Props/TiffCardDead" unique_id=487556329]
+[node name="Prop" type="Node" parent="Props/TiffCardDead" unique_id=417205800]
 script = ExtResource("17_0kwxa")
 prop_id = &"brand_card_sister"
 inspect_line = &"ch8_tiff_card_dead"
 tags = PackedStringArray("ending")
 
-[node name="Scoreboard" parent="Props" unique_id=1259736378 groups=["deco_ending"] instance=ExtResource("106_8gdpw")]
+[node name="Scoreboard" parent="Props" unique_id=1506298699 groups=["deco_ending"] instance=ExtResource("106_8gdpw")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -5, 1.05, -2.9)
 
 [node name="Model" parent="Props/Scoreboard" unique_id=812700403 instance=ExtResource("107_60v2a")]
 
 [node name="scoreboard" type="MeshInstance3D" parent="Props/Scoreboard/Model" unique_id=8052151]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_0yfor")
 
-[node name="Prop" type="Node" parent="Props/Scoreboard" unique_id=186219213]
+[node name="Prop" type="Node" parent="Props/Scoreboard" unique_id=487800013]
 script = ExtResource("17_0kwxa")
 prop_id = &"scoreboard"
 inspect_line = &"ch8_ml_score"
 tags = PackedStringArray("ending")
 
-[node name="GravesNote" parent="Props" unique_id=1575316686 groups=["deco_ending"] instance=ExtResource("108_ro3ln")]
+[node name="GravesNote" parent="Props" unique_id=1984167372 groups=["deco_ending"] instance=ExtResource("108_ro3ln")]
 transform = Transform3D(0.9396926, 0, 0.34202012, 0, 1, 0, -0.34202012, 0, 0.9396926, -3.2, 0.44, -1)
 
 [node name="Model" parent="Props/GravesNote" unique_id=412554190 instance=ExtResource("109_3egax")]
 
 [node name="note_graves" type="MeshInstance3D" parent="Props/GravesNote/Model" unique_id=501819498]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_cut3n")
 
-[node name="Prop" type="Node" parent="Props/GravesNote" unique_id=608516774]
+[node name="Prop" type="Node" parent="Props/GravesNote" unique_id=1528322408]
 script = ExtResource("17_0kwxa")
 prop_id = &"note_graves"
 inspect_line = &"ch8_graves_note"
 tags = PackedStringArray("ending")
 
-[node name="Mug" parent="Props" unique_id=393623339 groups=["deco_ending"] instance=ExtResource("110_inwps")]
+[node name="Mug" parent="Props" unique_id=932400533 groups=["deco_ending"] instance=ExtResource("110_inwps")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.44, -1.4)
 
 [node name="Model" parent="Props/Mug" unique_id=224776970 instance=ExtResource("111_jy32i")]
 
 [node name="mug" type="MeshInstance3D" parent="Props/Mug/Model" unique_id=713333722]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_lkekr")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/Mug" unique_id=1905644028]
+[node name="Collision" type="CollisionShape3D" parent="Props/Mug" unique_id=566711607]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.019757733, 0.045, 0)
 shape = SubResource("CylinderShape3D_h6084")
 
-[node name="Prop" type="Node" parent="Props/Mug" unique_id=1673053244]
+[node name="Prop" type="Node" parent="Props/Mug" unique_id=973493018]
 script = ExtResource("17_0kwxa")
 prop_id = &"mug"
 grab_class = "light"
 tags = PackedStringArray("ending")
 
-[node name="LeashHook" parent="Props" unique_id=1903188927 groups=["deco_ending"] instance=ExtResource("112_op6ks")]
+[node name="LeashHook" parent="Props" unique_id=1310293801 groups=["deco_ending"] instance=ExtResource("112_op6ks")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -4.9, 1.2, 3.6)
 
 [node name="Model" parent="Props/LeashHook" unique_id=312661571 instance=ExtResource("113_xiwdc")]
 
 [node name="leash_hook" type="MeshInstance3D" parent="Props/LeashHook/Model" unique_id=388862327]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_jxyde")
 
-[node name="Prop" type="Node" parent="Props/LeashHook" unique_id=1974806087]
+[node name="Prop" type="Node" parent="Props/LeashHook" unique_id=739337958]
 script = ExtResource("17_0kwxa")
 prop_id = &"leash_hook"
 tags = PackedStringArray("ending")
 
-[node name="ExtinguisherEnd" parent="Props" unique_id=501643122 groups=["deco_ending"] instance=ExtResource("86_4ra7i")]
+[node name="ExtinguisherEnd" parent="Props" unique_id=1868611584 groups=["deco_ending"] instance=ExtResource("86_4ra7i")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.7, 0, 3.72)
 
-[node name="Model" parent="Props/ExtinguisherEnd" unique_id=521396013 instance=ExtResource("87_sg6td")]
+[node name="Model" parent="Props/ExtinguisherEnd" unique_id=1799889662 instance=ExtResource("87_sg6td")]
 
-[node name="fire_extinguisher" type="MeshInstance3D" parent="Props/ExtinguisherEnd/Model" unique_id=1864687536]
+[node name="fire_extinguisher" type="MeshInstance3D" parent="Props/ExtinguisherEnd/Model" unique_id=417485514]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_uijbt")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/ExtinguisherEnd" unique_id=1921761896]
+[node name="Collision" type="CollisionShape3D" parent="Props/ExtinguisherEnd" unique_id=1141522642]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.019594051, 0.2575, -0.004999995)
 shape = SubResource("CylinderShape3D_ovwcg")
 
-[node name="Prop" type="Node" parent="Props/ExtinguisherEnd" unique_id=168221567]
+[node name="Prop" type="Node" parent="Props/ExtinguisherEnd" unique_id=1389322767]
 script = ExtResource("17_0kwxa")
 prop_id = &"fire_extinguisher"
 grab_class = "light"
 tags = PackedStringArray()
 
-[node name="HelmetCloset" parent="Props" unique_id=1887826851 groups=["deco_ending"] instance=ExtResource("74_vb384")]
+[node name="HelmetCloset" parent="Props" unique_id=1014793177 groups=["deco_ending"] instance=ExtResource("74_vb384")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.9, 0.02, 3.2)
 
-[node name="Model" parent="Props/HelmetCloset" unique_id=862542123 instance=ExtResource("75_mlmme")]
+[node name="Model" parent="Props/HelmetCloset" unique_id=1006049 instance=ExtResource("75_mlmme")]
 
-[node name="helmet" type="MeshInstance3D" parent="Props/HelmetCloset/Model" unique_id=1485729258]
+[node name="helmet" type="MeshInstance3D" parent="Props/HelmetCloset/Model" unique_id=1760975251]
+visibility_range_end = 38.0
+visibility_range_end_margin = 4.0
+visibility_range_fade_mode = 1
 mesh = SubResource("ArrayMesh_o1fvy")
 
-[node name="Collision" type="CollisionShape3D" parent="Props/HelmetCloset" unique_id=1390159151]
+[node name="Collision" type="CollisionShape3D" parent="Props/HelmetCloset" unique_id=1152081094]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.09, 0)
 shape = SubResource("SphereShape3D_3a84r")
 
-[node name="Prop" type="Node" parent="Props/HelmetCloset" unique_id=1826051974]
+[node name="Prop" type="Node" parent="Props/HelmetCloset" unique_id=1343999748]
 script = ExtResource("17_0kwxa")
 prop_id = &"helmet"
 grab_class = "light"
 inspect_line = &"ch8_insp_bed"
 tags = PackedStringArray()
 
-[node name="Lights" type="Node3D" parent="." unique_id=260377701]
+[node name="Lights" type="Node3D" parent="." unique_id=1566206555]
 
-[node name="LivingLight" type="OmniLight3D" parent="Lights" unique_id=701687034]
+[node name="LivingLight" type="OmniLight3D" parent="Lights" unique_id=1153962057 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -1.5, 2.45, -0.5)
 light_color = Color(1, 0.82, 0.6, 1)
 light_energy = 1.3
@@ -6691,8 +6838,9 @@ shadow_bias = 0.04
 shadow_normal_bias = 1.2
 omni_range = 9.0
 omni_attenuation = 1.3
+metadata/wants_shadow = true
 
-[node name="KitchenLight" type="OmniLight3D" parent="Lights" unique_id=1397853459]
+[node name="KitchenLight" type="OmniLight3D" parent="Lights" unique_id=1532003403 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -1, 2.45, 2.6)
 light_color = Color(1, 0.9, 0.75, 1)
 light_energy = 0.8
@@ -6700,8 +6848,9 @@ shadow_bias = 0.04
 shadow_normal_bias = 1.2
 omni_range = 6.0
 omni_attenuation = 1.3
+metadata/wants_shadow = false
 
-[node name="BedroomLight" type="OmniLight3D" parent="Lights" unique_id=1620092092]
+[node name="BedroomLight" type="OmniLight3D" parent="Lights" unique_id=214900977 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 3.4, 2.4, -1.9)
 light_color = Color(1, 0.8, 0.6, 1)
 light_energy = 0.7
@@ -6710,8 +6859,9 @@ shadow_bias = 0.04
 shadow_normal_bias = 1.2
 omni_range = 5.5
 omni_attenuation = 1.3
+metadata/wants_shadow = true
 
-[node name="BathLight" type="OmniLight3D" parent="Lights" unique_id=1426499651]
+[node name="BathLight" type="OmniLight3D" parent="Lights" unique_id=1246660297 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 3.5, 2.3, 2.5)
 light_color = Color(0.95, 0.98, 1, 1)
 light_energy = 0.7
@@ -6719,8 +6869,9 @@ shadow_bias = 0.04
 shadow_normal_bias = 1.2
 omni_range = 4.5
 omni_attenuation = 1.3
+metadata/wants_shadow = false
 
-[node name="Moonlight" type="SpotLight3D" parent="Lights" unique_id=413745821]
+[node name="Moonlight" type="SpotLight3D" parent="Lights" unique_id=1671238552 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, 0.99026805, 0.1391731, 0, -0.1391731, 0.99026805, -3.6, 2, -6.5)
 light_color = Color(0.55, 0.65, 1, 1)
 light_energy = 2.2
@@ -6730,8 +6881,9 @@ shadow_normal_bias = 1.2
 spot_range = 12.0
 spot_attenuation = 0.8
 spot_angle = 50.0
+metadata/wants_shadow = true
 
-[node name="Moonlight2" type="SpotLight3D" parent="Lights" unique_id=687948821]
+[node name="Moonlight2" type="SpotLight3D" parent="Lights" unique_id=1593954470 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, 0.99026805, 0.1391731, 0, -0.1391731, 0.99026805, -0.8, 2, -6.5)
 light_color = Color(0.55, 0.65, 1, 1)
 light_energy = 2.0
@@ -6740,8 +6892,9 @@ shadow_normal_bias = 1.2
 spot_range = 12.0
 spot_attenuation = 0.8
 spot_angle = 50.0
+metadata/wants_shadow = false
 
-[node name="DeskGlow" type="OmniLight3D" parent="Lights" unique_id=2086287963]
+[node name="DeskGlow" type="OmniLight3D" parent="Lights" unique_id=492760583 groups=["level_lights"]]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -4.6, 1.1, 2)
 light_color = Color(1, 0.9, 0.7, 1)
 light_energy = 0.5
@@ -6749,48 +6902,49 @@ shadow_bias = 0.04
 shadow_normal_bias = 1.2
 omni_range = 3.0
 omni_attenuation = 1.3
+metadata/wants_shadow = false
 
-[node name="Markers" type="Node3D" parent="." unique_id=1615826148]
+[node name="Markers" type="Node3D" parent="." unique_id=904556183]
 
-[node name="EndingStart" type="Marker3D" parent="Markers" unique_id=1778349277]
+[node name="EndingStart" type="Marker3D" parent="Markers" unique_id=1622354124]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -2.3, 0.05, -2.3)
 
-[node name="EndingDoor" type="Marker3D" parent="Markers" unique_id=195151495]
+[node name="EndingDoor" type="Marker3D" parent="Markers" unique_id=415827133]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.3, 0.05, 3.2)
 
-[node name="EddieStart" type="Marker3D" parent="Markers" unique_id=314747971]
+[node name="EddieStart" type="Marker3D" parent="Markers" unique_id=1809443711]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -2.3, 0.05, -2.3)
 
-[node name="EddieDoor" type="Marker3D" parent="Markers" unique_id=1516106986]
+[node name="EddieDoor" type="Marker3D" parent="Markers" unique_id=1700067098]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.3, 0.05, 3.2)
 
-[node name="PicklesStart" type="Marker3D" parent="Markers" unique_id=1938095031]
+[node name="PicklesStart" type="Marker3D" parent="Markers" unique_id=1275560356]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.9, 0.05, 1)
 
-[node name="SofaSit" type="Marker3D" parent="Markers" unique_id=1254269013]
+[node name="SofaSit" type="Marker3D" parent="Markers" unique_id=1118292007]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -1.3, 0.05, -0.6)
 
-[node name="GravesSpot" type="Marker3D" parent="Markers" unique_id=1131674772]
+[node name="GravesSpot" type="Marker3D" parent="Markers" unique_id=249447034]
 transform = Transform3D(-0.34202006, 0, -0.9396927, 0, 1, 0, 0.9396927, 0, -0.34202006, -0.6, 0.05, 0.4)
 
-[node name="DeskSpot" type="Marker3D" parent="Markers" unique_id=1401273522]
+[node name="DeskSpot" type="Marker3D" parent="Markers" unique_id=1941868354]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -3.9, 0.05, 1.7)
 
-[node name="KitchenSpot" type="Marker3D" parent="Markers" unique_id=660657377]
+[node name="KitchenSpot" type="Marker3D" parent="Markers" unique_id=1207467505]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0.05, 2.8)
 
-[node name="PicklesBowlSpot" type="Marker3D" parent="Markers" unique_id=930636999]
+[node name="PicklesBowlSpot" type="Marker3D" parent="Markers" unique_id=1799752885]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.45, 0.05, 2.5)
 
-[node name="WindowSpot" type="Marker3D" parent="Markers" unique_id=225025401]
+[node name="WindowSpot" type="Marker3D" parent="Markers" unique_id=1167876053]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8, 0.05, -3.4)
 
-[node name="TVSpot" type="Marker3D" parent="Markers" unique_id=2004266894]
+[node name="TVSpot" type="Marker3D" parent="Markers" unique_id=236437920]
 transform = Transform3D(1.1924881e-08, 0, -1, 0, 1, 0, 1, 0, 1.1924881e-08, -3.6, 0.05, -1.2)
 
-[node name="Zones" type="Node3D" parent="." unique_id=1827410309]
+[node name="Zones" type="Node3D" parent="." unique_id=1193261244]
 
-[node name="ApartmentReverb" type="Area3D" parent="Zones" unique_id=1622549305]
+[node name="ApartmentReverb" type="Area3D" parent="Zones" unique_id=417461347]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.35, 0)
 collision_layer = 0
 collision_mask = 0
@@ -6799,28 +6953,28 @@ reverb_bus_name = &"RevSmall"
 reverb_bus_amount = 0.35
 reverb_bus_uniformity = 0.6
 
-[node name="@CollisionShape3D@398" type="CollisionShape3D" parent="Zones/ApartmentReverb" unique_id=208000257]
+[node name="@CollisionShape3D@398" type="CollisionShape3D" parent="Zones/ApartmentReverb" unique_id=99338035]
 shape = SubResource("BoxShape3D_5668j")
 
-[node name="@ReflectionProbe@399" type="ReflectionProbe" parent="." unique_id=1381255910]
+[node name="@ReflectionProbe@399" type="ReflectionProbe" parent="." unique_id=421346621]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.7, 1.35, 0)
 intensity = 0.9
 size = Vector3(7, 2.7, 8.4)
 box_projection = true
 interior = true
 
-[node name="@ReflectionProbe@400" type="ReflectionProbe" parent="." unique_id=643797470]
+[node name="@ReflectionProbe@400" type="ReflectionProbe" parent="." unique_id=12061173]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5, 1.35, 0)
 intensity = 0.9
 size = Vector3(3.4, 2.7, 8.4)
 box_projection = true
 interior = true
 
-[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1158309745 groups=["world_environment"]]
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1546548585 groups=["world_environment"]]
 environment = SubResource("Environment_aqruh")
 camera_attributes = SubResource("CameraAttributesPractical_ib2ey")
 
-[node name="Navigation" type="NavigationRegion3D" parent="." unique_id=1450627076]
+[node name="Navigation" type="NavigationRegion3D" parent="." unique_id=1589209320]
 navigation_mesh = SubResource("NavigationMesh_ye0gq")
 
 [editable path="Shell"]

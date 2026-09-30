@@ -75,7 +75,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_ysupk")
 
-[node name="chain_hoist" type="Node3D" unique_id=1719258331]
+[node name="chain_hoist" type="Node3D" unique_id=1011066466]
 
 [node name="Model" parent="." unique_id=1987612129 instance=ExtResource("1_mxun3")]
 
@@ -84,7 +84,7 @@ mesh = SubResource("ArrayMesh_c67vn")
 surface_material_override/0 = ExtResource("2_bljyf")
 surface_material_override/1 = ExtResource("3_31j0o")
 
-[node name="Prop" type="Node" parent="." unique_id=1529379520]
+[node name="Prop" type="Node" parent="." unique_id=612837908]
 script = ExtResource("4_egxj0")
 prop_id = &"chain_hoist"
 inspect_line = &"ch3_insp_chain"

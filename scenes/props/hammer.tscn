@@ -77,7 +77,7 @@ shadow_mesh = SubResource("ArrayMesh_27tup")
 [sub_resource type="BoxShape3D" id="BoxShape3D_lwrgf"]
 size = Vector3(0.15, 0.04750001, 0.33999997)
 
-[node name="hammer" type="RigidBody3D" unique_id=1054136199]
+[node name="hammer" type="RigidBody3D" unique_id=1159260400]
 collision_layer = 16
 collision_mask = 31
 mass = 0.9
@@ -92,11 +92,11 @@ mesh = SubResource("ArrayMesh_t46n1")
 surface_material_override/0 = ExtResource("2_n7aer")
 surface_material_override/1 = ExtResource("3_rtq4c")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=2109139186]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1764326860]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.028749999, -0.010000005)
 shape = SubResource("BoxShape3D_lwrgf")
 
-[node name="Prop" type="Node" parent="." unique_id=1545621420]
+[node name="Prop" type="Node" parent="." unique_id=1635406755]
 script = ExtResource("4_dv0s4")
 prop_id = &"hammer"
 grab_class = "light"

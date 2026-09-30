@@ -80,7 +80,7 @@ shadow_mesh = SubResource("ArrayMesh_ysem1")
 [sub_resource type="BoxShape3D" id="BoxShape3D_n7avi"]
 size = Vector3(0.38000003, 0.1472243, 0.17)
 
-[node name="dumbbell" type="RigidBody3D" unique_id=267292472]
+[node name="dumbbell" type="RigidBody3D" unique_id=200425696]
 collision_layer = 16
 collision_mask = 31
 mass = 6.0
@@ -95,11 +95,11 @@ mesh = SubResource("ArrayMesh_q1ank")
 surface_material_override/0 = ExtResource("2_e6bv8")
 surface_material_override/1 = ExtResource("3_rimf8")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1659680862]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1637446903]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.089999996, 0)
 shape = SubResource("BoxShape3D_n7avi")
 
-[node name="Prop" type="Node" parent="." unique_id=514287510]
+[node name="Prop" type="Node" parent="." unique_id=1189996579]
 script = ExtResource("4_okywj")
 prop_id = &"dumbbell"
 grab_class = "medium"

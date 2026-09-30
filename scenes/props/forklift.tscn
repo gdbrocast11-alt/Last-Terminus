@@ -233,7 +233,7 @@ shadow_mesh = SubResource("ArrayMesh_xvdi7")
 [sub_resource type="BoxShape3D" id="BoxShape3D_4us4f"]
 size = Vector3(1.2, 3.4499998, 3.25)
 
-[node name="forklift" type="StaticBody3D" unique_id=1881182418]
+[node name="forklift" type="StaticBody3D" unique_id=867747096]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=472158301 instance=ExtResource("1_c7pnw")]
@@ -254,11 +254,11 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.55, 1.85, -0.25)
 [node name="pallet" type="Node3D" parent="Model/forklift" unique_id=1556760112]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.1, -1.4)
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1730710575]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1691243710]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.01999998, 1.7249999, -0.375)
 shape = SubResource("BoxShape3D_4us4f")
 
-[node name="Prop" type="Node" parent="." unique_id=1346612956]
+[node name="Prop" type="Node" parent="." unique_id=1910355920]
 script = ExtResource("9_0n607")
 prop_id = &"forklift"
 inspect_line = &"ch3_insp_forklift"

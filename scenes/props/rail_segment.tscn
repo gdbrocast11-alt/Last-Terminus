@@ -75,7 +75,7 @@ shadow_mesh = SubResource("ArrayMesh_557eb")
 [sub_resource type="BoxShape3D" id="BoxShape3D_0d81v"]
 size = Vector3(2, 0.255, 4)
 
-[node name="rail_segment" type="StaticBody3D" unique_id=1390189752]
+[node name="rail_segment" type="StaticBody3D" unique_id=651826332]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=1956338543 instance=ExtResource("1_q1jeg")]
@@ -85,11 +85,11 @@ mesh = SubResource("ArrayMesh_84g2j")
 surface_material_override/0 = ExtResource("2_07nea")
 surface_material_override/1 = ExtResource("3_qo0q1")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=553805892]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1300114652]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1275, 0)
 shape = SubResource("BoxShape3D_0d81v")
 
-[node name="Prop" type="Node" parent="." unique_id=1975432713]
+[node name="Prop" type="Node" parent="." unique_id=2096634767]
 script = ExtResource("4_ttceo")
 prop_id = &"rail_segment"
 tags = PackedStringArray("rail")

@@ -229,7 +229,7 @@ shadow_mesh = SubResource("ArrayMesh_5hmwx")
 [sub_resource type="BoxShape3D" id="BoxShape3D_vcho3"]
 size = Vector3(0.90999997, 2.3400002, 2.6)
 
-[node name="checkout_lane" type="StaticBody3D" unique_id=1084307752]
+[node name="checkout_lane" type="StaticBody3D" unique_id=16087702]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=1133092206 instance=ExtResource("1_q8d52")]
@@ -244,11 +244,11 @@ surface_material_override/4 = ExtResource("6_kr6mb")
 surface_material_override/5 = ExtResource("7_pbkeg")
 surface_material_override/6 = ExtResource("8_xxrps")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=972188831]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1790675884]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.045000017, 1.1700001, 0)
 shape = SubResource("BoxShape3D_vcho3")
 
-[node name="Prop" type="Node" parent="." unique_id=1284677468]
+[node name="Prop" type="Node" parent="." unique_id=2062758456]
 script = ExtResource("9_sj7ge")
 prop_id = &"checkout_lane"
 tags = PackedStringArray()

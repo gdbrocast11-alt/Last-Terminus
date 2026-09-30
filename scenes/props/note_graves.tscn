@@ -103,7 +103,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_8efmh")
 
-[node name="note_graves" type="Node3D" unique_id=1575316686]
+[node name="note_graves" type="Node3D" unique_id=1984167372]
 
 [node name="Model" parent="." unique_id=412554190 instance=ExtResource("1_30gym")]
 
@@ -113,7 +113,7 @@ surface_material_override/0 = ExtResource("2_fhb3a")
 surface_material_override/1 = ExtResource("3_y2dap")
 surface_material_override/2 = ExtResource("4_0i7a6")
 
-[node name="Prop" type="Node" parent="." unique_id=608516774]
+[node name="Prop" type="Node" parent="." unique_id=1528322408]
 script = ExtResource("5_p8go5")
 prop_id = &"note_graves"
 inspect_line = &"ch8_graves_note"

@@ -317,7 +317,7 @@ shadow_mesh = SubResource("ArrayMesh_8mdij")
 [sub_resource type="BoxShape3D" id="BoxShape3D_xxy2q"]
 size = Vector3(0.7, 1.75, 0.735)
 
-[node name="fridge" type="StaticBody3D" unique_id=1336443103]
+[node name="fridge" type="StaticBody3D" unique_id=844044620]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=2034815090 instance=ExtResource("1_qhay2")]
@@ -335,11 +335,11 @@ surface_material_override/7 = ExtResource("9_qu6rp")
 surface_material_override/8 = ExtResource("10_avdcm")
 surface_material_override/9 = ExtResource("11_wrvtq")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=443276065]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=2090816310]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.875, -0.017499983)
 shape = SubResource("BoxShape3D_xxy2q")
 
-[node name="Prop" type="Node" parent="." unique_id=2111403056]
+[node name="Prop" type="Node" parent="." unique_id=193986666]
 script = ExtResource("12_pd07d")
 prop_id = &"fridge"
 inspect_line = &"ch2_insp_fridge"

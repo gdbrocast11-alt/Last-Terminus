@@ -283,7 +283,7 @@ shadow_mesh = SubResource("ArrayMesh_2tcst")
 [sub_resource type="BoxShape3D" id="BoxShape3D_fdrjg"]
 size = Vector3(0.96500003, 1.85, 0.88)
 
-[node name="vending_machine" type="StaticBody3D" unique_id=473222915]
+[node name="vending_machine" type="StaticBody3D" unique_id=450464131]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=787367367 instance=ExtResource("1_sd3vt")]
@@ -300,11 +300,11 @@ surface_material_override/6 = ExtResource("8_riqx0")
 surface_material_override/7 = ExtResource("9_m3ixg")
 surface_material_override/8 = ExtResource("10_ptsta")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=283489280]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1728057766]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0075000226, 0.925, -0.0150000155)
 shape = SubResource("BoxShape3D_fdrjg")
 
-[node name="Prop" type="Node" parent="." unique_id=1619931557]
+[node name="Prop" type="Node" parent="." unique_id=1149545937]
 script = ExtResource("11_gnt84")
 prop_id = &"vending_machine"
 tags = PackedStringArray("vending")

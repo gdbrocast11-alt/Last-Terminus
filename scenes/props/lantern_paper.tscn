@@ -78,7 +78,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_nfawu")
 
-[node name="lantern_paper" type="Node3D" unique_id=535397533]
+[node name="lantern_paper" type="Node3D" unique_id=988369904]
 
 [node name="Model" parent="." unique_id=696951281 instance=ExtResource("1_2seys")]
 
@@ -87,7 +87,7 @@ mesh = SubResource("ArrayMesh_0eek6")
 surface_material_override/0 = ExtResource("2_hovhg")
 surface_material_override/1 = ExtResource("3_cx6if")
 
-[node name="Prop" type="Node" parent="." unique_id=1867226308]
+[node name="Prop" type="Node" parent="." unique_id=1666339272]
 script = ExtResource("4_o8ron")
 prop_id = &"lantern_paper"
 tags = PackedStringArray()

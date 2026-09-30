@@ -76,7 +76,7 @@ shadow_mesh = SubResource("ArrayMesh_kdsft")
 [sub_resource type="BoxShape3D" id="BoxShape3D_m6sox"]
 size = Vector3(2.6, 3.24, 0.9)
 
-[node name="fan_rack" type="StaticBody3D" unique_id=107349157]
+[node name="fan_rack" type="StaticBody3D" unique_id=1740397312]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=853360077 instance=ExtResource("1_yru2f")]
@@ -86,11 +86,11 @@ mesh = SubResource("ArrayMesh_i3khw")
 surface_material_override/0 = ExtResource("2_20i3d")
 surface_material_override/1 = ExtResource("3_eif4e")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=29538397]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=891715406]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.62, 0)
 shape = SubResource("BoxShape3D_m6sox")
 
-[node name="Prop" type="Node" parent="." unique_id=790549794]
+[node name="Prop" type="Node" parent="." unique_id=114262102]
 script = ExtResource("4_lg15v")
 prop_id = &"fan_rack"
 tags = PackedStringArray("fan", "chain")

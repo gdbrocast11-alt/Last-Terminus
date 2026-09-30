@@ -75,7 +75,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_2ee2f")
 
-[node name="crane_hook" type="Node3D" unique_id=828495220]
+[node name="crane_hook" type="Node3D" unique_id=1608264869]
 
 [node name="Model" parent="." unique_id=204567721 instance=ExtResource("1_kiyn2")]
 
@@ -84,7 +84,7 @@ mesh = SubResource("ArrayMesh_oefve")
 surface_material_override/0 = ExtResource("2_eedxp")
 surface_material_override/1 = ExtResource("3_v4e1f")
 
-[node name="Prop" type="Node" parent="." unique_id=2010598498]
+[node name="Prop" type="Node" parent="." unique_id=229768906]
 script = ExtResource("4_mar44")
 prop_id = &"crane_hook"
 tags = PackedStringArray()

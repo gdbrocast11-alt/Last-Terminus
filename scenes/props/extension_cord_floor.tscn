@@ -43,7 +43,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_gvqlw")
 
-[node name="extension_cord_floor" type="Node3D" unique_id=404538180]
+[node name="extension_cord_floor" type="Node3D" unique_id=363575334]
 
 [node name="Model" parent="." unique_id=249244091 instance=ExtResource("1_hv675")]
 
@@ -51,7 +51,7 @@ shadow_mesh = SubResource("ArrayMesh_gvqlw")
 mesh = SubResource("ArrayMesh_pglsu")
 surface_material_override/0 = ExtResource("2_avj0o")
 
-[node name="Prop" type="Node" parent="." unique_id=1547174119]
+[node name="Prop" type="Node" parent="." unique_id=1558684200]
 script = ExtResource("3_naxcj")
 prop_id = &"extension_cord_floor"
 inspect_line = &"ch3_insp_cord"

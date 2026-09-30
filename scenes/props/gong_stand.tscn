@@ -108,7 +108,7 @@ shadow_mesh = SubResource("ArrayMesh_6nsei")
 [sub_resource type="BoxShape3D" id="BoxShape3D_axx87"]
 size = Vector3(1.5, 2.2, 0.5)
 
-[node name="gong_stand" type="StaticBody3D" unique_id=973223233]
+[node name="gong_stand" type="StaticBody3D" unique_id=531017913]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=1768058435 instance=ExtResource("1_od8wt")]
@@ -119,11 +119,11 @@ surface_material_override/0 = ExtResource("2_yiqgj")
 surface_material_override/1 = ExtResource("3_47hv5")
 surface_material_override/2 = ExtResource("4_d04lm")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=399315181]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1974138316]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1, 0)
 shape = SubResource("BoxShape3D_axx87")
 
-[node name="Prop" type="Node" parent="." unique_id=1612439323]
+[node name="Prop" type="Node" parent="." unique_id=1182786452]
 script = ExtResource("5_qdsqa")
 prop_id = &"gong_stand"
 inspect_line = &"ch4_insp_gong"

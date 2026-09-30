@@ -109,7 +109,7 @@ shadow_mesh = SubResource("ArrayMesh_2aowa")
 [sub_resource type="BoxShape3D" id="BoxShape3D_po21p"]
 size = Vector3(0.17548701, 1.1183167, 0.4319952)
 
-[node name="flamingo" type="RigidBody3D" unique_id=1824854826]
+[node name="flamingo" type="RigidBody3D" unique_id=1353896602]
 collision_layer = 16
 collision_mask = 31
 mass = 1.4
@@ -125,11 +125,11 @@ surface_material_override/0 = ExtResource("2_ey1w3")
 surface_material_override/1 = ExtResource("3_hdlvf")
 surface_material_override/2 = ExtResource("4_r5t16")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1247294911]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1001719112]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.450581e-09, 0.55884165, -0.030402526)
 shape = SubResource("BoxShape3D_po21p")
 
-[node name="Prop" type="Node" parent="." unique_id=2106852231]
+[node name="Prop" type="Node" parent="." unique_id=1132093274]
 script = ExtResource("5_1g0wt")
 prop_id = &"flamingo"
 grab_class = "light"

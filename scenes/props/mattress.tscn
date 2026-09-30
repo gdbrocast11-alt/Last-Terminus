@@ -76,7 +76,7 @@ shadow_mesh = SubResource("ArrayMesh_lic51")
 [sub_resource type="BoxShape3D" id="BoxShape3D_pem8o"]
 size = Vector3(1.4, 0.27, 1.95)
 
-[node name="mattress" type="RigidBody3D" unique_id=1393531206]
+[node name="mattress" type="RigidBody3D" unique_id=707947930]
 collision_layer = 16
 collision_mask = 31
 mass = 25.0
@@ -91,11 +91,11 @@ mesh = SubResource("ArrayMesh_tpjtq")
 surface_material_override/0 = ExtResource("2_qapr7")
 surface_material_override/1 = ExtResource("3_kscdt")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1074498681]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1484120887]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.155, 0)
 shape = SubResource("BoxShape3D_pem8o")
 
-[node name="Prop" type="Node" parent="." unique_id=510426506]
+[node name="Prop" type="Node" parent="." unique_id=384730078]
 script = ExtResource("4_ijdce")
 prop_id = &"mattress"
 grab_class = "heavy"

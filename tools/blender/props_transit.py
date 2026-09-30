@@ -456,7 +456,7 @@ def sign_exit():
 @prop("sign_terminus_hall", cat="signs", body="none", col="none", tags=["hero"])
 def sign_terminus_hall():
     p = Prop("sign_terminus_hall")
-    p.box((7.0, 0.3, 1.5), (0, 0, 0.75), "PaintGreen", bevel=0.04)
+    p.box((7.0, 0.3, 1.5), (0, 0, 0.75), "SignBoardGreen", bevel=0.04)
     text_mesh(p, "TERMINUS STATION", 0.6, (0, 0.16, 0.95), "SignWhite", depth=0.05, rot=(90, 0, 180))
     text_mesh(p, "THE END OF THE LINE", 0.3, (0, 0.16, 0.35), "SignYellow", depth=0.05, rot=(90, 0, 180))
     return p

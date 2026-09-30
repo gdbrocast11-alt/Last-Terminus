@@ -96,9 +96,9 @@ P("wall_calendar", (-2.5, 1.6, 3.95), 180, name="Calendar")
 P("bed", (3.95, 0, -2.6), 90, name="Bed")
 P("helmet", (3.6, 0.63, -2.6), 20, name="BedHelmet", group="aftermath")
 P("nightstand", (4.7, 0, -1.4), 90, name="Nightstand")
-P("table_lamp", (4.72, 0.5, -1.4), 0, name="BedLamp")
+P("table_lamp", (4.72, 0.5, -1.52), 0, name="BedLamp")
 P("laundry_basket", (2.4, 0, -3.5), 0, name="Laundry")
-P("phone", (4.72, 0.5, -1.7), 30, name="Phone", opts={"use_verb": "Check phone"})
+P("phone", (4.72, 0.5, -1.27), 90, name="Phone", opts={"use_verb": "Check phone"})
 # bath
 P("bath_set", (3.4, 0, 3.15), 0, name="BathSet")
 # aftermath obsession decor

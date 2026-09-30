@@ -165,7 +165,7 @@ shadow_mesh = SubResource("ArrayMesh_vu4sh")
 [sub_resource type="BoxShape3D" id="BoxShape3D_ptvj1"]
 size = Vector3(3.1, 2.5, 2.6)
 
-[node name="sauna_cabin" type="StaticBody3D" unique_id=1276811161]
+[node name="sauna_cabin" type="StaticBody3D" unique_id=173961996]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=1117724563 instance=ExtResource("1_qho5t")]
@@ -178,11 +178,11 @@ surface_material_override/2 = ExtResource("4_rc03i")
 surface_material_override/3 = ExtResource("5_rrs46")
 surface_material_override/4 = ExtResource("6_01t71")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=2067393089]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=2102766392]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.25, 0)
 shape = SubResource("BoxShape3D_ptvj1")
 
-[node name="Prop" type="Node" parent="." unique_id=1909128352]
+[node name="Prop" type="Node" parent="." unique_id=936424293]
 script = ExtResource("7_7i2ld")
 prop_id = &"sauna_cabin"
 inspect_line = &"ch4_insp_sauna"

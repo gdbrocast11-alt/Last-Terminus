@@ -75,7 +75,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_g51pu")
 
-[node name="brand_card_sister" type="Node3D" unique_id=1983052351]
+[node name="brand_card_sister" type="Node3D" unique_id=170446816]
 
 [node name="Model" parent="." unique_id=280942719 instance=ExtResource("1_57e5j")]
 
@@ -84,7 +84,7 @@ mesh = SubResource("ArrayMesh_u2kam")
 surface_material_override/0 = ExtResource("2_rygtw")
 surface_material_override/1 = ExtResource("3_x887r")
 
-[node name="Prop" type="Node" parent="." unique_id=487556329]
+[node name="Prop" type="Node" parent="." unique_id=417205800]
 script = ExtResource("4_eoagc")
 prop_id = &"brand_card_sister"
 inspect_line = &"ch8_tiff_card_dead"

@@ -48,7 +48,7 @@ shadow_mesh = SubResource("ArrayMesh_b1ryc")
 height = 0.5
 radius = 0.35
 
-[node name="stump_seat" type="StaticBody3D" unique_id=411997493]
+[node name="stump_seat" type="StaticBody3D" unique_id=762454682]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=1215752656 instance=ExtResource("1_j4h1g")]
@@ -57,11 +57,11 @@ collision_mask = 0
 mesh = SubResource("ArrayMesh_1jcas")
 surface_material_override/0 = ExtResource("2_0tx8k")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1719014445]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=619382870]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
 shape = SubResource("CylinderShape3D_kmen5")
 
-[node name="Prop" type="Node" parent="." unique_id=2030040818]
+[node name="Prop" type="Node" parent="." unique_id=1661633827]
 script = ExtResource("3_kbp0p")
 prop_id = &"stump_seat"
 inspect_line = &"ch6_insp_stump"

@@ -45,7 +45,7 @@ shadow_mesh = SubResource("ArrayMesh_85bu4")
 [sub_resource type="BoxShape3D" id="BoxShape3D_mk8sy"]
 size = Vector3(2.4, 0.05, 0.24)
 
-[node name="scaffold_plank" type="RigidBody3D" unique_id=883547775]
+[node name="scaffold_plank" type="RigidBody3D" unique_id=269647749]
 collision_layer = 16
 collision_mask = 31
 mass = 12.0
@@ -59,11 +59,11 @@ angular_damp = 0.4
 mesh = SubResource("ArrayMesh_enxfj")
 surface_material_override/0 = ExtResource("2_i1jri")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=583091211]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1481216870]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.025, 0)
 shape = SubResource("BoxShape3D_mk8sy")
 
-[node name="Prop" type="Node" parent="." unique_id=1949342945]
+[node name="Prop" type="Node" parent="." unique_id=806047440]
 script = ExtResource("3_y8bef")
 prop_id = &"scaffold_plank"
 grab_class = "medium"

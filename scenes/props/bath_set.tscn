@@ -107,7 +107,7 @@ shadow_mesh = SubResource("ArrayMesh_vu5lf")
 [sub_resource type="BoxShape3D" id="BoxShape3D_wwedi"]
 size = Vector3(2.6, 0.885, 0.75)
 
-[node name="bath_set" type="StaticBody3D" unique_id=649921014]
+[node name="bath_set" type="StaticBody3D" unique_id=362815127]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=1109236162 instance=ExtResource("1_u822d")]
@@ -118,11 +118,11 @@ surface_material_override/0 = ExtResource("2_vuk1n")
 surface_material_override/1 = ExtResource("3_plafc")
 surface_material_override/2 = ExtResource("4_6jkwq")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=822893039]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=715720511]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.100000024, 0.43749997, 0)
 shape = SubResource("BoxShape3D_wwedi")
 
-[node name="Prop" type="Node" parent="." unique_id=1093939741]
+[node name="Prop" type="Node" parent="." unique_id=539558189]
 script = ExtResource("5_5kkdp")
 prop_id = &"bath_set"
 tags = PackedStringArray()

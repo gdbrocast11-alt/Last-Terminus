@@ -106,7 +106,7 @@ shadow_mesh = SubResource("ArrayMesh_40di8")
 [sub_resource type="BoxShape3D" id="BoxShape3D_tk13u"]
 size = Vector3(1.25, 0.7067089, 1.05)
 
-[node name="flamingo_pallet" type="RigidBody3D" unique_id=1703348714]
+[node name="flamingo_pallet" type="RigidBody3D" unique_id=146115458]
 collision_layer = 16
 collision_mask = 31
 mass = 60.0
@@ -122,11 +122,11 @@ surface_material_override/0 = ExtResource("2_c0a4x")
 surface_material_override/1 = ExtResource("3_me0dv")
 surface_material_override/2 = ExtResource("4_v2cxp")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1322681543]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1930005526]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.35335445, 0)
 shape = SubResource("BoxShape3D_tk13u")
 
-[node name="Prop" type="Node" parent="." unique_id=494084784]
+[node name="Prop" type="Node" parent="." unique_id=267388487]
 script = ExtResource("5_ci5jo")
 prop_id = &"flamingo_pallet"
 tags = PackedStringArray("flamingo", "chain")

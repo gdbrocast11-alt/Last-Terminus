@@ -110,7 +110,7 @@ shadow_mesh = SubResource("ArrayMesh_bdsjj")
 [sub_resource type="BoxShape3D" id="BoxShape3D_371de"]
 size = Vector3(1, 0.81854564, 0.5)
 
-[node name="candle_cluster" type="StaticBody3D" unique_id=382687953]
+[node name="candle_cluster" type="StaticBody3D" unique_id=433963073]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=2024423559 instance=ExtResource("1_etn8t")]
@@ -121,11 +121,11 @@ surface_material_override/0 = ExtResource("2_pubmg")
 surface_material_override/1 = ExtResource("3_sgshc")
 surface_material_override/2 = ExtResource("4_3w2op")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1822293153]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=264052532]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.40927282, 0)
 shape = SubResource("BoxShape3D_371de")
 
-[node name="Prop" type="Node" parent="." unique_id=448367546]
+[node name="Prop" type="Node" parent="." unique_id=907512430]
 script = ExtResource("5_fh6nw")
 prop_id = &"candle_cluster"
 inspect_line = &"ch4_insp_candles"

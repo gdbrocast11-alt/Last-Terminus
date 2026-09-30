@@ -73,7 +73,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_escuf")
 
-[node name="mirror_wall" type="Node3D" unique_id=83743318]
+[node name="mirror_wall" type="Node3D" unique_id=1202463314]
 
 [node name="Model" parent="." unique_id=1333111061 instance=ExtResource("1_rfs02")]
 
@@ -82,7 +82,7 @@ mesh = SubResource("ArrayMesh_4rxr6")
 surface_material_override/0 = ExtResource("2_x22tj")
 surface_material_override/1 = ExtResource("3_2lj2w")
 
-[node name="Prop" type="Node" parent="." unique_id=1163614186]
+[node name="Prop" type="Node" parent="." unique_id=1664690945]
 script = ExtResource("4_ty3ve")
 prop_id = &"mirror_wall"
 inspect_line = &"ch4_insp_mirror"

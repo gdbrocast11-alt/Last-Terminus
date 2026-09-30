@@ -78,7 +78,7 @@ shadow_mesh = SubResource("ArrayMesh_re643")
 [sub_resource type="BoxShape3D" id="BoxShape3D_4fudm"]
 size = Vector3(0.35, 1.4000001, 0.35)
 
-[node name="water_cooler" type="StaticBody3D" unique_id=877263901]
+[node name="water_cooler" type="StaticBody3D" unique_id=857116807]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=887551361 instance=ExtResource("1_g2fxw")]
@@ -88,11 +88,11 @@ mesh = SubResource("ArrayMesh_yr6p7")
 surface_material_override/0 = ExtResource("2_8mumm")
 surface_material_override/1 = ExtResource("3_fitp0")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1705266719]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=968215506]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.70000005, 0)
 shape = SubResource("BoxShape3D_4fudm")
 
-[node name="Prop" type="Node" parent="." unique_id=777904948]
+[node name="Prop" type="Node" parent="." unique_id=1735033819]
 script = ExtResource("4_47igq")
 prop_id = &"water_cooler"
 tags = PackedStringArray()

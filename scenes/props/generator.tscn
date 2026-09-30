@@ -78,7 +78,7 @@ shadow_mesh = SubResource("ArrayMesh_xt4it")
 [sub_resource type="BoxShape3D" id="BoxShape3D_t31d3"]
 size = Vector3(1.2, 1.0999999, 0.7)
 
-[node name="generator" type="StaticBody3D" unique_id=803356721]
+[node name="generator" type="StaticBody3D" unique_id=1588687189]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=477252880 instance=ExtResource("1_kbu1x")]
@@ -88,11 +88,11 @@ mesh = SubResource("ArrayMesh_dwqu4")
 surface_material_override/0 = ExtResource("2_73bd8")
 surface_material_override/1 = ExtResource("3_isumb")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1050730085]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=589398914]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.65, 0)
 shape = SubResource("BoxShape3D_t31d3")
 
-[node name="Prop" type="Node" parent="." unique_id=1838597347]
+[node name="Prop" type="Node" parent="." unique_id=1552648689]
 script = ExtResource("4_kyiro")
 prop_id = &"generator"
 tags = PackedStringArray()

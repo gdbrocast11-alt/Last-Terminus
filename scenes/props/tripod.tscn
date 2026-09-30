@@ -109,7 +109,7 @@ shadow_mesh = SubResource("ArrayMesh_b8r6i")
 [sub_resource type="BoxShape3D" id="BoxShape3D_erbvf"]
 size = Vector3(0.54720926, 1.3809671, 0.62747085)
 
-[node name="tripod" type="RigidBody3D" unique_id=441266616]
+[node name="tripod" type="RigidBody3D" unique_id=169270553]
 collision_layer = 16
 collision_mask = 31
 mass = 1.5
@@ -125,11 +125,11 @@ surface_material_override/0 = ExtResource("2_tl10y")
 surface_material_override/1 = ExtResource("3_34dde")
 surface_material_override/2 = ExtResource("4_5qr6l")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1327845875]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1049136290]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.08731355, 0.6870163, 0.0009772182)
 shape = SubResource("BoxShape3D_erbvf")
 
-[node name="Prop" type="Node" parent="." unique_id=472620637]
+[node name="Prop" type="Node" parent="." unique_id=1472695108]
 script = ExtResource("5_bjj6i")
 prop_id = &"tripod"
 grab_class = "light"

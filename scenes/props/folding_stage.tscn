@@ -134,7 +134,7 @@ shadow_mesh = SubResource("ArrayMesh_nxoty")
 [sub_resource type="BoxShape3D" id="BoxShape3D_1kbks"]
 size = Vector3(3.6000001, 0.64000005, 2.435)
 
-[node name="folding_stage" type="StaticBody3D" unique_id=1480201718]
+[node name="folding_stage" type="StaticBody3D" unique_id=2079294099]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=1996874311 instance=ExtResource("1_105al")]
@@ -146,11 +146,11 @@ surface_material_override/1 = ExtResource("3_6htm8")
 surface_material_override/2 = ExtResource("4_i1wwy")
 surface_material_override/3 = ExtResource("5_rlexd")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1289416470]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=48942991]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.32000002, -0.017500043)
 shape = SubResource("BoxShape3D_1kbks")
 
-[node name="Prop" type="Node" parent="." unique_id=1322367602]
+[node name="Prop" type="Node" parent="." unique_id=1615272973]
 script = ExtResource("6_bsibx")
 prop_id = &"folding_stage"
 inspect_line = &"ch4_insp_stage"

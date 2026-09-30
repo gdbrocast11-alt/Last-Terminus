@@ -81,7 +81,7 @@ shadow_mesh = SubResource("ArrayMesh_7sqti")
 height = 1.5799999
 radius = 0.17820507
 
-[node name="mic_stand" type="RigidBody3D" unique_id=267262422]
+[node name="mic_stand" type="RigidBody3D" unique_id=1007324545]
 collision_layer = 16
 collision_mask = 31
 mass = 2.0
@@ -96,11 +96,11 @@ mesh = SubResource("ArrayMesh_4ps1n")
 surface_material_override/0 = ExtResource("2_utrpu")
 surface_material_override/1 = ExtResource("3_nvg6v")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=525907194]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=858864665]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.04772169, 0.78999996, 0)
 shape = SubResource("CylinderShape3D_sdnqc")
 
-[node name="Prop" type="Node" parent="." unique_id=1485505592]
+[node name="Prop" type="Node" parent="." unique_id=1339898083]
 script = ExtResource("4_24112")
 prop_id = &"mic_stand"
 grab_class = "light"

@@ -137,7 +137,7 @@ shadow_mesh = SubResource("ArrayMesh_duxkq")
 [sub_resource type="BoxShape3D" id="BoxShape3D_4e2rq"]
 size = Vector3(0.55, 0.865, 0.325)
 
-[node name="suitcase_green" type="RigidBody3D" unique_id=514839719]
+[node name="suitcase_green" type="RigidBody3D" unique_id=1044642105]
 collision_layer = 16
 collision_mask = 31
 mass = 10.0
@@ -154,11 +154,11 @@ surface_material_override/1 = ExtResource("3_u30mh")
 surface_material_override/2 = ExtResource("4_4k5cx")
 surface_material_override/3 = ExtResource("5_6ms3w")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1850618354]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=938354660]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4325, -0.0024999976)
 shape = SubResource("BoxShape3D_4e2rq")
 
-[node name="Prop" type="Node" parent="." unique_id=1090792737]
+[node name="Prop" type="Node" parent="." unique_id=1172536115]
 script = ExtResource("6_0gw11")
 prop_id = &"suitcase_green"
 grab_class = "medium"

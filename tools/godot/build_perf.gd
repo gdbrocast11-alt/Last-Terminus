@@ -5,6 +5,9 @@ extends Node
 func run(args: Array) -> void:
 	await get_tree().process_frame
 	Director.fade_rect.color.a = 0.0
+	for a in args:
+		if String(a).begins_with("preset="):
+			SettingsManager.set_value("graphics/preset", int(String(a).substr(7)))
 	var lv: Node3D = (load("res://scenes/levels/%s.tscn" % args[0]) as PackedScene).instantiate()
 	Director.world.add_child(lv)
 	SettingsManager.apply_to_scene()
@@ -14,6 +17,8 @@ func run(args: Array) -> void:
 	var rbs := lv.find_children("*", "RigidBody3D", true, false).size()
 	print("PERF %s static: meshes=%d lights=%d collision_objects=%d rigid=%d" % [args[0], meshes, lights, bodies, rbs])
 	for spec in args.slice(1):
+		if String(spec).begins_with("preset="):
+			continue
 		var p := String(spec).split(":")
 		var xf: Transform3D = lv.marker(p[0])
 		var pl := Director.spawn_player(xf)

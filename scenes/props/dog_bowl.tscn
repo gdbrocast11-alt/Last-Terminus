@@ -81,7 +81,7 @@ shadow_mesh = SubResource("ArrayMesh_g84rg")
 height = 0.06
 radius = 0.13
 
-[node name="dog_bowl" type="RigidBody3D" unique_id=1667752803]
+[node name="dog_bowl" type="RigidBody3D" unique_id=964250307]
 collision_layer = 16
 collision_mask = 31
 mass = 0.4
@@ -96,11 +96,11 @@ mesh = SubResource("ArrayMesh_5jkfw")
 surface_material_override/0 = ExtResource("2_5fmj7")
 surface_material_override/1 = ExtResource("3_46q4j")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1904434828]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1765285457]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.03, 0)
 shape = SubResource("CylinderShape3D_paix3")
 
-[node name="Prop" type="Node" parent="." unique_id=1352825268]
+[node name="Prop" type="Node" parent="." unique_id=1966181658]
 script = ExtResource("4_tauso")
 prop_id = &"dog_bowl"
 grab_class = "light"

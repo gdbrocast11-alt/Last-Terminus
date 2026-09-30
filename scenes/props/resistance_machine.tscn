@@ -107,7 +107,7 @@ shadow_mesh = SubResource("ArrayMesh_1iqd7")
 [sub_resource type="BoxShape3D" id="BoxShape3D_rodr2"]
 size = Vector3(0.9, 1.93, 1.3)
 
-[node name="resistance_machine" type="StaticBody3D" unique_id=1907372508]
+[node name="resistance_machine" type="StaticBody3D" unique_id=1644459869]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=893645408 instance=ExtResource("1_q5bp3")]
@@ -118,11 +118,11 @@ surface_material_override/0 = ExtResource("2_vphxv")
 surface_material_override/1 = ExtResource("3_mpxmi")
 surface_material_override/2 = ExtResource("4_1gndi")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1460009403]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=949653206]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.965, 0)
 shape = SubResource("BoxShape3D_rodr2")
 
-[node name="Prop" type="Node" parent="." unique_id=1562698039]
+[node name="Prop" type="Node" parent="." unique_id=952317205]
 script = ExtResource("5_352q5")
 prop_id = &"resistance_machine"
 tags = PackedStringArray("gym")

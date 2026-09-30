@@ -81,7 +81,7 @@ shadow_mesh = SubResource("ArrayMesh_y7aew")
 height = 0.22
 radius = 0.11
 
-[node name="steam_valve" type="StaticBody3D" unique_id=561204334]
+[node name="steam_valve" type="StaticBody3D" unique_id=926077433]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=1765365966 instance=ExtResource("1_wgq7q")]
@@ -91,11 +91,11 @@ mesh = SubResource("ArrayMesh_c0mth")
 surface_material_override/0 = ExtResource("2_kf4qs")
 surface_material_override/1 = ExtResource("3_t7sse")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=67666117]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1822326808]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.03, 0, 0)
 shape = SubResource("CylinderShape3D_4oxyw")
 
-[node name="Prop" type="Node" parent="." unique_id=785460181]
+[node name="Prop" type="Node" parent="." unique_id=45319537]
 script = ExtResource("4_4tc4x")
 prop_id = &"steam_valve"
 inspect_line = &"ch4_insp_steam"

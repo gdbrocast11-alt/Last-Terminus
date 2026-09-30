@@ -105,7 +105,7 @@ shadow_mesh = SubResource("ArrayMesh_5jpa0")
 [sub_resource type="BoxShape3D" id="BoxShape3D_om2eo"]
 size = Vector3(1.6, 0.515, 0.45)
 
-[node name="tv_stand" type="StaticBody3D" unique_id=1166565694]
+[node name="tv_stand" type="StaticBody3D" unique_id=263553069]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=214373779 instance=ExtResource("1_mf7co")]
@@ -116,11 +116,11 @@ surface_material_override/0 = ExtResource("2_mjfh3")
 surface_material_override/1 = ExtResource("3_uxkwx")
 surface_material_override/2 = ExtResource("4_5lpu6")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=636497926]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1286022539]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.2575, -0.015000001)
 shape = SubResource("BoxShape3D_om2eo")
 
-[node name="Prop" type="Node" parent="." unique_id=1072590687]
+[node name="Prop" type="Node" parent="." unique_id=2134388476]
 script = ExtResource("5_5pj0h")
 prop_id = &"tv_stand"
 tags = PackedStringArray()

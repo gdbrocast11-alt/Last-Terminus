@@ -169,7 +169,7 @@ shadow_mesh = SubResource("ArrayMesh_wkf1e")
 [sub_resource type="BoxShape3D" id="BoxShape3D_yf824"]
 size = Vector3(1.6, 2.5146163, 1.0150001)
 
-[node name="corn_dog_cart" type="StaticBody3D" unique_id=2031529294]
+[node name="corn_dog_cart" type="StaticBody3D" unique_id=1901181334]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=409698369 instance=ExtResource("1_7gnmh")]
@@ -182,11 +182,11 @@ surface_material_override/2 = ExtResource("4_dfbpw")
 surface_material_override/3 = ExtResource("5_cl8n2")
 surface_material_override/4 = ExtResource("6_rnvqj")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=732988042]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1153787806]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.272692, 0.04249999)
 shape = SubResource("BoxShape3D_yf824")
 
-[node name="Prop" type="Node" parent="." unique_id=1188966972]
+[node name="Prop" type="Node" parent="." unique_id=1489933546]
 script = ExtResource("7_nv0ud")
 prop_id = &"corn_dog_cart"
 inspect_line = &"ch3_insp_fryer"

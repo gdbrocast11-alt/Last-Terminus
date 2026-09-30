@@ -138,7 +138,7 @@ shadow_mesh = SubResource("ArrayMesh_0r1hy")
 [sub_resource type="BoxShape3D" id="BoxShape3D_kcubh"]
 size = Vector3(1.2, 1.6999999, 0.52)
 
-[node name="nailgun_rack" type="StaticBody3D" unique_id=133957034]
+[node name="nailgun_rack" type="StaticBody3D" unique_id=1761340887]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=154199249 instance=ExtResource("1_1jeyn")]
@@ -150,11 +150,11 @@ surface_material_override/1 = ExtResource("3_ebbho")
 surface_material_override/2 = ExtResource("4_2mmgt")
 surface_material_override/3 = ExtResource("5_ukig4")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1191669811]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1473783647]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.84999996, -0.00999999)
 shape = SubResource("BoxShape3D_kcubh")
 
-[node name="Prop" type="Node" parent="." unique_id=2099063952]
+[node name="Prop" type="Node" parent="." unique_id=963206769]
 script = ExtResource("6_w8kji")
 prop_id = &"nailgun_rack"
 tags = PackedStringArray("nailgun")

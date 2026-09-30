@@ -322,7 +322,7 @@ func _pin_handle() -> void:
 func _sign_near_slip() -> bool:
 	for n in ["PaintWetSign", "GardenWetSign"]:
 		var s := prop(n)
-		if s and s.global_position.distance_to(mkp("BrendaSlip")) < 3.0 and s.global_transform.basis.y.y > 0.7:
+		if s and s.global_position.distance_to(mkp("BrendaSlip")) < 2.2 and s.global_transform.basis.y.y > 0.7:
 			return true
 	return false
 

@@ -112,7 +112,7 @@ shadow_mesh = SubResource("ArrayMesh_crpih")
 [sub_resource type="BoxShape3D" id="BoxShape3D_chqga"]
 size = Vector3(0.26, 0.32, 0.068)
 
-[node name="binder_dale" type="RigidBody3D" unique_id=2006517016]
+[node name="binder_dale" type="RigidBody3D" unique_id=386999088]
 collision_layer = 16
 collision_mask = 31
 mass = 0.6
@@ -128,11 +128,11 @@ surface_material_override/0 = ExtResource("2_dnvrf")
 surface_material_override/1 = ExtResource("3_e4iqj")
 surface_material_override/2 = ExtResource("4_5wcrc")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=110999900]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=2107785374]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.16, -0.003000006)
 shape = SubResource("BoxShape3D_chqga")
 
-[node name="Prop" type="Node" parent="." unique_id=798426623]
+[node name="Prop" type="Node" parent="." unique_id=1662920411]
 script = ExtResource("5_4lkyq")
 prop_id = &"binder_dale"
 grab_class = "light"

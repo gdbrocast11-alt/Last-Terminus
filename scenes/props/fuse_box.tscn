@@ -110,7 +110,7 @@ shadow_mesh = SubResource("ArrayMesh_n57ys")
 [sub_resource type="BoxShape3D" id="BoxShape3D_23bcp"]
 size = Vector3(0.5, 0.90791255, 0.4547703)
 
-[node name="fuse_box" type="StaticBody3D" unique_id=959703767]
+[node name="fuse_box" type="StaticBody3D" unique_id=1707524000]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=2043855625 instance=ExtResource("1_aj8en")]
@@ -121,11 +121,11 @@ surface_material_override/0 = ExtResource("2_qbrh8")
 surface_material_override/1 = ExtResource("3_7fp1u")
 surface_material_override/2 = ExtResource("4_hvmfl")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1860942421]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=2049412913]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.45395628, -0.07738514)
 shape = SubResource("BoxShape3D_23bcp")
 
-[node name="Prop" type="Node" parent="." unique_id=194583203]
+[node name="Prop" type="Node" parent="." unique_id=92416453]
 script = ExtResource("5_v1o0f")
 prop_id = &"fuse_box"
 tags = PackedStringArray("fuse", "yard")

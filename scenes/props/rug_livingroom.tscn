@@ -71,7 +71,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_xeonx")
 
-[node name="rug_livingroom" type="Node3D" unique_id=957712260]
+[node name="rug_livingroom" type="Node3D" unique_id=1676254]
 
 [node name="Model" parent="." unique_id=124794736 instance=ExtResource("1_dmxpn")]
 
@@ -80,7 +80,7 @@ mesh = SubResource("ArrayMesh_jsihw")
 surface_material_override/0 = ExtResource("2_0qxr6")
 surface_material_override/1 = ExtResource("3_5ewra")
 
-[node name="Prop" type="Node" parent="." unique_id=1919871321]
+[node name="Prop" type="Node" parent="." unique_id=1980008622]
 script = ExtResource("4_rsgkf")
 prop_id = &"rug_livingroom"
 tags = PackedStringArray()

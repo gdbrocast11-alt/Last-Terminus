@@ -1112,7 +1112,7 @@
   ],
   "markers": {},
   "mats": [
-   "PaintGreen",
+   "SignBoardGreen",
    "SignWhite",
    "SignYellow"
   ],
@@ -6540,7 +6540,7 @@
   "mats": [
    "Concrete",
    "PaintGrey",
-   "PaintGreen"
+   "SignBoardGreen"
   ],
   "aabb_min": [
    -5.0,

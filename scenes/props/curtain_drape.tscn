@@ -42,7 +42,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_3b5t8")
 
-[node name="curtain_drape" type="Node3D" unique_id=470826662]
+[node name="curtain_drape" type="Node3D" unique_id=11937075]
 
 [node name="Model" parent="." unique_id=709704793 instance=ExtResource("1_0yc2g")]
 
@@ -50,7 +50,7 @@ shadow_mesh = SubResource("ArrayMesh_3b5t8")
 mesh = SubResource("ArrayMesh_ur5jc")
 surface_material_override/0 = ExtResource("2_nd2o8")
 
-[node name="Prop" type="Node" parent="." unique_id=1334945058]
+[node name="Prop" type="Node" parent="." unique_id=102303146]
 script = ExtResource("3_v7o2a")
 prop_id = &"curtain_drape"
 tags = PackedStringArray()

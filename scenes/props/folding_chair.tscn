@@ -75,7 +75,7 @@ shadow_mesh = SubResource("ArrayMesh_kwe48")
 [sub_resource type="BoxShape3D" id="BoxShape3D_0r4g2"]
 size = Vector3(0.42, 0.88153476, 0.46162295)
 
-[node name="folding_chair" type="RigidBody3D" unique_id=2013588265]
+[node name="folding_chair" type="RigidBody3D" unique_id=344704739]
 collision_layer = 16
 collision_mask = 31
 mass = 3.0
@@ -90,11 +90,11 @@ mesh = SubResource("ArrayMesh_f7pu5")
 surface_material_override/0 = ExtResource("2_ier37")
 surface_material_override/1 = ExtResource("3_eieap")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1503069375]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=2048635603]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4397049, 0.0011413991)
 shape = SubResource("BoxShape3D_0r4g2")
 
-[node name="Prop" type="Node" parent="." unique_id=301713204]
+[node name="Prop" type="Node" parent="." unique_id=165577267]
 script = ExtResource("4_5kw0f")
 prop_id = &"folding_chair"
 grab_class = "medium"

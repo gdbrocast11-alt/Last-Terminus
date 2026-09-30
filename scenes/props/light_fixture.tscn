@@ -36,12 +36,12 @@ _surfaces = [{
 "aabb": AABB(-0.575, -0.09, -0.1, 1.15, 0.010000005, 0.2),
 "format": 34896613377,
 "index_count": 36,
-"index_data": PackedByteArray("AAABAAIAAgABAAMAAAAEAAEAAgADAAUAAAACAAUAAQAGAAMAAQAEAAYABQADAAYABAAAAAcAAAAFAAcABAAHAAYABQAGAAcA"),
+"index_data": PackedByteArray("AAABAAIAAwACAAEAAAAEAAEAAwAFAAIABQAAAAIABgAEAAAABQAGAAAABwABAAQABwADAAEABgAHAAQABQADAAcABQAHAAYA"),
 "name": "LightTube",
 "primitive": 3,
 "uv_scale": Vector4(0, 0, 0, 0),
 "vertex_count": 8,
-"vertex_data": PackedByteArray("AAAAAAAAAAD//wAA//8AAP//AAAAAAAA////////AAAAAAAA//8AAP////8AAAAAAAD/////AAAAAP//AAAAAA==")
+"vertex_data": PackedByteArray("/////wAAAAAAAP////8AAAAA//8AAAAAAAAAAP//AAD///////8AAAAAAAAAAAAA//8AAAAAAAD//wAA//8AAA==")
 }]
 blend_shape_mode = 0
 
@@ -61,7 +61,7 @@ _surfaces = [{
 "vertex_data": PackedByteArray("DAIAACQJAAAMAv8f2vYAAAwCAADa9gAADAL/HyQJAAAMAv/fAAAAAAwC/x8AAAAADAL/3yQJAAAMAv//2vYAAAwC//8kCQAADAL/39r2AAAMAv8f//8AAAwC/9///wAADAL/HyQJ/z8AAP8f2vb/PwwC/x/a9v8/AAD/HyQJ/z8MAv8f////P/L9/x////8/8v3/H9r2/z////8f2vb/P////x8kCf8/8v3/HyQJ/z8MAv8fAAD/P/L9/x8AAP8/DAL/H9r2AIAAAP/f2vYAgAwC/9/a9gCAAAD/H9r2AIDy/f//2vYAgAwC///a9gCA8v3/39r2AID////f2vYAgP///x/a9gCA8v3/H9r2AIAMAgAA2vYAgPL9AADa9gCADAL/39r2/78AAP/fJAn/vwwC/98kCf+/AAD/39r2/78MAv/fAAD/v/L9/98AAP+/8v3/3yQJ/7/////fJAn/v////9/a9v+/8v3/39r2/78MAv/f////v/L9/9////+/DAL/3yQJAAAAAP8fJAkAAAwC/x8kCQAAAAD/3yQJAADy/QAAJAkAAAwCAAAkCQAA8v3/HyQJAAD////fJAkAAP///x8kCQAA8v3/3yQJAAAMAv//JAkAAPL9//8kCQAA8v3/3yQJ/7/y/f8fAAD/v/L9/x8kCf+/8v3/3wAA/7/y/QAA2vb/v/L9AAAkCf+/8v3/H9r2/7/y/f/f////v/L9/x////+/8v3/39r2/7/y/f//JAn/v/L9///a9v+/DAIAACQJ/z/y/QAA2vb/P/L9AAAkCf8/DAIAANr2/z8AAP8f2vYAAAAA/98kCQAAAAD/39r2AAAAAP8fJAkAAPL9/x///wCADAL/3///AIDy/f/f//8AgAwC/x///wCA8v3//yQJ/78MAv//2vb/vwwC//8kCf+/8v3//9r2/78MAv8fAAAAAPL9/98AAAAADAL/3wAAAADy/f8fAAAAAP///x8kCf+/////39r2/7/////fJAn/v////x/a9v+//z//f/8//3//P/9//z//f/8//3//P/9//z//f/8//3//P/9//z//f/8//3//P/9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9//3////9/////f////3////9/////f////3////9/////f////3////9/////f///////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9//38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAAAAD/fwAA/38AAP9/AAD/f/8//3//P/9//z//f/8//3//f////3////9/////f///////f////3////9/////f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA")
 }, {
 "aabb": AABB(-0.575, -0.09, -0.1, 1.15, 0.010000005, 0.2),
-"attribute_data": PackedByteArray("AAC56P///////7noAAD//0KW1f68aav9Qpar/bxp1f4AANX+//+r/QAAq/3//9X+vGnV/kKWq/28aav9QpbV/v//uegAAP//AAC56P///////9X+AACr/f//q/0AANX+"),
+"attribute_data": PackedByteArray("//+56AAA//8AALno////////1f4AAKv9//+r/QAA1f5CltX+vGmr/UKWq/28adX+AADV/v//q/0AAKv9///V/rxp1f5Clqv9vGmr/UKW1f4AALno////////uegAAP//"),
 "format": 34896613399,
 "index_count": 36,
 "index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA"),
@@ -70,21 +70,21 @@ _surfaces = [{
 "primitive": 3,
 "uv_scale": Vector4(1.15, 2.2, 0, 0),
 "vertex_count": 24,
-"vertex_data": PackedByteArray("AAAAAAAA/z///wAA////P///AAAAAP8/AAAAAP///z///wAAAAD/v/////////+//////wAA/7///wAA////vwAAAAAAAAAA/////wAAAAAAAP//AAAAAP//AAAAAAAAAAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAD/////AAD/vwAA//////+/AAD//wAA/7//////////v///AAD//wCAAAD/////AID///////8AgAAAAAD//wCAAAD/fwAA/38AAP9/AAD/f/9/AAD/fwAA/38AAP9/AAD///9/////f////3////9//z//f/8//3//P/9//z//f////3////9/////f////3//f////3////9/////f///")
+"vertex_data": PackedByteArray("/////wAA/78AAP//////vwAA//8AAP+//////////7///wAA//8AgAAA/////wCA////////AIAAAAAA//8AgP//AAAAAP+//////////7//////AAD/v///AAD///+/AAAAAAAAAAD/////AAAAAAAA//8AAAAA//8AAAAAAAAAAAAA//8AAAAA//8AAAAAAAD/////AAAAAAAAAAAAAAAAAAAAAP8///8AAP///z///wAAAAD/PwAAAAD///8/////f////3////9/////f/9/////f////3////9/////fwAA/38AAP9/AAD/fwAA////f////3////9/////f/8//3//P/9//z//f/8//38AAP9/AAD/fwAA/38AAP9/")
 }]
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_abt1s")
 
-[node name="light_fixture" type="Node3D" unique_id=304639880]
+[node name="light_fixture" type="Node3D" unique_id=1360321060]
 
-[node name="Model" parent="." unique_id=26591039 instance=ExtResource("1_13x31")]
+[node name="Model" parent="." unique_id=27570426 instance=ExtResource("1_13x31")]
 
-[node name="light_fixture" type="MeshInstance3D" parent="Model" unique_id=1125320882]
+[node name="light_fixture" type="MeshInstance3D" parent="Model" unique_id=128118661]
 mesh = SubResource("ArrayMesh_gjjaq")
 surface_material_override/0 = ExtResource("2_dlh44")
 surface_material_override/1 = ExtResource("3_a3gmx")
 
-[node name="Prop" type="Node" parent="." unique_id=1257745890]
+[node name="Prop" type="Node" parent="." unique_id=683038795]
 script = ExtResource("4_q0vy1")
 prop_id = &"light_fixture"
 tags = PackedStringArray()

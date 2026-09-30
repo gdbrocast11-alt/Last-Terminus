@@ -78,7 +78,7 @@ shadow_mesh = SubResource("ArrayMesh_67r13")
 [sub_resource type="BoxShape3D" id="BoxShape3D_f84nv"]
 size = Vector3(0.064, 0.016, 0.39500004)
 
-[node name="wrench" type="RigidBody3D" unique_id=242897169]
+[node name="wrench" type="RigidBody3D" unique_id=551691597]
 collision_layer = 16
 collision_mask = 31
 mass = 0.8
@@ -93,11 +93,11 @@ mesh = SubResource("ArrayMesh_wc5ay")
 surface_material_override/0 = ExtResource("2_y1lwo")
 surface_material_override/1 = ExtResource("3_22onb")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=986120797]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=715406769]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.008, -0.027499989)
 shape = SubResource("BoxShape3D_f84nv")
 
-[node name="Prop" type="Node" parent="." unique_id=181484028]
+[node name="Prop" type="Node" parent="." unique_id=792846224]
 script = ExtResource("4_d7k8r")
 prop_id = &"wrench"
 grab_class = "light"

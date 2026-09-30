@@ -112,7 +112,7 @@ shadow_mesh = SubResource("ArrayMesh_axvai")
 height = 1.74
 radius = 0.16
 
-[node name="floor_lamp" type="RigidBody3D" unique_id=675860705]
+[node name="floor_lamp" type="RigidBody3D" unique_id=1714345664]
 collision_layer = 16
 collision_mask = 31
 mass = 4.0
@@ -128,11 +128,11 @@ surface_material_override/0 = ExtResource("2_r0vd1")
 surface_material_override/1 = ExtResource("3_elfnh")
 surface_material_override/2 = ExtResource("4_axmfd")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1072635093]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1483003776]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.87, 0)
 shape = SubResource("CylinderShape3D_06ewk")
 
-[node name="Prop" type="Node" parent="." unique_id=701972379]
+[node name="Prop" type="Node" parent="." unique_id=42378246]
 script = ExtResource("5_sgvn5")
 prop_id = &"floor_lamp"
 grab_class = "medium"

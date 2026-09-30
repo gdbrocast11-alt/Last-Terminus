@@ -75,7 +75,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_fxuh1")
 
-[node name="gus_flyer" type="Node3D" unique_id=1595292716]
+[node name="gus_flyer" type="Node3D" unique_id=1171538398]
 
 [node name="Model" parent="." unique_id=693230629 instance=ExtResource("1_cocar")]
 
@@ -84,7 +84,7 @@ mesh = SubResource("ArrayMesh_k6o8r")
 surface_material_override/0 = ExtResource("2_gbldx")
 surface_material_override/1 = ExtResource("3_0a0p4")
 
-[node name="Prop" type="Node" parent="." unique_id=1067226992]
+[node name="Prop" type="Node" parent="." unique_id=483923130]
 script = ExtResource("4_2g8gw")
 prop_id = &"gus_flyer"
 inspect_line = &"ch8_gus_flyer"

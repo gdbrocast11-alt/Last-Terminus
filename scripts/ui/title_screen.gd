@@ -127,6 +127,7 @@ func _build_ui() -> void:
 	var box := VBoxContainer.new()
 	box.position = Vector2(90, 90)
 	box.custom_minimum_size = Vector2(620, 0)
+	box.add_theme_constant_override("separation", -34)
 	root.add_child(box)
 	var bar := ColorRect.new()
 	bar.color = UITheme.YELLOW

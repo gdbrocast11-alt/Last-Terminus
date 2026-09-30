@@ -47,7 +47,7 @@ shadow_mesh = SubResource("ArrayMesh_heolu")
 [sub_resource type="BoxShape3D" id="BoxShape3D_c68t4"]
 size = Vector3(0.29510567, 0.2800001, 2.4)
 
-[node name="pipe_bundle" type="RigidBody3D" unique_id=11032788]
+[node name="pipe_bundle" type="RigidBody3D" unique_id=890850913]
 collision_layer = 16
 collision_mask = 31
 mass = 25.0
@@ -61,11 +61,11 @@ angular_damp = 0.4
 mesh = SubResource("ArrayMesh_nm20j")
 surface_material_override/0 = ExtResource("2_p8l3w")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1007618228]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=278187065]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.14999999, 0)
 shape = SubResource("BoxShape3D_c68t4")
 
-[node name="Prop" type="Node" parent="." unique_id=1689439913]
+[node name="Prop" type="Node" parent="." unique_id=971915802]
 script = ExtResource("3_v7egr")
 prop_id = &"pipe_bundle"
 grab_class = "heavy"

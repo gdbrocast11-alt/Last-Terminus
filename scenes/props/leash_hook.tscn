@@ -73,7 +73,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_kl10e")
 
-[node name="leash_hook" type="Node3D" unique_id=1903188927]
+[node name="leash_hook" type="Node3D" unique_id=1310293801]
 
 [node name="Model" parent="." unique_id=312661571 instance=ExtResource("1_lyo26")]
 
@@ -82,7 +82,7 @@ mesh = SubResource("ArrayMesh_jxyde")
 surface_material_override/0 = ExtResource("2_2tijh")
 surface_material_override/1 = ExtResource("3_k7ymw")
 
-[node name="Prop" type="Node" parent="." unique_id=1974806087]
+[node name="Prop" type="Node" parent="." unique_id=739337958]
 script = ExtResource("4_gviaj")
 prop_id = &"leash_hook"
 tags = PackedStringArray("ending")

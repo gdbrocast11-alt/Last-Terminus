@@ -77,7 +77,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_6croo")
 
-[node name="wrecking_ball" type="Node3D" unique_id=223726379]
+[node name="wrecking_ball" type="Node3D" unique_id=2080325152]
 
 [node name="Model" parent="." unique_id=1440434468 instance=ExtResource("1_a8ine")]
 
@@ -86,7 +86,7 @@ mesh = SubResource("ArrayMesh_5n82t")
 surface_material_override/0 = ExtResource("2_fm180")
 surface_material_override/1 = ExtResource("3_tn06k")
 
-[node name="Prop" type="Node" parent="." unique_id=465402753]
+[node name="Prop" type="Node" parent="." unique_id=272997065]
 script = ExtResource("4_6wsjp")
 prop_id = &"wrecking_ball"
 inspect_line = &"ch6_insp_ball"

@@ -49,7 +49,7 @@ shadow_mesh = SubResource("ArrayMesh_sbjik")
 [sub_resource type="BoxShape3D" id="BoxShape3D_4hnc7"]
 size = Vector3(3.0592504, 0.51150006, 0.20000029)
 
-[node name="sign_letter_word" type="RigidBody3D" unique_id=1008350039]
+[node name="sign_letter_word" type="RigidBody3D" unique_id=2004725426]
 collision_layer = 16
 collision_mask = 31
 mass = 6.0
@@ -63,11 +63,11 @@ angular_damp = 0.4
 mesh = SubResource("ArrayMesh_e0h37")
 surface_material_override/0 = ExtResource("2_yea2q")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1140802949]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=601983857]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.010875106, 0.030750021, -7.450581e-09)
 shape = SubResource("BoxShape3D_4hnc7")
 
-[node name="Prop" type="Node" parent="." unique_id=1528956932]
+[node name="Prop" type="Node" parent="." unique_id=1089498699]
 script = ExtResource("3_vtyo2")
 prop_id = &"sign_letter_word"
 tags = PackedStringArray("letters")

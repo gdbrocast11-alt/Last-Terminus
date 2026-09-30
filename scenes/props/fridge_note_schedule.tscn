@@ -74,7 +74,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_76h07")
 
-[node name="fridge_note_schedule" type="Node3D" unique_id=1068585359]
+[node name="fridge_note_schedule" type="Node3D" unique_id=1922819633]
 
 [node name="Model" parent="." unique_id=1788975304 instance=ExtResource("1_1mq0y")]
 
@@ -83,7 +83,7 @@ mesh = SubResource("ArrayMesh_0tfaa")
 surface_material_override/0 = ExtResource("2_3aoyr")
 surface_material_override/1 = ExtResource("3_6sow6")
 
-[node name="Prop" type="Node" parent="." unique_id=902073950]
+[node name="Prop" type="Node" parent="." unique_id=1190528278]
 script = ExtResource("4_sae4h")
 prop_id = &"fridge_note_schedule"
 inspect_line = &"ch8_insp_fridge"

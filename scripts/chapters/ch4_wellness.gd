@@ -525,6 +525,6 @@ func _qa_hooks() -> void:
 	qa_add("greet", func() -> bool: return not greeted and not Director.input_locked and tiff.global_position.distance_to(player.global_position) > 6.0, func() -> void: player.global_position = tiff.global_position + Vector3(0, 0.1, 3.0))
 	qa_add("gus", func() -> bool: return greeted and not gus_met and not busy_talk and not Director.input_locked, func() -> void: _run_talk(gus, _talk_gus))
 	qa_add("skip_clock", func() -> bool: return gus_met and not keynote_started and _clock > 60.0 and not Director.input_locked, func() -> void: _clock = KEYNOTE_AT)
-	qa_add("winch", func() -> bool: return keynote_started and chain != null and chain.running, func() -> void:
+	qa_add("winch", func() -> bool: return keynote_started and chain != null and chain.running and not GameState.has_flag(&"qa_nointervene"), func() -> void:
 			_use_winch()
 			_pull_key())

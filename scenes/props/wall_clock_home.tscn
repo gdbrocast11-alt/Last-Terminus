@@ -77,7 +77,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_c750t")
 
-[node name="wall_clock_home" type="Node3D" unique_id=1384520254]
+[node name="wall_clock_home" type="Node3D" unique_id=1225568613]
 
 [node name="Model" parent="." unique_id=351159645 instance=ExtResource("1_dkeiu")]
 
@@ -86,7 +86,7 @@ mesh = SubResource("ArrayMesh_k6dfj")
 surface_material_override/0 = ExtResource("2_unf10")
 surface_material_override/1 = ExtResource("3_t642r")
 
-[node name="Prop" type="Node" parent="." unique_id=247584779]
+[node name="Prop" type="Node" parent="." unique_id=733939649]
 script = ExtResource("4_nikab")
 prop_id = &"wall_clock_home"
 tags = PackedStringArray()

@@ -107,7 +107,7 @@ shadow_mesh = SubResource("ArrayMesh_f1kvc")
 [sub_resource type="BoxShape3D" id="BoxShape3D_ghq1l"]
 size = Vector3(1.9, 1.3100002, 1.3799999)
 
-[node name="dumpster" type="StaticBody3D" unique_id=381658407]
+[node name="dumpster" type="StaticBody3D" unique_id=455861195]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=618761710 instance=ExtResource("1_62tnt")]
@@ -118,11 +118,11 @@ surface_material_override/0 = ExtResource("2_5ce7a")
 surface_material_override/1 = ExtResource("3_n5xy1")
 surface_material_override/2 = ExtResource("4_slajm")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1829474580]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1493003249]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6950001, -0.04000002)
 shape = SubResource("BoxShape3D_ghq1l")
 
-[node name="Prop" type="Node" parent="." unique_id=724631020]
+[node name="Prop" type="Node" parent="." unique_id=1236152301]
 script = ExtResource("5_jg3sq")
 prop_id = &"dumpster"
 tags = PackedStringArray()

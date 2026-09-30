@@ -76,7 +76,7 @@ shadow_mesh = SubResource("ArrayMesh_vbgjo")
 [sub_resource type="BoxShape3D" id="BoxShape3D_tuj22"]
 size = Vector3(0.55, 3.4, 0.04)
 
-[node name="ladder_maint" type="RigidBody3D" unique_id=1502607751]
+[node name="ladder_maint" type="RigidBody3D" unique_id=1062229045]
 collision_layer = 16
 collision_mask = 31
 mass = 9.0
@@ -91,11 +91,11 @@ mesh = SubResource("ArrayMesh_j1p6u")
 surface_material_override/0 = ExtResource("2_owo3o")
 surface_material_override/1 = ExtResource("3_vfrah")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=657565683]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1195993399]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7, 0)
 shape = SubResource("BoxShape3D_tuj22")
 
-[node name="Prop" type="Node" parent="." unique_id=1549114264]
+[node name="Prop" type="Node" parent="." unique_id=583804919]
 script = ExtResource("4_4dlvj")
 prop_id = &"ladder_maint"
 grab_class = "medium"

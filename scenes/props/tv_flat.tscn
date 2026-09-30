@@ -78,7 +78,7 @@ shadow_mesh = SubResource("ArrayMesh_h3qp8")
 [sub_resource type="BoxShape3D" id="BoxShape3D_7y0t5"]
 size = Vector3(1.25, 0.76, 0.2)
 
-[node name="tv_flat" type="StaticBody3D" unique_id=872565571]
+[node name="tv_flat" type="StaticBody3D" unique_id=577323951]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=578012897 instance=ExtResource("1_vybjj")]
@@ -88,11 +88,11 @@ mesh = SubResource("ArrayMesh_jvd2x")
 surface_material_override/0 = ExtResource("2_tdr40")
 surface_material_override/1 = ExtResource("3_b4sb4")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1512306193]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=511431996]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.74, 0)
 shape = SubResource("BoxShape3D_7y0t5")
 
-[node name="Prop" type="Node" parent="." unique_id=977139941]
+[node name="Prop" type="Node" parent="." unique_id=1576888379]
 script = ExtResource("4_3ha3d")
 prop_id = &"tv_flat"
 inspect_line = &"ch2_insp_tv"

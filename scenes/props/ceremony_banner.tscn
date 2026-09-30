@@ -107,7 +107,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_hncyx")
 
-[node name="ceremony_banner" type="Node3D" unique_id=487484259]
+[node name="ceremony_banner" type="Node3D" unique_id=1033738895]
 
 [node name="Model" parent="." unique_id=439846147 instance=ExtResource("1_g07al")]
 
@@ -117,7 +117,7 @@ surface_material_override/0 = ExtResource("2_f2jvp")
 surface_material_override/1 = ExtResource("3_bw6jb")
 surface_material_override/2 = ExtResource("4_yph6g")
 
-[node name="Prop" type="Node" parent="." unique_id=428954783]
+[node name="Prop" type="Node" parent="." unique_id=58848908]
 script = ExtResource("5_8lsmx")
 prop_id = &"ceremony_banner"
 tags = PackedStringArray()

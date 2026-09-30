@@ -78,7 +78,7 @@ shadow_mesh = SubResource("ArrayMesh_x3d6y")
 [sub_resource type="BoxShape3D" id="BoxShape3D_lynoe"]
 size = Vector3(4.069282, 2.2, 0.08)
 
-[node name="chain_fence" type="StaticBody3D" unique_id=474512375]
+[node name="chain_fence" type="StaticBody3D" unique_id=167957355]
 collision_mask = 0
 
 [node name="Model" parent="." unique_id=1427531043 instance=ExtResource("1_xvgq8")]
@@ -88,11 +88,11 @@ mesh = SubResource("ArrayMesh_7l5uj")
 surface_material_override/0 = ExtResource("2_g10jp")
 surface_material_override/1 = ExtResource("3_vo61n")
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=241633554]
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=836099004]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1, 0)
 shape = SubResource("BoxShape3D_lynoe")
 
-[node name="Prop" type="Node" parent="." unique_id=1572497368]
+[node name="Prop" type="Node" parent="." unique_id=223463034]
 script = ExtResource("4_gp6hx")
 prop_id = &"chain_fence"
 tags = PackedStringArray()
