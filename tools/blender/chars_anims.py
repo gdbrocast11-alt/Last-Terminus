@@ -13,8 +13,13 @@ C = math.cos
 TAU = 2 * math.pi
 
 
+REST_ABDUCTION = 22.0      # the rig rests in a slight A-pose; relaxed arms need this much adduction
+
+
 def arm(side, fwd=0.0, out=0.0, elbow=0.0, twist=0.0, roll=0.0, hand=None, curl=0.0, thumb=0.0):
     s = 1 if side == "R" else -1
+    k = max(0.0, 1.0 - max(0.0, out - 6.0) / 70.0)
+    out = out - REST_ABDUCTION * k
     d = {
         f"UpperArm.{side}": (fwd, -s * out, twist),
         f"LowerArm.{side}": (elbow, 0, roll * s),

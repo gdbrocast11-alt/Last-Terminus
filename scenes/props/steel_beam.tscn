@@ -1,12 +1,52 @@
-[gd_scene format=3]
+[gd_scene format=4]
 
-[ext_resource type="PackedScene" path="res://props/steel_beam.glb" id="1_ba10c"]
-[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_wmke7"]
+[ext_resource type="PackedScene" path="res://props/steel_beam.glb" id="1_wmke7"]
+[ext_resource type="Material" path="res://materials/Rust.tres" id="2_7rx3v"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="3_aeco1"]
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_7rx3v"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ulalk"]
+resource_name = "Rust"
+cull_mode = 2
+albedo_color = Color(0.735357, 0.5370987, 0.4100209, 1)
+metallic = 0.4
+roughness = 0.85
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_xjttj"]
+_surfaces = [{
+"aabb": AABB(-0.175, 0, -2.5, 0.35, 0.44, 5),
+"format": 34896613377,
+"index_count": 108,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAACAAEAAwAEAAEABQAAAAIAAwAAAAUABAAGAAIABQACAAYAAwAHAAQAAwAFAAcABwAGAAQABwAFAAYACAAJAAoACAALAAkADAAKAAkACwAMAAkADQAIAAoACwAIAA0ADAAOAAoADQAKAA4ACwAPAAwACwANAA8ADwAOAAwADwANAA4AEAARABIAEAATABEAFAASABEAEwAUABEAFQAQABIAEwAQABUAFAAWABIAFQASABYAEwAXABQAEwAVABcAFwAWABQAFwAVABYA"),
+"name": "Rust",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAOgiAAAAAAAA6CL//wAAAAAAAAAAAAD//+giAAAAAP//AAD//wAA///oIv//AAD//wAAAAAAAAAAFt3//wAAAAD//wAAAAAAAP////8AAAAAFt0AAAAA/////wAAAAD//xbd//8AAP///////wAA//8W3QAAAAAOanQR//8AAA5qiu4AAAAADmqK7v//AAAOanQRAAAAAPCViu4AAAAA8JV0Ef//AADwlYru//8AAPCVdBEAAAAA")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_642h8"]
+resource_name = "steel_beam_steel_beam"
+_surfaces = [{
+"aabb": AABB(-0.175, 0, -2.5, 0.35, 0.44, 5),
+"attribute_data": PackedByteArray("AACRpP//X6IAAF+i//+RpAl3kaT1iF+iCXdfovWIkaT//5GkAABfov//X6IAAJGk9YiRpAl3X6L1iF+iCXeRpAl3JEn1iP//9YgkSQl3///1iCRJCXf//wl3JEn1iP//AACslv//epQAAHqU//+slgl3rJb1iHqUCXd6lPWIrJb//6yWAAB6lP//epQAAKyW9Yislgl3epT1iHqUCXeslgl3JEn1iP//9YgkSQl3///1iCRJCXf//wl3JEn1iP//AAB4o///k5UAAJOV//94o3Z+eKOIgZOVdn6TlYiBeKP//3ijAACTlf//k5UAAHijiIF4o3Z+k5WIgZOVdn54o3Z+JEmIgf//iIEkSXZ+//+IgSRJdn7//3Z+JEmIgf//"),
+"format": 34896613399,
+"index_count": 108,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUAGAAZABoAGAAbABkAHAAdAB4AHAAfAB0AIAAhACIAIAAjACEAJAAlACYAJAAnACUAKAApACoAKAArACkALAAtAC4ALAAvAC0AMAAxADIAMAAzADEANAA1ADYANAA3ADUAOAA5ADoAOAA7ADkAPAA9AD4APAA/AD0AQABBAEIAQABDAEEARABFAEYARABHAEUA"),
+"material": SubResource("StandardMaterial3D_ulalk"),
+"name": "Rust",
+"primitive": 3,
+"uv_scale": Vector4(5, 7, 0, 0),
+"vertex_count": 72,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAOgiAAAAAAAA6CL//wAAAAAAAAAAAAAAAAAAAAAAAP//6CIAAAAAAADoIgAAAAD//wAAAAAAAP//AAAAAP+////oIv///7///+giAAD/v///AAD///+///8AAP//AIAAAOgi//8AgP//6CL//wCAAAAAAP//AIAAAAAAAAD/P///AAD///8///8AAAAA/z8AAAAA////P///6CIAAP+/AADoIv///78AAOgiAAD/v///6CL///+/AAAW3f//AAAAAP//AAAAAAAA/////wAAAAAW3QAAAAAAABbdAAAAAP////8AAAAAAAD//wAAAAD//xbdAAAAAP//Ft0AAP+//////////7//////AAD/v///Ft3///+///8W3f//AIAAAP////8AgP///////wCAAAAW3f//AIAAABbdAAD/P///Ft3///8///8W3QAA/z8AABbd////P/////8AAP+/AAD//////78AAP//AAD/v/////////+/Dmp0Ef//AAAOaoruAAAAAA5qiu7//wAADmp0EQAAAAAOanQRAAAAAPCViu4AAAAADmqK7gAAAADwlXQRAAAAAPCVdBEAAP+/8JWK7v///7/wlYruAAD/v/CVdBH///+/8JV0Ef//AIAOaoru//8AgPCViu7//wCADmp0Ef//AIAOanQRAAD/P/CVdBH///8/8JV0EQAA/z8OanQR////P/CViu4AAP+/DmqK7v///78OaoruAAD/v/CViu7///+//z//f/8//3//P/9//z//f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA/3////9/////f////3///wAA/38AAP9/AAD/fwAA/3////9/////f////3////9//z//f/8//3//P/9//z//f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA/3////9/////f////3///wAA/38AAP9/AAD/fwAA/3////9/////f////3////9//z//f/8//3//P/9//z//f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA/3////9/////f////3///wAA/38AAP9/AAD/fwAA/3////9/////f////3////9/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_xjttj")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_rc2e0"]
 size = Vector3(0.35, 0.44, 5)
 
-[node name="steel_beam" type="RigidBody3D" unique_id=430372563]
+[node name="steel_beam" type="RigidBody3D" unique_id=935738770]
 collision_layer = 16
 collision_mask = 31
 mass = 800.0
@@ -14,14 +54,20 @@ sleeping = true
 linear_damp = 0.15
 angular_damp = 0.4
 
-[node name="Model" type="Node3D" parent="." unique_id=1239144028 instance=ExtResource("1_ba10c")]
+[node name="Model" parent="." unique_id=1239144028 instance=ExtResource("1_wmke7")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=832267801]
+[node name="steel_beam" type="MeshInstance3D" parent="Model" unique_id=958376097]
+mesh = SubResource("ArrayMesh_642h8")
+surface_material_override/0 = ExtResource("2_7rx3v")
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=994674517]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.22, 0)
-shape = SubResource("BoxShape3D_7rx3v")
+shape = SubResource("BoxShape3D_rc2e0")
 
-[node name="Prop" type="Node" parent="." unique_id=1322662575]
-script = ExtResource("2_wmke7")
+[node name="Prop" type="Node" parent="." unique_id=175117329]
+script = ExtResource("3_aeco1")
 prop_id = &"steel_beam"
 hazard = 2
 tags = PackedStringArray("beam", "yard")
+
+[editable path="Model"]

@@ -6,7 +6,7 @@
 
 [resource]
 resource_name = "Denim"
-albedo_color = Color(0.15, 0.22, 0.38, 1)
+albedo_color = Color(0.42358288, 0.50638646, 0.64995646, 1)
 albedo_texture = ExtResource("1_61beo")
 metallic_texture = ExtResource("2_qbigj")
 metallic_texture_channel = 2

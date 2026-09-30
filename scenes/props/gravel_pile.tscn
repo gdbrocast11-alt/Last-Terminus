@@ -1,21 +1,68 @@
-[gd_scene format=3]
+[gd_scene format=4]
 
-[ext_resource type="PackedScene" path="res://props/gravel_pile.glb" id="1_olqwg"]
-[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_ducm7"]
+[ext_resource type="PackedScene" path="res://props/gravel_pile.glb" id="1_ducm7"]
+[ext_resource type="Material" path="res://materials/Gravel.tres" id="2_82l6t"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="3_cr0wy"]
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_82l6t"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bwbtw"]
+resource_name = "Gravel"
+cull_mode = 2
+albedo_color = Color(0.88082504, 0.86504203, 0.8433892, 1)
+roughness = 0.95
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_w42ld"]
+_surfaces = [{
+"aabb": AABB(-2.1448414, 0, -2.2, 4.289683, 1.6, 4.4),
+"format": 34896613377,
+"index_count": 156,
+"index_data": PackedByteArray("AAAPABAAAAAIAA8AEQAQAA8ACAARAA8ACQAAABAACQAIAAAACQAQABIABgAJABIAEAATABIABgASABMAEQATABAACwAJAAYACwAGABMACQAUAAgACwAUAAkACAAKABEACAAUAAoACgAFABEACgAUAAUAFQARAAUAFQATABEAFAAVAAUACwATAAIADQALAAIAEwAWAAIADQACABYAEwAXABYAEwAVABcADgANABYADgALAA0ADgAWABgAFgAXABgAAwAOABgAAwAYABcAGQAOAAMAGQALAA4AGQADABcAFAALABkAGQAXAAEAFAAEABUABwAZAAEAFAAZAAwADAAZAAcAFAAMAAQABAAaABUABAAMABoAFwAVABsAFwAbAAEAGwAVABoABwABABsADAAbABoADAAHABsA"),
+"lods": [1.0773649, PackedByteArray("AAAFAAIAAAAIAAUACQAIAAAACQAAAAIACAAKAAUACQAKAAgACgAEAAUABgAJAAIACwAJAAYACwAKAAkACwAGAAIACgAMAAQABAABAAUABAAMAAEAAgAFAAEACgAHAAwACgALAAcADAAHAAEAAwACAAEABwADAAEADQALAAIABwAOAAMABwALAA4ADgALAA0AAwAOAAIADgANAAIA"), 1.6160475, PackedByteArray("AAAFAAIAAAAEAAUABgAAAAIABAABAAUAAgAFAAEAAwAGAAIAAwACAAEAAAAGAAcABwAGAAMAAAAHAAQABwADAAEABAAHAAEA"), 2.424071, PackedByteArray("AAABAAIAAwACAAEAAwAAAAIAAAAEAAEABAADAAEAAAADAAQA")],
+"name": "Gravel",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 28,
+"vertex_data": PackedByteArray("/38AAAAAAAD/f///uYgAAEV3//8OfgAACEcAAFLzAAD//wAAepwAALmI//8OfgAAWhkAADEwAAD2uAAAUvMAAPa4AACtDAAACEcAAK0MAACk5gAAMTAAAAAAAACEYwAApOYAAM3PAAAAAAAAepwAAFoZAADNzwAA4YP//yJ4AAD/f///RXcAAP+G//+OegAAHXz//yJ4AAD/eP//jnoAAP//AACEYwAAuYj///CBAABFd///8IEAAB18///chwAA/3j//3CFAAD/fwAA//8AAP+G//9whQAA4YP//9yHAAA=")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_2fovh"]
+resource_name = "gravel_pile_gravel_pile"
+_surfaces = [{
+"aabb": AABB(-2.1448414, 0, -2.2, 4.289683, 1.6, 4.4),
+"attribute_data": PackedByteArray("/3/nef9/hcFFd+67///eywhHW/n/f+d5CEdb+f//3su5iO67Whklk/a4W/lFd+67uYjuu/9/hcH2uFv5Whklk/a4ioCk5iWTCEeKgKTmwOYAAAeuWhnA5gAA3ssIR4qA9riKgKTmJZOk5sDmAAAHrloZwOYAAN7L4YPUuP9/YLj/hhm6HXzUuP94Gbr//weuuYj3vf+GzL9Fd/e94YMRwf94zL8dfBHB/3////+GGbr/f2C44YPUuP94GbodfNS4uYj3vUV3970dfBHB/3jMv+GDEcH/hsy///8Hrv9///8="),
+"format": 34896613399,
+"index_count": 156,
+"index_data": PackedByteArray("AAAeAB8AAAAQAB4AEgAAAB8AEAAgAB4AEgAfACEAEAARACAACQASACEAEQAIACAACQAhACIAEQAjAAgAFAAJACIAIwAkAAgAFAAiAAIAIwADACQAFgAUAAIAAwAlACQAFgACACYAAwATACUAFQAWACYAEwAnACUAFQAmACgAEwAKACcABAAVACgACgABACcABAAoACkACgAqAAEAKgAEACkAKgApAAEAKwAsAC0AKwAuACwALAAuAC8AMAAuACsAMAArAAwALgAxAAsALgAyADEALgAwADIAMQAyADMAMgAwADQANAAwADUAMgA0AA0AFwAYAAUAFwA2ABgAGAA2ABkAGwA2ABcAGwAXAA8ANgAaAAcANgA3ABoANgAbADcAGgA3AA4ANwAbABwAHAAbAB0ANwAcAAYA"),
+"lods": [1.0773649, PackedByteArray("AAAIAAIAAAAQAAgAEAARAAgAEgAAAAIAEQADAAgACQASAAIAAwABAAgAAwATAAEAEwAKAAEACgAEAAEABAACAAEAFAAJAAIABAAVAAIAFgAUAAIAFQAWAAIACwAMAA0AFwAYAAUAFwAZABgAGQAaAAcAGQAOABoAGwAZABcAGQAbAA4AGwAXAA8ADgAbABwAHAAbAB0ADgAcAAYA"), 1.6160475, PackedByteArray("AAAIAAIAAAADAAgACQAAAAIAAwABAAgABAAJAAIABAACAAEAAwAKAAEACgAEAAEACwAMAA0ABQAOAAcABQAPAA4ADgAPAAYA"), 2.424071, PackedByteArray("AAABAAIAAAADAAEABAAAAAIAAwAEAAEABAACAAEABQAGAAcA")],
+"material": SubResource("StandardMaterial3D_bwbtw"),
+"name": "Gravel",
+"primitive": 3,
+"uv_scale": Vector4(2.1448414, 4.2, 0, 0),
+"vertex_count": 56,
+"vertex_data": PackedByteArray("/38AAAAAANv/f///uYj+pEV3//8Ofj7J//8AAHqcJb8IRwAAUvP+qf9/AAAAAP8/CEcAAFLz/z///wAAepz/P7mI//8Ofj7JWhkAADEwD9L2uAAAUvP+qUV3//8Ofv+/uYj//w5+/7//f///uYj/v/a4AABS8/8/WhkAADEw/z/2uAAArQyH2KTmAAAxMA/SCEcAAK0Mh9ik5gAAzc9PtAAAAACEYz7JWhkAAM3PT7QAAAAAepwlvwhHAACtDP8/9rgAAK0M/z+k5gAAMTD/P6TmAADNz/8/AAAAAIRj/z9aGQAAzc//PwAAAAB6nP8/4YP//yJ4h9j/f///RXcA2/+G//+Oeg/SHXz//yJ4h9j/eP//jnoP0v//AACEYz7JuYj///CBJb//hv//cIVPtEV3///wgSW/4YP//9yH/qn/eP//cIVPtB18///ch/6p/38AAP///qT/hv//jnr/v/9///9Fd/+/4YP//yJ4/7//eP//jnr/vx18//8ieP+/uYj///CB/79Fd///8IH/vx18///ch/+//3j//3CF/7/hg///3If/v/+G//9whf+///8AAIRj/z//fwAA////P////3////9/ieWEsTzK9mZ78fmoAAD/fwAA/38AAP9/es6JZZLn0KgE13xx/v//f/7//3////9/AAD/fwAA/3875ltvLdeSZ1vvwpk2y81qieWEsczqyLT25sK1AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fzvmXG/+//9/LdeSZ1vvwpmS59Coes6JZTzK9mY2y81q9ubCtQTXfHHM6si0e/H5qP///3/+//9/////f/7//3/+//9//v//f////3/+//9/////f/7//3////9//v//fwAA/38AAP9/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_w42ld")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_kegev"]
 size = Vector3(4.289683, 1.6, 4.4)
 
-[node name="gravel_pile" type="StaticBody3D" unique_id=661121645]
+[node name="gravel_pile" type="StaticBody3D" unique_id=679608723]
 collision_mask = 0
 
-[node name="Model" type="Node3D" parent="." unique_id=1467103137 instance=ExtResource("1_olqwg")]
+[node name="Model" parent="." unique_id=1467103137 instance=ExtResource("1_ducm7")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1689660735]
+[node name="gravel_pile" type="MeshInstance3D" parent="Model" unique_id=403410405]
+mesh = SubResource("ArrayMesh_2fovh")
+surface_material_override/0 = ExtResource("2_82l6t")
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1143182379]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8, 0)
-shape = SubResource("BoxShape3D_82l6t")
+shape = SubResource("BoxShape3D_kegev")
 
-[node name="Prop" type="Node" parent="." unique_id=2140978548]
-script = ExtResource("2_ducm7")
+[node name="Prop" type="Node" parent="." unique_id=63380593]
+script = ExtResource("3_cr0wy")
 prop_id = &"gravel_pile"
 tags = PackedStringArray()
+
+[editable path="Model"]

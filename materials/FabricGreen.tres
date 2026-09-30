@@ -6,7 +6,7 @@
 
 [resource]
 resource_name = "FabricGreen"
-albedo_color = Color(0.2, 0.42, 0.28, 1)
+albedo_color = Color(0.48452926, 0.6799757, 0.5657284, 1)
 albedo_texture = ExtResource("1_aqead")
 metallic_texture = ExtResource("2_ytufc")
 metallic_texture_channel = 2

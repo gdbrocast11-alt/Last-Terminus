@@ -20,6 +20,8 @@ signal finished(result: Dictionary)
 
 enum S { IDLE, RUNNING, DONE, BLOCKED }
 
+static var trace := false                ## QA: print blocks / fires
+
 var chain_id: StringName = &"chain"
 var level: LevelRoot
 var steps: Dictionary = {}
@@ -39,6 +41,10 @@ var music_group: StringName = &""
 var dialogue_on_reroute := true
 var _cache: Dictionary = {}
 var _finished_emitted := false
+var vision := false                      ## premonition playback: no deaths, no persistent state changes
+var speed := 1.0                         ## time scale for steps and tweens (vision playback runs faster)
+var _snap: Dictionary = {}               ## node path -> Transform3D captured by snapshot()
+var _snap_vis: Dictionary = {}
 
 
 func setup(lv: LevelRoot, id: StringName, step_list: Array, opts := {}) -> void:
@@ -46,6 +52,8 @@ func setup(lv: LevelRoot, id: StringName, step_list: Array, opts := {}) -> void:
 	chain_id = id
 	max_time = opts.get("max_time", 240.0)
 	dialogue_on_reroute = opts.get("reroute_dialogue", true)
+	vision = opts.get("vision", false)
+	speed = opts.get("speed", 1.0)
 	for s: Dictionary in step_list:
 		var sid := StringName(s.id)
 		steps[sid] = s
@@ -97,7 +105,7 @@ func _is_entry(s: Dictionary) -> bool:
 func _process(delta: float) -> void:
 	if not running or get_tree().paused:
 		return
-	t += delta
+	t += delta * speed
 	var any_active := false
 	for sid in order:
 		var st: int = status[sid]
@@ -113,7 +121,7 @@ func _process(delta: float) -> void:
 			S.RUNNING:
 				any_active = true
 				if s.get("live", true) and not s.get("blockers", []).is_empty():
-					var why := _check_blockers(s)
+					var why := _check_blockers(s, true)
 					if why != "":
 						_block(sid, s, why, true)
 						continue
@@ -157,10 +165,12 @@ func _fire(sid: StringName, s: Dictionary) -> void:
 		_block(sid, s, why, false)
 		return
 	status[sid] = S.RUNNING
+	if trace:
+		print("CHAIN ", chain_id, " fire ", sid, " t=", snappedf(t, 0.1))
 	_end_time[sid] = t + float(s.get("dur", 0.5))
 	step_fired.emit(sid)
 	Events.chain_step_fired.emit(chain_id, sid)
-	_run_actions(sid, s.get("do", []))
+	_run_actions(sid, s.get("do", []), true)
 	if s.has("say"):
 		DialogueManager.say(StringName(s.say), 1)
 	# music intensity follows the number of steps fired
@@ -179,6 +189,8 @@ func _block(sid: StringName, s: Dictionary, reason: String, mid_motion: bool) ->
 	if mid_motion:
 		_kill_tweens(sid)
 	status[sid] = S.BLOCKED
+	if trace:
+		print("CHAIN ", chain_id, " BLOCK ", sid, " reason=", reason, " t=", snappedf(t, 0.1))
 	result.blocked.append(String(sid))
 	step_blocked.emit(sid, reason)
 	Events.chain_step_blocked.emit(chain_id, sid)
@@ -230,8 +242,13 @@ func force_finish() -> void:
 
 
 # ------------------------------------------------------------------ blockers
-func _check_blockers(s: Dictionary) -> String:
+func _check_blockers(s: Dictionary, live_only := false) -> String:
+	if vision:
+		return ""       # a premonition always shows the whole disaster
 	for b: Dictionary in s.get("blockers", []):
+		# displacement checks are only meaningful before the step itself starts moving things
+		if live_only and b.k in ["moved", "far", "gone", "actor_away"]:
+			continue
 		var r := _blocker_hit(b)
 		if r != "":
 			return r
@@ -351,22 +368,36 @@ func _kill_tweens(sid: StringName) -> void:
 
 func _add_tween(sid: StringName) -> Tween:
 	var tw := create_tween()
+	tw.set_speed_scale(speed)
 	if not _tweens.has(sid):
 		_tweens[sid] = []
 	_tweens[sid].append(tw)
 	return tw
 
 
-func _run_actions(sid: StringName, acts: Array) -> void:
+func _run_actions(sid: StringName, acts: Array, guard := false) -> void:
 	for a: Dictionary in acts:
 		if a.has("at_t"):
-			get_tree().create_timer(float(a.at_t), false).timeout.connect(func() -> void: _do(sid, a))
+			var cb := _do_guarded.bind(sid, a, guard)
+			get_tree().create_timer(float(a.at_t) / maxf(speed, 0.01), false).timeout.connect(cb)
 		else:
 			_do(sid, a)
 
 
+func _do_guarded(sid: StringName, a: Dictionary, guard: bool) -> void:
+	if guard and status.get(sid, S.IDLE) == S.BLOCKED:
+		return          # the step was blocked before this delayed action came due
+	if not running and not _finished_emitted:
+		return
+	_do(sid, a)
+
+
 func _do(sid: StringName, a: Dictionary) -> void:
 	if not is_inside_tree():
+		return
+	if vision and a.a in ["lethal", "kill", "flag", "say", "seq", "swap", "free", "npc", "title", "pickles", "slowmo", "music", "debris"]:
+		if a.a == "kill":
+			Events.flash_requested.emit(Color(1, 1, 1), 0.35)
 		return
 	match a.a:
 		"move": _act_move(sid, a)
@@ -411,6 +442,9 @@ func _act_move(sid: StringName, a: Dictionary) -> void:
 	if n == null:
 		return
 	var pc := n.get_node_or_null("Prop") as PropComponent
+	if n is NavActor:
+		(n as NavActor).stop_moving()
+		(n as NavActor).scripted = true
 	if pc:
 		if pc.is_held() and a.get("steal", true):
 			if Director.player and Director.player.interact.held == n:
@@ -441,6 +475,8 @@ func _act_move(sid: StringName, a: Dictionary) -> void:
 	if a.get("release", true):
 		tw.tween_callback(func() -> void:
 			if is_instance_valid(n):
+				if n is NavActor:
+					(n as NavActor).scripted = false
 				var pc2 := n.get_node_or_null("Prop") as PropComponent
 				if pc2:
 					pc2.set_scripted(false)
@@ -542,7 +578,7 @@ func _act_loop(sid: StringName, a: Dictionary) -> void:
 	if p:
 		_loops[key] = p
 	if a.has("stop_after"):
-		get_tree().create_timer(float(a.stop_after), false).timeout.connect(func() -> void: _stop_loop(key))
+		get_tree().create_timer(float(a.stop_after), false).timeout.connect(_stop_loop.bind(key))
 
 
 func _stop_loop(key: String) -> void:
@@ -558,6 +594,8 @@ func _act_fx(a: Dictionary) -> void:
 		return
 	var pos: Vector3 = p
 	var kind := StringName(a.kind)
+	if vision and (kind == &"decal" or kind == &"blood"):
+		return
 	if kind == &"decal":
 		FX.decal(StringName(a.get("what", "puddle")), pos, a.get("normal", Vector3.UP), float(a.get("size", 1.5)), a.get("color", Color(0.3, 0.5, 0.7, 0.7)))
 	elif kind == &"blood":
@@ -566,10 +604,19 @@ func _act_fx(a: Dictionary) -> void:
 		var n := _node3d(a.at) if a.has("at") else null
 		if n:
 			var em := FX.emitter(kind, n, a.get("offset", Vector3.ZERO), float(a.get("scale", 1.0)))
-			get_tree().create_timer(float(a.dur), false).timeout.connect(func() -> void:
-				if is_instance_valid(em):
-					em.emitting = false
-					get_tree().create_timer(3.0, false).timeout.connect(em.queue_free))
+			var tm := Timer.new()
+			tm.one_shot = true
+			tm.wait_time = float(a.dur)
+			em.add_child(tm)
+			tm.timeout.connect(func() -> void:
+				em.emitting = false
+				var tm2 := Timer.new()
+				tm2.one_shot = true
+				tm2.wait_time = 3.0
+				em.add_child(tm2)
+				tm2.timeout.connect(em.queue_free)
+				tm2.start())
+			tm.start()
 			return
 	FX.burst(kind, pos + a.get("offset", Vector3.ZERO), float(a.get("scale", 1.0)), a.get("dir", Vector3.UP))
 
@@ -608,7 +655,7 @@ func _act_cam(a: Dictionary) -> void:
 	if a.has("muffle"):
 		AudioManager.set_muffled(float(a.muffle), 0.1)
 		if a.has("muffle_end"):
-			get_tree().create_timer(float(a.muffle_end), false).timeout.connect(func() -> void: AudioManager.set_muffled(0.0, 1.0))
+			get_tree().create_timer(float(a.muffle_end), false).timeout.connect(AudioManager.set_muffled.bind(0.0, 1.0))
 
 
 func _act_slowmo(a: Dictionary) -> void:
@@ -757,6 +804,34 @@ func _act_pickles(a: Dictionary) -> void:
 			pk.end_scripted()
 		"tele":
 			pk.teleport(_xf(a.to).origin)
+
+
+## Remember where the given props are so a premonition can be rewound afterwards.
+func snapshot(names: Array) -> void:
+	_snap.clear()
+	_snap_vis.clear()
+	for n in names:
+		var nd := _node3d(n)
+		if nd:
+			_snap[String(n)] = nd.global_transform
+			_snap_vis[String(n)] = nd.visible
+
+
+func restore() -> void:
+	for k in _snap.keys():
+		var nd := _node3d(k)
+		if nd == null:
+			continue
+		nd.global_transform = _snap[k]
+		nd.visible = _snap_vis.get(k, true)
+		var pc := nd.get_node_or_null("Prop") as PropComponent
+		if pc:
+			pc.set_scripted(false)
+			pc.reset_home()
+		if nd is RigidBody3D:
+			(nd as RigidBody3D).linear_velocity = Vector3.ZERO
+			(nd as RigidBody3D).angular_velocity = Vector3.ZERO
+			(nd as RigidBody3D).sleeping = true
 
 
 func debug_lines() -> PackedStringArray:

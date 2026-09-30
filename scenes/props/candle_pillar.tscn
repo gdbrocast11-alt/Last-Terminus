@@ -1,13 +1,88 @@
-[gd_scene format=3]
+[gd_scene format=4]
 
-[ext_resource type="PackedScene" path="res://props/candle_pillar.glb" id="1_lh7bg"]
-[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_in20h"]
+[ext_resource type="PackedScene" path="res://props/candle_pillar.glb" id="1_7sgmt"]
+[ext_resource type="Material" path="res://materials/Candle.tres" id="2_6kgov"]
+[ext_resource type="Material" path="res://materials/Fire.tres" id="3_syjom"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="4_cie1w"]
 
-[sub_resource type="CylinderShape3D" id="CylinderShape3D_7sgmt"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_683iy"]
+resource_name = "Candle"
+cull_mode = 2
+albedo_color = Color(0.97769153, 0.9546871, 0.8962439, 1)
+roughness = 0.4
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_54pvq"]
+resource_name = "Fire"
+cull_mode = 2
+albedo_color = Color(1, 0.735357, 0.3491902, 1)
+roughness = 0.5
+emission_enabled = true
+emission = Color(1, 0.735357, 0.3491902, 1)
+emission_energy_multiplier = 5.0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_mymib"]
+_surfaces = [{
+"aabb": AABB(-0.038042262, 0, -0.04, 0.076084524, 0.16, 0.08),
+"format": 34896613377,
+"index_count": 108,
+"index_data": PackedByteArray("CwABAAwACwAAAAEADQAMAAEAAAANAAEABAALAAwABAAAAAsABAAMAAIACQAEAAIADAAOAAIACQACAA4ADQAOAAwADwAEAAkADwAJAA4ABAAQAAAAEAAEAA8AAAAIAA0AAAAQAAgACAARAA0ACAAQABEABQANABEADgANAAUAEAAFABEADwAOAAoAEAAGAAUABwAPAAoAEAAPABIAEgAPAAcAEAASAAYABgATAAUABgASABMADgAFAAMADgADAAoAAwAFABMABwAKAAMAEgADABMAEgAHAAMA"),
+"lods": [0.025714768, PackedByteArray("AAABAAIAAAAIAAEABAAAAAIAAAAGAAgABAAGAAAACAAGAAUACAAFAAEABgAEAAkACQAEAAIAAQAKAAIACQACAAoACgABAAUABgAJAAcABwAJAAoABgAHAAUABwAKAAMACgAFAAMABwADAAUA"), 0.043002654, PackedByteArray("AAABAAIAAQADAAIABAAAAAIABAACAAMAAAAFAAEAAwABAAUABAAGAAAAAAAGAAUABwAEAAMABgAEAAcABwADAAUABgAHAAUA")],
+"name": "Candle",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 20,
+"vertex_data": PackedByteArray("Gs8AAHIYAAAaz///chgAAOQw//9yGAAA5DD//4znAADkMAAAchgAABrP//+M5wAAGs8AAIznAADkMAAAjOcAAP//AABxWAAAAAAAAHFYAAAAAP//jacAAP9/AAAAAAAA/3///wAAAAD/////cVgAAAAA//9xWAAAAAAAAI2nAAD//wAAjacAAP////+NpwAA/38AAP//AAD/f/////8AAA==")
+}, {
+"aabb": AABB(-0.010392307, 0.15840001, -0.012, 0.020784613, 0.043199986, 0.024),
+"format": 34896613377,
+"index_count": 108,
+"index_data": PackedByteArray("CAAEAAAAAAAEAAsACAAMAAQABAAMAA0ABAANAAsACAACAAwADAAOAA0ADAACAA4ACwANAAoADQAOAAYADQAGAAoAAgAPAA4ACAABAAIAAgABAA8ACAAQAAEACAAAABAADgADAAYADgAPAAMABgADABEACgAGABEADwAJAAMAAwAJABEAAQASAA8ADwASAAkAAQAQABIABwAKABEACwAKAAcACQAFABEAEgAFAAkABQAHABEAEAATABIAEgATAAUAEwAHAAUAEwALAAcAEAAAABMAAAALABMA"),
+"lods": [0.010674862, PackedByteArray("CAAEAAAAAAAEAAcACAACAAQACAAAAAEACAABAAIAAQAAAAkABAACAAoABAAKAAcAAgABAAMAAQAJAAMACgACAAYAAgADAAYABwAKAAUAAAAHAAUACgAGAAUAAAAFAAkABgADAAUAAwAJAAUA"), 0.016012294, PackedByteArray("AAABAAIAAgABAAMAAQAAAAMAAAACAAQAAAAFAAMAAgADAAYABgADAAUABAACAAYAAAAHAAUAAAAEAAcABwAGAAUABAAGAAcA")],
+"name": "Fire",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 20,
+"vertex_data": PackedByteArray("fSV9JUCtAACB2n0lQK0AAIHafSW+UgAAgdqB2kCtAAB9JX0lvlIAAH0lgdpArQAAgdqB2r5SAAB9JYHavlIAAP9/AAD/fwAA/3+B2oHaAAD/f4HafSUAAAAA/3//PwAA/399JX0lAAD/f/9/AAAAAP///3//PwAA////f/+/AAD/f30lgdoAAP9/////fwAA/3//f///AAAAAP9//78AAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_fo88t"]
+resource_name = "candle_pillar_candle_pillar"
+_surfaces = [{
+"aabb": AABB(-0.038042262, 0, -0.04, 0.076084524, 0.16, 0.08),
+"attribute_data": PackedByteArray("Gs8S+xrPYefkMGHn5DAS++HsEvsdE2Hn4exh5x0TEvsazxL75DAS+xrPYefkMGHnHRMS++HsEvsdE2Hn4exh5xrPF/fkMA7/5DAX9xrPDv/kMBf3Gs8O/xrPF/fkMA7/lqkS+2hWYeeWqRL7AACY/P//jfkAAI35/38S+/9/YeeWqWHnaFZh52hWEvv/f2Hn/38S+2hWEvuWqWHn//+N+f9/JvYAAI35//+Y/P9/////fyb2//+Y/AAAmPz/f///"),
+"format": 34896613399,
+"index_count": 108,
+"index_data": PackedByteArray("HgABAB8AHgAAAAEAAwAeAB8AAwAfAAIABAAgAAYABAAYACAAGAAhACAAGAAiACEAIgAFACEAIgAHAAUACAAjAAoACAAkACMAJAALACMAJAAJAAsADAAZAA4ADAAlABkAJQAmABkAJQAaACYAGgAPACYAGgANAA8AJwAoABAAJwApACgAKAApABIAKQAnABMAEwAnACoAKQATABEAEQATACsAKQARABsAFAAWACwAFAAtABYAFgAtABwALQAUAC4ALgAUAB0ALQAuAC8ALwAuABcALQAvABUA"),
+"lods": [0.025714768, PackedByteArray("AAABAAIAAwAAAAIABAAYAAYAGAAFAAYAGAAHAAUACAAJAAoACQALAAoADAAZAA4ADAAaABkAGgAPABkAGgANAA8AEAAbABIAGwAQABMAGwATABEAFgAVABwAFAAVABYAFQAUAB0AFQAdABcA"), 0.043002654, PackedByteArray("AAABAAIAAwAAAAIABAAFAAYABAAHAAUACAAJAAoACQALAAoADAANAA4ADQAPAA4AEAARABIAEQAQABMAFAAVABYAFQAUABcA")],
+"material": SubResource("StandardMaterial3D_683iy"),
+"name": "Candle",
+"primitive": 3,
+"uv_scale": Vector4(0.076084524, 2.08, 0, 0),
+"vertex_count": 48,
+"vertex_data": PackedByteArray("Gs8AAHIYAAAaz///chgAAOQw//9yGAAA5DAAAHIYAAAazwAAchhl5hrP//+M55mZGs///3IYZeYazwAAjOeZmRrPAACM55mZ5DAAAIznmZkaz///jOeZmeQw//+M55mZ5DAAAIznAADkMAAAchgAAOQw//+M5wAA5DD//3IYAAAaz///chj/v+Qw//+M5/+/5DD//3IY/78az///jOf/v+QwAAByGP8/Gs8AAIzn/z8azwAAchj/P+QwAACM5/8///8AAHFYy8wAAP//jacAAAAAAABxWAAAAAD//42n/7///wAAcVj/PwAAAABxWP8//38AAAAAAAD/f///AAAAAP////9xWMvM/////42nMrP//wAAjacys/9//////wCA/38AAP//AIAAAAAAjacAAAAA//9xWAAA/////3FY/7//f///AAD/vwAA//9xWP+//////42n/7//f///////v/9/AAAAAP8///8AAI2n/z8AAAAAjaf/P/9/AAD///8/muD/f5rg/3///2Of//9jn/9/AAD/fwAA/38AAP9/AAD/fwAA/3////9/AAD/f///m2D/f///Y5+bYP9///9jn/7//3/+//9//v//f/7//38AAP9/AAD/fwAA/38AAP9//38AACJK/3///9y1/v//fwAA/38AAP9/////f////3//fwAA/38AAP9/AAD/f////3///yJK/3///9y1/v//f////3/+//9//v//f////38AAP9/AAD/fwAA/38AAP9/")
+}, {
+"aabb": AABB(-0.010392307, 0.15840001, -0.012, 0.020784613, 0.043199986, 0.024),
+"attribute_data": PackedByteArray("fSV1/4Hadf+B2mH+fSVh/n0lA+p9JSLmgdoi5oHaA+pAtAPqvksD6r5LIuZAtCLmgdph/oHadf99JXX/fSVh/r5LA+pAtCLmvksi5kC0A+p9JQPqgdoi5n0lIuaB2gPq/3/r/v9/Iub/f////3/X/f9/Iub/f9f9/3////7/Euj/fxLoAAAS6P9/A+r/f+v+GTYS6OXJEuj/fxLo/v8S6AAAEuj/fwPqGTYS6OXJEug="),
+"format": 34896613399,
+"index_count": 108,
+"index_data": PackedByteArray("GAADAAAAGAAdAAMAGAAAAB4AGAACAB0AGAAeAAEAGAABAAIAHwAZAAYAHwAgABkAIAAFABkABwAgAB8AIAAhAAUABwAiACAAIgAhACAAIgAEACEADgAPACMADwAbACMAGgAOACMAGwAMACMADQAaACMADAANACMACAAkACUACAAJACQAJQAkAAoAJQAKAAsAJgAVABwAJgAnABUAKAAmABwAKAAcABYAFAAmACgAFAApACYAKQAnACYAKQAXACcAKgARABIAKgArABEAEAArACoAEAATACsA"),
+"lods": [0.010674862, PackedByteArray("GAADAAAAGAACAAMAGAAAAAEAGAABAAIABAAFABkABwAEABkABwAZAAYACAAJAAoACAAKAAsADAANAA4ADQAaAA4AGwAMAA4ADwAbAA4AHAAXABUAFAAXABwAFAAcABYAEAARABIAEAATABEA"), 0.016012294, PackedByteArray("AAABAAIAAAACAAMABAAFAAYABwAEAAYACAAJAAoACAAKAAsADAANAA4ADwAMAA4AEAARABIAEAATABEAFAAVABYAFAAXABUA")],
+"material": SubResource("StandardMaterial3D_54pvq"),
+"name": "Fire",
+"primitive": 3,
+"uv_scale": Vector4(0.020784615, 2.0169706, 0, 0),
+"vertex_count": 44,
+"vertex_data": PackedByteArray("fSV9JUCtKkmB2n0lQK0qSYHafSW+UmIlfSV9Jb5SYiV9JX0lQK3GrX0lgdpArcatgdqB2kCtxq2B2n0lQK3GrYHafSW+UmvUgdp9JUCtE7OB2oHaQK0Ts4Hagdq+UmvUgdqB2r5SnNqB2oHaQK3Utn0lgdpArdS2fSWB2r5SnNp9JX0lQK09FH0lgdq+UqcMfSWB2kCtPRR9JX0lvlKnDH0lfSW+Uv4XgdqB2r5S/hd9JYHavlL+F4HafSW+Uv4X/38AAP9//z//f4Hagdphlf9/gdqB2mGV/3+B2n0lnOr/f4HafSViFf9/fSV9JWIV/399JYHanWr///9//7+pqv9//3///wCAAAD/f/+/qar/f30lgdphlf9/////f/+/////f/+/qar///9//z9U1f9//38AAAAA////f/8/AAAAAP9//z8AAP9/fSV9JWIVAAD/f/+/AAAAAP9//z8AAKRKo6OjI1o1kB1qR5Q4kJ1uTFLOrLFtzJCzrDFSTpEzAGZaKj5qUzhTuMEVWqr+GWrHbmJatVtcW9ykym7ilLi/U5Fy5es5QpDyPyzFPeVr6yzpfhPTFYHp/hNTFQHrrAAA/3/+//9//v//f/7//3////9/AAD/fwAA/3//fwAA/3////9///8AAP9//v//f/9/AAD/fwAA////fyXR/3///9muAAD/fyVR/3///9mu")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_mymib")
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_1iqbp"]
 height = 0.2016
 radius = 0.04
 
-[node name="candle_pillar" type="RigidBody3D" unique_id=788922625]
+[node name="candle_pillar" type="RigidBody3D" unique_id=722247492]
 collision_layer = 16
 collision_mask = 31
 mass = 0.4
@@ -15,15 +90,22 @@ sleeping = true
 linear_damp = 0.15
 angular_damp = 0.4
 
-[node name="Model" type="Node3D" parent="." unique_id=181982493 instance=ExtResource("1_lh7bg")]
+[node name="Model" parent="." unique_id=181982493 instance=ExtResource("1_7sgmt")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=522872675]
+[node name="candle_pillar" type="MeshInstance3D" parent="Model" unique_id=1922582407]
+mesh = SubResource("ArrayMesh_fo88t")
+surface_material_override/0 = ExtResource("2_6kgov")
+surface_material_override/1 = ExtResource("3_syjom")
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=37653049]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1008, 0)
-shape = SubResource("CylinderShape3D_7sgmt")
+shape = SubResource("CylinderShape3D_1iqbp")
 
-[node name="Prop" type="Node" parent="." unique_id=1871107074]
-script = ExtResource("2_in20h")
+[node name="Prop" type="Node" parent="." unique_id=2047038310]
+script = ExtResource("4_cie1w")
 prop_id = &"candle_pillar"
 grab_class = "light"
 hazard = 1
 tags = PackedStringArray("candle")
+
+[editable path="Model"]

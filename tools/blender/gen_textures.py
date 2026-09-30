@@ -76,9 +76,22 @@ def normal_from_height(h, strength=2.0):
     return np.stack([nx / ln, ny / ln, nz / ln], -1) * 0.5 + 0.5
 
 
+# how much of each texture's own contrast survives (big flat surfaces read calmer at low contrast)
+CONTRAST = {"terrazzo": 0.4, "wall_paint": 0.45, "ceiling_tile": 0.5, "concrete_rough": 0.55, "concrete_smooth": 0.55, "carpet": 0.5, "asphalt": 0.55,
+            "dirt": 0.6, "gravel": 0.55, "grass": 0.7, "tile_floor": 0.7, "tile_white": 0.75, "plywood": 0.75, "cardboard": 0.75}
+
+
+NORMAL_K = {"wall_paint": 0.1, "ceiling_tile": 0.35, "concrete_smooth": 0.3, "terrazzo": 0.3, "carpet": 0.4, "tile_white": 0.5, "tile_floor": 0.5}
+
+
 def save_set(name, albedo, height, rough, metal=0.0, ao=None, nstrength=2.0):
     os.makedirs(OUT, exist_ok=True)
     albedo = np.clip(albedo, 0, 1)
+    k = CONTRAST.get(name, 0.85)
+    if albedo.ndim == 3:
+        mean = albedo.mean(axis=(0, 1), keepdims=True)
+        albedo = np.clip(mean + (albedo - mean) * k, 0, 1)
+    nstrength = nstrength * NORMAL_K.get(name, 0.5)
     if ao is None:
         ao = 1.0 - np.clip((blur(height, 3) - height) * 3.0, 0, 0.5)
     rough = np.broadcast_to(rough, (N, N)).astype(np.float32)

@@ -6,7 +6,7 @@
 
 [resource]
 resource_name = "Fabric"
-albedo_color = Color(0.5, 0.5, 0.5, 1)
+albedo_color = Color(0.735357, 0.735357, 0.735357, 1)
 albedo_texture = ExtResource("1_1a6xl")
 metallic_texture = ExtResource("2_cspjp")
 metallic_texture_channel = 2

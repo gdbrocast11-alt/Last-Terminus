@@ -50,6 +50,9 @@ static func spawn(tree: SceneTree, _kind: StringName, pos: Vector3, count: int, 
 		rb.can_sleep = true
 		rb.continuous_cd = true
 		_live.append(rb)
-		tree.create_timer(life + randf() * 3.0, false).timeout.connect(func() -> void:
-			if is_instance_valid(rb):
-				rb.queue_free())
+		var tm := Timer.new()
+		tm.one_shot = true
+		tm.wait_time = life + randf() * 3.0
+		rb.add_child(tm)
+		tm.timeout.connect(rb.queue_free)
+		tm.start()

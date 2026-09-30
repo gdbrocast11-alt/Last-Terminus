@@ -10,7 +10,11 @@ func run(_args: Array) -> void:
 		var m := StandardMaterial3D.new()
 		m.resource_name = mat_name
 		var c: Array = d.color
-		m.albedo_color = Color(c[0], c[1], c[2], d.alpha)
+		var col := Color(c[0], c[1], c[2], d.alpha)
+		# clothing colours were authored as linear values in Blender; everything else was tuned in-engine
+		if mat_name.begins_with("Fabric") or mat_name.begins_with("Shoe") or mat_name in ["Sole", "Denim", "Leather"]:
+			col = col.linear_to_srgb()
+		m.albedo_color = col
 		var tex: Variant = d.tex
 		if tex != null:
 			var a := "res://textures/%s_albedo.png" % tex

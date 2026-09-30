@@ -1,12 +1,110 @@
-[gd_scene format=3]
+[gd_scene format=4]
 
-[ext_resource type="PackedScene" path="res://props/clipboard.glb" id="1_d0th8"]
-[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_08o0l"]
+[ext_resource type="PackedScene" path="res://props/clipboard.glb" id="1_84cck"]
+[ext_resource type="Material" path="res://materials/Plywood.tres" id="2_flhxp"]
+[ext_resource type="Material" path="res://materials/Paper.tres" id="3_0gaho"]
+[ext_resource type="Material" path="res://materials/Chrome.tres" id="4_vnc33"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="5_ex6ra"]
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_1bqdi"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q8u16"]
+resource_name = "Plywood"
+cull_mode = 2
+albedo_color = Color(0.9546871, 0.8962439, 0.76737565, 1)
+roughness = 0.7
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fbxma"]
+resource_name = "Paper"
+cull_mode = 2
+albedo_color = Color(0.97769153, 0.9731482, 0.9546871, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7x582"]
+resource_name = "Chrome"
+cull_mode = 2
+albedo_color = Color(0.97769153, 0.97769153, 0.98669523, 1)
+metallic = 1.0
+roughness = 0.08
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_8kxis"]
+_surfaces = [{
+"aabb": AABB(-0.115, 0, -0.16, 0.23, 0.012, 0.32),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAACAAEAAwAEAAEABQAAAAIAAwAAAAUABAAGAAIABQACAAYAAwAHAAQAAwAFAAcABwAGAAQABwAFAAYA"),
+"name": "Plywood",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAD/////AAAAAP//AAD//wAA////////AAD//wAAAAAAAA==")
+}, {
+"aabb": AABB(-0.1, 0.012, -0.14, 0.2, 0.0040000007, 0.28),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAACAAEAAwAEAAEABQAAAAIAAwAAAAUABAAGAAIABQACAAYAAwAHAAQAAwAFAAcABwAGAAQABwAFAAYA"),
+"name": "Paper",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAD/////AAAAAP//AAD//wAA////////AAD//wAAAAAAAA==")
+}, {
+"aabb": AABB(-0.04, 0.01, -0.165, 0.08, 0.02, 0.030000001),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAACAAEAAwAEAAEABQAAAAIAAwAAAAUABAAGAAIABQACAAYAAwAHAAQAAwAFAAcABwAGAAQABwAFAAYA"),
+"name": "Chrome",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAD/////AAAAAP//AAD//wAA////////AAD//wAAAAAAAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_qhbds"]
+resource_name = "clipboard_clipboard"
+_surfaces = [{
+"aabb": AABB(-0.115, 0, -0.16, 0.23, 0.012, 0.32),
+"attribute_data": PackedByteArray("AADe8v//4vEAAOLx///e8v8j3vL/2+Lx/yPi8f/b3vL//97yAADi8f//4vEAAN7y/9ve8v8j4vH/2+Lx/yPe8v8jveX/2////9u95f8j////273l/yP///8jveX/2///"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA"),
+"material": SubResource("StandardMaterial3D_q8u16"),
+"name": "Plywood",
+"primitive": 3,
+"uv_scale": Vector4(0.22857143, 2.2285714, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAD//wAAAAD//wAAAAAAAP//AAAAAP+//////////7//////AAD/v///AAD///+///8AAP//AIAAAP////8AgP///////wCAAAAAAP//AIAAAAAAAAD/P///AAD///8///8AAAAA/z8AAAAA////P/////8AAP+/AAD//////78AAP//AAD/v/////////+//z//f/8//3//P/9//z//f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA/3////9/////f////3///wAA/38AAP9/AAD/fwAA/3////9/////f////3////9/")
+}, {
+"aabb": AABB(-0.1, 0.012, -0.14, 0.2, 0.0040000007, 0.28),
+"attribute_data": PackedByteArray("AADu7v//e+4AAHvu///u7pIk7u5s23vukiR77mzb7u7//+7uAAB77v//e+4AAO7ubNvu7pIke+5s23vukiTu7pIkjuBs2///bNuO4JIk//9s247gkiT//5IkjuBs2///"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA"),
+"material": SubResource("StandardMaterial3D_fbxma"),
+"name": "Paper",
+"primitive": 3,
+"uv_scale": Vector4(0.28, 2.28, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAD//wAAAAD//wAAAAAAAP//AAAAAP+//////////7//////AAD/v///AAD///+///8AAP//AIAAAP////8AgP///////wCAAAAAAP//AIAAAAAAAAD/P///AAD///8///8AAAAA/z8AAAAA////P/////8AAP+/AAD//////78AAP//AAD/v/////////+//z//f/8//3//P/9//z//f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA/3////9/////f////3///wAA/38AAP9/AAD/fwAA/3////9/////f////3////9/")
+}, {
+"aabb": AABB(-0.04, 0.01, -0.165, 0.08, 0.02, 0.030000001),
+"attribute_data": PackedByteArray("uej/////af256Gn9//////dg//8Hn2n992Bp/Qef////////uehp/f//af256P//B5////dgaf0Hn2n992D///dg9OsHn9XvB5/06/dg1e8Hn/Tr92DV7/dg9OsHn9Xv"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA"),
+"material": SubResource("StandardMaterial3D_7x582"),
+"name": "Chrome",
+"primitive": 3,
+"uv_scale": Vector4(0.33, 1.98, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAD//wAAAAD//wAAAAAAAP//AAAAAP+//////////7//////AAD/v///AAD///+///8AAP//AIAAAP////8AgP///////wCAAAAAAP//AIAAAAAAAAD/P///AAD///8///8AAAAA/z8AAAAA////P/////8AAP+/AAD//////78AAP//AAD/v/////////+//z//f/8//3//P/9//z//f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA/3////9/////f////3///wAA/38AAP9/AAD/fwAA/3////9/////f////3////9/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_8kxis")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4q77d"]
 size = Vector3(0.23, 0.03, 0.325)
 
-[node name="clipboard" type="RigidBody3D" unique_id=1634195635]
+[node name="clipboard" type="RigidBody3D" unique_id=231096649]
 collision_layer = 16
 collision_mask = 31
 mass = 0.3
@@ -14,14 +112,22 @@ sleeping = true
 linear_damp = 0.15
 angular_damp = 0.4
 
-[node name="Model" type="Node3D" parent="." unique_id=1520317604 instance=ExtResource("1_d0th8")]
+[node name="Model" parent="." unique_id=1520317604 instance=ExtResource("1_84cck")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1845182044]
+[node name="clipboard" type="MeshInstance3D" parent="Model" unique_id=673320438]
+mesh = SubResource("ArrayMesh_qhbds")
+surface_material_override/0 = ExtResource("2_flhxp")
+surface_material_override/1 = ExtResource("3_0gaho")
+surface_material_override/2 = ExtResource("4_vnc33")
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1449624738]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.015, -0.0025000125)
-shape = SubResource("BoxShape3D_1bqdi")
+shape = SubResource("BoxShape3D_4q77d")
 
-[node name="Prop" type="Node" parent="." unique_id=1437773609]
-script = ExtResource("2_08o0l")
+[node name="Prop" type="Node" parent="." unique_id=1303322378]
+script = ExtResource("5_ex6ra")
 prop_id = &"clipboard"
 grab_class = "light"
 tags = PackedStringArray()
+
+[editable path="Model"]

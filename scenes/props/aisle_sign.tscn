@@ -1,13 +1,91 @@
-[gd_scene format=3]
+[gd_scene format=4]
 
-[ext_resource type="PackedScene" path="res://props/aisle_sign.glb" id="1_4o4le"]
-[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_ltmct"]
+[ext_resource type="PackedScene" path="res://props/aisle_sign.glb" id="1_bd0cy"]
+[ext_resource type="Material" path="res://materials/PaintOrange.tres" id="2_7wnxd"]
+[ext_resource type="Material" path="res://materials/PlasticBlack.tres" id="3_np5fd"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="4_hbfro"]
 
-[node name="aisle_sign" type="Node3D" unique_id=1053592247]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xii6e"]
+resource_name = "PaintOrange"
+cull_mode = 2
+albedo_color = Color(0.97769153, 0.6651851, 0.24780053, 1)
+metallic = 0.2
+roughness = 0.5
 
-[node name="Model" type="Node3D" parent="." unique_id=570051192 instance=ExtResource("1_4o4le")]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ndxpx"]
+resource_name = "PlasticBlack"
+cull_mode = 2
+albedo_color = Color(0.22091636, 0.22091636, 0.24780053, 1)
+roughness = 0.4
 
-[node name="Prop" type="Node" parent="." unique_id=1639664950]
-script = ExtResource("2_ltmct")
+[sub_resource type="ArrayMesh" id="ArrayMesh_v843i"]
+_surfaces = [{
+"aabb": AABB(-0.7, -0.25, -0.025, 1.4, 0.5, 0.05),
+"format": 34896613377,
+"index_count": 180,
+"index_data": PackedByteArray("AAABAAIAAAACAAMAAAADAAQAAgAFAAMAAgABAAUAAwAGAAQAAwAFAAYABAAHAAAAAAAHAAEABAAGAAcABgAIAAcACQAHAAgABgAKAAgACAALAAkACAAKAAsADAAJAAsACQAMAAcADQALAAoADQAKAAYADAALAA0ADgANAAYADgAGAA8ABQAPAAYADwAQAA4ADQAOABAADwARABAABQARAA8AEgAQABEAEgARAAUADQAQABIAEwAMAA0AEwANABQAFAANABIAFAAVABMAFQAMABMAFAAWABUAFAASABYAFgAXABUAFQAXAAwAFgASABcAGAASAAUAEgAYABkAEgAZABcAGAAFABoAGgAZABgAAQAaAAUAGgAbABkAAQAbABoAGwAXABkAGwABABcAAQAcABcAFwAcAB0AFwAdAAwAAQAeABwAHgAdABwABwAeAAEADAAdAB8ADAAfAAcAHgAfAB0ABwAfAB4A"),
+"name": "PaintOrange",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 32,
+"vertex_data": PackedByteArray("1AEAADIzAADUAR4Fy8wAANQBAADLzAAAKv4AAMvMAAAq/gAAMzMAACr+HgXLzAAAKv4eBTMzAADUAR4FMzMAANQBHgUAAAAA1AHg+gAAAAAq/h4FAAAAACr+4PoAAAAA1AHg+jMzAAAq/uD6MzMAAP//4PoyMwAA//8eBTIzAAD//+D6y8wAAP//HgXLzAAAKv7g+svMAADUAf//MzMAACr+//8yMwAA1AH//8vMAAAq/v//y8wAANQB4PrLzAAAKv7g+v//AADUAeD6//8AACr+HgX//wAA1AEeBf//AAAAAOD6y8wAAAAA4PoyMwAAAAAeBcvMAAAAAB4FMjMAAA==")
+}, {
+"aabb": AABB(-0.506, 0.25, -0.006, 1.012, 0.35000002, 0.012),
+"format": 34896613377,
+"index_count": 72,
+"index_data": PackedByteArray("BwAGAAoABQAHAAoABwALAAYABQAKAAwADAAKAAYADQAHAAUADQAFAAwADQALAAcADAAGAAgADQAMAAgACAAGAAsACAALAA0AAAAOAA8AAAABAA4ADwAOAAQAAQAEAA4ACQAAAA8ACQABAAAADwAEAAIACQAPAAIAAQADAAQACQADAAEAAgAEAAMAAgADAAkA"),
+"lods": [0.044894308, PackedByteArray("BQAGAAcACAAHAAYABQAHAAgACAAGAAUAAAABAAIACQABAAAACQAAAAIACQADAAEAAgADAAkAAQADAAQAAgAEAAMAAgABAAQA"), 0.06734147, PackedByteArray("AAABAAIAAAADAAEAAgADAAAAAQADAAQAAgAEAAMAAgABAAQA")],
+"name": "PlasticBlack",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 16,
+"vertex_data": PackedByteArray("ev4AAAAAAAB6/v//AAAAAHr+AAD//wAA//////9/AAB6/v////8AAIQBAAAAAAAAhAH/////AACEAf//AAAAAIQBAAD//wAA//8AAP9/AAAAAP///38AAAkD////fwAAAAAAAP9/AAAJAwAA/38AAPX8////fwAA9fwAAP9/AAA=")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_fbdk7"]
+resource_name = "aisle_sign_aisle_sign"
+_surfaces = [{
+"aabb": AABB(-0.7, -0.25, -0.025, 1.4, 0.5, 0.05),
+"attribute_data": PackedByteArray("vYL//0F9+P5Bff//vYL4/pGE0s2RhPj+vYLSzUF9zMy9gszMQX3SzW17+P5te9LN1AHc5AAA7ufUAe7nAADc5NQB9Ogq/vToKv7u5///7uf//9zkKv7c5NQB1uMq/tbj1AH4/gAA0s3UAdLNAAD4/ir+zMzUAczMKv7Szf//0s3///j+Kv74/tQB//8q/v//1AHu5wAA3OTUAdzkAADu59QB1uMq/tbjKv7c5P//3OT//+7nKv7u59QB9Ogq/vTo1AHSzQAA+P7UAfj+AADSzSr+///UAf//Kv74/v//0s3///j+Kv7SzdQBzMwq/szMvYLSzZGE+P69gvj+kYTSzUF9//+9gv//QX34/m170s1te/j+QX3Szb2CzMxBfczM1AHc5Cr+7ucq/tzk1AHu50F9+P69gtLNQX3Szb2C+P4q/vj+1AHSzSr+0s3UAfj+Kv7c5NQB7ufUAdzkKv7u59QB+P4q/tLN1AHSzSr++P69gvj+QX3Szb2C0s1Bffj+"),
+"format": 34896613399,
+"index_count": 180,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAADAAUABAAGAAMABwAGAAgABwAJAAYACgABAAkACgAJAAsADAANAA4ADAAPAA0ADgAQABEADgARABIAEgATABQAEgAUABUAFQAWAAwAFQAXABYAGAAZABoAGAAbABkAHAAaAB0AHAAeABoAHgAfACAAHgAgACEAIgAYACEAIgAhACMAJAAlACYAJAAnACUAJgAoACkAJgApACoAKgArACwAKgAsAC0ALQAuACQALQAvAC4AMAAxADIAMAAzADEANAAyADUANAA2ADIANwA2ADgANwA5ADYAOgAwADkAOgA5ADsAPAA9AD4APAA/AD0AQAA+AEEAQABCAD4AQwBCAEQAQwBFAEIARgA8AEUARgBFAEcASABJAEoASABLAEkATABNAE4ATABPAE0AUABRAFIAUABTAFEAVABVAFYAVABXAFUAWABZAFoAWABbAFkAXABdAF4AXABfAF0A"),
+"material": SubResource("StandardMaterial3D_xii6e"),
+"name": "PaintOrange",
+"primitive": 3,
+"uv_scale": Vector4(1.4, 2.5, 0, 0),
+"vertex_count": 96,
+"vertex_data": PackedByteArray("1AEAADIzAADUAR4Fy8wAANQBAADLzAAA1AEeBTMzAADUAeD6AAAAANQBHgUAAAAA1AHg+jMzAADUAf//y8wAANQB//8zMwAA1AHg+svMAADUAR4F//8AANQB4Pr//wAA1AEeBTMz/z8AAB4Fy8z/P9QBHgXLzP8/AAAeBTIz/z/UAR4F////Pyr+HgX///8/Kv4eBcvM/z///x4Fy8z/P///HgUyM/8/Kv4eBTMz/z/UAR4FAAD/Pyr+HgUAAP8/1AEeBcvMAIAAAOD6y8wAgNQB4PrLzACAAAAeBcvMAIAq/v//y8wAgNQB///LzACAKv7g+svMAID//+D6y8wAgP//HgXLzACAKv4eBcvMAIDUAQAAy8wAgCr+AADLzACA1AHg+svM/78AAOD6MjP/v9QB4PozM/+/AADg+svM/7/UAeD6AAD/vyr+4PoAAP+/Kv7g+jMz/7///+D6MjP/v///4PrLzP+/Kv7g+svM/7/UAeD6////vyr+4Pr///+/1AHg+jMzAAAAAB4FMjMAANQBHgUzMwAAAADg+jIzAAAq/gAAMzMAANQBAAAyMwAAKv4eBTMzAAD//+D6MjMAAP//HgUyMwAAKv7g+jMzAADUAf//MzMAACr+//8yMwAAKv7g+jMz/78q/h4FAAD/vyr+HgUzM/+/Kv7g+gAA/78q/gAAy8z/vyr+AAAzM/+/Kv4eBcvM/78q/uD6////vyr+HgX///+/Kv7g+svM/78q/v//MjP/vyr+///LzP+/1AEAADIz/z8q/gAAy8z/Pyr+AAAzM/8/1AEAAMvM/z8AAB4Fy8wAAAAA4PoyMwAAAADg+svMAAAAAB4FMjMAACr+HgX//wCA1AHg+v//AIAq/uD6//8AgNQBHgX//wCAKv7//zIz/7/UAf//y8z/v9QB//8zM/+/Kv7//8vM/7/UAR4FAAAAACr+4PoAAAAA1AHg+gAAAAAq/h4FAAAAAP//HgUyM/+////g+svM/7///+D6MjP/v///HgXLzP+//z//f/8//3//P/9//z//f/8//3//P/9//z//f/8//3//P/9//z//f/8//3//P/9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9//3////9/////f////3////9/////f////3////9/////f////3////9/////f///////f/7//3////9/////f////3////9/////f////3/+//9/////f////3////9/////f////3////9//v//f////3////9/////f/7//3////9//v//f////3////9//38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAAAAD/fwAA/38AAP9/AAD/f/8//3//P/9//z//f/8//3//f////3////9/////f///////f////3////9/////f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA")
+}, {
+"aabb": AABB(-0.506, 0.25, -0.006, 1.012, 0.35000002, 0.012),
+"attribute_data": PackedByteArray("ev5s33r+5LJ6/mzfev7ksnp+bN//f+SyhIFs34SB5LJ6fuSyev54/v//O/96/v//hAFs34QB5LKEAeSyhAFs33p+bN+EgeSyen7ksoSBbN//f2zf//87/3r+eP56/v//hAF4/oQB//8AADv/CQM7/wkDbN8JA+Sy/39s3/9/5LIJAzv/AAA7/4QB//+EAXj+9fzksvX8bN/1/Dv/9fw7/w=="),
+"format": 34896613399,
+"index_count": 72,
+"index_data": PackedByteArray("GAAZABoAGAAbABkAHAAOAAwAHAAdAA4ADwAdABwADwANAB0AHgASABAAHgAfABIAEwAfAB4AEwARAB8AIAAhACIAIAAjACEAAAAkACUAAAABACQAJQAkAAMAJQADAAIABAAFABQABAAIAAUAFAAFAAcAFAAHAAYAFQAmABcAFQAWACYACQALACcACQAKAAsA"),
+"lods": [0.044894308, PackedByteArray("DAANAA4ADwANAAwAEAARABIAEwARABAAAAABAAIAAgABAAMABAAFABQABAAIAAUAFAAFAAcAFAAHAAYAFQAWABcACQAKAAsA"), 0.06734147, PackedByteArray("AAABAAIAAgABAAMABAAFAAYABgAFAAcABAAIAAUACQAKAAsA")],
+"material": SubResource("StandardMaterial3D_ndxpx"),
+"name": "PlasticBlack",
+"primitive": 3,
+"uv_scale": Vector4(1.012, 2.012, 0, 0),
+"vertex_count": 40,
+"vertex_data": PackedByteArray("ev4AAAAAMhh6/v//AAAyGHr+AAD//7Ogev7/////s6B6/gAA//+zoP//////f73Dev4AAAAAmfl6/v//AACZ+Xr+/////7Ogev7//wAA6+b//////3+syHr+/////xOZhAEAAAAAMhiEAf////+zoIQB//8AADIYhAEAAP//s6CEAQAA//9PFIQB//8AADIYhAH/////TxSEAQAAAAAyGP//AAD/f73D//8AAP9/Uzd6/gAAAAATGXr+AAD//+tmhAH//wAA6+aEAf////8TmQAA////f6zICQP///9/rMgJAwAA/38VwAkD////fxXAAAAAAP9/lxEAAP///3+XEQkDAAD/f1M3AAAAAP9/UzeEAQAA///rZoQBAAAAABMZ9fz///9/FcD1/AAA/38VwPX8AAD/f1M39fz///9/rMhnIaZmpuaXXj8QXMOhvD6QXUPAb76x3xheakgvSK+gFb/vojz///9/475xX////39YGWehv++iPJfeWJldQ8BvOnj/Yqbml17/4sUHZyGmZh9nvzGNIOQ+AAD/fwAA/3////9/////f3HfGsHjvnFfo096NHq0XDDGSHFuce44N40g5D4bQY2gAAD/fwAA/39bsITLhEuizxtBjaBx3xrB")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_v843i")
+
+[node name="aisle_sign" type="Node3D" unique_id=1457470826]
+
+[node name="Model" parent="." unique_id=570051192 instance=ExtResource("1_bd0cy")]
+
+[node name="aisle_sign" type="MeshInstance3D" parent="Model" unique_id=1209194424]
+mesh = SubResource("ArrayMesh_fbdk7")
+surface_material_override/0 = ExtResource("2_7wnxd")
+surface_material_override/1 = ExtResource("3_np5fd")
+
+[node name="Prop" type="Node" parent="." unique_id=1258765258]
+script = ExtResource("4_hbfro")
 prop_id = &"aisle_sign"
 tags = PackedStringArray()
+
+[editable path="Model"]

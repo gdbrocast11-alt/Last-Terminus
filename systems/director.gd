@@ -5,6 +5,7 @@ extends Node
 const PLAYER_SCENE := "res://scenes/player.tscn"
 const PICKLES_SCENE := "res://scenes/pickles.tscn"
 const TITLE_SCENE := "res://scenes/title.tscn"
+const STREET_SCENE := "res://scenes/levels/street.tscn"
 
 const CHAPTER_LEVELS := {
 	GameState.Chapter.STATION: "res://scenes/levels/station.tscn",
@@ -175,6 +176,8 @@ func load_chapter(chapter: int, beat: StringName = &"start") -> void:
 	set_hud_visible(false)
 	DialogueManager.stop_all()
 	var path: String = CHAPTER_LEVELS.get(chapter, "")
+	if chapter == GameState.Chapter.ENDING and String(beat).begins_with("street"):
+		path = STREET_SCENE
 	if path.is_empty():
 		transitioning = false
 		return

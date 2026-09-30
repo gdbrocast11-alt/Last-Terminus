@@ -1,22 +1,99 @@
-[gd_scene format=3]
+[gd_scene format=4]
 
-[ext_resource type="PackedScene" path="res://props/door_glass.glb" id="1_c78a3"]
-[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_proqm"]
+[ext_resource type="PackedScene" path="res://props/door_glass.glb" id="1_e6ary"]
+[ext_resource type="Material" path="res://materials/Glass.tres" id="2_3cmmw"]
+[ext_resource type="Material" path="res://materials/Chrome.tres" id="3_fi1hk"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="4_e4yjc"]
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_e6ary"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6pscp"]
+resource_name = "Glass"
+transparency = 4
+cull_mode = 2
+albedo_color = Color(0.85430586, 0.9309246, 0.9546871, 0.18)
+roughness = 0.04
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_c6ewf"]
+resource_name = "Chrome"
+cull_mode = 2
+albedo_color = Color(0.97769153, 0.97769153, 0.98669523, 1)
+metallic = 1.0
+roughness = 0.08
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_rxn31"]
+_surfaces = [{
+"aabb": AABB(0, 0, -0.02, 1, 2.3, 0.04),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAACAAEAAwAEAAEABQAAAAIAAwAAAAUABAAGAAIABQACAAYAAwAHAAQAAwAFAAcABwAGAAQABwAFAAYA"),
+"name": "Glass",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAD/////AAAAAP//AAD//wAA////////AAD//wAAAAAAAA==")
+}, {
+"aabb": AABB(0, 0, -0.075, 1, 2.3000002, 0.1),
+"format": 34896613377,
+"index_count": 180,
+"index_data": PackedByteArray("AAABAAIAAwABAAIAAwAEAAEABAADAAUABQADAAIABAAFAAYABgAFAAcABQACAAcABAAGAAgABAAIAAEABgAHAAgACAACAAEACAAHAAIACQACAAEACQAKAAIACwAJAAEAAAALAAEADAAKAAkACwAMAAkADQACAAoADAANAAoACwANAAwADQAAAAIACwAAAA0AAAALAA4AAAAOAA8ACwAQAA4AEAAPAA4ACwAAABEAEQAAAA8AEAASAA8AEQAPABIAEwASABAACwATABAAEwARABIACwARABMAEwARAAcAEwAHAAgAEQAUAAcACAAHABQAFQARABMAFQATAAgAFQAWABEAEQAWABQAFQAIABcAFgAVABcACAAUABcAFgAXABQAGAAZABoAGAAbABkAHAAaABkAGwAcABkAHQAYABoAGwAYAB0AHAAeABoAHQAaAB4AGwAfABwAGwAdAB8AHwAeABwAHwAdAB4A"),
+"name": "Chrome",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 32,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP///38AAAAA/////wAAAABu+v//AAAAAG76/38AAP//bvr//wAA//9u+v9/AAD///////8AAP//////fwAAzAz+//9/AADMDP7///8AAAAAAAD/fwAAzAwAAP9/AADMDAAA//8AAAAAWw3/fwAAAABbDf//AAD//1sN/38AAP//AAD//wAA//9bDf//AAD//wAA/38AADLz/v///wAAMvMAAP9/AAAy8wAA//8AADLz/v//fwAAb93pTf9/AABv3dKbAAAAAG/d0pv/fwAAb93pTQAAAAAd5dKbAAAAAB3l6U3/fwAAHeXSm/9/AAAd5elNAAAAAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_d5r2h"]
+resource_name = "door_glass_door_glass"
+_surfaces = [{
+"aabb": AABB(0, 0, -0.02, 1, 2.3, 0.04),
+"attribute_data": PackedByteArray("cH114o6CAABwfQAAjoJ14v9/deL//wAA/38AAP//deKOgnXicH0AAI6CAABwfXXi//914v9/AAD//wAA/3914v9/feD//23k//994P9/beT//33g/39t5P9/feD//23k"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA"),
+"material": SubResource("StandardMaterial3D_6pscp"),
+"name": "Glass",
+"primitive": 3,
+"uv_scale": Vector4(2, 2.6, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAD//wAAAAD//wAAAAAAAP//AAAAAP+//////////7//////AAD/v///AAD///+///8AAP//AIAAAP////8AgP///////wCAAAAAAP//AIAAAAAAAAD/P///AAD///8///8AAAAA/z8AAAAA////P/////8AAP+/AAD//////78AAP//AAD/v/////////+//z//f/8//3//P/9//z//f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA/3////9/////f////3///wAA/38AAP9/AAD/fwAA/3////9/////f////3////9/")
+}, {
+"aabb": AABB(0, 0, -0.075, 1, 2.3000002, 0.1),
+"attribute_data": PackedByteArray("zHx14jKDAADMfAAAzHzsBDKD7AQyg3XiMoOk1sx8pNb/f3XiZYYAAP9/AABlhnXi//+k1v9/pNb//3Xi/3/sBP//AAD//+wEmPl14pj5AAAyg3XizHwAADKDAADMfHXiZYZ14v9/AABlhgAA/3914v//7AT/f+wE//8AAP//deKY+QAAmPl14v9/pNb//6TW/3//32WG6+Rlhv/f/3/r5P//6+T////fmPn/35j56+Rlhv/f/3/r5P9//99lhuvk////3///6+SY+evkmPn/38x8deIygwAAzHwAADKDdeIyg3XizHwAADKDAAAyg+wEzHzsBMx8deLMfKTWMoOk1v9//9///+vk////3/9/6+T////f/3/r5P9//9///+vkMoOJnZmJnVgyg51YmYmJnbfuiZ2O8p1Yt+6dWI7yiZ2ZiYmdMoOdWJmJnVgyg4mdjvKJnbfunViO8p1Yt+6JnbfuEtuO8v/fjvIS27fu/9+O8hLbt+7/37fuEtuO8v/f"),
+"format": 34896613399,
+"index_count": 180,
+"index_data": PackedByteArray("AAABAAIAAwABAAIAAwAEAAEAAAAFAAEAAAAFAAYAAAAGAAcACAAJAAoACAALAAkACAAMAA0ACAAOAAwADwAQAAoADwARABAAEgAOABAAEgAQABMAFAAVABYAFAAXABUAGAAZABoAGAAbABkAHAAdABkAHAAZAB4AHwAgAB4AHwAhACAAHwAbACIAHwAiACMAJAAlACYAJAAnACUAJAAnACgAJAAoACkAKgAoACkAKgArACgALAAtAC4ALAAvAC0AMAAtAC4AMAAxAC0AMAAxADIAMAAyADMANAA1ADYANAA3ADUAOAA5ADoAOwA5ADoAOwA8ADkAOAA9ADkAOAA9AD4AOAA+AD8AQABBAEIAQABDAEEARABFAEYARABHAEUASABJAEoASABLAEkATABNAE4ATABPAE0AUABRAFIAUABTAFEAVABVAFYAVABXAFUAWABZAFoAWABbAFkAXABdAF4AXABfAF0A"),
+"material": SubResource("StandardMaterial3D_c6ewf"),
+"name": "Chrome",
+"primitive": 3,
+"uv_scale": Vector4(2, 2.6000004, 0, 0),
+"vertex_count": 96,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP///38AAAAA/////wAAAABu+v//AAAAAG76/38AAAAAAAD/fwAAAABbDf9/AAAAAFsN//8AAAAAAAD/fwAAzAz+//9/AAAAAP///38AAMwMAAD/fwAA//9bDf9/AAAAAFsN/38AAP//AAD/fwAAAABu+v9/AAD//////38AAP//bvr/fwAAMvMAAP9/AAAy8/7//38AAMwMAAD/f/+/zAz+/////7/MDP7//3//v8wMAAD///+/zAwAAP//AIAAAP////8AgMwM/v///wCAAAAAAP//AID//276//8AgAAAbvr//wCA////////AID//wAA//8AgDLz/v///wCAMvMAAP//AIAAAFsN//8AgP//Ww3//wCAAAAAAP9//z/MDAAA////P8wMAAD/f/8/AAAAAP///z///wAA////P///AAD/f/8/MvMAAP9//z8y8wAA////P8wM/v//f/+/AAD//////78AAP///3//v8wM/v////+///////9//7//////////vzLz/v////+/MvP+//9//78y8wAA//8AADLz/v//fwAAMvP+////AAAy8wAA/38AAP//AAD/f/+//////////7///////3//v///bvr/f/+///9u+v///7///wAA////v///Ww3///+///9bDf9//78AAG76/3//P///bvr///8///9u+v9//z8AAG76////P///Ww3/f/+/AABbDf///78AAFsN/3//v///Ww3///+/b93pTf9/AABv3dKbAAAAAG/d0pv/fwAAb93pTQAAAABv3elNAAAAAB3l0psAAAAAb93SmwAAAAAd5elNAAAAAB3l6U0AAP+/HeXSm/9//78d5dKbAAD/vx3l6U3/f/+/HeXpTf9/AIBv3dKb/38AgB3l0pv/fwCAb93pTf9/AIBv3elNAAD/Px3l6U3/f/8/HeXpTQAA/z9v3elN/3//Px3l0psAAP+/b93Sm/9//79v3dKbAAD/vx3l0pv/f/+//z//f/8//3//P/9//z//f/8//3//P/9//z//f/8//3////9/////f////3////9/////f////3////9/////f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA/3////9/////f////3////9/////f////3////9/////f////3////9/////f///AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/3////9/////f////3////9/////f////3////9/////f/8//3//P/9//z//f/8//3//fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAAAA/38AAP9/AAD/fwAA/3////9/////f////3////9//z//f/8//3//P/9//z//f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA/3////9/////f////3///wAA/38AAP9/AAD/fwAA/3////9/////f////3////9/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_rxn31")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_cpjy5"]
 size = Vector3(1, 2.3000002, 0.1)
 
-[node name="door_glass" type="StaticBody3D" unique_id=1328786579]
+[node name="door_glass" type="StaticBody3D" unique_id=997029462]
 collision_mask = 0
 
-[node name="Model" type="Node3D" parent="." unique_id=23876315 instance=ExtResource("1_c78a3")]
+[node name="Model" parent="." unique_id=23876315 instance=ExtResource("1_e6ary")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1970772758]
+[node name="door_glass" type="MeshInstance3D" parent="Model" unique_id=553889403]
+mesh = SubResource("ArrayMesh_d5r2h")
+surface_material_override/0 = ExtResource("2_3cmmw")
+surface_material_override/1 = ExtResource("3_fi1hk")
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1523260908]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 1.1500001, -0.025000002)
-shape = SubResource("BoxShape3D_e6ary")
+shape = SubResource("BoxShape3D_cpjy5")
 
-[node name="Prop" type="Node" parent="." unique_id=350278552]
-script = ExtResource("2_proqm")
+[node name="Prop" type="Node" parent="." unique_id=580477852]
+script = ExtResource("4_e4yjc")
 prop_id = &"door_glass"
 tags = PackedStringArray("door")
 use_verb = "Open"
+
+[editable path="Model"]

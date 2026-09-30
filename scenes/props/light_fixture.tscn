@@ -1,13 +1,92 @@
-[gd_scene format=3]
+[gd_scene format=4]
 
-[ext_resource type="PackedScene" path="res://props/light_fixture.glb" id="1_jc5o0"]
-[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_eiece"]
+[ext_resource type="PackedScene" path="res://props/light_fixture.glb" id="1_13x31"]
+[ext_resource type="Material" path="res://materials/PaintWhite.tres" id="2_dlh44"]
+[ext_resource type="Material" path="res://materials/LightTube.tres" id="3_a3gmx"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="4_q0vy1"]
 
-[node name="light_fixture" type="Node3D" unique_id=1979109899]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5v6k7"]
+resource_name = "PaintWhite"
+cull_mode = 2
+albedo_color = Color(0.9546871, 0.9546871, 0.9546871, 1)
+metallic = 0.2
+roughness = 0.45
 
-[node name="Model" type="Node3D" parent="." unique_id=26591039 instance=ExtResource("1_jc5o0")]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fbr18"]
+resource_name = "LightTube"
+cull_mode = 2
+albedo_color = Color(1, 0.9911565, 0.9546871, 1)
+roughness = 0.2
+emission_enabled = true
+emission = Color(1, 0.9822071, 0.9309246, 1)
+emission_energy_multiplier = 3.0
 
-[node name="Prop" type="Node" parent="." unique_id=372234723]
-script = ExtResource("2_eiece")
+[sub_resource type="ArrayMesh" id="ArrayMesh_abt1s"]
+_surfaces = [{
+"aabb": AABB(-0.625, -0.08, -0.14, 1.25, 0.08, 0.28),
+"format": 34896613377,
+"index_count": 180,
+"index_data": PackedByteArray("AAABAAIAAAACAAMAAAADAAQAAgAFAAMAAgABAAUAAwAGAAQAAwAFAAYABAAHAAAAAAAHAAEABAAGAAcABgAIAAcACQAHAAgABgAKAAgACAALAAkACAAKAAsADAAJAAsACQAMAAcADQALAAoADQAKAAYADAALAA0ADgANAAYADgAGAA8ABQAPAAYADwAQAA4ADQAOABAADwARABAABQARAA8AEgAQABEAEgARAAUADQAQABIAEwAMAA0AEwANABQAFAANABIAFAAVABMAFQAMABMAFAAWABUAFAASABYAFgAXABUAFQAXAAwAFgASABcAGAASAAUAEgAYABkAEgAZABcAGAAFABoAGgAZABgAAQAaAAUAGgAbABkAAQAbABoAGwAXABkAGwABABcAAQAcABcAFwAcAB0AFwAdAAwAAQAeABwAHgAdABwABwAeAAEADAAdAB8ADAAfAAcAHgAfAB0ABwAfAB4A"),
+"name": "PaintWhite",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 32,
+"vertex_data": PackedByteArray("DAIAACQJAAAMAv8f2vYAAAwCAADa9gAA8v0AANr2AADy/QAAJAkAAPL9/x/a9gAA8v3/HyQJAAAMAv8fJAkAAAwC/x8AAAAADAL/3wAAAADy/f8fAAAAAPL9/98AAAAADAL/3yQJAADy/f/fJAkAAP///98kCQAA////HyQJAAD////f2vYAAP///x/a9gAA8v3/39r2AAAMAv//JAkAAPL9//8kCQAADAL//9r2AADy/f//2vYAAAwC/9/a9gAA8v3/3///AAAMAv/f//8AAPL9/x///wAADAL/H///AAAAAP/f2vYAAAAA/98kCQAAAAD/H9r2AAAAAP8fJAkAAA==")
+}, {
+"aabb": AABB(-0.575, -0.09, -0.1, 1.15, 0.010000005, 0.2),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgABAAMAAAAEAAEAAgADAAUAAAACAAUAAQAGAAMAAQAEAAYABQADAAYABAAAAAcAAAAFAAcABAAHAAYABQAGAAcA"),
+"name": "LightTube",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAAAAAAD//wAA//8AAP//AAAAAAAA////////AAAAAAAA//8AAP////8AAAAAAAD/////AAAAAP//AAAAAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_gjjaq"]
+resource_name = "light_fixture_light_fixture"
+_surfaces = [{
+"aabb": AABB(-0.625, -0.08, -0.14, 1.25, 0.08, 0.28),
+"attribute_data": PackedByteArray("n5pC+V9lIvhfZUL5n5oi+KucZvGrnCL4n5pm8V9lRvCfmkbwX2Vm8VNjIvhTY2bxDAKu4QAA3/4MAt/+AACu4QwC///y/f//8v3f/v//3/7//67h8v2u4QwCjuDy/Y7gDAIi+AAAZvEMAmbxAAAi+PL9RvAMAkbw8v1m8f//ZvH//yL48v0i+AwCQvny/UL5DALf/gAAruEMAq7hAADf/gwCjuDy/Y7g8v2u4f//ruH//9/+8v3f/gwC///y/f//DAJm8QAAIvgMAiL4AABm8fL9QvkMAkL58v0i+P//ZvH//yL48v1m8QwCRvDy/Ubwn5pm8aucIvifmiL4q5xm8V9lQvmfmkL5X2Ui+FNjZvFTYyL4X2Vm8Z+aRvBfZUbwDAKu4fL93/7y/a7hDALf/l9lIvifmmbxX2Vm8Z+aIvjy/SL4DAJm8fL9ZvEMAiL48v2u4QwC3/4MAq7h8v3f/gwCIvjy/WbxDAJm8fL9IvifmiL4X2Vm8Z+aZvFfZSL4"),
+"format": 34896613399,
+"index_count": 180,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAADAAUABAAGAAMABwAGAAgABwAJAAYACgABAAkACgAJAAsADAANAA4ADAAPAA0ADgAQABEADgARABIAEgATABQAEgAUABUAFQAWAAwAFQAXABYAGAAZABoAGAAbABkAHAAaAB0AHAAeABoAHgAfACAAHgAgACEAIgAYACEAIgAhACMAJAAlACYAJAAnACUAJgAoACkAJgApACoAKgArACwAKgAsAC0ALQAuACQALQAvAC4AMAAxADIAMAAzADEANAAyADUANAA2ADIANwA2ADgANwA5ADYAOgAwADkAOgA5ADsAPAA9AD4APAA/AD0AQAA+AEEAQABCAD4AQwBCAEQAQwBFAEIARgA8AEUARgBFAEcASABJAEoASABLAEkATABNAE4ATABPAE0AUABRAFIAUABTAFEAVABVAFYAVABXAFUAWABZAFoAWABbAFkAXABdAF4AXABfAF0A"),
+"material": SubResource("StandardMaterial3D_5v6k7"),
+"name": "PaintWhite",
+"primitive": 3,
+"uv_scale": Vector4(1.25, 2.28, 0, 0),
+"vertex_count": 96,
+"vertex_data": PackedByteArray("DAIAACQJAAAMAv8f2vYAAAwCAADa9gAADAL/HyQJAAAMAv/fAAAAAAwC/x8AAAAADAL/3yQJAAAMAv//2vYAAAwC//8kCQAADAL/39r2AAAMAv8f//8AAAwC/9///wAADAL/HyQJ/z8AAP8f2vb/PwwC/x/a9v8/AAD/HyQJ/z8MAv8f////P/L9/x////8/8v3/H9r2/z////8f2vb/P////x8kCf8/8v3/HyQJ/z8MAv8fAAD/P/L9/x8AAP8/DAL/H9r2AIAAAP/f2vYAgAwC/9/a9gCAAAD/H9r2AIDy/f//2vYAgAwC///a9gCA8v3/39r2AID////f2vYAgP///x/a9gCA8v3/H9r2AIAMAgAA2vYAgPL9AADa9gCADAL/39r2/78AAP/fJAn/vwwC/98kCf+/AAD/39r2/78MAv/fAAD/v/L9/98AAP+/8v3/3yQJ/7/////fJAn/v////9/a9v+/8v3/39r2/78MAv/f////v/L9/9////+/DAL/3yQJAAAAAP8fJAkAAAwC/x8kCQAAAAD/3yQJAADy/QAAJAkAAAwCAAAkCQAA8v3/HyQJAAD////fJAkAAP///x8kCQAA8v3/3yQJAAAMAv//JAkAAPL9//8kCQAA8v3/3yQJ/7/y/f8fAAD/v/L9/x8kCf+/8v3/3wAA/7/y/QAA2vb/v/L9AAAkCf+/8v3/H9r2/7/y/f/f////v/L9/x////+/8v3/39r2/7/y/f//JAn/v/L9///a9v+/DAIAACQJ/z/y/QAA2vb/P/L9AAAkCf8/DAIAANr2/z8AAP8f2vYAAAAA/98kCQAAAAD/39r2AAAAAP8fJAkAAPL9/x///wCADAL/3///AIDy/f/f//8AgAwC/x///wCA8v3//yQJ/78MAv//2vb/vwwC//8kCf+/8v3//9r2/78MAv8fAAAAAPL9/98AAAAADAL/3wAAAADy/f8fAAAAAP///x8kCf+/////39r2/7/////fJAn/v////x/a9v+//z//f/8//3//P/9//z//f/8//3//P/9//z//f/8//3//P/9//z//f/8//3//P/9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9//3////9/////f////3////9/////f////3////9/////f////3////9/////f///////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9//38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAAAAD/fwAA/38AAP9/AAD/f/8//3//P/9//z//f/8//3//f////3////9/////f///////f////3////9/////f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA")
+}, {
+"aabb": AABB(-0.575, -0.09, -0.1, 1.15, 0.010000005, 0.2),
+"attribute_data": PackedByteArray("AAC56P///////7noAAD//0KW1f68aav9Qpar/bxp1f4AANX+//+r/QAAq/3//9X+vGnV/kKWq/28aav9QpbV/v//uegAAP//AAC56P///////9X+AACr/f//q/0AANX+"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA"),
+"material": SubResource("StandardMaterial3D_fbr18"),
+"name": "LightTube",
+"primitive": 3,
+"uv_scale": Vector4(1.15, 2.2, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAAAA/z///wAA////P///AAAAAP8/AAAAAP///z///wAAAAD/v/////////+//////wAA/7///wAA////vwAAAAAAAAAA/////wAAAAAAAP//AAAAAP//AAAAAAAAAAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAD/////AAD/vwAA//////+/AAD//wAA/7//////////v///AAD//wCAAAD/////AID///////8AgAAAAAD//wCAAAD/fwAA/38AAP9/AAD/f/9/AAD/fwAA/38AAP9/AAD///9/////f////3////9//z//f/8//3//P/9//z//f////3////9/////f////3//f////3////9/////f///")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_abt1s")
+
+[node name="light_fixture" type="Node3D" unique_id=304639880]
+
+[node name="Model" parent="." unique_id=26591039 instance=ExtResource("1_13x31")]
+
+[node name="light_fixture" type="MeshInstance3D" parent="Model" unique_id=1125320882]
+mesh = SubResource("ArrayMesh_gjjaq")
+surface_material_override/0 = ExtResource("2_dlh44")
+surface_material_override/1 = ExtResource("3_a3gmx")
+
+[node name="Prop" type="Node" parent="." unique_id=1257745890]
+script = ExtResource("4_q0vy1")
 prop_id = &"light_fixture"
 tags = PackedStringArray()
+
+[editable path="Model"]

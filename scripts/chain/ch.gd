@@ -43,7 +43,9 @@ static func impulse(t: String, dir: Vector3, s: float, opts := {}) -> Dictionary
 # ---- presentation
 static func sfx(name: String, at: Variant = null, opts := {}) -> Dictionary:
 	var a := {"a": "sfx", "name": name}
-	if at != null:
+	if at is Vector3:
+		a["pos"] = at
+	elif at != null:
 		a["at"] = at
 	a.merge(opts, true)
 	return a

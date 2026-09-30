@@ -1,24 +1,71 @@
-[gd_scene format=3]
+[gd_scene format=4]
 
-[ext_resource type="PackedScene" path="res://props/stump_seat.glb" id="1_0lfhw"]
-[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_j4h1g"]
+[ext_resource type="PackedScene" path="res://props/stump_seat.glb" id="1_j4h1g"]
+[ext_resource type="Material" path="res://materials/WoodDark.tres" id="2_0tx8k"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="3_kbp0p"]
 
-[sub_resource type="CylinderShape3D" id="CylinderShape3D_0tx8k"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hde2r"]
+resource_name = "WoodDark"
+cull_mode = 2
+albedo_color = Color(0.76737565, 0.6342527, 0.5271128, 1)
+roughness = 0.5
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_b1ryc"]
+_surfaces = [{
+"aabb": AABB(-0.34122476, 0, -0.35, 0.6824495, 0.5, 0.7),
+"format": 34896613377,
+"index_count": 156,
+"index_data": PackedByteArray("CAAPABAACAARAA8AAQAQAA8AEQABAA8AEgAIABAAEgARAAgAEgAQAAkABAASAAkAEAACAAkABAAJAAIAAQACABAAEwASAAQAEwAEAAIAEgAUABEAEwAUABIAEQAAAAEAEQAUAAAAAAALAAEAAAAUAAsAFQABAAsAFQACAAEAFAAVAAsAEwACABYADAATABYAAgAXABYADAAWABcAAgAYABcAAgAVABgABgAMABcABgATAAwABgAXAAcAFwAYAAcADgAGAAcADgAHABgAGQAGAA4AGQATAAYAGQAOABgAFAATABkAGQAYAA0AFAAKABUAGgAZAA0AFAAZAAMAAwAZABoAFAADAAoACgAFABUACgADAAUAGAAVABsAGAAbAA0AGwAVAAUAGgANABsAAwAbAAUAAwAaABsA"),
+"lods": [0.07504134, PackedByteArray("CAABAAkACAAAAAEAAQACAAkABAAIAAkABAAJAAIACAAKAAAABAAKAAgAAAALAAEACwACAAEAAAAKAAsADAAEAAIACgAFAAsABgAEAAwACgADAAUADQALAAUAAgALAA0AAwANAAUADAACAAcABgAMAAcAAgANAAcADgAEAAYACgAEAA4ADgAGAAcACgAOAAMADgAHAA0AAwAOAA0A"), 0.24345993, PackedByteArray("AAABAAIAAAADAAEABAADAAAABAAAAAIAAwAFAAEAAgABAAUAAwAEAAYABgAEAAIAAwAGAAUABgACAAcAAgAFAAcABgAHAAUA")],
+"name": "WoodDark",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 28,
+"vertex_data": PackedByteArray("pOYAADEwAADY3f//CDcAACYi//8INwAApOYAAM3PAABaGQAAMTAAANjd///2yAAAWhkAAM3PAAAmIv//9sgAAP9/AAAAAAAA6kv//48WAAD//wAAepwAAAb1///1ZQAAAAAAAHqcAAD/f///BvUAAAhHAABS8wAAFLT//48WAAD/f///+AoAAPa4AACtDAAACEcAAK0MAAAAAAAAhGMAAP//AACEYwAABvX//wmaAAD4Cv//9WUAAPgK//8JmgAA6kv//2/pAAD/fwAA//8AAPa4AABS8wAAFLT//2/pAAA=")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_1jcas"]
+resource_name = "stump_seat_stump_seat"
+_surfaces = [{
+"aabb": AABB(-0.34122476, 0, -0.35, 0.6824495, 0.5, 0.7),
+"attribute_data": PackedByteArray("pOYF6djdM8gmIjPIWhkF6dvRBekjLgXp1sozyCg1M8ik5gXpWhkF6djdM8gmIjPIIy4F6dbKM8goNTPI29EF6SYi7dvY3R72JiIe9tjd7dtaGbLapOZY96TmstpaGVj3/38F6epLM8i1mjPIyGIF6f9/M8gIRwXpyGIF6epLGNYG9Vnk/38G/gAAIu4IR7j9//8i7v9/DNIUtDPI/38zyPa4BekIRwXpNp0F6UllM8gUtDPI9rgF6f9/BenqSzPISWUzyLWaM8g2nQXp/38E1BS0GNYG9bLt+Aqy7fgKWeTqS/L7FLTy+whHUtT2uFLU///o4wAA6OP/f///9ri4/Q=="),
+"format": 34896613399,
+"index_count": 156,
+"index_data": PackedByteArray("GAAmACcAGAAoACYAKAABACYAKAAAAAEAKQAYACcAKQAnABkAAwApABkAAwAZAAIABAAaAAYABAAqABoAKgArABoAKgAbACsAGwAHACsAGwAFAAcACAAsAAoACAAtACwALQAcACwALQAuABwALgAvABwALgAdAC8AHQALAC8AHQAJAAsADAAwAA4ADAAeADAAHgAxADAAHgAyADEAMgANADEAMgAPAA0AEwAzADQAEwAQADMAMwAQAB8ANQAQABMANQATACAAEAA2ADcAEAA4ADYAEAA1ADgANgA4ABIAOAA1ADkAOQA1ABEAOAA5ACEAOgA7ACUAOgA8ADsAOwA8ABYAPQA8ADoAPQA6ABQAPAAVACQAPAA+ABUAPAA9AD4AFQA+AD8APgA9ABcAFwA9ACIAPgAXACMA"),
+"lods": [0.07504134, PackedByteArray("GAABABkAGAAAAAEAAwAYABkAAwAZAAIABAAaAAYABAAbABoAGwAHABoAGwAFAAcACAAcAAoACAAdABwAHQALABwAHQAJAAsADAAeAA4AHgANAA4AHgAPAA0AEwAQAB8AIAAQABMAEAAgACEAIQAgABEAEAAhABIAFwAUACIAIwAUABcAJAAUACMAJAAjABUAFAAkACUAJQAkABYA"), 0.24345993, PackedByteArray("AAABAAIAAwAAAAIABAAFAAYABQAHAAYACAAJAAoACQALAAoADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFQAUABcA")],
+"material": SubResource("StandardMaterial3D_hde2r"),
+"name": "WoodDark",
+"primitive": 3,
+"uv_scale": Vector4(0.42653096, 2.4375, 0, 0),
+"vertex_count": 64,
+"vertex_data": PackedByteArray("pOYAADEwcQLY3f//CDdxAiYi//8IN3ECWhkAADEwcQKk5gAAMTBt26TmAADNz6mk2N3//wg3bdvY3f//9sippKTmAADNz6GkWhkAAM3PoaTY3f//9sihpCYi///2yKGkWhkAAM3PjwEmIv//CDf1ASYi///2yI8BWhkAADEw9QEmIv//CDf/v9jd///2yP+/JiL///bI/7/Y3f//CDf/v1oZAAAxMP8/pOYAAM3P/z+k5gAAMTD/P1oZAADNz/8//38AAAAAcQLqS///jxZhAgb1///1ZSrJ//8AAHqc5rb/f///BvVwgghHAABS83GSAAAAAHqchQHqS///jxb/vwb1///1Zf+//3///wb1/78AAAAAepz/PwhHAABS8/8///8AAHqc/z//fwAAAAD/PxS0//+PFmEC/3////gKcQL2uAAArQxhAghHAACtDGEC//8AAIRjKskG9f//CZrmthS0//9v6XGS9rgAAFLzcZL/fwAA//9wgupL//9v6XGS+Ar//wmahQH4Cv//9WXoAQAAAACEY+gB/3////gK/78UtP//jxb/vwb1//8Jmv+/+Ar//wma/7/4Cv//9WX/v+pL//9v6f+/FLT//2/p/78IRwAArQz/P/a4AACtDP8///8AAIRj/z8AAAAAhGP/P/9/AAD///8/9rgAAFLz/z/31aaA99WmgFf/91VX//dV24WZApaLcgbbhZkClotyBgOKJwgmiPr1A4onCCaI+vW7/eEoL/4oVbv94Sgv/ihV/v//f/7//3/+//9/////fwAA/38AAP9/AAD/fwAA/3////9/Sf+iZ4qG5wIZiIEE////f3mON+7l/ds3/v//f/7//3////9/AAD/fwAA/38AAP9/AAD/f6LntYD///9/oue1gEn/omeKhucCGYiBBMeReQ7HkXkO////f3mON+7l/ds3UP5GRlD+Rkb///9//v//f////3/+//9//v//f////3/+//9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_b1ryc")
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_kmen5"]
 height = 0.5
 radius = 0.35
 
-[node name="stump_seat" type="StaticBody3D" unique_id=1959343986]
+[node name="stump_seat" type="StaticBody3D" unique_id=411997493]
 collision_mask = 0
 
-[node name="Model" type="Node3D" parent="." unique_id=1215752656 instance=ExtResource("1_0lfhw")]
+[node name="Model" parent="." unique_id=1215752656 instance=ExtResource("1_j4h1g")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=598759715]
+[node name="stump_seat" type="MeshInstance3D" parent="Model" unique_id=1521992515]
+mesh = SubResource("ArrayMesh_1jcas")
+surface_material_override/0 = ExtResource("2_0tx8k")
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1719014445]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
-shape = SubResource("CylinderShape3D_0tx8k")
+shape = SubResource("CylinderShape3D_kmen5")
 
-[node name="Prop" type="Node" parent="." unique_id=656441689]
-script = ExtResource("2_j4h1g")
+[node name="Prop" type="Node" parent="." unique_id=2030040818]
+script = ExtResource("3_kbp0p")
 prop_id = &"stump_seat"
 inspect_line = &"ch6_insp_stump"
 tags = PackedStringArray("seat", "yard")
 use_verb = "Sit down"
+
+[editable path="Model"]

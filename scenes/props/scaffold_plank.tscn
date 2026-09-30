@@ -1,12 +1,51 @@
-[gd_scene format=3]
+[gd_scene format=4]
 
-[ext_resource type="PackedScene" path="res://props/scaffold_plank.glb" id="1_5gts5"]
-[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_x3rif"]
+[ext_resource type="PackedScene" path="res://props/scaffold_plank.glb" id="1_x3rif"]
+[ext_resource type="Material" path="res://materials/Lumber.tres" id="2_i1jri"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="3_y8bef"]
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_i1jri"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_inuou"]
+resource_name = "Lumber"
+cull_mode = 2
+albedo_color = Color(0.9309246, 0.8433892, 0.6799757, 1)
+roughness = 0.75
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_85bu4"]
+_surfaces = [{
+"aabb": AABB(-1.2, 0, -0.12, 2.4, 0.05, 0.24),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAACAAEAAwAEAAEABQAAAAIAAwAAAAUABAAGAAIABQACAAYAAwAHAAQAAwAFAAcABwAGAAQABwAFAAYA"),
+"name": "Lumber",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAD/////AAAAAP//AAD//wAA////////AAD//wAAAAAAAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_enxfj"]
+resource_name = "scaffold_plank_scaffold_plank"
+_surfaces = [{
+"aabb": AABB(-1.2, 0, -0.12, 2.4, 0.05, 0.24),
+"attribute_data": PackedByteArray("MnNI8syMkewyc5HszIxI8gAASPL//5HsAACR7P//SPLMjEjyMnOR7MyMkewyc0jy//9I8gAAkez//5HsAABI8gAAkeT///////+R5AAA/////5HkAAD//wAAkeT/////"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA"),
+"material": SubResource("StandardMaterial3D_inuou"),
+"name": "Lumber",
+"primitive": 3,
+"uv_scale": Vector4(2.4, 2.24, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAD//wAAAAD//wAAAAAAAP//AAAAAP+//////////7//////AAD/v///AAD///+///8AAP//AIAAAP////8AgP///////wCAAAAAAP//AIAAAAAAAAD/P///AAD///8///8AAAAA/z8AAAAA////P/////8AAP+/AAD//////78AAP//AAD/v/////////+//z//f/8//3//P/9//z//f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA/3////9/////f////3///wAA/38AAP9/AAD/fwAA/3////9/////f////3////9/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_85bu4")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_mk8sy"]
 size = Vector3(2.4, 0.05, 0.24)
 
-[node name="scaffold_plank" type="RigidBody3D" unique_id=1265492551]
+[node name="scaffold_plank" type="RigidBody3D" unique_id=883547775]
 collision_layer = 16
 collision_mask = 31
 mass = 12.0
@@ -14,14 +53,20 @@ sleeping = true
 linear_damp = 0.15
 angular_damp = 0.4
 
-[node name="Model" type="Node3D" parent="." unique_id=358588899 instance=ExtResource("1_5gts5")]
+[node name="Model" parent="." unique_id=358588899 instance=ExtResource("1_x3rif")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=203236146]
+[node name="scaffold_plank" type="MeshInstance3D" parent="Model" unique_id=636822174]
+mesh = SubResource("ArrayMesh_enxfj")
+surface_material_override/0 = ExtResource("2_i1jri")
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=583091211]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.025, 0)
-shape = SubResource("BoxShape3D_i1jri")
+shape = SubResource("BoxShape3D_mk8sy")
 
-[node name="Prop" type="Node" parent="." unique_id=2096610304]
-script = ExtResource("2_x3rif")
+[node name="Prop" type="Node" parent="." unique_id=1949342945]
+script = ExtResource("3_y8bef")
 prop_id = &"scaffold_plank"
 grab_class = "medium"
 tags = PackedStringArray("plank", "yard")
+
+[editable path="Model"]

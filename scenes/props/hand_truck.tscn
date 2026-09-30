@@ -1,12 +1,113 @@
-[gd_scene format=3]
+[gd_scene format=4]
 
-[ext_resource type="PackedScene" path="res://props/hand_truck.glb" id="1_ini62"]
-[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_yyt72"]
+[ext_resource type="PackedScene" path="res://props/hand_truck.glb" id="1_cd54d"]
+[ext_resource type="Material" path="res://materials/PaintRed.tres" id="2_50ubb"]
+[ext_resource type="Material" path="res://materials/SteelGalv.tres" id="3_7tj5n"]
+[ext_resource type="Material" path="res://materials/Rubber.tres" id="4_5r7cs"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="5_y81fm"]
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_0f677"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b7lbt"]
+resource_name = "PaintRed"
+cull_mode = 2
+albedo_color = Color(0.88082504, 0.3133042, 0.2716998, 1)
+metallic = 0.2
+roughness = 0.45
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jsqb1"]
+resource_name = "SteelGalv"
+cull_mode = 2
+albedo_color = Color(0.85430586, 0.86504203, 0.8756056, 1)
+metallic = 0.9
+roughness = 0.55
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u7bmy"]
+resource_name = "Rubber"
+cull_mode = 2
+albedo_color = Color(0.2716998, 0.2716998, 0.2716998, 1)
+roughness = 0.85
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_6nbqe"]
+_surfaces = [{
+"aabb": AABB(-0.19500001, 0.050000012, 0.025, 0.39000002, 1.1000001, 0.050000004),
+"format": 34896613377,
+"index_count": 72,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAACAAEAAwAEAAEABQAAAAIAAwAAAAUABAAGAAIABQACAAYAAwAHAAQAAwAFAAcABwAGAAQABwAFAAYACAAJAAoACAALAAkADAAKAAkACwAMAAkADQAIAAoACwAIAA0ADAAOAAoADQAKAA4ACwAPAAwACwANAA8ADwAOAAwADwANAA4A"),
+"name": "PaintRed",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 16,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAADRIP//AAAAANEgAAD//wAA0SD/////AADRIAAAAAAAAC3fAAD//wAALd///wAAAAAt3/////8AAC3fAAAAAAAA/////wAAAAD//wAA//8AAP///////wAA//8AAAAAAAA=")
+}, {
+"aabb": AABB(-0.2, 0.049999997, -0.27, 0.4, 0.020000003, 0.3),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAACAAEAAwAEAAEABQAAAAIAAwAAAAUABAAGAAIABQACAAYAAwAHAAQAAwAFAAcABwAGAAQABwAFAAYA"),
+"name": "SteelGalv",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAD/////AAAAAP//AAD//wAA////////AAD//wAAAAAAAA==")
+}, {
+"aabb": AABB(-0.265, 0, -0.06, 0.53, 0.22, 0.22),
+"format": 34896613377,
+"index_count": 264,
+"index_data": PackedByteArray("EAAaABsAEAAcABoAAQAbABoAHAABABoAHQAQABsAHQAcABAAHQAbABEAGwACABEAAQACABsABAAdABEABAARAAIAHgAdAAQAHgAEAAIAHgACAB8ABwAeAB8AAgAGAB8ABwAfAAYAIAAeAAcAIAAdAB4AIAAHAAYAAgAhAAYAAgABACEAIAAGABMABgAhABMAFAAgABMAFAATACEAIgAdACAAHQAiABwAIwAgABQAIwAUACEAIgAgACMAHAAAAAEAHAAiAAAAAAAkAAEAAAAiACQABQABACQAIQABAAUAIgAFACQAIwAhABIAIQAFABIAIgAjAAMAIgADAAUAAwAjABIAAwASAAUACAAlAAoAGAAIAAoAGAAKACYAJQAmAAoAJwAIABgAJwAYACYACAAoACUAKAAMACUACAAJACgAKAAJAAwAKQAlAAwACQApAAwAKQAmACUAJwAmABcACQAqACkAGQAnABcACQArACoACAArAAkAKgAVACkAKgArABUADQAIACcADQAnABkADQArAAgAGQAXACwAJgAsABcADQAZACwAJgAtACwAJgApAC0ADQAsAA8ALAAtAA8ALgANAA8ALgAPAC0ACwANAC4ACwAuAC0AKwANAAsACwAtAA4AKwALABYAFgALAA4ALQAvAA4AFgAOAC8ALQApAC8AKwAWAC8ALwApABUAKwAvABUA"),
+"lods": [0.024662374, PackedByteArray("EAABABEABAAQABEABAARAAIAAQACABEABwAQAAQABAACAAYABwAEAAYAAgASAAYAAgABABIABwAGABMABgASABMAFAAHABMAFAATABIAAwAHABQAAwAQAAcAAwAUABIAEAAAAAEAEAADAAAAAAADAAEAAwAFAAEAEgABAAUAAwASAAUACAAJAAoACQAMAAoACQAVAAwACAAWAAkACQAWABUADgAMABUAFgAOABUADAAXAAoAFwAMAA4AGAAIAAoAGAAKABcADQAWAAgADQAIABgAFgALAA4AFgANAAsACwANAA4AFwAOAA8ADQAPAA4AGQAYABcADQAYABkAGQAXAA8ADQAZAA8A"), 0.07427679, PackedByteArray("AAABAAIAAAADAAEABAAAAAIAAwAFAAEAAgABAAUABAACAAYAAgAFAAYABwAAAAQAAwAAAAcABwAEAAYAAwAHAAUABwAGAAUACAAJAAoACAALAAkACQALAAwACQAMAAoADQALAAgADQAIAAoACwAOAAwACwANAA4ACgAMAA4ADQAPAA4ACgAOAA8ADQAKAA8A")],
+"name": "Rubber",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 48,
+"vertex_data": PackedByteArray("AAAmEf8/AAAmGCYR/z8AACYY2O7/PwAAAAAmEf+/AAAAANju/z8AACYYJhH/vwAAJhjY7v+/AAAAANju/78AANjnJhH/PwAA2OcmEf+/AAD//yYR/z8AANjn2O7/vwAA//8mEf+/AADY59ju/z8AAP//2O7/vwAA///Y7v8/AAAAAP9/AAAAACYY/78mEQAAJhj/P9juAAAmGP+/2O4AAAAA/3///wAA////f///AADY5/+/2O4AAP///38AAAAA2Of/PyYRAADY5/+/JhEAACYY/z8mEQAAJhj/fwAAAAAAAP8/JhEAAAAA/78mEQAAAAD///9/AAAmGP///38AAAAA/7/Y7gAAJhj/f///AAAAAAAA/38AAAAA/z/Y7gAAJhgAAP9/AAD//wAA/38AAP///z8mEQAA2Of/fwAAAADY5wAA/38AAP///z/Y7gAA2Of/P9juAADY5/9///8AAP///78mEQAA//////9/AADY5////38AAP///7/Y7gAA")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_iudlm"]
+resource_name = "hand_truck_hand_truck"
+_surfaces = [{
+"aabb": AABB(-0.19500001, 0.050000012, 0.025, 0.39000002, 1.1000001, 0.050000004),
+"attribute_data": PackedByteArray("xE4c8ZZvI27ETiNulm8c8QAAHPHRICNuAAAjbtEgHPGWbxzxxE4jbpZvI27EThzx0SAc8QAAI27RICNuAAAc8QAACvrRIP//0SAK+gAA///RIAr6AAD//wAACvrRIP//xE4c8ZZvI27ETiNulm8c8S3fHPH//yNuLd8jbv//HPGWbxzxxE4jbpZvI27EThzx//8c8S3fI27//yNuLd8c8S3fCvr///////8K+i3f/////wr6Ld///y3fCvr/////"),
+"format": 34896613399,
+"index_count": 72,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUAGAAZABoAGAAbABkAHAAdAB4AHAAfAB0AIAAhACIAIAAjACEAJAAlACYAJAAnACUAKAApACoAKAArACkALAAtAC4ALAAvAC0A"),
+"material": SubResource("StandardMaterial3D_b7lbt"),
+"name": "PaintRed",
+"primitive": 3,
+"uv_scale": Vector4(0.39000002, 2.15, 0, 0),
+"vertex_count": 48,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAAAAAAAAAAAANEg//8AAAAAAAD//wAAAADRIAAAAAAAANEgAAAAAP+/0SD//////7/RIP//AAD/v9EgAAD///+/0SAAAP//AIAAAP////8AgNEg/////wCAAAAAAP//AIAAAAAAAAD/P9EgAAD///8/0SAAAAAA/z8AAAAA////P9Eg//8AAP+/AAD//////78AAP//AAD/v9Eg//////+/Ld8AAP//AAAt3///AAAAAC3f/////wAALd8AAAAAAAAt3wAAAAAAAP////8AAAAALd///wAAAAD//wAAAAAAAP//AAAAAP+//////////7//////AAD/v///AAD///+///8AAP//AIAt3/////8AgP///////wCALd8AAP//AIAt3wAAAAD/P///AAD///8///8AAAAA/z8t3wAA////P/////8AAP+/Ld///////78t3///AAD/v/////////+//z//f/8//3//P/9//z//f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA/3////9/////f////3///wAA/38AAP9/AAD/fwAA/3////9/////f////3////9//z//f/8//3//P/9//z//f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA/3////9/////f////3///wAA/38AAP9/AAD/fwAA/3////9/////f////3////9/")
+}, {
+"aabb": AABB(-0.2, 0.049999997, -0.27, 0.4, 0.020000003, 0.3),
+"attribute_data": PackedByteArray("xnEN9v//kfPGcZHz//8N9i8hDfbP3pHzLyGR88/eDfb//w32xnGR8///kfPGcQ32z94N9i8hkfPP3pHzLyEN9i8ht9rP3v//z9632i8h///P3rfaLyH//y8ht9rP3v//"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA"),
+"material": SubResource("StandardMaterial3D_jsqb1"),
+"name": "SteelGalv",
+"primitive": 3,
+"uv_scale": Vector4(0.54, 2.06, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAD//wAAAAD//wAAAAAAAP//AAAAAP+//////////7//////AAD/v///AAD///+///8AAP//AIAAAP////8AgP///////wCAAAAAAP//AIAAAAAAAAD/P///AAD///8///8AAAAA/z8AAAAA////P/////8AAP+/AAD//////78AAP//AAD/v/////////+//z//f/8//3//P/9//z//f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA/3////9/////f////3///wAA/38AAP9/AAD/fwAA/3////9/////f////3////9/")
+}, {
+"aabb": AABB(-0.265, 0, -0.06, 0.53, 0.22, 0.22),
+"attribute_data": PackedByteArray("AACp5iYYqeYmGFq+AABavtjnuejY5/////+56P////8AALnoAAD//yYYuegmGP//2Oep5tjnWr7//6nm//9avgAAqeYAAFq+Jhip5iYYWr4AAP//AAC56CYY//8mGLnoaYJavkhNqeZITVq+aYKp5khNWr5pgqnmaYJavkhNqebY5///2Oe56P///////7noaYKp5khNWr5pglq+SE2p5tjnWr7//6nm//9avtjnqeZpgqnmSE1avkhNqeZpglq+AACC0iYY38b//4LS2OffxiYYJd4AAILSJhjfxtjnJd7//4LS2OffxtU5Jd7VOd/G3JXfxvqcgtK3MoLS+pyC0rcygtLclSXe3JXfxtU538YmGCXeJhiC0gAAJd4AAN/G//9c9NjnXPQmGFz0AABc9NjnJd7//yXe2OeC0v//38YAACXeJhiC0gAA38b//yXe2OeC0v//38YmGFz0AABc9PqcgtLclSXe2GfI6bcygtLYZzy73JXfxtyVJd7YZ8jp2Gc8u9U538bVOSXe//9c9NjnXPTVOSXe2GfI6dyVJd7VOd/G2Gc8u9yV38a3MoLS2Gc8u9U5Jd7YZ8jp+pyC0g=="),
+"format": 34896613399,
+"index_count": 264,
+"index_data": PackedByteArray("MABEAEUAMABGAEQARgABAEQARgAAAAEARwAwAEUARwBFADEAAwBHADEAAwAxAAIABABIAAYABABJAEgASQAHAEgASQAFAAcACABKAAoACABLAEoASwALAEoASwAJAAsATAAyAE0ADABMAE0ADABNAA4ATABOADIATgBPADIATgAzAE8AMwAPAE8AMwANAA8AEAA0ABIAEABQADQAUABRADQAUAA1AFEANQA2AFEANQBSADYAUgATADYAUgARABMANwApAFMANwArACkAVAA3AFMAVABTADgAOQBUADgAOQA4AFUAKAA5AFUAKABVACoAFABWABYAFABXAFYAVwAXAFYAVwAVABcAGwBYAFkAGwAYAFgAWAAYADwAGQAbAFoAWwAbABkAGAAbAFsAWwAZADoAGABbABoAGgBbADsAGAAaAFwAXQBeAD0AXQBfAF4AXgBfAB0AYABdAB4AYQBdAGAAXwBdAGEAYQBgABwAXwBhAGIAYgBhAD4AXwBiAB8AIABjACIAIABkAGMAZAAjAGMAZAAhACMAZQBmACcAZQBnAGYAZgBnACQAaABlAEAAaQBlAGgAZwBlAGkAaQBoACUAZwBpAGoAagBpACYAZwBqAD8AawAtAEMAawAvAC0ALQAvAGwALgBrAG0ALABrAC4ALwBrACwALAAuAG4ALwAsAG8AbwAsAEEALwBvAEIA"),
+"lods": [0.024662374, PackedByteArray("MAABADEAMAAAAAEAAwAwADEAAwAxAAIABAAFAAYABQAHAAYACAAJAAoACQALAAoADAAyAA4ADAAzADIAMwAPADIAMwANAA8AEAA0ABIAEAA1ADQANQA2ADQANQARADYAEQATADYANwApADgANwArACkAOQA3ADgAOQA4ACoAKAA5ACoAFAAVABYAFQAXABYAGgA6ADsAGAA6ABoAGAAbADoAOgAbABkAGwAYADwAPQAfAB0AHwA9ABwAHAA9AB4AHwAcAD4AIAAhACIAIQAjACIAJwA/ACQAPwAnACUAJQAnAEAAPwAlACYALwBBAEIALwAsAEEALwBDACwALABDAC4AQwAvAC0A"), 0.07427679, PackedByteArray("AAABAAIAAwAAAAIABAAFAAYABQAHAAYACAAJAAoACQALAAoADAANAA4ADQAPAA4AEAARABIAEQATABIAFAAVABYAFQAXABYAGAAZABoAGAAbABkAHAAdAB4AHwAdABwAIAAhACIAIQAjACIAJAAlACYAJAAnACUAKAApACoAKAArACkALAAtAC4ALwAtACwA")],
+"material": SubResource("StandardMaterial3D_u7bmy"),
+"name": "Rubber",
+"primitive": 3,
+"uv_scale": Vector4(1.06, 2.42, 0, 0),
+"vertex_count": 112,
+"vertex_data": PackedByteArray("AAAmEf8/qiomGCYR/z+qKiYY2O7/P6oqAADY7v8/qirY5yYR/z+qKtjnJhH/v1VV//8mEf8/qir//yYR/79VVQAAJhH/P6oqAAAmEf+/VVUmGCYR/z+qKiYYJhH/v1VV2OcmEf+/qarY59ju/7+pqv//JhH/v6mq///Y7v+/qaoAACYR/7+pqgAA2O7/v6mqJhgmEf+/qaomGNju/7+pqgAA2O7/v6mqAADY7v8/VNUmGNju/7+pqiYY2O7/P1TVJhjY7v8//78mGCYR/7//vyYY2O7/v/+/JhgmEf8//78AANju/78AAAAAJhH/PwAAAADY7v8/AAAAACYR/78AANjn2O7/v6mq2OfY7v8/VNX//9ju/7+pqv//2O7/P1TV//8mEf8//7///9ju/7//v///2O7/P/+///8mEf+//7/Y59ju/z+qKv//JhH/P6oq///Y7v8/qirY5yYR/z+qKtjnJhH/PwAA2OfY7v+/AADY5yYR/78AANjn2O7/PwAAAAD/fwAAAAAmGP+/JhFVFf///3///wCA2Of/v9juVJUmGP8/2O5UlQAA/3///wCAJhj/v9juVJXY5/8/JhFVFf///38AAAAA2Of/vyYRVRUmGP8/2O7/vyYY/7/Y7v+/Jhj/vyYR/78AAP9/AAAAAAAA/3///wAA////fwAA/7////9/////v9jn/z8mEQAA2Of/vyYRAADY5/+/2O4AACYY/z8mEVUVJhj/fwAAAAAAAP8/JhFVFQAA/78mEVUV//8AAP9//z/Y5wAA/3//PyYYAAD/f/8/AAAAAP9//z/Y5/8/2O5Ulf///z/Y7lSV2Of/f///AID///+/2O5UlQAA/z/Y7lSVJhj/f///AIAAAP+/2O5Ulf///z8mEVUV2Of/fwAAAAD///+/JhFVFSYY////f/+/AAD///9//78mGP9/AAD/vyYY/z8mEf+/JhgAAP9//78mGP9/////vyYY////f/+/AAD/vyYRAAAAAP8/JhEAAAAAAAD/fwAAAAD///9/AAAAAP+/2O4AAAAA/z/Y7gAA//////9//7/Y5////3//v////z/Y7v+///8AAP9//7////8/JhH/v////7/Y7v+///////9//7////+/JhH/v9jn/3///wAA2Of///9/AADY5/8/2O4AANjnAAD/fwAA2Of/fwAAAAAAAP9/AAD/f////3////9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/////fwAA/3////9/AAD/f////38AAP9/////f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA/z//f/8//3//P/9//z//f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA////fwAA/3////9/AAD/f/8//3//P/9//z//f/8//3////9/////f/9///////9/AAD/f/9///////9/AAD/f////3////9//38AAP9/AAD/fwAA/z//f/8//3//fwAA/38AAP8//3//P/9//z//fwAA/3////9/AAD/f////38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/3//f///////fwAA/3//f///////fwAA/3////9/////f////3////9//38AAP9/AAD/fwAA/38AAP9/AAD/P/9//z//f/8//3//P/9//z//f/8//3////9/////f/9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP8//3//P/9//z//f/8//3//P/9/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_6nbqe")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3x22i"]
 size = Vector3(0.53, 1.1500001, 0.43)
 
-[node name="hand_truck" type="RigidBody3D" unique_id=845451202]
+[node name="hand_truck" type="RigidBody3D" unique_id=1264912780]
 collision_layer = 16
 collision_mask = 31
 mass = 12.0
@@ -14,14 +115,22 @@ sleeping = true
 linear_damp = 0.15
 angular_damp = 0.4
 
-[node name="Model" type="Node3D" parent="." unique_id=86589339 instance=ExtResource("1_ini62")]
+[node name="Model" parent="." unique_id=86589339 instance=ExtResource("1_cd54d")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1206626906]
+[node name="hand_truck" type="MeshInstance3D" parent="Model" unique_id=765905591]
+mesh = SubResource("ArrayMesh_iudlm")
+surface_material_override/0 = ExtResource("2_50ubb")
+surface_material_override/1 = ExtResource("3_7tj5n")
+surface_material_override/2 = ExtResource("4_5r7cs")
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=749942871]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.57500005, -0.055000007)
-shape = SubResource("BoxShape3D_0f677")
+shape = SubResource("BoxShape3D_3x22i")
 
-[node name="Prop" type="Node" parent="." unique_id=1780479396]
-script = ExtResource("2_yyt72")
+[node name="Prop" type="Node" parent="." unique_id=11002194]
+script = ExtResource("5_y81fm")
 prop_id = &"hand_truck"
 grab_class = "medium"
 tags = PackedStringArray()
+
+[editable path="Model"]

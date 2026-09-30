@@ -1,12 +1,51 @@
-[gd_scene format=3]
+[gd_scene format=4]
 
-[ext_resource type="PackedScene" path="res://props/yoga_mat.glb" id="1_an7ha"]
-[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_557as"]
+[ext_resource type="PackedScene" path="res://props/yoga_mat.glb" id="1_557as"]
+[ext_resource type="Material" path="res://materials/FabricTeal.tres" id="2_d6rgg"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="3_hqxnm"]
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_d6rgg"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xy2rb"]
+resource_name = "FabricTeal"
+cull_mode = 2
+albedo_color = Color(0.38109186, 0.735357, 0.735357, 1)
+roughness = 0.95
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_q0bno"]
+_surfaces = [{
+"aabb": AABB(-0.31, 0, -0.875, 0.62, 0.012, 1.75),
+"format": 34896613377,
+"index_count": 180,
+"index_data": PackedByteArray("AAABAAIAAAACAAMAAAADAAQAAgAFAAMAAgABAAUAAwAGAAQAAwAFAAYABAAHAAAAAAAHAAEABAAGAAcABgAIAAcACQAHAAgABgAKAAgACAALAAkACAAKAAsADAAJAAsACQAMAAcADQALAAoADQAKAAYADAALAA0ADgANAAYADgAGAA8ABQAPAAYADwAQAA4ADQAOABAADwARABAABQARAA8AEgAQABEAEgARAAUADQAQABIAEwAMAA0AEwANABQAFAANABIAFAAVABMAFQAMABMAFAAWABUAFAASABYAFgAXABUAFQAXAAwAFgASABcAGAASAAUAEgAYABkAEgAZABcAGAAFABoAGgAZABgAAQAaAAUAGgAbABkAAQAbABoAGwAXABkAGwABABcAAQAcABcAFwAcAB0AFwAdAAwAAQAeABwAHgAdABwABwAeAAEADAAdAB8ADAAfAAcAHgAfAB0ABwAfAB4A"),
+"name": "FabricTeal",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 32,
+"vertex_data": PackedByteArray("PQEAAHAAAAA9Af8/jv8AAD0BAACO/wAAwf4AAI7/AADB/gAAcAAAAMH+/z+O/wAAwf7/P3AAAAA9Af8/cAAAAD0B/z8AAAAAPQH/vwAAAADB/v8/AAAAAMH+/78AAAAAPQH/v3AAAADB/v+/cAAAAP///79wAAAA////P3AAAAD///+/jv8AAP///z+O/wAAwf7/v47/AAA9Af//cAAAAMH+//9wAAAAPQH//47/AADB/v//jv8AAD0B/7+O/wAAwf7/v///AAA9Af+///8AAMH+/z///wAAPQH/P///AAAAAP+/jv8AAAAA/79wAAAAAAD/P47/AAAAAP8/cAAAAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_16yer"]
+resource_name = "yoga_mat_yoga_mat"
+_surfaces = [{
+"aabb": AABB(-0.31, 0, -0.875, 0.62, 0.012, 1.75),
+"attribute_data": PackedByteArray("jv8hvXAA5rxwACG9jv/mvP//cbz//+a8jv9xvHAANryO/za8cABxvAAA5rwAAHG8FlN+eqZSxP8WU8T/plJ+ehZT///orP//6KzE/1itxP9YrX566Kx+ehZTRHrorER6FlPmvKZScbwWU3G8plLmvOisNrwWUza86KxxvFitcbxYrea86KzmvBZTIb3orCG9FlPE/6ZSfnoWU356plLE/xZTRHrorER66Kx+elitfnpYrcT/6KzE/xZT///orP//FlNxvKZS5rwWU+a8plJxvOisIb0WUyG96KzmvFitcbxYrea86KxxvBZTNrzorDa8jv9xvP//5ryO/+a8//9xvHAAIb2O/yG9cADmvAAAcbwAAOa8cABxvI7/NrxwADa8FlN+euisxP/orH56FlPE/3AA5ryO/3G8cABxvI7/5rzorOa8FlNxvOiscbwWU+a86Kx+ehZTxP8WU3566KzE/xZT5rzorHG8FlNxvOis5ryO/+a8cABxvI7/cbxwAOa8"),
+"format": 34896613399,
+"index_count": 180,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAADAAUABAAGAAMABwAGAAgABwAJAAYACgABAAkACgAJAAsADAANAA4ADAAPAA0ADgAQABEADgARABIAEgATABQAEgAUABUAFQAWAAwAFQAXABYAGAAZABoAGAAbABkAHAAaAB0AHAAeABoAHgAfACAAHgAgACEAIgAYACEAIgAhACMAJAAlACYAJAAnACUAJgAoACkAJgApACoAKgArACwAKgAsAC0ALQAuACQALQAvAC4AMAAxADIAMAAzADEANAAyADUANAA2ADIANwA2ADgANwA5ADYAOgAwADkAOgA5ADsAPAA9AD4APAA/AD0AQAA+AEEAQABCAD4AQwBCAEQAQwBFAEIARgA8AEUARgBFAEcASABJAEoASABLAEkATABNAE4ATABPAE0AUABRAFIAUABTAFEAVABVAFYAVABXAFUAWABZAFoAWABbAFkAXABdAF4AXABfAF0A"),
+"material": SubResource("StandardMaterial3D_xy2rb"),
+"name": "FabricTeal",
+"primitive": 3,
+"uv_scale": Vector4(2.1875, 4.1875, 0, 0),
+"vertex_count": 96,
+"vertex_data": PackedByteArray("PQEAAHAAAAA9Af8/jv8AAD0BAACO/wAAPQH/P3AAAAA9Af+/AAAAAD0B/z8AAAAAPQH/v3AAAAA9Af//jv8AAD0B//9wAAAAPQH/v47/AAA9Af8///8AAD0B/7///wAAPQH/P3AA/z8AAP8/jv//Pz0B/z+O//8/AAD/P3AA/z89Af8/////P8H+/z////8/wf7/P47//z////8/jv//P////z9wAP8/wf7/P3AA/z89Af8/AAD/P8H+/z8AAP8/PQH/P47/AIAAAP+/jv8AgD0B/7+O/wCAAAD/P47/AIDB/v//jv8AgD0B//+O/wCAwf7/v47/AID///+/jv8AgP///z+O/wCAwf7/P47/AIA9AQAAjv8AgMH+AACO/wCAPQH/v47//78AAP+/cAD/vz0B/79wAP+/AAD/v47//789Af+/AAD/v8H+/78AAP+/wf7/v3AA/7////+/cAD/v////7+O//+/wf7/v47//789Af+/////v8H+/7////+/PQH/v3AAAAAAAP8/cAAAAD0B/z9wAAAAAAD/v3AAAADB/gAAcAAAAD0BAABwAAAAwf7/P3AAAAD///+/cAAAAP///z9wAAAAwf7/v3AAAAA9Af//cAAAAMH+//9wAAAAwf7/v3AA/7/B/v8/AAD/v8H+/z9wAP+/wf7/vwAA/7/B/gAAjv//v8H+AABwAP+/wf7/P47//7/B/v+/////v8H+/z////+/wf7/v47//7/B/v//cAD/v8H+//+O//+/PQEAAHAA/z/B/gAAjv//P8H+AABwAP8/PQEAAI7//z8AAP8/jv8AAAAA/79wAAAAAAD/v47/AAAAAP8/cAAAAMH+/z///wCAPQH/v///AIDB/v+///8AgD0B/z///wCAwf7//3AA/789Af//jv//vz0B//9wAP+/wf7//47//789Af8/AAAAAMH+/78AAAAAPQH/vwAAAADB/v8/AAAAAP///z9wAP+/////v47//7////+/cAD/v////z+O//+//z//f/8//3//P/9//z//f/8//3//P/9//z//f/8//3//P/9//z//f/8//3//P/9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9//3////9/////f////3////9/////f////3////9/////f////3////9/////f///////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9//38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAAAAD/fwAA/38AAP9/AAD/f/8//3//P/9//z//f/8//3//f////3////9/////f///////f////3////9/////f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_q0bno")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_mck0g"]
 size = Vector3(0.62, 0.012, 1.75)
 
-[node name="yoga_mat" type="RigidBody3D" unique_id=21909572]
+[node name="yoga_mat" type="RigidBody3D" unique_id=1493654831]
 collision_layer = 16
 collision_mask = 31
 mass = 1.2
@@ -14,15 +53,21 @@ sleeping = true
 linear_damp = 0.15
 angular_damp = 0.4
 
-[node name="Model" type="Node3D" parent="." unique_id=1633266168 instance=ExtResource("1_an7ha")]
+[node name="Model" parent="." unique_id=1633266168 instance=ExtResource("1_557as")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=2132260974]
+[node name="yoga_mat" type="MeshInstance3D" parent="Model" unique_id=1480550501]
+mesh = SubResource("ArrayMesh_16yer")
+surface_material_override/0 = ExtResource("2_d6rgg")
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=234411174]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.006, 0)
-shape = SubResource("BoxShape3D_d6rgg")
+shape = SubResource("BoxShape3D_mck0g")
 
-[node name="Prop" type="Node" parent="." unique_id=1167072046]
-script = ExtResource("2_557as")
+[node name="Prop" type="Node" parent="." unique_id=159496880]
+script = ExtResource("3_hqxnm")
 prop_id = &"yoga_mat"
 grab_class = "light"
 inspect_line = &"ch4_insp_mat"
 tags = PackedStringArray()
+
+[editable path="Model"]

@@ -1,12 +1,81 @@
-[gd_scene format=3]
+[gd_scene format=4]
 
-[ext_resource type="PackedScene" path="res://props/phone_selfie.glb" id="1_bfebn"]
-[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_j6pq7"]
+[ext_resource type="PackedScene" path="res://props/phone_selfie.glb" id="1_nu4uh"]
+[ext_resource type="Material" path="res://materials/PaintBlack.tres" id="2_rxl87"]
+[ext_resource type="Material" path="res://materials/PlasticBlack.tres" id="3_f6qi1"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="4_lase7"]
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_nu4uh"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pvndp"]
+resource_name = "PaintBlack"
+cull_mode = 2
+albedo_color = Color(0.24780053, 0.24780053, 0.2716998, 1)
+metallic = 0.2
+roughness = 0.5
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xfiwx"]
+resource_name = "PlasticBlack"
+cull_mode = 2
+albedo_color = Color(0.22091636, 0.22091636, 0.24780053, 1)
+roughness = 0.4
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_1c3ep"]
+_surfaces = [{
+"aabb": AABB(-0.0375, 0, -0.075, 0.075, 0.009, 0.15),
+"format": 34896613377,
+"index_count": 180,
+"index_data": PackedByteArray("AAABAAIAAAACAAMAAAADAAQAAgAFAAMAAgABAAUAAwAGAAQAAwAFAAYABAAHAAAAAAAHAAEABAAGAAcABgAIAAcACQAHAAgABgAKAAgACAALAAkACAAKAAsADAAJAAsACQAMAAcADQALAAoADQAKAAYADAALAA0ADgANAAYADgAGAA8ABQAPAAYADwAQAA4ADQAOABAADwARABAABQARAA8AEgAQABEAEgARAAUADQAQABIAEwAMAA0AEwANABQAFAANABIAFAAVABMAFQAMABMAFAAWABUAFAASABYAFgAXABUAFQAXAAwAFgASABcAGAASAAUAEgAYABkAEgAZABcAGAAFABoAGgAZABgAAQAaAAUAGgAbABkAAQAbABoAGwAXABkAGwABABcAAQAcABcAFwAcAB0AFwAdAAwAAQAeABwAHgAdABwABwAeAAEADAAdAB8ADAAfAAcAHgAfAB0ABwAfAB4A"),
+"name": "PaintBlack",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 32,
+"vertex_data": PackedByteArray("0g0AAOkGAADSDTJzFfkAANINAAAV+QAALPIAABX5AAAs8gAA6QYAACzyMnMV+QAALPIyc+kGAADSDTJz6QYAANINMnMAAAAA0g3MjAAAAAAs8jJzAAAAACzyzIwAAAAA0g3MjOkGAAAs8syM6QYAAP//zIzpBgAA//8yc+kGAAD//8yMFfkAAP//MnMV+QAALPLMjBX5AADSDf//6QYAACzy///pBgAA0g3//xX5AAAs8v//FfkAANINzIwV+QAALPLMjP//AADSDcyM//8AACzyMnP//wAA0g0yc///AAAAAMyMFfkAAAAAzIzpBgAAAAAycxX5AAAAADJz6QYAAA==")
+}, {
+"aabb": AABB(-0.008, -0.00736207, 0.068079464, 0.014472136, 0.07472414, 0.23384109),
+"format": 34896613377,
+"index_count": 48,
+"index_data": PackedByteArray("AAABAAIAAgABAAMAAAAEAAEABAADAAEABQAAAAIAAgADAAUABgAEAAAABQAGAAAABgAHAAQABgAFAAgACAAHAAYABQADAAkABQAJAAgABAAJAAMACAAJAAcACQAEAAcA"),
+"name": "PlasticBlack",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 10,
+"vertex_data": PackedByteArray("yGEAADQEAAD//y/XMf8AAP//oglmAwAA//9c9pj8AADIYY3N//8AAP//zyjNAAAAAAA4GRoCAAAAAMbm5P0AAMhhcTIAAAAAyGH//8r7AAA=")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_c6g5d"]
+resource_name = "phone_selfie_phone_selfie"
+_surfaces = [{
+"aabb": AABB(-0.0375, 0, -0.075, 0.075, 0.009, 0.15),
+"attribute_data": PackedByteArray("FfkQ9+kGlfbpBhD3FfmV9v//evb//5X2Ffl69ukG/vUV+f716QZ69gAAlfYAAHr26Uae7v8/g//pRoP//z+e7ulG//8Vuf//FbmD//+/g///v57uFbme7ulGIu4VuSLu6UaV9v8/evbpRnr2/z+V9hW5/vXpRv71Fbl69v+/evb/v5X2FbmV9ulGEPcVuRD36UaD//8/nu7pRp7u/z+D/+lGIu4VuSLuFbme7v+/nu7/v4P/FbmD/+lG//8Vuf//6UZ69v8/lfbpRpX2/z969hW5EPfpRhD3FbmV9v+/evb/v5X2Fbl69ulG/vUVuf71Ffl69v//lfYV+ZX2//969ukGEPcV+RD36QaV9gAAevYAAJX26QZ69hX5/vXpBv716Uae7hW5g/8VuZ7u6UaD/+kGlfYV+Xr26QZ69hX5lfYVuZX26UZ69hW5evbpRpX2Fbme7ulGg//pRp7uFbmD/+lGlfYVuXr26UZ69hW5lfYV+ZX26QZ69hX5evbpBpX2"),
+"format": 34896613399,
+"index_count": 180,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAADAAUABAAGAAMABwAGAAgABwAJAAYACgABAAkACgAJAAsADAANAA4ADAAPAA0ADgAQABEADgARABIAEgATABQAEgAUABUAFQAWAAwAFQAXABYAGAAZABoAGAAbABkAHAAaAB0AHAAeABoAHgAfACAAHgAgACEAIgAYACEAIgAhACMAJAAlACYAJAAnACUAJgAoACkAJgApACoAKgArACwAKgAsAC0ALQAuACQALQAvAC4AMAAxADIAMAAzADEANAAyADUANAA2ADIANwA2ADgANwA5ADYAOgAwADkAOgA5ADsAPAA9AD4APAA/AD0AQAA+AEEAQABCAD4AQwBCAEQAQwBFAEIARgA8AEUARgBFAEcASABJAEoASABLAEkATABNAE4ATABPAE0AUABRAFIAUABTAFEAVABVAFYAVABXAFUAWABZAFoAWABbAFkAXABdAF4AXABfAF0A"),
+"material": SubResource("StandardMaterial3D_pvndp"),
+"name": "PaintBlack",
+"primitive": 3,
+"uv_scale": Vector4(0.15, 2.15, 0, 0),
+"vertex_count": 96,
+"vertex_data": PackedByteArray("0g0AAOkGAADSDTJzFfkAANINAAAV+QAA0g0yc+kGAADSDcyMAAAAANINMnMAAAAA0g3MjOkGAADSDf//FfkAANIN///pBgAA0g3MjBX5AADSDTJz//8AANINzIz//wAA0g0yc+kG/z8AADJzFfn/P9INMnMV+f8/AAAyc+kG/z/SDTJz////PyzyMnP///8/LPIycxX5/z///zJzFfn/P///MnPpBv8/LPIyc+kG/z/SDTJzAAD/PyzyMnMAAP8/0g0ycxX5AIAAAMyMFfkAgNINzIwV+QCAAAAycxX5AIAs8v//FfkAgNIN//8V+QCALPLMjBX5AID//8yMFfkAgP//MnMV+QCALPIycxX5AIDSDQAAFfkAgCzyAAAV+QCA0g3MjBX5/78AAMyM6Qb/v9INzIzpBv+/AADMjBX5/7/SDcyMAAD/vyzyzIwAAP+/LPLMjOkG/7///8yM6Qb/v///zIwV+f+/LPLMjBX5/7/SDcyM////vyzyzIz///+/0g3MjOkGAAAAADJz6QYAANINMnPpBgAAAADMjOkGAAAs8gAA6QYAANINAADpBgAALPIyc+kGAAD//8yM6QYAAP//MnPpBgAALPLMjOkGAADSDf//6QYAACzy///pBgAALPLMjOkG/78s8jJzAAD/vyzyMnPpBv+/LPLMjAAA/78s8gAAFfn/vyzyAADpBv+/LPIycxX5/78s8syM////vyzyMnP///+/LPLMjBX5/78s8v//6Qb/vyzy//8V+f+/0g0AAOkG/z8s8gAAFfn/PyzyAADpBv8/0g0AABX5/z8AADJzFfkAAAAAzIzpBgAAAADMjBX5AAAAADJz6QYAACzyMnP//wCA0g3MjP//AIAs8syM//8AgNINMnP//wCALPL//+kG/7/SDf//Ffn/v9IN///pBv+/LPL//xX5/7/SDTJzAAAAACzyzIwAAAAA0g3MjAAAAAAs8jJzAAAAAP//MnPpBv+////MjBX5/7///8yM6Qb/v///MnMV+f+//z//f/8//3//P/9//z//f/8//3//P/9//z//f/8//3//P/9//z//f/8//3//P/9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9//3////9/////f////3////9/////f////3////9/////f////3////9/////f///////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9//38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAAAAD/fwAA/38AAP9/AAD/f/8//3//P/9//z//f/8//3//f////3////9/////f///////f////3////9/////f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA")
+}, {
+"aabb": AABB(-0.008, -0.00736207, 0.068079464, 0.014472136, 0.07472414, 0.23384109),
+"attribute_data": PackedByteArray("835i6b2C7P+9gk/p837//5t8UOK9gt3h836W4fN+CeO9gsLiImOW4dAAadxSYlDioAGw2wAAI92BYQnjvYIU6fN+nv/zfgHpvYKw/9FhwuJRAffb02Ld4U8A3NzzfrDb834j3Zt8ady9gvfbvYLc3A=="),
+"format": 34896613399,
+"index_count": 48,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABQAEAAcABQAHAAgACQAKAAsACQAMAAoACwAKAA0ACwANAA4ADwAQABEADwASABAAEwAUABUAEwAWABQAFwAYABkAGAAXABoAGAAaABsA"),
+"material": SubResource("StandardMaterial3D_xfiwx"),
+"name": "PlasticBlack",
+"primitive": 3,
+"uv_scale": Vector4(0.6038411, 2.603841, 0, 0),
+"vertex_count": 28,
+"vertex_data": PackedByteArray("yGEAADQEm0n//y/XMf8aPv//oglmAxo+yGGNzf//m0kAADgZGgJlCv//zyjNAGUKyGFxMgAAZQrIYQAANARlCv//oglmA2UKyGFxMgAAuSEAAMbm5P0AAAAAOBkaAgAAyGH//8r7uSHIYY3N//+6IchhAAA0BLoh///PKM0AX8/IYf//yvvey8hhcTIAAN7L//9c9pj8X8///6IJZgM1vv//XPaY/EfJ///PKM0AR8n//y/XMf81vshh///K+2SKyGGNzf//ZIoAAMbm5P1kiv//XPaY/GSK//8v1zH/ZIpYIVqYNyOkOzcjpDtYIVqYAAD/fwAA/38AAP9/AAD/fwAA/3+03gk4/z//f/8//3+03gk4VFm1XlRZtV46wg1itPgIm7T4CJs6wg1i8mf6M26vfBlur3wZ8mf6M/7//3/+//9/////f/7//3/+//5/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_1c3ep")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_p1jxr"]
 size = Vector3(0.075, 0.07472414, 0.37692058)
 
-[node name="phone_selfie" type="RigidBody3D" unique_id=481830619]
+[node name="phone_selfie" type="RigidBody3D" unique_id=159381929]
 collision_layer = 16
 collision_mask = 31
 mass = 0.3
@@ -14,14 +83,21 @@ sleeping = true
 linear_damp = 0.15
 angular_damp = 0.4
 
-[node name="Model" type="Node3D" parent="." unique_id=1003362935 instance=ExtResource("1_bfebn")]
+[node name="Model" parent="." unique_id=1003362935 instance=ExtResource("1_nu4uh")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1472285546]
+[node name="phone_selfie" type="MeshInstance3D" parent="Model" unique_id=463424756]
+mesh = SubResource("ArrayMesh_c6g5d")
+surface_material_override/0 = ExtResource("2_rxl87")
+surface_material_override/1 = ExtResource("3_f6qi1")
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=1586432382]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.03, 0.11346029)
-shape = SubResource("BoxShape3D_nu4uh")
+shape = SubResource("BoxShape3D_p1jxr")
 
-[node name="Prop" type="Node" parent="." unique_id=1984462732]
-script = ExtResource("2_j6pq7")
+[node name="Prop" type="Node" parent="." unique_id=977187976]
+script = ExtResource("4_lase7")
 prop_id = &"phone_selfie"
 grab_class = "light"
 tags = PackedStringArray("phone")
+
+[editable path="Model"]

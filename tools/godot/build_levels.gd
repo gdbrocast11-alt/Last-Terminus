@@ -170,8 +170,8 @@ func _build(level_name: String) -> void:
 		rp.size = Vector3(pr.mx[0] - pr.mn[0], pr.mx[1] - pr.mn[1], pr.mx[2] - pr.mn[2])
 		rp.update_mode = ReflectionProbe.UPDATE_ONCE
 		rp.box_projection = true
-		rp.interior = true
-		rp.intensity = 0.9
+		rp.interior = bool(pr.get("interior", true))
+		rp.intensity = 0.9 if rp.interior else 1.0
 		root.add_child(rp)
 		rp.position = Vector3((pr.mx[0] + pr.mn[0]) / 2, (pr.mx[1] + pr.mn[1]) / 2, (pr.mx[2] + pr.mn[2]) / 2)
 	for oc in d.occluders:

@@ -41,7 +41,7 @@ for i in range(46):
 lv.light("dir", (0, 30, 60), (1.0, 0.72, 0.45), 1.7, 220.0, True, dir_deg=(-14, 250, 0), name="Sun")
 lv.light("omni", (44, 3.6, -7), (1.0, 0.8, 0.5), 0.5, 8.0, False, name="CrossGlow")
 lv.zone((-110, -0.5, -30), (80, 40, 30), "RevOutdoor", 0.22, "StreetReverb")
-lv.probe((-110, -1, -30), (80, 20, 30))
+lv.probe((-110, -1, -30), (80, 20, 30), interior=False)
 lv.env = {"kind": "exterior_sunset", "sky_top": [0.28, 0.4, 0.75], "sky_horizon": [1.0, 0.68, 0.42], "ambient_energy": 0.8, "fog": 0.004,
           "fog_color": [1.0, 0.75, 0.55], "exposure": 1.0, "sdfgi": True, "vfog": False, "grade": "sunset", "dof": True}
 
@@ -94,7 +94,11 @@ lv.marker("SignB", (62.0, 3.35, 2.8), 90)
 P("bench_street", (58, 0, -8), 0, name="MemorialBench")
 P("tree_street", (70, 0, -14), 0, name="TreeEnd1")
 P("tree_street", (70, 0, 14), 0, name="TreeEnd2")
-P("bus", (-140, 0, 1.8), 90, name="Bus", opts={"nocol": True})
+P("bus", (-140, 0, 1.8), -90, name="Bus", opts={"nocol": True})
+# the sign's three words as separate props (the CCTV bus knocks the outer two off, leaving THE END)
+P("sign_letter_a", (61.7, 2.2, -2.86), 90, name="SignWordA", opts={"nocol": True}, scale=[0.8, 0.8, 0.8])
+P("sign_letter_word", (61.7, 2.2, 0.75), 90, name="SignWordEnd", opts={"nocol": True}, scale=[0.8, 0.8, 0.8])
+P("sign_letter_b", (61.7, 2.2, 3.62), 90, name="SignWordB", opts={"nocol": True}, scale=[0.8, 0.8, 0.8])
 
 # ---- markers
 lv.marker("PlayerStart", (-92.5, 0.2, -5.5), 270)          # outside the apartment doorway, facing +X after a turn
@@ -109,6 +113,6 @@ lv.marker("BusStart", (-110, 0.0, 1.8), 90)
 lv.marker("BusAxleFail", (30, 0.0, 1.8), 90)
 lv.marker("BusEnd", (61.0, 0.0, 0.0), 90)
 lv.marker("CctvCam", (46.6, 6.0, 7.0), 180)
-lv.marker("SignHit", (61.6, 3.0, 0.0), 90)
+lv.marker("SignHit", (61.4, 2.2, 0.0), 90)
 lv.marker("HonkPoint", (10, 1.5, 1.8), 90)
 lv.export()

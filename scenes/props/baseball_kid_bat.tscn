@@ -1,12 +1,53 @@
-[gd_scene format=3]
+[gd_scene format=4]
 
-[ext_resource type="PackedScene" path="res://props/baseball_kid_bat.glb" id="1_ffgc8"]
-[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_21dh8"]
+[ext_resource type="PackedScene" path="res://props/baseball_kid_bat.glb" id="1_21dh8"]
+[ext_resource type="Material" path="res://materials/WoodWarm.tres" id="2_hqb0n"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="3_w1al3"]
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_hqb0n"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kguwv"]
+resource_name = "WoodWarm"
+cull_mode = 2
+albedo_color = Color(0.9309246, 0.7977378, 0.64995646, 1)
+roughness = 0.5
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_nefac"]
+_surfaces = [{
+"aabb": AABB(-0.03, 0.002681898, -0.30043295, 0.06, 0.053295255, 0.6007216),
+"format": 34896613377,
+"index_count": 60,
+"index_data": PackedByteArray("CAACAAAAAAACAAMAAAADAAYABgAIAAAAAgAJAAMABgADAAkACAAKAAIABgAJAAsABQAKAAgABwAIAAYACAAHAAUABwAGAAsACwAJAAQACwAEAAcAAgABAAkAAQACAAoACQABAAQABQABAAoABwAEAAEABwABAAUA"),
+"lods": [0.09254147, PackedByteArray("AAABAAIAAgABAAMAAAACAAMAAwABAAQABQABAAAAAAADAAYABwABAAUAAAAHAAUABwAEAAEABwAAAAYABwADAAQABgADAAcA")],
+"name": "WoodWarm",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 12,
+"vertex_data": PackedByteArray("qqoAAMD/AAD/v///XgAAAP+/cAYAAAAA/z9wBgAAAAD/P///XgAAAKqqXqb//wAAVVUAAMD/AABVVV6m//8AAFTVL1Pf/wAAAAA3gy8AAAD//zeDLwAAAKoqL1Pf/wAA")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_tnimw"]
+resource_name = "baseball_kid_bat_baseball_kid_bat"
+_surfaces = [{
+"aabb": AABB(-0.03, 0.002681898, -0.30043295, 0.06, 0.053295255, 0.6007216),
+"attribute_data": PackedByteArray("TgCW66D//+f//3/rDwBB6UKE9f+beYjXvHv1/2OGiNdOAJbr//9/6w8AQemg///nvHv//2OGl9dChP//m3mX10KEluu8e0HpQoRB6bx7luubeX/rY4b/55t5/+djhn/rLwBs6s//v+nP/7/pLwBs6oSIbOp6d2zqx4y/6Tdzv+k="),
+"format": 34896613399,
+"index_count": 60,
+"index_data": PackedByteArray("GAACAAAAGAAZAAIAAwAZABgAAwABABkABAAFAAYABAAHAAUACAAaABsACAAJABoAGwAaAAsAGwALAAoADAANAA4ADAAPAA0AHAARABIAEQAcABMAEwAcABAAEQATAB0AFQAXAB4AFwAVAB8AHwAVABYAFwAfABQA"),
+"lods": [0.09254147, PackedByteArray("AAABAAIAAwABAAAABAAFAAYABAAHAAUACAAJAAoACgAJAAsADAANAA4ADAAPAA0AEAARABIAEQAQABMAFAAVABYAFwAVABQA")],
+"material": SubResource("StandardMaterial3D_kguwv"),
+"name": "WoodWarm",
+"primitive": 3,
+"uv_scale": Vector4(0.37554118, 2.3753607, 0, 0),
+"vertex_count": 32,
+"vertex_data": PackedByteArray("qqoAAMD/Hcr/v///XgDjyP+/cAYAAB3Kqqpepv//48iqqgAAwP9dPf8/cAYAAF09VVUAAMD/XT3/v3AGAABdPVVVAADA/1Id/z9wBgAAUh1VVV6m//9MHf8///9eAEwdVVVepv//XMH/v///XgBcwaqqXqb//1zB/z///14AXMGqqgAAwP+tgFVVXqb//62Aqqpepv//rYBVVQAAwP+tgP8/cAYAAK4A/7///14ArgD/P///XgCuAP+/cAYAAK4AVNUvU9//Ub///zeDLwBRvwAAN4MvAAAAqiovU9//AABU1S9T3/+tgKoqL1Pf/62A//83gy8ArgAAADeDLwCuAIJdsERIxckigl2wREjFySJfFk5TsCxflrAsX5ZfFk5Thk46Y4ZOOmM+44YwPuOGMP/oLq3Q0gBp0NIAaf/oLq0AAP9/AAD/fwAA/38AAP9/////f////3////9/////f/p/CQD6fwkAikD8f4pA/H8AAAGACQD/f/7//3////9/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_nefac")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1sg8s"]
 size = Vector3(0.06, 0.053295255, 0.6007216)
 
-[node name="baseball_kid_bat" type="RigidBody3D" unique_id=232129412]
+[node name="baseball_kid_bat" type="RigidBody3D" unique_id=1667837046]
 collision_layer = 16
 collision_mask = 31
 mass = 0.9
@@ -14,14 +55,20 @@ sleeping = true
 linear_damp = 0.15
 angular_damp = 0.4
 
-[node name="Model" type="Node3D" parent="." unique_id=638404405 instance=ExtResource("1_ffgc8")]
+[node name="Model" parent="." unique_id=638404405 instance=ExtResource("1_21dh8")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=879135270]
+[node name="baseball_kid_bat" type="MeshInstance3D" parent="Model" unique_id=1040809337]
+mesh = SubResource("ArrayMesh_tnimw")
+surface_material_override/0 = ExtResource("2_hqb0n")
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=984434241]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.029329525, -7.215142e-05)
-shape = SubResource("BoxShape3D_hqb0n")
+shape = SubResource("BoxShape3D_1sg8s")
 
-[node name="Prop" type="Node" parent="." unique_id=415471418]
-script = ExtResource("2_21dh8")
+[node name="Prop" type="Node" parent="." unique_id=1860674694]
+script = ExtResource("3_w1al3")
 prop_id = &"baseball_kid_bat"
 grab_class = "light"
 tags = PackedStringArray()
+
+[editable path="Model"]

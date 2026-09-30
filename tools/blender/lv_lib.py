@@ -171,8 +171,8 @@ class Level:
     def zone(self, mn, mx, reverb="RevSmall", amount=0.5, name=None):
         self.zones.append({"mn": list(mn), "mx": list(mx), "reverb": reverb, "amount": amount, "name": name or "zone%d" % len(self.zones)})
 
-    def probe(self, mn, mx):
-        self.probes.append({"mn": list(mn), "mx": list(mx)})
+    def probe(self, mn, mx, interior=True):
+        self.probes.append({"mn": list(mn), "mx": list(mx), "interior": interior})
 
     def occluder(self, mn, mx):
         self.occluders.append({"mn": list(mn), "mx": list(mx)})

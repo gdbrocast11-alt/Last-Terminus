@@ -1,22 +1,348 @@
-[gd_scene format=3]
+[gd_scene format=4]
 
-[ext_resource type="PackedScene" path="res://props/fridge.glb" id="1_ph18a"]
-[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_hqnnx"]
+[ext_resource type="PackedScene" path="res://props/fridge.glb" id="1_qhay2"]
+[ext_resource type="Material" path="res://materials/PaintWhite.tres" id="2_20kyy"]
+[ext_resource type="Material" path="res://materials/PaintGrey.tres" id="3_kbhwn"]
+[ext_resource type="Material" path="res://materials/Chrome.tres" id="4_ygl5q"]
+[ext_resource type="Material" path="res://materials/Paper.tres" id="5_by0by"]
+[ext_resource type="Material" path="res://materials/PaintRed.tres" id="6_x1sym"]
+[ext_resource type="Material" path="res://materials/PaintBlue.tres" id="7_a1kb5"]
+[ext_resource type="Material" path="res://materials/PaintGreen.tres" id="8_0d4vv"]
+[ext_resource type="Material" path="res://materials/PaintYellow.tres" id="9_qu6rp"]
+[ext_resource type="Material" path="res://materials/PaintOrange.tres" id="10_avdcm"]
+[ext_resource type="Material" path="res://materials/PaintTeal.tres" id="11_wrvtq"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="12_pd07d"]
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_duex1"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vlygj"]
+resource_name = "PaintWhite"
+cull_mode = 2
+albedo_color = Color(0.9546871, 0.9546871, 0.9546871, 1)
+metallic = 0.2
+roughness = 0.45
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ldn40"]
+resource_name = "PaintGrey"
+cull_mode = 2
+albedo_color = Color(0.6651851, 0.6799757, 0.7014107, 1)
+metallic = 0.2
+roughness = 0.5
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hs4xo"]
+resource_name = "Chrome"
+cull_mode = 2
+albedo_color = Color(0.97769153, 0.97769153, 0.98669523, 1)
+metallic = 1.0
+roughness = 0.08
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0kuds"]
+resource_name = "Paper"
+cull_mode = 2
+albedo_color = Color(0.97769153, 0.9731482, 0.9546871, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_op8uv"]
+resource_name = "PaintRed"
+cull_mode = 2
+albedo_color = Color(0.88082504, 0.3133042, 0.2716998, 1)
+metallic = 0.2
+roughness = 0.45
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qh054"]
+resource_name = "PaintBlue"
+cull_mode = 2
+albedo_color = Color(0.3491902, 0.5370987, 0.7977378, 1)
+metallic = 0.2
+roughness = 0.45
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1p64r"]
+resource_name = "PaintGreen"
+cull_mode = 2
+albedo_color = Color(0.38109186, 0.7014107, 0.5370987, 1)
+metallic = 0.2
+roughness = 0.45
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cd007"]
+resource_name = "PaintYellow"
+cull_mode = 2
+albedo_color = Color(0.97769153, 0.86504203, 0.3133042, 1)
+metallic = 0.2
+roughness = 0.5
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nu551"]
+resource_name = "PaintOrange"
+cull_mode = 2
+albedo_color = Color(0.97769153, 0.6651851, 0.24780053, 1)
+metallic = 0.2
+roughness = 0.5
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i08ls"]
+resource_name = "PaintTeal"
+cull_mode = 2
+albedo_color = Color(0.3491902, 0.735357, 0.735357, 1)
+metallic = 0.2
+roughness = 0.45
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_8mdij"]
+_surfaces = [{
+"aabb": AABB(-0.35, 0, -0.35, 0.7, 1.75, 0.7),
+"format": 34896613377,
+"index_count": 180,
+"index_data": PackedByteArray("AAABAAIAAAACAAMAAAADAAQAAgAFAAMAAgABAAUAAwAGAAQAAwAFAAYABAAHAAAAAAAHAAEABAAGAAcABgAIAAcACQAHAAgABgAKAAgACAALAAkACAAKAAsADAAJAAsACQAMAAcADQALAAoADQAKAAYADAALAA0ADgANAAYADgAGAA8ABQAPAAYADwAQAA4ADQAOABAADwARABAABQARAA8AEgAQABEAEgARAAUADQAQABIAEwAMAA0AEwANABQAFAANABIAFAAVABMAFQAMABMAFAAWABUAFAASABYAFgAXABUAFQAXAAwAFgASABcAGAASAAUAEgAYABkAEgAZABcAGAAFABoAGgAZABgAAQAaAAUAGgAbABkAAQAbABoAGwAXABkAGwABABcAAQAcABcAFwAcAB0AFwAdAAwAAQAeABwAHgAdABwABwAeAAEADAAdAB8ADAAfAAcAHgAfAB0ABwAfAB4A"),
+"name": "PaintWhite",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 32,
+"vertex_data": PackedByteArray("+AoAAPgKAAD4CmMEBvUAAPgKAAAG9QAABvUAAAb1AAAG9QAA+AoAAAb1YwQG9QAABvVjBPgKAAD4CmME+AoAAPgKYwQAAAAA+Aqb+wAAAAAG9WMEAAAAAAb1m/sAAAAA+Aqb+/gKAAAG9Zv7+AoAAP//m/v4CgAA//9jBPgKAAD//5v7BvUAAP//YwQG9QAABvWb+wb1AAD4Cv//+AoAAAb1///4CgAA+Ar//wb1AAAG9f//BvUAAPgKm/sG9QAABvWb+///AAD4Cpv7//8AAAb1YwT//wAA+ApjBP//AAAAAJv7BvUAAAAAm/v4CgAAAABjBAb1AAAAAGME+AoAAA==")
+}, {
+"aabb": AABB(-0.35, 1.19, -0.355, 0.7, 0.01999998, 0.00999999),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAwAAAAIAAAAEAAEAAwACAAUAAQAFAAIAAAADAAYABgADAAUAAAAGAAQAAQAHAAUABgAFAAcABAAHAAEABAAGAAcA"),
+"name": "PaintGrey",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAAAAAAD/////AAAAAAAA//8AAAAAAAAAAP//AAD//wAAAAAAAAAA/////wAA//8AAP//AAD///////8AAA==")
+}, {
+"aabb": AABB(0.25500003, 0.5, -0.385, 0.029999971, 1.1500001, 0.029999971),
+"format": 34896613377,
+"index_count": 72,
+"index_data": PackedByteArray("CAAJAAoACAALAAkADAAKAAkACwAMAAkADQAIAAoACwAIAA0ADAAOAAoADQAKAA4ACwAPAAwACwANAA8ADwAOAAwADwANAA4AAAABAAIAAAADAAEABAACAAEAAwAEAAEABQAAAAIAAwAAAAUABAAGAAIABQACAAYAAwAHAAQAAwAFAAcABwAGAAQABwAFAAYA"),
+"lods": [0.20112196, PackedByteArray("AAABAAIAAAADAAEABAACAAEAAwAEAAEABQAAAAIAAwAAAAUABAAGAAIABQACAAYAAwAHAAQAAwAFAAcABwAGAAQABwAFAAYA")],
+"name": "Chrome",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 16,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAE1vAAAAAAAATW///wAAAAAAAAAAAAD//01vAAAAAP//AAD//wAA//9Nb///AAD//wAAAAAAAAAA9Kb//wAAAAD//wAAAAAAAP////8AAAAA9KYAAAAA/////wAAAAD///Sm//8AAP///////wAA///0pgAAAAA=")
+}, {
+"aabb": AABB(-0.22, 1.225, -0.355, 0.34, 0.45000005, 0.0059999824),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAACAAEAAwAEAAEABQAAAAIAAwAAAAUABAAGAAIABQACAAYAAwAHAAQAAwAFAAcABwAGAAQABwAFAAYA"),
+"name": "Paper",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAD/////AAAAAP//AAD//wAA////////AAD//wAAAAAAAA==")
+}, {
+"aabb": AABB(-0.21, 1.58, -0.35950002, 0.32, 0.03999996, 0.007000029),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAACAAEAAwAEAAEABQAAAAIAAwAAAAUABAAGAAIABQACAAYAAwAHAAQAAwAFAAcABwAGAAQABwAFAAYA"),
+"name": "PaintRed",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAD/////AAAAAP//AAD//wAA////////AAD//wAAAAAAAA==")
+}, {
+"aabb": AABB(-0.21, 1.51, -0.35950002, 0.32, 0.03999996, 0.007000029),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAACAAEAAwAEAAEABQAAAAIAAwAAAAUABAAGAAIABQACAAYAAwAHAAQAAwAFAAcABwAGAAQABwAFAAYA"),
+"name": "PaintBlue",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAD/////AAAAAP//AAD//wAA////////AAD//wAAAAAAAA==")
+}, {
+"aabb": AABB(-0.21, 1.44, -0.35950002, 0.32, 0.03999996, 0.007000029),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAACAAEAAwAEAAEABQAAAAIAAwAAAAUABAAGAAIABQACAAYAAwAHAAQAAwAFAAcABwAGAAQABwAFAAYA"),
+"name": "PaintGreen",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAD/////AAAAAP//AAD//wAA////////AAD//wAAAAAAAA==")
+}, {
+"aabb": AABB(-0.21, 1.37, -0.35950002, 0.32, 0.03999996, 0.007000029),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAACAAEAAwAEAAEABQAAAAIAAwAAAAUABAAGAAIABQACAAYAAwAHAAQAAwAFAAcABwAGAAQABwAFAAYA"),
+"name": "PaintYellow",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAD/////AAAAAP//AAD//wAA////////AAD//wAAAAAAAA==")
+}, {
+"aabb": AABB(-0.21, 1.3000001, -0.35950002, 0.32, 0.03999996, 0.007000029),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAACAAEAAwAEAAEABQAAAAIAAwAAAAUABAAGAAIABQACAAYAAwAHAAQAAwAFAAcABwAGAAQABwAFAAYA"),
+"name": "PaintOrange",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAD/////AAAAAP//AAD//wAA////////AAD//wAAAAAAAA==")
+}, {
+"aabb": AABB(-0.21, 1.23, -0.35950002, 0.32, 0.03999996, 0.007000029),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAACAAEAAwAEAAEABQAAAAIAAwAAAAUABAAGAAIABQACAAYAAwAHAAQAAwAFAAcABwAGAAQABwAFAAYA"),
+"name": "PaintTeal",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAD/////AAAAAP//AAD//wAA////////AAD//wAAAAAAAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_vtbiq"]
+resource_name = "fridge_fridge"
+_surfaces = [{
+"aabb": AABB(-0.35, 0, -0.35, 0.7, 1.75, 0.7),
+"attribute_data": PackedByteArray("BvXP3vgK99v4Cs/eBvX32///uzv///fbBvW7O/gK4zgG9eM4+Aq7OwAA99sAALs7+Ap4wAAAJv34Cib9AAB4wPgK//8G9f//BvUm/f//Jv3//3jABvV4wPgKoL0G9aC9+Ar32wAAuzv4Crs7AAD32wb14zj4CuM4BvW7O///uzv///fbBvX32/gKz94G9c/e+Aom/QAAeMD4CnjAAAAm/fgKoL0G9aC9BvV4wP//eMD//yb9BvUm/fgK//8G9f//+Aq7OwAA99v4CvfbAAC7Owb1z974Cs/eBvX32///uzv///fbBvW7O/gK4zgG9eM4BvW7O///99sG9ffb//+7O/gKz94G9c/e+Ar32wAAuzsAAPfb+Aq7Owb14zj4CuM4+Ap4wAb1Jv0G9XjA+Aom/fgK99sG9bs7+Aq7Owb199sG9ffb+Aq7Owb1uzv4CvfbBvV4wPgKJv34CnjABvUm/fgK99sG9bs7+Aq7Owb199sG9ffb+Aq7Owb1uzv4Cvfb"),
+"format": 34896613399,
+"index_count": 180,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAADAAUABAAGAAMABwAGAAgABwAJAAYACgABAAkACgAJAAsADAANAA4ADAAPAA0ADgAQABEADgARABIAEgATABQAEgAUABUAFQAWAAwAFQAXABYAGAAZABoAGAAbABkAHAAaAB0AHAAeABoAHgAfACAAHgAgACEAIgAYACEAIgAhACMAJAAlACYAJAAnACUAJgAoACkAJgApACoAKgArACwAKgAsAC0ALQAuACQALQAvAC4AMAAxADIAMAAzADEANAAyADUANAA2ADIANwA2ADgANwA5ADYAOgAwADkAOgA5ADsAPAA9AD4APAA/AD0AQAA+AEEAQABCAD4AQwBCAEQAQwBFAEIARgA8AEUARgBFAEcASABJAEoASABLAEkATABNAE4ATABPAE0AUABRAFIAUABTAFEAVABVAFYAVABXAFUAWABZAFoAWABbAFkAXABdAF4AXABfAF0A"),
+"material": SubResource("StandardMaterial3D_vlygj"),
+"name": "PaintWhite",
+"primitive": 3,
+"uv_scale": Vector4(0.7, 2.7, 0, 0),
+"vertex_count": 96,
+"vertex_data": PackedByteArray("+AoAAPgKAAD4CmMEBvUAAPgKAAAG9QAA+ApjBPgKAAD4Cpv7AAAAAPgKYwQAAAAA+Aqb+/gKAAD4Cv//BvUAAPgK///4CgAA+Aqb+wb1AAD4CmME//8AAPgKm/v//wAA+ApjBPgK/z8AAGMEBvX/P/gKYwQG9f8/AABjBPgK/z/4CmME////Pwb1YwT///8/BvVjBAb1/z///2MEBvX/P///YwT4Cv8/BvVjBPgK/z/4CmMEAAD/Pwb1YwQAAP8/+ApjBAb1AIAAAJv7BvUAgPgKm/sG9QCAAABjBAb1AIAG9f//BvUAgPgK//8G9QCABvWb+wb1AID//5v7BvUAgP//YwQG9QCABvVjBAb1AID4CgAABvUAgAb1AAAG9QCA+Aqb+wb1/78AAJv7+Ar/v/gKm/v4Cv+/AACb+wb1/7/4Cpv7AAD/vwb1m/sAAP+/BvWb+/gK/7///5v7+Ar/v///m/sG9f+/BvWb+wb1/7/4Cpv7////vwb1m/v///+/+Aqb+/gKAAAAAGME+AoAAPgKYwT4CgAAAACb+/gKAAAG9QAA+AoAAPgKAAD4CgAABvVjBPgKAAD//5v7+AoAAP//YwT4CgAABvWb+/gKAAD4Cv//+AoAAAb1///4CgAABvWb+/gK/78G9WMEAAD/vwb1YwT4Cv+/BvWb+wAA/78G9QAABvX/vwb1AAD4Cv+/BvVjBAb1/78G9Zv7////vwb1YwT///+/BvWb+wb1/78G9f//+Ar/vwb1//8G9f+/+AoAAPgK/z8G9QAABvX/Pwb1AAD4Cv8/+AoAAAb1/z8AAGMEBvUAAAAAm/v4CgAAAACb+wb1AAAAAGME+AoAAAb1YwT//wCA+Aqb+///AIAG9Zv7//8AgPgKYwT//wCABvX///gK/7/4Cv//BvX/v/gK///4Cv+/BvX//wb1/7/4CmMEAAAAAAb1m/sAAAAA+Aqb+wAAAAAG9WMEAAAAAP//YwT4Cv+///+b+wb1/7///5v7+Ar/v///YwQG9f+//z//f/8//3//P/9//z//f/8//3//P/9//z//f/8//3//P/9//z//f/8//3//P/9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9//3////9/////f////3////9/////f////3////9/////f////3////9/////f///////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9//38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAAAAD/fwAA/38AAP9/AAD/f/8//3//P/9//z//f/8//3//f////3////9/////f///////f////3////9/////f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA")
+}, {
+"aabb": AABB(-0.35, 1.19, -0.355, 0.7, 0.01999998, 0.00999999),
+"attribute_data": PackedByteArray("zQHeWjH+9VbNAfVWMf7eWjH+Cv7NAf//zQEK/jH+///NAQr+Mf7//zH+Cv7NAf//Mf7eWs0B9VYx/vVWzQHeWv//3lpj/PVW///1VmP83lpj/N5a///1VmP89Vb//95a"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA"),
+"material": SubResource("StandardMaterial3D_ldn40"),
+"name": "PaintGrey",
+"primitive": 3,
+"uv_scale": Vector4(0.71, 1.31, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAAAAAAD/////AAAAAAAA//8AAAAA//8AAAAAAAD/////AAD/vwAA//////+/AAD//wAA/7//////////vwAAAAAAAP8///8AAP///z///wAAAAD/PwAAAAD///8///8AAP//AIAAAP////8AgP///////wCAAAAAAP//AID//wAAAAD/v/////////+//////wAA/7///wAA////vwAAAAD//wAAAAD//wAAAAAAAP////8AAAAAAAAAAAAA////f////3////9/////f////3////9/////f////38AAP9/AAD/fwAA/38AAP9//3////9/////f////3////9/AAD/fwAA/38AAP9/AAD/P/9//z//f/8//3//P/9/")
+}, {
+"aabb": AABB(0.25500003, 0.5, -0.385, 0.029999971, 1.1500001, 0.029999971),
+"attribute_data": PackedByteArray("BfZ14v///38F9v9///914sbUdeK/3v9/xtT/f7/edeL//3XiBfb/f////38F9nXiv9514sbU/3+/3v9/xtR14sbUGvm/3gL/v94a+cbUAv+/3hr5xtQC/8bUGvm/3gL/BfbETv//AAAF9gAA///ETsbUxE6/3gAAxtQAAL/exE7//8ROBfYAAP//AAAF9sROv97ETsbUAAC/3gAAxtTETsbUGvm/3gL/v94a+cbUAv+/3hr5xtQC/8bUGvm/3gL/"),
+"format": 34896613399,
+"index_count": 72,
+"index_data": PackedByteArray("GAAZABoAGAAbABkAHAAdAB4AHAAfAB0AIAAhACIAIAAjACEAJAAlACYAJAAnACUAKAApACoAKAArACkALAAtAC4ALAAvAC0AAAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA"),
+"lods": [0.20112196, PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA")],
+"material": SubResource("StandardMaterial3D_hs4xo"),
+"name": "Chrome",
+"primitive": 3,
+"uv_scale": Vector4(0.77, 1.3000002, 0, 0),
+"vertex_count": 48,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAE1vAAAAAAAATW///wAAAAAAAAAAAAAAAAAAAAAAAP//TW8AAAAAAABNbwAAAAD//wAAAAAAAP//AAAAAP+///9Nb////7///01vAAD/v///AAD///+///8AAP//AIAAAE1v//8AgP//TW///wCAAAAAAP//AIAAAAAAAAD/P///AAD///8///8AAAAA/z8AAAAA////P///TW8AAP+/AABNb////78AAE1vAAD/v///TW////+/AAD0pv//AAAAAP//AAAAAAAA/////wAAAAD0pgAAAAAAAPSmAAAAAP////8AAAAAAAD//wAAAAD///SmAAAAAP//9KYAAP+//////////7//////AAD/v///9Kb///+////0pv//AIAAAP////8AgP///////wCAAAD0pv//AIAAAPSmAAD/P///9Kb///8////0pgAA/z8AAPSm////P/////8AAP+/AAD//////78AAP//AAD/v/////////+//z//f/8//3//P/9//z//f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA/3////9/////f////3///wAA/38AAP9/AAD/fwAA/3////9/////f////3////9//z//f/8//3//P/9//z//f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA/3////9/////f////3///wAA/38AAP9/AAD/fwAA/3////9/////f////3////9/")
+}, {
+"aabb": AABB(-0.22, 1.225, -0.355, 0.34, 0.45000005, 0.0059999824),
+"attribute_data": PackedByteArray("1f1UVf//AADV/QAA//9UVawwVFVDqwAArDAAAEOrVFX//1RV1f0AAP//AADV/VRVQ6tUVawwAABDqwAArDBUVawwTvpDq3H7Q6tO+qwwcftDq076rDBx+6wwTvpDq3H7"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA"),
+"material": SubResource("StandardMaterial3D_0kuds"),
+"name": "Paper",
+"primitive": 3,
+"uv_scale": Vector4(0.71, 1.3500001, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAD//wAAAAD//wAAAAAAAP//AAAAAP+//////////7//////AAD/v///AAD///+///8AAP//AIAAAP////8AgP///////wCAAAAAAP//AIAAAAAAAAD/P///AAD///8///8AAAAA/z8AAAAA////P/////8AAP+/AAD//////78AAP//AAD/v/////////+//z//f/8//3//P/9//z//f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA/3////9/////f////3///wAA/38AAP9/AAD/fwAA/3////9/////f////3////9/")
+}, {
+"aabb": AABB(-0.21, 1.58, -0.35950002, 0.32, 0.03999996, 0.007000029),
+"attribute_data": PackedByteArray("gP1XDf//bwWA/W8F//9XDTo1Vw0pp28FOjVvBSmnVw3//1cNgP1vBf//bwWA/VcNKadXDTo1bwUpp28FOjVXDTo1nP4pp///Kaec/jo1//8pp5z+OjX//zo1nP4pp///"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA"),
+"material": SubResource("StandardMaterial3D_op8uv"),
+"name": "PaintRed",
+"primitive": 3,
+"uv_scale": Vector4(0.71900004, 1.2950001, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAD//wAAAAD//wAAAAAAAP//AAAAAP+//////////7//////AAD/v///AAD///+///8AAP//AIAAAP////8AgP///////wCAAAAAAP//AIAAAAAAAAD/P///AAD///8///8AAAAA/z8AAAAA////P/////8AAP+/AAD//////78AAP//AAD/v/////////+//z//f/8//3//P/9//z//f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA/3////9/////f////3///wAA/38AAP9/AAD/fwAA/3////9/////f////3////9/")
+}, {
+"aabb": AABB(-0.21, 1.51, -0.35950002, 0.32, 0.03999996, 0.007000029),
+"attribute_data": PackedByteArray("gP0uG///RhOA/UYT//8uGzo1Lhspp0YTOjVGEymnLhv//y4bgP1GE///RhOA/S4bKacuGzo1RhMpp0YTOjUuGzo1nP4pp///Kaec/jo1//8pp5z+OjX//zo1nP4pp///"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA"),
+"material": SubResource("StandardMaterial3D_qh054"),
+"name": "PaintBlue",
+"primitive": 3,
+"uv_scale": Vector4(0.71900004, 1.2950001, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAD//wAAAAD//wAAAAAAAP//AAAAAP+//////////7//////AAD/v///AAD///+///8AAP//AIAAAP////8AgP///////wCAAAAAAP//AIAAAAAAAAD/P///AAD///8///8AAAAA/z8AAAAA////P/////8AAP+/AAD//////78AAP//AAD/v/////////+//z//f/8//3//P/9//z//f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA/3////9/////f////3///wAA/38AAP9/AAD/fwAA/3////9/////f////3////9/")
+}, {
+"aabb": AABB(-0.21, 1.44, -0.35950002, 0.32, 0.03999996, 0.007000029),
+"attribute_data": PackedByteArray("gP0EKf//HCGA/Rwh//8EKTo1BCkppxwhOjUcISmnBCn//wQpgP0cIf//HCGA/QQpKacEKTo1HCEppxwhOjUEKTo1nP4pp///Kaec/jo1//8pp5z+OjX//zo1nP4pp///"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA"),
+"material": SubResource("StandardMaterial3D_1p64r"),
+"name": "PaintGreen",
+"primitive": 3,
+"uv_scale": Vector4(0.71900004, 1.2950001, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAD//wAAAAD//wAAAAAAAP//AAAAAP+//////////7//////AAD/v///AAD///+///8AAP//AIAAAP////8AgP///////wCAAAAAAP//AIAAAAAAAAD/P///AAD///8///8AAAAA/z8AAAAA////P/////8AAP+/AAD//////78AAP//AAD/v/////////+//z//f/8//3//P/9//z//f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA/3////9/////f////3///wAA/38AAP9/AAD/fwAA/3////9/////f////3////9/")
+}, {
+"aabb": AABB(-0.21, 1.37, -0.35950002, 0.32, 0.03999996, 0.007000029),
+"attribute_data": PackedByteArray("gP3bNv//8i6A/fIu///bNjo12zYpp/IuOjXyLimn2zb//9s2gP3yLv//8i6A/ds2KafbNjo18i4pp/IuOjXbNjo1nP4pp///Kaec/jo1//8pp5z+OjX//zo1nP4pp///"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA"),
+"material": SubResource("StandardMaterial3D_cd007"),
+"name": "PaintYellow",
+"primitive": 3,
+"uv_scale": Vector4(0.71900004, 1.2950001, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAD//wAAAAD//wAAAAAAAP//AAAAAP+//////////7//////AAD/v///AAD///+///8AAP//AIAAAP////8AgP///////wCAAAAAAP//AIAAAAAAAAD/P///AAD///8///8AAAAA/z8AAAAA////P/////8AAP+/AAD//////78AAP//AAD/v/////////+//z//f/8//3//P/9//z//f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA/3////9/////f////3///wAA/38AAP9/AAD/fwAA/3////9/////f////3////9/")
+}, {
+"aabb": AABB(-0.21, 1.3000001, -0.35950002, 0.32, 0.03999996, 0.007000029),
+"attribute_data": PackedByteArray("gP2xRP//yTyA/ck8//+xRDo1sUQpp8k8OjXJPCmnsUT//7FEgP3JPP//yTyA/bFEKaexRDo1yTwpp8k8OjWxRDo1nP4pp///Kaec/jo1//8pp5z+OjX//zo1nP4pp///"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA"),
+"material": SubResource("StandardMaterial3D_nu551"),
+"name": "PaintOrange",
+"primitive": 3,
+"uv_scale": Vector4(0.71900004, 1.2950001, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAD//wAAAAD//wAAAAAAAP//AAAAAP+//////////7//////AAD/v///AAD///+///8AAP//AIAAAP////8AgP///////wCAAAAAAP//AIAAAAAAAAD/P///AAD///8///8AAAAA/z8AAAAA////P/////8AAP+/AAD//////78AAP//AAD/v/////////+//z//f/8//3//P/9//z//f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA/3////9/////f////3///wAA/38AAP9/AAD/fwAA/3////9/////f////3////9/")
+}, {
+"aabb": AABB(-0.21, 1.23, -0.35950002, 0.32, 0.03999996, 0.007000029),
+"attribute_data": PackedByteArray("gP2IUv//n0qA/Z9K//+IUjo1iFIpp59KOjWfSimniFL//4hSgP2fSv//n0qA/YhSKaeIUjo1n0opp59KOjWIUjo1nP4pp///Kaec/jo1//8pp5z+OjX//zo1nP4pp///"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA"),
+"material": SubResource("StandardMaterial3D_i08ls"),
+"name": "PaintTeal",
+"primitive": 3,
+"uv_scale": Vector4(0.71900004, 1.2950001, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAD//wAAAAD//wAAAAAAAP//AAAAAP+//////////7//////AAD/v///AAD///+///8AAP//AIAAAP////8AgP///////wCAAAAAAP//AIAAAAAAAAD/P///AAD///8///8AAAAA/z8AAAAA////P/////8AAP+/AAD//////78AAP//AAD/v/////////+//z//f/8//3//P/9//z//f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA/3////9/////f////3///wAA/38AAP9/AAD/fwAA/3////9/////f////3////9/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_8mdij")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_xxy2q"]
 size = Vector3(0.7, 1.75, 0.735)
 
-[node name="fridge" type="StaticBody3D" unique_id=959077662]
+[node name="fridge" type="StaticBody3D" unique_id=1336443103]
 collision_mask = 0
 
-[node name="Model" type="Node3D" parent="." unique_id=2034815090 instance=ExtResource("1_ph18a")]
+[node name="Model" parent="." unique_id=2034815090 instance=ExtResource("1_qhay2")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1950260996]
+[node name="fridge" type="MeshInstance3D" parent="Model" unique_id=961214311]
+mesh = SubResource("ArrayMesh_vtbiq")
+surface_material_override/0 = ExtResource("2_20kyy")
+surface_material_override/1 = ExtResource("3_kbhwn")
+surface_material_override/2 = ExtResource("4_ygl5q")
+surface_material_override/3 = ExtResource("5_by0by")
+surface_material_override/4 = ExtResource("6_x1sym")
+surface_material_override/5 = ExtResource("7_a1kb5")
+surface_material_override/6 = ExtResource("8_0d4vv")
+surface_material_override/7 = ExtResource("9_qu6rp")
+surface_material_override/8 = ExtResource("10_avdcm")
+surface_material_override/9 = ExtResource("11_wrvtq")
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=443276065]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.875, -0.017499983)
-shape = SubResource("BoxShape3D_duex1")
+shape = SubResource("BoxShape3D_xxy2q")
 
-[node name="Prop" type="Node" parent="." unique_id=1035892840]
-script = ExtResource("2_hqnnx")
+[node name="Prop" type="Node" parent="." unique_id=2111403056]
+script = ExtResource("12_pd07d")
 prop_id = &"fridge"
 inspect_line = &"ch2_insp_fridge"
 tags = PackedStringArray()
+
+[editable path="Model"]

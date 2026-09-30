@@ -25,6 +25,7 @@ var focus_active := false
 var focus_cooldown := 0.0
 var pickles_context := ""
 var last_thrown: RigidBody3D = null
+var far_prop: PropComponent = null    ## long-range inspect target (RMB) -- big landmarks and hazards
 
 var _hold_basis := Basis.IDENTITY
 var _hold_offset := Vector3.ZERO
@@ -113,6 +114,15 @@ func _update_target() -> void:
 		target = best
 		target_prop = best as PropComponent
 		target_changed.emit(target)
+	far_prop = null
+	if target == null and held == null:
+		var q2 := PhysicsRayQueryParameters3D.create(from, from + fwd * 24.0, 1 | 16 | 32)
+		q2.exclude = [player.get_rid()]
+		var hit2 := space.intersect_ray(q2)
+		if not hit2.is_empty():
+			var pn := (hit2.collider as Node).get_node_or_null("Prop") as PropComponent
+			if pn != null and pn.inspect_line != &"" and pn.can_use:
+				far_prop = pn
 
 
 func _resolve(collider: Object) -> Node:
@@ -151,6 +161,8 @@ func _update_prompts() -> void:
 			text = String(target.call("get_prompt"))
 		if text != "":
 			prompts.insert(0, {"action": "interact", "text": text})
+	if far_prop != null and target == null and held == null:
+		prompts.append({"action": "secondary", "text": "Inspect"})
 	pickles_context = _pickles_command_text()
 	if pickles_context != "" and Director.pickles:
 		prompts.append({"action": "pickles_command", "text": pickles_context})
@@ -211,6 +223,8 @@ func _on_use() -> void:
 func _inspect() -> void:
 	if target_prop != null and target_prop.inspect_line != &"":
 		target_prop.do_inspect(player)
+	elif far_prop != null:
+		far_prop.do_inspect(player)
 	elif target != null and not (target is PropComponent) and target.has_method("inspect"):
 		target.call("inspect", player)
 	else:

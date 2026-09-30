@@ -1,12 +1,84 @@
-[gd_scene format=3]
+[gd_scene format=4]
 
-[ext_resource type="PackedScene" path="res://props/phone.glb" id="1_nue3t"]
-[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_fpgwg"]
+[ext_resource type="PackedScene" path="res://props/phone.glb" id="1_10hph"]
+[ext_resource type="Material" path="res://materials/PaintBlack.tres" id="2_mmxsi"]
+[ext_resource type="Material" path="res://materials/ScreenBlue.tres" id="3_ikqod"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="4_fwlvl"]
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_10hph"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wufcv"]
+resource_name = "PaintBlack"
+cull_mode = 2
+albedo_color = Color(0.24780053, 0.24780053, 0.2716998, 1)
+metallic = 0.2
+roughness = 0.5
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_000mh"]
+resource_name = "ScreenBlue"
+cull_mode = 2
+albedo_color = Color(0.3491902, 0.58383155, 0.7977378, 1)
+roughness = 0.1
+emission_enabled = true
+emission = Color(0.48452926, 0.735357, 1, 1)
+emission_energy_multiplier = 1.6
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_agop4"]
+_surfaces = [{
+"aabb": AABB(-0.0375, 0, -0.075, 0.075, 0.009, 0.15),
+"format": 34896613377,
+"index_count": 180,
+"index_data": PackedByteArray("AAABAAIAAAACAAMAAAADAAQAAgAFAAMAAgABAAUAAwAGAAQAAwAFAAYABAAHAAAAAAAHAAEABAAGAAcABgAIAAcACQAHAAgABgAKAAgACAALAAkACAAKAAsADAAJAAsACQAMAAcADQALAAoADQAKAAYADAALAA0ADgANAAYADgAGAA8ABQAPAAYADwAQAA4ADQAOABAADwARABAABQARAA8AEgAQABEAEgARAAUADQAQABIAEwAMAA0AEwANABQAFAANABIAFAAVABMAFQAMABMAFAAWABUAFAASABYAFgAXABUAFQAXAAwAFgASABcAGAASAAUAEgAYABkAEgAZABcAGAAFABoAGgAZABgAAQAaAAUAGgAbABkAAQAbABoAGwAXABkAGwABABcAAQAcABcAFwAcAB0AFwAdAAwAAQAeABwAHgAdABwABwAeAAEADAAdAB8ADAAfAAcAHgAfAB0ABwAfAB4A"),
+"name": "PaintBlack",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 32,
+"vertex_data": PackedByteArray("0g0AAOkGAADSDTJzFfkAANINAAAV+QAALPIAABX5AAAs8gAA6QYAACzyMnMV+QAALPIyc+kGAADSDTJz6QYAANINMnMAAAAA0g3MjAAAAAAs8jJzAAAAACzyzIwAAAAA0g3MjOkGAAAs8syM6QYAAP//zIzpBgAA//8yc+kGAAD//8yMFfkAAP//MnMV+QAALPLMjBX5AADSDf//6QYAACzy///pBgAA0g3//xX5AAAs8v//FfkAANINzIwV+QAALPLMjP//AADSDcyM//8AACzyMnP//wAA0g0yc///AAAAAMyMFfkAAAAAzIzpBgAAAAAycxX5AAAAADJz6QYAAA==")
+}, {
+"aabb": AABB(-0.034, 0.009, -0.069, 0.068, 0.0010000002, 0.138),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAwAAAAIAAAAEAAEAAwACAAUAAQAFAAIAAAADAAYABgADAAUAAAAGAAQAAQAHAAUABgAFAAcABAAHAAEABAAGAAcA"),
+"name": "ScreenBlue",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAAAAAAD/////AAAAAAAA//8AAAAAAAAAAP//AAD//wAAAAAAAAAA/////wAA//8AAP//AAD///////8AAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_d0g7c"]
+resource_name = "phone_phone"
+_surfaces = [{
+"aabb": AABB(-0.0375, 0, -0.075, 0.075, 0.009, 0.15),
+"attribute_data": PackedByteArray("FfkQ9+kGlfbpBhD3FfmV9v//evb//5X2Ffl69ukG/vUV+f716QZ69gAAlfYAAHr26Uae7v8/g//pRoP//z+e7ulG//8Vuf//FbmD//+/g///v57uFbme7ulGIu4VuSLu6UaV9v8/evbpRnr2/z+V9hW5/vXpRv71Fbl69v+/evb/v5X2FbmV9ulGEPcVuRD36UaD//8/nu7pRp7u/z+D/+lGIu4VuSLuFbme7v+/nu7/v4P/FbmD/+lG//8Vuf//6UZ69v8/lfbpRpX2/z969hW5EPfpRhD3FbmV9v+/evb/v5X2Fbl69ulG/vUVuf71Ffl69v//lfYV+ZX2//969ukGEPcV+RD36QaV9gAAevYAAJX26QZ69hX5/vXpBv716Uae7hW5g/8VuZ7u6UaD/+kGlfYV+Xr26QZ69hX5lfYVuZX26UZ69hW5evbpRpX2Fbme7ulGg//pRp7uFbmD/+lGlfYVuXr26UZ69hW5lfYV+ZX26QZ69hX5evbpBpX2"),
+"format": 34896613399,
+"index_count": 180,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAADAAUABAAGAAMABwAGAAgABwAJAAYACgABAAkACgAJAAsADAANAA4ADAAPAA0ADgAQABEADgARABIAEgATABQAEgAUABUAFQAWAAwAFQAXABYAGAAZABoAGAAbABkAHAAaAB0AHAAeABoAHgAfACAAHgAgACEAIgAYACEAIgAhACMAJAAlACYAJAAnACUAJgAoACkAJgApACoAKgArACwAKgAsAC0ALQAuACQALQAvAC4AMAAxADIAMAAzADEANAAyADUANAA2ADIANwA2ADgANwA5ADYAOgAwADkAOgA5ADsAPAA9AD4APAA/AD0AQAA+AEEAQABCAD4AQwBCAEQAQwBFAEIARgA8AEUARgBFAEcASABJAEoASABLAEkATABNAE4ATABPAE0AUABRAFIAUABTAFEAVABVAFYAVABXAFUAWABZAFoAWABbAFkAXABdAF4AXABfAF0A"),
+"material": SubResource("StandardMaterial3D_wufcv"),
+"name": "PaintBlack",
+"primitive": 3,
+"uv_scale": Vector4(0.15, 2.15, 0, 0),
+"vertex_count": 96,
+"vertex_data": PackedByteArray("0g0AAOkGAADSDTJzFfkAANINAAAV+QAA0g0yc+kGAADSDcyMAAAAANINMnMAAAAA0g3MjOkGAADSDf//FfkAANIN///pBgAA0g3MjBX5AADSDTJz//8AANINzIz//wAA0g0yc+kG/z8AADJzFfn/P9INMnMV+f8/AAAyc+kG/z/SDTJz////PyzyMnP///8/LPIycxX5/z///zJzFfn/P///MnPpBv8/LPIyc+kG/z/SDTJzAAD/PyzyMnMAAP8/0g0ycxX5AIAAAMyMFfkAgNINzIwV+QCAAAAycxX5AIAs8v//FfkAgNIN//8V+QCALPLMjBX5AID//8yMFfkAgP//MnMV+QCALPIycxX5AIDSDQAAFfkAgCzyAAAV+QCA0g3MjBX5/78AAMyM6Qb/v9INzIzpBv+/AADMjBX5/7/SDcyMAAD/vyzyzIwAAP+/LPLMjOkG/7///8yM6Qb/v///zIwV+f+/LPLMjBX5/7/SDcyM////vyzyzIz///+/0g3MjOkGAAAAADJz6QYAANINMnPpBgAAAADMjOkGAAAs8gAA6QYAANINAADpBgAALPIyc+kGAAD//8yM6QYAAP//MnPpBgAALPLMjOkGAADSDf//6QYAACzy///pBgAALPLMjOkG/78s8jJzAAD/vyzyMnPpBv+/LPLMjAAA/78s8gAAFfn/vyzyAADpBv+/LPIycxX5/78s8syM////vyzyMnP///+/LPLMjBX5/78s8v//6Qb/vyzy//8V+f+/0g0AAOkG/z8s8gAAFfn/PyzyAADpBv8/0g0AABX5/z8AADJzFfkAAAAAzIzpBgAAAADMjBX5AAAAADJz6QYAACzyMnP//wCA0g3MjP//AIAs8syM//8AgNINMnP//wCALPL//+kG/7/SDf//Ffn/v9IN///pBv+/LPL//xX5/7/SDTJzAAAAACzyzIwAAAAA0g3MjAAAAAAs8jJzAAAAAP//MnPpBv+////MjBX5/7///8yM6Qb/v///MnMV+f+//z//f/8//3//P/9//z//f/8//3//P/9//z//f/8//3//P/9//z//f/8//3//P/9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9//3////9/////f////3////9/////f////3////9/////f////3////9/////f///////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9//38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAAAAD/fwAA/38AAP9/AAD/f/8//3//P/9//z//f/8//3//f////3////9/////f///////f////3////9/////f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA")
+}, {
+"aabb": AABB(-0.034, 0.009, -0.069, 0.068, 0.0010000002, 0.138),
+"attribute_data": PackedByteArray("7UCo9hG/ifbtQIn2Eb+o9hG/eO/tQP//7UB47xG////tQHjvEb///xG/eO/tQP//Eb+o9u1AifYRv4n27UCo9v//qPYAAIn2//+J9gAAqPYAAKj2//+J9gAAifb//6j2"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA"),
+"material": SubResource("StandardMaterial3D_000mh"),
+"name": "ScreenBlue",
+"primitive": 3,
+"uv_scale": Vector4(0.138, 2.138, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAAAAAAD/////AAAAAAAA//8AAAAA//8AAAAAAAD/////AAD/vwAA//////+/AAD//wAA/7//////////vwAAAAAAAP8///8AAP///z///wAAAAD/PwAAAAD///8///8AAP//AIAAAP////8AgP///////wCAAAAAAP//AID//wAAAAD/v/////////+//////wAA/7///wAA////vwAAAAD//wAAAAD//wAAAAAAAP////8AAAAAAAAAAAAA////f////3////9/////f////3////9/////f////38AAP9/AAD/fwAA/38AAP9//3////9/////f////3////9/AAD/fwAA/38AAP9/AAD/P/9//z//f/8//3//P/9/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_agop4")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_rji5n"]
 size = Vector3(0.075, 0.01, 0.15)
 
-[node name="phone" type="RigidBody3D" unique_id=615934727]
+[node name="phone" type="RigidBody3D" unique_id=1149581030]
 collision_layer = 16
 collision_mask = 31
 mass = 0.2
@@ -14,14 +86,21 @@ sleeping = true
 linear_damp = 0.15
 angular_damp = 0.4
 
-[node name="Model" type="Node3D" parent="." unique_id=1137067836 instance=ExtResource("1_nue3t")]
+[node name="Model" parent="." unique_id=1137067836 instance=ExtResource("1_10hph")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=2045344314]
+[node name="phone" type="MeshInstance3D" parent="Model" unique_id=826350595]
+mesh = SubResource("ArrayMesh_d0g7c")
+surface_material_override/0 = ExtResource("2_mmxsi")
+surface_material_override/1 = ExtResource("3_ikqod")
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=398436937]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.005, 0)
-shape = SubResource("BoxShape3D_10hph")
+shape = SubResource("BoxShape3D_rji5n")
 
-[node name="Prop" type="Node" parent="." unique_id=1097552587]
-script = ExtResource("2_fpgwg")
+[node name="Prop" type="Node" parent="." unique_id=2001166635]
+script = ExtResource("4_fwlvl")
 prop_id = &"phone"
 grab_class = "light"
 tags = PackedStringArray("phone")
+
+[editable path="Model"]

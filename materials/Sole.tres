@@ -6,7 +6,7 @@
 
 [resource]
 resource_name = "Sole"
-albedo_color = Color(0.85, 0.85, 0.82, 1)
+albedo_color = Color(0.9309246, 0.9309246, 0.91627353, 1)
 albedo_texture = ExtResource("1_f2vrt")
 metallic_texture = ExtResource("2_0impd")
 metallic_texture_channel = 2

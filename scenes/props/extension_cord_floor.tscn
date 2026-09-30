@@ -1,14 +1,60 @@
-[gd_scene format=3]
+[gd_scene format=4]
 
-[ext_resource type="PackedScene" path="res://props/extension_cord_floor.glb" id="1_dfwet"]
-[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_hv675"]
+[ext_resource type="PackedScene" path="res://props/extension_cord_floor.glb" id="1_hv675"]
+[ext_resource type="Material" path="res://materials/PaintOrange.tres" id="2_avj0o"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="3_naxcj"]
 
-[node name="extension_cord_floor" type="Node3D" unique_id=1037586901]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qpa31"]
+resource_name = "PaintOrange"
+cull_mode = 2
+albedo_color = Color(0.97769153, 0.6651851, 0.24780053, 1)
+metallic = 0.2
+roughness = 0.5
 
-[node name="Model" type="Node3D" parent="." unique_id=249244091 instance=ExtResource("1_dfwet")]
+[sub_resource type="ArrayMesh" id="ArrayMesh_gvqlw"]
+_surfaces = [{
+"aabb": AABB(-1.501463, 0.0015383782, -0.1588869, 3.0029492, 0.020923246, 0.26987445),
+"format": 34896613377,
+"index_count": 108,
+"index_data": PackedByteArray("AAABAAIAAwAAAAIAAAADAAQAAwACAAUABAAGAAAAAAAGAAEAAwAHAAQABAAHAAYABQAIAAMAAwAIAAcAAgAJAAUAAgABAAkABQAJAAgABwAKAAYABgALAAEABgAKAAsAAQAMAAkAAQALAAwACQANAAgACQAMAA0ACAAOAAcABwAOAAoACAANAA4ACwAPAAwADgAQAAoACgARAAsACwARAA8ACgAQABEADAAPABIADAASAA0AEQASAA8ADgATABAAEwARABAADQATAA4AEQATABIADQASABMA"),
+"name": "PaintOrange",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 20,
+"vertex_data": PackedByteArray("RwD/fwKhAADVTAAApgsAACwAAADlmQAAAAAaz2OOAAAsAP//5ZkAAAAA5DBjjgAAzEz/f9kSAADVTP//pgsAAONMGs8AAAAA40zkMAAAAAANov9///8AABWiAADL+AAAIaLkMCTtAAAhohrPJO0AABWi///L+AAAxP/kMOxeAAD///9/oHEAAOj/AAB7agAAxP8az+xeAADo////e2oAAA==")
+}]
+blend_shape_mode = 0
 
-[node name="Prop" type="Node" parent="." unique_id=1587313873]
-script = ExtResource("2_hv675")
+[sub_resource type="ArrayMesh" id="ArrayMesh_pglsu"]
+resource_name = "extension_cord_floor_extension_cord_floor"
+_surfaces = [{
+"aabb": AABB(-1.501463, 0.0015383782, -0.1588869, 3.0029492, 0.020923246, 0.26987445),
+"attribute_data": PackedByteArray("RwCc8tVM0vMsANLzzEyc8iwAZfEVotLz1Uxl8Q2inPLo/9LzFaJl8f//nPLo/2XxLABk9ONMkuEAAPvy1Uz+4iKikv4Vov//xP8t7ej/l+4AAFzz40zc8QAA3PHjTFzzIqLc8SKiXPPE/9zxxP9c8wAA+/LVTP7iLABk9ONMkuEVov//IqKS/uj/l+7E/y3tEn+c8r+A3PG2f2Xxtn/S87+AXPP5g2Xx+YPS81SDnPIDhdzxA4Vc8w=="),
+"format": 34896613399,
+"index_count": 108,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAADAAAAAwAFAAEABAAGAAMAAwAHAAUABgAHAAMABwAIAAUABgAJAAcABwAKAAgACQAKAAcACQALAAoADAANAA4ADAAPAA0ADwAQAA0ADwARABAAEQASABAAEQATABIAFAAVABYAFAAXABUAFwAYABUAFwAZABgAGQAaABgAGQAbABoAHAAdAB4AHAAfAB0AHwAgAB0AHwAhACAAIQAiACAAIQAjACIAJAAlACYAJQAkACcAJQAnACgAKQAqACsAKgApACwAKgAsAC0A"),
+"material": SubResource("StandardMaterial3D_qpa31"),
+"name": "PaintOrange",
+"primitive": 3,
+"uv_scale": Vector4(3.0029726, 2.2067907, 0, 0),
+"vertex_count": 46,
+"vertex_data": PackedByteArray("RwD/fwKhvIbVTAAApgtKtiwAAADlmYmzzEz/f9kSl4EsAP//5ZmJsxWiAADL+Juw1Uz//6YLSrYNov9///84guj/AAB7amyzFaL//8v4m7D///9/oHGDhej///97amyzLAAAAOWZp0zjTOQwAAD5FwAA5DBjjtcZ1UwAAKYLt0khouQwJO2EGxWiAADL+GhPxP/kMOxewxno/wAAe2q0TAAA5DBjjm8Z40wazwAA8xcAABrPY45vGeNM5DAAAPMXIaIazyTteBshouQwJO14G8T/Gs/sXn0ZxP/kMOxefRkAABrPY44n5tVM//+mC0e2LAD//+WZV7PjTBrPAAAF6BWi///L+JawIaIazyTteuTo////e2pKs8T/Gs/sXjvmRwD/fwKhAAAAABrPY44AACwA///lmQAALAAAAOWZAAAAAOQwY44AAOj///97aoTF6P8AAHtqhMX///9/oHGExcT/Gs/sXoTFxP/kMOxehMX/fwAAPQO/hQ8VyXP/f///x/PraucEMog8+j6D/3///8MRtHXJ9+iE/38AALL1OG49BQZ5VAHGfPoLC4VnAf6AzgHVewIDToICCjaEVgQ9ep8M6Hy6/L6A6Pxfc78ARINs+yyBLQGRhGj9b3WQCml98fr6i//+ZoEG+cF6xfyqfq/9AYPU+zB+PPqoe8f7AopLRf9/S0X/f0tF/39LRf9/S0X/f/9/AAD/fwAA/38AAP9/AAD/fwAA")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_gvqlw")
+
+[node name="extension_cord_floor" type="Node3D" unique_id=404538180]
+
+[node name="Model" parent="." unique_id=249244091 instance=ExtResource("1_hv675")]
+
+[node name="extension_cord_floor" type="MeshInstance3D" parent="Model" unique_id=133831532]
+mesh = SubResource("ArrayMesh_pglsu")
+surface_material_override/0 = ExtResource("2_avj0o")
+
+[node name="Prop" type="Node" parent="." unique_id=1547174119]
+script = ExtResource("3_naxcj")
 prop_id = &"extension_cord_floor"
 inspect_line = &"ch3_insp_cord"
 tags = PackedStringArray()
+
+[editable path="Model"]

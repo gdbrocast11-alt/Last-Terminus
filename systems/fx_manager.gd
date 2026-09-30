@@ -16,6 +16,7 @@ const KINDS := {
 	&"confetti": {"n": 60, "life": 2.5, "v": [2.0, 6.0], "g": 3.0, "s": [0.05, 0.1], "c": Color(1, 1, 1, 1), "spread": 60.0, "tex": "fx_soft", "exp": 0.98, "emit": true},
 	&"fire": {"n": 18, "life": 0.7, "v": [0.5, 1.6], "g": -1.6, "s": [0.25, 0.5], "c": Color(1.0, 0.55, 0.12, 0.9), "spread": 20.0, "tex": "fx_soft", "exp": 0.2, "emit": true},
 	&"debris": {"n": 26, "life": 1.4, "v": [3.0, 9.0], "g": 12.0, "s": [0.04, 0.12], "c": Color(0.45, 0.42, 0.4, 1.0), "spread": 75.0, "tex": "fx_soft", "exp": 0.98, "emit": false},
+	&"pee": {"n": 44, "life": 0.7, "v": [1.3, 2.3], "g": 9.8, "s": [0.02, 0.045], "c": Color(1.0, 0.9, 0.15, 0.95), "spread": 12.0, "tex": "fx_soft", "exp": 0.0, "emit": true},
 	&"leaves": {"n": 18, "life": 3.5, "v": [1.0, 3.0], "g": 1.2, "s": [0.06, 0.12], "c": Color(0.5, 0.65, 0.2, 1.0), "spread": 120.0, "tex": "fx_soft", "exp": 0.7, "emit": false},
 }
 

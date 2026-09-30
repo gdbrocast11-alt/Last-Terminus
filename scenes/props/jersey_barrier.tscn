@@ -1,21 +1,68 @@
-[gd_scene format=3]
+[gd_scene format=4]
 
-[ext_resource type="PackedScene" path="res://props/jersey_barrier.glb" id="1_8x2nt"]
-[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_1vb1u"]
+[ext_resource type="PackedScene" path="res://props/jersey_barrier.glb" id="1_1vb1u"]
+[ext_resource type="Material" path="res://materials/Concrete.tres" id="2_puh80"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="3_gv8uc"]
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_puh80"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0iu74"]
+resource_name = "Concrete"
+cull_mode = 2
+albedo_color = Color(0.86504203, 0.86504203, 0.85430586, 1)
+roughness = 0.75
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_4na2k"]
+_surfaces = [{
+"aabb": AABB(-0.3, 0, -1.2, 0.6, 0.8, 2.4),
+"format": 34896613377,
+"index_count": 60,
+"index_data": PackedByteArray("CAAGAAEACAABAAQAAQAHAAQAAQAGAAcACAAEAAkABwAJAAQAAgAIAAkABgAKAAcAAgAJAAMABgALAAoAAAAIAAIABgAIAAAAAAACAAMABgAAAAsACQAHAAUACQAFAAMABQAHAAoAAAADAAUACwAFAAoACwAAAAUA"),
+"lods": [0.032372646, PackedByteArray("AAABAAIAAgABAAMAAAACAAMAAQAEAAMAAAADAAUABgABAAAABwADAAQAAwAHAAUAAQAHAAQAAAAFAAcAAQAGAAcABgAAAAcA")],
+"name": "Concrete",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 12,
+"vertex_data": PackedByteArray("qar/////AAAAAAAA//8AAFVV/////wAAVVX//wAAAAAAAAAAAAAAAKmq//8AAAAA//8AAP//AAD//wAAAAAAACIi/2///wAAIiL/bwAAAADc3f9vAAAAANzd/2///wAA")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_jq0qs"]
+resource_name = "jersey_barrier_jersey_barrier"
+_surfaces = [{
+"aabb": AABB(-0.3, 0, -1.2, 0.6, 0.8, 2.4),
+"attribute_data": PackedByteArray("qooLw/9fbNtUdQvD/59s2/+fbNtUdQvD/19s26qKC8Oqiv//VHXatqqK2rZUdf//AABs2wAAC8P//2zb//8LwwAAbNv//2zb//8LwwAAC8P/X////5/atv9f2rb/n///iGjC0HaXwtCIaMLQdpfC0P//wtAAAMLQAADC0P//wtD//8LQAADC0AAAwtD//8LQ"),
+"format": 34896613399,
+"index_count": 60,
+"index_data": PackedByteArray("GAADAAEAAwAYAAAAAAAYAAIAAwAAABkABAAaAAYAGgAEAAcABwAEABsAGgAHAAUACAAJAAoACAALAAkADAAcAA4ADAAdABwAHgARAB8AHgAQABEAEwAgABIAEwAhACAAIgAPACMAIgANAA8AFAAVABYAFAAXABUA"),
+"lods": [0.032372646, PackedByteArray("AAABAAIAAwABAAAABAAFAAYABQAEAAcACAAJAAoACAALAAkADAANAA4ADQAPAA4AEAARABIAEwAQABIAFAAVABYAFAAXABUA")],
+"material": SubResource("StandardMaterial3D_0iu74"),
+"name": "Concrete",
+"primitive": 3,
+"uv_scale": Vector4(0.8, 2.8, 0, 0),
+"vertex_count": 36,
+"vertex_data": PackedByteArray("qar/////AIAAAAAA//8AgFVV/////wCA//8AAP//AID//wAAAAAAAFVV//8AAAAAAAAAAAAAAACpqv//AAAAAKmq//////+/VVX//wAA/7+pqv//AAD/v1VV//////+///8AAP//gsCpqv////+vwP//AAAAAILAqar//wAAr8AAAAAA//93BgAAAAAAAHcGVVX//wAAfwdVVf////9/BwAAAAD///8///8AAAAA/z8AAAAAAAD/P///AAD///8/IiL/b///AIDc3f9v//8AgCIi/28AAAAA3N3/bwAAAADc3f9vAACCwNzd/2///4LAIiL/b///dwYiIv9vAAB3BiIi/28AAH8HIiL/b///fwfc3f9v//+vwNzd/28AAK/A/3////9/////f////3///////3////9/////f////3////9/////f////3////9/j5fIC5WaSg2Pl8gLlZpKDSn5lDwp+ZQ8H/gQPB/4EDwAAP9/AAD/fwAA/38AAP9//3////9//3////9//v//f4+XyAuPl8gLKfmUPCn5lDwf+BA8H/gQPJWaSg2VmkoN")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_4na2k")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_5d16n"]
 size = Vector3(0.6, 0.8, 2.4)
 
-[node name="jersey_barrier" type="StaticBody3D" unique_id=1100394059]
+[node name="jersey_barrier" type="StaticBody3D" unique_id=231001278]
 collision_mask = 0
 
-[node name="Model" type="Node3D" parent="." unique_id=1616526853 instance=ExtResource("1_8x2nt")]
+[node name="Model" parent="." unique_id=1616526853 instance=ExtResource("1_1vb1u")]
 
-[node name="Collision" type="CollisionShape3D" parent="." unique_id=1384519766]
+[node name="jersey_barrier" type="MeshInstance3D" parent="Model" unique_id=195940182]
+mesh = SubResource("ArrayMesh_jq0qs")
+surface_material_override/0 = ExtResource("2_puh80")
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=855411981]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4, 0)
-shape = SubResource("BoxShape3D_puh80")
+shape = SubResource("BoxShape3D_5d16n")
 
-[node name="Prop" type="Node" parent="." unique_id=1924053757]
-script = ExtResource("2_1vb1u")
+[node name="Prop" type="Node" parent="." unique_id=2061737298]
+script = ExtResource("3_gv8uc")
 prop_id = &"jersey_barrier"
 tags = PackedStringArray("mantle")
+
+[editable path="Model"]

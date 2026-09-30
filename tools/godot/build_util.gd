@@ -57,10 +57,13 @@ static func _relative_xform(n: Node3D, root: Node3D) -> Transform3D:
 
 
 static func own_recursive(node: Node, owner_node: Node) -> void:
+	## Own every descendant. Nodes that come from an instanced glb are made "editable children" of the
+	## scene being saved so that overrides applied to them (library materials!) survive packing.
 	for c in node.get_children():
 		c.owner = owner_node
-		if c.scene_file_path == "":
-			own_recursive(c, owner_node)
+		if c.scene_file_path != "" and c != owner_node:
+			owner_node.set_editable_instance(c, true)
+		own_recursive(c, owner_node)
 
 
 static func save_scene(root: Node, path: String) -> int:

@@ -1,13 +1,88 @@
-[gd_scene format=3]
+[gd_scene format=4]
 
-[ext_resource type="PackedScene" path="res://props/rug_livingroom.glb" id="1_4rkf7"]
-[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_vck60"]
+[ext_resource type="PackedScene" path="res://props/rug_livingroom.glb" id="1_dmxpn"]
+[ext_resource type="Material" path="res://materials/Rug.tres" id="2_0qxr6"]
+[ext_resource type="Material" path="res://materials/FabricCream.tres" id="3_5ewra"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="4_rsgkf"]
 
-[node name="rug_livingroom" type="Node3D" unique_id=172826140]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_awg0w"]
+resource_name = "Rug"
+cull_mode = 2
+albedo_color = Color(0.76737565, 0.5657284, 0.50638646, 1)
+roughness = 0.95
 
-[node name="Model" type="Node3D" parent="." unique_id=124794736 instance=ExtResource("1_4rkf7")]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_v0n3i"]
+resource_name = "FabricCream"
+cull_mode = 2
+albedo_color = Color(0.9309246, 0.9063318, 0.85430586, 1)
+roughness = 0.95
 
-[node name="Prop" type="Node" parent="." unique_id=777259771]
-script = ExtResource("2_vck60")
+[sub_resource type="ArrayMesh" id="ArrayMesh_xeonx"]
+_surfaces = [{
+"aabb": AABB(-1.3, 0, -0.9, 2.6, 0.015, 1.8),
+"format": 34896613377,
+"index_count": 180,
+"index_data": PackedByteArray("AAABAAIAAAACAAMAAAADAAQAAgAFAAMAAgABAAUAAwAGAAQAAwAFAAYABAAHAAAAAAAHAAEABAAGAAcABgAIAAcACQAHAAgABgAKAAgACAALAAkACAAKAAsADAAJAAsACQAMAAcADQALAAoADQAKAAYADAALAA0ADgANAAYADgAGAA8ABQAPAAYADwAQAA4ADQAOABAADwARABAABQARAA8AEgAQABEAEgARAAUADQAQABIAEwAMAA0AEwANABQAFAANABIAFAAVABMAFQAMABMAFAAWABUAFAASABYAFgAXABUAFQAXAAwAFgASABcAGAASAAUAEgAYABkAEgAZABcAGAAFABoAGgAZABgAAQAaAAUAGgAbABkAAQAbABoAGwAXABkAGwABABcAAQAcABcAFwAcAB0AFwAdAAwAAQAeABwAHgAdABwABwAeAAEADAAdAB8ADAAfAAcAHgAfAB0ABwAfAB4A"),
+"name": "Rug",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 32,
+"vertex_data": PackedByteArray("ZAAAAJEAAABkAENEbf8AAGQAAABt/wAAmv8AAG3/AACa/wAAkQAAAJr/Q0Rt/wAAmv9DRJEAAABkAENEkQAAAGQAREQAAAAAZAC7uwAAAACa/0REAAAAAJr/u7sAAAAAZAC7u5EAAACa/7u7kQAAAP//u7uRAAAA//9DRJEAAAD//7u7bf8AAP//Q0Rt/wAAmv+7u23/AABkAP//kQAAAJr///+RAAAAZAD//23/AACa////bf8AAGQAu7tt/wAAmv+7u///AABkALu7//8AAJr/RET//wAAZABERP//AAAAALu7bf8AAAAAu7uRAAAAAABDRG3/AAAAAENEkQAAAA==")
+}, {
+"aabb": AABB(-1.1, 0, -0.7, 2.2, 0.017, 1.4),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAgABAAMAAAAEAAEAAgADAAUAAAACAAUAAQAGAAMAAQAEAAYABQADAAYABAAAAAcAAAAFAAcABAAHAAYABQAGAAcA"),
+"name": "FabricCream",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAAAAAAD//wAA//8AAP//AAAAAAAA////////AAAAAAAA//8AAP////8AAAAAAAD/////AAAAAP//AAAAAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_jsihw"]
+resource_name = "rug_livingroom_rug_livingroom"
+_surfaces = [{
+"aabb": AABB(-1.3, 0, -0.9, 2.6, 0.015, 1.8),
+"attribute_data": PackedByteArray("N9gjyccn5cjHJyPJN9jlyJzYeMic2OXIN9h4yMcnOcg32DnIxyd4yGIn5chiJ3jIZACGkgAAwP9kAMD/AACGkmQA//+a////mv/A////wP///4aSmv+GkmQASJKa/0iSZADlyAAAeMhkAHjIAADlyJr/OchkADnImv94yP//eMj//+XImv/lyGQAI8ma/yPJZADA/wAAhpJkAIaSAADA/2QASJKa/0iSmv+Gkv//hpL//8D/mv/A/2QA//+a////ZAB4yAAA5chkAOXIAAB4yJr/I8lkACPJmv/lyP//eMj//+XImv94yGQAOcia/znIN9h4yJzY5cg32OXInNh4yMcnI8k32CPJxyflyGIneMhiJ+XIxyd4yDfYOcjHJznIZACGkpr/wP+a/4aSZADA/8cn5cg32HjIxyd4yDfY5cia/+XIZAB4yJr/eMhkAOXImv+GkmQAwP9kAIaSmv/A/2QA5cia/3jIZAB4yJr/5cg32OXIxyd4yDfYeMjHJ+XI"),
+"format": 34896613399,
+"index_count": 180,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAADAAUABAAGAAMABwAGAAgABwAJAAYACgABAAkACgAJAAsADAANAA4ADAAPAA0ADgAQABEADgARABIAEgATABQAEgAUABUAFQAWAAwAFQAXABYAGAAZABoAGAAbABkAHAAaAB0AHAAeABoAHgAfACAAHgAgACEAIgAYACEAIgAhACMAJAAlACYAJAAnACUAJgAoACkAJgApACoAKgArACwAKgAsAC0ALQAuACQALQAvAC4AMAAxADIAMAAzADEANAAyADUANAA2ADIANwA2ADgANwA5ADYAOgAwADkAOgA5ADsAPAA9AD4APAA/AD0AQAA+AEEAQABCAD4AQwBCAEQAQwBFAEIARgA8AEUARgBFAEcASABJAEoASABLAEkATABNAE4ATABPAE0AUABRAFIAUABTAFEAVABVAFYAVABXAFUAWABZAFoAWABbAFkAXABdAF4AXABfAF0A"),
+"material": SubResource("StandardMaterial3D_awg0w"),
+"name": "Rug",
+"primitive": 3,
+"uv_scale": Vector4(2.1666665, 3.5, 0, 0),
+"vertex_count": 96,
+"vertex_data": PackedByteArray("ZAAAAJEAAABkAENEbf8AAGQAAABt/wAAZABDRJEAAABkALu7AAAAAGQAREQAAAAAZAC7u5EAAABkAP//bf8AAGQA//+RAAAAZAC7u23/AABkAERE//8AAGQAu7v//wAAZABDRJEA/z8AAENEbf//P2QAQ0Rt//8/AABDRJEA/z9kAERE////P5r/RET///8/mv9DRG3//z///0NEbf//P///Q0SRAP8/mv9DRJEA/z9kAEREAAD/P5r/REQAAP8/ZABDRG3/AIAAALu7bf8AgGQAu7tt/wCAAABDRG3/AICa////bf8AgGQA//9t/wCAmv+7u23/AID//7u7bf8AgP//Q0Rt/wCAmv9DRG3/AIBkAAAAbf8AgJr/AABt/wCAZAC7u23//78AALu7kQD/v2QAu7uRAP+/AAC7u23//79kALu7AAD/v5r/u7sAAP+/mv+7u5EA/7///7u7kQD/v///u7tt//+/mv+7u23//79kALu7////v5r/u7v///+/ZAC7u5EAAAAAAENEkQAAAGQAQ0SRAAAAAAC7u5EAAACa/wAAkQAAAGQAAACRAAAAmv9DRJEAAAD//7u7kQAAAP//Q0SRAAAAmv+7u5EAAABkAP//kQAAAJr///+RAAAAmv+7u5EA/7+a/0REAAD/v5r/Q0SRAP+/mv+7uwAA/7+a/wAAbf//v5r/AACRAP+/mv9DRG3//7+a/7u7////v5r/RET///+/mv+7u23//7+a////kQD/v5r///9t//+/ZAAAAJEA/z+a/wAAbf//P5r/AACRAP8/ZAAAAG3//z8AAENEbf8AAAAAu7uRAAAAAAC7u23/AAAAAENEkQAAAJr/RET//wCAZAC7u///AICa/7u7//8AgGQARET//wCAmv///5EA/79kAP//bf//v2QA//+RAP+/mv///23//79kAEREAAAAAJr/u7sAAAAAZAC7uwAAAACa/0REAAAAAP//Q0SRAP+///+7u23//7///7u7kQD/v///Q0Rt//+//z//f/8//3//P/9//z//f/8//3//P/9//z//f/8//3//P/9//z//f/8//3//P/9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9//3////9/////f////3////9/////f////3////9/////f////3////9/////f///////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9//38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAAAAD/fwAA/38AAP9/AAD/f/8//3//P/9//z//f/8//3//f////3////9/////f///////f////3////9/////f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA")
+}, {
+"aabb": AABB(-1.1, 0, -0.7, 2.2, 0.017, 1.4),
+"attribute_data": PackedByteArray("AACIiP///////4iIAAD//3PRQ8SLLtDCc9HQwosuQ8QAAEPE///QwgAA0ML//0PEiy5DxHPR0MKLLtDCc9FDxP//iIgAAP//AACIiP///////0PEAADQwv//0MIAAEPE"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA"),
+"material": SubResource("StandardMaterial3D_v0n3i"),
+"name": "FabricCream",
+"primitive": 3,
+"uv_scale": Vector4(2.75, 3.75, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAAAA/z///wAA////P///AAAAAP8/AAAAAP///z///wAAAAD/v/////////+//////wAA/7///wAA////vwAAAAAAAAAA/////wAAAAAAAP//AAAAAP//AAAAAAAAAAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAD/////AAD/vwAA//////+/AAD//wAA/7//////////v///AAD//wCAAAD/////AID///////8AgAAAAAD//wCAAAD/fwAA/38AAP9/AAD/f/9/AAD/fwAA/38AAP9/AAD///9/////f////3////9//z//f/8//3//P/9//z//f////3////9/////f////3//f////3////9/////f///")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_xeonx")
+
+[node name="rug_livingroom" type="Node3D" unique_id=957712260]
+
+[node name="Model" parent="." unique_id=124794736 instance=ExtResource("1_dmxpn")]
+
+[node name="rug_livingroom" type="MeshInstance3D" parent="Model" unique_id=2106734692]
+mesh = SubResource("ArrayMesh_jsihw")
+surface_material_override/0 = ExtResource("2_0qxr6")
+surface_material_override/1 = ExtResource("3_5ewra")
+
+[node name="Prop" type="Node" parent="." unique_id=1919871321]
+script = ExtResource("4_rsgkf")
 prop_id = &"rug_livingroom"
 tags = PackedStringArray()
+
+[editable path="Model"]

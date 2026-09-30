@@ -1772,12 +1772,78 @@
 ],
 "r": [
 0,
-90,
+-90,
 0
 ],
 "opts": {
 "nocol": true
 }
+},
+{
+"scene": "sign_letter_a",
+"name": "SignWordA",
+"p": [
+61.7,
+2.2,
+-2.86
+],
+"r": [
+0,
+90,
+0
+],
+"opts": {
+"nocol": true
+},
+"scale": [
+0.8,
+0.8,
+0.8
+]
+},
+{
+"scene": "sign_letter_word",
+"name": "SignWordEnd",
+"p": [
+61.7,
+2.2,
+0.75
+],
+"r": [
+0,
+90,
+0
+],
+"opts": {
+"nocol": true
+},
+"scale": [
+0.8,
+0.8,
+0.8
+]
+},
+{
+"scene": "sign_letter_b",
+"name": "SignWordB",
+"p": [
+61.7,
+2.2,
+3.62
+],
+"r": [
+0,
+90,
+0
+],
+"opts": {
+"nocol": true
+},
+"scale": [
+0.8,
+0.8,
+0.8
+]
 }
 ],
 "lights": [
@@ -1924,8 +1990,8 @@
 180
 ],
 "SignHit": [
-61.6,
-3.0,
+61.4,
+2.2,
 0.0,
 90
 ],
@@ -1964,7 +2030,8 @@
 80,
 20,
 30
-]
+],
+"interior": false
 }
 ],
 "occluders": [],

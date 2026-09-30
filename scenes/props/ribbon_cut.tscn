@@ -1,13 +1,58 @@
-[gd_scene format=3]
+[gd_scene format=4]
 
-[ext_resource type="PackedScene" path="res://props/ribbon_cut.glb" id="1_5irxg"]
-[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="2_sl0qo"]
+[ext_resource type="PackedScene" path="res://props/ribbon_cut.glb" id="1_sl0qo"]
+[ext_resource type="Material" path="res://materials/FabricRed.tres" id="2_fyocg"]
+[ext_resource type="Script" path="res://scripts/props/prop_component.gd" id="3_pbqe5"]
 
-[node name="ribbon_cut" type="Node3D" unique_id=920513960]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_k3fgy"]
+resource_name = "FabricRed"
+cull_mode = 2
+albedo_color = Color(0.76737565, 0.3491902, 0.3491902, 1)
+roughness = 0.95
 
-[node name="Model" type="Node3D" parent="." unique_id=1658137013 instance=ExtResource("1_5irxg")]
+[sub_resource type="ArrayMesh" id="ArrayMesh_4dao7"]
+_surfaces = [{
+"aabb": AABB(-2, -0.06, -0.005, 4, 0.12, 0.01),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAACAAEAAwAEAAEABQAAAAIAAwAAAAUABAAGAAIABQACAAYAAwAHAAQAAwAFAAcABwAGAAQABwAFAAYA"),
+"name": "FabricRed",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAD/////AAAAAP//AAD//wAA////////AAD//wAAAAAAAA==")
+}]
+blend_shape_mode = 0
 
-[node name="Prop" type="Node" parent="." unique_id=566416790]
-script = ExtResource("2_sl0qo")
+[sub_resource type="ArrayMesh" id="ArrayMesh_thl61"]
+resource_name = "ribbon_cut_ribbon_cut"
+_surfaces = [{
+"aabb": AABB(-2, -0.06, -0.005, 4, 0.12, 0.01),
+"attribute_data": PackedByteArray("rX///1GAIu6tfyLuUYD//wAA/////yLuAAAi7v////9RgP//rX8i7lGAIu6tf////////wAAIu7//yLuAAD//wAAUvb//8/3//9S9gAAz/f//1L2AADP9wAAUvb//8/3"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA"),
+"material": SubResource("StandardMaterial3D_k3fgy"),
+"name": "FabricRed",
+"primitive": 3,
+"uv_scale": Vector4(5, 2.15, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAD//wAAAAD//wAAAAAAAP//AAAAAP+//////////7//////AAD/v///AAD///+///8AAP//AIAAAP////8AgP///////wCAAAAAAP//AIAAAAAAAAD/P///AAD///8///8AAAAA/z8AAAAA////P/////8AAP+/AAD//////78AAP//AAD/v/////////+//z//f/8//3//P/9//z//f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA/3////9/////f////3///wAA/38AAP9/AAD/fwAA/3////9/////f////3////9/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_4dao7")
+
+[node name="ribbon_cut" type="Node3D" unique_id=1039744579]
+
+[node name="Model" parent="." unique_id=1658137013 instance=ExtResource("1_sl0qo")]
+
+[node name="ribbon_cut" type="MeshInstance3D" parent="Model" unique_id=363630947]
+mesh = SubResource("ArrayMesh_thl61")
+surface_material_override/0 = ExtResource("2_fyocg")
+
+[node name="Prop" type="Node" parent="." unique_id=1222119434]
+script = ExtResource("3_pbqe5")
 prop_id = &"ribbon_cut"
 tags = PackedStringArray()
+
+[editable path="Model"]
